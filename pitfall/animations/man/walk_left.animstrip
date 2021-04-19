@@ -1,0 +1,120 @@
+{
+  "Frames": [
+    {
+      "Path": "idle.png",
+      "Duration": 5,
+      "HandleX": -6,
+      "HandleY": -22,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false
+    },
+    {
+      "Path": "walk1.png",
+      "Duration": 5,
+      "HandleX": -6,
+      "HandleY": -22,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false
+    },
+    {
+      "Path": "walk2.png",
+      "Duration": 5,
+      "HandleX": -7,
+      "HandleY": -22,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false
+    },
+    {
+      "Path": "walk1.png",
+      "Duration": 5,
+      "HandleX": -6,
+      "HandleY": -22,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false
+    },
+    {
+      "Path": "idle.png",
+      "Duration": 5,
+      "HandleX": -6,
+      "HandleY": -22,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false
+    },
+    {
+      "Path": "walk3.png",
+      "Duration": 5,
+      "HandleX": -6,
+      "HandleY": -22,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false
+    },
+    {
+      "Path": "walk4.png",
+      "Duration": 5,
+      "HandleX": -7,
+      "HandleY": -22,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false
+    },
+    {
+      "Path": "walk3.png",
+      "Duration": 5,
+      "HandleX": -6,
+      "HandleY": -22,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false
+    }
+  ],
+  "PreventMovement": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "LoopFrame": 0
+}

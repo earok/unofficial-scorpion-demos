@@ -1,0 +1,102 @@
+{
+  "GFXMode": 5,
+  "EmulatedAmiga": "A500+",
+  "EmulatedFastRam": 8,
+  "Talkpad": null,
+  "Talkpad_OnBottom": false,
+  "WinUAEConfiguration": null,
+  "StartupCodeBlock": "startup",
+  "Uses24BitColor": false,
+  "Fire1Jump": false,
+  "Fire2Jump": false,
+  "UpJump": true,
+  "Commands": [
+    {
+      "Key": 49,
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "OnPress": "punch",
+      "OnRelease": null,
+      "CD32Required": false,
+      "DefaultCommand": "punch",
+      "Name": "Z > punch"
+    },
+    {
+      "Key": 50,
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "OnPress": "kick",
+      "OnRelease": null,
+      "CD32Required": false,
+      "DefaultCommand": "kick",
+      "Name": "X > kick"
+    },
+    {
+      "Key": 51,
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "OnPress": "charge",
+      "OnRelease": null,
+      "CD32Required": false,
+      "DefaultCommand": "charge",
+      "Name": "C > charge"
+    },
+    {
+      "Key": 77,
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "OnPress": "crouch",
+      "OnRelease": null,
+      "CD32Required": false,
+      "DefaultCommand": "crouch",
+      "Name": "Down > crouch"
+    }
+  ],
+  "AnimationMetaData": {
+    "ryu_hadouken": {
+      "Divert_OnFinish": ""
+    },
+    "ken_hurt": {
+      "Divert_OnFinish": "reset_ken"
+    },
+    "impact_idle": {
+      "Divert_OnFinish": "destroy_actor"
+    },
+    "hadou_impact": {
+      "Divert_OnFinish": "destroy_actor"
+    }
+  },
+  "Anim5MetaData": {}
+}

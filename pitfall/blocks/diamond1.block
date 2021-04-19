@@ -1,0 +1,18 @@
+{
+  "Divert_PlayerProjectileCollision": null,
+  "IsPlatform": false,
+  "IsSolid": false,
+  "BlockImagePath": "blocks\\block.png",
+  "X": 0,
+  "Y": 112,
+  "Divert_PlayerCollision": "collect_diamond",
+  "Divert_PlayerHit": null,
+  "Divert_PlayerOverlap": null,
+  "Divert_ProjectileCollision": null,
+  "OnAnimationFrame": "diamond2",
+  "ShootOver": false,
+  "FastBlit": false,
+  "IsInvisible": false,
+  "IsSlope": false,
+  "TileID": 17
+}

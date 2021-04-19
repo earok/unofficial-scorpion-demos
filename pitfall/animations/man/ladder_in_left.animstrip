@@ -1,0 +1,24 @@
+{
+  "Frames": [
+    {
+      "Path": "ladder_in.png",
+      "Duration": 10,
+      "HandleX": -6,
+      "HandleY": -22,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    }
+  ],
+  "PreventMovement": true,
+  "PreventCollision": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "LoopFrame": 0
+}

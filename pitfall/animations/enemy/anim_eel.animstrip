@@ -1,0 +1,54 @@
+{
+  "Frames": [
+    {
+      "Path": "eel1.png",
+      "Duration": 5,
+      "HandleX": 1,
+      "HandleY": -4,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "eel2.png",
+      "Duration": 5,
+      "HandleX": 1,
+      "HandleY": -2,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "eel3.png",
+      "Duration": 5,
+      "HandleX": 0,
+      "HandleY": -3,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "LoopFrame": 0
+}

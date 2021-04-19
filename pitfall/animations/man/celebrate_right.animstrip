@@ -1,0 +1,24 @@
+{
+  "Frames": [
+    {
+      "Path": "walk4.png",
+      "Duration": 60,
+      "HandleX": -7,
+      "HandleY": -22,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": ""
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "LoopFrame": 0
+}

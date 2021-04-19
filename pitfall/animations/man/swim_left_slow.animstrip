@@ -1,0 +1,99 @@
+{
+  "Frames": [
+    {
+      "Path": "swim1.png",
+      "Duration": 50,
+      "HandleX": -8,
+      "HandleY": -14,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "swim2.png",
+      "Duration": 50,
+      "HandleX": -8,
+      "HandleY": -14,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "swim3.png",
+      "Duration": 50,
+      "HandleX": -11,
+      "HandleY": -14,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "swim4.png",
+      "Duration": 50,
+      "HandleX": -8,
+      "HandleY": -14,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "swim5.png",
+      "Duration": 50,
+      "HandleX": -8,
+      "HandleY": -14,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "swim6.png",
+      "Duration": 50,
+      "HandleX": -11,
+      "HandleY": -14,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "LoopFrame": 0
+}

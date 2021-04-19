@@ -1,0 +1,17 @@
+{
+  "Divert_PlayerProjectileCollision": null,
+  "IsPlatform": false,
+  "IsSolid": false,
+  "BlockImagePath": "blocks\\block.png",
+  "X": 16,
+  "Y": 16,
+  "Divert_PlayerCollision": null,
+  "Divert_PlayerHit": null,
+  "Divert_PlayerOverlap": "water_rightexit_handler",
+  "Divert_ProjectileCollision": null,
+  "ShootOver": false,
+  "FastBlit": false,
+  "IsInvisible": true,
+  "IsSlope": false,
+  "TileID": 5
+}

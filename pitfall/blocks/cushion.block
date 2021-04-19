@@ -1,0 +1,18 @@
+{
+  "Divert_PlayerProjectileCollision": null,
+  "IsPlatform": false,
+  "IsSolid": false,
+  "BlockImagePath": "blocks\\block.png",
+  "X": 32,
+  "Y": 16,
+  "Divert_PlayerCollision": "cushion_land",
+  "Divert_PlayerHit": null,
+  "Divert_PlayerOverlap": "",
+  "Divert_ProjectileCollision": null,
+  "OnAnimationFrame": null,
+  "ShootOver": false,
+  "FastBlit": false,
+  "IsInvisible": true,
+  "IsSlope": false,
+  "TileID": 23
+}

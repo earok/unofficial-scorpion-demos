@@ -1,0 +1,54 @@
+{
+  "Frames": [
+    {
+      "Path": "fallover.png",
+      "Duration": 20,
+      "HandleX": -7,
+      "HandleY": -18,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "sleep.png",
+      "Duration": 50,
+      "HandleX": -7,
+      "HandleY": -10,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "fallover.png",
+      "Duration": 20,
+      "HandleX": -7,
+      "HandleY": -18,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    }
+  ],
+  "PreventMovement": true,
+  "PreventCollision": true,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "LoopFrame": 0
+}

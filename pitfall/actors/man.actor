@@ -1,0 +1,138 @@
+{
+  "DivertPlayerProjectileCollision": null,
+  "IsPlayerProjectile": false,
+  "ClassType": 2,
+  "DefaultLookDir": 5,
+  "Recycle": -1,
+  "MaxEntities": 0,
+  "NudgeX": 8,
+  "NudgeY": 15,
+  "Idles": {
+    "UpLeft": null,
+    "Up": null,
+    "UpRight": null,
+    "Left": "idle_left",
+    "Right": "idle_right",
+    "DownLeft": null,
+    "Down": null,
+    "DownRight": null
+  },
+  "Moves": {
+    "UpLeft": "jump_left",
+    "Up": null,
+    "UpRight": "jump_right",
+    "Left": "walk_left",
+    "Right": "walk_right",
+    "DownLeft": "fall_left_start",
+    "Down": null,
+    "DownRight": "fall_right_start"
+  },
+  "Attacks": {
+    "UpLeft": null,
+    "Up": null,
+    "UpRight": null,
+    "Left": null,
+    "Right": null,
+    "DownLeft": null,
+    "Down": null,
+    "DownRight": null
+  },
+  "ProjectileOffsets": [
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    }
+  ],
+  "CollBox": {
+    "X": -3,
+    "Y": -17,
+    "Width": 7,
+    "Height": 18
+  },
+  "MoveType": 3,
+  "AttackDelay": 0,
+  "ZOrder": 0,
+  "SpeedLeft": 1.5,
+  "SpeedRight": 1.5,
+  "SpeedUp": 0.0,
+  "SpeedDown": 1.5,
+  "AccelLeft": 1.0,
+  "AccelRight": 1.0,
+  "AccelUp": null,
+  "AccelDown": 1.5,
+  "AccelLeftAir": 0.0,
+  "AccelRightAir": 0.0,
+  "CollType_Left": 0,
+  "CollType_Right": 0,
+  "CollType_Up": 0,
+  "CollType_Down": 0,
+  "Flags": 0,
+  "AttackProjectile": null,
+  "AutoFire": false,
+  "AttackProjectileAmmoVariable": null,
+  "AttackSound": null,
+  "JumpSound": null,
+  "DivertAttack": null,
+  "DivertSpawn": null,
+  "DivertPlayerCollision": null,
+  "DivertPlayerHit": null,
+  "DivertHitAgainstPlayer": null,
+  "DivertProjectileCollision": null,
+  "DivertOutOfScreenLeft": "scroll_left",
+  "DivertOutOfScreenRight": "scroll_right",
+  "DivertOutOfScreenUp": null,
+  "DivertOutOfScreenDown": null,
+  "DivertTimer": "man_handler",
+  "DivertTimerFrames": 0,
+  "TileID": 0
+}

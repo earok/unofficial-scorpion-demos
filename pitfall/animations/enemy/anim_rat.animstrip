@@ -1,0 +1,24 @@
+{
+  "Frames": [
+    {
+      "Path": "rat.png",
+      "Duration": 5,
+      "HandleX": -8,
+      "HandleY": -9,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 47,
+        "Y": -30,
+        "Width": 80,
+        "Height": 54
+      },
+      "HasHitBox": true,
+      "OnFrame": null
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "LoopFrame": 0
+}
