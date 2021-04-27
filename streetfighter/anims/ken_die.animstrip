@@ -1,0 +1,144 @@
+{
+  "Frames": [
+    {
+      "Path": "ken_die_1.png",
+      "Duration": 8,
+      "HandleX": -20,
+      "HandleY": -62,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ken_die_1.png",
+      "Duration": 8,
+      "HandleX": -10,
+      "HandleY": -67,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ken_die_1.png",
+      "Duration": 8,
+      "HandleX": 0,
+      "HandleY": -62,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ken_die_2.png",
+      "Duration": 8,
+      "HandleX": 0,
+      "HandleY": -75,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ken_die_2.png",
+      "Duration": 8,
+      "HandleX": 5,
+      "HandleY": -60,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "ground_impact"
+    },
+    {
+      "Path": "ken_die_3.png",
+      "Duration": 8,
+      "HandleX": -34,
+      "HandleY": -49,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ken_die_4.png",
+      "Duration": 8,
+      "HandleX": -37,
+      "HandleY": -47,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": ""
+    },
+    {
+      "Path": "ken_die_3.png",
+      "Duration": 8,
+      "HandleX": -31,
+      "HandleY": -48,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ken_die_4.png",
+      "Duration": 500,
+      "HandleX": -33,
+      "HandleY": -47,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "ground_impact"
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "LoopFrame": 0
+}
