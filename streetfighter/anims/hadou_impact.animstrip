@@ -1,0 +1,54 @@
+{
+  "Frames": [
+    {
+      "Path": "hado_hit_1.png",
+      "Duration": 2,
+      "HandleX": 28,
+      "HandleY": -22,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "hado_hit_2.png",
+      "Duration": 2,
+      "HandleX": 40,
+      "HandleY": -22,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "hado_hit_3.png",
+      "Duration": 2,
+      "HandleX": 29,
+      "HandleY": -22,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    }
+  ],
+  "PreventMovement": true,
+  "PreventCollision": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "LoopFrame": 0
+}

@@ -1,0 +1,189 @@
+{
+  "Frames": [
+    {
+      "Path": "ryu_win_3.png",
+      "Duration": 8,
+      "HandleX": -18,
+      "HandleY": -47,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ryu_win_4.png",
+      "Duration": 8,
+      "HandleX": -18,
+      "HandleY": -47,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ryu_win_3.png",
+      "Duration": 8,
+      "HandleX": -18,
+      "HandleY": -47,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ryu_win_4.png",
+      "Duration": 8,
+      "HandleX": -18,
+      "HandleY": -47,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ryu_win_3.png",
+      "Duration": 8,
+      "HandleX": -18,
+      "HandleY": -47,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ryu_win_4.png",
+      "Duration": 8,
+      "HandleX": -18,
+      "HandleY": -47,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ryu_win_3.png",
+      "Duration": 8,
+      "HandleX": -18,
+      "HandleY": -47,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ryu_win_4.png",
+      "Duration": 8,
+      "HandleX": -18,
+      "HandleY": -47,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ryu_win_3.png",
+      "Duration": 8,
+      "HandleX": -18,
+      "HandleY": -47,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ryu_win_4.png",
+      "Duration": 8,
+      "HandleX": -18,
+      "HandleY": -47,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ryu_win_3.png",
+      "Duration": 8,
+      "HandleX": -18,
+      "HandleY": -47,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ryu_win_4.png",
+      "Duration": 500,
+      "HandleX": -18,
+      "HandleY": -47,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "LoopFrame": 0
+}
