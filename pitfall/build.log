@@ -1,0 +1,21 @@
+Crunching pitfall_ii.mod as 1.mus. Original size: 7336. Crunched size: 990
+Actor Count: 22
+Actor Data Size: 5720
+Block Count: 23
+Block Data Size: 1196
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 8
+Sound Data Size: 64
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 47
+Animations Data Size: 752
+AnimationFrame Count: 109
+AnimationFrame Data Size: 6976
+Crunching Panel mainpanel as 1.img. Original size: 5786. Crunched size: 476
+Crunching Project graphics as project.gfx. Original size: 39800. Crunched size: 11480
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 6438. Crunched size: 2050
+Crunching Data for map map as 1.map. Original size: 83340. Crunched size: 6862
+Crunching GFX tiles for map map as 1.gfx. Original size: 63840. Crunched size: 18124
+Crunching Project data as project.dat. Original size: 14888. Crunched size: 2856

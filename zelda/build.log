@@ -1,0 +1,30 @@
+Crunching mod_intro.mod as 1.mus. Original size: 17748. Crunched size: 2466
+Actor Count: 8
+Actor Data Size: 2080
+Block Count: 6
+Block Data Size: 312
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 2
+Sound Data Size: 16
+Teleporter Count: 2
+Teleporter Data Size: 16
+Animations Count: 27
+Animations Data Size: 432
+AnimationFrame Count: 108
+AnimationFrame Data Size: 6912
+Crunching Panel hud as 1.img. Original size: 12634. Crunched size: 1126
+Crunching Panel main_menu as 2.img. Original size: 53864. Crunched size: 4186
+Crunching Panel pic_title as 3.img. Original size: 56434. Crunched size: 25254
+Crunching Panel talkpad as 4.img. Original size: 30894. Crunched size: 2782
+Crunching Project graphics as project.gfx. Original size: 55140. Crunched size: 15948
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 3832. Crunched size: 1736
+Crunching Data for map map_bedroom as 1.map. Original size: 12584. Crunched size: 666
+Crunching GFX tiles for map map_bedroom as 1.gfx. Original size: 10560. Crunched size: 4378
+Crunching Data for map map_house_night as 2.map. Original size: 12564. Crunched size: 628
+Crunching GFX tiles for map map_house_night as 2.gfx. Original size: 13120. Crunched size: 5374
+Crunching Data for map map_intro as 3.map. Original size: 18288. Crunched size: 1816
+Crunching GFX tiles for map map_intro as 3.gfx. Original size: 84160. Crunched size: 65114
+Crunching Data for map map_outside as 4.map. Original size: 39056. Crunched size: 3228
+Crunching GFX tiles for map map_outside as 4.gfx. Original size: 32960. Crunched size: 14762
+Crunching Project data as project.dat. Original size: 9852. Crunched size: 1928

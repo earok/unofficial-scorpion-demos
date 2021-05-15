@@ -1,0 +1,25 @@
+Actor Count: 1
+Actor Data Size: 260
+Block Count: 1
+Block Data Size: 52
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 4
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 1
+Animations Data Size: 16
+AnimationFrame Count: 2
+AnimationFrame Data Size: 128
+Crunching Panel panel_talkpad as 1.img. Original size: 50704. Crunched size: 6100
+Crunching Panel pic_title as 2.img. Original size: 56434. Crunched size: 11736
+Crunching Project graphics as project.gfx. Original size: 4. Crunched size: 4
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 25192. Crunched size: 10474
+Crunching Data for map court as 1.map. Original size: 69456. Crunched size: 8512
+Crunching GFX tiles for map court as 1.gfx. Original size: 350080. Crunched size: 167456
+Crunching Data for map intro0 as 2.map. Original size: 26880. Crunched size: 3790
+Crunching GFX tiles for map intro0 as 2.gfx. Original size: 173280. Crunched size: 91290
+Crunching Data for map lobby as 3.map. Original size: 36456. Crunched size: 2598
+Crunching GFX tiles for map lobby as 3.gfx. Original size: 100320. Crunched size: 56918
+Crunching Project data as project.dat. Original size: 568. Crunched size: 112
