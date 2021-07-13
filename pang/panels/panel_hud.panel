@@ -1,0 +1,44 @@
+{
+  "DataVersion": 2,
+  "PanelImagePath": "panels\\hud.png",
+  "FadeInFrames": 5,
+  "FadeOutFrames": 5,
+  "TalkpadFont": null,
+  "TalkpadLineHeight": 8,
+  "TalkpadSpaceWidth": 8,
+  "TalkpadX": 0,
+  "TalkpadY": 0,
+  "TalkpadWidth": 8,
+  "TalkpadHeight": 8,
+  "FireIndicatorPath": null,
+  "ChoiceIndicatorPath": null,
+  "FireIndicatorX": 0,
+  "FireIndicatorY": 0,
+  "Options": [],
+  "Elements": [
+    {
+      "PanelElementType": 1,
+      "Variable": "lives",
+      "X": 29,
+      "Y": 2,
+      "NumberFont": "defaultnumberfont",
+      "BarImage": null,
+      "CounterImage1": "panels\\life_icon.png",
+      "CounterImage2": null,
+      "MaxValue": 5
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "score",
+      "X": 253,
+      "Y": 5,
+      "NumberFont": "defaultnumberfont",
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterImage2": null,
+      "MaxValue": 9999
+    }
+  ],
+  "GFXMode": 5,
+  "PanelOptionSound": null
+}

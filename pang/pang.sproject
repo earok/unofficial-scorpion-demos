@@ -1,0 +1,38 @@
+{
+  "GFXMode": 5,
+  "EmulatedAmiga": "A500+",
+  "EmulatedFastRam": 8,
+  "Talkpad": null,
+  "Talkpad_OnBottom": false,
+  "WinUAEConfiguration": null,
+  "StartupCodeBlock": "startup",
+  "Uses24BitColor": false,
+  "AGAFMode": 0,
+  "Implode": true,
+  "Fire1Jump": false,
+  "Fire2Jump": true,
+  "UpJump": true,
+  "JumpOnHold": false,
+  "Commands": [],
+  "AnimationMetaData": {
+    "red_explo_l": {
+      "Divert_OnFinish": "destroy_actor"
+    },
+    "red_explo_xl": {
+      "Divert_OnFinish": "destroy_actor"
+    },
+    "red_explo_m": {
+      "Divert_OnFinish": "destroy_actor"
+    },
+    "explo_xl": {
+      "Divert_OnFinish": "destroy_actor"
+    },
+    "explo_m": {
+      "Divert_OnFinish": "destroy_actor"
+    },
+    "explo_l": {
+      "Divert_OnFinish": "destroy_actor"
+    }
+  },
+  "Anim5MetaData": {}
+}

@@ -1,0 +1,25 @@
+{
+  "Frames": [
+    {
+      "Path": "player_die_left.png",
+      "Duration": 50,
+      "HandleX": -24,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": true,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "LoopFrame": 0,
+  "LinkedMap": null
+}
