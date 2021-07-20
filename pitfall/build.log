@@ -13,9 +13,9 @@ Animations Count: 47
 Animations Data Size: 752
 AnimationFrame Count: 109
 AnimationFrame Data Size: 6976
-Crunching Panel mainpanel as 1.img. Original size: 5786. Crunched size: 476
-Crunching Project graphics as project.gfx. Original size: 39800. Crunched size: 11480
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 6438. Crunched size: 2050
-Crunching Data for map map as 1.map. Original size: 83340. Crunched size: 6862
-Crunching GFX tiles for map map as 1.gfx. Original size: 63840. Crunched size: 18124
-Crunching Project data as project.dat. Original size: 14888. Crunched size: 2856
+Crunching Panel mainpanel as 1.img. Original size: 4690. Crunched size: 474
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 6450. Crunched size: 2048
+Crunching Data for map map as 1.map. Original size: 83344. Crunched size: 6858
+Crunching Asset bundle 0 as 0.gfx. Original size: 39800. Crunched size: 11480
+Crunching Asset bundle 1 as 1.gfx. Original size: 63840. Crunched size: 18150
+Crunching Project data as project.dat. Original size: 14888. Crunched size: 2868
