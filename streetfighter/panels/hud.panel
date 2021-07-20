@@ -1,4 +1,5 @@
 {
+  "DataVersion": 2,
   "PanelImagePath": "panels\\hud.png",
   "FadeInFrames": 15,
   "FadeOutFrames": 15,
@@ -13,140 +14,31 @@
   "ChoiceIndicatorPath": null,
   "FireIndicatorX": 0,
   "FireIndicatorY": 0,
-  "Options": [
-    {
-      "X": 0,
-      "Y": 0,
-      "OptionIconPath": null
-    },
-    {
-      "X": 0,
-      "Y": 0,
-      "OptionIconPath": null
-    },
-    {
-      "X": 0,
-      "Y": 0,
-      "OptionIconPath": null
-    },
-    {
-      "X": 0,
-      "Y": 0,
-      "OptionIconPath": null
-    },
-    {
-      "X": 0,
-      "Y": 0,
-      "OptionIconPath": null
-    },
-    {
-      "X": 0,
-      "Y": 0,
-      "OptionIconPath": null
-    },
-    {
-      "X": 0,
-      "Y": 0,
-      "OptionIconPath": null
-    },
-    {
-      "X": 0,
-      "Y": 0,
-      "OptionIconPath": null
-    }
-  ],
+  "Options": [],
   "Elements": [
     {
       "PanelElementType": 2,
       "Variable": "p1life",
-      "MaxValue": 100,
       "X": 63,
       "Y": 13,
       "NumberFont": null,
       "BarImage": "panels\\bar.png",
       "CounterImage1": null,
-      "CounterImage2": null
+      "CounterImage2": null,
+      "MaxValue": 100
     },
     {
       "PanelElementType": 2,
       "Variable": "p2life",
-      "MaxValue": 100,
       "X": 167,
       "Y": 13,
       "NumberFont": null,
       "BarImage": "panels\\bar.png",
       "CounterImage1": null,
-      "CounterImage2": null
-    },
-    {
-      "PanelElementType": 0,
-      "Variable": null,
-      "MaxValue": 0,
-      "X": 0,
-      "Y": 0,
-      "NumberFont": null,
-      "BarImage": null,
-      "CounterImage1": null,
-      "CounterImage2": null
-    },
-    {
-      "PanelElementType": 0,
-      "Variable": null,
-      "MaxValue": 0,
-      "X": 0,
-      "Y": 0,
-      "NumberFont": null,
-      "BarImage": null,
-      "CounterImage1": null,
-      "CounterImage2": null
-    },
-    {
-      "PanelElementType": 0,
-      "Variable": null,
-      "MaxValue": 0,
-      "X": 0,
-      "Y": 0,
-      "NumberFont": null,
-      "BarImage": null,
-      "CounterImage1": null,
-      "CounterImage2": null
-    },
-    {
-      "PanelElementType": 0,
-      "Variable": null,
-      "MaxValue": 0,
-      "X": 0,
-      "Y": 0,
-      "NumberFont": null,
-      "BarImage": null,
-      "CounterImage1": null,
-      "CounterImage2": null
-    },
-    {
-      "PanelElementType": 0,
-      "Variable": null,
-      "MaxValue": 0,
-      "X": 0,
-      "Y": 0,
-      "NumberFont": null,
-      "BarImage": null,
-      "CounterImage1": null,
-      "CounterImage2": null
-    },
-    {
-      "PanelElementType": 0,
-      "Variable": null,
-      "MaxValue": 0,
-      "X": 0,
-      "Y": 0,
-      "NumberFont": null,
-      "BarImage": null,
-      "CounterImage1": null,
-      "CounterImage2": null
+      "CounterImage2": null,
+      "MaxValue": 100
     }
   ],
   "GFXMode": 5,
-  "PanelOptionSound": null,
-  "OptionStepX": 0,
-  "OptionStepY": 1
+  "PanelOptionSound": null
 }

@@ -13,18 +13,18 @@ Animations Count: 27
 Animations Data Size: 432
 AnimationFrame Count: 108
 AnimationFrame Data Size: 6912
-Crunching Panel hud as 1.img. Original size: 12634. Crunched size: 1126
-Crunching Panel main_menu as 2.img. Original size: 53864. Crunched size: 4186
-Crunching Panel pic_title as 3.img. Original size: 56434. Crunched size: 25254
-Crunching Panel talkpad as 4.img. Original size: 30894. Crunched size: 2782
-Crunching Project graphics as project.gfx. Original size: 55140. Crunched size: 15948
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 3832. Crunched size: 1736
-Crunching Data for map map_bedroom as 1.map. Original size: 12584. Crunched size: 666
-Crunching GFX tiles for map map_bedroom as 1.gfx. Original size: 10560. Crunched size: 4378
-Crunching Data for map map_house_night as 2.map. Original size: 12564. Crunched size: 628
-Crunching GFX tiles for map map_house_night as 2.gfx. Original size: 13120. Crunched size: 5374
-Crunching Data for map map_intro as 3.map. Original size: 18288. Crunched size: 1816
-Crunching GFX tiles for map map_intro as 3.gfx. Original size: 84160. Crunched size: 65114
-Crunching Data for map map_outside as 4.map. Original size: 39056. Crunched size: 3228
-Crunching GFX tiles for map map_outside as 4.gfx. Original size: 32960. Crunched size: 14762
-Crunching Project data as project.dat. Original size: 9852. Crunched size: 1928
+Crunching Panel hud as 1.img. Original size: 11708. Crunched size: 1126
+Crunching Panel main_menu as 2.img. Original size: 52556. Crunched size: 4196
+Crunching Panel pic_title as 3.img. Original size: 54998. Crunched size: 25238
+Crunching Panel talkpad as 4.img. Original size: 29458. Crunched size: 2762
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 3844. Crunched size: 1736
+Crunching Data for map map_bedroom as 1.map. Original size: 12588. Crunched size: 672
+Crunching Data for map map_house_night as 2.map. Original size: 12568. Crunched size: 632
+Crunching Data for map map_intro as 3.map. Original size: 18292. Crunched size: 1822
+Crunching Data for map map_outside as 4.map. Original size: 39060. Crunched size: 3234
+Crunching Asset bundle 0 as 0.gfx. Original size: 55140. Crunched size: 15948
+Crunching Asset bundle 1 as 1.gfx. Original size: 10560. Crunched size: 4378
+Crunching Asset bundle 2 as 2.gfx. Original size: 13120. Crunched size: 5374
+Crunching Asset bundle 3 as 3.gfx. Original size: 84160. Crunched size: 65114
+Crunching Asset bundle 4 as 4.gfx. Original size: 32960. Crunched size: 14762
+Crunching Project data as project.dat. Original size: 9852. Crunched size: 1938

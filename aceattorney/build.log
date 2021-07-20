@@ -12,14 +12,14 @@ Animations Count: 1
 Animations Data Size: 16
 AnimationFrame Count: 2
 AnimationFrame Data Size: 128
-Crunching Panel panel_talkpad as 1.img. Original size: 50704. Crunched size: 6100
-Crunching Panel pic_title as 2.img. Original size: 56434. Crunched size: 11736
-Crunching Project graphics as project.gfx. Original size: 4. Crunched size: 4
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 25192. Crunched size: 10474
-Crunching Data for map court as 1.map. Original size: 69456. Crunched size: 8512
-Crunching GFX tiles for map court as 1.gfx. Original size: 350080. Crunched size: 167456
-Crunching Data for map intro0 as 2.map. Original size: 26880. Crunched size: 3790
-Crunching GFX tiles for map intro0 as 2.gfx. Original size: 173280. Crunched size: 91290
-Crunching Data for map lobby as 3.map. Original size: 36456. Crunched size: 2598
-Crunching GFX tiles for map lobby as 3.gfx. Original size: 100320. Crunched size: 56918
-Crunching Project data as project.dat. Original size: 568. Crunched size: 112
+Crunching Panel panel_talkpad as 1.img. Original size: 49268. Crunched size: 6080
+Crunching Panel pic_title as 2.img. Original size: 54998. Crunched size: 11724
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 25204. Crunched size: 10472
+Crunching Data for map court as 1.map. Original size: 69460. Crunched size: 8510
+Crunching Data for map intro0 as 2.map. Original size: 26884. Crunched size: 3790
+Crunching Data for map lobby as 3.map. Original size: 36460. Crunched size: 2600
+Crunching Asset bundle 0 as 0.gfx. Original size: 4. Crunched size: 4
+Crunching Asset bundle 1 as 1.gfx. Original size: 350080. Crunched size: 167456
+Crunching Asset bundle 2 as 2.gfx. Original size: 173280. Crunched size: 91290
+Crunching Asset bundle 3 as 3.gfx. Original size: 100320. Crunched size: 56918
+Crunching Project data as project.dat. Original size: 568. Crunched size: 114

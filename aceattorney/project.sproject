@@ -7,10 +7,12 @@
   "WinUAEConfiguration": null,
   "StartupCodeBlock": "startup",
   "Uses24BitColor": true,
-  "UseIndex0ForGraphics": false,
+  "AGAFMode": 0,
+  "Implode": true,
   "Fire1Jump": false,
   "Fire2Jump": false,
   "UpJump": false,
+  "JumpOnHold": false,
   "Commands": [],
   "AnimationMetaData": {},
   "Anim5MetaData": {}

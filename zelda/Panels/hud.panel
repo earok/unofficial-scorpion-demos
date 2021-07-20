@@ -1,4 +1,5 @@
 {
+  "DataVersion": 2,
   "PanelImagePath": "Panels\\hud.png",
   "FadeInFrames": 0,
   "FadeOutFrames": 0,
@@ -13,136 +14,42 @@
   "ChoiceIndicatorPath": null,
   "FireIndicatorX": 0,
   "FireIndicatorY": 0,
-  "Options": [
-    {
-      "X": 0,
-      "Y": 0,
-      "OptionIconPath": null
-    },
-    {
-      "X": 0,
-      "Y": 0,
-      "OptionIconPath": null
-    },
-    {
-      "X": 0,
-      "Y": 0,
-      "OptionIconPath": null
-    },
-    {
-      "X": 0,
-      "Y": 0,
-      "OptionIconPath": null
-    },
-    {
-      "X": 0,
-      "Y": 0,
-      "OptionIconPath": null
-    },
-    {
-      "X": 0,
-      "Y": 0,
-      "OptionIconPath": null
-    },
-    {
-      "X": 0,
-      "Y": 0,
-      "OptionIconPath": null
-    },
-    {
-      "X": 0,
-      "Y": 0,
-      "OptionIconPath": null
-    }
-  ],
+  "Options": [],
   "Elements": [
     {
       "PanelElementType": 0,
       "Variable": "rupee",
-      "MaxValue": 99,
       "X": 103,
       "Y": 8,
       "NumberFont": "default_numberfont",
       "BarImage": "",
       "CounterImage1": null,
-      "CounterImage2": null
+      "CounterImage2": null,
+      "MaxValue": 99
     },
     {
       "PanelElementType": 1,
       "Variable": "max_health",
-      "MaxValue": 6,
       "X": 192,
       "Y": 9,
       "NumberFont": "",
       "BarImage": "",
       "CounterImage1": "Panels\\emptyheart.png",
-      "CounterImage2": "Panels\\emptyheart.png"
+      "CounterImage2": "Panels\\emptyheart.png",
+      "MaxValue": 6
     },
     {
       "PanelElementType": 1,
       "Variable": "health",
-      "MaxValue": 6,
       "X": 192,
       "Y": 9,
       "NumberFont": "",
       "BarImage": "",
       "CounterImage1": "Panels\\halfheart.png",
-      "CounterImage2": "Panels\\fullheart.png"
-    },
-    {
-      "PanelElementType": 2,
-      "Variable": "",
-      "MaxValue": 0,
-      "X": 0,
-      "Y": 0,
-      "NumberFont": null,
-      "BarImage": "",
-      "CounterImage1": null,
-      "CounterImage2": null
-    },
-    {
-      "PanelElementType": 0,
-      "Variable": null,
-      "MaxValue": 0,
-      "X": 0,
-      "Y": 0,
-      "NumberFont": null,
-      "BarImage": "",
-      "CounterImage1": null,
-      "CounterImage2": null
-    },
-    {
-      "PanelElementType": 0,
-      "Variable": null,
-      "MaxValue": 0,
-      "X": 0,
-      "Y": 0,
-      "NumberFont": null,
-      "BarImage": "",
-      "CounterImage1": null,
-      "CounterImage2": null
-    },
-    {
-      "PanelElementType": 0,
-      "Variable": null,
-      "MaxValue": 0,
-      "X": 0,
-      "Y": 0,
-      "NumberFont": null,
-      "BarImage": "",
-      "CounterImage1": null,
-      "CounterImage2": null
-    },
-    {
-      "PanelElementType": 0,
-      "Variable": null,
-      "MaxValue": 0,
-      "X": 0,
-      "Y": 0,
-      "NumberFont": null,
-      "BarImage": "",
-      "CounterImage1": null,
-      "CounterImage2": null
+      "CounterImage2": "Panels\\fullheart.png",
+      "MaxValue": 6
     }
-  ]
+  ],
+  "GFXMode": 5,
+  "PanelOptionSound": null
 }
