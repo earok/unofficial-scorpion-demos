@@ -31,7 +31,7 @@
   ],
   "Commands": [
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
@@ -57,8 +57,8 @@
       "YFloat": null,
       "ActorType": "ladder",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -93,7 +93,7 @@
       "BlockPositionString": "block at Y:block_y * 16 + 24"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -119,8 +119,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -155,7 +155,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -181,8 +181,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -217,7 +217,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -243,8 +243,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -279,7 +279,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -305,8 +305,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -341,7 +341,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -367,8 +367,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -403,7 +403,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Base",
       "BasicOperationType": "Return",
       "DisplayOperationType": "SetPanel",
@@ -429,8 +429,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -465,7 +465,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -491,8 +491,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -527,7 +527,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -553,8 +553,8 @@
       "YFloat": null,
       "ActorType": "ladder",
       "Animation": "ladder_in_left",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -589,7 +589,7 @@
       "BlockPositionString": "block at X:block_x * 16 + 7"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -615,8 +615,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -651,7 +651,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -677,8 +677,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -713,7 +713,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -739,8 +739,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -775,7 +775,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Base",
       "BasicOperationType": "Return",
       "DisplayOperationType": "SetPanel",
@@ -801,8 +801,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -837,7 +837,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -863,8 +863,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -899,7 +899,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -925,8 +925,8 @@
       "YFloat": null,
       "ActorType": "ladder",
       "Animation": "ladder_in_right",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -961,7 +961,7 @@
       "BlockPositionString": "block at X:block_x * 16 + 7"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -987,8 +987,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -1023,7 +1023,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1049,8 +1049,8 @@
       "YFloat": null,
       "ActorType": "ladder",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -1085,7 +1085,7 @@
       "BlockPositionString": "block at block_x * 16 + 7:block_y * 16 + 20"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1111,8 +1111,8 @@
       "YFloat": null,
       "ActorType": "man_static",
       "Animation": "ladder_in_left",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -1147,7 +1147,7 @@
       "BlockPositionString": "block at X:block_x * 16 + 7"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Base",
       "BasicOperationType": "Yield",
       "DisplayOperationType": "SetPanel",
@@ -1173,8 +1173,8 @@
       "YFloat": null,
       "ActorType": "man_static",
       "Animation": "ladder_in_left",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -1209,7 +1209,7 @@
       "BlockPositionString": "block at X:block_x * 16 + 7"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1235,8 +1235,8 @@
       "YFloat": null,
       "ActorType": "ladder",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -1271,7 +1271,7 @@
       "BlockPositionString": "block at block_x * 16 + 7:laddertop_y"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Base",
       "BasicOperationType": "Goto",
       "DisplayOperationType": "SetPanel",
@@ -1297,8 +1297,8 @@
       "YFloat": null,
       "ActorType": "ladder",
       "Animation": "ladder_in_left",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -1333,7 +1333,7 @@
       "BlockPositionString": "block at X:block_x * 16 + 7"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1359,8 +1359,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -1395,7 +1395,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1421,8 +1421,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -1457,7 +1457,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1483,8 +1483,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -1519,7 +1519,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1545,8 +1545,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -1581,7 +1581,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1607,8 +1607,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -1643,7 +1643,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Base",
       "BasicOperationType": "Goto",
       "DisplayOperationType": "SetPanel",
@@ -1669,8 +1669,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -1705,7 +1705,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1731,8 +1731,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -1767,7 +1767,7 @@
       "BlockPositionString": "current block"
     },
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
@@ -1793,8 +1793,8 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -1828,7 +1828,5 @@
       "CameraFollowValue": 0,
       "BlockPositionString": "current block"
     }
-  ],
-  "CodeBlockEndType": 0,
-  "CodeBlockEndLabel": null
+  ]
 }

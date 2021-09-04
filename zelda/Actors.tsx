@@ -26,4 +26,10 @@
       <property name="Name" value="enemy_tentacles" type="string" />
     </properties>
   </tile>
+  <tile id="5" />
+  <tile id="6">
+    <properties>
+      <property name="Name" value="link_sword" type="string" />
+    </properties>
+  </tile>
 </tileset>

@@ -1,5 +1,5 @@
 Actor Count: 11
-Actor Data Size: 2860
+Actor Data Size: 2904
 Block Count: 1
 Block Data Size: 52
 Anim5 Count: 1
@@ -10,13 +10,13 @@ Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 17
 Animations Data Size: 272
-AnimationFrame Count: 40
-AnimationFrame Data Size: 2560
+AnimationFrame Count: 42
+AnimationFrame Data Size: 2688
 Crunching Panel panel_hud as 1.img. Original size: 9858. Crunched size: 748
-Crunching Panel panel_title as 2.img. Original size: 35798. Crunched size: 7540
-Crunching Panel panel_win as 3.img. Original size: 35798. Crunched size: 4818
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 1792. Crunched size: 582
-Crunching Data for map tajmahal as 1.map. Original size: 12664. Crunched size: 970
-Crunching Asset bundle 0 as 0.gfx. Original size: 34000. Crunched size: 12402
+Crunching Panel panel_title as 2.img. Original size: 35798. Crunched size: 7480
+Crunching Panel panel_win as 3.img. Original size: 35798. Crunched size: 4752
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 1838. Crunched size: 578
+Crunching Data for map tajmahal as 1.map. Original size: 13560. Crunched size: 982
+Crunching Asset bundle 0 as 0.gfx. Original size: 34000. Crunched size: 12674
 Crunching Asset bundle 1 as 1.gfx. Original size: 34720. Crunched size: 18442
-Crunching Project data as project.dat. Original size: 5856. Crunched size: 1248
+Crunching Project data as project.dat. Original size: 6036. Crunched size: 1258

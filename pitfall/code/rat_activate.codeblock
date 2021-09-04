@@ -2,14 +2,14 @@
   "Variables": [],
   "Commands": [
     {
-      "DataVersion": 1,
-      "Category": "Base",
+      "DataVersion": 2,
+      "Category": "Actor",
       "BasicOperationType": "SetVariable",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
       "ConditionType": "Condition",
       "LevelOperationType": "LoadLevel",
-      "ActorOperationType": "SetType",
+      "ActorOperationType": "SetDirection",
       "DialogueOperationType": "Speak",
       "Goto": null,
       "Comment": "",
@@ -28,9 +28,9 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
-      "LookDirection": "look_upleft",
+      "PushXPixels": "0",
+      "PushYPixels": "0",
+      "LookDirection": "move_right",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
@@ -63,7 +63,5 @@
       "CameraFollowValue": 0,
       "BlockPositionString": "current block"
     }
-  ],
-  "CodeBlockEndType": 0,
-  "CodeBlockEndLabel": null
+  ]
 }

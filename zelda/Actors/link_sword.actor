@@ -1,9 +1,9 @@
 {
   "DivertPlayerProjectileCollision": null,
   "IsPlayerProjectile": false,
-  "ClassType": 0,
-  "DefaultLookDir": 7,
-  "Recycle": -1,
+  "ClassType": "DefaultClass",
+  "DefaultLookDir": "down",
+  "Recycle": "Default",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 16,
@@ -99,7 +99,7 @@
     "Width": 16,
     "Height": 10
   },
-  "MoveType": 1,
+  "MoveType": "control",
   "AttackDelay": 25,
   "ZOrder": 0,
   "SpeedLeft": 1.5,
@@ -112,10 +112,10 @@
   "AccelDown": null,
   "AccelLeftAir": null,
   "AccelRightAir": null,
-  "CollType_Left": 0,
-  "CollType_Right": 0,
-  "CollType_Up": 0,
-  "CollType_Down": 0,
+  "CollType_Left": "block",
+  "CollType_Right": "block",
+  "CollType_Up": "block",
+  "CollType_Down": "block",
   "Flags": 0,
   "AttackProjectile": null,
   "AutoFire": false,
@@ -123,7 +123,7 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": null,
-  "DivertSpawn": "spawn_link",
+  "DivertSpawn": "",
   "DivertPlayerCollision": null,
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
@@ -134,5 +134,5 @@
   "DivertOutOfScreenDown": null,
   "DivertTimer": null,
   "DivertTimerFrames": 0,
-  "TileID": -1
+  "TileID": 6
 }

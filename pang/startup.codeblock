@@ -24,7 +24,7 @@
   ],
   "Commands": [
     {
-      "DataVersion": 1,
+      "DataVersion": 2,
       "Category": "Base",
       "BasicOperationType": "Goto",
       "DisplayOperationType": "SetPanel",
@@ -50,12 +50,12 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": 0,
-      "PushYPixels": 0,
+      "PushXPixels": "0",
+      "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": 0,
+      "Frames": "0",
       "CameraX": null,
       "CameraY": null,
       "Anim5": "none",
@@ -85,7 +85,5 @@
       "CameraFollowValue": 0,
       "BlockPositionString": "current block"
     }
-  ],
-  "CodeBlockEndType": 0,
-  "CodeBlockEndLabel": null
+  ]
 }
