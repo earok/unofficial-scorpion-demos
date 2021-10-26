@@ -13,7 +13,92 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "Path": "ken_die_1.png",
+      "Duration": 8,
+      "HandleX": -19,
+      "HandleY": -63,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "Path": "ken_die_1.png",
+      "Duration": 8,
+      "HandleX": -18,
+      "HandleY": -64,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "Path": "ken_die_1.png",
+      "Duration": 8,
+      "HandleX": -16,
+      "HandleY": -66,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ken_die_1.png",
@@ -28,12 +113,47 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ken_die_1.png",
       "Duration": 8,
-      "HandleX": 0,
+      "HandleX": -4,
+      "HandleY": -64,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "Path": "ken_die_1.png",
+      "Duration": 8,
+      "HandleX": -2,
       "HandleY": -62,
       "XFlipped": false,
       "HitBox": {
@@ -43,13 +163,23 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
-      "Path": "ken_die_2.png",
+      "Path": "ken_die_1.png",
       "Duration": 8,
-      "HandleX": 0,
-      "HandleY": -75,
+      "HandleX": 2,
+      "HandleY": -59,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -58,7 +188,42 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "Path": "ken_die_2.png",
+      "Duration": 8,
+      "HandleX": 2,
+      "HandleY": -73,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ken_die_2.png",
@@ -73,13 +238,23 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "ground_impact"
+      "OnFrame": "ground_impact",
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ken_die_3.png",
       "Duration": 8,
       "HandleX": -34,
-      "HandleY": -49,
+      "HandleY": -48,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -88,7 +263,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ken_die_4.png",
@@ -103,7 +288,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": ""
+      "OnFrame": "ground_impact",
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ken_die_3.png",
@@ -118,7 +313,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ken_die_4.png",
@@ -133,12 +338,25 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "ground_impact"
+      "OnFrame": "ground_impact",
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
   "AutoSprite": false,
   "OnlySprite": false,
-  "LoopFrame": 0
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 0,
+  "LinkedMap": null
 }

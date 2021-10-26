@@ -3,7 +3,7 @@
     {
       "Path": "hado_1.png",
       "Duration": 5,
-      "HandleX": 4,
+      "HandleX": 33,
       "HandleY": -21,
       "XFlipped": false,
       "HitBox": {
@@ -13,12 +13,22 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "hado_2.png",
       "Duration": 5,
-      "HandleX": 6,
+      "HandleX": 35,
       "HandleY": -21,
       "XFlipped": false,
       "HitBox": {
@@ -28,12 +38,23 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
   "AutoSprite": false,
   "OnlySprite": false,
-  "LoopFrame": 0
+  "LoopFrame": 0,
+  "LinkedMap": null
 }

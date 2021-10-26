@@ -13,7 +13,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ryu_win_4.png",
@@ -28,7 +38,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ryu_win_3.png",
@@ -43,7 +63,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ryu_win_4.png",
@@ -58,7 +88,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ryu_win_3.png",
@@ -73,7 +113,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ryu_win_4.png",
@@ -88,7 +138,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ryu_win_3.png",
@@ -103,7 +163,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ryu_win_4.png",
@@ -118,7 +188,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ryu_win_3.png",
@@ -133,7 +213,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ryu_win_4.png",
@@ -148,7 +238,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ryu_win_3.png",
@@ -163,7 +263,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     },
     {
       "Path": "ryu_win_4.png",
@@ -178,12 +288,25 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     }
   ],
-  "PreventMovement": false,
-  "PreventCollision": false,
+  "PreventMovement": true,
+  "PreventCollision": true,
   "AutoSprite": false,
   "OnlySprite": false,
-  "LoopFrame": 0
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 0,
+  "LinkedMap": null
 }
