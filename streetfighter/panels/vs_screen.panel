@@ -1,8 +1,8 @@
 {
   "DataVersion": 2,
   "PanelImagePath": "panels\\vs.png",
-  "FadeInFrames": 15,
-  "FadeOutFrames": 15,
+  "FadeInFrames": 10,
+  "FadeOutFrames": 10,
   "TalkpadFont": null,
   "TalkpadLineHeight": 8,
   "TalkpadSpaceWidth": 8,
@@ -16,6 +16,6 @@
   "FireIndicatorY": 0,
   "Options": [],
   "Elements": [],
-  "GFXMode": 5,
+  "GFXMode": "BP5",
   "PanelOptionSound": null
 }

@@ -1,9 +1,9 @@
 {
   "DataVersion": 2,
   "PanelImagePath": "panels\\hud.png",
-  "FadeInFrames": 15,
-  "FadeOutFrames": 15,
-  "TalkpadFont": null,
+  "FadeInFrames": 10,
+  "FadeOutFrames": 10,
+  "TalkpadFont": "",
   "TalkpadLineHeight": 8,
   "TalkpadSpaceWidth": 8,
   "TalkpadX": 0,
@@ -37,8 +37,19 @@
       "CounterImage1": null,
       "CounterImage2": null,
       "MaxValue": 100
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "p1score",
+      "X": 76,
+      "Y": 1,
+      "NumberFont": "defaultnumberfont",
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterImage2": null,
+      "MaxValue": 9999
     }
   ],
-  "GFXMode": 5,
+  "GFXMode": "BP4",
   "PanelOptionSound": null
 }
