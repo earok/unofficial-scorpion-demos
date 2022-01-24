@@ -7,17 +7,22 @@
   "WinUAEConfiguration": null,
   "StartupCodeBlock": "startup",
   "Uses24BitColor": false,
-  "AGAFMode": 0,
   "AGARequired": false,
   "SpriteMode": "Mode_0_16_Wide",
   "SpriteColorBank": 1,
+  "FMode": 0,
+  "Width": 256,
+  "XOffset": 32,
   "Implode": true,
   "DoubleSmooth": false,
   "DoubleBlockSpeed": false,
+  "MapCache": false,
   "Fire1Jump": false,
   "Fire2Jump": false,
   "UpJump": true,
   "JumpOnHold": false,
+  "YFillSize": 17,
+  "Add21K": false,
   "DataVersion": 1,
   "Commands": [
     {
@@ -33,10 +38,7 @@
       "CD32Green": false,
       "CD32Yellow": false,
       "OnPress": "punch",
-      "OnRelease": null,
-      "CD32Required": false,
-      "DefaultCommand": "punch",
-      "Name": "Z > punch"
+      "OnRelease": null
     },
     {
       "Key": "X",
@@ -51,10 +53,7 @@
       "CD32Green": false,
       "CD32Yellow": false,
       "OnPress": "kick",
-      "OnRelease": null,
-      "CD32Required": false,
-      "DefaultCommand": "kick",
-      "Name": "X > kick"
+      "OnRelease": null
     },
     {
       "Key": "C",
@@ -69,10 +68,7 @@
       "CD32Green": false,
       "CD32Yellow": false,
       "OnPress": "charge",
-      "OnRelease": null,
-      "CD32Required": false,
-      "DefaultCommand": "charge",
-      "Name": "C > charge"
+      "OnRelease": null
     }
   ],
   "AnimationMetaData": {

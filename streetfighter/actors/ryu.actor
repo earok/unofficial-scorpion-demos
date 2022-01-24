@@ -1,6 +1,5 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
+  "ShootDirType": "actor_direction",
   "ClassType": "Player",
   "DefaultLookDir": "right",
   "Recycle": "Default",
@@ -124,7 +123,7 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": null,
-  "DivertSpawn": "",
+  "DivertSpawn": "ryu_handler",
   "DivertPlayerCollision": null,
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
@@ -133,7 +132,16 @@
   "DivertOutOfScreenRight": "snap_to_screen",
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
-  "DivertTimer": null,
+  "DivertPlatformEdge": null,
+  "DivertTimer": "",
   "DivertTimerFrames": 0,
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
   "TileID": 0
 }

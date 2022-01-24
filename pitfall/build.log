@@ -1,21 +1,65 @@
+=== Image optimisations ===
+Reduce width of animations\enemy\bird3.png by 1 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\enemy\bird3.png by 1 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\enemy\eel1.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\enemy\eel2.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\enemy\eel3.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\enemy\frog3.png by 1 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\enemy\frog3.png by 1 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\enemy\frog2.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\enemy\frog2.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\balloon1b.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\balloon2b.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\balloon3c.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\balloon2b.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\balloon1.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\balloon2.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\balloon3.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\balloon2.png by 5 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim1.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim2.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim3.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim4.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim5.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim6.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim1.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim2.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim3.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim4.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim5.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim6.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim1.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim2.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim3.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim4.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim5.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim6.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim1.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim2.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim3.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim4.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim5.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\man\swim6.png by 7 pixels to 16 to improve blit performance by 200.00%
+
+=== Misc ===
 Crunching pitfall_ii.mod as 1.mus. Original size: 7336. Crunched size: 990
 Actor Count: 22
-Actor Data Size: 5808
+Actor Data Size: 6424
 Block Count: 23
 Block Data Size: 1196
 Anim5 Count: 1
 Anim5 Data Size: 4
 Sound Count: 8
-Sound Data Size: 64
+Sound Data Size: 128
 Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 47
 Animations Data Size: 752
 AnimationFrame Count: 109
-AnimationFrame Data Size: 6976
-Crunching Panel mainpanel as 1.img. Original size: 4690. Crunched size: 474
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 6338. Crunched size: 1962
-Crunching Data for map map as 1.map. Original size: 84240. Crunched size: 6866
-Crunching Asset bundle 0 as 0.gfx. Original size: 41400. Crunched size: 11512
+AnimationFrame Data Size: 7412
+Crunching Panel mainpanel as 1.img. Original size: 4694. Crunched size: 474
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 7318. Crunched size: 2164
+Crunching Data for map map as 1.map. Original size: 84692. Crunched size: 6870
+Crunching Asset bundle 0 as 0.gfx. Original size: 60298. Crunched size: 24094
 Crunching Asset bundle 1 as 1.gfx. Original size: 63680. Crunched size: 18068
-Crunching Project data as project.dat. Original size: 14984. Crunched size: 2912
+Crunching Project data as project.dat. Original size: 18996. Crunched size: 4176

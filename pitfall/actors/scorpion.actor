@@ -1,10 +1,9 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
+  "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
   "Recycle": "Respawn",
-  "MoveType": "cpu_platform",
+  "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 7,
   "NudgeY": 15,
@@ -109,7 +108,7 @@
   "AccelLeft": null,
   "AccelRight": null,
   "AccelUp": null,
-  "AccelDown": null,
+  "AccelDown": 0.0,
   "AccelLeftAir": null,
   "AccelRightAir": null,
   "RotationSpeed": 0.0,
@@ -133,7 +132,16 @@
   "DivertOutOfScreenRight": "offscreen_right",
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
+  "DivertPlatformEdge": null,
   "DivertTimer": "scorpion_handler",
   "DivertTimerFrames": 0,
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
   "TileID": 7
 }

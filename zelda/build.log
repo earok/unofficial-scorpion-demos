@@ -1,30 +1,56 @@
+=== Image optimisations ===
+Reduce width of Sprites\Killpuff\A03.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Killpuff\A04.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_d1.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_d2.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_d4.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_d5.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_l1.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_l2.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_l3.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_l4.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_l5.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_r1.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_r2.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_r3.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_r4.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_r5.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_u1.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_u2.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_u4.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Link\attack_u5.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Spider\A00.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Spider\A01.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of Sprites\Spider\A02.png by 8 pixels to 16 to improve blit performance by 200.00%
+
+=== Misc ===
 Crunching mod_intro.mod as 1.mus. Original size: 17748. Crunched size: 2466
 Actor Count: 8
-Actor Data Size: 2112
+Actor Data Size: 2336
 Block Count: 6
 Block Data Size: 312
 Anim5 Count: 1
 Anim5 Data Size: 4
 Sound Count: 2
-Sound Data Size: 16
+Sound Data Size: 32
 Teleporter Count: 2
 Teleporter Data Size: 16
 Animations Count: 27
 Animations Data Size: 432
 AnimationFrame Count: 108
-AnimationFrame Data Size: 6912
-Crunching Panel hud as 1.img. Original size: 11708. Crunched size: 1126
-Crunching Panel main_menu as 2.img. Original size: 52556. Crunched size: 4196
-Crunching Panel pic_title as 3.img. Original size: 54998. Crunched size: 25238
-Crunching Panel talkpad as 4.img. Original size: 29458. Crunched size: 2762
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 3944. Crunched size: 1728
-Crunching Data for map map_bedroom as 1.map. Original size: 13484. Crunched size: 688
-Crunching Data for map map_house_night as 2.map. Original size: 13464. Crunched size: 646
-Crunching Data for map map_intro as 3.map. Original size: 19188. Crunched size: 1834
-Crunching Data for map map_outside as 4.map. Original size: 39956. Crunched size: 3252
-Crunching Asset bundle 0 as 0.gfx. Original size: 55140. Crunched size: 16558
+AnimationFrame Data Size: 7344
+Crunching Panel hud as 1.img. Original size: 11712. Crunched size: 1126
+Crunching Panel main_menu as 2.img. Original size: 52560. Crunched size: 4196
+Crunching Panel pic_title as 3.img. Original size: 55002. Crunched size: 25238
+Crunching Panel talkpad as 4.img. Original size: 29462. Crunched size: 2762
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 4440. Crunched size: 1904
+Crunching Data for map map_bedroom as 1.map. Original size: 13936. Crunched size: 696
+Crunching Data for map map_house_night as 2.map. Original size: 13916. Crunched size: 654
+Crunching Data for map map_intro as 3.map. Original size: 19640. Crunched size: 1844
+Crunching Data for map map_outside as 4.map. Original size: 40408. Crunched size: 3262
+Crunching Asset bundle 0 as 0.gfx. Original size: 82266. Crunched size: 43282
 Crunching Asset bundle 1 as 1.gfx. Original size: 10560. Crunched size: 4378
 Crunching Asset bundle 2 as 2.gfx. Original size: 13120. Crunched size: 5374
 Crunching Asset bundle 3 as 3.gfx. Original size: 84160. Crunched size: 65114
 Crunching Asset bundle 4 as 4.gfx. Original size: 32960. Crunched size: 14762
-Crunching Project data as project.dat. Original size: 9892. Crunched size: 1930
+Crunching Project data as project.dat. Original size: 13460. Crunched size: 3104

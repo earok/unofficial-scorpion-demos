@@ -1,0 +1,3282 @@
+{
+  "Constants": [
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "true",
+      "DefaultValue": "-1",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "false",
+      "DefaultValue": "0",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "none",
+      "DefaultValue": "0",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "button_none",
+      "DefaultValue": "0",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "button_down",
+      "DefaultValue": "-1",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "button_hit",
+      "DefaultValue": "1",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "lookmask_left",
+      "DefaultValue": "73",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "lookmask_right",
+      "DefaultValue": "292",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "lookmask_up",
+      "DefaultValue": "7",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "lookmask_down",
+      "DefaultValue": "448",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "look_upleft",
+      "DefaultValue": "0",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "look_up",
+      "DefaultValue": "1",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "look_upright",
+      "DefaultValue": "2",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "look_left",
+      "DefaultValue": "3",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "look_center",
+      "DefaultValue": "4",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "look_right",
+      "DefaultValue": "5",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "look_downleft",
+      "DefaultValue": "6",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "look_down",
+      "DefaultValue": "7",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "look_downright",
+      "DefaultValue": "8",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "move_upleft",
+      "DefaultValue": "16",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "move_up",
+      "DefaultValue": "17",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "move_upright",
+      "DefaultValue": "18",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "move_left",
+      "DefaultValue": "19",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "move_center",
+      "DefaultValue": "20",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "move_right",
+      "DefaultValue": "21",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "move_downleft",
+      "DefaultValue": "22",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "move_down",
+      "DefaultValue": "23",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "move_downright",
+      "DefaultValue": "24",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "strafe_upleft",
+      "DefaultValue": "80",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "strafe_up",
+      "DefaultValue": "81",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "strafe_upright",
+      "DefaultValue": "82",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "strafe_left",
+      "DefaultValue": "83",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "strafe_center",
+      "DefaultValue": "84",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "strafe_right",
+      "DefaultValue": "85",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "strafe_downleft",
+      "DefaultValue": "86",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "strafe_down",
+      "DefaultValue": "87",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "strafe_downright",
+      "DefaultValue": "88",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "resume_moving",
+      "DefaultValue": "31",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "stop_moving",
+      "DefaultValue": "20",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "look_atplayer",
+      "DefaultValue": "32",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "move_atplayer",
+      "DefaultValue": "48",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "reset_movement",
+      "DefaultValue": "-1",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "left",
+      "DefaultValue": "1",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "right",
+      "DefaultValue": "2",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "up",
+      "DefaultValue": "4",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "down",
+      "DefaultValue": "8",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "trigger_attackanimation",
+      "DefaultValue": "-1",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "trigger_cancelanimation",
+      "DefaultValue": "-2",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "trigger_attacksound",
+      "DefaultValue": "-1",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "trigger_jumpsound",
+      "DefaultValue": "-2",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "Name": "xres",
+      "DefaultValue": "256",
+      "Index": 0,
+      "MemoryOffset": 0
+    }
+  ],
+  "Variables": [
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_X",
+      "DefaultValue": "0",
+      "Index": 1,
+      "MemoryOffset": 2
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_Shoot",
+      "DefaultValue": "0",
+      "Index": 2,
+      "MemoryOffset": 4
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_Y",
+      "DefaultValue": "0",
+      "Index": 3,
+      "MemoryOffset": 6
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_Spawn",
+      "DefaultValue": "0",
+      "Index": 4,
+      "MemoryOffset": 8
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_XSpeed",
+      "DefaultValue": "0",
+      "Index": 5,
+      "MemoryOffset": 10
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_XPush",
+      "DefaultValue": "0",
+      "Index": 6,
+      "MemoryOffset": 12
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_YSpeed",
+      "DefaultValue": "0",
+      "Index": 7,
+      "MemoryOffset": 14
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_YPush",
+      "DefaultValue": "0",
+      "Index": 8,
+      "MemoryOffset": 16
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_Z",
+      "DefaultValue": "0",
+      "Index": 9,
+      "MemoryOffset": 18
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_Animation",
+      "DefaultValue": "0",
+      "Index": 10,
+      "MemoryOffset": 20
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_LookDir",
+      "DefaultValue": "0",
+      "Index": 11,
+      "MemoryOffset": 22
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_Type",
+      "DefaultValue": "0",
+      "Index": 12,
+      "MemoryOffset": 24
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_Var1",
+      "DefaultValue": "0",
+      "Index": 13,
+      "MemoryOffset": 26
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_Var2",
+      "DefaultValue": "0",
+      "Index": 14,
+      "MemoryOffset": 28
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_Var3",
+      "DefaultValue": "0",
+      "Index": 15,
+      "MemoryOffset": 30
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_Var4",
+      "DefaultValue": "0",
+      "Index": 16,
+      "MemoryOffset": 32
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_Var5",
+      "DefaultValue": "0",
+      "Index": 17,
+      "MemoryOffset": 34
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_Tag",
+      "DefaultValue": "0",
+      "Index": 18,
+      "MemoryOffset": 36
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Player_IsOnPlatform",
+      "DefaultValue": "0",
+      "Index": 19,
+      "MemoryOffset": 38
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_X",
+      "DefaultValue": "0",
+      "Index": 20,
+      "MemoryOffset": 40
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_Shoot",
+      "DefaultValue": "0",
+      "Index": 21,
+      "MemoryOffset": 42
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_Y",
+      "DefaultValue": "0",
+      "Index": 22,
+      "MemoryOffset": 44
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_Spawn",
+      "DefaultValue": "0",
+      "Index": 23,
+      "MemoryOffset": 46
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_XSpeed",
+      "DefaultValue": "0",
+      "Index": 24,
+      "MemoryOffset": 48
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_XPush",
+      "DefaultValue": "0",
+      "Index": 25,
+      "MemoryOffset": 50
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_YSpeed",
+      "DefaultValue": "0",
+      "Index": 26,
+      "MemoryOffset": 52
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_YPush",
+      "DefaultValue": "0",
+      "Index": 27,
+      "MemoryOffset": 54
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_Z",
+      "DefaultValue": "0",
+      "Index": 28,
+      "MemoryOffset": 56
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_Animation",
+      "DefaultValue": "0",
+      "Index": 29,
+      "MemoryOffset": 58
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_LookDir",
+      "DefaultValue": "0",
+      "Index": 30,
+      "MemoryOffset": 60
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_Type",
+      "DefaultValue": "0",
+      "Index": 31,
+      "MemoryOffset": 62
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_Var1",
+      "DefaultValue": "0",
+      "Index": 32,
+      "MemoryOffset": 64
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_Var2",
+      "DefaultValue": "0",
+      "Index": 33,
+      "MemoryOffset": 66
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_Var3",
+      "DefaultValue": "0",
+      "Index": 34,
+      "MemoryOffset": 68
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_Var4",
+      "DefaultValue": "0",
+      "Index": 35,
+      "MemoryOffset": 70
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_Var5",
+      "DefaultValue": "0",
+      "Index": 36,
+      "MemoryOffset": 72
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_Tag",
+      "DefaultValue": "0",
+      "Index": 37,
+      "MemoryOffset": 74
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Actor_IsOnPlatform",
+      "DefaultValue": "0",
+      "Index": 38,
+      "MemoryOffset": 76
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_X",
+      "DefaultValue": "0",
+      "Index": 39,
+      "MemoryOffset": 78
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_Shoot",
+      "DefaultValue": "0",
+      "Index": 40,
+      "MemoryOffset": 80
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_Y",
+      "DefaultValue": "0",
+      "Index": 41,
+      "MemoryOffset": 82
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_Spawn",
+      "DefaultValue": "0",
+      "Index": 42,
+      "MemoryOffset": 84
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_XSpeed",
+      "DefaultValue": "0",
+      "Index": 43,
+      "MemoryOffset": 86
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_XPush",
+      "DefaultValue": "0",
+      "Index": 44,
+      "MemoryOffset": 88
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_YSpeed",
+      "DefaultValue": "0",
+      "Index": 45,
+      "MemoryOffset": 90
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_YPush",
+      "DefaultValue": "0",
+      "Index": 46,
+      "MemoryOffset": 92
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_Z",
+      "DefaultValue": "0",
+      "Index": 47,
+      "MemoryOffset": 94
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_Animation",
+      "DefaultValue": "0",
+      "Index": 48,
+      "MemoryOffset": 96
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_LookDir",
+      "DefaultValue": "0",
+      "Index": 49,
+      "MemoryOffset": 98
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_Type",
+      "DefaultValue": "0",
+      "Index": 50,
+      "MemoryOffset": 100
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_Var1",
+      "DefaultValue": "0",
+      "Index": 51,
+      "MemoryOffset": 102
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_Var2",
+      "DefaultValue": "0",
+      "Index": 52,
+      "MemoryOffset": 104
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_Var3",
+      "DefaultValue": "0",
+      "Index": 53,
+      "MemoryOffset": 106
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_Var4",
+      "DefaultValue": "0",
+      "Index": 54,
+      "MemoryOffset": 108
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_Var5",
+      "DefaultValue": "0",
+      "Index": 55,
+      "MemoryOffset": 110
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_Tag",
+      "DefaultValue": "0",
+      "Index": 56,
+      "MemoryOffset": 112
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Projectile_IsOnPlatform",
+      "DefaultValue": "0",
+      "Index": 57,
+      "MemoryOffset": 114
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_X",
+      "DefaultValue": "0",
+      "Index": 58,
+      "MemoryOffset": 116
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_Shoot",
+      "DefaultValue": "0",
+      "Index": 59,
+      "MemoryOffset": 118
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_Y",
+      "DefaultValue": "0",
+      "Index": 60,
+      "MemoryOffset": 120
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_Spawn",
+      "DefaultValue": "0",
+      "Index": 61,
+      "MemoryOffset": 122
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_XSpeed",
+      "DefaultValue": "0",
+      "Index": 62,
+      "MemoryOffset": 124
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_XPush",
+      "DefaultValue": "0",
+      "Index": 63,
+      "MemoryOffset": 126
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_YSpeed",
+      "DefaultValue": "0",
+      "Index": 64,
+      "MemoryOffset": 128
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_YPush",
+      "DefaultValue": "0",
+      "Index": 65,
+      "MemoryOffset": 130
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_Z",
+      "DefaultValue": "0",
+      "Index": 66,
+      "MemoryOffset": 132
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_Animation",
+      "DefaultValue": "0",
+      "Index": 67,
+      "MemoryOffset": 134
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_LookDir",
+      "DefaultValue": "0",
+      "Index": 68,
+      "MemoryOffset": 136
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_Type",
+      "DefaultValue": "0",
+      "Index": 69,
+      "MemoryOffset": 138
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_Var1",
+      "DefaultValue": "0",
+      "Index": 70,
+      "MemoryOffset": 140
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_Var2",
+      "DefaultValue": "0",
+      "Index": 71,
+      "MemoryOffset": 142
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_Var3",
+      "DefaultValue": "0",
+      "Index": 72,
+      "MemoryOffset": 144
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_Var4",
+      "DefaultValue": "0",
+      "Index": 73,
+      "MemoryOffset": 146
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_Var5",
+      "DefaultValue": "0",
+      "Index": 74,
+      "MemoryOffset": 148
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_Tag",
+      "DefaultValue": "0",
+      "Index": 75,
+      "MemoryOffset": 150
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "New_IsOnPlatform",
+      "DefaultValue": "0",
+      "Index": 76,
+      "MemoryOffset": 152
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Wait",
+      "DefaultValue": "0",
+      "Index": 77,
+      "MemoryOffset": 154
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Camera_X",
+      "DefaultValue": "0",
+      "Index": 78,
+      "MemoryOffset": 156
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Camera_X_Fractional",
+      "DefaultValue": "0",
+      "Index": 79,
+      "MemoryOffset": 158
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Camera_Y",
+      "DefaultValue": "0",
+      "Index": 80,
+      "MemoryOffset": 160
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Camera_Y_Fractional",
+      "DefaultValue": "0",
+      "Index": 81,
+      "MemoryOffset": 162
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Camera_XMin",
+      "DefaultValue": "0",
+      "Index": 82,
+      "MemoryOffset": 164
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Camera_YMin",
+      "DefaultValue": "0",
+      "Index": 83,
+      "MemoryOffset": 166
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Camera_XMax",
+      "DefaultValue": "0",
+      "Index": 84,
+      "MemoryOffset": 168
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Camera_YMax",
+      "DefaultValue": "0",
+      "Index": 85,
+      "MemoryOffset": 170
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Dice",
+      "DefaultValue": "0",
+      "Index": 86,
+      "MemoryOffset": 172
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Level",
+      "DefaultValue": "0",
+      "Index": 87,
+      "MemoryOffset": 174
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Music",
+      "DefaultValue": "0",
+      "Index": 88,
+      "MemoryOffset": 176
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "MusicPos",
+      "DefaultValue": "0",
+      "Index": 89,
+      "MemoryOffset": 178
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Sound",
+      "DefaultValue": "0",
+      "Index": 90,
+      "MemoryOffset": 180
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Anim",
+      "DefaultValue": "0",
+      "Index": 91,
+      "MemoryOffset": 182
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Talkpad_TextDelay",
+      "DefaultValue": "1",
+      "Index": 92,
+      "MemoryOffset": 184
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Panel",
+      "DefaultValue": "0",
+      "Index": 93,
+      "MemoryOffset": 186
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Panel_Top",
+      "DefaultValue": "0",
+      "Index": 94,
+      "MemoryOffset": 188
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Panel_Bottom",
+      "DefaultValue": "0",
+      "Index": 95,
+      "MemoryOffset": 190
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Option",
+      "DefaultValue": "0",
+      "Index": 96,
+      "MemoryOffset": 192
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Block_Type",
+      "DefaultValue": "0",
+      "Index": 97,
+      "MemoryOffset": 194
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Block_Spawn",
+      "DefaultValue": "0",
+      "Index": 98,
+      "MemoryOffset": 196
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Block_X",
+      "DefaultValue": "0",
+      "Index": 99,
+      "MemoryOffset": 198
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Block_Y",
+      "DefaultValue": "0",
+      "Index": 100,
+      "MemoryOffset": 200
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Palette_Pointer",
+      "DefaultValue": "0",
+      "Index": 101,
+      "MemoryOffset": 202
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Palette_Value",
+      "DefaultValue": "0",
+      "Index": 102,
+      "MemoryOffset": 204
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Yield",
+      "DefaultValue": "0",
+      "Index": 103,
+      "MemoryOffset": 206
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Yield_On_Level",
+      "DefaultValue": "0",
+      "Index": 104,
+      "MemoryOffset": 208
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Teleport",
+      "DefaultValue": "0",
+      "Index": 105,
+      "MemoryOffset": 210
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "ForceFadeOut",
+      "DefaultValue": "0",
+      "Index": 106,
+      "MemoryOffset": 212
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Camera_Follow",
+      "DefaultValue": "15",
+      "Index": 107,
+      "MemoryOffset": 214
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Frame_Wait",
+      "DefaultValue": "0",
+      "Index": 108,
+      "MemoryOffset": 216
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Scroll_X",
+      "DefaultValue": "0",
+      "Index": 109,
+      "MemoryOffset": 218
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Scroll_Y",
+      "DefaultValue": "0",
+      "Index": 110,
+      "MemoryOffset": 220
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "MusicVol",
+      "DefaultValue": "64",
+      "Index": 111,
+      "MemoryOffset": 222
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "PaletteSwap",
+      "DefaultValue": "0",
+      "Index": 112,
+      "MemoryOffset": 224
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Stack_Pointer",
+      "DefaultValue": "1023",
+      "Index": 113,
+      "MemoryOffset": 226
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Stack_Value",
+      "DefaultValue": "0",
+      "Index": 114,
+      "MemoryOffset": 228
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "SoundVol",
+      "DefaultValue": "64",
+      "Index": 115,
+      "MemoryOffset": 230
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "AutoFadeMusic",
+      "DefaultValue": "false",
+      "Index": 116,
+      "MemoryOffset": 232
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "FadeTime",
+      "DefaultValue": "24",
+      "Index": 117,
+      "MemoryOffset": 234
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Camera_BoxLeft",
+      "DefaultValue": "0",
+      "Index": 118,
+      "MemoryOffset": 236
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Camera_BoxRight",
+      "DefaultValue": "0",
+      "Index": 119,
+      "MemoryOffset": 238
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Camera_BoxUp",
+      "DefaultValue": "0",
+      "Index": 120,
+      "MemoryOffset": 240
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Camera_BoxDown",
+      "DefaultValue": "0",
+      "Index": 121,
+      "MemoryOffset": 242
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Control1_X",
+      "DefaultValue": "0",
+      "Index": 122,
+      "MemoryOffset": 244
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Control1_Y",
+      "DefaultValue": "0",
+      "Index": 123,
+      "MemoryOffset": 246
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Control1Fire",
+      "DefaultValue": "0",
+      "Index": 124,
+      "MemoryOffset": 248
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Control1Jump",
+      "DefaultValue": "0",
+      "Index": 125,
+      "MemoryOffset": 250
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Control2_X",
+      "DefaultValue": "0",
+      "Index": 126,
+      "MemoryOffset": 252
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Control2_Y",
+      "DefaultValue": "0",
+      "Index": 127,
+      "MemoryOffset": 254
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Control2Fire",
+      "DefaultValue": "0",
+      "Index": 128,
+      "MemoryOffset": 256
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Control2Jump",
+      "DefaultValue": "0",
+      "Index": 129,
+      "MemoryOffset": 258
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Control3_X",
+      "DefaultValue": "0",
+      "Index": 130,
+      "MemoryOffset": 260
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Control3_Y",
+      "DefaultValue": "0",
+      "Index": 131,
+      "MemoryOffset": 262
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Control3Fire",
+      "DefaultValue": "0",
+      "Index": 132,
+      "MemoryOffset": 264
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Control3Jump",
+      "DefaultValue": "0",
+      "Index": 133,
+      "MemoryOffset": 266
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Control4_X",
+      "DefaultValue": "0",
+      "Index": 134,
+      "MemoryOffset": 268
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Control4_Y",
+      "DefaultValue": "0",
+      "Index": 135,
+      "MemoryOffset": 270
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Control4Fire",
+      "DefaultValue": "0",
+      "Index": 136,
+      "MemoryOffset": 272
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Control4Jump",
+      "DefaultValue": "0",
+      "Index": 137,
+      "MemoryOffset": 274
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "PushFrames",
+      "DefaultValue": "0",
+      "Index": 138,
+      "MemoryOffset": 276
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Param",
+      "DefaultValue": "0",
+      "Index": 139,
+      "MemoryOffset": 278
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "IsAGA",
+      "DefaultValue": "0",
+      "Index": 140,
+      "MemoryOffset": 280
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "IsNTSC",
+      "DefaultValue": "0",
+      "Index": 141,
+      "MemoryOffset": 282
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "IsFloppy",
+      "DefaultValue": "0",
+      "Index": 142,
+      "MemoryOffset": 284
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "PlatformSnap",
+      "DefaultValue": "8",
+      "Index": 143,
+      "MemoryOffset": 286
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "EventsToCheck",
+      "DefaultValue": "1",
+      "Index": 144,
+      "MemoryOffset": 288
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Frame_CountDown",
+      "DefaultValue": "0",
+      "Index": 145,
+      "MemoryOffset": 290
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "YRes",
+      "DefaultValue": "224",
+      "Index": 146,
+      "MemoryOffset": 292
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "CameraTargetX",
+      "DefaultValue": "0",
+      "Index": 147,
+      "MemoryOffset": 294
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "CameraTargetY",
+      "DefaultValue": "0",
+      "Index": 148,
+      "MemoryOffset": 296
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "Panel_Gap",
+      "DefaultValue": "4",
+      "Index": 149,
+      "MemoryOffset": 298
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "MapWidth",
+      "DefaultValue": "0",
+      "Index": 150,
+      "MemoryOffset": 300
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "MapHeight",
+      "DefaultValue": "0",
+      "Index": 151,
+      "MemoryOffset": 302
+    },
+    {
+      "CodeBlock": "move_camera_right",
+      "Name": "camera_target",
+      "DefaultValue": "0",
+      "Index": 152,
+      "MemoryOffset": 304
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "rupee",
+      "DefaultValue": "0",
+      "Index": 153,
+      "MemoryOffset": 306
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "has_sword",
+      "DefaultValue": "false",
+      "Index": 154,
+      "MemoryOffset": 308
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "has_shield",
+      "DefaultValue": "false",
+      "Index": 155,
+      "MemoryOffset": 310
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "max_health",
+      "DefaultValue": "6",
+      "Index": 156,
+      "MemoryOffset": 312
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "health",
+      "DefaultValue": "6",
+      "Index": 157,
+      "MemoryOffset": 314
+    }
+  ],
+  "Lines": [
+    {
+      "CodeBlock": "project",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 0,
+      "Description": "GOTO 'STARTUP'"
+    },
+    {
+      "CodeBlock": "debug_dump",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 6,
+      "Description": "DEBUG_DUMP"
+    },
+    {
+      "CodeBlock": "debug_dump",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6,
+      "Description": "DEBUG DUMP"
+    },
+    {
+      "CodeBlock": "debug_dump",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 8,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "destroy_actor",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 10,
+      "Description": "DESTROY_ACTOR"
+    },
+    {
+      "CodeBlock": "destroy_actor",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 10,
+      "Description": "Set 'actor_type' to 'none'"
+    },
+    {
+      "CodeBlock": "destroy_actor",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 16,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "destroy_block",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 18,
+      "Description": "DESTROY_BLOCK"
+    },
+    {
+      "CodeBlock": "destroy_block",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 18,
+      "Description": "Set 'block_type' to 'none'"
+    },
+    {
+      "CodeBlock": "destroy_block",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 24,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "flipscreen",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 26,
+      "Description": "FLIPSCREEN"
+    },
+    {
+      "CodeBlock": "flipscreen",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 26,
+      "Description": "Set 'stack_pointer' to 'stack_pointer - 1'"
+    },
+    {
+      "CodeBlock": "flipscreen",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 40,
+      "Description": "Set 'stack_value' to 'camera_follow'"
+    },
+    {
+      "CodeBlock": "flipscreen",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 50,
+      "Description": "Set 'camera_x' to 'Player_X / XRes * XRes'"
+    },
+    {
+      "CodeBlock": "flipscreen",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 80,
+      "Description": "Set 'camera_y' to 'Player_Y / YRes * YRes'"
+    },
+    {
+      "CodeBlock": "flipscreen",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 114,
+      "Description": "Set 'camera_follow' to 'stack_value'"
+    },
+    {
+      "CodeBlock": "flipscreen",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 124,
+      "Description": "Set 'stack_pointer' to 'stack_pointer + 1'"
+    },
+    {
+      "CodeBlock": "flipscreen",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 138,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 140,
+      "Description": "FLIPSCREEN_SMOOTH"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 140,
+      "Description": "Set 'stack_pointer' to 'stack_pointer - 1'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 154,
+      "Description": "Set 'stack_value' to 'camera_follow'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 164,
+      "Description": "If 'camera_x' LessThan 'Player_X / XRes * XRes' ELSE GOTO 00000238"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 212,
+      "Description": "Set 'camera_x' to 'Camera_X + 4'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 226,
+      "Description": "Set 'wait' to '1'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 232,
+      "Description": "GOTO '00000164'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 238,
+      "Description": "If 'camera_x' GreaterThan 'Player_X / XRes * XRes' ELSE GOTO 00000312"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 286,
+      "Description": "Set 'camera_x' to 'Camera_X - 4'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 300,
+      "Description": "Set 'wait' to '1'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 306,
+      "Description": "GOTO '00000238'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 312,
+      "Description": "If 'camera_y' LessThan 'Player_y / yres * yres' ELSE GOTO 00000390"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 364,
+      "Description": "Set 'camera_y' to 'Camera_Y + 4'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 378,
+      "Description": "Set 'wait' to '1'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 384,
+      "Description": "GOTO '00000312'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 390,
+      "Description": "If 'camera_y' GreaterThan 'Player_y / yres * yres' ELSE GOTO 00000468"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 442,
+      "Description": "Set 'camera_y' to 'Camera_Y - 4'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 456,
+      "Description": "Set 'wait' to '1'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 462,
+      "Description": "GOTO '00000390'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 468,
+      "Description": "Set 'camera_follow' to 'stack_value'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 478,
+      "Description": "Set 'stack_pointer' to 'stack_pointer + 1'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 492,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 494,
+      "Description": "FLIPXMOVE"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 494,
+      "Description": "If 'lookmask_left' BitTest 'actor_lookdir'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 528,
+      "Description": "Set 'actor_lookdir' to 'actor_lookdir + 2'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 552,
+      "Description": "GOTO '00000616'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 558,
+      "Description": "If 'lookmask_right' BitTest 'actor_lookdir' ELSE GOTO 00000616"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 592,
+      "Description": "Set 'actor_lookdir' to 'actor_lookdir - 2'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 616,
+      "Description": "Set 'actor_lookdir' to 'resume_moving'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 622,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "flipxymove",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 624,
+      "Description": "FLIPXYMOVE"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 624,
+      "Description": "If 'lookmask_left' BitTest 'actor_lookdir'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 658,
+      "Description": "Set 'actor_lookdir' to 'actor_lookdir + 2'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 682,
+      "Description": "GOTO '00000746'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 688,
+      "Description": "If 'lookmask_right' BitTest 'actor_lookdir' ELSE GOTO 00000746"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 722,
+      "Description": "Set 'actor_lookdir' to 'actor_lookdir - 2'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 746,
+      "Description": "Set 'actor_lookdir' to 'resume_moving'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 752,
+      "Description": "Set 'actor_lookdir' to 'resume_moving'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 758,
+      "Description": "If 'lookmask_up' BitTest 'actor_lookdir'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 792,
+      "Description": "Set 'actor_lookdir' to 'actor_lookdir + 6'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 816,
+      "Description": "GOTO '00000880'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 822,
+      "Description": "If 'lookmask_down' BitTest 'actor_lookdir' ELSE GOTO 00000880"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 856,
+      "Description": "Set 'actor_lookdir' to 'actor_lookdir - 6'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 880,
+      "Description": "Set 'actor_lookdir' to 'resume_moving'"
+    },
+    {
+      "CodeBlock": "flipxymove",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 886,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 888,
+      "Description": "FLIPYMOVE"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 888,
+      "Description": "Set 'actor_lookdir' to 'resume_moving'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 894,
+      "Description": "If 'lookmask_up' BitTest 'actor_lookdir'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 928,
+      "Description": "Set 'actor_lookdir' to 'actor_lookdir + 6'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 952,
+      "Description": "GOTO '00001016'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 958,
+      "Description": "If 'lookmask_down' BitTest 'actor_lookdir' ELSE GOTO 00001016"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 992,
+      "Description": "Set 'actor_lookdir' to 'actor_lookdir - 6'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 1016,
+      "Description": "Set 'actor_lookdir' to 'resume_moving'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 1022,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "jump_actor",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1024,
+      "Description": "JUMP_ACTOR"
+    },
+    {
+      "CodeBlock": "jump_actor",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1024,
+      "Description": "If 'lookmask_left' BitTest 'actor_lookdir'"
+    },
+    {
+      "CodeBlock": "jump_actor",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1058,
+      "Description": "Set 'actor_lookdir' to 'move_upleft'"
+    },
+    {
+      "CodeBlock": "jump_actor",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1064,
+      "Description": "GOTO '00001076'"
+    },
+    {
+      "CodeBlock": "jump_actor",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1070,
+      "Description": "Set 'actor_lookdir' to 'move_upright'"
+    },
+    {
+      "CodeBlock": "jump_actor",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1076,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "quit",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1078,
+      "Description": "QUIT"
+    },
+    {
+      "CodeBlock": "quit",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1078,
+      "Description": "QUIT"
+    },
+    {
+      "CodeBlock": "quit",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1080,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "return",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1082,
+      "Description": "RETURN"
+    },
+    {
+      "CodeBlock": "return",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1082,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "return",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1084,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1086,
+      "Description": "SNAP_TO_SCREEN"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1086,
+      "Description": "If 'actor_x' LessThanOrEqual 'camera_x' ELSE GOTO 00001140"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1130,
+      "Description": "Set 'actor_x' to 'camera_x'"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1140,
+      "Description": "If 'actor_x' GreaterThanOrEqual 'camera_x + XRes' ELSE GOTO 00001202"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1188,
+      "Description": "Set 'actor_x' to 'camera_x  + XRes'"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 1202,
+      "Description": "If 'actor_y' LessThanOrEqual 'camera_y' ELSE GOTO 00001256"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 1246,
+      "Description": "Set 'actor_y' to 'camera_y'"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 1256,
+      "Description": "If 'actor_y' GreaterThanOrEqual 'camera_y + yres' ELSE GOTO 00001318"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 1304,
+      "Description": "Set 'actor_y' to 'camera_y + yres'"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 1318,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1320,
+      "Description": "VM_CONSTANTS"
+    },
+    {
+      "CodeBlock": "vm_constants",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1320,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1322,
+      "Description": "VM_REGISTERS"
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1322,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "configure_level",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1324,
+      "Description": "CONFIGURE_LEVEL"
+    },
+    {
+      "CodeBlock": "configure_level",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1324,
+      "Description": "Set 'camera_follow' to '15'"
+    },
+    {
+      "CodeBlock": "configure_level",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1330,
+      "Description": "Set 'panel_top' to 'hud'"
+    },
+    {
+      "CodeBlock": "configure_level",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1336,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1338,
+      "Description": "GAMEMENU"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1338,
+      "Description": "Set 'panel_bottom' to 'none'"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1344,
+      "Description": "Set 'has_shield' to 'false'"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1350,
+      "Description": "Set 'has_sword' to 'false'"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1356,
+      "Description": "Set 'rupee' to '0'"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1362,
+      "Description": "Set 'panel' to 'main_menu'"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1368,
+      "Description": "Set 'wait' to '0'"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1374,
+      "Description": "Set 'panel' to '0'"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 1380,
+      "Description": "If 'option' Equals '0' ELSE GOTO 00001410"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 1404,
+      "Description": "GOTO 'PART1'"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 1410,
+      "Description": "If 'option' Equals '1' ELSE GOTO 00001440"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 1434,
+      "Description": "GOTO 'PART2'"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 1440,
+      "Description": "If 'option' Equals '2' ELSE GOTO 00001476"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 1464,
+      "Description": "Set 'has_shield' to 'true'"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 1470,
+      "Description": "GOTO 'PART3'"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 1476,
+      "Description": "If 'option' Equals '3' ELSE GOTO 00001502"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 1500,
+      "Description": "QUIT"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 1502,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "move_camera_right",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1504,
+      "Description": "MOVE_CAMERA_RIGHT"
+    },
+    {
+      "CodeBlock": "move_camera_right",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1504,
+      "Description": "Set 'camera_target' to 'camera_x + 256'"
+    },
+    {
+      "CodeBlock": "move_camera_right",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1518,
+      "Description": "If 'camera_x' LessThan 'camera_target' ELSE GOTO 00001572"
+    },
+    {
+      "CodeBlock": "move_camera_right",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1546,
+      "Description": "Set 'wait' to '1'"
+    },
+    {
+      "CodeBlock": "move_camera_right",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1552,
+      "Description": "Set 'camera_x' to 'Camera_X + 2'"
+    },
+    {
+      "CodeBlock": "move_camera_right",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1566,
+      "Description": "GOTO '00001518'"
+    },
+    {
+      "CodeBlock": "move_camera_right",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 1572,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "move_camera_right",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 1574,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_bush_hit",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1576,
+      "Description": "ON_BUSH_HIT"
+    },
+    {
+      "CodeBlock": "on_bush_hit",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1576,
+      "Description": "Set 'block_type' to 'none'"
+    },
+    {
+      "CodeBlock": "on_bush_hit",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1582,
+      "Description": "Set 'dice' to '2'"
+    },
+    {
+      "CodeBlock": "on_bush_hit",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1588,
+      "Description": "If 'dice' Equals '2' ELSE GOTO 00001618"
+    },
+    {
+      "CodeBlock": "on_bush_hit",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1612,
+      "Description": "Set 'block_type' to 'rupee1'"
+    },
+    {
+      "CodeBlock": "on_bush_hit",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1618,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_enter_house",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1620,
+      "Description": "ON_ENTER_HOUSE"
+    },
+    {
+      "CodeBlock": "on_enter_house",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1620,
+      "Description": "Set 'teleport' to 'housedoor'"
+    },
+    {
+      "CodeBlock": "on_enter_house",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1626,
+      "Description": "Set 'block_x' to '15'"
+    },
+    {
+      "CodeBlock": "on_enter_house",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1632,
+      "Description": "Set 'block_y' to '10'"
+    },
+    {
+      "CodeBlock": "on_enter_house",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1638,
+      "Description": "Set 'block_type' to 'chest_empty'"
+    },
+    {
+      "CodeBlock": "on_enter_house",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1644,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_exit_house",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1646,
+      "Description": "ON_EXIT_HOUSE"
+    },
+    {
+      "CodeBlock": "on_exit_house",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1646,
+      "Description": "If 'has_shield' Equals 'false' ELSE GOTO 00001714"
+    },
+    {
+      "CodeBlock": "on_exit_house",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1670,
+      "Description": "Say 'Don't go anywhere without your shield'"
+    },
+    {
+      "CodeBlock": "on_exit_house",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1712,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_exit_house",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1714,
+      "Description": "GOTO 'PART3'"
+    },
+    {
+      "CodeBlock": "on_exit_house",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 1720,
+      "Description": "GOTO 'PART3'"
+    },
+    {
+      "CodeBlock": "on_exit_house",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 1726,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_killpuff_over",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1728,
+      "Description": "ON_KILLPUFF_OVER"
+    },
+    {
+      "CodeBlock": "on_killpuff_over",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1728,
+      "Description": "Set 'block_x' to 'Actor_X / 16'"
+    },
+    {
+      "CodeBlock": "on_killpuff_over",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1756,
+      "Description": "Set 'block_y' to 'Actor_Y / 16'"
+    },
+    {
+      "CodeBlock": "on_killpuff_over",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1784,
+      "Description": "Set 'block_type' to 'rupee1'"
+    },
+    {
+      "CodeBlock": "on_killpuff_over",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1790,
+      "Description": "Set 'actor_type' to 'none'"
+    },
+    {
+      "CodeBlock": "on_killpuff_over",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1796,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1798,
+      "Description": "ON_PICKUPSWORD_COLLISION"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1798,
+      "Description": "Set 'actor_type' to 'none'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1804,
+      "Description": "Set 'player_animation' to 'link_pickup_sword'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1810,
+      "Description": "Set 'sound' to 'snd_happy'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1816,
+      "Description": "Set 'has_sword' to 'true'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1822,
+      "Description": "Say 'You found a sword!!!<br><br>You can now fight monsters.'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 1876,
+      "Description": "Set 'player_type' to 'link_sword'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 1882,
+      "Description": "Set 'player_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 1888,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1890,
+      "Description": "ON_PLAYERCOLLIDE_ENEMIES"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1890,
+      "Description": "Set 'health' to 'health - 1'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1904,
+      "Description": "If 'health' Equals '0' ELSE GOTO 00001950"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1928,
+      "Description": "Set 'level' to 'level'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1938,
+      "Description": "Set 'health' to 'max_health'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1948,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 1950,
+      "Description": "If 'actor_lookdir' Equals 'look_left' ELSE GOTO 00002002"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 1984,
+      "Description": "Set 'pushframes' to '3'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 1990,
+      "Description": "Set 'player_xpush' to '-12'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 2000,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 2002,
+      "Description": "If 'actor_lookdir' Equals 'look_right' ELSE GOTO 00002050"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 2036,
+      "Description": "Set 'pushframes' to '3'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 2042,
+      "Description": "Set 'player_xpush' to '12'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 2048,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 2050,
+      "Description": "If 'actor_lookdir' Equals 'look_up' ELSE GOTO 00002102"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 2084,
+      "Description": "Set 'pushframes' to '3'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 2090,
+      "Description": "Set 'player_ypush' to '-12'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 2100,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 2102,
+      "Description": "If 'actor_lookdir' Equals 'look_down' ELSE GOTO 00002150"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 2136,
+      "Description": "Set 'pushframes' to '3'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 2142,
+      "Description": "Set 'player_ypush' to '12'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 2148,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 2150,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 2152,
+      "Description": "ON_PLAYERHIT_ENEMIES"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 2152,
+      "Description": "Set 'actor_var1' to 'actor_var1 + 1'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 2176,
+      "Description": "If 'actor_type' Equals 'enemy_tentacles' ELSE GOTO 00002224"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 2210,
+      "Description": "Set 'actor_type' to 'killpuff'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 2216,
+      "Description": "Set 'actor_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 2222,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2224,
+      "Description": "If 'actor_type' Equals 'enemy_spider' ELSE GOTO 00002306"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 2258,
+      "Description": "If 'actor_var1' GreaterThan '1' ELSE GOTO 00002306"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 2292,
+      "Description": "Set 'actor_type' to 'killpuff'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 2298,
+      "Description": "Set 'actor_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2304,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 2306,
+      "Description": "If 'player_lookdir' Equals 'look_left' ELSE GOTO 00002356"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 2340,
+      "Description": "Set 'pushframes' to '8'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 2346,
+      "Description": "Set 'actor_xpush' to '-32'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 2356,
+      "Description": "If 'player_lookdir' Equals 'look_right' ELSE GOTO 00002402"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 2390,
+      "Description": "Set 'pushframes' to '8'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 2396,
+      "Description": "Set 'actor_xpush' to '32'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 2402,
+      "Description": "If 'player_lookdir' Equals 'look_up' ELSE GOTO 00002452"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 2436,
+      "Description": "Set 'pushframes' to '8'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 2442,
+      "Description": "Set 'actor_ypush' to '-32'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 2452,
+      "Description": "If 'player_lookdir' Equals 'look_down' ELSE GOTO 00002498"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 2486,
+      "Description": "Set 'pushframes' to '8'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 2492,
+      "Description": "Set 'actor_ypush' to '32'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 2498,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_rupee_collision",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 2500,
+      "Description": "ON_RUPEE_COLLISION"
+    },
+    {
+      "CodeBlock": "on_rupee_collision",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 2500,
+      "Description": "Set 'block_type' to 'none'"
+    },
+    {
+      "CodeBlock": "on_rupee_collision",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 2506,
+      "Description": "Set 'rupee' to 'rupee + 1'"
+    },
+    {
+      "CodeBlock": "on_rupee_collision",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 2520,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 2522,
+      "Description": "ON_SHIELDCHEST_COLLISION"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 2522,
+      "Description": "Set 'block_type' to 'chest_empty'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 2528,
+      "Description": "Set 'has_shield' to 'true'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 2534,
+      "Description": "Set 'sound' to 'snd_happy'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 2540,
+      "Description": "Set 'player_animation' to 'link_pickup_shield'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 2546,
+      "Description": "Say 'You found a shield!!!<br><br>Your defence rises by one point.'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 2606,
+      "Description": "Set 'player_type' to 'link_shield'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 2612,
+      "Description": "Set 'player_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 2618,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "on_signpost",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 2620,
+      "Description": "ON_SIGNPOST"
+    },
+    {
+      "CodeBlock": "on_signpost",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 2620,
+      "Description": "Say 'N: Link's Home<br>W: Hyrule Field<br>E: Forest Temple'"
+    },
+    {
+      "CodeBlock": "on_signpost",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 2672,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 2674,
+      "Description": "PART1"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 2674,
+      "Description": "Set 'music' to 'mod_intro'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 2680,
+      "Description": "Set 'level' to 'map_intro'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 2686,
+      "Description": "Set 'wait' to '50'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 2692,
+      "Description": "Say 'The Kingdom of Hyrule has been in peace since Link, the last knight of Hyrule, had defeated the malicious Ganon and reclaimed the precious triforce from him.'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 2854,
+      "Description": "GOSUB TO 'MOVE_CAMERA_RIGHT'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 2860,
+      "Description": "Say 'Nobody knows what Link's wish to the triforce was, but it had the effect of reunifying the Light and Dark world, and awakening the 7 wise men's descendants.'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 3022,
+      "Description": "GOSUB TO 'MOVE_CAMERA_RIGHT'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 3028,
+      "Description": "Say 'Next, Link handed the Triforce and Master Sword over to Princess Zelda, and people started to believe that peace would last.<5><br>But the people were wrong<3>.<3>.<3>.'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 3190,
+      "Description": "GOSUB TO 'MOVE_CAMERA_RIGHT'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 3196,
+      "Description": "Say 'Unfortunately, Link's wish also had negative effects. Ganon and his henchmen were resurrected and got ready to attack.'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 3320,
+      "Description": "GOSUB TO 'MOVE_CAMERA_RIGHT'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 3326,
+      "Description": "Say 'Somewhere in Hyrule Forest, Link is sleeping without suspecting that Ganon has already moved into attack.<br><5>Until<3>.<3>.<3>.'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 3450,
+      "Description": "Set 'music' to 'none'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 3456,
+      "Description": "Set 'level' to 'map_house_night'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 3462,
+      "Description": "Set 'camera_x' to '320 - 256'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 3476,
+      "Description": "Set 'camera_y' to '256 - 212'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 3490,
+      "Description": "Set 'wait' to '50'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 3496,
+      "Description": "PART1CAMERALOOP"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 3496,
+      "Description": "If 'camera_x' GreaterThan '0' ELSE GOTO 00003534"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 3520,
+      "Description": "Set 'camera_x' to 'Camera_X - 1'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 3534,
+      "Description": "If 'camera_y' GreaterThan '0' ELSE GOTO 00003572"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 3558,
+      "Description": "Set 'camera_y' to 'Camera_Y - 1'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 3572,
+      "Description": "If 'camera_x + camera_y' GreaterThan '0' ELSE GOTO 00003612"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 3600,
+      "Description": "Set 'wait' to '1'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 3606,
+      "Description": "GOTO 'PART1CAMERALOOP'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 3612,
+      "Description": "Say 'Help me!<5><br>Help me!<5><br>It's me,<2> Zelda!<3><br>I'm talking to you by telepathy.'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 3688,
+      "Description": "Say 'I am a prisoner in the dungeon of the castle!'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 30,
+      "MemoryOffset": 3738,
+      "Description": "Say 'I need your help!'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 31,
+      "MemoryOffset": 3760,
+      "Description": "Say 'Ganon is back, and he surely has already found the Triforce<3>.<3>.<3>.'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 3830,
+      "Description": "Say 'Come quickly to the castle Link, you are my only hope<3>.<3>.<3>.'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 3894,
+      "Description": "Set 'wait' to '50'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 34,
+      "MemoryOffset": 3900,
+      "Description": "GOTO 'PART2'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 34,
+      "MemoryOffset": 3906,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "part2",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 3908,
+      "Description": "PART2"
+    },
+    {
+      "CodeBlock": "part2",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3908,
+      "Description": "Set 'level' to 'map_bedroom'"
+    },
+    {
+      "CodeBlock": "part2",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3914,
+      "Description": "GOTO 'CONFIGURE_LEVEL'"
+    },
+    {
+      "CodeBlock": "part2",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 3920,
+      "Description": "GOTO 'CONFIGURE_LEVEL'"
+    },
+    {
+      "CodeBlock": "part2",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 3926,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "part3",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 3928,
+      "Description": "PART3"
+    },
+    {
+      "CodeBlock": "part3",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3928,
+      "Description": "Set 'level' to 'map_outside'"
+    },
+    {
+      "CodeBlock": "part3",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3934,
+      "Description": "GOTO 'CONFIGURE_LEVEL'"
+    },
+    {
+      "CodeBlock": "part3",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3940,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 3942,
+      "Description": "SPAWN_LINK"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3942,
+      "Description": "Set 'player_type' to 'link_sword'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3948,
+      "Description": "Set 'player_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3954,
+      "Description": "If 'has_sword' NotZero 'true' ELSE GOTO 00003980"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 3978,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 3980,
+      "Description": "If 'has_shield' NotZero 'true' ELSE GOTO 00004016"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 4004,
+      "Description": "Set 'player_type' to 'link_shield'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 4010,
+      "Description": "Set 'player_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 4016,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "spawn_pickup_sword",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 4018,
+      "Description": "SPAWN_PICKUP_SWORD"
+    },
+    {
+      "CodeBlock": "spawn_pickup_sword",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4018,
+      "Description": "If 'player_type' Equals 'Link_Sword' ELSE GOTO 00004058"
+    },
+    {
+      "CodeBlock": "spawn_pickup_sword",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 4052,
+      "Description": "Set 'actor_type' to 'none'"
+    },
+    {
+      "CodeBlock": "spawn_pickup_sword",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 4058,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 4060,
+      "Description": "STARTUP"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4060,
+      "Description": "Set 'camera_boxleft' to '16'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4066,
+      "Description": "Set 'camera_boxright' to '16'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4072,
+      "Description": "Set 'camera_boxup' to '16'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4078,
+      "Description": "Set 'camera_boxdown' to '16'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4084,
+      "Description": "Set 'music' to 'mod_intro'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 4090,
+      "Description": "Set 'panel' to 'pic_title'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 4096,
+      "Description": "Set 'wait' to '0'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 4102,
+      "Description": "Set 'panel' to '0'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 4108,
+      "Description": "Set 'music' to 'none'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 4114,
+      "Description": "GOTO 'GAMEMENU'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 4120,
+      "Description": "RETURN TO GAME OR GOSUB"
+    }
+  ],
+  "Levels": {
+    "0": "No level loaded",
+    "1": "map_bedroom",
+    "2": "map_house_night",
+    "3": "map_intro",
+    "4": "map_outside"
+  },
+  "Music": {
+    "0": "No music loaded",
+    "1": "mod_intro"
+  },
+  "Panels": {
+    "0": "No panels displayed",
+    "1": "hud",
+    "2": "main_menu",
+    "3": "pic_title",
+    "4": "talkpad"
+  },
+  "Actors": {
+    "0": "Destroyed actor",
+    "1": "enemy_spider",
+    "2": "enemy_tentacles",
+    "3": "killpuff",
+    "4": "link",
+    "5": "link_shield",
+    "6": "link_sword",
+    "7": "pickup_sword"
+  },
+  "Sounds": {
+    "0": "No sound played",
+    "1": "snd_happy"
+  },
+  "Animations": {
+    "1": "collectables_sword",
+    "2": "killpuff_a",
+    "3": "link_attack_d",
+    "4": "link_attack_l",
+    "5": "link_attack_r",
+    "6": "link_attack_u",
+    "7": "link_idle_d",
+    "8": "link_idle_l",
+    "9": "link_idle_r",
+    "10": "link_idle_sd",
+    "11": "link_idle_sl",
+    "12": "link_idle_sr",
+    "13": "link_idle_su",
+    "14": "link_idle_u",
+    "15": "link_pickup_shield",
+    "16": "link_pickup_sword",
+    "17": "link_walk_d",
+    "18": "link_walk_l",
+    "19": "link_walk_r",
+    "20": "link_walk_sd",
+    "21": "link_walk_sl",
+    "22": "link_walk_sr",
+    "23": "link_walk_su",
+    "24": "link_walk_u",
+    "25": "spider_a",
+    "26": "tentacles_a"
+  }
+}

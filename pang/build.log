@@ -1,22 +1,49 @@
+=== Image optimisations ===
+Reduce width of anims\red_explo_1.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\red_explo_2.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\red_explo_xl_1.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\red_explo_xl_2.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\player_die_left.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\player_die_left.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\player_shoot_right_1.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_shoot_right_2.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_shoot_right_1.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_shoot_right_1.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_shoot_right_2.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_shoot_right_1.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_walk_right_2.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_walk_right_5.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_walk_right_2.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_walk_right_5.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_walk_right_1.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_walk_right_2.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_walk_right_2.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_walk_right_4.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_walk_right_1.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_walk_right_2.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_walk_right_2.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\player_walk_right_4.png by 12 pixels to 16 to improve blit performance by 200.00%
+
+=== Misc ===
 Actor Count: 11
-Actor Data Size: 2904
+Actor Data Size: 3212
 Block Count: 1
 Block Data Size: 52
 Anim5 Count: 1
 Anim5 Data Size: 4
 Sound Count: 4
-Sound Data Size: 32
+Sound Data Size: 64
 Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 17
 Animations Data Size: 272
 AnimationFrame Count: 42
-AnimationFrame Data Size: 2688
-Crunching Panel panel_hud as 1.img. Original size: 9858. Crunched size: 748
-Crunching Panel panel_title as 2.img. Original size: 35798. Crunched size: 7480
-Crunching Panel panel_win as 3.img. Original size: 35798. Crunched size: 4752
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 1838. Crunched size: 578
-Crunching Data for map tajmahal as 1.map. Original size: 14652. Crunched size: 996
-Crunching Asset bundle 0 as 0.gfx. Original size: 34000. Crunched size: 12674
+AnimationFrame Data Size: 2856
+Crunching Panel panel_hud as 1.img. Original size: 9862. Crunched size: 750
+Crunching Panel panel_title as 2.img. Original size: 35802. Crunched size: 7480
+Crunching Panel panel_win as 3.img. Original size: 35802. Crunched size: 4754
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 2290. Crunched size: 742
+Crunching Data for map tajmahal as 1.map. Original size: 15104. Crunched size: 1002
+Crunching Asset bundle 0 as 0.gfx. Original size: 47598. Crunched size: 23474
 Crunching Asset bundle 1 as 1.gfx. Original size: 34720. Crunched size: 18442
-Crunching Project data as project.dat. Original size: 6036. Crunched size: 1258
+Crunching Project data as project.dat. Original size: 9440. Crunched size: 2402

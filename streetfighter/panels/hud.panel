@@ -3,6 +3,8 @@
   "PanelImagePath": "panels\\hud.png",
   "FadeInFrames": 10,
   "FadeOutFrames": 10,
+  "FadeInMusic": false,
+  "FadeOutMusic": false,
   "TalkpadFont": "",
   "TalkpadLineHeight": 8,
   "TalkpadSpaceWidth": 8,
@@ -51,5 +53,7 @@
     }
   ],
   "GFXMode": "BP4",
-  "PanelOptionSound": null
+  "PanelOptionSound": null,
+  "CenterAdjust": 0,
+  "OverlapsGameView": false
 }

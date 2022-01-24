@@ -1,6 +1,5 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
+  "ShootDirType": "actor_direction",
   "ClassType": "Player",
   "DefaultLookDir": "right",
   "Recycle": "Default",
@@ -133,7 +132,16 @@
   "DivertOutOfScreenRight": "scroll_right",
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
+  "DivertPlatformEdge": null,
   "DivertTimer": "man_handler",
   "DivertTimerFrames": 0,
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
   "TileID": 0
 }

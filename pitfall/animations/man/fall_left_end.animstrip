@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "idle.png",
-      "Duration": 0,
+      "Duration": 1,
       "HandleX": -6,
       "HandleY": -22,
       "XFlipped": true,
@@ -13,12 +13,26 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": ""
+      "OnFrame": "fall_ended",
+      "Bitplanes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
+  "HideChildren": false,
   "AutoSprite": false,
   "OnlySprite": false,
-  "LoopFrame": 0
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 0,
+  "LinkedMap": null
 }
