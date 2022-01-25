@@ -74,23 +74,26 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 200,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -101,10 +104,7 @@
       "Sound": "none",
       "Music": "pitfall_ii",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -136,23 +136,26 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 192,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -163,10 +166,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -198,23 +198,26 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": "player_x / 256 * 256",
       "CameraY": "",
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 16
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "16"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": true,
       "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -225,10 +228,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 12,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -260,23 +260,26 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "mainpanel",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": "player_x / 256 * 256",
       "CameraY": "",
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": true,
       "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -287,10 +290,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 12,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -322,23 +322,26 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -349,10 +352,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -384,23 +384,26 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -411,10 +414,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -446,23 +446,26 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -473,10 +476,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -508,23 +508,26 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -535,10 +538,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -570,23 +570,26 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -597,10 +600,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -632,23 +632,26 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -659,10 +662,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -694,23 +694,26 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -721,10 +724,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -756,23 +756,26 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": null,
       "CameraY": null,
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": false,
       "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -783,10 +786,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 0,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -818,23 +818,26 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": "player_x / 256 * 256",
       "CameraY": "",
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": true,
       "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -845,10 +848,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 12,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     },
     {
       "DataVersion": 2,
@@ -880,23 +880,26 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": "player_x / 256 * 256",
       "CameraY": "",
-      "Anim5": "none",
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
       "CameraFollowRight": false,
       "CameraFollowUp": true,
       "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
       "ColorIndex": 0,
       "Color": {
         "r": 0,
@@ -907,10 +910,7 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1,
-      "IsInError": false,
-      "CameraFollowValue": 12,
-      "BlockPositionString": "current block"
+      "SpeakDelay": 1
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
+  "ShootDirType": "actor_direction",
   "ClassType": "Player",
   "DefaultLookDir": "right",
   "Recycle": "Default",
+  "MoveType": "cpu_platform",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 15,
@@ -11,8 +11,8 @@
     "UpLeft": null,
     "Up": null,
     "UpRight": null,
-    "Left": "idle_left",
-    "Right": "idle_right",
+    "Left": "jump_left",
+    "Right": "jump_right",
     "DownLeft": null,
     "Down": null,
     "DownRight": null
@@ -21,8 +21,8 @@
     "UpLeft": "jump_left",
     "Up": null,
     "UpRight": "jump_right",
-    "Left": "walk_left",
-    "Right": "walk_right",
+    "Left": "jump_left",
+    "Right": "jump_right",
     "DownLeft": "jump_left",
     "Down": null,
     "DownRight": "jump_right"
@@ -99,7 +99,6 @@
     "Width": 7,
     "Height": 18
   },
-  "MoveType": "cpu_platform",
   "AttackDelay": 0,
   "ZOrder": 0,
   "SpeedLeft": 1.5,
@@ -112,6 +111,7 @@
   "AccelDown": 0.15,
   "AccelLeftAir": 0.0,
   "AccelRightAir": 0.0,
+  "RotationSpeed": 0.0,
   "CollType_Left": "block",
   "CollType_Right": "block",
   "CollType_Up": "none",
@@ -132,7 +132,16 @@
   "DivertOutOfScreenRight": "scroll_right",
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
+  "DivertPlatformEdge": null,
   "DivertTimer": "forcejump_end",
   "DivertTimerFrames": 999,
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
   "TileID": -1
 }

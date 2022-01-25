@@ -68,10 +68,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -130,10 +130,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -192,10 +192,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -254,10 +254,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -316,10 +316,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -378,10 +378,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -440,10 +440,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -502,10 +502,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -564,10 +564,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -626,10 +626,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -688,10 +688,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -750,10 +750,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -812,10 +812,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -874,10 +874,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -936,10 +936,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -998,10 +998,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -1060,10 +1060,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -1122,10 +1122,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -1184,10 +1184,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -1246,10 +1246,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -1308,10 +1308,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -1370,10 +1370,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -1432,10 +1432,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -1494,10 +1494,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -1534,7 +1534,7 @@
       "Expression": "true",
       "Label": null,
       "DiceSides": 2,
-      "Disabled": false,
+      "Disabled": true,
       "Comparison": "Equals",
       "Level": "none",
       "NewBlock": "none",
@@ -1556,10 +1556,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -1618,10 +1618,72 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": 224,
+      "CameraFollowLeft": false,
+      "CameraFollowRight": false,
+      "CameraFollowUp": false,
+      "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "ColorIndex": 0,
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "none",
+      "Music": "none",
+      "MusicPos": "0",
+      "SpeakDelay": 1
+    },
+    {
+      "DataVersion": 2,
+      "Category": "Conditional",
+      "BasicOperationType": "CommentOnly",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "Condition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "Goto": null,
+      "Comment": "",
+      "Variable": "player_type",
+      "Expression": "man_ladder",
+      "Label": null,
+      "DiceSides": 2,
+      "Disabled": false,
+      "Comparison": "Equals",
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": null,
+      "YPosition": null,
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "0",
+      "PushYPixels": "0",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": null,
+      "CameraY": null,
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -1680,10 +1742,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -1742,10 +1804,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,
@@ -1804,10 +1866,72 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": 224,
+      "CameraFollowLeft": false,
+      "CameraFollowRight": false,
+      "CameraFollowUp": false,
+      "CameraFollowDown": false,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "ColorIndex": 0,
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "none",
+      "Music": "none",
+      "MusicPos": "0",
+      "SpeakDelay": 1
+    },
+    {
+      "DataVersion": 2,
+      "Category": "Conditional",
+      "BasicOperationType": "CommentOnly",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "EndCondition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "Goto": null,
+      "Comment": "",
+      "Variable": "player_y",
+      "Expression": "laddertop_y",
+      "Label": null,
+      "DiceSides": 2,
+      "Disabled": true,
+      "Comparison": "LessThanOrEqual",
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": null,
+      "YPosition": null,
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "0",
+      "PushYPixels": "0",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": null,
+      "CameraY": null,
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 224,
       "CameraFollowLeft": false,

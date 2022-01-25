@@ -1,6 +1,5 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
+  "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
   "DefaultLookDir": "right",
   "Recycle": "Respawn",
@@ -129,11 +128,20 @@
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": null,
-  "DivertOutOfScreenLeft": "",
-  "DivertOutOfScreenRight": "",
-  "DivertOutOfScreenUp": "",
-  "DivertOutOfScreenDown": "",
+  "DivertOutOfScreenLeft": "destroy_actor",
+  "DivertOutOfScreenRight": "destroy_actor",
+  "DivertOutOfScreenUp": "destroy_actor",
+  "DivertOutOfScreenDown": "destroy_actor",
+  "DivertPlatformEdge": null,
   "DivertTimer": "",
   "DivertTimerFrames": 0,
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
   "TileID": 6
 }

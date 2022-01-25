@@ -1,10 +1,9 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
+  "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
   "DefaultLookDir": "downright",
   "Recycle": "Trash",
-  "MoveType": "cpu",
+  "MoveType": "cpu_wave",
   "MaxEntities": 0,
   "NudgeX": 7,
   "NudgeY": 28,
@@ -130,10 +129,19 @@
   "DivertHitAgainstPlayer": null,
   "DivertProjectileCollision": null,
   "DivertOutOfScreenLeft": null,
-  "DivertOutOfScreenRight": "wrap_right",
+  "DivertOutOfScreenRight": "",
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
+  "DivertPlatformEdge": null,
   "DivertTimer": "",
   "DivertTimerFrames": 0,
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
   "TileID": 9
 }

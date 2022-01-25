@@ -363,6 +363,13 @@
       "DefaultValue": "2",
       "Index": 0,
       "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "balloon_handler",
+      "Name": "balloonlimit",
+      "DefaultValue": "24",
+      "Index": 0,
+      "MemoryOffset": 0
     }
   ],
   "Variables": [
@@ -1438,109 +1445,116 @@
       "MemoryOffset": 306
     },
     {
-      "CodeBlock": "function_subtractscore",
-      "Name": "score_subtract",
+      "CodeBlock": "balloon_handler",
+      "Name": "balloonpos",
       "DefaultValue": "0",
       "Index": 154,
       "MemoryOffset": 308
     },
     {
-      "CodeBlock": "key_handler",
-      "Name": "key_x",
+      "CodeBlock": "function_subtractscore",
+      "Name": "score_subtract",
       "DefaultValue": "0",
       "Index": 155,
       "MemoryOffset": 310
     },
     {
       "CodeBlock": "key_handler",
-      "Name": "key_y",
+      "Name": "key_x",
       "DefaultValue": "0",
       "Index": 156,
       "MemoryOffset": 312
     },
     {
-      "CodeBlock": "ladder_top_handler",
-      "Name": "destx",
+      "CodeBlock": "key_handler",
+      "Name": "key_y",
       "DefaultValue": "0",
       "Index": 157,
       "MemoryOffset": 314
     },
     {
       "CodeBlock": "ladder_top_handler",
-      "Name": "desty",
+      "Name": "destx",
       "DefaultValue": "0",
       "Index": 158,
       "MemoryOffset": 316
     },
     {
       "CodeBlock": "ladder_top_handler",
-      "Name": "laddertop_y",
+      "Name": "desty",
       "DefaultValue": "0",
       "Index": 159,
       "MemoryOffset": 318
     },
     {
       "CodeBlock": "ladder_top_handler",
-      "Name": "cangetoffladder",
-      "DefaultValue": "false",
+      "Name": "laddertop_y",
+      "DefaultValue": "0",
       "Index": 160,
       "MemoryOffset": 320
     },
     {
-      "CodeBlock": "scroll_left",
-      "Name": "IsScrolling",
+      "CodeBlock": "ladder_top_handler",
+      "Name": "cangetoffladder",
       "DefaultValue": "false",
       "Index": 161,
       "MemoryOffset": 322
     },
     {
-      "CodeBlock": "set_fall",
-      "Name": "fall_y",
-      "DefaultValue": "0",
+      "CodeBlock": "scroll_left",
+      "Name": "IsScrolling",
+      "DefaultValue": "false",
       "Index": 162,
       "MemoryOffset": 324
     },
     {
-      "CodeBlock": "startup",
-      "Name": "score_high",
+      "CodeBlock": "set_fall",
+      "Name": "fall_y",
       "DefaultValue": "0",
       "Index": 163,
       "MemoryOffset": 326
     },
     {
       "CodeBlock": "startup",
-      "Name": "score_low",
+      "Name": "score_high",
       "DefaultValue": "0",
       "Index": 164,
       "MemoryOffset": 328
     },
     {
       "CodeBlock": "startup",
-      "Name": "has_caverat",
-      "DefaultValue": "false",
+      "Name": "score_low",
+      "DefaultValue": "0",
       "Index": 165,
       "MemoryOffset": 330
     },
     {
       "CodeBlock": "startup",
-      "Name": "has_diamond",
+      "Name": "has_caverat",
       "DefaultValue": "false",
       "Index": 166,
       "MemoryOffset": 332
     },
     {
       "CodeBlock": "startup",
-      "Name": "has_rhonda",
+      "Name": "has_diamond",
       "DefaultValue": "false",
       "Index": 167,
       "MemoryOffset": 334
     },
     {
       "CodeBlock": "startup",
-      "Name": "has_quickclaw",
+      "Name": "has_rhonda",
       "DefaultValue": "false",
       "Index": 168,
       "MemoryOffset": 336
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "has_quickclaw",
+      "DefaultValue": "false",
+      "Index": 169,
+      "MemoryOffset": 338
     }
   ],
   "Lines": [
@@ -2346,2646 +2360,2718 @@
       "CodeBlock": "balloon_handler",
       "CodeBlockLine": 1,
       "MemoryOffset": 1828,
-      "Description": "If 'control1_y' GreaterThan '0' ELSE GOTO 00001892"
+      "Description": "Set 'balloonpos' to 'player_x - camera_x'"
     },
     {
       "CodeBlock": "balloon_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1852,
-      "Description": "Set 'ballooncheck' to '1 - ballooncheck'"
+      "MemoryOffset": 1858,
+      "Description": "If 'balloonpos' LessThanOrEqual 'balloonlimit'"
     },
     {
       "CodeBlock": "balloon_handler",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1866,
-      "Description": "If 'ballooncheck' GreaterThan '0' ELSE GOTO 00001892"
+      "MemoryOffset": 1882,
+      "Description": "Set 'player_x' to 'camera_x + balloonlimit'"
     },
     {
       "CodeBlock": "balloon_handler",
       "CodeBlockLine": 4,
-      "MemoryOffset": 1890,
+      "MemoryOffset": 1896,
+      "Description": "GOTO '00001952'"
+    },
+    {
+      "CodeBlock": "balloon_handler",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1902,
+      "Description": "If 'balloonpos' GreaterThanOrEqual '256 - balloonlimit' ELSE GOTO 00001952"
+    },
+    {
+      "CodeBlock": "balloon_handler",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1934,
+      "Description": "Set 'player_x' to 'camera_x + 256 - balloonlimit'"
+    },
+    {
+      "CodeBlock": "balloon_handler",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 1952,
+      "Description": "If 'control1_y' GreaterThan '0' ELSE GOTO 00002016"
+    },
+    {
+      "CodeBlock": "balloon_handler",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 1976,
+      "Description": "Set 'ballooncheck' to '1 - ballooncheck'"
+    },
+    {
+      "CodeBlock": "balloon_handler",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 1990,
+      "Description": "If 'ballooncheck' GreaterThan '0' ELSE GOTO 00002016"
+    },
+    {
+      "CodeBlock": "balloon_handler",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2014,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "balloon_handler",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 1892,
+      "CodeBlockLine": 13,
+      "MemoryOffset": 2016,
       "Description": "Set 'player_y' to 'player_y - 1'"
     },
     {
       "CodeBlock": "balloon_handler",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 1922,
+      "CodeBlockLine": 13,
+      "MemoryOffset": 2046,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "balloon_pop",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1924,
+      "MemoryOffset": 2048,
       "Description": "BALLOON_POP"
     },
     {
       "CodeBlock": "balloon_pop",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1924,
-      "Description": "If 'player_type' Equals 'man_balloon' ELSE GOTO 00001988"
+      "MemoryOffset": 2048,
+      "Description": "If 'player_type' Equals 'man_balloon' ELSE GOTO 00002112"
     },
     {
       "CodeBlock": "balloon_pop",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1958,
+      "MemoryOffset": 2082,
       "Description": "Set 'sound' to 'pop'"
     },
     {
       "CodeBlock": "balloon_pop",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1964,
+      "MemoryOffset": 2088,
       "Description": "Set 'player_type' to 'man_falling'"
     },
     {
       "CodeBlock": "balloon_pop",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1970,
+      "MemoryOffset": 2094,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "balloon_pop",
       "CodeBlockLine": 4,
-      "MemoryOffset": 1976,
+      "MemoryOffset": 2100,
       "Description": "Set 'player_xspeed' to '0'"
     },
     {
       "CodeBlock": "balloon_pop",
       "CodeBlockLine": 5,
-      "MemoryOffset": 1982,
+      "MemoryOffset": 2106,
       "Description": "Set 'player_yspeed' to '1'"
     },
     {
       "CodeBlock": "balloon_pop",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 1988,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2112,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "balloon_spawn",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1990,
+      "MemoryOffset": 2114,
       "Description": "BALLOON_SPAWN"
     },
     {
       "CodeBlock": "balloon_spawn",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1990,
-      "Description": "If 'actor_y' GreaterThan 'player_y' ELSE GOTO 00002052"
+      "MemoryOffset": 2114,
+      "Description": "If 'player_type' Equals 'man_balloon' ELSE GOTO 00002154"
     },
     {
       "CodeBlock": "balloon_spawn",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2050,
-      "Description": "RETURN TO GAME OR GOSUB"
+      "MemoryOffset": 2148,
+      "Description": "GOTO 'BALLOON_SPAWN_REPEAT'"
     },
     {
       "CodeBlock": "balloon_spawn",
       "CodeBlockLine": 4,
-      "MemoryOffset": 2052,
-      "Description": "If 'actor_y' LessThan 'player_y - 64' ELSE GOTO 00002118"
+      "MemoryOffset": 2154,
+      "Description": "If 'actor_y' GreaterThan 'player_y' ELSE GOTO 00002220"
     },
     {
       "CodeBlock": "balloon_spawn",
       "CodeBlockLine": 5,
-      "MemoryOffset": 2116,
-      "Description": "RETURN TO GAME OR GOSUB"
+      "MemoryOffset": 2214,
+      "Description": "GOTO 'BALLOON_SPAWN_REPEAT'"
     },
     {
       "CodeBlock": "balloon_spawn",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2118,
-      "Description": "Set 'actor_x' to 'actor_x - 128'"
+      "MemoryOffset": 2220,
+      "Description": "If 'actor_y' LessThan 'player_y - 64' ELSE GOTO 00002290"
     },
     {
       "CodeBlock": "balloon_spawn",
       "CodeBlockLine": 8,
-      "MemoryOffset": 2148,
+      "MemoryOffset": 2284,
+      "Description": "GOTO 'BALLOON_SPAWN_REPEAT'"
+    },
+    {
+      "CodeBlock": "balloon_spawn",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2290,
       "Description": "Set 'actor_spawn' to 'balloon'"
     },
     {
       "CodeBlock": "balloon_spawn",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 2154,
-      "Description": "Set 'actor_x' to 'actor_x + 128'"
+      "CodeBlockLine": 11,
+      "MemoryOffset": 2296,
+      "Description": "Set 'new_x' to 'new_x - 128'"
     },
     {
       "CodeBlock": "balloon_spawn",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 2184,
+      "CodeBlockLine": 12,
+      "MemoryOffset": 2326,
+      "Description": "GOTO 'BALLOON_SPAWN_REPEAT'"
+    },
+    {
+      "CodeBlock": "balloon_spawn",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 2332,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "balloon_spawn_repeat",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 2334,
+      "Description": "BALLOON_SPAWN_REPEAT"
+    },
+    {
+      "CodeBlock": "balloon_spawn_repeat",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 2334,
+      "Description": "Set 'yield' to '200'"
+    },
+    {
+      "CodeBlock": "balloon_spawn_repeat",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 2340,
+      "Description": "GOTO 'BALLOON_SPAWN'"
+    },
+    {
+      "CodeBlock": "balloon_spawn_repeat",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 2346,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "bird_leaveleft",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2186,
+      "MemoryOffset": 2348,
       "Description": "BIRD_LEAVELEFT"
     },
     {
       "CodeBlock": "bird_leaveleft",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2186,
-      "Description": "If 'actor_var1' NotEquals 'camera_x' ELSE GOTO 00002232"
+      "MemoryOffset": 2348,
+      "Description": "If 'actor_var1' NotEquals 'camera_x' ELSE GOTO 00002394"
     },
     {
       "CodeBlock": "bird_leaveleft",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2224,
+      "MemoryOffset": 2386,
       "Description": "Set 'actor_type' to 'none'"
     },
     {
       "CodeBlock": "bird_leaveleft",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2230,
+      "MemoryOffset": 2392,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "bird_leaveleft",
       "CodeBlockLine": 5,
-      "MemoryOffset": 2232,
-      "Description": "If 'actor_x' LessThan 'camera_x - 16' ELSE GOTO 00002306"
+      "MemoryOffset": 2394,
+      "Description": "If 'actor_x' LessThan 'camera_x - 15' ELSE GOTO 00002468"
     },
     {
       "CodeBlock": "bird_leaveleft",
       "CodeBlockLine": 6,
-      "MemoryOffset": 2280,
+      "MemoryOffset": 2442,
       "Description": "Set 'actor_y' to 'actor_var2'"
     },
     {
       "CodeBlock": "bird_leaveleft",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2300,
+      "MemoryOffset": 2462,
       "Description": "Set 'actor_lookdir' to 'move_upright'"
     },
     {
       "CodeBlock": "bird_leaveleft",
       "CodeBlockLine": 8,
-      "MemoryOffset": 2306,
+      "MemoryOffset": 2468,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "bird_leaveright",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2308,
+      "MemoryOffset": 2470,
       "Description": "BIRD_LEAVERIGHT"
     },
     {
       "CodeBlock": "bird_leaveright",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2308,
-      "Description": "If 'actor_var1' NotEquals 'camera_x' ELSE GOTO 00002354"
+      "MemoryOffset": 2470,
+      "Description": "If 'actor_var1' NotEquals 'camera_x' ELSE GOTO 00002516"
     },
     {
       "CodeBlock": "bird_leaveright",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2346,
+      "MemoryOffset": 2508,
       "Description": "Set 'actor_type' to 'none'"
     },
     {
       "CodeBlock": "bird_leaveright",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2352,
+      "MemoryOffset": 2514,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "bird_leaveright",
       "CodeBlockLine": 5,
-      "MemoryOffset": 2354,
-      "Description": "If 'actor_x' GreaterThan 'camera_x + 272' ELSE GOTO 00002428"
+      "MemoryOffset": 2516,
+      "Description": "If 'actor_x' GreaterThan 'camera_x + 272' ELSE GOTO 00002590"
     },
     {
       "CodeBlock": "bird_leaveright",
       "CodeBlockLine": 6,
-      "MemoryOffset": 2402,
+      "MemoryOffset": 2564,
       "Description": "Set 'actor_y' to 'actor_var2'"
     },
     {
       "CodeBlock": "bird_leaveright",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2422,
+      "MemoryOffset": 2584,
       "Description": "Set 'actor_lookdir' to 'move_upleft'"
     },
     {
       "CodeBlock": "bird_leaveright",
       "CodeBlockLine": 8,
-      "MemoryOffset": 2428,
+      "MemoryOffset": 2590,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "celebrate",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2430,
+      "MemoryOffset": 2592,
       "Description": "CELEBRATE"
     },
     {
       "CodeBlock": "celebrate",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2430,
-      "Description": "If 'has_quickclaw' NotZero '0' ELSE GOTO 00002544"
+      "MemoryOffset": 2592,
+      "Description": "If 'has_quickclaw' NotZero '0' ELSE GOTO 00002706"
     },
     {
       "CodeBlock": "celebrate",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2454,
-      "Description": "If 'has_rhonda' NotZero '0' ELSE GOTO 00002544"
+      "MemoryOffset": 2616,
+      "Description": "If 'has_rhonda' NotZero '0' ELSE GOTO 00002706"
     },
     {
       "CodeBlock": "celebrate",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2478,
-      "Description": "If 'has_diamond' NotZero '0' ELSE GOTO 00002544"
+      "MemoryOffset": 2640,
+      "Description": "If 'has_diamond' NotZero '0' ELSE GOTO 00002706"
     },
     {
       "CodeBlock": "celebrate",
       "CodeBlockLine": 4,
-      "MemoryOffset": 2502,
+      "MemoryOffset": 2664,
       "Description": "Set 'player_type' to 'man_celebrate'"
     },
     {
       "CodeBlock": "celebrate",
       "CodeBlockLine": 4,
-      "MemoryOffset": 2508,
+      "MemoryOffset": 2670,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "celebrate",
       "CodeBlockLine": 5,
-      "MemoryOffset": 2514,
+      "MemoryOffset": 2676,
       "Description": "CELEBRATE_LOOP"
     },
     {
       "CodeBlock": "celebrate",
       "CodeBlockLine": 6,
-      "MemoryOffset": 2514,
+      "MemoryOffset": 2676,
       "Description": "Set 'player_lookdir' to 'move_upright'"
     },
     {
       "CodeBlock": "celebrate",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2520,
+      "MemoryOffset": 2682,
       "Description": "Set 'yield' to '35'"
     },
     {
       "CodeBlock": "celebrate",
       "CodeBlockLine": 8,
-      "MemoryOffset": 2526,
+      "MemoryOffset": 2688,
       "Description": "Set 'player_lookdir' to 'move_upleft'"
     },
     {
       "CodeBlock": "celebrate",
       "CodeBlockLine": 9,
-      "MemoryOffset": 2532,
+      "MemoryOffset": 2694,
       "Description": "Set 'yield' to '35'"
     },
     {
       "CodeBlock": "celebrate",
       "CodeBlockLine": 10,
-      "MemoryOffset": 2538,
+      "MemoryOffset": 2700,
       "Description": "GOTO 'CELEBRATE_LOOP'"
     },
     {
       "CodeBlock": "celebrate",
       "CodeBlockLine": 13,
-      "MemoryOffset": 2544,
+      "MemoryOffset": 2706,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "cheat1",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2546,
+      "MemoryOffset": 2708,
       "Description": "CHEAT1"
     },
     {
       "CodeBlock": "cheat1",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2546,
+      "MemoryOffset": 2708,
       "Description": "Set 'player_x' to '116 * 16 + 7'"
     },
     {
       "CodeBlock": "cheat1",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2562,
+      "MemoryOffset": 2724,
       "Description": "Set 'player_y' to '18 * 16 - 1'"
     },
     {
       "CodeBlock": "cheat1",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2578,
+      "MemoryOffset": 2740,
       "Description": "Set 'camera_x' to 'player_x / 256 * 256'"
     },
     {
       "CodeBlock": "cheat1",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2608,
+      "MemoryOffset": 2770,
       "Description": "Set 'camera_y' to 'player_y - 96'"
     },
     {
       "CodeBlock": "cheat1",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2638,
+      "MemoryOffset": 2800,
       "Description": "Set 'camera_follow' to '12'"
     },
     {
       "CodeBlock": "cheat1",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2644,
+      "MemoryOffset": 2806,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "cheat2",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2646,
+      "MemoryOffset": 2808,
       "Description": "CHEAT2"
     },
     {
       "CodeBlock": "cheat2",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2646,
+      "MemoryOffset": 2808,
       "Description": "Set 'player_x' to '84 * 16 + 7'"
     },
     {
       "CodeBlock": "cheat2",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2662,
+      "MemoryOffset": 2824,
       "Description": "Set 'player_y' to '84 * 16 - 1'"
     },
     {
       "CodeBlock": "cheat2",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2678,
+      "MemoryOffset": 2840,
       "Description": "Set 'camera_x' to 'player_x / 256 * 256'"
     },
     {
       "CodeBlock": "cheat2",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2708,
+      "MemoryOffset": 2870,
       "Description": "Set 'camera_y' to 'player_y - 96'"
     },
     {
       "CodeBlock": "cheat2",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2738,
+      "MemoryOffset": 2900,
       "Description": "Set 'camera_follow' to '12'"
     },
     {
       "CodeBlock": "cheat2",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2744,
+      "MemoryOffset": 2906,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "cheat3",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2746,
+      "MemoryOffset": 2908,
       "Description": "CHEAT3"
     },
     {
       "CodeBlock": "cheat3",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2746,
+      "MemoryOffset": 2908,
       "Description": "Set 'player_x' to '52 * 16 + 7'"
     },
     {
       "CodeBlock": "cheat3",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2762,
+      "MemoryOffset": 2924,
       "Description": "Set 'player_y' to '27 * 16 - 1'"
     },
     {
       "CodeBlock": "cheat3",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2778,
+      "MemoryOffset": 2940,
       "Description": "Set 'camera_x' to 'player_x / 256 * 256'"
     },
     {
       "CodeBlock": "cheat3",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2808,
+      "MemoryOffset": 2970,
       "Description": "Set 'camera_y' to 'player_y - 96'"
     },
     {
       "CodeBlock": "cheat3",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2838,
+      "MemoryOffset": 3000,
       "Description": "Set 'camera_follow' to '12'"
     },
     {
       "CodeBlock": "cheat3",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2844,
+      "MemoryOffset": 3006,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "cheat4",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2846,
+      "MemoryOffset": 3008,
       "Description": "CHEAT4"
     },
     {
       "CodeBlock": "cheat4",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2846,
+      "MemoryOffset": 3008,
       "Description": "Set 'player_x' to '36 * 16 + 7'"
     },
     {
       "CodeBlock": "cheat4",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2862,
+      "MemoryOffset": 3024,
       "Description": "Set 'player_y' to '84 * 16 - 1'"
     },
     {
       "CodeBlock": "cheat4",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2878,
+      "MemoryOffset": 3040,
       "Description": "Set 'camera_x' to 'player_x / 256 * 256'"
     },
     {
       "CodeBlock": "cheat4",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2908,
+      "MemoryOffset": 3070,
       "Description": "Set 'camera_y' to 'player_y - 96'"
     },
     {
       "CodeBlock": "cheat4",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2938,
+      "MemoryOffset": 3100,
       "Description": "Set 'camera_follow' to '12'"
     },
     {
       "CodeBlock": "cheat4",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2944,
+      "MemoryOffset": 3106,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "cheat5",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2946,
+      "MemoryOffset": 3108,
       "Description": "CHEAT5"
     },
     {
       "CodeBlock": "cheat5",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2946,
+      "MemoryOffset": 3108,
       "Description": "Set 'player_x' to '4 * 16 + 7'"
     },
     {
       "CodeBlock": "cheat5",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2962,
+      "MemoryOffset": 3124,
       "Description": "Set 'player_y' to '45 * 16 - 1'"
     },
     {
       "CodeBlock": "cheat5",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2978,
+      "MemoryOffset": 3140,
       "Description": "Set 'camera_x' to 'player_x / 256 * 256'"
     },
     {
       "CodeBlock": "cheat5",
       "CodeBlockLine": 2,
-      "MemoryOffset": 3008,
+      "MemoryOffset": 3170,
       "Description": "Set 'camera_y' to 'player_y - 96'"
     },
     {
       "CodeBlock": "cheat5",
       "CodeBlockLine": 3,
-      "MemoryOffset": 3038,
+      "MemoryOffset": 3200,
       "Description": "Set 'camera_follow' to '12'"
     },
     {
       "CodeBlock": "cheat5",
       "CodeBlockLine": 3,
-      "MemoryOffset": 3044,
+      "MemoryOffset": 3206,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "collect_diamond",
       "CodeBlockLine": 0,
-      "MemoryOffset": 3046,
+      "MemoryOffset": 3208,
       "Description": "COLLECT_DIAMOND"
     },
     {
       "CodeBlock": "collect_diamond",
       "CodeBlockLine": 1,
-      "MemoryOffset": 3046,
+      "MemoryOffset": 3208,
       "Description": "Set 'sound' to 'bigcollect'"
     },
     {
       "CodeBlock": "collect_diamond",
       "CodeBlockLine": 2,
-      "MemoryOffset": 3052,
+      "MemoryOffset": 3214,
       "Description": "Set 'block_type' to 'none'"
     },
     {
       "CodeBlock": "collect_diamond",
       "CodeBlockLine": 3,
-      "MemoryOffset": 3058,
+      "MemoryOffset": 3220,
       "Description": "Set 'score_high' to 'score_high + 20'"
     },
     {
       "CodeBlock": "collect_diamond",
       "CodeBlockLine": 4,
-      "MemoryOffset": 3072,
+      "MemoryOffset": 3234,
       "Description": "Set 'has_diamond' to 'true'"
     },
     {
       "CodeBlock": "collect_diamond",
       "CodeBlockLine": 5,
-      "MemoryOffset": 3078,
+      "MemoryOffset": 3240,
       "Description": "GOTO 'CELEBRATE'"
     },
     {
       "CodeBlock": "collect_diamond",
       "CodeBlockLine": 5,
-      "MemoryOffset": 3084,
+      "MemoryOffset": 3246,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "collect_goldbar",
       "CodeBlockLine": 0,
-      "MemoryOffset": 3086,
+      "MemoryOffset": 3248,
       "Description": "COLLECT_GOLDBAR"
     },
     {
       "CodeBlock": "collect_goldbar",
       "CodeBlockLine": 1,
-      "MemoryOffset": 3086,
+      "MemoryOffset": 3248,
       "Description": "Set 'sound' to 'smallcollect'"
     },
     {
       "CodeBlock": "collect_goldbar",
       "CodeBlockLine": 2,
-      "MemoryOffset": 3092,
+      "MemoryOffset": 3254,
       "Description": "Set 'block_type' to 'none'"
     },
     {
       "CodeBlock": "collect_goldbar",
       "CodeBlockLine": 3,
-      "MemoryOffset": 3098,
+      "MemoryOffset": 3260,
       "Description": "Set 'score_high' to 'score_high + 5'"
     },
     {
       "CodeBlock": "collect_goldbar",
       "CodeBlockLine": 3,
-      "MemoryOffset": 3112,
+      "MemoryOffset": 3274,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "collect_quickclaw",
       "CodeBlockLine": 0,
-      "MemoryOffset": 3114,
+      "MemoryOffset": 3276,
       "Description": "COLLECT_QUICKCLAW"
     },
     {
       "CodeBlock": "collect_quickclaw",
       "CodeBlockLine": 1,
-      "MemoryOffset": 3114,
+      "MemoryOffset": 3276,
       "Description": "Set 'sound' to 'bigcollect'"
     },
     {
       "CodeBlock": "collect_quickclaw",
       "CodeBlockLine": 2,
-      "MemoryOffset": 3120,
+      "MemoryOffset": 3282,
       "Description": "Set 'block_type' to 'none'"
     },
     {
       "CodeBlock": "collect_quickclaw",
       "CodeBlockLine": 3,
-      "MemoryOffset": 3126,
+      "MemoryOffset": 3288,
       "Description": "Set 'score_high' to 'score_high + 10'"
     },
     {
       "CodeBlock": "collect_quickclaw",
       "CodeBlockLine": 4,
-      "MemoryOffset": 3140,
+      "MemoryOffset": 3302,
       "Description": "Set 'has_quickclaw' to 'true'"
     },
     {
       "CodeBlock": "collect_quickclaw",
       "CodeBlockLine": 5,
-      "MemoryOffset": 3146,
+      "MemoryOffset": 3308,
       "Description": "GOTO 'CELEBRATE'"
     },
     {
       "CodeBlock": "collect_quickclaw",
       "CodeBlockLine": 5,
-      "MemoryOffset": 3152,
+      "MemoryOffset": 3314,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "collect_rhonda",
       "CodeBlockLine": 0,
-      "MemoryOffset": 3154,
+      "MemoryOffset": 3316,
       "Description": "COLLECT_RHONDA"
     },
     {
       "CodeBlock": "collect_rhonda",
       "CodeBlockLine": 1,
-      "MemoryOffset": 3154,
+      "MemoryOffset": 3316,
       "Description": "Set 'sound' to 'bigcollect'"
     },
     {
       "CodeBlock": "collect_rhonda",
       "CodeBlockLine": 2,
-      "MemoryOffset": 3160,
+      "MemoryOffset": 3322,
       "Description": "Set 'block_type' to 'none'"
     },
     {
       "CodeBlock": "collect_rhonda",
       "CodeBlockLine": 3,
-      "MemoryOffset": 3166,
+      "MemoryOffset": 3328,
       "Description": "Set 'score_high' to 'score_high + 10'"
     },
     {
       "CodeBlock": "collect_rhonda",
       "CodeBlockLine": 4,
-      "MemoryOffset": 3180,
+      "MemoryOffset": 3342,
       "Description": "Set 'has_rhonda' to 'true'"
     },
     {
       "CodeBlock": "collect_rhonda",
       "CodeBlockLine": 5,
-      "MemoryOffset": 3186,
+      "MemoryOffset": 3348,
       "Description": "GOTO 'CELEBRATE'"
     },
     {
       "CodeBlock": "collect_rhonda",
       "CodeBlockLine": 5,
-      "MemoryOffset": 3192,
+      "MemoryOffset": 3354,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 0,
-      "MemoryOffset": 3194,
+      "MemoryOffset": 3356,
       "Description": "FALL_ENDED"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 1,
-      "MemoryOffset": 3194,
-      "Description": "If 'fall_y' GreaterThan '0' ELSE GOTO 00003396"
+      "MemoryOffset": 3356,
+      "Description": "If 'fall_y' GreaterThan '0' ELSE GOTO 00003558"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 2,
-      "MemoryOffset": 3218,
-      "Description": "If 'player_y' GreaterThan 'fall_y + 8' ELSE GOTO 00003396"
+      "MemoryOffset": 3380,
+      "Description": "If 'player_y' GreaterThan 'fall_y + 8' ELSE GOTO 00003558"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 4,
-      "MemoryOffset": 3266,
+      "MemoryOffset": 3428,
       "Description": "Set 'score_subtract' to '100'"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 5,
-      "MemoryOffset": 3272,
+      "MemoryOffset": 3434,
       "Description": "GOSUB TO 'FUNCTION_SUBTRACTSCORE'"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 6,
-      "MemoryOffset": 3278,
+      "MemoryOffset": 3440,
       "Description": "Set 'sound' to 'earthquake'"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 7,
-      "MemoryOffset": 3284,
+      "MemoryOffset": 3446,
       "Description": "Set 'player_type' to 'man_static'"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 7,
-      "MemoryOffset": 3290,
+      "MemoryOffset": 3452,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 8,
-      "MemoryOffset": 3296,
+      "MemoryOffset": 3458,
       "Description": "Set 'yield' to '1'"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 9,
-      "MemoryOffset": 3302,
+      "MemoryOffset": 3464,
       "Description": "Set 'camera_y' to 'camera_y - 2'"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 10,
-      "MemoryOffset": 3316,
+      "MemoryOffset": 3478,
       "Description": "Set 'yield' to '1'"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 11,
-      "MemoryOffset": 3322,
+      "MemoryOffset": 3484,
       "Description": "Set 'camera_y' to 'camera_y + 4'"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 12,
-      "MemoryOffset": 3336,
+      "MemoryOffset": 3498,
       "Description": "Set 'yield' to '1'"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 13,
-      "MemoryOffset": 3342,
+      "MemoryOffset": 3504,
       "Description": "Set 'camera_y' to 'camera_y - 3'"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 14,
-      "MemoryOffset": 3356,
+      "MemoryOffset": 3518,
       "Description": "Set 'yield' to '1'"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 15,
-      "MemoryOffset": 3362,
+      "MemoryOffset": 3524,
       "Description": "Set 'camera_y' to 'camera_y + 2'"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 16,
-      "MemoryOffset": 3376,
+      "MemoryOffset": 3538,
       "Description": "Set 'yield' to '1'"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 17,
-      "MemoryOffset": 3382,
+      "MemoryOffset": 3544,
       "Description": "Set 'camera_y' to 'camera_y - 1'"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 20,
-      "MemoryOffset": 3396,
+      "MemoryOffset": 3558,
       "Description": "GOTO 'SET_MAN'"
     },
     {
       "CodeBlock": "fall_ended",
       "CodeBlockLine": 20,
-      "MemoryOffset": 3402,
+      "MemoryOffset": 3564,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "fall_handler",
       "CodeBlockLine": 0,
-      "MemoryOffset": 3404,
+      "MemoryOffset": 3566,
       "Description": "FALL_HANDLER"
     },
     {
       "CodeBlock": "fall_handler",
       "CodeBlockLine": 1,
-      "MemoryOffset": 3404,
-      "Description": "If 'control1_x' GreaterThan '0' ELSE GOTO 00003464"
+      "MemoryOffset": 3566,
+      "Description": "If 'control1_x' GreaterThan '0' ELSE GOTO 00003626"
     },
     {
       "CodeBlock": "fall_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 3428,
+      "MemoryOffset": 3590,
       "Description": "Set 'player_x' to 'player_x + 1'"
     },
     {
       "CodeBlock": "fall_handler",
       "CodeBlockLine": 3,
-      "MemoryOffset": 3458,
-      "Description": "Set 'player_lookdir' to 'look_right'"
+      "MemoryOffset": 3620,
+      "Description": "Set 'player_lookdir' to 'look_downright'"
     },
     {
       "CodeBlock": "fall_handler",
       "CodeBlockLine": 5,
-      "MemoryOffset": 3464,
-      "Description": "If 'control1_x' LessThan '0' ELSE GOTO 00003524"
+      "MemoryOffset": 3626,
+      "Description": "If 'control1_x' LessThan '0' ELSE GOTO 00003686"
     },
     {
       "CodeBlock": "fall_handler",
       "CodeBlockLine": 6,
-      "MemoryOffset": 3488,
+      "MemoryOffset": 3650,
       "Description": "Set 'player_x' to 'player_x - 1'"
     },
     {
       "CodeBlock": "fall_handler",
       "CodeBlockLine": 7,
-      "MemoryOffset": 3518,
-      "Description": "Set 'player_lookdir' to 'look_left'"
+      "MemoryOffset": 3680,
+      "Description": "Set 'player_lookdir' to 'look_downleft'"
     },
     {
       "CodeBlock": "fall_handler",
       "CodeBlockLine": 8,
-      "MemoryOffset": 3524,
+      "MemoryOffset": 3686,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "forcejump_end",
       "CodeBlockLine": 0,
-      "MemoryOffset": 3526,
+      "MemoryOffset": 3688,
       "Description": "FORCEJUMP_END"
     },
     {
       "CodeBlock": "forcejump_end",
       "CodeBlockLine": 1,
-      "MemoryOffset": 3526,
+      "MemoryOffset": 3688,
       "Description": "Set 'player_type' to 'man'"
     },
     {
       "CodeBlock": "forcejump_end",
       "CodeBlockLine": 1,
-      "MemoryOffset": 3532,
+      "MemoryOffset": 3694,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "forcejump_end",
       "CodeBlockLine": 2,
-      "MemoryOffset": 3538,
+      "MemoryOffset": 3700,
       "Description": "Set 'player_xspeed' to '0'"
     },
     {
       "CodeBlock": "forcejump_end",
       "CodeBlockLine": 2,
-      "MemoryOffset": 3544,
+      "MemoryOffset": 3706,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 0,
-      "MemoryOffset": 3546,
+      "MemoryOffset": 3708,
       "Description": "FROG_HANDLER"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 1,
-      "MemoryOffset": 3546,
+      "MemoryOffset": 3708,
       "Description": "Set 'yield' to '32'"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 3552,
+      "MemoryOffset": 3714,
       "Description": "Set 'actor_xspeed' to '0'"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 3,
-      "MemoryOffset": 3558,
+      "MemoryOffset": 3720,
       "Description": "Set 'actor_yspeed' to '0'"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 4,
-      "MemoryOffset": 3564,
+      "MemoryOffset": 3726,
       "Description": "Set 'yield' to '32'"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 5,
-      "MemoryOffset": 3570,
+      "MemoryOffset": 3732,
       "Description": "Set 'actor_lookdir' to 'look_left'"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 6,
-      "MemoryOffset": 3576,
+      "MemoryOffset": 3738,
       "Description": "Set 'yield' to '32'"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 7,
-      "MemoryOffset": 3582,
+      "MemoryOffset": 3744,
       "Description": "Set 'actor_lookdir' to 'move_upleft'"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 8,
-      "MemoryOffset": 3588,
+      "MemoryOffset": 3750,
       "Description": "Set 'yield' to '32'"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 9,
-      "MemoryOffset": 3594,
+      "MemoryOffset": 3756,
       "Description": "Set 'actor_xspeed' to '0'"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 10,
-      "MemoryOffset": 3600,
+      "MemoryOffset": 3762,
       "Description": "Set 'actor_yspeed' to '0'"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 11,
-      "MemoryOffset": 3606,
+      "MemoryOffset": 3768,
       "Description": "Set 'yield' to '32'"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 12,
-      "MemoryOffset": 3612,
+      "MemoryOffset": 3774,
       "Description": "Set 'actor_lookdir' to 'look_right'"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 13,
-      "MemoryOffset": 3618,
+      "MemoryOffset": 3780,
       "Description": "Set 'yield' to '32'"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 14,
-      "MemoryOffset": 3624,
+      "MemoryOffset": 3786,
       "Description": "Set 'actor_lookdir' to 'move_upright'"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 15,
-      "MemoryOffset": 3630,
+      "MemoryOffset": 3792,
       "Description": "GOTO 'FROG_HANDLER'"
     },
     {
       "CodeBlock": "frog_handler",
       "CodeBlockLine": 15,
-      "MemoryOffset": 3636,
+      "MemoryOffset": 3798,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "function_subtractscore",
       "CodeBlockLine": 0,
-      "MemoryOffset": 3638,
+      "MemoryOffset": 3800,
       "Description": "FUNCTION_SUBTRACTSCORE"
     },
     {
       "CodeBlock": "function_subtractscore",
       "CodeBlockLine": 1,
-      "MemoryOffset": 3638,
-      "Description": "If 'score_high + score_low' GreaterThan '0' ELSE GOTO 00003764"
+      "MemoryOffset": 3800,
+      "Description": "If 'score_high + score_low' GreaterThan '0' ELSE GOTO 00003926"
     },
     {
       "CodeBlock": "function_subtractscore",
       "CodeBlockLine": 2,
-      "MemoryOffset": 3666,
+      "MemoryOffset": 3828,
       "Description": "Set 'score_low' to 'score_low - score_subtract'"
     },
     {
       "CodeBlock": "function_subtractscore",
       "CodeBlockLine": 3,
-      "MemoryOffset": 3680,
-      "Description": "If 'score_low' LessThan '0' ELSE GOTO 00003764"
+      "MemoryOffset": 3842,
+      "Description": "If 'score_low' LessThan '0' ELSE GOTO 00003926"
     },
     {
       "CodeBlock": "function_subtractscore",
       "CodeBlockLine": 4,
-      "MemoryOffset": 3704,
-      "Description": "If 'score_high' GreaterThan '0' ELSE GOTO 00003758"
+      "MemoryOffset": 3866,
+      "Description": "If 'score_high' GreaterThan '0' ELSE GOTO 00003920"
     },
     {
       "CodeBlock": "function_subtractscore",
       "CodeBlockLine": 5,
-      "MemoryOffset": 3728,
+      "MemoryOffset": 3890,
       "Description": "Set 'score_low' to 'score_low + 1000'"
     },
     {
       "CodeBlock": "function_subtractscore",
       "CodeBlockLine": 6,
-      "MemoryOffset": 3742,
+      "MemoryOffset": 3904,
       "Description": "Set 'score_high' to 'score_high - 1'"
     },
     {
       "CodeBlock": "function_subtractscore",
       "CodeBlockLine": 7,
-      "MemoryOffset": 3756,
+      "MemoryOffset": 3918,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "function_subtractscore",
       "CodeBlockLine": 9,
-      "MemoryOffset": 3758,
+      "MemoryOffset": 3920,
       "Description": "Set 'score_low' to '0'"
     },
     {
       "CodeBlock": "function_subtractscore",
       "CodeBlockLine": 11,
-      "MemoryOffset": 3764,
+      "MemoryOffset": 3926,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 0,
-      "MemoryOffset": 3766,
+      "MemoryOffset": 3928,
       "Description": "GETOFFLADDER"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 1,
-      "MemoryOffset": 3766,
-      "Description": "If 'control1_x' NotZero '0' ELSE GOTO 00003980"
+      "MemoryOffset": 3928,
+      "Description": "If 'control1_x' NotZero '0' ELSE GOTO 00004142"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 2,
-      "MemoryOffset": 3790,
-      "Description": "If 'control1_y' LessThanOrEqual '0' ELSE GOTO 00003980"
+      "MemoryOffset": 3952,
+      "Description": "If 'control1_y' LessThanOrEqual '0' ELSE GOTO 00004142"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 3,
-      "MemoryOffset": 3814,
+      "MemoryOffset": 3976,
       "Description": "Set 'player_type' to 'man_static'"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 3,
-      "MemoryOffset": 3820,
+      "MemoryOffset": 3982,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 4,
-      "MemoryOffset": 3826,
+      "MemoryOffset": 3988,
       "Description": "Set 'desty' to 'block_y * 16 + 15'"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 5,
-      "MemoryOffset": 3842,
-      "Description": "If 'control1_x' LessThan '0' ELSE GOTO 00003890"
+      "MemoryOffset": 4004,
+      "Description": "If 'control1_x' LessThan '0' ELSE GOTO 00004052"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 6,
-      "MemoryOffset": 3866,
+      "MemoryOffset": 4028,
       "Description": "Set 'destx' to 'block_x * 16'"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 7,
-      "MemoryOffset": 3878,
+      "MemoryOffset": 4040,
       "Description": "Set 'player_lookdir' to 'look_left'"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 8,
-      "MemoryOffset": 3884,
+      "MemoryOffset": 4046,
       "Description": "Set 'player_animation' to 'ladder_in_left'"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 10,
-      "MemoryOffset": 3890,
-      "Description": "If 'control1_x' GreaterThan '0' ELSE GOTO 00003942"
+      "MemoryOffset": 4052,
+      "Description": "If 'control1_x' GreaterThan '0' ELSE GOTO 00004104"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 11,
-      "MemoryOffset": 3914,
+      "MemoryOffset": 4076,
       "Description": "Set 'destx' to 'block_x * 16 + 16'"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 12,
-      "MemoryOffset": 3930,
+      "MemoryOffset": 4092,
       "Description": "Set 'player_lookdir' to 'look_right'"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 13,
-      "MemoryOffset": 3936,
+      "MemoryOffset": 4098,
       "Description": "Set 'player_animation' to 'ladder_in_right'"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 15,
-      "MemoryOffset": 3942,
+      "MemoryOffset": 4104,
       "Description": "Set 'cangetoffladder' to 'false'"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 16,
-      "MemoryOffset": 3948,
+      "MemoryOffset": 4110,
       "Description": "Set 'yield' to '10'"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 17,
-      "MemoryOffset": 3954,
+      "MemoryOffset": 4116,
       "Description": "Set 'player_x' to 'destx'"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 17,
-      "MemoryOffset": 3964,
+      "MemoryOffset": 4126,
       "Description": "Set 'player_y' to 'desty'"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 18,
-      "MemoryOffset": 3974,
+      "MemoryOffset": 4136,
       "Description": "GOTO 'SET_MAN'"
     },
     {
       "CodeBlock": "getoffladder",
       "CodeBlockLine": 20,
-      "MemoryOffset": 3980,
+      "MemoryOffset": 4142,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "getoffladder_sides",
       "CodeBlockLine": 0,
-      "MemoryOffset": 3982,
+      "MemoryOffset": 4144,
       "Description": "GETOFFLADDER_SIDES"
     },
     {
       "CodeBlock": "getoffladder_sides",
       "CodeBlockLine": 1,
-      "MemoryOffset": 3982,
-      "Description": "If 'control1_x' NotZero '0' ELSE GOTO 00004144"
+      "MemoryOffset": 4144,
+      "Description": "If 'control1_x' NotZero '0' ELSE GOTO 00004306"
     },
     {
       "CodeBlock": "getoffladder_sides",
       "CodeBlockLine": 2,
-      "MemoryOffset": 4006,
-      "Description": "If 'control1_y' LessThanOrEqual '0' ELSE GOTO 00004144"
+      "MemoryOffset": 4168,
+      "Description": "If 'control1_y' LessThanOrEqual '0' ELSE GOTO 00004306"
     },
     {
       "CodeBlock": "getoffladder_sides",
       "CodeBlockLine": 3,
-      "MemoryOffset": 4030,
+      "MemoryOffset": 4192,
       "Description": "Set 'desty' to 'block_y * 16 + 15'"
     },
     {
       "CodeBlock": "getoffladder_sides",
       "CodeBlockLine": 4,
-      "MemoryOffset": 4046,
-      "Description": "If 'control1_x' LessThan '0' ELSE GOTO 00004082"
+      "MemoryOffset": 4208,
+      "Description": "If 'control1_x' LessThan '0' ELSE GOTO 00004244"
     },
     {
       "CodeBlock": "getoffladder_sides",
       "CodeBlockLine": 5,
-      "MemoryOffset": 4070,
+      "MemoryOffset": 4232,
       "Description": "Set 'destx' to 'block_x * 16'"
     },
     {
       "CodeBlock": "getoffladder_sides",
       "CodeBlockLine": 7,
-      "MemoryOffset": 4082,
-      "Description": "If 'control1_x' GreaterThan '0' ELSE GOTO 00004122"
+      "MemoryOffset": 4244,
+      "Description": "If 'control1_x' GreaterThan '0' ELSE GOTO 00004284"
     },
     {
       "CodeBlock": "getoffladder_sides",
       "CodeBlockLine": 8,
-      "MemoryOffset": 4106,
+      "MemoryOffset": 4268,
       "Description": "Set 'destx' to 'block_x * 16 + 16'"
     },
     {
       "CodeBlock": "getoffladder_sides",
       "CodeBlockLine": 10,
-      "MemoryOffset": 4122,
+      "MemoryOffset": 4284,
       "Description": "Set 'cangetoffladder' to 'false'"
     },
     {
       "CodeBlock": "getoffladder_sides",
       "CodeBlockLine": 11,
-      "MemoryOffset": 4128,
+      "MemoryOffset": 4290,
       "Description": "Set 'player_x' to 'destx'"
     },
     {
       "CodeBlock": "getoffladder_sides",
       "CodeBlockLine": 12,
-      "MemoryOffset": 4138,
+      "MemoryOffset": 4300,
       "Description": "GOTO 'SET_MAN'"
     },
     {
       "CodeBlock": "getoffladder_sides",
       "CodeBlockLine": 14,
-      "MemoryOffset": 4144,
+      "MemoryOffset": 4306,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "hittest",
       "CodeBlockLine": 0,
-      "MemoryOffset": 4146,
+      "MemoryOffset": 4308,
       "Description": "HITTEST"
     },
     {
       "CodeBlock": "hittest",
       "CodeBlockLine": 1,
-      "MemoryOffset": 4146,
-      "Description": "If 'player_type' Equals 'man_balloon' ELSE GOTO 00004186"
+      "MemoryOffset": 4308,
+      "Description": "If 'player_type' Equals 'man_balloon' ELSE GOTO 00004348"
     },
     {
       "CodeBlock": "hittest",
       "CodeBlockLine": 2,
-      "MemoryOffset": 4180,
+      "MemoryOffset": 4342,
       "Description": "GOTO 'BALLOON_POP'"
     },
     {
       "CodeBlock": "hittest",
       "CodeBlockLine": 4,
-      "MemoryOffset": 4186,
-      "Description": "If 'player_type' NotEquals 'angel' ELSE GOTO 00004244"
+      "MemoryOffset": 4348,
+      "Description": "If 'player_type' NotEquals 'angel' ELSE GOTO 00004406"
     },
     {
       "CodeBlock": "hittest",
       "CodeBlockLine": 5,
-      "MemoryOffset": 4220,
+      "MemoryOffset": 4382,
       "Description": "Set 'sound' to 'hurt'"
     },
     {
       "CodeBlock": "hittest",
       "CodeBlockLine": 6,
-      "MemoryOffset": 4226,
+      "MemoryOffset": 4388,
       "Description": "Set 'wait' to '50'"
     },
     {
       "CodeBlock": "hittest",
       "CodeBlockLine": 7,
-      "MemoryOffset": 4232,
+      "MemoryOffset": 4394,
       "Description": "Set 'player_type' to 'angel'"
     },
     {
       "CodeBlock": "hittest",
       "CodeBlockLine": 7,
-      "MemoryOffset": 4238,
+      "MemoryOffset": 4400,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "hittest",
       "CodeBlockLine": 8,
-      "MemoryOffset": 4244,
+      "MemoryOffset": 4406,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "key_handler",
       "CodeBlockLine": 0,
-      "MemoryOffset": 4246,
+      "MemoryOffset": 4408,
       "Description": "KEY_HANDLER"
     },
     {
       "CodeBlock": "key_handler",
       "CodeBlockLine": 1,
-      "MemoryOffset": 4246,
+      "MemoryOffset": 4408,
       "Description": "Set 'key_x' to 'block_x * 16 + 7'"
     },
     {
       "CodeBlock": "key_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 4262,
+      "MemoryOffset": 4424,
       "Description": "Set 'key_y' to 'block_y * 16 - 1'"
     },
     {
       "CodeBlock": "key_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 4278,
+      "MemoryOffset": 4440,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "ladder_bottom_handler",
       "CodeBlockLine": 0,
-      "MemoryOffset": 4280,
+      "MemoryOffset": 4442,
       "Description": "LADDER_BOTTOM_HANDLER"
     },
     {
       "CodeBlock": "ladder_bottom_handler",
       "CodeBlockLine": 1,
-      "MemoryOffset": 4280,
-      "Description": "If 'actor_type' Equals 'man_ladder' ELSE GOTO 00004352"
+      "MemoryOffset": 4442,
+      "Description": "If 'actor_type' Equals 'man_ladder' ELSE GOTO 00004514"
     },
     {
       "CodeBlock": "ladder_bottom_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 4314,
-      "Description": "If 'control1_y' GreaterThan '0' ELSE GOTO 00004350"
+      "MemoryOffset": 4476,
+      "Description": "If 'control1_y' GreaterThan '0' ELSE GOTO 00004512"
     },
     {
       "CodeBlock": "ladder_bottom_handler",
       "CodeBlockLine": 3,
-      "MemoryOffset": 4338,
+      "MemoryOffset": 4500,
       "Description": "Set 'player_type' to 'man_falling'"
     },
     {
       "CodeBlock": "ladder_bottom_handler",
       "CodeBlockLine": 3,
-      "MemoryOffset": 4344,
+      "MemoryOffset": 4506,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "ladder_bottom_handler",
       "CodeBlockLine": 5,
-      "MemoryOffset": 4350,
+      "MemoryOffset": 4512,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "ladder_bottom_handler",
       "CodeBlockLine": 7,
-      "MemoryOffset": 4352,
-      "Description": "If 'actor_type' Equals 'man_swim' ELSE GOTO 00004432"
+      "MemoryOffset": 4514,
+      "Description": "If 'actor_type' Equals 'man_swim' ELSE GOTO 00004594"
     },
     {
       "CodeBlock": "ladder_bottom_handler",
       "CodeBlockLine": 8,
-      "MemoryOffset": 4386,
-      "Description": "If 'control1_y' LessThan '0' ELSE GOTO 00004432"
+      "MemoryOffset": 4548,
+      "Description": "If 'control1_y' LessThan '0' ELSE GOTO 00004594"
     },
     {
       "CodeBlock": "ladder_bottom_handler",
       "CodeBlockLine": 9,
-      "MemoryOffset": 4410,
+      "MemoryOffset": 4572,
       "Description": "Set 'player_x' to 'block_x * 16 + 7'"
     },
     {
       "CodeBlock": "ladder_bottom_handler",
       "CodeBlockLine": 10,
-      "MemoryOffset": 4426,
+      "MemoryOffset": 4588,
       "Description": "GOTO 'SET_LADDER'"
     },
     {
       "CodeBlock": "ladder_bottom_handler",
       "CodeBlockLine": 12,
-      "MemoryOffset": 4432,
+      "MemoryOffset": 4594,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "ladder_handler",
       "CodeBlockLine": 0,
-      "MemoryOffset": 4434,
+      "MemoryOffset": 4596,
       "Description": "LADDER_HANDLER"
     },
     {
       "CodeBlock": "ladder_handler",
       "CodeBlockLine": 1,
-      "MemoryOffset": 4434,
-      "Description": "If 'control1_x' Equals '0' ELSE GOTO 00004464"
+      "MemoryOffset": 4596,
+      "Description": "If 'control1_x' Equals '0' ELSE GOTO 00004626"
     },
     {
       "CodeBlock": "ladder_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 4458,
+      "MemoryOffset": 4620,
       "Description": "Set 'cangetoffladder' to 'true'"
     },
     {
       "CodeBlock": "ladder_handler",
       "CodeBlockLine": 4,
-      "MemoryOffset": 4464,
-      "Description": "If 'player_y' LessThanOrEqual 'laddertop_y' ELSE GOTO 00004524"
+      "MemoryOffset": 4626,
+      "Description": "If 'player_y' LessThanOrEqual 'laddertop_y' ELSE GOTO 00004686"
     },
     {
       "CodeBlock": "ladder_handler",
       "CodeBlockLine": 5,
-      "MemoryOffset": 4508,
+      "MemoryOffset": 4670,
       "Description": "Set 'player_animation' to 'ladder_idle'"
     },
     {
       "CodeBlock": "ladder_handler",
       "CodeBlockLine": 6,
-      "MemoryOffset": 4514,
+      "MemoryOffset": 4676,
       "Description": "Set 'player_y' to 'laddertop_y'"
     },
     {
       "CodeBlock": "ladder_handler",
       "CodeBlockLine": 7,
-      "MemoryOffset": 4524,
+      "MemoryOffset": 4686,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "ladder_middle_handler",
       "CodeBlockLine": 0,
-      "MemoryOffset": 4526,
+      "MemoryOffset": 4688,
       "Description": "LADDER_MIDDLE_HANDLER"
     },
     {
       "CodeBlock": "ladder_middle_handler",
       "CodeBlockLine": 1,
-      "MemoryOffset": 4526,
+      "MemoryOffset": 4688,
       "Description": "Set 'laddertop_y' to '0'"
     },
     {
       "CodeBlock": "ladder_middle_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 4532,
-      "Description": "If 'player_type' Equals 'man' ELSE GOTO 00004814"
+      "MemoryOffset": 4694,
+      "Description": "If 'player_type' Equals 'man' ELSE GOTO 00004976"
     },
     {
       "CodeBlock": "ladder_middle_handler",
       "CodeBlockLine": 3,
-      "MemoryOffset": 4566,
-      "Description": "If 'player_yspeed' Equals '0' ELSE GOTO 00004814"
+      "MemoryOffset": 4728,
+      "Description": "If 'player_yspeed' Equals '0' ELSE GOTO 00004976"
     },
     {
       "CodeBlock": "ladder_middle_handler",
       "CodeBlockLine": 4,
-      "MemoryOffset": 4600,
-      "Description": "If 'control1_y' NotZero '0' ELSE GOTO 00004814"
+      "MemoryOffset": 4762,
+      "Description": "If 'control1_y' NotZero '0' ELSE GOTO 00004976"
     },
     {
       "CodeBlock": "ladder_middle_handler",
       "CodeBlockLine": 5,
-      "MemoryOffset": 4624,
-      "Description": "If 'player_x' LessThanOrEqual 'block_x * 16' ELSE GOTO 00004706"
+      "MemoryOffset": 4786,
+      "Description": "If 'player_x' LessThanOrEqual 'block_x * 16' ELSE GOTO 00004868"
     },
     {
       "CodeBlock": "ladder_middle_handler",
       "CodeBlockLine": 6,
-      "MemoryOffset": 4670,
-      "Description": "If 'player_lookdir' NotEquals 'look_right' ELSE GOTO 00004706"
+      "MemoryOffset": 4832,
+      "Description": "If 'player_lookdir' NotEquals 'look_right' ELSE GOTO 00004868"
     },
     {
       "CodeBlock": "ladder_middle_handler",
       "CodeBlockLine": 7,
-      "MemoryOffset": 4704,
+      "MemoryOffset": 4866,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "ladder_middle_handler",
       "CodeBlockLine": 10,
-      "MemoryOffset": 4706,
-      "Description": "If 'player_x' GreaterThan 'block_x * 16 + 15' ELSE GOTO 00004792"
+      "MemoryOffset": 4868,
+      "Description": "If 'player_x' GreaterThan 'block_x * 16 + 15' ELSE GOTO 00004954"
     },
     {
       "CodeBlock": "ladder_middle_handler",
       "CodeBlockLine": 11,
-      "MemoryOffset": 4756,
-      "Description": "If 'player_lookdir' NotEquals 'look_left' ELSE GOTO 00004792"
+      "MemoryOffset": 4918,
+      "Description": "If 'player_lookdir' NotEquals 'look_left' ELSE GOTO 00004954"
     },
     {
       "CodeBlock": "ladder_middle_handler",
       "CodeBlockLine": 12,
-      "MemoryOffset": 4790,
+      "MemoryOffset": 4952,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "ladder_middle_handler",
       "CodeBlockLine": 15,
-      "MemoryOffset": 4792,
+      "MemoryOffset": 4954,
       "Description": "Set 'player_x' to 'block_x * 16 + 7'"
     },
     {
       "CodeBlock": "ladder_middle_handler",
       "CodeBlockLine": 16,
-      "MemoryOffset": 4808,
+      "MemoryOffset": 4970,
       "Description": "GOTO 'SET_LADDER'"
     },
     {
       "CodeBlock": "ladder_middle_handler",
       "CodeBlockLine": 20,
-      "MemoryOffset": 4814,
-      "Description": "If 'cangetoffladder' Equals 'true' ELSE GOTO 00004900"
-    },
-    {
-      "CodeBlock": "ladder_middle_handler",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 4838,
-      "Description": "If 'player_y' GreaterThanOrEqual 'block_y * 16 + 16' ELSE GOTO 00004894"
+      "MemoryOffset": 4976,
+      "Description": "If 'player_type' Equals 'man_ladder' ELSE GOTO 00005072"
     },
     {
       "CodeBlock": "ladder_middle_handler",
       "CodeBlockLine": 22,
-      "MemoryOffset": 4888,
+      "MemoryOffset": 5010,
+      "Description": "If 'player_y' GreaterThanOrEqual 'block_y * 16 + 16' ELSE GOTO 00005066"
+    },
+    {
+      "CodeBlock": "ladder_middle_handler",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 5060,
       "Description": "GOTO 'GETOFFLADDER'"
     },
     {
       "CodeBlock": "ladder_middle_handler",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 4894,
+      "CodeBlockLine": 25,
+      "MemoryOffset": 5066,
       "Description": "GOTO 'GETOFFLADDER_SIDES'"
     },
     {
       "CodeBlock": "ladder_middle_handler",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 4900,
+      "CodeBlockLine": 26,
+      "MemoryOffset": 5072,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 0,
-      "MemoryOffset": 4902,
+      "MemoryOffset": 5074,
       "Description": "LADDER_TOP_HANDLER"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 1,
-      "MemoryOffset": 4902,
+      "MemoryOffset": 5074,
       "Description": "Set 'laddertop_y' to 'block_y * 16 + 24'"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 4918,
-      "Description": "If 'player_type' Equals 'man' ELSE GOTO 00005276"
+      "MemoryOffset": 5090,
+      "Description": "If 'player_type' Equals 'man' ELSE GOTO 00005448"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 3,
-      "MemoryOffset": 4952,
-      "Description": "If 'player_yspeed' Equals '0' ELSE GOTO 00005276"
+      "MemoryOffset": 5124,
+      "Description": "If 'player_yspeed' Equals '0' ELSE GOTO 00005448"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 4,
-      "MemoryOffset": 4986,
-      "Description": "If 'control1_y' GreaterThan '0' ELSE GOTO 00005276"
+      "MemoryOffset": 5158,
+      "Description": "If 'control1_y' GreaterThan '0' ELSE GOTO 00005448"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 5,
-      "MemoryOffset": 5010,
-      "Description": "If 'player_x' LessThanOrEqual 'block_x * 16 + 7' ELSE GOTO 00005102"
+      "MemoryOffset": 5182,
+      "Description": "If 'player_x' LessThanOrEqual 'block_x * 16 + 7' ELSE GOTO 00005274"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 6,
-      "MemoryOffset": 5060,
-      "Description": "If 'player_lookdir' NotEquals 'look_right' ELSE GOTO 00005096"
+      "MemoryOffset": 5232,
+      "Description": "If 'player_lookdir' NotEquals 'look_right' ELSE GOTO 00005268"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 7,
-      "MemoryOffset": 5094,
+      "MemoryOffset": 5266,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 9,
-      "MemoryOffset": 5096,
+      "MemoryOffset": 5268,
       "Description": "Set 'player_animation' to 'ladder_in_left'"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 11,
-      "MemoryOffset": 5102,
-      "Description": "If 'player_x' GreaterThan 'block_x * 16 + 7' ELSE GOTO 00005194"
+      "MemoryOffset": 5274,
+      "Description": "If 'player_x' GreaterThan 'block_x * 16 + 7' ELSE GOTO 00005366"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 12,
-      "MemoryOffset": 5152,
-      "Description": "If 'player_lookdir' NotEquals 'look_left' ELSE GOTO 00005188"
+      "MemoryOffset": 5324,
+      "Description": "If 'player_lookdir' NotEquals 'look_left' ELSE GOTO 00005360"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 13,
-      "MemoryOffset": 5186,
+      "MemoryOffset": 5358,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 15,
-      "MemoryOffset": 5188,
+      "MemoryOffset": 5360,
       "Description": "Set 'player_animation' to 'ladder_in_right'"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 17,
-      "MemoryOffset": 5194,
+      "MemoryOffset": 5366,
       "Description": "Set 'player_x' to 'block_x * 16 + 7'"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 17,
-      "MemoryOffset": 5210,
+      "MemoryOffset": 5382,
       "Description": "Set 'player_y' to 'block_y * 16 + 20'"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 18,
-      "MemoryOffset": 5226,
+      "MemoryOffset": 5398,
       "Description": "Set 'player_type' to 'man_static'"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 18,
-      "MemoryOffset": 5232,
+      "MemoryOffset": 5404,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 19,
-      "MemoryOffset": 5238,
+      "MemoryOffset": 5410,
       "Description": "Set 'yield' to '10'"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 20,
-      "MemoryOffset": 5244,
+      "MemoryOffset": 5416,
       "Description": "Set 'player_x' to 'block_x * 16 + 7'"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 20,
-      "MemoryOffset": 5260,
+      "MemoryOffset": 5432,
       "Description": "Set 'player_y' to 'laddertop_y'"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 21,
-      "MemoryOffset": 5270,
+      "MemoryOffset": 5442,
       "Description": "GOTO 'SET_LADDER'"
     },
     {
       "CodeBlock": "ladder_top_handler",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 5276,
-      "Description": "If 'cangetoffladder' Equals 'true' ELSE GOTO 00005350"
-    },
-    {
-      "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 26,
-      "MemoryOffset": 5300,
-      "Description": "If 'player_y' LessThanOrEqual 'laddertop_y' ELSE GOTO 00005350"
+      "MemoryOffset": 5448,
+      "Description": "If 'player_y' LessThanOrEqual 'laddertop_y' ELSE GOTO 00005532"
     },
     {
       "CodeBlock": "ladder_top_handler",
       "CodeBlockLine": 27,
-      "MemoryOffset": 5344,
+      "MemoryOffset": 5492,
+      "Description": "If 'player_type' Equals 'man_ladder' ELSE GOTO 00005532"
+    },
+    {
+      "CodeBlock": "ladder_top_handler",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 5526,
       "Description": "GOTO 'GETOFFLADDER'"
     },
     {
       "CodeBlock": "ladder_top_handler",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 5350,
+      "CodeBlockLine": 31,
+      "MemoryOffset": 5532,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "man_handler",
       "CodeBlockLine": 0,
-      "MemoryOffset": 5352,
+      "MemoryOffset": 5534,
       "Description": "MAN_HANDLER"
     },
     {
       "CodeBlock": "man_handler",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5352,
-      "Description": "If 'control1jump' NotZero '0' ELSE GOTO 00005470"
+      "MemoryOffset": 5534,
+      "Description": "If 'control1jump' NotZero '0' ELSE GOTO 00005652"
     },
     {
       "CodeBlock": "man_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 5376,
+      "MemoryOffset": 5558,
       "Description": "Set 'player_type' to 'man_jumping'"
     },
     {
       "CodeBlock": "man_handler",
       "CodeBlockLine": 3,
-      "MemoryOffset": 5382,
+      "MemoryOffset": 5564,
       "Description": "Set 'sound' to 'jump'"
     },
     {
       "CodeBlock": "man_handler",
       "CodeBlockLine": 4,
-      "MemoryOffset": 5388,
+      "MemoryOffset": 5570,
       "Description": "If 'control1_x' Equals '1'"
     },
     {
       "CodeBlock": "man_handler",
       "CodeBlockLine": 5,
-      "MemoryOffset": 5412,
+      "MemoryOffset": 5594,
       "Description": "Set 'player_lookdir' to 'move_upright'"
     },
     {
       "CodeBlock": "man_handler",
       "CodeBlockLine": 6,
-      "MemoryOffset": 5418,
-      "Description": "GOTO '00005470'"
+      "MemoryOffset": 5600,
+      "Description": "GOTO '00005652'"
     },
     {
       "CodeBlock": "man_handler",
       "CodeBlockLine": 6,
-      "MemoryOffset": 5424,
+      "MemoryOffset": 5606,
       "Description": "If 'control1_x' Equals '-1'"
     },
     {
       "CodeBlock": "man_handler",
       "CodeBlockLine": 7,
-      "MemoryOffset": 5452,
+      "MemoryOffset": 5634,
       "Description": "Set 'player_lookdir' to 'move_upleft'"
     },
     {
       "CodeBlock": "man_handler",
       "CodeBlockLine": 8,
-      "MemoryOffset": 5458,
-      "Description": "GOTO '00005470'"
+      "MemoryOffset": 5640,
+      "Description": "GOTO '00005652'"
     },
     {
       "CodeBlock": "man_handler",
       "CodeBlockLine": 9,
-      "MemoryOffset": 5464,
+      "MemoryOffset": 5646,
       "Description": "Set 'player_lookdir' to 'move_up'"
     },
     {
       "CodeBlock": "man_handler",
       "CodeBlockLine": 11,
-      "MemoryOffset": 5470,
+      "MemoryOffset": 5652,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "offscreen_left",
       "CodeBlockLine": 0,
-      "MemoryOffset": 5472,
+      "MemoryOffset": 5654,
       "Description": "OFFSCREEN_LEFT"
     },
     {
       "CodeBlock": "offscreen_left",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5472,
-      "Description": "If 'camera_x' NotEquals 'actor_var1' ELSE GOTO 00005518"
+      "MemoryOffset": 5654,
+      "Description": "If 'camera_x' NotEquals 'actor_var1' ELSE GOTO 00005700"
     },
     {
       "CodeBlock": "offscreen_left",
       "CodeBlockLine": 2,
-      "MemoryOffset": 5510,
+      "MemoryOffset": 5692,
       "Description": "Set 'actor_type' to 'none'"
     },
     {
       "CodeBlock": "offscreen_left",
       "CodeBlockLine": 3,
-      "MemoryOffset": 5516,
+      "MemoryOffset": 5698,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "offscreen_left",
       "CodeBlockLine": 5,
-      "MemoryOffset": 5518,
+      "MemoryOffset": 5700,
       "Description": "Set 'actor_lookdir' to 'move_right'"
     },
     {
       "CodeBlock": "offscreen_left",
       "CodeBlockLine": 5,
-      "MemoryOffset": 5524,
+      "MemoryOffset": 5706,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "offscreen_right",
       "CodeBlockLine": 0,
-      "MemoryOffset": 5526,
+      "MemoryOffset": 5708,
       "Description": "OFFSCREEN_RIGHT"
     },
     {
       "CodeBlock": "offscreen_right",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5526,
-      "Description": "If 'camera_x' NotEquals 'actor_var1' ELSE GOTO 00005572"
+      "MemoryOffset": 5708,
+      "Description": "If 'camera_x' NotEquals 'actor_var1' ELSE GOTO 00005754"
     },
     {
       "CodeBlock": "offscreen_right",
       "CodeBlockLine": 2,
-      "MemoryOffset": 5564,
+      "MemoryOffset": 5746,
       "Description": "Set 'actor_type' to 'none'"
     },
     {
       "CodeBlock": "offscreen_right",
       "CodeBlockLine": 3,
-      "MemoryOffset": 5570,
+      "MemoryOffset": 5752,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "offscreen_right",
       "CodeBlockLine": 5,
-      "MemoryOffset": 5572,
+      "MemoryOffset": 5754,
       "Description": "Set 'actor_lookdir' to 'move_left'"
     },
     {
       "CodeBlock": "offscreen_right",
       "CodeBlockLine": 5,
-      "MemoryOffset": 5578,
+      "MemoryOffset": 5760,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "rat_activate",
       "CodeBlockLine": 0,
-      "MemoryOffset": 5580,
+      "MemoryOffset": 5762,
       "Description": "RAT_ACTIVATE"
     },
     {
       "CodeBlock": "rat_activate",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5580,
+      "MemoryOffset": 5762,
       "Description": "Set 'actor_lookdir' to 'move_right'"
     },
     {
       "CodeBlock": "rat_activate",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5586,
+      "MemoryOffset": 5768,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "rat_collision",
       "CodeBlockLine": 0,
-      "MemoryOffset": 5588,
+      "MemoryOffset": 5770,
       "Description": "RAT_COLLISION"
     },
     {
       "CodeBlock": "rat_collision",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5588,
-      "Description": "If 'player_x' LessThan 'actor_x' ELSE GOTO 00005682"
+      "MemoryOffset": 5770,
+      "Description": "If 'player_x' LessThan 'actor_x' ELSE GOTO 00005864"
     },
     {
       "CodeBlock": "rat_collision",
       "CodeBlockLine": 2,
-      "MemoryOffset": 5648,
+      "MemoryOffset": 5830,
       "Description": "Set 'has_caverat' to 'true'"
     },
     {
       "CodeBlock": "rat_collision",
       "CodeBlockLine": 3,
-      "MemoryOffset": 5654,
+      "MemoryOffset": 5836,
       "Description": "Set 'sound' to 'bigcollect'"
     },
     {
       "CodeBlock": "rat_collision",
       "CodeBlockLine": 4,
-      "MemoryOffset": 5660,
+      "MemoryOffset": 5842,
       "Description": "Set 'score_high' to 'score_high + 15'"
     },
     {
       "CodeBlock": "rat_collision",
       "CodeBlockLine": 5,
-      "MemoryOffset": 5674,
+      "MemoryOffset": 5856,
       "Description": "Set 'actor_type' to 'none'"
     },
     {
       "CodeBlock": "rat_collision",
       "CodeBlockLine": 6,
-      "MemoryOffset": 5680,
+      "MemoryOffset": 5862,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "rat_collision",
       "CodeBlockLine": 8,
-      "MemoryOffset": 5682,
+      "MemoryOffset": 5864,
       "Description": "Set 'player_type' to 'man_shoved'"
     },
     {
       "CodeBlock": "rat_collision",
       "CodeBlockLine": 8,
-      "MemoryOffset": 5688,
+      "MemoryOffset": 5870,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "rat_collision",
       "CodeBlockLine": 9,
-      "MemoryOffset": 5694,
+      "MemoryOffset": 5876,
       "Description": "Set 'player_lookdir' to 'move_right'"
     },
     {
       "CodeBlock": "rat_collision",
       "CodeBlockLine": 9,
-      "MemoryOffset": 5700,
+      "MemoryOffset": 5882,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "rat_spawn",
       "CodeBlockLine": 0,
-      "MemoryOffset": 5702,
+      "MemoryOffset": 5884,
       "Description": "RAT_SPAWN"
     },
     {
       "CodeBlock": "rat_spawn",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5702,
-      "Description": "If 'has_caverat' Equals 'true' ELSE GOTO 00005728"
+      "MemoryOffset": 5884,
+      "Description": "If 'has_caverat' Equals 'true' ELSE GOTO 00005910"
     },
     {
       "CodeBlock": "rat_spawn",
       "CodeBlockLine": 2,
-      "MemoryOffset": 5726,
+      "MemoryOffset": 5908,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "rat_spawn",
       "CodeBlockLine": 4,
-      "MemoryOffset": 5728,
+      "MemoryOffset": 5910,
       "Description": "Set 'actor_spawn' to 'rat'"
     },
     {
       "CodeBlock": "rat_spawn",
       "CodeBlockLine": 4,
-      "MemoryOffset": 5734,
+      "MemoryOffset": 5916,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "scorpion_handler",
       "CodeBlockLine": 0,
-      "MemoryOffset": 5736,
+      "MemoryOffset": 5918,
       "Description": "SCORPION_HANDLER"
     },
     {
       "CodeBlock": "scorpion_handler",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5736,
-      "Description": "If 'player_y' Equals 'actor_y' ELSE GOTO 00005870"
+      "MemoryOffset": 5918,
+      "Description": "If 'player_y' Equals 'actor_y' ELSE GOTO 00006052"
     },
     {
       "CodeBlock": "scorpion_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 5796,
-      "Description": "If 'player_x' GreaterThan 'actor_x' ELSE GOTO 00005864"
+      "MemoryOffset": 5978,
+      "Description": "If 'player_x' GreaterThan 'actor_x' ELSE GOTO 00006046"
     },
     {
       "CodeBlock": "scorpion_handler",
       "CodeBlockLine": 3,
-      "MemoryOffset": 5856,
+      "MemoryOffset": 6038,
       "Description": "Set 'actor_lookdir' to 'move_right'"
     },
     {
       "CodeBlock": "scorpion_handler",
       "CodeBlockLine": 4,
-      "MemoryOffset": 5862,
+      "MemoryOffset": 6044,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "scorpion_handler",
       "CodeBlockLine": 6,
-      "MemoryOffset": 5864,
+      "MemoryOffset": 6046,
       "Description": "Set 'actor_lookdir' to 'move_left'"
     },
     {
       "CodeBlock": "scorpion_handler",
       "CodeBlockLine": 7,
-      "MemoryOffset": 5870,
+      "MemoryOffset": 6052,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "scroll_left",
       "CodeBlockLine": 0,
-      "MemoryOffset": 5872,
+      "MemoryOffset": 6054,
       "Description": "SCROLL_LEFT"
     },
     {
       "CodeBlock": "scroll_left",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5872,
+      "MemoryOffset": 6054,
       "Description": "Set 'isscrolling' to 'true'"
     },
     {
       "CodeBlock": "scroll_left",
       "CodeBlockLine": 2,
-      "MemoryOffset": 5878,
-      "Description": "SCROLL_LEFT_START"
+      "MemoryOffset": 6060,
+      "Description": "If 'camera_x' GreaterThan 'player_x / 256 * 256' ELSE GOTO 00006134"
     },
     {
       "CodeBlock": "scroll_left",
       "CodeBlockLine": 3,
-      "MemoryOffset": 5878,
+      "MemoryOffset": 6108,
       "Description": "Set 'wait' to '1'"
     },
     {
       "CodeBlock": "scroll_left",
       "CodeBlockLine": 4,
-      "MemoryOffset": 5884,
-      "Description": "If 'camera_x' GreaterThan 'player_x / 256 * 256' ELSE GOTO 00005952"
-    },
-    {
-      "CodeBlock": "scroll_left",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 5932,
+      "MemoryOffset": 6114,
       "Description": "Set 'camera_x' to 'camera_x - 4'"
     },
     {
       "CodeBlock": "scroll_left",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 5946,
-      "Description": "GOTO 'SCROLL_LEFT_START'"
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6128,
+      "Description": "GOTO '00006060'"
     },
     {
       "CodeBlock": "scroll_left",
-      "CodeBlockLine": 8,
-      "MemoryOffset": 5952,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6134,
       "Description": "Set 'isscrolling' to 'false'"
     },
     {
       "CodeBlock": "scroll_left",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 5958,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6140,
       "Description": "Set 'camera_follow' to '12'"
     },
     {
       "CodeBlock": "scroll_left",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 5964,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6146,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "scroll_right",
       "CodeBlockLine": 0,
-      "MemoryOffset": 5966,
+      "MemoryOffset": 6148,
       "Description": "SCROLL_RIGHT"
     },
     {
       "CodeBlock": "scroll_right",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5966,
+      "MemoryOffset": 6148,
       "Description": "Set 'isscrolling' to 'true'"
     },
     {
       "CodeBlock": "scroll_right",
       "CodeBlockLine": 2,
-      "MemoryOffset": 5972,
-      "Description": "SCROLL_RIGHT_START"
+      "MemoryOffset": 6154,
+      "Description": "If 'camera_x' LessThan 'player_x / 256 * 256' ELSE GOTO 00006228"
     },
     {
       "CodeBlock": "scroll_right",
       "CodeBlockLine": 3,
-      "MemoryOffset": 5972,
+      "MemoryOffset": 6202,
       "Description": "Set 'wait' to '1'"
     },
     {
       "CodeBlock": "scroll_right",
       "CodeBlockLine": 4,
-      "MemoryOffset": 5978,
-      "Description": "If 'camera_x' LessThan 'player_x / 256 * 256' ELSE GOTO 00006046"
-    },
-    {
-      "CodeBlock": "scroll_right",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6026,
+      "MemoryOffset": 6208,
       "Description": "Set 'camera_x' to 'camera_x + 4'"
     },
     {
       "CodeBlock": "scroll_right",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6040,
-      "Description": "GOTO 'SCROLL_RIGHT_START'"
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6222,
+      "Description": "GOTO '00006154'"
     },
     {
       "CodeBlock": "scroll_right",
-      "CodeBlockLine": 8,
-      "MemoryOffset": 6046,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6228,
       "Description": "Set 'isscrolling' to 'false'"
     },
     {
       "CodeBlock": "scroll_right",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 6052,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6234,
       "Description": "Set 'camera_follow' to '12'"
     },
     {
       "CodeBlock": "scroll_right",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 6058,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6240,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6060,
+      "MemoryOffset": 6242,
       "Description": "SET_FALL"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6060,
-      "Description": "If 'player_yspeed' LessThanOrEqual '0' ELSE GOTO 00006096"
+      "MemoryOffset": 6242,
+      "Description": "If 'player_yspeed' LessThanOrEqual '0' ELSE GOTO 00006278"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6094,
+      "MemoryOffset": 6276,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6096,
-      "Description": "If 'player_type' Equals 'man_ladder' ELSE GOTO 00006132"
+      "MemoryOffset": 6278,
+      "Description": "If 'player_type' Equals 'man_ladder' ELSE GOTO 00006314"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6130,
+      "MemoryOffset": 6312,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 7,
-      "MemoryOffset": 6132,
-      "Description": "If 'player_type' Equals 'man_static' ELSE GOTO 00006168"
+      "MemoryOffset": 6314,
+      "Description": "If 'player_type' Equals 'man_static' ELSE GOTO 00006350"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 8,
-      "MemoryOffset": 6166,
+      "MemoryOffset": 6348,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 10,
-      "MemoryOffset": 6168,
+      "MemoryOffset": 6350,
       "Description": "Set 'player_yspeed' to '1'"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 11,
-      "MemoryOffset": 6174,
+      "MemoryOffset": 6356,
       "Description": "Set 'fall_y' to 'player_y'"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 12,
-      "MemoryOffset": 6200,
-      "Description": "If 'player_type' NotEquals 'man_jumping' ELSE GOTO 00006254"
+      "MemoryOffset": 6382,
+      "Description": "If 'player_type' NotEquals 'man_jumping' ELSE GOTO 00006436"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 13,
-      "MemoryOffset": 6234,
+      "MemoryOffset": 6416,
       "Description": "Set 'actor_type' to 'man_falling'"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 13,
-      "MemoryOffset": 6240,
+      "MemoryOffset": 6422,
       "Description": "Set 'actor_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 14,
-      "MemoryOffset": 6246,
+      "MemoryOffset": 6428,
       "Description": "Set 'player_xspeed' to '0'"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 15,
-      "MemoryOffset": 6252,
+      "MemoryOffset": 6434,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 17,
-      "MemoryOffset": 6254,
+      "MemoryOffset": 6436,
       "Description": "Set 'actor_type' to 'man_falling_sideways'"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 17,
-      "MemoryOffset": 6260,
+      "MemoryOffset": 6442,
       "Description": "Set 'actor_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "set_fall",
       "CodeBlockLine": 17,
-      "MemoryOffset": 6266,
+      "MemoryOffset": 6448,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "set_ladder",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6268,
+      "MemoryOffset": 6450,
       "Description": "SET_LADDER"
     },
     {
       "CodeBlock": "set_ladder",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6268,
+      "MemoryOffset": 6450,
       "Description": "Set 'player_type' to 'man_ladder'"
     },
     {
       "CodeBlock": "set_ladder",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6274,
+      "MemoryOffset": 6456,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "set_ladder",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6280,
+      "MemoryOffset": 6462,
       "Description": "Set 'cangetoffladder' to 'false'"
     },
     {
       "CodeBlock": "set_ladder",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6286,
+      "MemoryOffset": 6468,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "set_man",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6288,
+      "MemoryOffset": 6470,
       "Description": "SET_MAN"
     },
     {
       "CodeBlock": "set_man",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6288,
+      "MemoryOffset": 6470,
       "Description": "Set 'player_type' to 'man'"
     },
     {
       "CodeBlock": "set_man",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6294,
+      "MemoryOffset": 6476,
       "Description": "Set 'camera_follow' to '12'"
     },
     {
       "CodeBlock": "set_man",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6300,
+      "MemoryOffset": 6482,
       "Description": "Set 'laddertop_y' to '0'"
     },
     {
       "CodeBlock": "set_man",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6306,
+      "MemoryOffset": 6488,
       "Description": "Set 'cangetoffladder' to 'false'"
     },
     {
       "CodeBlock": "set_man",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6312,
+      "MemoryOffset": 6494,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "spawn_handler",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6314,
+      "MemoryOffset": 6496,
       "Description": "SPAWN_HANDLER"
     },
     {
       "CodeBlock": "spawn_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6314,
+      "MemoryOffset": 6496,
       "Description": "Set 'actor_var1' to 'camera_x'"
     },
     {
       "CodeBlock": "spawn_handler",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6324,
+      "MemoryOffset": 6506,
       "Description": "Set 'actor_var2' to 'actor_y'"
     },
     {
       "CodeBlock": "spawn_handler",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6350,
+      "MemoryOffset": 6532,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "water_handler",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6352,
+      "MemoryOffset": 6534,
       "Description": "WATER_HANDLER"
     },
     {
       "CodeBlock": "water_handler",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6352,
-      "Description": "If 'player_type' NotEquals 'man_swim' ELSE GOTO 00006434"
+      "MemoryOffset": 6534,
+      "Description": "If 'player_type' NotEquals 'man_swim' ELSE GOTO 00006616"
     },
     {
       "CodeBlock": "water_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6386,
-      "Description": "If 'player_yspeed' LessThanOrEqual '0' ELSE GOTO 00006422"
+      "MemoryOffset": 6568,
+      "Description": "If 'player_yspeed' LessThanOrEqual '0' ELSE GOTO 00006604"
     },
     {
       "CodeBlock": "water_handler",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6420,
+      "MemoryOffset": 6602,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "water_handler",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6422,
+      "MemoryOffset": 6604,
       "Description": "Set 'player_type' to 'man_swim'"
     },
     {
       "CodeBlock": "water_handler",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6428,
+      "MemoryOffset": 6610,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "water_handler",
       "CodeBlockLine": 7,
-      "MemoryOffset": 6434,
-      "Description": "If 'player_y' LessThan 'block_y * 16' ELSE GOTO 00006492"
+      "MemoryOffset": 6616,
+      "Description": "If 'player_y' LessThan 'block_y * 16' ELSE GOTO 00006674"
     },
     {
       "CodeBlock": "water_handler",
       "CodeBlockLine": 8,
-      "MemoryOffset": 6480,
+      "MemoryOffset": 6662,
       "Description": "Set 'player_y' to 'block_y * 16'"
     },
     {
       "CodeBlock": "water_handler",
       "CodeBlockLine": 9,
-      "MemoryOffset": 6492,
+      "MemoryOffset": 6674,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "water_leftexit_handler",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6494,
+      "MemoryOffset": 6676,
       "Description": "WATER_LEFTEXIT_HANDLER"
     },
     {
       "CodeBlock": "water_leftexit_handler",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6494,
-      "Description": "If 'player_xspeed' LessThan '0' ELSE GOTO 00006560"
+      "MemoryOffset": 6676,
+      "Description": "If 'player_xspeed' LessThan '0' ELSE GOTO 00006748"
     },
     {
       "CodeBlock": "water_leftexit_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6528,
+      "MemoryOffset": 6710,
       "Description": "Set 'player_type' to 'man_forcejump'"
     },
     {
       "CodeBlock": "water_leftexit_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6534,
+      "MemoryOffset": 6716,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "water_leftexit_handler",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6540,
-      "Description": "Set 'player_yspeed' to '-2'"
+      "MemoryOffset": 6722,
+      "Description": "Set 'player_lookdir' to 'look_upleft'"
     },
     {
       "CodeBlock": "water_leftexit_handler",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6550,
-      "Description": "Set 'player_xspeed' to '-1'"
+      "MemoryOffset": 6728,
+      "Description": "Set 'player_yspeed' to '-2'"
     },
     {
       "CodeBlock": "water_leftexit_handler",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6560,
+      "MemoryOffset": 6738,
+      "Description": "Set 'player_xspeed' to '-1'"
+    },
+    {
+      "CodeBlock": "water_leftexit_handler",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6748,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "water_rightexit_handler",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6562,
+      "MemoryOffset": 6750,
       "Description": "WATER_RIGHTEXIT_HANDLER"
     },
     {
       "CodeBlock": "water_rightexit_handler",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6562,
-      "Description": "If 'player_xspeed' GreaterThan '0' ELSE GOTO 00006624"
+      "MemoryOffset": 6750,
+      "Description": "If 'player_xspeed' GreaterThan '0' ELSE GOTO 00006818"
     },
     {
       "CodeBlock": "water_rightexit_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6596,
+      "MemoryOffset": 6784,
       "Description": "Set 'player_type' to 'man_forcejump'"
     },
     {
       "CodeBlock": "water_rightexit_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6602,
+      "MemoryOffset": 6790,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "water_rightexit_handler",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6608,
-      "Description": "Set 'player_yspeed' to '-2'"
+      "MemoryOffset": 6796,
+      "Description": "Set 'player_lookdir' to 'move_upright'"
     },
     {
       "CodeBlock": "water_rightexit_handler",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6618,
-      "Description": "Set 'player_xspeed' to '1'"
+      "MemoryOffset": 6802,
+      "Description": "Set 'player_yspeed' to '-2'"
     },
     {
       "CodeBlock": "water_rightexit_handler",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6624,
+      "MemoryOffset": 6812,
+      "Description": "Set 'player_xspeed' to '1'"
+    },
+    {
+      "CodeBlock": "water_rightexit_handler",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6818,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "waterfall_handler",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6626,
+      "MemoryOffset": 6820,
       "Description": "WATERFALL_HANDLER"
     },
     {
       "CodeBlock": "waterfall_handler",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6626,
-      "Description": "If 'player_x' LessThan 'block_x * 16' ELSE GOTO 00006674"
+      "MemoryOffset": 6820,
+      "Description": "If 'player_x' LessThan 'block_x * 16' ELSE GOTO 00006868"
     },
     {
       "CodeBlock": "waterfall_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6672,
+      "MemoryOffset": 6866,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "waterfall_handler",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6674,
-      "Description": "If 'player_type' Equals 'man_swim' ELSE GOTO 00006726"
+      "MemoryOffset": 6868,
+      "Description": "If 'player_type' Equals 'man_swim' ELSE GOTO 00006920"
     },
     {
       "CodeBlock": "waterfall_handler",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6708,
+      "MemoryOffset": 6902,
       "Description": "Set 'player_type' to 'man_forcejump'"
     },
     {
       "CodeBlock": "waterfall_handler",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6714,
+      "MemoryOffset": 6908,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "waterfall_handler",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6720,
+      "MemoryOffset": 6914,
       "Description": "Set 'player_lookdir' to 'move_right'"
     },
     {
       "CodeBlock": "waterfall_handler",
       "CodeBlockLine": 7,
-      "MemoryOffset": 6726,
+      "MemoryOffset": 6920,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "wrap_fix",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6728,
+      "MemoryOffset": 6922,
       "Description": "WRAP_FIX"
     },
     {
       "CodeBlock": "wrap_fix",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6728,
-      "Description": "If 'actor_var1' NotEquals 'camera_x' ELSE GOTO 00006772"
+      "MemoryOffset": 6922,
+      "Description": "If 'actor_var1' NotEquals 'camera_x' ELSE GOTO 00006966"
     },
     {
       "CodeBlock": "wrap_fix",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6766,
+      "MemoryOffset": 6960,
       "Description": "Set 'actor_type' to 'none'"
     },
     {
       "CodeBlock": "wrap_fix",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6772,
+      "MemoryOffset": 6966,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "wrap_right",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6774,
+      "MemoryOffset": 6968,
       "Description": "WRAP_RIGHT"
     },
     {
       "CodeBlock": "wrap_right",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6774,
-      "Description": "If 'actor_var1' NotEquals 'camera_x' ELSE GOTO 00006820"
+      "MemoryOffset": 6968,
+      "Description": "If 'actor_var1' NotEquals 'camera_x' ELSE GOTO 00007014"
     },
     {
       "CodeBlock": "wrap_right",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6812,
+      "MemoryOffset": 7006,
       "Description": "Set 'actor_type' to 'none'"
     },
     {
       "CodeBlock": "wrap_right",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6818,
+      "MemoryOffset": 7012,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "wrap_right",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6820,
+      "MemoryOffset": 7014,
       "Description": "Set 'actor_x' to 'actor_x - 256 - 16'"
     },
     {
       "CodeBlock": "wrap_right",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6854,
+      "MemoryOffset": 7048,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6856,
+      "MemoryOffset": 7050,
       "Description": "STARTUP"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6856,
+      "MemoryOffset": 7050,
       "Description": "Set 'music' to 'pitfall_ii'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6862,
+      "MemoryOffset": 7056,
       "Description": "Set 'yres' to '192'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6868,
+      "MemoryOffset": 7062,
       "Description": "Set 'camera_boxleft' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6874,
+      "MemoryOffset": 7068,
       "Description": "Set 'camera_boxright' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6880,
+      "MemoryOffset": 7074,
       "Description": "Set 'camera_boxup' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6886,
+      "MemoryOffset": 7080,
       "Description": "Set 'camera_boxdown' to '16'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6892,
+      "MemoryOffset": 7086,
       "Description": "Set 'panel_top' to 'mainpanel'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6898,
+      "MemoryOffset": 7092,
       "Description": "RESTART_GAME"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6898,
+      "MemoryOffset": 7092,
       "Description": "Set 'has_caverat' to 'false'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 6904,
+      "MemoryOffset": 7098,
       "Description": "Set 'has_diamond' to 'false'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 8,
-      "MemoryOffset": 6910,
+      "MemoryOffset": 7104,
       "Description": "Set 'has_rhonda' to 'false'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 9,
-      "MemoryOffset": 6916,
+      "MemoryOffset": 7110,
       "Description": "Set 'has_quickclaw' to 'false'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 10,
-      "MemoryOffset": 6922,
+      "MemoryOffset": 7116,
       "Description": "Set 'score_high' to '4'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 11,
-      "MemoryOffset": 6928,
+      "MemoryOffset": 7122,
       "Description": "Set 'score_low' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 12,
-      "MemoryOffset": 6934,
+      "MemoryOffset": 7128,
       "Description": "Set 'level' to 'map'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 13,
-      "MemoryOffset": 6940,
+      "MemoryOffset": 7134,
       "Description": "Set 'camera_x' to 'player_x / 256 * 256'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 14,
-      "MemoryOffset": 6970,
+      "MemoryOffset": 7164,
       "Description": "Set 'camera_follow' to '12'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 14,
-      "MemoryOffset": 6976,
+      "MemoryOffset": 7170,
       "Description": "RETURN TO GAME OR GOSUB"
     }
   ],

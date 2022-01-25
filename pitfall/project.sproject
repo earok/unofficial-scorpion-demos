@@ -1,6 +1,6 @@
 {
   "GFXMode": "BP5",
-  "EmulatedAmiga": "A1200",
+  "EmulatedAmiga": "A4000/040",
   "EmulatedFastRam": 2,
   "Talkpad": null,
   "Talkpad_OnBottom": false,
@@ -184,7 +184,7 @@
       "Divert_OnFinish": "set_fall"
     },
     "fall_left_sideways": {
-      "Divert_OnFinish": "fall_handler"
+      "Divert_OnFinish": ""
     },
     "fall_left_end": {
       "Divert_OnFinish": "fall_ended"
@@ -193,7 +193,7 @@
       "Divert_OnFinish": "fall_ended"
     },
     "fall_right_sideways": {
-      "Divert_OnFinish": "fall_handler"
+      "Divert_OnFinish": ""
     },
     "celebrate_left": {
       "Divert_OnFinish": ""
