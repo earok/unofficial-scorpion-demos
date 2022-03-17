@@ -1,0 +1,44 @@
+=== Image optimisations ===
+
+=== Misc ===
+Actor Count: 1
+Actor Data Size: 292
+Block Count: 1
+Block Data Size: 52
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 1
+Sound Data Size: 16
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 1
+Animations Data Size: 16
+AnimationFrame Count: 2
+AnimationFrame Data Size: 136
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 4764. Crunched size: 1504
+Crunching Header data for map map_movie as 1.mhd. Original size: 11544. Crunched size: 286
+Crunching Data for map map_movie as 1.map. Original size: 13100. Crunched size: 3532
+Crunching Asset bundle 0 as 0.gfx. Original size: 4. Crunched size: 4
+Crunching Asset bundle 1 as 1.gfx. Original size: 142848. Crunched size: 58010
+Crunching Project data as project.dat. Original size: 524. Crunched size: 76
+Crunching Scorpion header as project.hd. Original size: 2992. Crunched size: 1160
+
+Estimated memory usages:
+
+For chip:
+Map gfx (level gfx bundle 1 ): 142848
+Music memory: 0
+BP Buffer memory: 107136
+core sfx/gfx memory: 4
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 13100
+EXE memory: 194108
+vm memory: 4764
+project memory: 524
+
+Accounted memory chip: 249988
+Accounted memory other: 212496
+Accounted memory total: 462484

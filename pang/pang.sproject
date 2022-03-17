@@ -1,7 +1,7 @@
 {
   "GFXMode": "BP5",
   "EmulatedAmiga": "A500+",
-  "EmulatedFastRam": 8,
+  "EmulatedFastRam": 0,
   "Talkpad": null,
   "Talkpad_OnBottom": false,
   "WinUAEConfiguration": null,
@@ -13,17 +13,16 @@
   "FMode": 0,
   "Width": 304,
   "XOffset": 0,
-  "Implode": true,
-  "DoubleSmooth": false,
-  "DoubleBlockSpeed": false,
+  "Implode": false,
   "MapCache": false,
   "Fire1Jump": false,
   "Fire2Jump": true,
   "UpJump": true,
   "JumpOnHold": false,
+  "XFillSize": 23,
   "YFillSize": 17,
   "Add21K": false,
-  "DataVersion": 1,
+  "DataVersion": 2,
   "Commands": [],
   "AnimationMetaData": {
     "red_explo_l": {
@@ -33,15 +32,6 @@
       "Divert_OnFinish": "destroy_actor"
     },
     "red_explo_m": {
-      "Divert_OnFinish": "destroy_actor"
-    },
-    "explo_xl": {
-      "Divert_OnFinish": "destroy_actor"
-    },
-    "explo_m": {
-      "Divert_OnFinish": "destroy_actor"
-    },
-    "explo_l": {
       "Divert_OnFinish": "destroy_actor"
     }
   },

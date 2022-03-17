@@ -33,24 +33,50 @@ Anim5 Count: 1
 Anim5 Data Size: 4
 Sound Count: 2
 Sound Data Size: 32
-Teleporter Count: 2
-Teleporter Data Size: 16
+Teleporter Count: 3
+Teleporter Data Size: 24
 Animations Count: 27
 Animations Data Size: 432
 AnimationFrame Count: 108
 AnimationFrame Data Size: 7344
-Crunching Panel hud as 1.img. Original size: 11712. Crunched size: 1126
-Crunching Panel main_menu as 2.img. Original size: 52560. Crunched size: 4196
-Crunching Panel pic_title as 3.img. Original size: 55002. Crunched size: 25238
-Crunching Panel talkpad as 4.img. Original size: 29462. Crunched size: 2762
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 4440. Crunched size: 1904
-Crunching Data for map map_bedroom as 1.map. Original size: 13936. Crunched size: 696
-Crunching Data for map map_house_night as 2.map. Original size: 13916. Crunched size: 654
-Crunching Data for map map_intro as 3.map. Original size: 19640. Crunched size: 1844
-Crunching Data for map map_outside as 4.map. Original size: 40408. Crunched size: 3262
+Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3312
+Crunching Panel hud as 1.img. Original size: 11720. Crunched size: 1124
+Crunching Panel main_menu as 2.img. Original size: 52568. Crunched size: 4198
+Crunching Panel pic_title as 3.img. Original size: 55010. Crunched size: 25244
+Crunching Panel talkpad as 4.img. Original size: 29470. Crunched size: 2764
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 8544. Crunched size: 3128
+Crunching Header data for map map_bedroom as 1.mhd. Original size: 11556. Crunched size: 362
+Crunching Data for map map_bedroom as 1.map. Original size: 2540. Crunched size: 490
+Crunching Header data for map map_house_night as 2.mhd. Original size: 11556. Crunched size: 310
+Crunching Data for map map_house_night as 2.map. Original size: 2520. Crunched size: 494
+Crunching Header data for map map_intro as 3.mhd. Original size: 11556. Crunched size: 358
+Crunching Data for map map_intro as 3.map. Original size: 8236. Crunched size: 1640
+Crunching Header data for map map_outside as 4.mhd. Original size: 11556. Crunched size: 400
+Crunching Data for map map_outside as 4.map. Original size: 29492. Crunched size: 3156
 Crunching Asset bundle 0 as 0.gfx. Original size: 82266. Crunched size: 43282
 Crunching Asset bundle 1 as 1.gfx. Original size: 10560. Crunched size: 4378
 Crunching Asset bundle 2 as 2.gfx. Original size: 13120. Crunched size: 5374
 Crunching Asset bundle 3 as 3.gfx. Original size: 84160. Crunched size: 65114
 Crunching Asset bundle 4 as 4.gfx. Original size: 32960. Crunched size: 14762
-Crunching Project data as project.dat. Original size: 13460. Crunched size: 3104
+Crunching Project data as project.dat. Original size: 10496. Crunched size: 2000
+Crunching Scorpion header as project.hd. Original size: 3004. Crunched size: 1186
+
+Estimated memory usages:
+
+For chip:
+Map gfx (level gfx bundle 3 ): 84160
+Music memory: 17748
+BP Buffer memory: 105260
+core sfx/gfx memory: 82266
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 29492
+EXE memory: 189936
+vm memory: 8544
+project memory: 10496
+
+Accounted memory chip: 289434
+Accounted memory other: 238468
+Accounted memory total: 527902

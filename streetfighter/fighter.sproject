@@ -71,28 +71,6 @@
       "OnRelease": null
     }
   ],
-  "AnimationMetaData": {
-    "ryu_hadouken": {
-      "Divert_OnFinish": "reset_attacks"
-    },
-    "ken_hurt": {
-      "Divert_OnFinish": "reset_ken"
-    },
-    "impact_idle": {
-      "Divert_OnFinish": "destroy_actor"
-    },
-    "hadou_impact": {
-      "Divert_OnFinish": "destroy_actor"
-    },
-    "ryu_kick": {
-      "Divert_OnFinish": "reset_attacks"
-    },
-    "ryu_punch": {
-      "Divert_OnFinish": "reset_attacks"
-    },
-    "ryu_kick_air": {
-      "Divert_OnFinish": "reset_attacks"
-    }
-  },
+  "AnimationMetaData": {},
   "Anim5MetaData": {}
 }

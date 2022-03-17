@@ -14,8 +14,6 @@
   "Width": 256,
   "XOffset": 32,
   "Implode": true,
-  "DoubleSmooth": false,
-  "DoubleBlockSpeed": false,
   "MapCache": false,
   "Fire1Jump": true,
   "Fire2Jump": false,
@@ -147,58 +145,7 @@
     }
   ],
   "AnimationMetaData": {
-    "ladder_in_left": {
-      "Divert_OnFinish": ""
-    },
-    "ladder_in_right": {
-      "Divert_OnFinish": ""
-    },
     "ladder_out_left": {
-      "Divert_OnFinish": ""
-    },
-    "ladder_idle": {
-      "Divert_OnFinish": "set_ladder"
-    },
-    "fall_right": {
-      "Divert_OnFinish": "fall_handler"
-    },
-    "fall_left": {
-      "Divert_OnFinish": "fall_handler"
-    },
-    "jump_right": {
-      "Divert_OnFinish": "set_fall"
-    },
-    "jump_left": {
-      "Divert_OnFinish": "set_fall"
-    },
-    "jumpfinish_left": {
-      "Divert_OnFinish": "set_man"
-    },
-    "jumpfinish_right": {
-      "Divert_OnFinish": "set_man"
-    },
-    "fall_left_start": {
-      "Divert_OnFinish": "set_fall"
-    },
-    "fall_right_start": {
-      "Divert_OnFinish": "set_fall"
-    },
-    "fall_left_sideways": {
-      "Divert_OnFinish": ""
-    },
-    "fall_left_end": {
-      "Divert_OnFinish": "fall_ended"
-    },
-    "fall_right_end": {
-      "Divert_OnFinish": "fall_ended"
-    },
-    "fall_right_sideways": {
-      "Divert_OnFinish": ""
-    },
-    "celebrate_left": {
-      "Divert_OnFinish": ""
-    },
-    "celebrate_right": {
       "Divert_OnFinish": ""
     }
   },

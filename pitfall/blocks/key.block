@@ -9,9 +9,11 @@
   "Divert_PlayerHit": null,
   "Divert_PlayerOverlap": "",
   "Divert_ProjectileCollision": null,
+  "OnAnimationFrame": null,
   "ShootOver": false,
   "FastBlit": false,
   "IsInvisible": false,
   "IsSlope": false,
+  "ReplaceTileProperties": false,
   "TileID": 1
 }

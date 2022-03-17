@@ -34,5 +34,6 @@
   "SpriteType": "Attached_16colors",
   "Multiplexes": 0,
   "LoopFrame": 0,
-  "LinkedMap": null
+  "LinkedMap": null,
+  "OnFinish": "fall_ended"
 }

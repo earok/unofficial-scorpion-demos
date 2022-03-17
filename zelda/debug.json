@@ -296,6 +296,13 @@
     },
     {
       "CodeBlock": "vm_constants",
+      "Name": "jump_movement",
+      "DefaultValue": "-2",
+      "Index": 0,
+      "MemoryOffset": 0
+    },
+    {
+      "CodeBlock": "vm_constants",
       "Name": "left",
       "DefaultValue": "1",
       "Index": 0,
@@ -984,479 +991,458 @@
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Sound",
-      "DefaultValue": "0",
+      "Name": "Talkpad_TextDelay",
+      "DefaultValue": "1",
       "Index": 90,
       "MemoryOffset": 180
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Anim",
-      "DefaultValue": "0",
+      "Name": "Panel",
+      "DefaultValue": "-1",
       "Index": 91,
       "MemoryOffset": 182
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Talkpad_TextDelay",
-      "DefaultValue": "1",
+      "Name": "Panel_Top",
+      "DefaultValue": "0",
       "Index": 92,
       "MemoryOffset": 184
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Panel",
+      "Name": "Panel_Bottom",
       "DefaultValue": "0",
       "Index": 93,
       "MemoryOffset": 186
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Panel_Top",
+      "Name": "Option",
       "DefaultValue": "0",
       "Index": 94,
       "MemoryOffset": 188
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Panel_Bottom",
+      "Name": "Block_Type",
       "DefaultValue": "0",
       "Index": 95,
       "MemoryOffset": 190
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Option",
+      "Name": "Block_X",
       "DefaultValue": "0",
       "Index": 96,
       "MemoryOffset": 192
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Block_Type",
+      "Name": "Block_Y",
       "DefaultValue": "0",
       "Index": 97,
       "MemoryOffset": 194
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Block_Spawn",
+      "Name": "Teleport",
       "DefaultValue": "0",
       "Index": 98,
       "MemoryOffset": 196
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Block_X",
+      "Name": "ForceFadeOut",
       "DefaultValue": "0",
       "Index": 99,
       "MemoryOffset": 198
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Block_Y",
-      "DefaultValue": "0",
+      "Name": "Camera_Follow",
+      "DefaultValue": "15",
       "Index": 100,
       "MemoryOffset": 200
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Palette_Pointer",
+      "Name": "Frame_Wait",
       "DefaultValue": "0",
       "Index": 101,
       "MemoryOffset": 202
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Palette_Value",
-      "DefaultValue": "0",
+      "Name": "MusicVol",
+      "DefaultValue": "64",
       "Index": 102,
       "MemoryOffset": 204
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Yield",
+      "Name": "Saved",
       "DefaultValue": "0",
       "Index": 103,
       "MemoryOffset": 206
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Yield_On_Level",
+      "Name": "Loaded",
       "DefaultValue": "0",
       "Index": 104,
       "MemoryOffset": 208
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Teleport",
-      "DefaultValue": "0",
+      "Name": "SoundVol",
+      "DefaultValue": "64",
       "Index": 105,
       "MemoryOffset": 210
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "ForceFadeOut",
-      "DefaultValue": "0",
+      "Name": "AutoFadeMusic",
+      "DefaultValue": "false",
       "Index": 106,
       "MemoryOffset": 212
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Camera_Follow",
-      "DefaultValue": "15",
+      "Name": "FadeTime",
+      "DefaultValue": "24",
       "Index": 107,
       "MemoryOffset": 214
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Frame_Wait",
+      "Name": "Camera_BoxLeft",
       "DefaultValue": "0",
       "Index": 108,
       "MemoryOffset": 216
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Scroll_X",
+      "Name": "Camera_BoxRight",
       "DefaultValue": "0",
       "Index": 109,
       "MemoryOffset": 218
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Scroll_Y",
+      "Name": "Camera_BoxUp",
       "DefaultValue": "0",
       "Index": 110,
       "MemoryOffset": 220
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "MusicVol",
-      "DefaultValue": "64",
+      "Name": "Camera_BoxDown",
+      "DefaultValue": "0",
       "Index": 111,
       "MemoryOffset": 222
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "PaletteSwap",
+      "Name": "Control1_X",
       "DefaultValue": "0",
       "Index": 112,
       "MemoryOffset": 224
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Stack_Pointer",
-      "DefaultValue": "1023",
+      "Name": "Control1_Y",
+      "DefaultValue": "0",
       "Index": 113,
       "MemoryOffset": 226
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Stack_Value",
+      "Name": "Control1Fire",
       "DefaultValue": "0",
       "Index": 114,
       "MemoryOffset": 228
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "SoundVol",
-      "DefaultValue": "64",
+      "Name": "Control1Jump",
+      "DefaultValue": "0",
       "Index": 115,
       "MemoryOffset": 230
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "AutoFadeMusic",
-      "DefaultValue": "false",
+      "Name": "Control2_X",
+      "DefaultValue": "0",
       "Index": 116,
       "MemoryOffset": 232
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "FadeTime",
-      "DefaultValue": "24",
+      "Name": "Control2_Y",
+      "DefaultValue": "0",
       "Index": 117,
       "MemoryOffset": 234
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Camera_BoxLeft",
+      "Name": "Control2Fire",
       "DefaultValue": "0",
       "Index": 118,
       "MemoryOffset": 236
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Camera_BoxRight",
+      "Name": "Control2Jump",
       "DefaultValue": "0",
       "Index": 119,
       "MemoryOffset": 238
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Camera_BoxUp",
+      "Name": "Control3_X",
       "DefaultValue": "0",
       "Index": 120,
       "MemoryOffset": 240
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Camera_BoxDown",
+      "Name": "Control3_Y",
       "DefaultValue": "0",
       "Index": 121,
       "MemoryOffset": 242
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Control1_X",
+      "Name": "Control3Fire",
       "DefaultValue": "0",
       "Index": 122,
       "MemoryOffset": 244
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Control1_Y",
+      "Name": "Control3Jump",
       "DefaultValue": "0",
       "Index": 123,
       "MemoryOffset": 246
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Control1Fire",
+      "Name": "Control4_X",
       "DefaultValue": "0",
       "Index": 124,
       "MemoryOffset": 248
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Control1Jump",
+      "Name": "Control4_Y",
       "DefaultValue": "0",
       "Index": 125,
       "MemoryOffset": 250
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Control2_X",
+      "Name": "Control4Fire",
       "DefaultValue": "0",
       "Index": 126,
       "MemoryOffset": 252
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Control2_Y",
+      "Name": "Control4Jump",
       "DefaultValue": "0",
       "Index": 127,
       "MemoryOffset": 254
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Control2Fire",
+      "Name": "PushFrames",
       "DefaultValue": "0",
       "Index": 128,
       "MemoryOffset": 256
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Control2Jump",
+      "Name": "Param",
       "DefaultValue": "0",
       "Index": 129,
       "MemoryOffset": 258
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Control3_X",
+      "Name": "IsAGA",
       "DefaultValue": "0",
       "Index": 130,
       "MemoryOffset": 260
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Control3_Y",
+      "Name": "IsNTSC",
       "DefaultValue": "0",
       "Index": 131,
       "MemoryOffset": 262
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Control3Fire",
+      "Name": "IsFloppy",
       "DefaultValue": "0",
       "Index": 132,
       "MemoryOffset": 264
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Control3Jump",
-      "DefaultValue": "0",
+      "Name": "PlatformSnap",
+      "DefaultValue": "8",
       "Index": 133,
       "MemoryOffset": 266
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Control4_X",
-      "DefaultValue": "0",
+      "Name": "EventsToCheck",
+      "DefaultValue": "1",
       "Index": 134,
       "MemoryOffset": 268
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Control4_Y",
+      "Name": "Frame_CountDown",
       "DefaultValue": "0",
       "Index": 135,
       "MemoryOffset": 270
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Control4Fire",
-      "DefaultValue": "0",
+      "Name": "YRes",
+      "DefaultValue": "224",
       "Index": 136,
       "MemoryOffset": 272
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Control4Jump",
+      "Name": "CameraTargetX",
       "DefaultValue": "0",
       "Index": 137,
       "MemoryOffset": 274
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "PushFrames",
+      "Name": "CameraTargetY",
       "DefaultValue": "0",
       "Index": 138,
       "MemoryOffset": 276
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Param",
-      "DefaultValue": "0",
+      "Name": "Panel_Gap",
+      "DefaultValue": "4",
       "Index": 139,
       "MemoryOffset": 278
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "IsAGA",
+      "Name": "Actor_Count",
       "DefaultValue": "0",
       "Index": 140,
       "MemoryOffset": 280
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "IsNTSC",
+      "Name": "MapWidth",
       "DefaultValue": "0",
       "Index": 141,
       "MemoryOffset": 282
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "IsFloppy",
+      "Name": "MapHeight",
       "DefaultValue": "0",
       "Index": 142,
       "MemoryOffset": 284
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "PlatformSnap",
-      "DefaultValue": "8",
+      "Name": "MapWidthTiles",
+      "DefaultValue": "0",
       "Index": 143,
       "MemoryOffset": 286
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "EventsToCheck",
-      "DefaultValue": "1",
+      "Name": "MapHeightTiles",
+      "DefaultValue": "0",
       "Index": 144,
       "MemoryOffset": 288
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Frame_CountDown",
+      "Name": "RegenerateScreen",
       "DefaultValue": "0",
       "Index": 145,
       "MemoryOffset": 290
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "YRes",
-      "DefaultValue": "224",
+      "Name": "Brightness",
+      "DefaultValue": "0",
       "Index": 146,
       "MemoryOffset": 292
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "CameraTargetX",
+      "Name": "BackgroundSpritePairs",
       "DefaultValue": "0",
       "Index": 147,
       "MemoryOffset": 294
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "CameraTargetY",
+      "Name": "NewValue",
       "DefaultValue": "0",
       "Index": 148,
       "MemoryOffset": 296
     },
     {
-      "CodeBlock": "vm_registers",
-      "Name": "Panel_Gap",
-      "DefaultValue": "4",
-      "Index": 149,
-      "MemoryOffset": 298
-    },
-    {
-      "CodeBlock": "vm_registers",
-      "Name": "MapWidth",
-      "DefaultValue": "0",
-      "Index": 150,
-      "MemoryOffset": 300
-    },
-    {
-      "CodeBlock": "vm_registers",
-      "Name": "MapHeight",
-      "DefaultValue": "0",
-      "Index": 151,
-      "MemoryOffset": 302
-    },
-    {
       "CodeBlock": "move_camera_right",
       "Name": "camera_target",
       "DefaultValue": "0",
-      "Index": 152,
-      "MemoryOffset": 304
+      "Index": 149,
+      "MemoryOffset": 298
     },
     {
       "CodeBlock": "startup",
       "Name": "rupee",
       "DefaultValue": "0",
-      "Index": 153,
-      "MemoryOffset": 306
+      "Index": 150,
+      "MemoryOffset": 300
     },
     {
       "CodeBlock": "startup",
       "Name": "has_sword",
       "DefaultValue": "false",
-      "Index": 154,
-      "MemoryOffset": 308
+      "Index": 151,
+      "MemoryOffset": 302
     },
     {
       "CodeBlock": "startup",
       "Name": "has_shield",
       "DefaultValue": "false",
-      "Index": 155,
-      "MemoryOffset": 310
+      "Index": 152,
+      "MemoryOffset": 304
     },
     {
       "CodeBlock": "startup",
       "Name": "max_health",
       "DefaultValue": "6",
-      "Index": 156,
-      "MemoryOffset": 312
+      "Index": 153,
+      "MemoryOffset": 306
     },
     {
       "CodeBlock": "startup",
       "Name": "health",
       "DefaultValue": "6",
-      "Index": 157,
-      "MemoryOffset": 314
+      "Index": 154,
+      "MemoryOffset": 308
     }
   ],
   "Lines": [
@@ -1464,7 +1450,7 @@
       "CodeBlock": "project",
       "CodeBlockLine": 1,
       "MemoryOffset": 0,
-      "Description": "GOTO 'STARTUP'"
+      "Description": "GOTO 'PART3'"
     },
     {
       "CodeBlock": "debug_dump",
@@ -1476,1746 +1462,4968 @@
       "CodeBlock": "debug_dump",
       "CodeBlockLine": 1,
       "MemoryOffset": 6,
-      "Description": "DEBUG DUMP"
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "debug_dump",
       "CodeBlockLine": 1,
       "MemoryOffset": 8,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "debug_dump",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 10,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "destroy_actor",
       "CodeBlockLine": 0,
-      "MemoryOffset": 10,
+      "MemoryOffset": 12,
       "Description": "DESTROY_ACTOR"
     },
     {
       "CodeBlock": "destroy_actor",
       "CodeBlockLine": 1,
-      "MemoryOffset": 10,
+      "MemoryOffset": 12,
       "Description": "Set 'actor_type' to 'none'"
     },
     {
       "CodeBlock": "destroy_actor",
       "CodeBlockLine": 1,
-      "MemoryOffset": 16,
+      "MemoryOffset": 22,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "destroy_actor",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 24,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "destroy_actor",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 26,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "destroy_actor",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 30,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "destroy_all_actors",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 32,
+      "Description": "DESTROY_ALL_ACTORS"
+    },
+    {
+      "CodeBlock": "destroy_all_actors",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 32,
+      "Description": "Foreach 'none' do 'destroy_actor'"
+    },
+    {
+      "CodeBlock": "destroy_all_actors",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 46,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 48,
+      "Description": "DESTROY_ALL_BLOCKS"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 48,
+      "Description": "Set 'block_y' to '0'"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 58,
+      "Description": "If 'block_y' LessThan 'mapheighttiles' ELSE GOTO 00000192"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 86,
+      "Description": "Set 'block_x' to '0'"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 96,
+      "Description": "If 'block_x' LessThan 'mapwidthtiles' ELSE GOTO 00000172"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 124,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 126,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 128,
+      "Description": "Raw expression 'none'"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 136,
+      "Description": "Raw expression 'block_x'"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 144,
+      "Description": "Raw expression 'block_y'"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 152,
+      "Description": "Set 'block_x' to 'block_x + 1'"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 166,
+      "Description": "GOTO '00000096'"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 172,
+      "Description": "Set 'block_y' to 'block_y + 1'"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 186,
+      "Description": "GOTO '00000058'"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 192,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "destroy_block",
       "CodeBlockLine": 0,
-      "MemoryOffset": 18,
+      "MemoryOffset": 194,
       "Description": "DESTROY_BLOCK"
     },
     {
       "CodeBlock": "destroy_block",
       "CodeBlockLine": 1,
-      "MemoryOffset": 18,
-      "Description": "Set 'block_type' to 'none'"
+      "MemoryOffset": 194,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "destroy_block",
       "CodeBlockLine": 1,
-      "MemoryOffset": 24,
+      "MemoryOffset": 196,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "destroy_block",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 198,
+      "Description": "Raw expression 'none'"
+    },
+    {
+      "CodeBlock": "destroy_block",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 206,
+      "Description": "Raw expression 'block_x'"
+    },
+    {
+      "CodeBlock": "destroy_block",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 214,
+      "Description": "Raw expression 'block_y'"
+    },
+    {
+      "CodeBlock": "destroy_block",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 222,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 224,
+      "Description": "DO_TELEPORT"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 224,
+      "Description": "If 'newvalue' LessThanOrEqual '0' ELSE GOTO 00000294"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 252,
+      "Description": "GOSUB TO 'PRE_QUIT'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 294,
+      "Description": "Set 'teleport' to 'newvalue'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 304,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 306,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 308,
+      "Description": "If 'teleport' NotZero '0' ELSE GOTO 00000480"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 332,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 334,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 336,
+      "Description": "Raw expression 'player_type'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 354,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 356,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 358,
+      "Description": "Raw expression 'player_var1'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 376,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 378,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 380,
+      "Description": "Raw expression 'player_var2'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 398,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 400,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 402,
+      "Description": "Raw expression 'player_var3'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 420,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 422,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 424,
+      "Description": "Raw expression 'player_var4'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 442,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 444,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 446,
+      "Description": "Raw expression 'player_var5'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 464,
+      "Description": "Set 'newvalue' to 'level'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 474,
+      "Description": "GOSUB TO 'LOAD_LEVEL'"
+    },
+    {
+      "CodeBlock": "do_teleport",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 480,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "fadein",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 482,
+      "Description": "FADEIN"
+    },
+    {
+      "CodeBlock": "fadein",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 482,
+      "Description": "If 'level' NotZero '0' ELSE GOTO 00000530"
+    },
+    {
+      "CodeBlock": "fadein",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 506,
+      "Description": "Set 'forcefadeout' to 'false'"
+    },
+    {
+      "CodeBlock": "fadein",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 516,
+      "Description": "Set 'brightness' to '-5'"
+    },
+    {
+      "CodeBlock": "fadein",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 526,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "fadein",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 528,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "fadein",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 530,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "fadeout",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 532,
+      "Description": "FADEOUT"
+    },
+    {
+      "CodeBlock": "fadeout",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 532,
+      "Description": "If 'level' NotZero '0' ELSE GOTO 00000610"
+    },
+    {
+      "CodeBlock": "fadeout",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 556,
+      "Description": "Set 'forcefadeout' to 'true'"
+    },
+    {
+      "CodeBlock": "fadeout",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 566,
+      "Description": "If 'brightness' GreaterThan '-5' ELSE GOTO 00000604"
+    },
+    {
+      "CodeBlock": "fadeout",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 594,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "fadeout",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 596,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "fadeout",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 598,
+      "Description": "GOTO '00000566'"
+    },
+    {
+      "CodeBlock": "fadeout",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 604,
+      "Description": "GOSUB TO 'REGENERATE_SCREEN'"
+    },
+    {
+      "CodeBlock": "fadeout",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 610,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "flipscreen",
       "CodeBlockLine": 0,
-      "MemoryOffset": 26,
+      "MemoryOffset": 612,
       "Description": "FLIPSCREEN"
     },
     {
       "CodeBlock": "flipscreen",
       "CodeBlockLine": 1,
-      "MemoryOffset": 26,
-      "Description": "Set 'stack_pointer' to 'stack_pointer - 1'"
-    },
-    {
-      "CodeBlock": "flipscreen",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 40,
-      "Description": "Set 'stack_value' to 'camera_follow'"
-    },
-    {
-      "CodeBlock": "flipscreen",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 50,
+      "MemoryOffset": 612,
       "Description": "Set 'camera_x' to 'Player_X / XRes * XRes'"
     },
     {
       "CodeBlock": "flipscreen",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 80,
+      "CodeBlockLine": 1,
+      "MemoryOffset": 636,
       "Description": "Set 'camera_y' to 'Player_Y / YRes * YRes'"
     },
     {
       "CodeBlock": "flipscreen",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 114,
-      "Description": "Set 'camera_follow' to 'stack_value'"
-    },
-    {
-      "CodeBlock": "flipscreen",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 124,
-      "Description": "Set 'stack_pointer' to 'stack_pointer + 1'"
-    },
-    {
-      "CodeBlock": "flipscreen",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 138,
+      "CodeBlockLine": 1,
+      "MemoryOffset": 664,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "flipscreen_smooth",
       "CodeBlockLine": 0,
-      "MemoryOffset": 140,
+      "MemoryOffset": 666,
       "Description": "FLIPSCREEN_SMOOTH"
     },
     {
       "CodeBlock": "flipscreen_smooth",
       "CodeBlockLine": 1,
-      "MemoryOffset": 140,
-      "Description": "Set 'stack_pointer' to 'stack_pointer - 1'"
-    },
-    {
-      "CodeBlock": "flipscreen_smooth",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 154,
-      "Description": "Set 'stack_value' to 'camera_follow'"
+      "MemoryOffset": 666,
+      "Description": "If 'camera_x' LessThan 'Player_X / XRes * XRes' ELSE GOTO 00000744"
     },
     {
       "CodeBlock": "flipscreen_smooth",
       "CodeBlockLine": 2,
-      "MemoryOffset": 164,
-      "Description": "If 'camera_x' LessThan 'Player_X / XRes * XRes' ELSE GOTO 00000238"
-    },
-    {
-      "CodeBlock": "flipscreen_smooth",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 212,
+      "MemoryOffset": 708,
       "Description": "Set 'camera_x' to 'Camera_X + 4'"
     },
     {
       "CodeBlock": "flipscreen_smooth",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 226,
+      "CodeBlockLine": 3,
+      "MemoryOffset": 722,
       "Description": "Set 'wait' to '1'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 732,
+      "Description": "GOSUB TO 'WAITFORFRAMES'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 738,
+      "Description": "GOTO '00000666'"
     },
     {
       "CodeBlock": "flipscreen_smooth",
       "CodeBlockLine": 5,
-      "MemoryOffset": 232,
-      "Description": "GOTO '00000164'"
+      "MemoryOffset": 744,
+      "Description": "If 'camera_x' GreaterThan 'Player_X / XRes * XRes' ELSE GOTO 00000822"
     },
     {
       "CodeBlock": "flipscreen_smooth",
       "CodeBlockLine": 6,
-      "MemoryOffset": 238,
-      "Description": "If 'camera_x' GreaterThan 'Player_X / XRes * XRes' ELSE GOTO 00000312"
-    },
-    {
-      "CodeBlock": "flipscreen_smooth",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 286,
+      "MemoryOffset": 786,
       "Description": "Set 'camera_x' to 'Camera_X - 4'"
     },
     {
       "CodeBlock": "flipscreen_smooth",
-      "CodeBlockLine": 8,
-      "MemoryOffset": 300,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 800,
       "Description": "Set 'wait' to '1'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 810,
+      "Description": "GOSUB TO 'WAITFORFRAMES'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 816,
+      "Description": "GOTO '00000744'"
     },
     {
       "CodeBlock": "flipscreen_smooth",
       "CodeBlockLine": 9,
-      "MemoryOffset": 306,
-      "Description": "GOTO '00000238'"
+      "MemoryOffset": 822,
+      "Description": "If 'camera_y' LessThan 'Player_y / yres * yres' ELSE GOTO 00000904"
     },
     {
       "CodeBlock": "flipscreen_smooth",
       "CodeBlockLine": 10,
-      "MemoryOffset": 312,
-      "Description": "If 'camera_y' LessThan 'Player_y / yres * yres' ELSE GOTO 00000390"
-    },
-    {
-      "CodeBlock": "flipscreen_smooth",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 364,
+      "MemoryOffset": 868,
       "Description": "Set 'camera_y' to 'Camera_Y + 4'"
     },
     {
       "CodeBlock": "flipscreen_smooth",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 378,
+      "CodeBlockLine": 11,
+      "MemoryOffset": 882,
       "Description": "Set 'wait' to '1'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 892,
+      "Description": "GOSUB TO 'WAITFORFRAMES'"
+    },
+    {
+      "CodeBlock": "flipscreen_smooth",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 898,
+      "Description": "GOTO '00000822'"
     },
     {
       "CodeBlock": "flipscreen_smooth",
       "CodeBlockLine": 13,
-      "MemoryOffset": 384,
-      "Description": "GOTO '00000312'"
+      "MemoryOffset": 904,
+      "Description": "If 'camera_y' GreaterThan 'Player_y / yres * yres' ELSE GOTO 00000986"
     },
     {
       "CodeBlock": "flipscreen_smooth",
       "CodeBlockLine": 14,
-      "MemoryOffset": 390,
-      "Description": "If 'camera_y' GreaterThan 'Player_y / yres * yres' ELSE GOTO 00000468"
-    },
-    {
-      "CodeBlock": "flipscreen_smooth",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 442,
+      "MemoryOffset": 950,
       "Description": "Set 'camera_y' to 'Camera_Y - 4'"
     },
     {
       "CodeBlock": "flipscreen_smooth",
-      "CodeBlockLine": 16,
-      "MemoryOffset": 456,
+      "CodeBlockLine": 15,
+      "MemoryOffset": 964,
       "Description": "Set 'wait' to '1'"
     },
     {
       "CodeBlock": "flipscreen_smooth",
-      "CodeBlockLine": 17,
-      "MemoryOffset": 462,
-      "Description": "GOTO '00000390'"
+      "CodeBlockLine": 15,
+      "MemoryOffset": 974,
+      "Description": "GOSUB TO 'WAITFORFRAMES'"
     },
     {
       "CodeBlock": "flipscreen_smooth",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 468,
-      "Description": "Set 'camera_follow' to 'stack_value'"
+      "CodeBlockLine": 16,
+      "MemoryOffset": 980,
+      "Description": "GOTO '00000904'"
     },
     {
       "CodeBlock": "flipscreen_smooth",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 478,
-      "Description": "Set 'stack_pointer' to 'stack_pointer + 1'"
-    },
-    {
-      "CodeBlock": "flipscreen_smooth",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 492,
+      "CodeBlockLine": 16,
+      "MemoryOffset": 986,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "flipxmove",
       "CodeBlockLine": 0,
-      "MemoryOffset": 494,
+      "MemoryOffset": 988,
       "Description": "FLIPXMOVE"
     },
     {
       "CodeBlock": "flipxmove",
       "CodeBlockLine": 1,
-      "MemoryOffset": 494,
+      "MemoryOffset": 988,
       "Description": "If 'lookmask_left' BitTest 'actor_lookdir'"
     },
     {
       "CodeBlock": "flipxmove",
       "CodeBlockLine": 2,
-      "MemoryOffset": 528,
+      "MemoryOffset": 1026,
       "Description": "Set 'actor_lookdir' to 'actor_lookdir + 2'"
     },
     {
       "CodeBlock": "flipxmove",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 552,
-      "Description": "GOTO '00000616'"
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1050,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1052,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1054,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "flipxmove",
       "CodeBlockLine": 3,
-      "MemoryOffset": 558,
-      "Description": "If 'lookmask_right' BitTest 'actor_lookdir' ELSE GOTO 00000616"
+      "MemoryOffset": 1058,
+      "Description": "GOTO '00001134'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1064,
+      "Description": "If 'lookmask_right' BitTest 'actor_lookdir' ELSE GOTO 00001134"
     },
     {
       "CodeBlock": "flipxmove",
       "CodeBlockLine": 4,
-      "MemoryOffset": 592,
+      "MemoryOffset": 1102,
       "Description": "Set 'actor_lookdir' to 'actor_lookdir - 2'"
     },
     {
       "CodeBlock": "flipxmove",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1126,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1128,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1130,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "flipxmove",
       "CodeBlockLine": 6,
-      "MemoryOffset": 616,
+      "MemoryOffset": 1134,
       "Description": "Set 'actor_lookdir' to 'resume_moving'"
     },
     {
       "CodeBlock": "flipxmove",
       "CodeBlockLine": 6,
-      "MemoryOffset": 622,
+      "MemoryOffset": 1144,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 1146,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 1148,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 1152,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "flipxymove",
       "CodeBlockLine": 0,
-      "MemoryOffset": 624,
+      "MemoryOffset": 1154,
       "Description": "FLIPXYMOVE"
     },
     {
       "CodeBlock": "flipxmove",
       "CodeBlockLine": 1,
-      "MemoryOffset": 624,
+      "MemoryOffset": 1154,
       "Description": "If 'lookmask_left' BitTest 'actor_lookdir'"
     },
     {
       "CodeBlock": "flipxmove",
       "CodeBlockLine": 2,
-      "MemoryOffset": 658,
+      "MemoryOffset": 1192,
       "Description": "Set 'actor_lookdir' to 'actor_lookdir + 2'"
     },
     {
       "CodeBlock": "flipxmove",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 682,
-      "Description": "GOTO '00000746'"
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1216,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1218,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 1220,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "flipxmove",
       "CodeBlockLine": 3,
-      "MemoryOffset": 688,
-      "Description": "If 'lookmask_right' BitTest 'actor_lookdir' ELSE GOTO 00000746"
+      "MemoryOffset": 1224,
+      "Description": "GOTO '00001300'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1230,
+      "Description": "If 'lookmask_right' BitTest 'actor_lookdir' ELSE GOTO 00001300"
     },
     {
       "CodeBlock": "flipxmove",
       "CodeBlockLine": 4,
-      "MemoryOffset": 722,
+      "MemoryOffset": 1268,
       "Description": "Set 'actor_lookdir' to 'actor_lookdir - 2'"
     },
     {
       "CodeBlock": "flipxmove",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1292,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1294,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1296,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "flipxmove",
       "CodeBlockLine": 6,
-      "MemoryOffset": 746,
+      "MemoryOffset": 1300,
+      "Description": "Set 'actor_lookdir' to 'resume_moving'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 1310,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 1312,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipxmove",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 1314,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1318,
       "Description": "Set 'actor_lookdir' to 'resume_moving'"
     },
     {
       "CodeBlock": "flipymove",
       "CodeBlockLine": 1,
-      "MemoryOffset": 752,
-      "Description": "Set 'actor_lookdir' to 'resume_moving'"
+      "MemoryOffset": 1328,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1330,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1332,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "flipymove",
       "CodeBlockLine": 2,
-      "MemoryOffset": 758,
+      "MemoryOffset": 1336,
       "Description": "If 'lookmask_up' BitTest 'actor_lookdir'"
     },
     {
       "CodeBlock": "flipymove",
       "CodeBlockLine": 3,
-      "MemoryOffset": 792,
+      "MemoryOffset": 1374,
       "Description": "Set 'actor_lookdir' to 'actor_lookdir + 6'"
     },
     {
       "CodeBlock": "flipymove",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 816,
-      "Description": "GOTO '00000880'"
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1398,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1400,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1402,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "flipymove",
       "CodeBlockLine": 4,
-      "MemoryOffset": 822,
-      "Description": "If 'lookmask_down' BitTest 'actor_lookdir' ELSE GOTO 00000880"
+      "MemoryOffset": 1406,
+      "Description": "GOTO '00001482'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1412,
+      "Description": "If 'lookmask_down' BitTest 'actor_lookdir' ELSE GOTO 00001482"
     },
     {
       "CodeBlock": "flipymove",
       "CodeBlockLine": 5,
-      "MemoryOffset": 856,
+      "MemoryOffset": 1450,
       "Description": "Set 'actor_lookdir' to 'actor_lookdir - 6'"
     },
     {
       "CodeBlock": "flipymove",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1474,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1476,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1478,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "flipymove",
       "CodeBlockLine": 7,
-      "MemoryOffset": 880,
+      "MemoryOffset": 1482,
       "Description": "Set 'actor_lookdir' to 'resume_moving'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 1492,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 1494,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 1496,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "flipxymove",
       "CodeBlockLine": 2,
-      "MemoryOffset": 886,
+      "MemoryOffset": 1500,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "flipymove",
       "CodeBlockLine": 0,
-      "MemoryOffset": 888,
+      "MemoryOffset": 1502,
       "Description": "FLIPYMOVE"
     },
     {
       "CodeBlock": "flipymove",
       "CodeBlockLine": 1,
-      "MemoryOffset": 888,
+      "MemoryOffset": 1502,
       "Description": "Set 'actor_lookdir' to 'resume_moving'"
     },
     {
       "CodeBlock": "flipymove",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1512,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1514,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1516,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "flipymove",
       "CodeBlockLine": 2,
-      "MemoryOffset": 894,
+      "MemoryOffset": 1520,
       "Description": "If 'lookmask_up' BitTest 'actor_lookdir'"
     },
     {
       "CodeBlock": "flipymove",
       "CodeBlockLine": 3,
-      "MemoryOffset": 928,
+      "MemoryOffset": 1558,
       "Description": "Set 'actor_lookdir' to 'actor_lookdir + 6'"
     },
     {
       "CodeBlock": "flipymove",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 952,
-      "Description": "GOTO '00001016'"
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1582,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1584,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1586,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "flipymove",
       "CodeBlockLine": 4,
-      "MemoryOffset": 958,
-      "Description": "If 'lookmask_down' BitTest 'actor_lookdir' ELSE GOTO 00001016"
+      "MemoryOffset": 1590,
+      "Description": "GOTO '00001666'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 1596,
+      "Description": "If 'lookmask_down' BitTest 'actor_lookdir' ELSE GOTO 00001666"
     },
     {
       "CodeBlock": "flipymove",
       "CodeBlockLine": 5,
-      "MemoryOffset": 992,
+      "MemoryOffset": 1634,
       "Description": "Set 'actor_lookdir' to 'actor_lookdir - 6'"
     },
     {
       "CodeBlock": "flipymove",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1658,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1660,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1662,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "flipymove",
       "CodeBlockLine": 7,
-      "MemoryOffset": 1016,
+      "MemoryOffset": 1666,
       "Description": "Set 'actor_lookdir' to 'resume_moving'"
     },
     {
       "CodeBlock": "flipymove",
       "CodeBlockLine": 7,
-      "MemoryOffset": 1022,
+      "MemoryOffset": 1676,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 1678,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 1680,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "flipymove",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 1684,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "jump_actor",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1024,
+      "MemoryOffset": 1686,
       "Description": "JUMP_ACTOR"
     },
     {
       "CodeBlock": "jump_actor",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1024,
-      "Description": "If 'lookmask_left' BitTest 'actor_lookdir'"
+      "MemoryOffset": 1686,
+      "Description": "Set 'actor_lookdir' to 'jump_movement'"
     },
     {
       "CodeBlock": "jump_actor",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1696,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "jump_actor",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1698,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "jump_actor",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1700,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "jump_actor",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1704,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 1706,
+      "Description": "LOAD_LEVEL"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 1706,
+      "Description": "GOSUB TO 'UNLOAD_LEVEL'"
+    },
+    {
+      "CodeBlock": "load_level",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1058,
-      "Description": "Set 'actor_lookdir' to 'move_upleft'"
+      "MemoryOffset": 1712,
+      "Description": "Set 'level' to 'newvalue'"
     },
     {
-      "CodeBlock": "jump_actor",
+      "CodeBlock": "load_level",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1064,
-      "Description": "GOTO '00001076'"
+      "MemoryOffset": 1722,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
-      "CodeBlock": "jump_actor",
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 1724,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
       "CodeBlockLine": 4,
-      "MemoryOffset": 1070,
-      "Description": "Set 'actor_lookdir' to 'move_upright'"
+      "MemoryOffset": 1726,
+      "Description": "If 'level' NotZero '0' ELSE GOTO 00002736"
     },
     {
-      "CodeBlock": "jump_actor",
+      "CodeBlock": "load_level",
       "CodeBlockLine": 5,
-      "MemoryOffset": 1076,
+      "MemoryOffset": 1750,
+      "Description": "Set 'camera_xmin' to '0'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1760,
+      "Description": "If 'Camera_XMin' LessThan '0' ELSE GOTO 00001798"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1788,
+      "Description": "Set 'camera_xmin' to '0'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1798,
+      "Description": "If 'Camera_XMin' GreaterThan 'MapWidth - XRes' ELSE GOTO 00001844"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1830,
+      "Description": "Set 'camera_xmin' to 'MapWidth - XRes'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1844,
+      "Description": "Set 'camera_xmax' to 'MapWidth - XRes'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1858,
+      "Description": "If 'Camera_XMax' LessThan 'Camera_XMin' ELSE GOTO 00001896"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1886,
+      "Description": "Set 'camera_xmax' to 'Camera_XMin'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1896,
+      "Description": "If 'Camera_XMax' GreaterThan 'MapWidth - XRes' ELSE GOTO 00001942"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1928,
+      "Description": "Set 'camera_xmax' to 'MapWidth - XRes'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1942,
+      "Description": "Set 'camera_ymin' to '0'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1952,
+      "Description": "If 'Camera_YMin' LessThan '0' ELSE GOTO 00001990"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1980,
+      "Description": "Set 'camera_ymin' to '0'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 1990,
+      "Description": "If 'Camera_YMin' GreaterThan 'MapHeight - YRes' ELSE GOTO 00002036"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 2022,
+      "Description": "Set 'camera_ymin' to 'MapHeight - YRes'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 2036,
+      "Description": "Set 'camera_ymax' to 'MapHeight - YRes'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 2050,
+      "Description": "If 'Camera_YMax' LessThan 'Camera_XMax' ELSE GOTO 00002088"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 2078,
+      "Description": "Set 'camera_ymax' to 'Camera_XMax'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 2088,
+      "Description": "If 'Camera_YMax' GreaterThan 'MapHeight - YRes' ELSE GOTO 00002134"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 2120,
+      "Description": "Set 'camera_ymax' to 'MapHeight - YRes'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 2134,
+      "Description": "Set 'cameratargetx' to 'xres / 2'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2146,
+      "Description": "Set 'cameratargety' to 'yres / 2'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 2158,
+      "Description": "Set 'mapwidthtiles' to 'mapwidth / 16'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 2170,
+      "Description": "Set 'mapheighttiles' to 'mapheight / 16'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2182,
+      "Description": "Set 'camera_xmin' to '0'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2192,
+      "Description": "If 'Camera_XMin' LessThan '0' ELSE GOTO 00002230"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2220,
+      "Description": "Set 'camera_xmin' to '0'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2230,
+      "Description": "If 'Camera_XMin' GreaterThan 'MapWidth - XRes' ELSE GOTO 00002276"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2262,
+      "Description": "Set 'camera_xmin' to 'MapWidth - XRes'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2276,
+      "Description": "Set 'camera_xmax' to 'MapWidth - XRes'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2290,
+      "Description": "If 'Camera_XMax' LessThan 'Camera_XMin' ELSE GOTO 00002328"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2318,
+      "Description": "Set 'camera_xmax' to 'Camera_XMin'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2328,
+      "Description": "If 'Camera_XMax' GreaterThan 'MapWidth - XRes' ELSE GOTO 00002374"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2360,
+      "Description": "Set 'camera_xmax' to 'MapWidth - XRes'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2374,
+      "Description": "Set 'camera_ymin' to '0'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2384,
+      "Description": "If 'Camera_YMin' LessThan '0' ELSE GOTO 00002422"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2412,
+      "Description": "Set 'camera_ymin' to '0'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2422,
+      "Description": "If 'Camera_YMin' GreaterThan 'MapHeight - YRes' ELSE GOTO 00002468"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2454,
+      "Description": "Set 'camera_ymin' to 'MapHeight - YRes'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2468,
+      "Description": "Set 'camera_ymax' to 'MapHeight - YRes'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2482,
+      "Description": "If 'Camera_YMax' LessThan 'Camera_XMax' ELSE GOTO 00002520"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2510,
+      "Description": "Set 'camera_ymax' to 'Camera_XMax'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2520,
+      "Description": "If 'Camera_YMax' GreaterThan 'MapHeight - YRes' ELSE GOTO 00002566"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 2552,
+      "Description": "Set 'camera_ymax' to 'MapHeight - YRes'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 2566,
+      "Description": "If 'teleport' NotZero '0' ELSE GOTO 00002642"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 2590,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 2592,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 2594,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 2596,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 2598,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 2600,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 2602,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 2604,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 2606,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 2608,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 2610,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 2612,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 2614,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 2616,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 2618,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 2620,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 2622,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 2624,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 2626,
+      "Description": "Set 'newvalue' to 'teleport'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 2636,
+      "Description": "GOSUB TO 'DO_TELEPORT'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 2642,
+      "Description": "Set 'control1fire' to 'false'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 2652,
+      "Description": "Set 'control2fire' to 'false'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 2662,
+      "Description": "Set 'control3fire' to 'false'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 2672,
+      "Description": "Set 'control4fire' to 'false'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 2682,
+      "Description": "Set 'control1jump' to 'false'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 2692,
+      "Description": "Set 'control2jump' to 'false'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 2702,
+      "Description": "Set 'control3jump' to 'false'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 2712,
+      "Description": "Set 'control4jump' to 'false'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 2722,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 2724,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 2726,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 2728,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 30,
+      "MemoryOffset": 2730,
+      "Description": "GOSUB TO 'FADEIN'"
+    },
+    {
+      "CodeBlock": "load_level",
+      "CodeBlockLine": 31,
+      "MemoryOffset": 2736,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "load_music",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 2738,
+      "Description": "LOAD_MUSIC"
+    },
+    {
+      "CodeBlock": "load_music",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 2738,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_music",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 2740,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_music",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 2742,
+      "Description": "If 'music' NotZero '0' ELSE GOTO 00002778"
+    },
+    {
+      "CodeBlock": "load_music",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 2766,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_music",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 2768,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_music",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 2770,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_music",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 2772,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_music",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 2774,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_music",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 2776,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_music",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 2778,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "load_panel",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 2780,
+      "Description": "LOAD_PANEL"
+    },
+    {
+      "CodeBlock": "load_panel",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 2780,
+      "Description": "If 'panel' NotEquals 'newvalue' ELSE GOTO 00002860"
+    },
+    {
+      "CodeBlock": "load_panel",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 2808,
+      "Description": "GOSUB TO 'UNLOAD_PANEL'"
+    },
+    {
+      "CodeBlock": "load_panel",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 2814,
+      "Description": "If 'newvalue' NotZero '0' ELSE GOTO 00002860"
+    },
+    {
+      "CodeBlock": "load_panel",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 2838,
+      "Description": "GOSUB TO 'REGENERATE_SCREEN'"
+    },
+    {
+      "CodeBlock": "load_panel",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 2844,
+      "Description": "Set 'panel' to 'newvalue'"
+    },
+    {
+      "CodeBlock": "load_panel",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 2854,
+      "Description": "GOSUB TO 'LOAD_PANEL_FINISH'"
+    },
+    {
+      "CodeBlock": "load_panel",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 2860,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "load_panel_bottom",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 2862,
+      "Description": "LOAD_PANEL_BOTTOM"
+    },
+    {
+      "CodeBlock": "load_panel_bottom",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 2862,
+      "Description": "If 'newvalue' NotEquals 'panel_bottom' ELSE GOTO 00002936"
+    },
+    {
+      "CodeBlock": "load_panel_bottom",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 2890,
+      "Description": "GOSUB TO 'UNLOAD_PANEL_BOTTOM'"
+    },
+    {
+      "CodeBlock": "load_panel_bottom",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 2896,
+      "Description": "If 'newvalue' NotZero '0' ELSE GOTO 00002936"
+    },
+    {
+      "CodeBlock": "load_panel_bottom",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 2920,
+      "Description": "Set 'panel_bottom' to 'newvalue'"
+    },
+    {
+      "CodeBlock": "load_panel_bottom",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 2930,
+      "Description": "GOSUB TO 'LOAD_PANEL_FINISH'"
+    },
+    {
+      "CodeBlock": "load_panel_bottom",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 2936,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "load_panel_finish",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 2938,
+      "Description": "LOAD_PANEL_FINISH"
+    },
+    {
+      "CodeBlock": "load_panel_finish",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 2938,
+      "Description": "GOSUB TO 'REGENERATE_SCREEN_WAIT'"
+    },
+    {
+      "CodeBlock": "load_panel_finish",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 2944,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_panel_finish",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 2946,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "load_panel_finish",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 2948,
+      "Description": "Set 'regeneratescreen' to 'true'"
+    },
+    {
+      "CodeBlock": "load_panel_finish",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 2958,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "load_panel_top",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 2960,
+      "Description": "LOAD_PANEL_TOP"
+    },
+    {
+      "CodeBlock": "load_panel_top",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 2960,
+      "Description": "If 'newvalue' NotEquals 'panel_top' ELSE GOTO 00003034"
+    },
+    {
+      "CodeBlock": "load_panel_top",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 2988,
+      "Description": "GOSUB TO 'UNLOAD_PANEL_TOP'"
+    },
+    {
+      "CodeBlock": "load_panel_top",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 2994,
+      "Description": "If 'newvalue' NotZero '0' ELSE GOTO 00003034"
+    },
+    {
+      "CodeBlock": "load_panel_top",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 3018,
+      "Description": "Set 'panel_top' to 'newvalue'"
+    },
+    {
+      "CodeBlock": "load_panel_top",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 3028,
+      "Description": "GOSUB TO 'LOAD_PANEL_FINISH'"
+    },
+    {
+      "CodeBlock": "load_panel_top",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 3034,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "pre_anim5",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 3036,
+      "Description": "PRE_ANIM5"
+    },
+    {
+      "CodeBlock": "pre_anim5",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3036,
+      "Description": "GOSUB TO 'UNLOAD_PANEL'"
+    },
+    {
+      "CodeBlock": "pre_anim5",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3042,
+      "Description": "GOSUB TO 'FADEOUT'"
+    },
+    {
+      "CodeBlock": "pre_anim5",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 3048,
+      "Description": "GOSUB TO 'REGENERATE_SCREEN'"
+    },
+    {
+      "CodeBlock": "pre_anim5",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 3054,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "pre_quit",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 3056,
+      "Description": "PRE_QUIT"
+    },
+    {
+      "CodeBlock": "pre_quit",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3056,
+      "Description": "Set 'newvalue' to 'none'"
+    },
+    {
+      "CodeBlock": "pre_quit",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3066,
+      "Description": "GOSUB TO 'LOAD_LEVEL'"
+    },
+    {
+      "CodeBlock": "pre_quit",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3072,
+      "Description": "Set 'newvalue' to 'none'"
+    },
+    {
+      "CodeBlock": "pre_quit",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3082,
+      "Description": "GOSUB TO 'LOAD_PANEL'"
+    },
+    {
+      "CodeBlock": "pre_quit",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 3088,
+      "Description": "If 'music' NotZero '0' ELSE GOTO 00003180"
+    },
+    {
+      "CodeBlock": "pre_quit",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 3112,
+      "Description": "If 'musicvol' GreaterThan '0' ELSE GOTO 00003180"
+    },
+    {
+      "CodeBlock": "pre_quit",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 3140,
+      "Description": "Set 'musicvol' to 'musicvol - 1'"
+    },
+    {
+      "CodeBlock": "pre_quit",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 3154,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "pre_quit",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 3156,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "pre_quit",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 3158,
+      "Description": "Set 'wait' to '1'"
+    },
+    {
+      "CodeBlock": "pre_quit",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 3168,
+      "Description": "GOSUB TO 'WAITFORFRAMES'"
+    },
+    {
+      "CodeBlock": "pre_quit",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 3174,
+      "Description": "GOTO '00003112'"
+    },
+    {
+      "CodeBlock": "pre_quit",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 3180,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "pre_quit",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 3182,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "pre_quit",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 3184,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "quit",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1078,
+      "MemoryOffset": 3186,
       "Description": "QUIT"
     },
     {
       "CodeBlock": "quit",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1078,
-      "Description": "QUIT"
+      "MemoryOffset": 3186,
+      "Description": "GOSUB TO 'PRE_QUIT'"
     },
     {
       "CodeBlock": "quit",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1080,
+      "MemoryOffset": 3210,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "regenerate_screen",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 3212,
+      "Description": "REGENERATE_SCREEN"
+    },
+    {
+      "CodeBlock": "regenerate_screen",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3212,
+      "Description": "Set 'regeneratescreen' to 'true'"
+    },
+    {
+      "CodeBlock": "regenerate_screen",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3222,
+      "Description": "GOSUB TO 'REGENERATE_SCREEN_WAIT'"
+    },
+    {
+      "CodeBlock": "regenerate_screen",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3228,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "regenerate_screen_wait",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 3230,
+      "Description": "REGENERATE_SCREEN_WAIT"
+    },
+    {
+      "CodeBlock": "regenerate_screen_wait",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3230,
+      "Description": "If 'regeneratescreen' NotZero '0' ELSE GOTO 00003260"
+    },
+    {
+      "CodeBlock": "regenerate_screen_wait",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3254,
+      "Description": "GOTO '00003230'"
+    },
+    {
+      "CodeBlock": "regenerate_screen_wait",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3260,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "return",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1082,
+      "MemoryOffset": 3262,
       "Description": "RETURN"
     },
     {
       "CodeBlock": "return",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1082,
+      "MemoryOffset": 3262,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "return",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1084,
+      "MemoryOffset": 3264,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "snap_to_screen",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1086,
+      "MemoryOffset": 3266,
       "Description": "SNAP_TO_SCREEN"
     },
     {
       "CodeBlock": "snap_to_screen",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1086,
-      "Description": "If 'actor_x' LessThanOrEqual 'camera_x' ELSE GOTO 00001140"
+      "MemoryOffset": 3266,
+      "Description": "If 'actor_x' LessThanOrEqual 'camera_x' ELSE GOTO 00003322"
     },
     {
       "CodeBlock": "snap_to_screen",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1130,
+      "MemoryOffset": 3304,
       "Description": "Set 'actor_x' to 'camera_x'"
     },
     {
       "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3314,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3316,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3318,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
       "CodeBlockLine": 4,
-      "MemoryOffset": 1140,
-      "Description": "If 'actor_x' GreaterThanOrEqual 'camera_x + XRes' ELSE GOTO 00001202"
+      "MemoryOffset": 3322,
+      "Description": "If 'actor_x' GreaterThanOrEqual 'camera_x + XRes' ELSE GOTO 00003386"
     },
     {
       "CodeBlock": "snap_to_screen",
       "CodeBlockLine": 5,
-      "MemoryOffset": 1188,
+      "MemoryOffset": 3364,
       "Description": "Set 'actor_x' to 'camera_x  + XRes'"
     },
     {
       "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 3378,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 3380,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 3382,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
       "CodeBlockLine": 7,
-      "MemoryOffset": 1202,
-      "Description": "If 'actor_y' LessThanOrEqual 'camera_y' ELSE GOTO 00001256"
+      "MemoryOffset": 3386,
+      "Description": "If 'actor_y' LessThanOrEqual 'camera_y' ELSE GOTO 00003442"
     },
     {
       "CodeBlock": "snap_to_screen",
       "CodeBlockLine": 8,
-      "MemoryOffset": 1246,
+      "MemoryOffset": 3424,
       "Description": "Set 'actor_y' to 'camera_y'"
     },
     {
       "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 3434,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 3436,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 3438,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
       "CodeBlockLine": 10,
-      "MemoryOffset": 1256,
-      "Description": "If 'actor_y' GreaterThanOrEqual 'camera_y + yres' ELSE GOTO 00001318"
+      "MemoryOffset": 3442,
+      "Description": "If 'actor_y' GreaterThanOrEqual 'camera_y + yres' ELSE GOTO 00003506"
     },
     {
       "CodeBlock": "snap_to_screen",
       "CodeBlockLine": 11,
-      "MemoryOffset": 1304,
+      "MemoryOffset": 3484,
       "Description": "Set 'actor_y' to 'camera_y + yres'"
     },
     {
       "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 3498,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 3500,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 3502,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "snap_to_screen",
       "CodeBlockLine": 12,
-      "MemoryOffset": 1318,
+      "MemoryOffset": 3506,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "unload_level",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 3508,
+      "Description": "UNLOAD_LEVEL"
+    },
+    {
+      "CodeBlock": "unload_level",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3508,
+      "Description": "GOSUB TO 'UNLOAD_PANEL'"
+    },
+    {
+      "CodeBlock": "unload_level",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3514,
+      "Description": "GOSUB TO 'FADEOUT'"
+    },
+    {
+      "CodeBlock": "unload_level",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 3520,
+      "Description": "Set 'camera_x' to '0'"
+    },
+    {
+      "CodeBlock": "unload_level",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 3530,
+      "Description": "Set 'camera_y' to '0'"
+    },
+    {
+      "CodeBlock": "unload_level",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 3540,
+      "Description": "Set 'level' to '0'"
+    },
+    {
+      "CodeBlock": "unload_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 3550,
+      "Description": "GOSUB TO 'REGENERATE_SCREEN'"
+    },
+    {
+      "CodeBlock": "unload_level",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 3556,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "unload_panel",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 3558,
+      "Description": "UNLOAD_PANEL"
+    },
+    {
+      "CodeBlock": "unload_panel",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3558,
+      "Description": "If 'panel' NotZero '0' ELSE GOTO 00003650"
+    },
+    {
+      "CodeBlock": "unload_panel",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3582,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "unload_panel",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3584,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "unload_panel",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 3586,
+      "Description": "Set 'panel' to '0'"
+    },
+    {
+      "CodeBlock": "unload_panel",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 3596,
+      "Description": "Set 'regeneratescreen' to 'true'"
+    },
+    {
+      "CodeBlock": "unload_panel",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 3606,
+      "Description": "If 'level' NotZero 'true' ELSE GOTO 00003650"
+    },
+    {
+      "CodeBlock": "unload_panel",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 3630,
+      "Description": "Set 'brightness' to '-5'"
+    },
+    {
+      "CodeBlock": "unload_panel",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 3640,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "unload_panel",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 3642,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "unload_panel",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 3644,
+      "Description": "GOSUB TO 'FADEIN'"
+    },
+    {
+      "CodeBlock": "unload_panel",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 3650,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "unload_panel_bottom",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 3652,
+      "Description": "UNLOAD_PANEL_BOTTOM"
+    },
+    {
+      "CodeBlock": "unload_panel_bottom",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3652,
+      "Description": "If 'panel_bottom' NotZero '0' ELSE GOTO 00003686"
+    },
+    {
+      "CodeBlock": "unload_panel_bottom",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3676,
+      "Description": "Set 'panel_bottom' to '0'"
+    },
+    {
+      "CodeBlock": "unload_panel_bottom",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 3686,
+      "Description": "GOSUB TO 'REGENERATE_SCREEN'"
+    },
+    {
+      "CodeBlock": "unload_panel_bottom",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 3692,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "unload_panel_top",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 3694,
+      "Description": "UNLOAD_PANEL_TOP"
+    },
+    {
+      "CodeBlock": "unload_panel_top",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3694,
+      "Description": "If 'panel_top' NotZero '0' ELSE GOTO 00003728"
+    },
+    {
+      "CodeBlock": "unload_panel_top",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3718,
+      "Description": "Set 'panel_top' to '0'"
+    },
+    {
+      "CodeBlock": "unload_panel_top",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 3728,
+      "Description": "GOSUB TO 'REGENERATE_SCREEN'"
+    },
+    {
+      "CodeBlock": "unload_panel_top",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 3734,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "vm_constants",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1320,
+      "MemoryOffset": 3736,
       "Description": "VM_CONSTANTS"
     },
     {
       "CodeBlock": "vm_constants",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1320,
+      "MemoryOffset": 3736,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "vm_registers",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1322,
+      "MemoryOffset": 3738,
       "Description": "VM_REGISTERS"
     },
     {
       "CodeBlock": "vm_registers",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1322,
+      "MemoryOffset": 3738,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "waitforfirehit",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 3740,
+      "Description": "WAITFORFIREHIT"
+    },
+    {
+      "CodeBlock": "waitforfirehit",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3740,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "waitforfirehit",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3742,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "waitforfirehit",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3744,
+      "Description": "If 'control1fire' NotEquals 'button_none' ELSE GOTO 00003782"
+    },
+    {
+      "CodeBlock": "waitforfirehit",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 3772,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "waitforfirehit",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 3774,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "waitforfirehit",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 3776,
+      "Description": "GOTO '00003744'"
+    },
+    {
+      "CodeBlock": "waitforfirehit",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 3782,
+      "Description": "If 'control1fire' Equals 'button_none' ELSE GOTO 00003820"
+    },
+    {
+      "CodeBlock": "waitforfirehit",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 3810,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "waitforfirehit",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 3812,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "waitforfirehit",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 3814,
+      "Description": "GOTO '00003782'"
+    },
+    {
+      "CodeBlock": "waitforfirehit",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 3820,
+      "Description": "If 'control1fire' NotEquals 'button_none' ELSE GOTO 00003858"
+    },
+    {
+      "CodeBlock": "waitforfirehit",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 3848,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "waitforfirehit",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 3850,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "waitforfirehit",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 3852,
+      "Description": "GOTO '00003820'"
+    },
+    {
+      "CodeBlock": "waitforfirehit",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 3858,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "waitforframes",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 3860,
+      "Description": "WAITFORFRAMES"
+    },
+    {
+      "CodeBlock": "waitforframes",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3860,
+      "Description": "If 'wait' LessThanOrEqual '0' ELSE GOTO 00003894"
+    },
+    {
+      "CodeBlock": "waitforframes",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3888,
+      "Description": "GOTO 'WAITFORFIREHIT'"
+    },
+    {
+      "CodeBlock": "waitforframes",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 3894,
+      "Description": "If 'wait' GreaterThan '0' ELSE GOTO 00003946"
+    },
+    {
+      "CodeBlock": "waitforframes",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 3922,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "waitforframes",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 3924,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "waitforframes",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 3926,
+      "Description": "Set 'wait' to 'wait - 1'"
+    },
+    {
+      "CodeBlock": "waitforframes",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 3940,
+      "Description": "GOTO '00003894'"
+    },
+    {
+      "CodeBlock": "waitforframes",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 3946,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "wrap_screen_bottom",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 3948,
+      "Description": "WRAP_SCREEN_BOTTOM"
+    },
+    {
+      "CodeBlock": "wrap_screen_bottom",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 3948,
+      "Description": "If 'actor_y' GreaterThanOrEqual 'camera_y + yres + 16' ELSE GOTO 00004030"
+    },
+    {
+      "CodeBlock": "wrap_screen_bottom",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 3994,
+      "Description": "Set 'actor_y' to 'actor_y - yres - 16'"
+    },
+    {
+      "CodeBlock": "wrap_screen_bottom",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4022,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "wrap_screen_bottom",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4024,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "wrap_screen_bottom",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4026,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "wrap_screen_bottom",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 4030,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "wrap_screen_left",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 4032,
+      "Description": "WRAP_SCREEN_LEFT"
+    },
+    {
+      "CodeBlock": "wrap_screen_left",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4032,
+      "Description": "If 'actor_x' LessThanOrEqual 'camera_x - 16' ELSE GOTO 00004110"
+    },
+    {
+      "CodeBlock": "wrap_screen_left",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4074,
+      "Description": "Set 'actor_x' to 'actor_x + xres + 16'"
+    },
+    {
+      "CodeBlock": "wrap_screen_left",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4102,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "wrap_screen_left",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4104,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "wrap_screen_left",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4106,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "wrap_screen_left",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 4110,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "wrap_screen_right",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 4112,
+      "Description": "WRAP_SCREEN_RIGHT"
+    },
+    {
+      "CodeBlock": "wrap_screen_right",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4112,
+      "Description": "If 'actor_x' GreaterThanOrEqual 'camera_x + xres + 16' ELSE GOTO 00004194"
+    },
+    {
+      "CodeBlock": "wrap_screen_right",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4158,
+      "Description": "Set 'actor_x' to 'actor_x - xres - 16'"
+    },
+    {
+      "CodeBlock": "wrap_screen_right",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4186,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "wrap_screen_right",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4188,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "wrap_screen_right",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4190,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "wrap_screen_right",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 4194,
+      "Description": "RETURN TO GAME OR GOSUB"
+    },
+    {
+      "CodeBlock": "wrap_screen_top",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 4196,
+      "Description": "WRAP_SCREEN_TOP"
+    },
+    {
+      "CodeBlock": "wrap_screen_top",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4196,
+      "Description": "If 'actor_y' LessThanOrEqual 'camera_y - 16' ELSE GOTO 00004274"
+    },
+    {
+      "CodeBlock": "wrap_screen_top",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4238,
+      "Description": "Set 'actor_y' to 'actor_y + yres + 16'"
+    },
+    {
+      "CodeBlock": "wrap_screen_top",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4266,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "wrap_screen_top",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4268,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "wrap_screen_top",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4270,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "wrap_screen_top",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 4274,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "configure_level",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1324,
+      "MemoryOffset": 4276,
       "Description": "CONFIGURE_LEVEL"
     },
     {
       "CodeBlock": "configure_level",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1324,
+      "MemoryOffset": 4276,
       "Description": "Set 'camera_follow' to '15'"
     },
     {
       "CodeBlock": "configure_level",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 1330,
-      "Description": "Set 'panel_top' to 'hud'"
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4286,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "configure_level",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4288,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "configure_level",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4290,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "configure_level",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4292,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "configure_level",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1336,
+      "MemoryOffset": 4294,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1338,
+      "MemoryOffset": 4296,
       "Description": "GAMEMENU"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1338,
-      "Description": "Set 'panel_bottom' to 'none'"
+      "MemoryOffset": 4296,
+      "Description": "Set 'newvalue' to 'none'"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4306,
+      "Description": "GOSUB TO 'LOAD_PANEL_BOTTOM'"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1344,
+      "MemoryOffset": 4312,
       "Description": "Set 'has_shield' to 'false'"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1350,
+      "MemoryOffset": 4322,
       "Description": "Set 'has_sword' to 'false'"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 4,
-      "MemoryOffset": 1356,
+      "MemoryOffset": 4332,
       "Description": "Set 'rupee' to '0'"
     },
     {
       "CodeBlock": "gamemenu",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 1362,
-      "Description": "Set 'panel' to 'main_menu'"
+      "CodeBlockLine": 4,
+      "MemoryOffset": 4342,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 4344,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 5,
-      "MemoryOffset": 1368,
+      "MemoryOffset": 4346,
+      "Description": "Set 'newvalue' to 'main_menu'"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 4356,
+      "Description": "GOSUB TO 'LOAD_PANEL'"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 4362,
+      "Description": "If 'panel' NotEquals '0' ELSE GOTO 00004412"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 4390,
       "Description": "Set 'wait' to '0'"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 5,
-      "MemoryOffset": 1374,
-      "Description": "Set 'panel' to '0'"
+      "MemoryOffset": 4400,
+      "Description": "GOSUB TO 'WAITFORFRAMES'"
+    },
+    {
+      "CodeBlock": "gamemenu",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 4406,
+      "Description": "GOSUB TO 'UNLOAD_PANEL'"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 6,
-      "MemoryOffset": 1380,
-      "Description": "If 'option' Equals '0' ELSE GOTO 00001410"
+      "MemoryOffset": 4412,
+      "Description": "If 'option' Equals '0' ELSE GOTO 00004446"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 7,
-      "MemoryOffset": 1404,
+      "MemoryOffset": 4440,
       "Description": "GOTO 'PART1'"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 9,
-      "MemoryOffset": 1410,
-      "Description": "If 'option' Equals '1' ELSE GOTO 00001440"
+      "MemoryOffset": 4446,
+      "Description": "If 'option' Equals '1' ELSE GOTO 00004480"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 10,
-      "MemoryOffset": 1434,
+      "MemoryOffset": 4474,
       "Description": "GOTO 'PART2'"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 12,
-      "MemoryOffset": 1440,
-      "Description": "If 'option' Equals '2' ELSE GOTO 00001476"
+      "MemoryOffset": 4480,
+      "Description": "If 'option' Equals '2' ELSE GOTO 00004524"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 13,
-      "MemoryOffset": 1464,
+      "MemoryOffset": 4508,
       "Description": "Set 'has_shield' to 'true'"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 14,
-      "MemoryOffset": 1470,
+      "MemoryOffset": 4518,
       "Description": "GOTO 'PART3'"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 16,
-      "MemoryOffset": 1476,
-      "Description": "If 'option' Equals '3' ELSE GOTO 00001502"
+      "MemoryOffset": 4524,
+      "Description": "If 'option' Equals '3' ELSE GOTO 00004586"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 17,
-      "MemoryOffset": 1500,
-      "Description": "QUIT"
+      "MemoryOffset": 4552,
+      "Description": "GOSUB TO 'PRE_QUIT'"
     },
     {
       "CodeBlock": "gamemenu",
       "CodeBlockLine": 18,
-      "MemoryOffset": 1502,
+      "MemoryOffset": 4586,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "move_camera_right",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1504,
+      "MemoryOffset": 4588,
       "Description": "MOVE_CAMERA_RIGHT"
     },
     {
       "CodeBlock": "move_camera_right",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1504,
+      "MemoryOffset": 4588,
       "Description": "Set 'camera_target' to 'camera_x + 256'"
     },
     {
       "CodeBlock": "move_camera_right",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1518,
-      "Description": "If 'camera_x' LessThan 'camera_target' ELSE GOTO 00001572"
+      "MemoryOffset": 4602,
+      "Description": "If 'camera_x' LessThan 'camera_target' ELSE GOTO 00004680"
     },
     {
       "CodeBlock": "move_camera_right",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1546,
+      "MemoryOffset": 4630,
       "Description": "Set 'wait' to '1'"
     },
     {
       "CodeBlock": "move_camera_right",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 4640,
+      "Description": "GOSUB TO 'WAITFORFRAMES'"
+    },
+    {
+      "CodeBlock": "move_camera_right",
       "CodeBlockLine": 4,
-      "MemoryOffset": 1552,
+      "MemoryOffset": 4646,
       "Description": "Set 'camera_x' to 'Camera_X + 2'"
     },
     {
       "CodeBlock": "move_camera_right",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 4660,
+      "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
+    },
+    {
+      "CodeBlock": "move_camera_right",
       "CodeBlockLine": 5,
-      "MemoryOffset": 1566,
-      "Description": "GOTO '00001518'"
+      "MemoryOffset": 4674,
+      "Description": "GOTO '00004602'"
     },
     {
       "CodeBlock": "move_camera_right",
       "CodeBlockLine": 6,
-      "MemoryOffset": 1572,
+      "MemoryOffset": 4680,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "move_camera_right",
       "CodeBlockLine": 6,
-      "MemoryOffset": 1574,
+      "MemoryOffset": 4682,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_bush_hit",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1576,
+      "MemoryOffset": 4684,
       "Description": "ON_BUSH_HIT"
     },
     {
       "CodeBlock": "on_bush_hit",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1576,
-      "Description": "Set 'block_type' to 'none'"
+      "MemoryOffset": 4684,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_bush_hit",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4686,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_bush_hit",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4688,
+      "Description": "Raw expression 'none'"
+    },
+    {
+      "CodeBlock": "on_bush_hit",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4696,
+      "Description": "Raw expression 'block_x'"
+    },
+    {
+      "CodeBlock": "on_bush_hit",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4704,
+      "Description": "Raw expression 'block_y'"
     },
     {
       "CodeBlock": "on_bush_hit",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1582,
-      "Description": "Set 'dice' to '2'"
+      "MemoryOffset": 4712,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_bush_hit",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4714,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_bush_hit",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4716,
+      "Description": "Raw expression '2'"
     },
     {
       "CodeBlock": "on_bush_hit",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1588,
-      "Description": "If 'dice' Equals '2' ELSE GOTO 00001618"
+      "MemoryOffset": 4724,
+      "Description": "If 'dice' Equals '2' ELSE GOTO 00004780"
     },
     {
       "CodeBlock": "on_bush_hit",
       "CodeBlockLine": 4,
-      "MemoryOffset": 1612,
-      "Description": "Set 'block_type' to 'rupee1'"
+      "MemoryOffset": 4752,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_bush_hit",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 4754,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_bush_hit",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 4756,
+      "Description": "Raw expression 'rupee1'"
+    },
+    {
+      "CodeBlock": "on_bush_hit",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 4764,
+      "Description": "Raw expression 'block_x'"
+    },
+    {
+      "CodeBlock": "on_bush_hit",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 4772,
+      "Description": "Raw expression 'block_y'"
     },
     {
       "CodeBlock": "on_bush_hit",
       "CodeBlockLine": 5,
-      "MemoryOffset": 1618,
+      "MemoryOffset": 4780,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_enter_house",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1620,
+      "MemoryOffset": 4782,
       "Description": "ON_ENTER_HOUSE"
     },
     {
       "CodeBlock": "on_enter_house",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1620,
-      "Description": "Set 'teleport' to 'housedoor'"
+      "MemoryOffset": 4782,
+      "Description": "Set 'newvalue' to 'housedoor'"
+    },
+    {
+      "CodeBlock": "on_enter_house",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4792,
+      "Description": "GOSUB TO 'DO_TELEPORT'"
     },
     {
       "CodeBlock": "on_enter_house",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1626,
-      "Description": "Set 'block_x' to '15'"
+      "MemoryOffset": 4798,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "on_enter_house",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1632,
-      "Description": "Set 'block_y' to '10'"
+      "MemoryOffset": 4800,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "on_enter_house",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1638,
-      "Description": "Set 'block_type' to 'chest_empty'"
+      "MemoryOffset": 4802,
+      "Description": "Raw expression 'chest_empty'"
     },
     {
       "CodeBlock": "on_enter_house",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1644,
+      "MemoryOffset": 4810,
+      "Description": "Raw expression '15'"
+    },
+    {
+      "CodeBlock": "on_enter_house",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4818,
+      "Description": "Raw expression '10'"
+    },
+    {
+      "CodeBlock": "on_enter_house",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4826,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_exit_house",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1646,
+      "MemoryOffset": 4828,
       "Description": "ON_EXIT_HOUSE"
     },
     {
       "CodeBlock": "on_exit_house",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1646,
-      "Description": "If 'has_shield' Equals 'false' ELSE GOTO 00001714"
+      "MemoryOffset": 4828,
+      "Description": "If 'has_shield' Equals 'false' ELSE GOTO 00004908"
     },
     {
       "CodeBlock": "on_exit_house",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1670,
+      "MemoryOffset": 4856,
       "Description": "Say 'Don't go anywhere without your shield'"
     },
     {
       "CodeBlock": "on_exit_house",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4900,
+      "Description": "GOSUB TO 'WAITFORFIREHIT'"
+    },
+    {
+      "CodeBlock": "on_exit_house",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1712,
+      "MemoryOffset": 4906,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_exit_house",
       "CodeBlockLine": 5,
-      "MemoryOffset": 1714,
-      "Description": "GOTO 'PART3'"
+      "MemoryOffset": 4908,
+      "Description": "Set 'newvalue' to 'houseoutside'"
     },
     {
       "CodeBlock": "on_exit_house",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 1720,
-      "Description": "GOTO 'PART3'"
+      "CodeBlockLine": 5,
+      "MemoryOffset": 4918,
+      "Description": "GOSUB TO 'DO_TELEPORT'"
     },
     {
       "CodeBlock": "on_exit_house",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 1726,
+      "CodeBlockLine": 5,
+      "MemoryOffset": 4924,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_killpuff_over",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1728,
+      "MemoryOffset": 4926,
       "Description": "ON_KILLPUFF_OVER"
     },
     {
       "CodeBlock": "on_killpuff_over",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1728,
-      "Description": "Set 'block_x' to 'Actor_X / 16'"
+      "MemoryOffset": 4926,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "on_killpuff_over",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1756,
-      "Description": "Set 'block_y' to 'Actor_Y / 16'"
+      "MemoryOffset": 4928,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
     },
     {
       "CodeBlock": "on_killpuff_over",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1784,
-      "Description": "Set 'block_type' to 'rupee1'"
+      "MemoryOffset": 4930,
+      "Description": "Raw expression 'rupee1'"
+    },
+    {
+      "CodeBlock": "on_killpuff_over",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4938,
+      "Description": "Raw expression 'Actor_X / 16'"
+    },
+    {
+      "CodeBlock": "on_killpuff_over",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 4958,
+      "Description": "Raw expression 'Actor_Y / 16'"
     },
     {
       "CodeBlock": "on_killpuff_over",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1790,
+      "MemoryOffset": 4978,
       "Description": "Set 'actor_type' to 'none'"
     },
     {
       "CodeBlock": "on_killpuff_over",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1796,
+      "MemoryOffset": 4988,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_killpuff_over",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4990,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_killpuff_over",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4992,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_killpuff_over",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 4996,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_pickupsword_collision",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1798,
+      "MemoryOffset": 4998,
       "Description": "ON_PICKUPSWORD_COLLISION"
     },
     {
       "CodeBlock": "on_pickupsword_collision",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1798,
+      "MemoryOffset": 4998,
       "Description": "Set 'actor_type' to 'none'"
     },
     {
       "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 5008,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 5010,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 5012,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1804,
+      "MemoryOffset": 5016,
       "Description": "Set 'player_animation' to 'link_pickup_sword'"
     },
     {
       "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 5026,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 5028,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 5030,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1810,
-      "Description": "Set 'sound' to 'snd_happy'"
+      "MemoryOffset": 5034,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 5036,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 5038,
+      "Description": "Raw expression 'snd_happy'"
     },
     {
       "CodeBlock": "on_pickupsword_collision",
       "CodeBlockLine": 4,
-      "MemoryOffset": 1816,
+      "MemoryOffset": 5046,
       "Description": "Set 'has_sword' to 'true'"
     },
     {
       "CodeBlock": "on_pickupsword_collision",
       "CodeBlockLine": 5,
-      "MemoryOffset": 1822,
+      "MemoryOffset": 5056,
       "Description": "Say 'You found a sword!!!<br><br>You can now fight monsters.'"
     },
     {
       "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 5112,
+      "Description": "GOSUB TO 'WAITFORFIREHIT'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
       "CodeBlockLine": 6,
-      "MemoryOffset": 1876,
+      "MemoryOffset": 5118,
       "Description": "Set 'player_type' to 'link_sword'"
     },
     {
       "CodeBlock": "on_pickupsword_collision",
       "CodeBlockLine": 6,
-      "MemoryOffset": 1882,
+      "MemoryOffset": 5128,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5130,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5132,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5136,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "on_pickupsword_collision",
       "CodeBlockLine": 6,
-      "MemoryOffset": 1888,
+      "MemoryOffset": 5146,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5148,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5150,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5154,
+      "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5164,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5166,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5168,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_pickupsword_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 5172,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 0,
-      "MemoryOffset": 1890,
+      "MemoryOffset": 5174,
       "Description": "ON_PLAYERCOLLIDE_ENEMIES"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 1,
-      "MemoryOffset": 1890,
+      "MemoryOffset": 5174,
       "Description": "Set 'health' to 'health - 1'"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 5188,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 5190,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 2,
-      "MemoryOffset": 1904,
-      "Description": "If 'health' Equals '0' ELSE GOTO 00001950"
+      "MemoryOffset": 5192,
+      "Description": "If 'health' Equals '0' ELSE GOTO 00005252"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 3,
-      "MemoryOffset": 1928,
-      "Description": "Set 'level' to 'level'"
+      "MemoryOffset": 5220,
+      "Description": "Set 'newvalue' to 'level'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 5230,
+      "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 4,
-      "MemoryOffset": 1938,
+      "MemoryOffset": 5236,
       "Description": "Set 'health' to 'max_health'"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 5246,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 5248,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 5,
-      "MemoryOffset": 1948,
+      "MemoryOffset": 5250,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 7,
-      "MemoryOffset": 1950,
-      "Description": "If 'actor_lookdir' Equals 'look_left' ELSE GOTO 00002002"
+      "MemoryOffset": 5252,
+      "Description": "If 'actor_lookdir' Equals 'look_left' ELSE GOTO 00005320"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 8,
-      "MemoryOffset": 1984,
+      "MemoryOffset": 5290,
       "Description": "Set 'pushframes' to '3'"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 8,
-      "MemoryOffset": 1990,
+      "MemoryOffset": 5300,
       "Description": "Set 'player_xpush' to '-12'"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 5310,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 5312,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 5314,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 9,
-      "MemoryOffset": 2000,
+      "MemoryOffset": 5318,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 11,
-      "MemoryOffset": 2002,
-      "Description": "If 'actor_lookdir' Equals 'look_right' ELSE GOTO 00002050"
+      "MemoryOffset": 5320,
+      "Description": "If 'actor_lookdir' Equals 'look_right' ELSE GOTO 00005388"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 12,
-      "MemoryOffset": 2036,
+      "MemoryOffset": 5358,
       "Description": "Set 'pushframes' to '3'"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 12,
-      "MemoryOffset": 2042,
+      "MemoryOffset": 5368,
       "Description": "Set 'player_xpush' to '12'"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 5378,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 5380,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 5382,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 13,
-      "MemoryOffset": 2048,
+      "MemoryOffset": 5386,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 15,
-      "MemoryOffset": 2050,
-      "Description": "If 'actor_lookdir' Equals 'look_up' ELSE GOTO 00002102"
+      "MemoryOffset": 5388,
+      "Description": "If 'actor_lookdir' Equals 'look_up' ELSE GOTO 00005456"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 16,
-      "MemoryOffset": 2084,
+      "MemoryOffset": 5426,
       "Description": "Set 'pushframes' to '3'"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 16,
-      "MemoryOffset": 2090,
+      "MemoryOffset": 5436,
       "Description": "Set 'player_ypush' to '-12'"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 5446,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 5448,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 5450,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 17,
-      "MemoryOffset": 2100,
+      "MemoryOffset": 5454,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 19,
-      "MemoryOffset": 2102,
-      "Description": "If 'actor_lookdir' Equals 'look_down' ELSE GOTO 00002150"
+      "MemoryOffset": 5456,
+      "Description": "If 'actor_lookdir' Equals 'look_down' ELSE GOTO 00005524"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 20,
-      "MemoryOffset": 2136,
+      "MemoryOffset": 5494,
       "Description": "Set 'pushframes' to '3'"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 20,
-      "MemoryOffset": 2142,
+      "MemoryOffset": 5504,
       "Description": "Set 'player_ypush' to '12'"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 5514,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 5516,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 5518,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 21,
-      "MemoryOffset": 2148,
+      "MemoryOffset": 5522,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_playercollide_enemies",
       "CodeBlockLine": 22,
-      "MemoryOffset": 2150,
+      "MemoryOffset": 5524,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2152,
+      "MemoryOffset": 5526,
       "Description": "ON_PLAYERHIT_ENEMIES"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2152,
+      "MemoryOffset": 5526,
       "Description": "Set 'actor_var1' to 'actor_var1 + 1'"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 5550,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 5552,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 5554,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2176,
-      "Description": "If 'actor_type' Equals 'enemy_tentacles' ELSE GOTO 00002224"
+      "MemoryOffset": 5558,
+      "Description": "If 'actor_type' Equals 'enemy_tentacles' ELSE GOTO 00005652"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 4,
-      "MemoryOffset": 2210,
+      "MemoryOffset": 5596,
       "Description": "Set 'actor_type' to 'killpuff'"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 4,
-      "MemoryOffset": 2216,
+      "MemoryOffset": 5606,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 5608,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 5610,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 5614,
       "Description": "Set 'actor_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 5624,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 5626,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 5628,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 5632,
+      "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 5642,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 5644,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 5646,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 5,
-      "MemoryOffset": 2222,
+      "MemoryOffset": 5650,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 7,
-      "MemoryOffset": 2224,
-      "Description": "If 'actor_type' Equals 'enemy_spider' ELSE GOTO 00002306"
+      "MemoryOffset": 5652,
+      "Description": "If 'actor_type' Equals 'enemy_spider' ELSE GOTO 00005784"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 8,
-      "MemoryOffset": 2258,
-      "Description": "If 'actor_var1' GreaterThan '1' ELSE GOTO 00002306"
+      "MemoryOffset": 5690,
+      "Description": "If 'actor_var1' GreaterThan '1' ELSE GOTO 00005784"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 9,
-      "MemoryOffset": 2292,
+      "MemoryOffset": 5728,
       "Description": "Set 'actor_type' to 'killpuff'"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 9,
-      "MemoryOffset": 2298,
+      "MemoryOffset": 5738,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 5740,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 5742,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 5746,
       "Description": "Set 'actor_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 5756,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 5758,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 5760,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 5764,
+      "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 5774,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 5776,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 5778,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 10,
-      "MemoryOffset": 2304,
+      "MemoryOffset": 5782,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 14,
-      "MemoryOffset": 2306,
-      "Description": "If 'player_lookdir' Equals 'look_left' ELSE GOTO 00002356"
+      "MemoryOffset": 5784,
+      "Description": "If 'player_lookdir' Equals 'look_left' ELSE GOTO 00005850"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 15,
-      "MemoryOffset": 2340,
+      "MemoryOffset": 5822,
       "Description": "Set 'pushframes' to '8'"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 15,
-      "MemoryOffset": 2346,
+      "MemoryOffset": 5832,
       "Description": "Set 'actor_xpush' to '-32'"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 5842,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 5844,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 5846,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 17,
-      "MemoryOffset": 2356,
-      "Description": "If 'player_lookdir' Equals 'look_right' ELSE GOTO 00002402"
+      "MemoryOffset": 5850,
+      "Description": "If 'player_lookdir' Equals 'look_right' ELSE GOTO 00005916"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 18,
-      "MemoryOffset": 2390,
+      "MemoryOffset": 5888,
       "Description": "Set 'pushframes' to '8'"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 18,
-      "MemoryOffset": 2396,
+      "MemoryOffset": 5898,
       "Description": "Set 'actor_xpush' to '32'"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 5908,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 5910,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 5912,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 20,
-      "MemoryOffset": 2402,
-      "Description": "If 'player_lookdir' Equals 'look_up' ELSE GOTO 00002452"
+      "MemoryOffset": 5916,
+      "Description": "If 'player_lookdir' Equals 'look_up' ELSE GOTO 00005982"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 21,
-      "MemoryOffset": 2436,
+      "MemoryOffset": 5954,
       "Description": "Set 'pushframes' to '8'"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 21,
-      "MemoryOffset": 2442,
+      "MemoryOffset": 5964,
       "Description": "Set 'actor_ypush' to '-32'"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 5974,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 5976,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 5978,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 23,
-      "MemoryOffset": 2452,
-      "Description": "If 'player_lookdir' Equals 'look_down' ELSE GOTO 00002498"
+      "MemoryOffset": 5982,
+      "Description": "If 'player_lookdir' Equals 'look_down' ELSE GOTO 00006048"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 24,
-      "MemoryOffset": 2486,
+      "MemoryOffset": 6020,
       "Description": "Set 'pushframes' to '8'"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 24,
-      "MemoryOffset": 2492,
+      "MemoryOffset": 6030,
       "Description": "Set 'actor_ypush' to '32'"
     },
     {
       "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 6040,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 6042,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 6044,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_playerhit_enemies",
       "CodeBlockLine": 25,
-      "MemoryOffset": 2498,
+      "MemoryOffset": 6048,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_rupee_collision",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2500,
+      "MemoryOffset": 6050,
       "Description": "ON_RUPEE_COLLISION"
     },
     {
       "CodeBlock": "on_rupee_collision",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2500,
-      "Description": "Set 'block_type' to 'none'"
+      "MemoryOffset": 6050,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_rupee_collision",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6052,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_rupee_collision",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6054,
+      "Description": "Raw expression 'none'"
+    },
+    {
+      "CodeBlock": "on_rupee_collision",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6062,
+      "Description": "Raw expression 'block_x'"
+    },
+    {
+      "CodeBlock": "on_rupee_collision",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6070,
+      "Description": "Raw expression 'block_y'"
     },
     {
       "CodeBlock": "on_rupee_collision",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2506,
+      "MemoryOffset": 6078,
       "Description": "Set 'rupee' to 'rupee + 1'"
     },
     {
       "CodeBlock": "on_rupee_collision",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2520,
+      "MemoryOffset": 6092,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_rupee_collision",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 6094,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_rupee_collision",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 6096,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_shieldchest_collision",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2522,
+      "MemoryOffset": 6098,
       "Description": "ON_SHIELDCHEST_COLLISION"
     },
     {
       "CodeBlock": "on_shieldchest_collision",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2522,
-      "Description": "Set 'block_type' to 'chest_empty'"
+      "MemoryOffset": 6098,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6100,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6102,
+      "Description": "Raw expression 'chest_empty'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6110,
+      "Description": "Raw expression 'block_x'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6118,
+      "Description": "Raw expression 'block_y'"
     },
     {
       "CodeBlock": "on_shieldchest_collision",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2528,
+      "MemoryOffset": 6126,
       "Description": "Set 'has_shield' to 'true'"
     },
     {
       "CodeBlock": "on_shieldchest_collision",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2534,
-      "Description": "Set 'sound' to 'snd_happy'"
+      "MemoryOffset": 6136,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6138,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6140,
+      "Description": "Raw expression 'snd_happy'"
     },
     {
       "CodeBlock": "on_shieldchest_collision",
       "CodeBlockLine": 4,
-      "MemoryOffset": 2540,
+      "MemoryOffset": 6148,
       "Description": "Set 'player_animation' to 'link_pickup_shield'"
     },
     {
       "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 6158,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 6160,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 6162,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
       "CodeBlockLine": 5,
-      "MemoryOffset": 2546,
+      "MemoryOffset": 6166,
       "Description": "Say 'You found a shield!!!<br><br>Your defence rises by one point.'"
     },
     {
       "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6228,
+      "Description": "GOSUB TO 'WAITFORFIREHIT'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
       "CodeBlockLine": 6,
-      "MemoryOffset": 2606,
+      "MemoryOffset": 6234,
       "Description": "Set 'player_type' to 'link_shield'"
     },
     {
       "CodeBlock": "on_shieldchest_collision",
       "CodeBlockLine": 6,
-      "MemoryOffset": 2612,
+      "MemoryOffset": 6244,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6246,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6248,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6252,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "on_shieldchest_collision",
       "CodeBlockLine": 6,
-      "MemoryOffset": 2618,
+      "MemoryOffset": 6262,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6264,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6266,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6270,
+      "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6280,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6282,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6284,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_shieldchest_collision",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6288,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "on_signpost",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2620,
+      "MemoryOffset": 6290,
       "Description": "ON_SIGNPOST"
     },
     {
       "CodeBlock": "on_signpost",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2620,
+      "MemoryOffset": 6290,
       "Description": "Say 'N: Link's Home<br>W: Hyrule Field<br>E: Forest Temple'"
     },
     {
       "CodeBlock": "on_signpost",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2672,
+      "MemoryOffset": 6344,
+      "Description": "GOSUB TO 'WAITFORFIREHIT'"
+    },
+    {
+      "CodeBlock": "on_signpost",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6350,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "part1",
       "CodeBlockLine": 0,
-      "MemoryOffset": 2674,
+      "MemoryOffset": 6352,
       "Description": "PART1"
     },
     {
       "CodeBlock": "part1",
       "CodeBlockLine": 1,
-      "MemoryOffset": 2674,
+      "MemoryOffset": 6352,
+      "Description": "Set 'musicpos' to '0'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6362,
       "Description": "Set 'music' to 'mod_intro'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6372,
+      "Description": "GOSUB TO 'LOAD_MUSIC'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 2,
-      "MemoryOffset": 2680,
-      "Description": "Set 'level' to 'map_intro'"
+      "MemoryOffset": 6378,
+      "Description": "Set 'newvalue' to 'map_intro'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 6388,
+      "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "part1",
       "CodeBlockLine": 3,
-      "MemoryOffset": 2686,
+      "MemoryOffset": 6394,
       "Description": "Set 'wait' to '50'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6404,
+      "Description": "GOSUB TO 'WAITFORFRAMES'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 4,
-      "MemoryOffset": 2692,
+      "MemoryOffset": 6410,
       "Description": "Say 'The Kingdom of Hyrule has been in peace since Link, the last knight of Hyrule, had defeated the malicious Ganon and reclaimed the precious triforce from him.'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 6574,
+      "Description": "GOSUB TO 'WAITFORFIREHIT'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 5,
-      "MemoryOffset": 2854,
+      "MemoryOffset": 6580,
       "Description": "GOSUB TO 'MOVE_CAMERA_RIGHT'"
     },
     {
       "CodeBlock": "part1",
       "CodeBlockLine": 6,
-      "MemoryOffset": 2860,
+      "MemoryOffset": 6586,
       "Description": "Say 'Nobody knows what Link's wish to the triforce was, but it had the effect of reunifying the Light and Dark world, and awakening the 7 wise men's descendants.'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6750,
+      "Description": "GOSUB TO 'WAITFORFIREHIT'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 7,
-      "MemoryOffset": 3022,
+      "MemoryOffset": 6756,
       "Description": "GOSUB TO 'MOVE_CAMERA_RIGHT'"
     },
     {
       "CodeBlock": "part1",
       "CodeBlockLine": 8,
-      "MemoryOffset": 3028,
+      "MemoryOffset": 6762,
       "Description": "Say 'Next, Link handed the Triforce and Master Sword over to Princess Zelda, and people started to believe that peace would last.<5><br>But the people were wrong<3>.<3>.<3>.'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6926,
+      "Description": "GOSUB TO 'WAITFORFIREHIT'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 9,
-      "MemoryOffset": 3190,
+      "MemoryOffset": 6932,
       "Description": "GOSUB TO 'MOVE_CAMERA_RIGHT'"
     },
     {
       "CodeBlock": "part1",
       "CodeBlockLine": 10,
-      "MemoryOffset": 3196,
+      "MemoryOffset": 6938,
       "Description": "Say 'Unfortunately, Link's wish also had negative effects. Ganon and his henchmen were resurrected and got ready to attack.'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 7064,
+      "Description": "GOSUB TO 'WAITFORFIREHIT'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 11,
-      "MemoryOffset": 3320,
+      "MemoryOffset": 7070,
       "Description": "GOSUB TO 'MOVE_CAMERA_RIGHT'"
     },
     {
       "CodeBlock": "part1",
       "CodeBlockLine": 12,
-      "MemoryOffset": 3326,
+      "MemoryOffset": 7076,
       "Description": "Say 'Somewhere in Hyrule Forest, Link is sleeping without suspecting that Ganon has already moved into attack.<br><5>Until<3>.<3>.<3>.'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 7202,
+      "Description": "GOSUB TO 'WAITFORFIREHIT'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 13,
-      "MemoryOffset": 3450,
+      "MemoryOffset": 7208,
+      "Description": "Set 'musicpos' to '0'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 7218,
       "Description": "Set 'music' to 'none'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 7228,
+      "Description": "GOSUB TO 'LOAD_MUSIC'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 14,
-      "MemoryOffset": 3456,
-      "Description": "Set 'level' to 'map_house_night'"
+      "MemoryOffset": 7234,
+      "Description": "Set 'newvalue' to 'map_house_night'"
+    },
+    {
+      "CodeBlock": "part1",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 7244,
+      "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "part1",
       "CodeBlockLine": 15,
-      "MemoryOffset": 3462,
+      "MemoryOffset": 7250,
       "Description": "Set 'camera_x' to '320 - 256'"
     },
     {
       "CodeBlock": "part1",
       "CodeBlockLine": 15,
-      "MemoryOffset": 3476,
+      "MemoryOffset": 7264,
       "Description": "Set 'camera_y' to '256 - 212'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 7278,
+      "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 16,
-      "MemoryOffset": 3490,
+      "MemoryOffset": 7292,
       "Description": "Set 'wait' to '50'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 7302,
+      "Description": "GOSUB TO 'WAITFORFRAMES'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 17,
-      "MemoryOffset": 3496,
+      "MemoryOffset": 7308,
       "Description": "PART1CAMERALOOP"
     },
     {
       "CodeBlock": "part1",
       "CodeBlockLine": 18,
-      "MemoryOffset": 3496,
-      "Description": "If 'camera_x' GreaterThan '0' ELSE GOTO 00003534"
+      "MemoryOffset": 7308,
+      "Description": "If 'camera_x' GreaterThan '0' ELSE GOTO 00007364"
     },
     {
       "CodeBlock": "part1",
       "CodeBlockLine": 19,
-      "MemoryOffset": 3520,
+      "MemoryOffset": 7336,
       "Description": "Set 'camera_x' to 'Camera_X - 1'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 7350,
+      "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 21,
-      "MemoryOffset": 3534,
-      "Description": "If 'camera_y' GreaterThan '0' ELSE GOTO 00003572"
+      "MemoryOffset": 7364,
+      "Description": "If 'camera_y' GreaterThan '0' ELSE GOTO 00007420"
     },
     {
       "CodeBlock": "part1",
       "CodeBlockLine": 22,
-      "MemoryOffset": 3558,
+      "MemoryOffset": 7392,
       "Description": "Set 'camera_y' to 'Camera_Y - 1'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 7406,
+      "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 24,
-      "MemoryOffset": 3572,
-      "Description": "If 'camera_x + camera_y' GreaterThan '0' ELSE GOTO 00003612"
+      "MemoryOffset": 7420,
+      "Description": "If 'camera_x + camera_y' GreaterThan '0' ELSE GOTO 00007474"
     },
     {
       "CodeBlock": "part1",
       "CodeBlockLine": 25,
-      "MemoryOffset": 3600,
+      "MemoryOffset": 7452,
       "Description": "Set 'wait' to '1'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 7462,
+      "Description": "GOSUB TO 'WAITFORFRAMES'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 26,
-      "MemoryOffset": 3606,
+      "MemoryOffset": 7468,
       "Description": "GOTO 'PART1CAMERALOOP'"
     },
     {
       "CodeBlock": "part1",
       "CodeBlockLine": 28,
-      "MemoryOffset": 3612,
+      "MemoryOffset": 7474,
       "Description": "Say 'Help me!<5><br>Help me!<5><br>It's me,<2> Zelda!<3><br>I'm talking to you by telepathy.'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 7552,
+      "Description": "GOSUB TO 'WAITFORFIREHIT'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 29,
-      "MemoryOffset": 3688,
+      "MemoryOffset": 7558,
       "Description": "Say 'I am a prisoner in the dungeon of the castle!'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 7610,
+      "Description": "GOSUB TO 'WAITFORFIREHIT'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 30,
-      "MemoryOffset": 3738,
+      "MemoryOffset": 7616,
       "Description": "Say 'I need your help!'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 30,
+      "MemoryOffset": 7640,
+      "Description": "GOSUB TO 'WAITFORFIREHIT'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 31,
-      "MemoryOffset": 3760,
+      "MemoryOffset": 7646,
       "Description": "Say 'Ganon is back, and he surely has already found the Triforce<3>.<3>.<3>.'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 31,
+      "MemoryOffset": 7718,
+      "Description": "GOSUB TO 'WAITFORFIREHIT'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 32,
-      "MemoryOffset": 3830,
+      "MemoryOffset": 7724,
       "Description": "Say 'Come quickly to the castle Link, you are my only hope<3>.<3>.<3>.'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 7790,
+      "Description": "GOSUB TO 'WAITFORFIREHIT'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 33,
-      "MemoryOffset": 3894,
+      "MemoryOffset": 7796,
       "Description": "Set 'wait' to '50'"
     },
     {
       "CodeBlock": "part1",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7806,
+      "Description": "GOSUB TO 'WAITFORFRAMES'"
+    },
+    {
+      "CodeBlock": "part1",
       "CodeBlockLine": 34,
-      "MemoryOffset": 3900,
+      "MemoryOffset": 7812,
       "Description": "GOTO 'PART2'"
     },
     {
       "CodeBlock": "part1",
       "CodeBlockLine": 34,
-      "MemoryOffset": 3906,
+      "MemoryOffset": 7818,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "part2",
       "CodeBlockLine": 0,
-      "MemoryOffset": 3908,
+      "MemoryOffset": 7820,
       "Description": "PART2"
     },
     {
       "CodeBlock": "part2",
       "CodeBlockLine": 1,
-      "MemoryOffset": 3908,
-      "Description": "Set 'level' to 'map_bedroom'"
+      "MemoryOffset": 7820,
+      "Description": "Set 'newvalue' to 'map_bedroom'"
+    },
+    {
+      "CodeBlock": "part2",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 7830,
+      "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "part2",
       "CodeBlockLine": 2,
-      "MemoryOffset": 3914,
+      "MemoryOffset": 7836,
       "Description": "GOTO 'CONFIGURE_LEVEL'"
     },
     {
       "CodeBlock": "part2",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 3920,
-      "Description": "GOTO 'CONFIGURE_LEVEL'"
-    },
-    {
-      "CodeBlock": "part2",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 3926,
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7842,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "part3",
       "CodeBlockLine": 0,
-      "MemoryOffset": 3928,
+      "MemoryOffset": 7844,
       "Description": "PART3"
     },
     {
       "CodeBlock": "part3",
       "CodeBlockLine": 1,
-      "MemoryOffset": 3928,
-      "Description": "Set 'level' to 'map_outside'"
+      "MemoryOffset": 7844,
+      "Description": "Set 'newvalue' to 'map_outside'"
+    },
+    {
+      "CodeBlock": "part3",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 7854,
+      "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "part3",
       "CodeBlockLine": 2,
-      "MemoryOffset": 3934,
+      "MemoryOffset": 7860,
       "Description": "GOTO 'CONFIGURE_LEVEL'"
     },
     {
       "CodeBlock": "part3",
       "CodeBlockLine": 2,
-      "MemoryOffset": 3940,
+      "MemoryOffset": 7866,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "spawn_link",
       "CodeBlockLine": 0,
-      "MemoryOffset": 3942,
+      "MemoryOffset": 7868,
       "Description": "SPAWN_LINK"
     },
     {
       "CodeBlock": "spawn_link",
       "CodeBlockLine": 1,
-      "MemoryOffset": 3942,
+      "MemoryOffset": 7868,
+      "Description": "If 'has_sword' NotZero 'true'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7892,
       "Description": "Set 'player_type' to 'link_sword'"
     },
     {
       "CodeBlock": "spawn_link",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 3948,
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7902,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7904,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7906,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7910,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "spawn_link",
       "CodeBlockLine": 2,
-      "MemoryOffset": 3954,
-      "Description": "If 'has_sword' NotZero 'true' ELSE GOTO 00003980"
+      "MemoryOffset": 7920,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7922,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7924,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7928,
+      "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7938,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7940,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7942,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "spawn_link",
       "CodeBlockLine": 3,
-      "MemoryOffset": 3978,
-      "Description": "RETURN TO GAME OR GOSUB"
+      "MemoryOffset": 7946,
+      "Description": "GOTO '00008006'"
     },
     {
       "CodeBlock": "spawn_link",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 3980,
-      "Description": "If 'has_shield' NotZero 'true' ELSE GOTO 00004016"
-    },
-    {
-      "CodeBlock": "spawn_link",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 4004,
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7952,
       "Description": "Set 'player_type' to 'link_shield'"
     },
     {
       "CodeBlock": "spawn_link",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 4010,
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7962,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7964,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7966,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7970,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "spawn_link",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 4016,
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7980,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7982,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7984,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7988,
+      "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7998,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 8000,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 8002,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "spawn_link",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 8006,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "spawn_pickup_sword",
       "CodeBlockLine": 0,
-      "MemoryOffset": 4018,
+      "MemoryOffset": 8008,
       "Description": "SPAWN_PICKUP_SWORD"
     },
     {
       "CodeBlock": "spawn_pickup_sword",
       "CodeBlockLine": 2,
-      "MemoryOffset": 4018,
-      "Description": "If 'player_type' Equals 'Link_Sword' ELSE GOTO 00004058"
+      "MemoryOffset": 8008,
+      "Description": "If 'player_type' Equals 'Link_Sword' ELSE GOTO 00008064"
     },
     {
       "CodeBlock": "spawn_pickup_sword",
       "CodeBlockLine": 3,
-      "MemoryOffset": 4052,
+      "MemoryOffset": 8046,
       "Description": "Set 'actor_type' to 'none'"
     },
     {
       "CodeBlock": "spawn_pickup_sword",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8056,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "spawn_pickup_sword",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8058,
+      "Description": "Raw data of type 'BlitzTool.WordOnly'"
+    },
+    {
+      "CodeBlock": "spawn_pickup_sword",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8060,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "spawn_pickup_sword",
       "CodeBlockLine": 4,
-      "MemoryOffset": 4058,
+      "MemoryOffset": 8064,
       "Description": "RETURN TO GAME OR GOSUB"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 4060,
+      "MemoryOffset": 8066,
       "Description": "STARTUP"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 4060,
+      "MemoryOffset": 8066,
       "Description": "Set 'camera_boxleft' to '16'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 4066,
+      "MemoryOffset": 8076,
       "Description": "Set 'camera_boxright' to '16'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 4072,
+      "MemoryOffset": 8086,
       "Description": "Set 'camera_boxup' to '16'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 4078,
+      "MemoryOffset": 8096,
       "Description": "Set 'camera_boxdown' to '16'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 4084,
+      "MemoryOffset": 8106,
+      "Description": "Set 'musicpos' to '0'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 8116,
       "Description": "Set 'music' to 'mod_intro'"
     },
     {
       "CodeBlock": "startup",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 4090,
-      "Description": "Set 'panel' to 'pic_title'"
+      "CodeBlockLine": 2,
+      "MemoryOffset": 8126,
+      "Description": "GOSUB TO 'LOAD_MUSIC'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 4096,
+      "MemoryOffset": 8132,
+      "Description": "Set 'newvalue' to 'pic_title'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8142,
+      "Description": "GOSUB TO 'LOAD_PANEL'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8148,
+      "Description": "If 'panel' NotEquals '0' ELSE GOTO 00008198"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8176,
       "Description": "Set 'wait' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 4102,
-      "Description": "Set 'panel' to '0'"
+      "MemoryOffset": 8186,
+      "Description": "GOSUB TO 'WAITFORFRAMES'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8192,
+      "Description": "GOSUB TO 'UNLOAD_PANEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 4108,
+      "MemoryOffset": 8198,
+      "Description": "Set 'musicpos' to '0'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 8208,
       "Description": "Set 'music' to 'none'"
     },
     {
       "CodeBlock": "startup",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 8218,
+      "Description": "GOSUB TO 'LOAD_MUSIC'"
+    },
+    {
+      "CodeBlock": "startup",
       "CodeBlockLine": 5,
-      "MemoryOffset": 4114,
+      "MemoryOffset": 8224,
       "Description": "GOTO 'GAMEMENU'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 5,
-      "MemoryOffset": 4120,
+      "MemoryOffset": 8230,
       "Description": "RETURN TO GAME OR GOSUB"
     }
   ],
@@ -3231,7 +6439,7 @@
     "1": "mod_intro"
   },
   "Panels": {
-    "0": "No panels displayed",
+    "0": "scorpion_eng_splashscreen",
     "1": "hud",
     "2": "main_menu",
     "3": "pic_title",
