@@ -1,7 +1,7 @@
 {
   "GFXMode": "BP5",
-  "EmulatedAmiga": "A500",
-  "EmulatedFastRam": 0,
+  "EmulatedAmiga": "A1200",
+  "EmulatedFastRam": 8,
   "Talkpad": null,
   "Talkpad_OnBottom": false,
   "WinUAEConfiguration": null,
