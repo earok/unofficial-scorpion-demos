@@ -84,7 +84,7 @@
       "Expression": "0",
       "Label": null,
       "DiceSides": 2,
-      "Disabled": true,
+      "Disabled": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",

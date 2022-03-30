@@ -88,35 +88,36 @@ Animations Count: 19
 Animations Data Size: 304
 AnimationFrame Count: 83
 AnimationFrame Data Size: 5644
+Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3312
 Crunching Panel ending_screen as 1.img. Original size: 43810. Crunched size: 9326
 Crunching Panel hud as 2.img. Original size: 10592. Crunched size: 1182
 Crunching Panel select_screen as 3.img. Original size: 46226. Crunched size: 16606
 Crunching Panel splash_screen as 4.img. Original size: 43810. Crunched size: 9928
 Crunching Panel vs_screen as 5.img. Original size: 43810. Crunched size: 9950
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 7466. Crunched size: 2330
-Crunching Header data for map stage as 1.mhd. Original size: 11544. Crunched size: 332
-Crunching Data for map stage as 1.map. Original size: 4658. Crunched size: 1496
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 7382. Crunched size: 2446
+Crunching Header data for map stage as 1.mhd. Original size: 11556. Crunched size: 344
+Crunching Data for map stage as 1.map. Original size: 4662. Crunched size: 1496
 Crunching Asset bundle 0 as 0.gfx. Original size: 496212. Crunched size: 243800
 Crunching Asset bundle 1 as 1.gfx. Original size: 73920. Crunched size: 37990
-Crunching Project data as project.dat. Original size: 7748. Crunched size: 1994
-Crunching Scorpion header as project.hd. Original size: 2992. Crunched size: 1170
+Crunching Project data as project.dat. Original size: 7748. Crunched size: 1988
+Crunching Scorpion header as project.hd. Original size: 3004. Crunched size: 1180
 
 Estimated memory usages:
 
 For chip:
 Map gfx (level gfx bundle 1 ): 73920
 Music memory: 65538
-BP Buffer memory: 131520
+BP Buffer memory: 110000
 core sfx/gfx memory: 496212
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 4658
-EXE memory: 194108
-vm memory: 7466
+Map data memory: 4662
+EXE memory: 191792
+vm memory: 7382
 project memory: 7748
 
-Accounted memory chip: 767190
-Accounted memory other: 213980
-Accounted memory total: 981170
+Accounted memory chip: 745670
+Accounted memory other: 211584
+Accounted memory total: 957254

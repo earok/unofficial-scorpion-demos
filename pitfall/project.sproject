@@ -19,9 +19,10 @@
   "Fire2Jump": false,
   "UpJump": false,
   "JumpOnHold": false,
+  "XFillSize": 20,
   "YFillSize": 17,
   "Add21K": false,
-  "DataVersion": 1,
+  "DataVersion": 2,
   "Commands": [
     {
       "Key": "Alpha1",

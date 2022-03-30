@@ -11,6 +11,8 @@
       "LevelOperationType": "LoadLevel",
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "CoreType": "RefreshActorVariable",
       "Goto": null,
       "Comment": null,
       "Variable": "none",
@@ -32,6 +34,7 @@
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
+      "ResetAnimations": true,
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -39,10 +42,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 212,
       "CameraFollowLeft": false,
@@ -73,6 +76,8 @@
       "LevelOperationType": "LoadLevel",
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "CoreType": "RefreshActorVariable",
       "Goto": "configure_level",
       "Comment": null,
       "Variable": "none",
@@ -94,6 +99,7 @@
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
+      "ResetAnimations": true,
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
@@ -101,10 +107,10 @@
       "CameraX": null,
       "CameraY": null,
       "CameraBox": {
-        "Left": 0,
-        "Right": 0,
-        "Up": 0,
-        "Down": 0
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
       },
       "YRes": 212,
       "CameraFollowLeft": false,

@@ -5,7 +5,7 @@
   "Talkpad": "talkpad",
   "Talkpad_OnBottom": true,
   "WinUAEConfiguration": null,
-  "StartupCodeBlock": "part3",
+  "StartupCodeBlock": "startup",
   "Uses24BitColor": true,
   "AGARequired": false,
   "SpriteMode": "Mode_0_16_Wide",

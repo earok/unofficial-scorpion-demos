@@ -15,38 +15,39 @@ Animations Count: 1
 Animations Data Size: 16
 AnimationFrame Count: 2
 AnimationFrame Data Size: 136
+Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3312
 Crunching Panel panel_talkpad as 1.img. Original size: 49280. Crunched size: 6084
 Crunching Panel pic_title as 2.img. Original size: 55010. Crunched size: 11726
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 32184. Crunched size: 11880
-Crunching Header data for map court as 1.mhd. Original size: 11544. Crunched size: 352
-Crunching Data for map court as 1.map. Original size: 60168. Crunched size: 8570
-Crunching Header data for map intro0 as 2.mhd. Original size: 11544. Crunched size: 354
-Crunching Data for map intro0 as 2.map. Original size: 17016. Crunched size: 3678
-Crunching Header data for map lobby as 3.mhd. Original size: 11544. Crunched size: 346
-Crunching Data for map lobby as 3.map. Original size: 26800. Crunched size: 2554
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 32472. Crunched size: 12002
+Crunching Header data for map court as 1.mhd. Original size: 11556. Crunched size: 364
+Crunching Data for map court as 1.map. Original size: 60172. Crunched size: 8574
+Crunching Header data for map intro0 as 2.mhd. Original size: 11556. Crunched size: 366
+Crunching Data for map intro0 as 2.map. Original size: 17020. Crunched size: 3682
+Crunching Header data for map lobby as 3.mhd. Original size: 11556. Crunched size: 352
+Crunching Data for map lobby as 3.map. Original size: 26804. Crunched size: 2562
 Crunching Asset bundle 0 as 0.gfx. Original size: 25248. Crunched size: 21804
 Crunching Asset bundle 1 as 1.gfx. Original size: 350080. Crunched size: 167456
 Crunching Asset bundle 2 as 2.gfx. Original size: 173280. Crunched size: 91290
 Crunching Asset bundle 3 as 3.gfx. Original size: 100320. Crunched size: 56918
 Crunching Project data as project.dat. Original size: 572. Crunched size: 102
-Crunching Scorpion header as project.hd. Original size: 2992. Crunched size: 1166
+Crunching Scorpion header as project.hd. Original size: 3004. Crunched size: 1176
 
 Estimated memory usages:
 
 For chip:
 Map gfx (level gfx bundle 1 ): 350080
 Music memory: 0
-BP Buffer memory: 132480
+BP Buffer memory: 110800
 core sfx/gfx memory: 25248
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 60168
-EXE memory: 194108
-vm memory: 32184
+Map data memory: 60172
+EXE memory: 191792
+vm memory: 32472
 project memory: 572
 
-Accounted memory chip: 507808
-Accounted memory other: 287032
-Accounted memory total: 794840
+Accounted memory chip: 486128
+Accounted memory other: 285008
+Accounted memory total: 771136

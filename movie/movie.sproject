@@ -19,9 +19,10 @@
   "Fire2Jump": true,
   "UpJump": true,
   "JumpOnHold": false,
-  "YFillSize": 17,
+  "XFillSize": 19,
+  "YFillSize": 13,
   "Add21K": false,
-  "DataVersion": 1,
+  "DataVersion": 2,
   "Commands": [],
   "AnimationMetaData": {},
   "Anim5MetaData": {}
