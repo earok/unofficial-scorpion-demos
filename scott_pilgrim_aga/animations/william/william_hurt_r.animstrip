@@ -3,9 +3,9 @@
     {
       "Path": "hurt1.png",
       "Duration": 5,
-      "HandleX": -23,
+      "HandleX": -40,
       "HandleY": -57,
-      "XFlipped": true,
+      "XFlipped": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
@@ -13,24 +13,14 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
+      "OnFrame": null
     },
     {
       "Path": "hurt2.png",
       "Duration": 5,
-      "HandleX": -30,
+      "HandleX": -34,
       "HandleY": -68,
-      "XFlipped": true,
+      "XFlipped": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
@@ -38,24 +28,14 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
+      "OnFrame": null
     },
     {
       "Path": "hurt3.png",
       "Duration": 5,
-      "HandleX": -29,
+      "HandleX": -33,
       "HandleY": -67,
-      "XFlipped": true,
+      "XFlipped": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
@@ -63,24 +43,14 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
+      "OnFrame": null
     },
     {
       "Path": "hurt4.png",
       "Duration": 5,
-      "HandleX": -24,
+      "HandleX": -31,
       "HandleY": -60,
-      "XFlipped": true,
+      "XFlipped": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
@@ -88,24 +58,14 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
+      "OnFrame": null
     },
     {
       "Path": "hurt5.png",
       "Duration": 5,
-      "HandleX": -34,
+      "HandleX": -21,
       "HandleY": -63,
-      "XFlipped": true,
+      "XFlipped": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
@@ -113,17 +73,7 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
+      "OnFrame": null
     }
   ],
   "PreventMovement": false,
@@ -134,5 +84,7 @@
   "SpriteType": "Attached_16colors",
   "Multiplexes": 0,
   "LoopFrame": 0,
-  "LinkedMap": null
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": true
 }

@@ -3,9 +3,9 @@
     {
       "Path": "idle1.png",
       "Duration": 5,
-      "HandleX": -25,
+      "HandleX": -28,
       "HandleY": -62,
-      "XFlipped": true,
+      "XFlipped": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
@@ -13,24 +13,14 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
+      "OnFrame": null
     },
     {
       "Path": "idle2.png",
       "Duration": 5,
-      "HandleX": -24,
+      "HandleX": -28,
       "HandleY": -63,
-      "XFlipped": true,
+      "XFlipped": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
@@ -38,24 +28,14 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
+      "OnFrame": null
     },
     {
       "Path": "idle3.png",
       "Duration": 5,
-      "HandleX": -24,
+      "HandleX": -28,
       "HandleY": -64,
-      "XFlipped": true,
+      "XFlipped": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
@@ -63,24 +43,14 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
+      "OnFrame": null
     },
     {
       "Path": "idle4.png",
       "Duration": 5,
-      "HandleX": -24,
+      "HandleX": -28,
       "HandleY": -64,
-      "XFlipped": true,
+      "XFlipped": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
@@ -88,17 +58,7 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
+      "OnFrame": null
     }
   ],
   "PreventMovement": false,
@@ -109,5 +69,7 @@
   "SpriteType": "Attached_16colors",
   "Multiplexes": 0,
   "LoopFrame": 0,
-  "LinkedMap": null
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": true
 }
