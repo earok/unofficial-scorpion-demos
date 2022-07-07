@@ -13,18 +13,33 @@
   "FMode": 0,
   "Width": 256,
   "XOffset": 32,
+  "SScan2": false,
+  "Recompile": true,
   "Implode": true,
-  "DoubleSmooth": false,
-  "DoubleBlockSpeed": false,
   "MapCache": false,
   "Fire1Jump": false,
   "Fire2Jump": false,
   "UpJump": false,
   "JumpOnHold": false,
+  "XFillSize": 20,
   "YFillSize": 17,
   "Add21K": false,
-  "DataVersion": 1,
+  "DataVersion": 3,
   "Commands": [],
   "AnimationMetaData": {},
-  "Anim5MetaData": {}
+  "Anim5MetaData": {},
+  "SoundMetaData": {
+    "snd_deskslam": {
+      "LinkedMap": ""
+    },
+    "snd_gavel": {
+      "LinkedMap": ""
+    },
+    "snd_objection": {
+      "LinkedMap": ""
+    }
+  },
+  "SplashScreen": null,
+  "DoubleCopper": true,
+  "AllocateMemoryUpfront": true
 }

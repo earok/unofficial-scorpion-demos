@@ -13,6 +13,8 @@
   "FMode": 0,
   "Width": 304,
   "XOffset": 0,
+  "SScan2": false,
+  "Recompile": true,
   "Implode": false,
   "MapCache": false,
   "Fire1Jump": false,
@@ -22,7 +24,7 @@
   "XFillSize": 23,
   "YFillSize": 17,
   "Add21K": false,
-  "DataVersion": 2,
+  "DataVersion": 3,
   "Commands": [],
   "AnimationMetaData": {
     "red_explo_l": {
@@ -35,5 +37,19 @@
       "Divert_OnFinish": "destroy_actor"
     }
   },
-  "Anim5MetaData": {}
+  "Anim5MetaData": {},
+  "SoundMetaData": {
+    "sndhurt": {
+      "LinkedMap": ""
+    },
+    "sndpook": {
+      "LinkedMap": ""
+    },
+    "sndshot": {
+      "LinkedMap": ""
+    }
+  },
+  "SplashScreen": null,
+  "DoubleCopper": true,
+  "AllocateMemoryUpfront": true
 }

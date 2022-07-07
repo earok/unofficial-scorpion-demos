@@ -13,17 +13,18 @@
   "FMode": 0,
   "Width": 256,
   "XOffset": 32,
+  "SScan2": false,
+  "Recompile": true,
   "Implode": true,
-  "DoubleSmooth": false,
-  "DoubleBlockSpeed": false,
   "MapCache": false,
   "Fire1Jump": false,
   "Fire2Jump": false,
   "UpJump": true,
   "JumpOnHold": false,
+  "XFillSize": 20,
   "YFillSize": 17,
   "Add21K": false,
-  "DataVersion": 1,
+  "DataVersion": 3,
   "Commands": [
     {
       "Key": "Z",
@@ -72,5 +73,52 @@
     }
   ],
   "AnimationMetaData": {},
-  "Anim5MetaData": {}
+  "Anim5MetaData": {},
+  "SoundMetaData": {
+    "ending": {
+      "LinkedMap": ""
+    },
+    "ground_impact": {
+      "LinkedMap": ""
+    },
+    "hadouken": {
+      "LinkedMap": ""
+    },
+    "hit": {
+      "LinkedMap": ""
+    },
+    "kick": {
+      "LinkedMap": ""
+    },
+    "punch": {
+      "LinkedMap": ""
+    },
+    "select": {
+      "LinkedMap": ""
+    },
+    "snd_choose": {
+      "LinkedMap": ""
+    },
+    "snd_japan": {
+      "LinkedMap": ""
+    },
+    "snd_ko": {
+      "LinkedMap": ""
+    },
+    "snd_plane": {
+      "LinkedMap": ""
+    },
+    "snd_select": {
+      "LinkedMap": ""
+    },
+    "snd_start": {
+      "LinkedMap": ""
+    },
+    "vs": {
+      "LinkedMap": ""
+    }
+  },
+  "SplashScreen": null,
+  "DoubleCopper": true,
+  "AllocateMemoryUpfront": true
 }

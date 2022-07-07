@@ -31,7 +31,7 @@ Saving Scorpion header as project.hd. Original size: 4036
 Estimated memory usages:
 
 For chip:
-Map gfx (level gfx bundle 1 ): 0
+Map gfx (level gfx bundle 1 ): 88064
 Music memory: 0
 BP Buffer memory: 115200
 core sfx/gfx memory: 80128
@@ -40,12 +40,12 @@ Parallax memory: 0
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 0
-Map background memory: 0
-EXE memory: 198836
+Map data memory: 3428
+Map background memory: 2672
+EXE memory: 199332
 vm memory: 5442
 project memory: 6500
 
-Accounted memory chip: 195328
-Accounted memory other: 210778
-Accounted memory total: 406106
+Accounted memory chip: 283392
+Accounted memory other: 217374
+Accounted memory total: 500766

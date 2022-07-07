@@ -13,6 +13,8 @@
   "FMode": 0,
   "Width": 288,
   "XOffset": 0,
+  "SScan2": false,
+  "Recompile": true,
   "Implode": true,
   "MapCache": false,
   "Fire1Jump": false,
@@ -22,8 +24,12 @@
   "XFillSize": 19,
   "YFillSize": 13,
   "Add21K": false,
-  "DataVersion": 2,
+  "DataVersion": 3,
   "Commands": [],
   "AnimationMetaData": {},
-  "Anim5MetaData": {}
+  "Anim5MetaData": {},
+  "SoundMetaData": {},
+  "SplashScreen": null,
+  "DoubleCopper": true,
+  "AllocateMemoryUpfront": true
 }
