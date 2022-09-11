@@ -27,10 +27,47 @@
   "YFillSize": 17,
   "Add21K": false,
   "DataVersion": 4,
-  "Commands": [],
+  "Commands": [
+    {
+      "Compiler": "amiga",
+      "Key": "A",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "OnPress": "keyboard_left_d",
+      "OnRelease": "keyboard_left_u"
+    },
+    {
+      "Compiler": "amiga",
+      "Key": "D",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "OnPress": "keyboard_right_d",
+      "OnRelease": "keyboard_right_u"
+    }
+  ],
   "AnimationMetaData": {},
   "Anim5MetaData": {},
-  "SoundMetaData": {},
+  "SoundMetaData": {
+    "shot": {
+      "LinkedMap": ""
+    }
+  },
   "NumberFontMetaData": {},
   "FontMetaData": {},
   "SplashScreen": null,

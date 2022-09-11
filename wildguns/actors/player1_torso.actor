@@ -1,9 +1,9 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "Projectile",
+  "ClassType": "Actor",
   "DefaultLookDir": "left",
   "Recycle": "Default",
-  "MoveType": "control",
+  "MoveType": "cpu_parentlock",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 8,
@@ -123,7 +123,7 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": null,
-  "DivertSpawn": null,
+  "DivertSpawn": "",
   "DivertPlayerCollision": null,
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
@@ -141,10 +141,10 @@
     "0",
     "0",
     "0",
-    "0",
+    "-32",
     "torso"
   ],
   "ControlPort": 1,
   "TileID": 4,
-  "SuggestedRecycle": "Trash"
+  "SuggestedRecycle": "Always"
 }

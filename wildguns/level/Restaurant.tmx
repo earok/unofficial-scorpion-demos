@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="16" height="14" tilewidth="16" tileheight="16">
+<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="16" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="1">
  <tileset firstgid="1" source="../Actors.tsx"/>
  <tileset firstgid="257" source="../Blocks.tsx"/>
  <tileset firstgid="513" source="Restaurant.tileset.tsx"/>
- <layer name="map" width="16" height="14">
+ <layer id="1" name="map" width="16" height="14">
   <data encoding="csv">
 513,513,513,514,515,516,517,518,519,519,519,520,521,522,523,524,
 525,525,525,525,526,527,528,529,530,531,532,533,534,535,536,537,
@@ -21,7 +21,7 @@
 699,700,701,702,703,704,705,706,707,708,709,710,711,712,713,714
 </data>
  </layer>
- <layer name="objects" width="16" height="14">
+ <layer id="2" name="objects" width="16" height="14">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -30,7 +30,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
-0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -39,7 +39,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="foreground" width="16" height="14">
+ <layer id="3" name="foreground" width="16" height="14">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -57,5 +57,5 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="events" width="0" height="0"/>
+ <objectgroup id="4" name="events"/>
 </map>
