@@ -11,8 +11,8 @@
     "UpLeft": null,
     "Up": null,
     "UpRight": null,
-    "Left": "player1_legs_idle",
-    "Right": "player1_legs_idle",
+    "Left": "player1_legs_idle_r",
+    "Right": "player1_legs_idle_r",
     "DownLeft": null,
     "Down": null,
     "DownRight": null
@@ -21,8 +21,8 @@
     "UpLeft": null,
     "Up": null,
     "UpRight": null,
-    "Left": "player1_legs_backwards",
-    "Right": "player1_legs_",
+    "Left": "player1_legs_backwards_r",
+    "Right": "player1_legs_r",
     "DownLeft": null,
     "Down": null,
     "DownRight": null

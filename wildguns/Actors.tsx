@@ -18,7 +18,7 @@
   </tile>
   <tile id="3">
     <properties>
-      <property name="Name" value="player1_legs" type="string" />
+      <property name="Name" value="player1_legs_r_side" type="string" />
     </properties>
   </tile>
   <tile id="4">
@@ -49,6 +49,11 @@
   <tile id="9">
     <properties>
       <property name="Name" value="muzzle5_" type="string" />
+    </properties>
+  </tile>
+  <tile id="10">
+    <properties>
+      <property name="Name" value="player1_legs_l_side" type="string" />
     </properties>
   </tile>
 </tileset>

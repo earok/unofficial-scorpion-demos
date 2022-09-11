@@ -4629,516 +4629,882 @@
       "CodeBlock": "legs_handler",
       "CodeBlockLine": 1,
       "MemoryOffset": 6092,
-      "Description": "If 'kb_left' NotZero '0'"
+      "Description": "If 'player_x' GreaterThanOrEqual 'actor_x'"
     },
     {
       "CodeBlock": "legs_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6104,
+      "MemoryOffset": 6130,
+      "Description": "If 'actor_type' NotEquals 'player1_legs_r_side' ELSE GOTO 00006196"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6154,
+      "Description": "Set 'actor_type' to 'player1_legs_r_side'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6160,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6164,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6168,
+      "Description": "Set 'actor_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6174,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6178,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6182,
+      "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6188,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6192,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6196,
+      "Description": "GOTO '00006268'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6202,
+      "Description": "If 'actor_type' NotEquals 'player1_legs_l_side' ELSE GOTO 00006268"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6226,
+      "Description": "Set 'actor_type' to 'player1_legs_l_side'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6232,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6236,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6240,
+      "Description": "Set 'actor_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6246,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6250,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6254,
+      "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6260,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6264,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 6268,
+      "Description": "If 'kb_left' NotZero '0'"
+    },
+    {
+      "CodeBlock": "legs_handler",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 6280,
       "Description": "Set 'control1_x' to '-1'"
     },
     {
       "CodeBlock": "legs_handler",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 6110,
-      "Description": "GOTO '00006134'"
+      "CodeBlockLine": 12,
+      "MemoryOffset": 6286,
+      "Description": "GOTO '00006310'"
     },
     {
       "CodeBlock": "legs_handler",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 6116,
-      "Description": "If 'kb_right' NotZero '0' ELSE GOTO 00006134"
+      "CodeBlockLine": 12,
+      "MemoryOffset": 6292,
+      "Description": "If 'kb_right' NotZero '0' ELSE GOTO 00006310"
     },
     {
       "CodeBlock": "legs_handler",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 6128,
+      "CodeBlockLine": 13,
+      "MemoryOffset": 6304,
       "Description": "Set 'control1_x' to '1'"
     },
     {
       "CodeBlock": "legs_spawn",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6166,
+      "MemoryOffset": 6342,
       "Description": "LEGS_SPAWN"
     },
     {
       "CodeBlock": "legs_spawn",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6166,
+      "MemoryOffset": 6342,
       "Description": "Set 'actor_spawn' to 'player1_torso'"
     },
     {
       "CodeBlock": "legs_spawn",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6172,
+      "MemoryOffset": 6348,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "legs_spawn",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6176,
+      "MemoryOffset": 6352,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "shoot",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6212,
+      "MemoryOffset": 6388,
       "Description": "SHOOT"
     },
     {
       "CodeBlock": "shoot",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6212,
+      "MemoryOffset": 6388,
       "Description": "Set 'player_spawn' to 'bullet_impact_actor'"
     },
     {
       "CodeBlock": "shoot",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6218,
+      "MemoryOffset": 6394,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "shoot",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6222,
+      "MemoryOffset": 6398,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "shoot",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6226,
+      "MemoryOffset": 6402,
       "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "shoot",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6230,
+      "MemoryOffset": 6406,
       "Description": "Raw expression 'shot'"
     },
     {
       "CodeBlock": "shoot",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6236,
+      "MemoryOffset": 6412,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6274,
+      "MemoryOffset": 6450,
       "Description": "STARTUP"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6274,
+      "MemoryOffset": 6450,
       "Description": "Set 'newvalue' to '224'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6282,
+      "MemoryOffset": 6458,
       "Description": "GOSUB TO 'SET_YRESOLUTION'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6302,
+      "MemoryOffset": 6478,
       "Description": "Set 'newvalue' to 'restaurant'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6308,
+      "MemoryOffset": 6484,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6360,
+      "MemoryOffset": 6536,
       "Description": "TORSO_HANDLER"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6360,
-      "Description": "If 'player_y' GreaterThanOrEqual 'actor_y'"
+      "MemoryOffset": 6536,
+      "Description": "Set 'player_animation' to 'anim_mouse'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6542,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6546,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6398,
-      "Description": "Set 'cursor_offset' to '5'"
+      "MemoryOffset": 6550,
+      "Description": "If 'player_y' GreaterThanOrEqual 'actor_y'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6404,
-      "Description": "GOTO '00006494'"
+      "MemoryOffset": 6588,
+      "Description": "If 'player_x' GreaterThanOrEqual 'actor_x'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6410,
-      "Description": "Set 'height_delta' to 'actor_y - player_y'"
+      "MemoryOffset": 6626,
+      "Description": "Set 'cursor_offset' to '5'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6444,
-      "Description": "Set 'cursor_offset' to 'player_x - actor_x'"
+      "MemoryOffset": 6632,
+      "Description": "GOTO '00006644'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6478,
-      "Description": "Set 'cursor_offset' to 'cursor_offset / height_delta'"
+      "MemoryOffset": 6638,
+      "Description": "Set 'cursor_offset' to '-5'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6644,
+      "Description": "GOTO '00006734'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 9,
-      "MemoryOffset": 6494,
+      "MemoryOffset": 6650,
+      "Description": "Set 'height_delta' to 'actor_y - player_y'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 6684,
+      "Description": "Set 'cursor_offset' to 'player_x - actor_x'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 6718,
+      "Description": "Set 'cursor_offset' to 'cursor_offset / height_delta'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 6734,
+      "Description": "If 'player_x' GreaterThanOrEqual 'actor_x'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 6772,
       "Description": "If 'cursor_offset' LessThan '1'"
     },
     {
       "CodeBlock": "torso_handler",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6508,
-      "Description": "Set 'player_animation' to 'anim_mouse'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6514,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6518,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 6522,
-      "Description": "Set 'actor_animation' to 'player1_torso1'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 6528,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 6532,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 6536,
-      "Description": "If 'control2fire' Equals '1' ELSE GOTO 00006564"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6550,
-      "Description": "Set 'actor_spawn' to 'muzzle1_'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6556,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6560,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 6564,
-      "Description": "GOTO '00006854'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 6570,
-      "Description": "If 'cursor_offset' LessThan '2'"
+      "CodeBlockLine": 16,
+      "MemoryOffset": 6786,
+      "Description": "Set 'actor_animation' to 'player1_torso1_r'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 16,
-      "MemoryOffset": 6584,
-      "Description": "Set 'player_animation' to 'anim_mouse'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 16,
-      "MemoryOffset": 6590,
+      "MemoryOffset": 6792,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 16,
-      "MemoryOffset": 6594,
+      "MemoryOffset": 6796,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 17,
-      "MemoryOffset": 6598,
-      "Description": "Set 'actor_animation' to 'player1_torso2'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 17,
-      "MemoryOffset": 6604,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 17,
-      "MemoryOffset": 6608,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "MemoryOffset": 6800,
+      "Description": "If 'control2fire' Equals '1' ELSE GOTO 00006842"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 18,
-      "MemoryOffset": 6612,
-      "Description": "If 'control2fire' Equals '1' ELSE GOTO 00006640"
+      "MemoryOffset": 6814,
+      "Description": "Set 'actor_spawn' to 'muzzle1_'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 6820,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 6824,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 19,
-      "MemoryOffset": 6626,
-      "Description": "Set 'actor_animation' to 'muzzle2'"
+      "MemoryOffset": 6828,
+      "Description": "Set 'new_lookdir' to 'look_right'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 19,
-      "MemoryOffset": 6632,
+      "MemoryOffset": 6834,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 19,
-      "MemoryOffset": 6636,
+      "MemoryOffset": 6838,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 21,
-      "MemoryOffset": 6640,
-      "Description": "GOTO '00006854'"
+      "MemoryOffset": 6842,
+      "Description": "GOTO '00007076'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 21,
-      "MemoryOffset": 6646,
-      "Description": "If 'cursor_offset' LessThan '3'"
+      "MemoryOffset": 6848,
+      "Description": "If 'cursor_offset' LessThan '2'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 22,
-      "MemoryOffset": 6660,
-      "Description": "Set 'player_animation' to 'anim_mouse'"
+      "MemoryOffset": 6862,
+      "Description": "Set 'actor_animation' to 'player1_torso2_r'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 22,
-      "MemoryOffset": 6666,
+      "MemoryOffset": 6868,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 22,
-      "MemoryOffset": 6670,
+      "MemoryOffset": 6872,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 23,
-      "MemoryOffset": 6674,
-      "Description": "Set 'actor_animation' to 'player1_torso3'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 23,
-      "MemoryOffset": 6680,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 23,
-      "MemoryOffset": 6684,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "MemoryOffset": 6876,
+      "Description": "If 'control2fire' Equals '1' ELSE GOTO 00006904"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 24,
-      "MemoryOffset": 6688,
-      "Description": "If 'control2fire' Equals '1' ELSE GOTO 00006716"
+      "MemoryOffset": 6890,
+      "Description": "Set 'actor_animation' to 'muzzle2_r'"
     },
     {
       "CodeBlock": "torso_handler",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 6702,
-      "Description": "Set 'actor_animation' to 'muzzle3'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 6708,
+      "CodeBlockLine": 24,
+      "MemoryOffset": 6896,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "torso_handler",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 6712,
+      "CodeBlockLine": 24,
+      "MemoryOffset": 6900,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "torso_handler",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 6716,
-      "Description": "GOTO '00006854'"
+      "CodeBlockLine": 26,
+      "MemoryOffset": 6904,
+      "Description": "GOTO '00007076'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 6910,
+      "Description": "If 'cursor_offset' LessThan '3'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 27,
-      "MemoryOffset": 6722,
+      "MemoryOffset": 6924,
+      "Description": "Set 'actor_animation' to 'player1_torso3_r'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 6930,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 6934,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 6938,
+      "Description": "If 'control2fire' Equals '1' ELSE GOTO 00006966"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 6952,
+      "Description": "Set 'actor_animation' to 'muzzle3_r'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 6958,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 6962,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 31,
+      "MemoryOffset": 6966,
+      "Description": "GOTO '00007076'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 31,
+      "MemoryOffset": 6972,
       "Description": "If 'cursor_offset' LessThan '4'"
     },
     {
       "CodeBlock": "torso_handler",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 6736,
-      "Description": "Set 'player_animation' to 'anim_mouse'"
+      "CodeBlockLine": 32,
+      "MemoryOffset": 6986,
+      "Description": "Set 'actor_animation' to 'player1_torso4_r'"
     },
     {
       "CodeBlock": "torso_handler",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 6742,
+      "CodeBlockLine": 32,
+      "MemoryOffset": 6992,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "torso_handler",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 6746,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 6750,
-      "Description": "Set 'actor_animation' to 'player1_torso4'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 6756,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 6760,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 30,
-      "MemoryOffset": 6764,
-      "Description": "If 'control2fire' Equals '1' ELSE GOTO 00006792"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 31,
-      "MemoryOffset": 6778,
-      "Description": "Set 'actor_animation' to 'muzzle4'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 31,
-      "MemoryOffset": 6784,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 31,
-      "MemoryOffset": 6788,
+      "CodeBlockLine": 32,
+      "MemoryOffset": 6996,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 33,
-      "MemoryOffset": 6792,
-      "Description": "GOTO '00006854'"
+      "MemoryOffset": 7000,
+      "Description": "If 'control2fire' Equals '1' ELSE GOTO 00007028"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 34,
-      "MemoryOffset": 6798,
-      "Description": "Set 'player_animation' to 'anim_mouse'"
+      "MemoryOffset": 7014,
+      "Description": "Set 'actor_animation' to 'muzzle4_r'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 34,
-      "MemoryOffset": 6804,
+      "MemoryOffset": 7020,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 34,
-      "MemoryOffset": 6808,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 35,
-      "MemoryOffset": 6812,
-      "Description": "Set 'actor_animation' to 'player1_torso5'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 35,
-      "MemoryOffset": 6818,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "torso_handler",
-      "CodeBlockLine": 35,
-      "MemoryOffset": 6822,
+      "MemoryOffset": 7024,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 36,
-      "MemoryOffset": 6826,
-      "Description": "If 'control2fire' Equals '1' ELSE GOTO 00006854"
+      "MemoryOffset": 7028,
+      "Description": "GOTO '00007076'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 37,
-      "MemoryOffset": 6840,
-      "Description": "Set 'actor_animation' to 'muzzle5'"
+      "MemoryOffset": 7034,
+      "Description": "Set 'actor_animation' to 'player1_torso5_r'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 37,
-      "MemoryOffset": 6846,
+      "MemoryOffset": 7040,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "torso_handler",
       "CodeBlockLine": 37,
-      "MemoryOffset": 6850,
+      "MemoryOffset": 7044,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 38,
+      "MemoryOffset": 7048,
+      "Description": "If 'control2fire' Equals '1' ELSE GOTO 00007076"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 39,
+      "MemoryOffset": 7062,
+      "Description": "Set 'actor_animation' to 'muzzle5_r'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 39,
+      "MemoryOffset": 7068,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 39,
+      "MemoryOffset": 7072,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 42,
+      "MemoryOffset": 7076,
+      "Description": "GOTO '00007372'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 43,
+      "MemoryOffset": 7082,
+      "Description": "If 'cursor_offset' GreaterThan '-1'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 44,
+      "MemoryOffset": 7096,
+      "Description": "Set 'actor_animation' to 'player1_torso1_l'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 44,
+      "MemoryOffset": 7102,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 44,
+      "MemoryOffset": 7106,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 45,
+      "MemoryOffset": 7110,
+      "Description": "If 'control2fire' Equals '1' ELSE GOTO 00007138"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 46,
+      "MemoryOffset": 7124,
+      "Description": "Set 'actor_spawn' to 'muzzle1_'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 46,
+      "MemoryOffset": 7130,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 46,
+      "MemoryOffset": 7134,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 48,
+      "MemoryOffset": 7138,
+      "Description": "GOTO '00007372'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 48,
+      "MemoryOffset": 7144,
+      "Description": "If 'cursor_offset' GreaterThan '-2'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 49,
+      "MemoryOffset": 7158,
+      "Description": "Set 'actor_animation' to 'player1_torso2_l'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 49,
+      "MemoryOffset": 7164,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 49,
+      "MemoryOffset": 7168,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 50,
+      "MemoryOffset": 7172,
+      "Description": "If 'control2fire' Equals '1' ELSE GOTO 00007200"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 51,
+      "MemoryOffset": 7186,
+      "Description": "Set 'actor_animation' to 'muzzle2_l'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 51,
+      "MemoryOffset": 7192,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 51,
+      "MemoryOffset": 7196,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 53,
+      "MemoryOffset": 7200,
+      "Description": "GOTO '00007372'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 53,
+      "MemoryOffset": 7206,
+      "Description": "If 'cursor_offset' GreaterThan '-3'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 54,
+      "MemoryOffset": 7220,
+      "Description": "Set 'actor_animation' to 'player1_torso3_l'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 54,
+      "MemoryOffset": 7226,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 54,
+      "MemoryOffset": 7230,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 55,
+      "MemoryOffset": 7234,
+      "Description": "If 'control2fire' Equals '1' ELSE GOTO 00007262"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 56,
+      "MemoryOffset": 7248,
+      "Description": "Set 'actor_animation' to 'muzzle3_l'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 56,
+      "MemoryOffset": 7254,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 56,
+      "MemoryOffset": 7258,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 58,
+      "MemoryOffset": 7262,
+      "Description": "GOTO '00007372'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 58,
+      "MemoryOffset": 7268,
+      "Description": "If 'cursor_offset' GreaterThan '-4'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 59,
+      "MemoryOffset": 7282,
+      "Description": "Set 'actor_animation' to 'player1_torso4_l'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 59,
+      "MemoryOffset": 7288,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 59,
+      "MemoryOffset": 7292,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 60,
+      "MemoryOffset": 7296,
+      "Description": "If 'control2fire' Equals '1' ELSE GOTO 00007324"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 61,
+      "MemoryOffset": 7310,
+      "Description": "Set 'actor_animation' to 'muzzle4_l'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 61,
+      "MemoryOffset": 7316,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 61,
+      "MemoryOffset": 7320,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 63,
+      "MemoryOffset": 7324,
+      "Description": "GOTO '00007372'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 64,
+      "MemoryOffset": 7330,
+      "Description": "Set 'actor_animation' to 'player1_torso5_l'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 64,
+      "MemoryOffset": 7336,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 64,
+      "MemoryOffset": 7340,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 65,
+      "MemoryOffset": 7344,
+      "Description": "If 'control2fire' Equals '1' ELSE GOTO 00007372"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 66,
+      "MemoryOffset": 7358,
+      "Description": "Set 'actor_animation' to 'muzzle5_l'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 66,
+      "MemoryOffset": 7364,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "torso_handler",
+      "CodeBlockLine": 66,
+      "MemoryOffset": 7368,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     }
   ],
@@ -5163,30 +5529,44 @@
     "6": "muzzle3_",
     "7": "muzzle4_",
     "8": "muzzle5_",
-    "9": "player1_legs",
-    "10": "player1_torso"
+    "9": "player1_legs_l_side",
+    "10": "player1_legs_r_side",
+    "11": "player1_torso"
   },
   "Sounds": {
     "0": "No sound played",
     "1": "shot"
   },
   "Animations": {
-    "1": "muzzle1",
-    "2": "player1_legs_",
-    "3": "player1_legs_backwards",
-    "4": "player1_legs_idle",
-    "5": "muzzle2",
-    "6": "muzzle3",
-    "7": "muzzle4",
-    "8": "muzzle5",
-    "9": "player1_torso1",
-    "10": "player1_torso2",
-    "11": "player1_torso3",
-    "12": "player1_torso4",
-    "13": "player1_torso5",
-    "14": "anim_big_explosion",
-    "15": "anim_bullet_impact",
-    "16": "anim_mouse",
-    "17": "anim_shooting"
+    "1": "muzzle1_r",
+    "2": "muzzle1_l",
+    "3": "player1_legs_backwards_r",
+    "4": "player1_legs_backwards_l",
+    "5": "player1_legs_idle_r",
+    "6": "player1_legs_idle_l",
+    "7": "player1_legs_r",
+    "8": "player1_legs_l",
+    "9": "muzzle2_r",
+    "10": "muzzle2_l",
+    "11": "muzzle3_r",
+    "12": "muzzle3_l",
+    "13": "muzzle4_r",
+    "14": "muzzle4_l",
+    "15": "muzzle5_r",
+    "16": "muzzle5_l",
+    "17": "player1_torso1_r",
+    "18": "player1_torso1_l",
+    "19": "player1_torso2_r",
+    "20": "player1_torso2_l",
+    "21": "player1_torso3_r",
+    "22": "player1_torso3_l",
+    "23": "player1_torso4_r",
+    "24": "player1_torso4_l",
+    "25": "player1_torso5_r",
+    "26": "player1_torso5_l",
+    "27": "anim_big_explosion",
+    "28": "anim_bullet_impact",
+    "29": "anim_mouse",
+    "30": "anim_shooting"
   }
 }

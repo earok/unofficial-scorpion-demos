@@ -1,10 +1,10 @@
 === Image optimisations ===
-Reduce width of animations\player1_legs\p1_legs1.png by 3 pixels to 32 to improve blit performance by 100.00%
-Reduce width of animations\player1_legs\p1_legs2.png by 10 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player1_legs\p1_legs3.png by 4 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player1_legs\p1_legs4.png by 1 pixels to 32 to improve blit performance by 100.00%
-Reduce width of animations\player1_legs\p1_legs5.png by 12 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player1_legs\p1_legs6.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_legs\p1_legs5.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_legs\p1_legs4.png by 1 pixels to 32 to improve blit performance by 100.00%
+Reduce width of animations\player1_legs\p1_legs3.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_legs\p1_legs2.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_legs\p1_legs1.png by 3 pixels to 32 to improve blit performance by 100.00%
 Reduce width of animations\player1_legs\p1_legs6.png by 6 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player1_legs\p1_legs5.png by 12 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player1_legs\p1_legs4.png by 1 pixels to 32 to improve blit performance by 100.00%
@@ -12,18 +12,44 @@ Reduce width of animations\player1_legs\p1_legs3.png by 4 pixels to 16 to improv
 Reduce width of animations\player1_legs\p1_legs2.png by 10 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player1_legs\p1_legs1.png by 3 pixels to 32 to improve blit performance by 100.00%
 Reduce width of animations\player1_legs\p1_legs_idle.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_legs\p1_legs_idle.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_legs\p1_legs1.png by 3 pixels to 32 to improve blit performance by 100.00%
+Reduce width of animations\player1_legs\p1_legs2.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_legs\p1_legs3.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_legs\p1_legs4.png by 1 pixels to 32 to improve blit performance by 100.00%
+Reduce width of animations\player1_legs\p1_legs5.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_legs\p1_legs6.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_legs\p1_legs1.png by 3 pixels to 32 to improve blit performance by 100.00%
+Reduce width of animations\player1_legs\p1_legs2.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_legs\p1_legs3.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_legs\p1_legs4.png by 1 pixels to 32 to improve blit performance by 100.00%
+Reduce width of animations\player1_legs\p1_legs5.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_legs\p1_legs6.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_torso\player1_torso2fire1.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_torso\player1_torso2fire2.png by 8 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player1_torso\player1_torso2fire1.png by 10 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player1_torso\player1_torso2fire2.png by 8 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player1_torso\player1_torso3fire1.png by 14 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player1_torso\player1_torso3fire2.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_torso\player1_torso3fire1.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_torso\player1_torso3fire2.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_torso\player1_torso4fire1.png by 2 pixels to 32 to improve blit performance by 100.00%
+Reduce width of animations\player1_torso\player1_torso4fire2.png by 15 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player1_torso\player1_torso4fire1.png by 2 pixels to 32 to improve blit performance by 100.00%
 Reduce width of animations\player1_torso\player1_torso4fire2.png by 15 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player1_torso\player1_torso5fire1.png by 3 pixels to 32 to improve blit performance by 100.00%
 Reduce width of animations\player1_torso\player1_torso5fire2.png by 1 pixels to 32 to improve blit performance by 100.00%
+Reduce width of animations\player1_torso\player1_torso5fire1.png by 3 pixels to 32 to improve blit performance by 100.00%
+Reduce width of animations\player1_torso\player1_torso5fire2.png by 1 pixels to 32 to improve blit performance by 100.00%
+Reduce width of animations\player1_torso\player1_torso1.png by 6 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player1_torso\player1_torso1.png by 6 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player1_torso\player1_torso2.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_torso\player1_torso2.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_torso\player1_torso3.png by 9 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player1_torso\player1_torso3.png by 9 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player1_torso\player1_torso4.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_torso\player1_torso4.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\player1_torso\player1_torso5.png by 12 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player1_torso\player1_torso5.png by 12 pixels to 16 to improve blit performance by 200.00%
 Reduce width of sprites\big_shot_1.png by 1 pixels to 32 to improve blit performance by 100.00%
 Reduce width of sprites\big_shot_2.png by 5 pixels to 32 to improve blit performance by 100.00%
@@ -33,8 +59,8 @@ Reduce width of sprites\cursor.png by 7 pixels to 16 to improve blit performance
 Reduce width of sprites\cursor_shooting.png by 7 pixels to 16 to improve blit performance by 200.00%
 
 === Misc ===
-Actor Count: 11
-Actor Data Size: 3256
+Actor Count: 12
+Actor Data Size: 3552
 Block Count: 1
 Block Data Size: 52
 Anim5 Count: 1
@@ -43,14 +69,14 @@ Sound Count: 2
 Sound Data Size: 64
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 18
-Animations Data Size: 288
-AnimationFrame Count: 45
-AnimationFrame Data Size: 720
+Animations Count: 31
+Animations Data Size: 496
+AnimationFrame Count: 76
+AnimationFrame Data Size: 1216
 ImageFrames: BlitzTool.BlitzWord
-ImageFrame Data Size: 2624
+ImageFrame Data Size: 4608
 Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 7270. Crunched size: 1990
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 7788. Crunched size: 2134
 Crunching Project virtual machine redirects as project.rd. Original size: 4. Crunched size: 4
 Crunching Header data for map restaurant as 1.mhd. Original size: 9788. Crunched size: 450
 Crunching Data for map restaurant as 1.map. Original size: 1892. Crunched size: 692
@@ -58,11 +84,11 @@ Crunching Background for map restaurant as 1.bg. Original size: 2672. Crunched s
 Crunching Header data for map map as 2.mhd. Original size: 9788. Crunched size: 448
 Crunching Data for map map as 2.map. Original size: 1428. Crunched size: 490
 Crunching Background for map map as 2.bg. Original size: 2672. Crunched size: 92
-Crunching Asset bundle 0 as 0.gfx. Original size: 52456. Crunched size: 15558
+Crunching Asset bundle 0 as 0.gfx. Original size: 84844. Crunched size: 27040
 Crunching Asset bundle 1 as 1.gfx. Original size: 38784. Crunched size: 17606
 Crunching Asset bundle 2 as 2.gfx. Original size: 25152. Crunched size: 6400
-Crunching Project data as project.dat. Original size: 7016. Crunched size: 1436
-Crunching Scorpion header as project.hd. Original size: 4036. Crunched size: 1202
+Crunching Project data as project.dat. Original size: 10000. Crunched size: 2084
+Crunching Scorpion header as project.hd. Original size: 4036. Crunched size: 1200
 
 Estimated memory usages:
 
@@ -70,7 +96,7 @@ For chip:
 Map gfx (level gfx bundle 1 ): 38784
 Music memory: 0
 BP Buffer memory: 131040
-core sfx/gfx memory: 52456
+core sfx/gfx memory: 84844
 Parallax memory: 0
 
 For other:
@@ -79,9 +105,9 @@ Map header cache memory: 0
 Map data memory: 1892
 Map background memory: 2672
 EXE memory: 195048
-vm memory: 7270
-project memory: 7016
+vm memory: 7788
+project memory: 10000
 
-Accounted memory chip: 222280
-Accounted memory other: 213898
-Accounted memory total: 436178
+Accounted memory chip: 254668
+Accounted memory other: 217400
+Accounted memory total: 472068

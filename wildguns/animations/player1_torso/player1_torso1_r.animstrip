@@ -1,10 +1,10 @@
 {
   "Frames": [
     {
-      "Path": "player1_torso5.png",
+      "Path": "player1_torso1.png",
       "Duration": 5,
       "HandleX": -9,
-      "HandleY": -13,
+      "HandleY": -14,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -26,5 +26,5 @@
   "LoopFrame": 0,
   "LinkedMap": null,
   "OnFinish": null,
-  "AutoFlip": false
+  "AutoFlip": true
 }

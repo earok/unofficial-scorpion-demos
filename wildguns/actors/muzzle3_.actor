@@ -11,8 +11,8 @@
     "UpLeft": null,
     "Up": null,
     "UpRight": null,
-    "Left": "muzzle3",
-    "Right": null,
+    "Left": "muzzle3_l",
+    "Right": "muzzle3_r",
     "DownLeft": null,
     "Down": null,
     "DownRight": null

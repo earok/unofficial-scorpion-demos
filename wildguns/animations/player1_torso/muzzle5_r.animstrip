@@ -1,10 +1,25 @@
 {
   "Frames": [
     {
-      "Path": "player1_torso3.png",
-      "Duration": 5,
-      "HandleX": -8,
-      "HandleY": -14,
+      "Path": "player1_torso5fire1.png",
+      "Duration": 3,
+      "HandleX": -9,
+      "HandleY": -13,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "player1_torso5fire2.png",
+      "Duration": 2,
+      "HandleX": -9,
+      "HandleY": -13,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -26,5 +41,5 @@
   "LoopFrame": 0,
   "LinkedMap": null,
   "OnFinish": null,
-  "AutoFlip": false
+  "AutoFlip": true
 }

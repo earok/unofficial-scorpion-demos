@@ -86,5 +86,5 @@
   "LoopFrame": 0,
   "LinkedMap": null,
   "OnFinish": "destroy_actor",
-  "AutoFlip": false
+  "AutoFlip": true
 }
