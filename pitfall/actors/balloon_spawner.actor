@@ -133,6 +133,7 @@
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
+  "DivertPlatformLand": null,
   "DivertTimer": "",
   "DivertTimerFrames": 0,
   "Vars": [
@@ -141,7 +142,10 @@
     "0",
     "0",
     "0",
-    "0"
+    "0",
+    "1"
   ],
-  "TileID": 11
+  "TileID": 11,
+  "JumpHeight": null,
+  "SuggestedRecycle": "Respawn"
 }

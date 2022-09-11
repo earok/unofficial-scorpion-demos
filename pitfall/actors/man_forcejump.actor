@@ -115,7 +115,7 @@
   "CollType_Left": "block",
   "CollType_Right": "block",
   "CollType_Up": "none",
-  "CollType_Down": "expiretimer",
+  "CollType_Down": "block",
   "Flags": 0,
   "AttackProjectile": null,
   "AutoFire": false,
@@ -133,6 +133,7 @@
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
+  "DivertPlatformLand": "forcejump_end",
   "DivertTimer": "forcejump_end",
   "DivertTimerFrames": 999,
   "Vars": [
@@ -141,7 +142,10 @@
     "0",
     "0",
     "0",
-    "0"
+    "0",
+    "1"
   ],
-  "TileID": -1
+  "TileID": -1,
+  "JumpHeight": 29.9999981,
+  "SuggestedRecycle": "Never"
 }

@@ -26,7 +26,7 @@ Reduce width of Sprites\Spider\A02.png by 8 pixels to 16 to improve blit perform
 === Misc ===
 Saving mod_intro.mod as 1.mus. Original size: 17748
 Actor Count: 8
-Actor Data Size: 2336
+Actor Data Size: 2368
 Block Count: 6
 Block Data Size: 312
 Anim5 Count: 1
@@ -41,22 +41,22 @@ AnimationFrame Count: 108
 AnimationFrame Data Size: 1728
 ImageFrames: BlitzTool.BlitzWord
 ImageFrame Data Size: 6976
-Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3312
-Saving Panel hud as 1.img. Original size: 11720
-Saving Panel main_menu as 2.img. Original size: 52568
+Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
+Saving Panel hud as 1.img. Original size: 11392
+Saving Panel main_menu as 2.img. Original size: 62228
 Saving Panel pic_title as 3.img. Original size: 55010
 Saving Panel talkpad as 4.img. Original size: 29470
-Saving Project virtual machine (codeblocks) as project.vm. Original size: 8998
-Saving Header data for map map_bedroom as 1.mhd. Original size: 9276
+Saving Project virtual machine (codeblocks) as project.vm. Original size: 9130
+Saving Header data for map map_bedroom as 1.mhd. Original size: 9788
 Saving Data for map map_bedroom as 1.map. Original size: 2436
 Saving Background for map map_bedroom as 1.bg. Original size: 2672
-Saving Header data for map map_house_night as 2.mhd. Original size: 9276
+Saving Header data for map map_house_night as 2.mhd. Original size: 9788
 Saving Data for map map_house_night as 2.map. Original size: 2416
 Saving Background for map map_house_night as 2.bg. Original size: 2672
-Saving Header data for map map_intro as 3.mhd. Original size: 9276
+Saving Header data for map map_intro as 3.mhd. Original size: 9788
 Saving Data for map map_intro as 3.map. Original size: 8132
 Saving Background for map map_intro as 3.bg. Original size: 2672
-Saving Header data for map map_outside as 4.mhd. Original size: 9276
+Saving Header data for map map_outside as 4.mhd. Original size: 9788
 Saving Data for map map_outside as 4.map. Original size: 29388
 Saving Background for map map_outside as 4.bg. Original size: 2672
 Saving Asset bundle 0 as 0.gfx. Original size: 82266
@@ -64,7 +64,7 @@ Saving Asset bundle 1 as 1.gfx. Original size: 10560
 Saving Asset bundle 2 as 2.gfx. Original size: 13120
 Saving Asset bundle 3 as 3.gfx. Original size: 84160
 Saving Asset bundle 4 as 4.gfx. Original size: 32960
-Saving Project data as project.dat. Original size: 11876
+Saving Project data as project.dat. Original size: 11908
 Saving Scorpion header as project.hd. Original size: 4036
 
 Estimated memory usages:
@@ -81,10 +81,10 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 29388
 Map background memory: 2672
-EXE memory: 199332
-vm memory: 8998
-project memory: 11876
+EXE memory: 199124
+vm memory: 9130
+project memory: 11908
 
 Accounted memory chip: 289434
-Accounted memory other: 252266
-Accounted memory total: 541700
+Accounted memory other: 252222
+Accounted memory total: 541656

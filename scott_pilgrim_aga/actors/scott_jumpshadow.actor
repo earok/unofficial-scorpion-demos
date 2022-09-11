@@ -1,6 +1,4 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
   "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
@@ -134,6 +132,8 @@
   "DivertOutOfScreenRight": null,
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
+  "DivertPlatformEdge": null,
+  "DivertPlatformLand": null,
   "DivertTimer": null,
   "DivertTimerFrames": 0,
   "Vars": [
@@ -142,7 +142,10 @@
     "0",
     "0",
     "0",
-    "0"
+    "0",
+    "1"
   ],
-  "TileID": -1
+  "TileID": -1,
+  "JumpHeight": null,
+  "SuggestedRecycle": "Never"
 }

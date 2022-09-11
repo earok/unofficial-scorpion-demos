@@ -44,7 +44,7 @@ Reduce width of animations\man\swim6.png by 7 pixels to 16 to improve blit perfo
 === Misc ===
 Crunching pitfall_ii.mod as 1.mus. Original size: 7336. Crunched size: 990
 Actor Count: 22
-Actor Data Size: 6424
+Actor Data Size: 6512
 Block Count: 23
 Block Data Size: 1196
 Anim5 Count: 1
@@ -59,15 +59,15 @@ AnimationFrame Count: 109
 AnimationFrame Data Size: 1744
 ImageFrames: BlitzTool.BlitzWord
 ImageFrame Data Size: 5248
-Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3312
-Crunching Panel mainpanel as 1.img. Original size: 4702. Crunched size: 474
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 13432. Crunched size: 4040
-Crunching Header data for map map as 1.mhd. Original size: 9276. Crunched size: 844
-Crunching Data for map map as 1.map. Original size: 73800. Crunched size: 6388
+Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
+Crunching Panel mainpanel as 1.img. Original size: 4718. Crunched size: 434
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 13606. Crunched size: 4072
+Crunching Header data for map map as 1.mhd. Original size: 9788. Crunched size: 856
+Crunching Data for map map as 1.map. Original size: 73800. Crunched size: 5588
 Crunching Background for map map as 1.bg. Original size: 2672. Crunched size: 92
 Crunching Asset bundle 0 as 0.gfx. Original size: 60298. Crunched size: 24094
 Crunching Asset bundle 1 as 1.gfx. Original size: 63520. Crunched size: 17818
-Crunching Project data as project.dat. Original size: 15648. Crunched size: 3464
+Crunching Project data as project.dat. Original size: 15736. Crunched size: 3456
 Crunching Scorpion header as project.hd. Original size: 4036. Crunched size: 1226
 
 Estimated memory usages:
@@ -84,10 +84,10 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 73800
 Map background memory: 2672
-EXE memory: 199332
-vm memory: 13432
-project memory: 15648
+EXE memory: 199124
+vm memory: 13606
+project memory: 15736
 
 Accounted memory chip: 242754
-Accounted memory other: 304884
-Accounted memory total: 547638
+Accounted memory other: 304938
+Accounted memory total: 547692

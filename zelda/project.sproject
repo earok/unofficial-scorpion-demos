@@ -49,6 +49,21 @@
       "LinkedMap": ""
     }
   },
+  "NumberFontMetaData": {
+    "default_numberfont": {
+      "Radix": 10
+    }
+  },
+  "FontMetaData": {
+    "default_font": {
+      "IsMonoSpaced": false,
+      "LineHeight": 8,
+      "SpaceWidth": 8
+    }
+  },
   "SplashScreen": null,
-  "DoubleCopper": true
+  "LogicSpeed": 2,
+  "OutputSpeed": 2,
+  "DoubleCopper": true,
+  "AllocateMemoryUpfront": true
 }

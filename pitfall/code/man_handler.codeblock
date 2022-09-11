@@ -107,7 +107,7 @@
       "PushXPixels": "0",
       "PushYPixels": "0",
       "LookDirection": "look_upleft",
-      "ResetMovement": false,
+      "ResetMovement": true,
       "ResetAnimations": true,
       "ShootDirType": "actor_direction",
       "Panel": "none",

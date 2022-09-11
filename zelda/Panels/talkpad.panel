@@ -1,11 +1,12 @@
 {
   "DataVersion": 2,
+  "FirstCopper": 0,
   "PanelImagePath": "Panels\\talkpad.png",
   "FadeInFrames": 0,
   "FadeOutFrames": 0,
+  "FadeInMusic": false,
+  "FadeOutMusic": false,
   "TalkpadFont": "default_font",
-  "TalkpadLineHeight": 14,
-  "TalkpadSpaceWidth": 8,
   "TalkpadX": 20,
   "TalkpadY": 10,
   "TalkpadWidth": 280,
@@ -16,6 +17,10 @@
   "FireIndicatorY": 0,
   "Options": [],
   "Elements": [],
-  "GFXMode": 5,
-  "PanelOptionSound": null
+  "GFXMode": "BP5",
+  "PanelOptionSound": null,
+  "CenterAdjust": 0,
+  "OverlapsGameView": false,
+  "TalkpadLineHeight": 0,
+  "TalkpadSpaceWidth": 0
 }
