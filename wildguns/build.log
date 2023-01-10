@@ -60,7 +60,7 @@ Reduce width of sprites\cursor_shooting.png by 7 pixels to 16 to improve blit pe
 
 === Misc ===
 Actor Count: 12
-Actor Data Size: 3552
+Actor Data Size: 3600
 Block Count: 1
 Block Data Size: 52
 Anim5 Count: 1
@@ -76,7 +76,7 @@ AnimationFrame Data Size: 1216
 ImageFrames: BlitzTool.BlitzWord
 ImageFrame Data Size: 4608
 Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 7788. Crunched size: 2134
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 7788. Crunched size: 2132
 Crunching Project virtual machine redirects as project.rd. Original size: 4. Crunched size: 4
 Crunching Header data for map restaurant as 1.mhd. Original size: 9788. Crunched size: 450
 Crunching Data for map restaurant as 1.map. Original size: 1892. Crunched size: 692
@@ -87,7 +87,7 @@ Crunching Background for map map as 2.bg. Original size: 2672. Crunched size: 92
 Crunching Asset bundle 0 as 0.gfx. Original size: 84844. Crunched size: 27040
 Crunching Asset bundle 1 as 1.gfx. Original size: 38784. Crunched size: 17606
 Crunching Asset bundle 2 as 2.gfx. Original size: 25152. Crunched size: 6400
-Crunching Project data as project.dat. Original size: 10000. Crunched size: 2084
+Crunching Project data as project.dat. Original size: 10048. Crunched size: 2086
 Crunching Scorpion header as project.hd. Original size: 4036. Crunched size: 1200
 
 Estimated memory usages:
@@ -104,10 +104,10 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 1892
 Map background memory: 2672
-EXE memory: 195048
+EXE memory: 193924
 vm memory: 7788
-project memory: 10000
+project memory: 10048
 
 Accounted memory chip: 254668
-Accounted memory other: 217400
-Accounted memory total: 472068
+Accounted memory other: 216324
+Accounted memory total: 470992

@@ -60,14 +60,15 @@ AnimationFrame Data Size: 1744
 ImageFrames: BlitzTool.BlitzWord
 ImageFrame Data Size: 5248
 Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
-Crunching Panel mainpanel as 1.img. Original size: 4718. Crunched size: 434
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 13606. Crunched size: 4072
+Crunching Panel mainpanel as 1.img. Original size: 4718. Crunched size: 436
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 15866. Crunched size: 3734
+Crunching Project virtual machine redirects as project.rd. Original size: 4. Crunched size: 4
 Crunching Header data for map map as 1.mhd. Original size: 9788. Crunched size: 856
 Crunching Data for map map as 1.map. Original size: 73800. Crunched size: 5588
 Crunching Background for map map as 1.bg. Original size: 2672. Crunched size: 92
 Crunching Asset bundle 0 as 0.gfx. Original size: 60298. Crunched size: 24094
 Crunching Asset bundle 1 as 1.gfx. Original size: 63520. Crunched size: 17818
-Crunching Project data as project.dat. Original size: 15736. Crunched size: 3456
+Crunching Project data as project.dat. Original size: 15736. Crunched size: 3452
 Crunching Scorpion header as project.hd. Original size: 4036. Crunched size: 1226
 
 Estimated memory usages:
@@ -84,10 +85,10 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 73800
 Map background memory: 2672
-EXE memory: 199124
-vm memory: 13606
+EXE memory: 194920
+vm memory: 15866
 project memory: 15736
 
 Accounted memory chip: 242754
-Accounted memory other: 304938
-Accounted memory total: 547692
+Accounted memory other: 302994
+Accounted memory total: 545748

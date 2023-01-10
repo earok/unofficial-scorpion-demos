@@ -2079,13 +2079,13 @@
       "CodeBlock": "project",
       "CodeBlockLine": 0,
       "MemoryOffset": 6,
-      "Description": "Core operation'SetControlMode'"
+      "Description": "Set 'controlmode' to '5'"
     },
     {
       "CodeBlock": "project",
       "CodeBlockLine": 0,
-      "MemoryOffset": 10,
-      "Description": "Raw expression '5'"
+      "MemoryOffset": 12,
+      "Description": "Core operation'SetControlMode'"
     },
     {
       "CodeBlock": "project",
@@ -2163,12 +2163,18 @@
       "CodeBlock": "destroy_all_actors",
       "CodeBlockLine": 1,
       "MemoryOffset": 220,
+      "Description": "Raw expression 'none'"
+    },
+    {
+      "CodeBlock": "destroy_all_actors",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 226,
       "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "destroy_all_actors",
       "CodeBlockLine": 1,
-      "MemoryOffset": 224,
+      "MemoryOffset": 230,
       "Description": "Foreach 'none' do 'destroy_actor'"
     },
     {
@@ -2205,25 +2211,25 @@
       "CodeBlock": "destroy_all_blocks",
       "CodeBlockLine": 5,
       "MemoryOffset": 314,
-      "Description": "Core operation'BlockSet'"
-    },
-    {
-      "CodeBlock": "destroy_all_blocks",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 318,
       "Description": "Raw expression 'none'"
     },
     {
       "CodeBlock": "destroy_all_blocks",
       "CodeBlockLine": 5,
-      "MemoryOffset": 324,
+      "MemoryOffset": 320,
       "Description": "Raw expression 'block_x'"
     },
     {
       "CodeBlock": "destroy_all_blocks",
       "CodeBlockLine": 5,
-      "MemoryOffset": 334,
+      "MemoryOffset": 330,
       "Description": "Raw expression 'block_y'"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 340,
+      "Description": "Core operation'BlockSet'"
     },
     {
       "CodeBlock": "destroy_all_blocks",
@@ -2259,25 +2265,25 @@
       "CodeBlock": "destroy_block",
       "CodeBlockLine": 1,
       "MemoryOffset": 412,
-      "Description": "Core operation'BlockSet'"
-    },
-    {
-      "CodeBlock": "destroy_block",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 416,
       "Description": "Raw expression 'none'"
     },
     {
       "CodeBlock": "destroy_block",
       "CodeBlockLine": 1,
-      "MemoryOffset": 422,
+      "MemoryOffset": 418,
       "Description": "Raw expression 'block_x'"
     },
     {
       "CodeBlock": "destroy_block",
       "CodeBlockLine": 1,
-      "MemoryOffset": 432,
+      "MemoryOffset": 428,
       "Description": "Raw expression 'block_y'"
+    },
+    {
+      "CodeBlock": "destroy_block",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 438,
+      "Description": "Core operation'BlockSet'"
     },
     {
       "CodeBlock": "do_teleport",
@@ -2343,73 +2349,73 @@
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 8,
       "MemoryOffset": 632,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_type'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 8,
-      "MemoryOffset": 636,
-      "Description": "Raw expression 'player_type'"
+      "MemoryOffset": 652,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 9,
       "MemoryOffset": 656,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_var1'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 9,
-      "MemoryOffset": 660,
-      "Description": "Raw expression 'player_var1'"
+      "MemoryOffset": 676,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 10,
       "MemoryOffset": 680,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_var2'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 10,
-      "MemoryOffset": 684,
-      "Description": "Raw expression 'player_var2'"
+      "MemoryOffset": 700,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 11,
       "MemoryOffset": 704,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_var3'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 11,
-      "MemoryOffset": 708,
-      "Description": "Raw expression 'player_var3'"
+      "MemoryOffset": 724,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 12,
       "MemoryOffset": 728,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_var4'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 12,
-      "MemoryOffset": 732,
-      "Description": "Raw expression 'player_var4'"
+      "MemoryOffset": 748,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 13,
       "MemoryOffset": 752,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_var5'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 13,
-      "MemoryOffset": 756,
-      "Description": "Raw expression 'player_var5'"
+      "MemoryOffset": 772,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
@@ -4839,19 +4845,19 @@
       "CodeBlock": "shoot",
       "CodeBlockLine": 2,
       "MemoryOffset": 6402,
-      "Description": "Core operation'Sound'"
-    },
-    {
-      "CodeBlock": "shoot",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6406,
       "Description": "Raw expression 'shot'"
     },
     {
       "CodeBlock": "shoot",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6412,
+      "MemoryOffset": 6408,
       "Description": "Raw expression '0'"
+    },
+    {
+      "CodeBlock": "shoot",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 6414,
+      "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "startup",

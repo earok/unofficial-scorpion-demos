@@ -96,14 +96,15 @@ Crunching Panel hud as 2.img. Original size: 10184. Crunched size: 1102
 Crunching Panel select_screen as 3.img. Original size: 46226. Crunched size: 16604
 Crunching Panel splash_screen as 4.img. Original size: 43810. Crunched size: 9924
 Crunching Panel vs_screen as 5.img. Original size: 43810. Crunched size: 9946
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 7744. Crunched size: 2614
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 9118. Crunched size: 2538
+Crunching Project virtual machine redirects as project.rd. Original size: 4. Crunched size: 4
 Crunching Header data for map stage as 1.mhd. Original size: 9788. Crunched size: 310
 Crunching Data for map stage as 1.map. Original size: 4558. Crunched size: 1488
 Crunching Background for map stage as 1.bg. Original size: 2672. Crunched size: 92
 Crunching Asset bundle 0 as 0.gfx. Original size: 496212. Crunched size: 243800
 Crunching Asset bundle 1 as 1.gfx. Original size: 73920. Crunched size: 37990
-Crunching Project data as project.dat. Original size: 7816. Crunched size: 2340
-Crunching Scorpion header as project.hd. Original size: 4036. Crunched size: 1208
+Crunching Project data as project.dat. Original size: 7816. Crunched size: 2342
+Crunching Scorpion header as project.hd. Original size: 4036. Crunched size: 1206
 
 Estimated memory usages:
 
@@ -119,10 +120,10 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 4558
 Map background memory: 2672
-EXE memory: 199124
-vm memory: 7744
+EXE memory: 194920
+vm memory: 9118
 project memory: 7816
 
 Accounted memory chip: 745670
-Accounted memory other: 221914
-Accounted memory total: 967584
+Accounted memory other: 219084
+Accounted memory total: 964754

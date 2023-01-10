@@ -1,6 +1,8 @@
 === Image optimisations ===
 
 === Misc ===
+Maps and Asset Bundles Count: 4
+Maps and Asset Bundles Data Size: 48
 Actor Count: 1
 Actor Data Size: 296
 Block Count: 1
@@ -15,46 +17,25 @@ Animations Count: 1
 Animations Data Size: 16
 AnimationFrame Count: 2
 AnimationFrame Data Size: 32
-ImageFrames: BlitzTool.BlitzWord
-ImageFrame Data Size: 128
-Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
-Crunching Panel panel_talkpad as 1.img. Original size: 49280. Crunched size: 6084
-Crunching Panel pic_title as 2.img. Original size: 55010. Crunched size: 11720
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 32228. Crunched size: 11976
-Crunching Header data for map court as 1.mhd. Original size: 9788. Crunched size: 332
-Crunching Data for map court as 1.map. Original size: 60068. Crunched size: 8572
-Crunching Background for map court as 1.bg. Original size: 2672. Crunched size: 92
-Crunching Header data for map intro0 as 2.mhd. Original size: 9788. Crunched size: 334
-Crunching Data for map intro0 as 2.map. Original size: 16916. Crunched size: 3680
-Crunching Background for map intro0 as 2.bg. Original size: 2672. Crunched size: 92
-Crunching Header data for map lobby as 3.mhd. Original size: 9788. Crunched size: 320
-Crunching Data for map lobby as 3.map. Original size: 26700. Crunched size: 2556
-Crunching Background for map lobby as 3.bg. Original size: 2672. Crunched size: 92
-Crunching Asset bundle 0 as 0.gfx. Original size: 25248. Crunched size: 21804
-Crunching Asset bundle 1 as 1.gfx. Original size: 350080. Crunched size: 167456
-Crunching Asset bundle 2 as 2.gfx. Original size: 173280. Crunched size: 91290
-Crunching Asset bundle 3 as 3.gfx. Original size: 100320. Crunched size: 56918
-Crunching Project data as project.dat. Original size: 664. Crunched size: 134
-Crunching Scorpion header as project.hd. Original size: 4036. Crunched size: 1194
-
-Estimated memory usages:
-
-For chip:
-Map gfx (level gfx bundle 1 ): 350080
-Music memory: 0
-BP Buffer memory: 110800
-core sfx/gfx memory: 25248
-Parallax memory: 0
-
-For other:
-Map cache memory: 0
-Map header cache memory: 0
-Map data memory: 60068
-Map background memory: 2672
-EXE memory: 199124
-vm memory: 32228
-project memory: 664
-
-Accounted memory chip: 486128
-Accounted memory other: 294756
-Accounted memory total: 780884
+ImageFrames: 2
+ImageFrame Data Size: 136
+Asset bundle 0 (Core project asset bundle) Original size 25248 Crunched size 21804
+Asset bundle 1 (court) Original size 350080 Crunched size 167456
+Asset bundle 2 (intro0) Original size 173280 Crunched size 91290
+Asset bundle 3 (lobby) Original size 100320 Crunched size 56918
+Background for map court Original size 2672 Crunched size 92
+Background for map intro0 Original size 2672 Crunched size 92
+Background for map lobby Original size 2672 Crunched size 92
+Tile data for map court Original size 60068 Crunched size 8572
+Tile data for map intro0 Original size 16916 Crunched size 3678
+Tile data for map lobby Original size 26700 Crunched size 2556
+Header data for map court Original size 9780 Crunched size 330
+Header data for map intro0 Original size 9780 Crunched size 330
+Header data for map lobby Original size 9780 Crunched size 318
+Project Data Original size 720 Crunched size 136
+Project Header Original size 4040 Crunched size 1188
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+Panel panel_talkpad Original size 49280 Crunched size 6084
+Panel pic_title Original size 55010 Crunched size 11720
+Project virtual machine (codeblocks) Original size 42452 Crunched size 13722
+Project virtual machine redirects Original size 956 Crunched size 708

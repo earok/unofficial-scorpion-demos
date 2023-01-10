@@ -23,56 +23,12 @@ Reduce width of Sprites\Spider\A00.png by 12 pixels to 16 to improve blit perfor
 Reduce width of Sprites\Spider\A01.png by 12 pixels to 16 to improve blit performance by 200.00%
 Reduce width of Sprites\Spider\A02.png by 8 pixels to 16 to improve blit performance by 200.00%
 
-=== Misc ===
-Saving mod_intro.mod as 1.mus. Original size: 17748
-Actor Count: 8
-Actor Data Size: 2368
-Block Count: 6
-Block Data Size: 312
-Anim5 Count: 1
-Anim5 Data Size: 4
-Sound Count: 2
-Sound Data Size: 64
-Teleporter Count: 3
-Teleporter Data Size: 24
-Animations Count: 27
-Animations Data Size: 432
-AnimationFrame Count: 108
-AnimationFrame Data Size: 1728
-ImageFrames: BlitzTool.BlitzWord
-ImageFrame Data Size: 6976
-Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
-Saving Panel hud as 1.img. Original size: 11392
-Saving Panel main_menu as 2.img. Original size: 62228
-Saving Panel pic_title as 3.img. Original size: 55010
-Saving Panel talkpad as 4.img. Original size: 29470
-Saving Project virtual machine (codeblocks) as project.vm. Original size: 9130
-Saving Header data for map map_bedroom as 1.mhd. Original size: 9788
-Saving Data for map map_bedroom as 1.map. Original size: 2436
-Saving Background for map map_bedroom as 1.bg. Original size: 2672
-Saving Header data for map map_house_night as 2.mhd. Original size: 9788
-Saving Data for map map_house_night as 2.map. Original size: 2416
-Saving Background for map map_house_night as 2.bg. Original size: 2672
-Saving Header data for map map_intro as 3.mhd. Original size: 9788
-Saving Data for map map_intro as 3.map. Original size: 8132
-Saving Background for map map_intro as 3.bg. Original size: 2672
-Saving Header data for map map_outside as 4.mhd. Original size: 9788
-Saving Data for map map_outside as 4.map. Original size: 29388
-Saving Background for map map_outside as 4.bg. Original size: 2672
-Saving Asset bundle 0 as 0.gfx. Original size: 82266
-Saving Asset bundle 1 as 1.gfx. Original size: 10560
-Saving Asset bundle 2 as 2.gfx. Original size: 13120
-Saving Asset bundle 3 as 3.gfx. Original size: 84160
-Saving Asset bundle 4 as 4.gfx. Original size: 32960
-Saving Project data as project.dat. Original size: 11908
-Saving Scorpion header as project.hd. Original size: 4036
-
-Estimated memory usages:
+=== Estimated memory usages ===
 
 For chip:
 Map gfx (level gfx bundle 3 ): 84160
 Music memory: 17748
-BP Buffer memory: 105260
+BP Buffer memory: 132480
 core sfx/gfx memory: 82266
 Parallax memory: 0
 
@@ -81,10 +37,57 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 29388
 Map background memory: 2672
-EXE memory: 199124
-vm memory: 9130
-project memory: 11908
+EXE memory: 209864
+vm memory: 11240
+project memory: 13436
 
-Accounted memory chip: 289434
-Accounted memory other: 252222
-Accounted memory total: 541656
+Accounted memory chip: 316654
+Accounted memory other: 266600
+Accounted memory total: 583254
+
+=== Misc ===
+Maps and Asset Bundles Count: 5
+Maps and Asset Bundles Data Size: 60
+Actor Count: 8
+Actor Data Size: 2368
+Block Count: 6
+Block Data Size: 312
+Anim5 Count: 1
+Anim5 Data Size: 1036
+Sound Count: 2
+Sound Data Size: 64
+Teleporter Count: 3
+Teleporter Data Size: 24
+Animations Count: 27
+Animations Data Size: 432
+AnimationFrame Count: 108
+AnimationFrame Data Size: 1728
+ImageFrames: 109
+ImageFrame Data Size: 7412
+Asset bundle 0 (Core project asset bundle) Original size 82266 Crunched size 43282
+Asset bundle 1 (map_bedroom) Original size 10560 Crunched size 4378
+Asset bundle 2 (map_house_night) Original size 13120 Crunched size 5374
+Asset bundle 3 (map_intro) Original size 84160 Crunched size 65114
+Asset bundle 4 (map_outside) Original size 29440 Crunched size 14138
+Background for map map_bedroom Original size 2672 Crunched size 92
+Background for map map_house_night Original size 2672 Crunched size 92
+Background for map map_intro Original size 2672 Crunched size 92
+Background for map map_outside Original size 2672 Crunched size 92
+Music file mod_intro Original size 17748 Crunched size 2466
+Tile data for map map_bedroom (mem restrictions:No_Anim) Original size 2062 Crunched size 480
+Tile data for map map_house_night (mem restrictions:No_Anim) Original size 2042 Crunched size 486
+Tile data for map map_intro (mem restrictions:No_Anim) Original size 6804 Crunched size 1616
+Tile data for map map_outside (mem restrictions:None) Original size 29388 Crunched size 3094
+Header data for map map_bedroom Original size 8756 Crunched size 316
+Header data for map map_house_night Original size 8756 Crunched size 268
+Header data for map map_intro Original size 8756 Crunched size 310
+Header data for map map_outside Original size 8756 Crunched size 354
+Project Data Original size 13436 Crunched size 2674
+Project Header Original size 4040 Crunched size 1196
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+Panel hud Original size 11392 Crunched size 1028
+Panel main_menu Original size 62228 Crunched size 6500
+Panel pic_title Original size 55010 Crunched size 25240
+Panel talkpad Original size 29470 Crunched size 2764
+Project virtual machine (codeblocks) Original size 11240 Crunched size 3490
+Project virtual machine redirects Original size 4 Crunched size 4

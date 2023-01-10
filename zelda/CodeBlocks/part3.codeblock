@@ -1,4 +1,5 @@
 {
+  "CompileOrder": 0,
   "DataVersion": 1,
   "Variables": [],
   "Commands": [
@@ -15,6 +16,7 @@
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
       "CoreType": "RefreshActorVariable",
+      "ControlMode": "Joys_1",
       "Goto": null,
       "Comment": null,
       "Variable": "none",
@@ -23,6 +25,7 @@
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "map_outside",
       "NewBlock": "none",
@@ -69,7 +72,7 @@
         "a": 255
       },
       "Sound": "none",
-      "Music": "none",
+      "Music": "mod_intro",
       "MusicPos": "0",
       "SpeakDelay": 1
     },
@@ -86,6 +89,7 @@
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
       "CoreType": "RefreshActorVariable",
+      "ControlMode": "Joys_1",
       "Goto": "configure_level",
       "Comment": null,
       "Variable": "none",
@@ -94,6 +98,7 @@
       "Label": null,
       "DiceSides": 2,
       "Disabled": false,
+      "Breakpoint": false,
       "Comparison": "NotZero",
       "Level": "none",
       "NewBlock": "none",

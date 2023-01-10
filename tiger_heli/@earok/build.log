@@ -1,0 +1,76 @@
+=== Image optimisations ===
+Reduce width of sprites\effects\explosion_00x00.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\effects\explosion_00x00.png by 14 pixels to 16 to reduce sprites by 2
+Reduce width of sprites\effects\explosion_00x01.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\effects\explosion_00x01.png by 13 pixels to 16 to reduce sprites by 2
+Reduce width of sprites\effects\explosion_00x06.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\effects\explosion_00x06.png by 11 pixels to 16 to reduce sprites by 2
+Reduce width of sprites\effects\explosion_00x07.png by 13 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\effects\explosion_00x07.png by 13 pixels to 16 to reduce sprites by 2
+Reduce width of sprites\enemy\tank_d_00.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\enemy\tank_d_01.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\enemy\tank_d_02.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\enemy\tank_d_03.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\enemy\tank_d_04.png by 1 pixels to 32 to improve blit performance by 100.00%
+Reduce width of sprites\enemy\tank_d_05.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\enemy\tank_d_06.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\enemy\tank_d_07.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\enemy\tank_d_08.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\enemy\tank_d_09.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\enemy\tank_d_10.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\enemy\tank_d_11.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\enemy\tank_d_13.png by 14 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\enemy\tank_d_14.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of sprites\enemy\tank_d_15.png by 6 pixels to 16 to improve blit performance by 200.00%
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1 ): 124160
+Music memory: 0
+BP Buffer memory: 78624
+core sfx/gfx memory: 34128
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 23938
+Map background memory: 2672
+EXE memory: 210032
+vm memory: 10742
+project memory: 6488
+
+Accounted memory chip: 236912
+Accounted memory other: 253872
+Accounted memory total: 490784
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 6
+Actor Data Size: 1776
+Block Count: 2
+Block Data Size: 104
+Anim5 Count: 1
+Anim5 Data Size: 1036
+Sound Count: 1
+Sound Data Size: 32
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 25
+Animations Data Size: 400
+AnimationFrame Count: 37
+AnimationFrame Data Size: 592
+ImageFrames: 37
+ImageFrame Data Size: 2516
+Asset bundle 0 (Core project asset bundle) Original size 34128 Crunched size 13198
+Asset bundle 1 (level1) Original size 124160 Crunched size 22410
+Background for map level1 Original size 2672 Crunched size 92
+Tile data for map level1 (mem restrictions:None) Original size 23938 Crunched size 5366
+Header data for map level1 Original size 8756 Crunched size 288
+Project Data Original size 6488 Crunched size 1534
+Project Header Original size 4040 Crunched size 1184
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+Project virtual machine (codeblocks) Original size 10742 Crunched size 2840
+Project virtual machine redirects Original size 4 Crunched size 4

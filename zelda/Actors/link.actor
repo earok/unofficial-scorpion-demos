@@ -3,7 +3,7 @@
   "ClassType": "DefaultClass",
   "DefaultLookDir": "down",
   "Recycle": "Default",
-  "MoveType": "control",
+  "MoveType": "control_autonavigate",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 16,
@@ -142,10 +142,11 @@
     "0",
     "0",
     "0",
-    "0",
-    "1"
+    "0"
   ],
+  "ControlPort": 1,
+  "DataVersion": 1,
   "TileID": 0,
-  "JumpHeight": null,
-  "SuggestedRecycle": "Never"
+  "SuggestedRecycle": "Always",
+  "UpAccelerationName": "Accel Up"
 }
