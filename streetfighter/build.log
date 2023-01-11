@@ -72,14 +72,37 @@ Reduce width of anims\ryu_win_4.png by 9 pixels to 32 to improve blit performanc
 Reduce width of anims\ryu_win_3.png by 9 pixels to 32 to improve blit performance by 100.00%
 Reduce width of anims\ryu_win_4.png by 9 pixels to 32 to improve blit performance by 100.00%
 
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1 ): 73920
+Music memory: 65538
+BP Buffer memory: 131520
+core sfx/gfx memory: 496212
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 3096
+Map background memory: 2672
+EXE memory: 210032
+vm memory: 9220
+project memory: 9132
+
+Accounted memory chip: 767190
+Accounted memory other: 234152
+Accounted memory total: 1001342
+
 === Misc ===
-Crunching tune.mod as 1.mus. Original size: 65538. Crunched size: 42472
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
 Actor Count: 5
 Actor Data Size: 1480
 Block Count: 1
 Block Data Size: 52
 Anim5 Count: 1
-Anim5 Data Size: 4
+Anim5 Data Size: 1036
 Sound Count: 15
 Sound Data Size: 480
 Teleporter Count: 1
@@ -88,42 +111,21 @@ Animations Count: 19
 Animations Data Size: 304
 AnimationFrame Count: 83
 AnimationFrame Data Size: 1328
-ImageFrames: BlitzTool.BlitzWord
-ImageFrame Data Size: 4160
-Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
-Crunching Panel ending_screen as 1.img. Original size: 43810. Crunched size: 9320
-Crunching Panel hud as 2.img. Original size: 10184. Crunched size: 1102
-Crunching Panel select_screen as 3.img. Original size: 46226. Crunched size: 16604
-Crunching Panel splash_screen as 4.img. Original size: 43810. Crunched size: 9924
-Crunching Panel vs_screen as 5.img. Original size: 43810. Crunched size: 9946
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 9118. Crunched size: 2538
-Crunching Project virtual machine redirects as project.rd. Original size: 4. Crunched size: 4
-Crunching Header data for map stage as 1.mhd. Original size: 9788. Crunched size: 310
-Crunching Data for map stage as 1.map. Original size: 4558. Crunched size: 1488
-Crunching Background for map stage as 1.bg. Original size: 2672. Crunched size: 92
-Crunching Asset bundle 0 as 0.gfx. Original size: 496212. Crunched size: 243800
-Crunching Asset bundle 1 as 1.gfx. Original size: 73920. Crunched size: 37990
-Crunching Project data as project.dat. Original size: 7816. Crunched size: 2342
-Crunching Scorpion header as project.hd. Original size: 4036. Crunched size: 1206
-
-Estimated memory usages:
-
-For chip:
-Map gfx (level gfx bundle 1 ): 73920
-Music memory: 65538
-BP Buffer memory: 110000
-core sfx/gfx memory: 496212
-Parallax memory: 0
-
-For other:
-Map cache memory: 0
-Map header cache memory: 0
-Map data memory: 4558
-Map background memory: 2672
-EXE memory: 194920
-vm memory: 9118
-project memory: 7816
-
-Accounted memory chip: 745670
-Accounted memory other: 219084
-Accounted memory total: 964754
+ImageFrames: 65
+ImageFrame Data Size: 4420
+Asset bundle 0 (Core project asset bundle) Original size 496212 Crunched size 243800
+Asset bundle 1 (stage) Original size 73920 Crunched size 37990
+Background for map stage Original size 2672 Crunched size 92
+Music file tune Original size 65538 Crunched size 42472
+Tile data for map stage (mem restrictions:No_Blocks) Original size 3096 Crunched size 1468
+Header data for map stage Original size 8756 Crunched size 294
+Project Data Original size 9132 Crunched size 2392
+Project Header Original size 4040 Crunched size 1202
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+Panel ending_screen Original size 43810 Crunched size 9320
+Panel hud Original size 10184 Crunched size 1104
+Panel select_screen Original size 46226 Crunched size 16604
+Panel splash_screen Original size 43810 Crunched size 9924
+Panel vs_screen Original size 43810 Crunched size 9946
+Project virtual machine (codeblocks) Original size 9220 Crunched size 2576
+Project virtual machine redirects Original size 4 Crunched size 4

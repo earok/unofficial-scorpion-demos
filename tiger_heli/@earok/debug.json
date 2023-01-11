@@ -2160,66 +2160,59 @@
     },
     {
       "CodeBlock": "fn_getdirection",
-      "Name": "delta_x",
+      "Name": "fn_getdirection",
       "DefaultValue": "0",
       "Index": 199,
       "MemoryOffset": 199
     },
     {
-      "CodeBlock": "fn_getdirection",
-      "Name": "delta_y",
+      "CodeBlock": "handler_level",
+      "Name": "shootdelay",
       "DefaultValue": "0",
       "Index": 200,
       "MemoryOffset": 200
     },
     {
-      "CodeBlock": "fn_getdirection",
-      "Name": "delta_x_abs",
-      "DefaultValue": "0",
-      "Index": 201,
-      "MemoryOffset": 201
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "Name": "delta_y_abs",
-      "DefaultValue": "0",
-      "Index": 202,
-      "MemoryOffset": 202
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "Name": "fn_getdirection",
-      "DefaultValue": "0",
-      "Index": 203,
-      "MemoryOffset": 203
-    },
-    {
-      "CodeBlock": "handler_level",
-      "Name": "shootdelay",
-      "DefaultValue": "0",
-      "Index": 204,
-      "MemoryOffset": 204
-    },
-    {
       "CodeBlock": "handler_tank",
       "Name": "direction_delta",
       "DefaultValue": "8",
-      "Index": 205,
-      "MemoryOffset": 205
+      "Index": 201,
+      "MemoryOffset": 201
     },
     {
       "CodeBlock": "handler_tank",
       "Name": "tank_block",
       "DefaultValue": "0",
-      "Index": 206,
-      "MemoryOffset": 206
+      "Index": 202,
+      "MemoryOffset": 202
+    },
+    {
+      "CodeBlock": "spawn_ebullet",
+      "Name": "x_offset",
+      "DefaultValue": "0",
+      "Index": 203,
+      "MemoryOffset": 203
+    },
+    {
+      "CodeBlock": "spawn_ebullet",
+      "Name": "y_offset",
+      "DefaultValue": "0",
+      "Index": 204,
+      "MemoryOffset": 204
+    },
+    {
+      "CodeBlock": "spawn_ebullet",
+      "Name": "rotated_angle",
+      "DefaultValue": "0",
+      "Index": 205,
+      "MemoryOffset": 205
     },
     {
       "CodeBlock": "startup",
       "Name": "enemy_bullet_anim",
       "DefaultValue": "0",
-      "Index": 207,
-      "MemoryOffset": 207
+      "Index": 206,
+      "MemoryOffset": 206
     }
   ],
   "Lines": [
@@ -4841,2864 +4834,800 @@
     },
     {
       "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 2,
+      "CodeBlockLine": 1,
       "MemoryOffset": 5982,
-      "Description": "Set 'delta_x' to 'player_x - actor_x'"
+      "Description": "Raw expression 'player_x - actor_x'"
+    },
+    {
+      "CodeBlock": "fn_getdirection",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6016,
+      "Description": "Raw expression 'player_y - actor_y'"
+    },
+    {
+      "CodeBlock": "fn_getdirection",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6050,
+      "Description": "Core operation'Maths_ATan2'"
+    },
+    {
+      "CodeBlock": "fn_getdirection",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6054,
+      "Description": "Set 'fn_getdirection' to 'math_x'"
+    },
+    {
+      "CodeBlock": "fn_getdirection",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 6064,
+      "Description": "Set 'fn_getdirection' to 'fn_getdirection + 12 / 23'"
     },
     {
       "CodeBlock": "fn_getdirection",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6016,
-      "Description": "Set 'delta_y' to 'player_y - actor_y'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6050,
-      "Description": "If 'delta_x' Equals '0' ELSE GOTO 00006128"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6064,
-      "Description": "If 'delta_y' LessThan '0'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 6078,
-      "Description": "Set 'fn_getdirection' to '0'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 8,
       "MemoryOffset": 6084,
-      "Description": "GOTO '00006096'"
+      "Description": "If 'fn_getdirection' GreaterThan '16' ELSE GOTO 00006104"
     },
     {
       "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 6090,
-      "Description": "Set 'fn_getdirection' to '8'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6128,
-      "Description": "If 'delta_y' Equals '0' ELSE GOTO 00006206"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 14,
-      "MemoryOffset": 6142,
-      "Description": "If 'delta_x' LessThan '0'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 6156,
-      "Description": "Set 'fn_getdirection' to '12'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 16,
-      "MemoryOffset": 6162,
-      "Description": "GOTO '00006174'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 17,
-      "MemoryOffset": 6168,
-      "Description": "Set 'fn_getdirection' to '4'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 22,
-      "MemoryOffset": 6206,
-      "Description": "If 'delta_x' LessThan '0'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 23,
-      "MemoryOffset": 6220,
-      "Description": "Set 'delta_x_abs' to '0 - delta_x'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 6230,
-      "Description": "GOTO '00006246'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 6236,
-      "Description": "Set 'delta_x_abs' to 'delta_x'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 6246,
-      "Description": "If 'delta_y' LessThan '0'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 6260,
-      "Description": "Set 'delta_y_abs' to '0 - delta_y'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 6270,
-      "Description": "GOTO '00006286'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 30,
-      "MemoryOffset": 6276,
-      "Description": "Set 'delta_y_abs' to 'delta_y'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 32,
-      "MemoryOffset": 6286,
-      "Description": "If 'delta_y_abs' GreaterThan 'delta_x_abs'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 33,
-      "MemoryOffset": 6304,
-      "Description": "Set 'delta_x' to 'delta_x << 7 / delta_y_abs'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 34,
-      "MemoryOffset": 6322,
-      "Description": "If 'delta_y' GreaterThan '0'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 35,
-      "MemoryOffset": 6336,
-      "Description": "If 'delta_x' LessThan '-38'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 36,
-      "MemoryOffset": 6350,
-      "Description": "Set 'fn_getdirection' to '10'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 37,
-      "MemoryOffset": 6356,
-      "Description": "GOTO '00006446'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 37,
-      "MemoryOffset": 6362,
-      "Description": "If 'delta_x' LessThan '-13'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 38,
-      "MemoryOffset": 6376,
-      "Description": "Set 'fn_getdirection' to '9'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 39,
-      "MemoryOffset": 6382,
-      "Description": "GOTO '00006446'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 39,
-      "MemoryOffset": 6388,
-      "Description": "If 'delta_x' LessThan '13'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 40,
-      "MemoryOffset": 6402,
-      "Description": "Set 'fn_getdirection' to '8'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 6408,
-      "Description": "GOTO '00006446'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 6414,
-      "Description": "If 'delta_x' LessThan '38'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 42,
-      "MemoryOffset": 6428,
-      "Description": "Set 'fn_getdirection' to '7'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 6434,
-      "Description": "GOTO '00006446'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 44,
-      "MemoryOffset": 6440,
-      "Description": "Set 'fn_getdirection' to '6'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 6446,
-      "Description": "GOTO '00006562'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 47,
-      "MemoryOffset": 6452,
-      "Description": "If 'delta_x' LessThan '-38'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 6466,
-      "Description": "Set 'fn_getdirection' to '14'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 49,
-      "MemoryOffset": 6472,
-      "Description": "GOTO '00006562'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 49,
-      "MemoryOffset": 6478,
-      "Description": "If 'delta_x' LessThan '-13'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 50,
-      "MemoryOffset": 6492,
-      "Description": "Set 'fn_getdirection' to '15'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 51,
-      "MemoryOffset": 6498,
-      "Description": "GOTO '00006562'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 51,
-      "MemoryOffset": 6504,
-      "Description": "If 'delta_x' LessThan '13'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 52,
-      "MemoryOffset": 6518,
+      "CodeBlockLine": 4,
+      "MemoryOffset": 6098,
       "Description": "Set 'fn_getdirection' to '0'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 53,
-      "MemoryOffset": 6524,
-      "Description": "GOTO '00006562'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 53,
-      "MemoryOffset": 6530,
-      "Description": "If 'delta_x' LessThan '38'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 54,
-      "MemoryOffset": 6544,
-      "Description": "Set 'fn_getdirection' to '1'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 55,
-      "MemoryOffset": 6550,
-      "Description": "GOTO '00006562'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 56,
-      "MemoryOffset": 6556,
-      "Description": "Set 'fn_getdirection' to '2'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 59,
-      "MemoryOffset": 6562,
-      "Description": "GOTO '00006826'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 60,
-      "MemoryOffset": 6568,
-      "Description": "Set 'delta_y' to 'delta_y << 7 / delta_x_abs'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 61,
-      "MemoryOffset": 6586,
-      "Description": "If 'delta_x' GreaterThan '0'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 62,
-      "MemoryOffset": 6600,
-      "Description": "If 'delta_y' LessThan '-38'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 63,
-      "MemoryOffset": 6614,
-      "Description": "Set 'fn_getdirection' to '2'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 64,
-      "MemoryOffset": 6620,
-      "Description": "GOTO '00006710'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 64,
-      "MemoryOffset": 6626,
-      "Description": "If 'delta_y' LessThan '-13'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 65,
-      "MemoryOffset": 6640,
-      "Description": "Set 'fn_getdirection' to '3'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 66,
-      "MemoryOffset": 6646,
-      "Description": "GOTO '00006710'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 66,
-      "MemoryOffset": 6652,
-      "Description": "If 'delta_y' LessThan '13'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 67,
-      "MemoryOffset": 6666,
-      "Description": "Set 'fn_getdirection' to '4'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 68,
-      "MemoryOffset": 6672,
-      "Description": "GOTO '00006710'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 68,
-      "MemoryOffset": 6678,
-      "Description": "If 'delta_y' LessThan '38'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 69,
-      "MemoryOffset": 6692,
-      "Description": "Set 'fn_getdirection' to '5'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 70,
-      "MemoryOffset": 6698,
-      "Description": "GOTO '00006710'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 71,
-      "MemoryOffset": 6704,
-      "Description": "Set 'fn_getdirection' to '6'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 73,
-      "MemoryOffset": 6710,
-      "Description": "GOTO '00006826'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 74,
-      "MemoryOffset": 6716,
-      "Description": "If 'delta_y' LessThan '-38'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 75,
-      "MemoryOffset": 6730,
-      "Description": "Set 'fn_getdirection' to '14'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 76,
-      "MemoryOffset": 6736,
-      "Description": "GOTO '00006826'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 76,
-      "MemoryOffset": 6742,
-      "Description": "If 'delta_y' LessThan '-13'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 77,
-      "MemoryOffset": 6756,
-      "Description": "Set 'fn_getdirection' to '13'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 78,
-      "MemoryOffset": 6762,
-      "Description": "GOTO '00006826'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 78,
-      "MemoryOffset": 6768,
-      "Description": "If 'delta_y' LessThan '13'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 79,
-      "MemoryOffset": 6782,
-      "Description": "Set 'fn_getdirection' to '12'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 80,
-      "MemoryOffset": 6788,
-      "Description": "GOTO '00006826'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 80,
-      "MemoryOffset": 6794,
-      "Description": "If 'delta_y' LessThan '38'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 81,
-      "MemoryOffset": 6808,
-      "Description": "Set 'fn_getdirection' to '11'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 82,
-      "MemoryOffset": 6814,
-      "Description": "GOTO '00006826'"
-    },
-    {
-      "CodeBlock": "fn_getdirection",
-      "CodeBlockLine": 83,
-      "MemoryOffset": 6820,
-      "Description": "Set 'fn_getdirection' to '10'"
     },
     {
       "CodeBlock": "handler_ebullet",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6858,
+      "MemoryOffset": 6136,
       "Description": "HANDLER_EBULLET"
     },
     {
       "CodeBlock": "handler_ebullet",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6858,
+      "MemoryOffset": 6136,
       "Description": "Set 'actor_animation' to 'enemy_bullet_anim'"
     },
     {
       "CodeBlock": "handler_ebullet",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6868,
+      "MemoryOffset": 6146,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "handler_ebullet",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6872,
+      "MemoryOffset": 6150,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "handler_level",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6908,
+      "MemoryOffset": 6186,
       "Description": "HANDLER_LEVEL"
     },
     {
       "CodeBlock": "handler_level",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6908,
+      "MemoryOffset": 6186,
       "Description": "If 'enemy_bullet_anim' Equals 'a_enemy_bullet_1'"
     },
     {
       "CodeBlock": "handler_level",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6922,
+      "MemoryOffset": 6200,
       "Description": "Set 'enemy_bullet_anim' to 'a_enemy_bullet_2'"
     },
     {
       "CodeBlock": "handler_level",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6928,
-      "Description": "GOTO '00006992'"
+      "MemoryOffset": 6206,
+      "Description": "GOTO '00006270'"
     },
     {
       "CodeBlock": "handler_level",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6934,
+      "MemoryOffset": 6212,
       "Description": "If 'enemy_bullet_anim' Equals 'a_enemy_bullet_2'"
     },
     {
       "CodeBlock": "handler_level",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6948,
+      "MemoryOffset": 6226,
       "Description": "Set 'enemy_bullet_anim' to 'a_enemy_bullet_3'"
     },
     {
       "CodeBlock": "handler_level",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6954,
-      "Description": "GOTO '00006992'"
+      "MemoryOffset": 6232,
+      "Description": "GOTO '00006270'"
     },
     {
       "CodeBlock": "handler_level",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6960,
+      "MemoryOffset": 6238,
       "Description": "If 'enemy_bullet_anim' Equals 'a_enemy_bullet_3'"
     },
     {
       "CodeBlock": "handler_level",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6974,
+      "MemoryOffset": 6252,
       "Description": "Set 'enemy_bullet_anim' to 'a_enemy_bullet_4'"
     },
     {
       "CodeBlock": "handler_level",
       "CodeBlockLine": 7,
-      "MemoryOffset": 6980,
-      "Description": "GOTO '00006992'"
+      "MemoryOffset": 6258,
+      "Description": "GOTO '00006270'"
     },
     {
       "CodeBlock": "handler_level",
       "CodeBlockLine": 8,
-      "MemoryOffset": 6986,
+      "MemoryOffset": 6264,
       "Description": "Set 'enemy_bullet_anim' to 'a_enemy_bullet_1'"
     },
     {
       "CodeBlock": "handler_level",
       "CodeBlockLine": 10,
-      "MemoryOffset": 6992,
-      "Description": "If 'shootdelay' GreaterThan '0' ELSE GOTO 00007018"
+      "MemoryOffset": 6270,
+      "Description": "If 'shootdelay' GreaterThan '0' ELSE GOTO 00006296"
     },
     {
       "CodeBlock": "handler_level",
       "CodeBlockLine": 11,
-      "MemoryOffset": 7006,
+      "MemoryOffset": 6284,
       "Description": "Set 'shootdelay' to 'shootdelay - 1'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7050,
+      "MemoryOffset": 6328,
       "Description": "HANDLER_TANK"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7050,
+      "MemoryOffset": 6328,
       "Description": "Set 'block_x' to 'actor_x>> 4'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7072,
+      "MemoryOffset": 6350,
       "Description": "Set 'block_y' to 'actor_y>> 4'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7094,
+      "MemoryOffset": 6372,
       "Description": "Core operation'BlockGet'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7098,
+      "MemoryOffset": 6376,
       "Description": "Set 'tank_block' to 'block_type'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7108,
-      "Description": "If 'tank_block' Equals 'block_down' ELSE GOTO 00007152"
+      "MemoryOffset": 6386,
+      "Description": "If 'tank_block' Equals 'block_down' ELSE GOTO 00006424"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7122,
-      "Description": "Set 'actor_yspeed' to '16448'"
+      "MemoryOffset": 6400,
+      "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7130,
-      "Description": "Core operation'RefreshActorVariable'"
+      "MemoryOffset": 6406,
+      "Description": "Raw expression '16448'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7134,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "MemoryOffset": 6414,
+      "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7138,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "handler_tank",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7144,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "handler_tank",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7148,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "MemoryOffset": 6420,
+      "Description": "Core operation'RefreshActorYSpeed'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 5,
-      "MemoryOffset": 7152,
+      "MemoryOffset": 6424,
       "Description": "Set 'actor_animation' to 'a_tank_d_00 + actor_var1'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 5,
-      "MemoryOffset": 7172,
+      "MemoryOffset": 6444,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 5,
-      "MemoryOffset": 7176,
+      "MemoryOffset": 6448,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 6,
-      "MemoryOffset": 7180,
+      "MemoryOffset": 6452,
       "Description": "GOSUB TO 'FN_GETDIRECTION'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 7,
-      "MemoryOffset": 7200,
-      "Description": "If 'actor_var1' NotEquals 'fn_getdirection' ELSE GOTO 00007644"
+      "MemoryOffset": 6472,
+      "Description": "If 'actor_var1' NotEquals 'fn_getdirection' ELSE GOTO 00006916"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 8,
-      "MemoryOffset": 7228,
+      "MemoryOffset": 6500,
       "Description": "Set 'direction_delta' to 'fn_getdirection - actor_var1'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 9,
-      "MemoryOffset": 7252,
+      "MemoryOffset": 6524,
       "Description": "If 'direction_delta' LessThan '- 8'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7266,
+      "MemoryOffset": 6538,
       "Description": "Set 'actor_var1' to 'actor_var1 + 1'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7288,
+      "MemoryOffset": 6560,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 10,
-      "MemoryOffset": 7292,
+      "MemoryOffset": 6564,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 11,
-      "MemoryOffset": 7296,
-      "Description": "GOTO '00007446'"
+      "MemoryOffset": 6568,
+      "Description": "GOTO '00006718'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 11,
-      "MemoryOffset": 7302,
+      "MemoryOffset": 6574,
       "Description": "If 'direction_delta' GreaterThan '8'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 12,
-      "MemoryOffset": 7316,
+      "MemoryOffset": 6588,
       "Description": "Set 'actor_var1' to 'actor_var1 - 1'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 12,
-      "MemoryOffset": 7338,
+      "MemoryOffset": 6610,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 12,
-      "MemoryOffset": 7342,
+      "MemoryOffset": 6614,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7346,
-      "Description": "GOTO '00007446'"
+      "MemoryOffset": 6618,
+      "Description": "GOTO '00006718'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 13,
-      "MemoryOffset": 7352,
+      "MemoryOffset": 6624,
       "Description": "If 'direction_delta' LessThan '0'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7366,
+      "MemoryOffset": 6638,
       "Description": "Set 'actor_var1' to 'actor_var1 - 1'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7388,
+      "MemoryOffset": 6660,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 14,
-      "MemoryOffset": 7392,
+      "MemoryOffset": 6664,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7396,
-      "Description": "GOTO '00007446'"
+      "MemoryOffset": 6668,
+      "Description": "GOTO '00006718'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 15,
-      "MemoryOffset": 7402,
-      "Description": "If 'direction_delta' GreaterThan '0' ELSE GOTO 00007446"
+      "MemoryOffset": 6674,
+      "Description": "If 'direction_delta' GreaterThan '0' ELSE GOTO 00006718"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 16,
-      "MemoryOffset": 7416,
+      "MemoryOffset": 6688,
       "Description": "Set 'actor_var1' to 'actor_var1 + 1'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 16,
-      "MemoryOffset": 7438,
+      "MemoryOffset": 6710,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 16,
-      "MemoryOffset": 7442,
+      "MemoryOffset": 6714,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 18,
-      "MemoryOffset": 7446,
+      "MemoryOffset": 6718,
       "Description": "If 'actor_var1' LessThan '0'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 19,
-      "MemoryOffset": 7470,
+      "MemoryOffset": 6742,
       "Description": "Set 'actor_var1' to 'actor_var1 + 16'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 19,
-      "MemoryOffset": 7494,
+      "MemoryOffset": 6766,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 19,
-      "MemoryOffset": 7498,
+      "MemoryOffset": 6770,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 20,
-      "MemoryOffset": 7502,
-      "Description": "GOTO '00007564'"
+      "MemoryOffset": 6774,
+      "Description": "GOTO '00006836'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 20,
-      "MemoryOffset": 7508,
-      "Description": "If 'actor_var1' GreaterThan '15' ELSE GOTO 00007564"
+      "MemoryOffset": 6780,
+      "Description": "If 'actor_var1' GreaterThan '15' ELSE GOTO 00006836"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7532,
+      "MemoryOffset": 6804,
       "Description": "Set 'actor_var1' to 'actor_var1 - 16'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7556,
+      "MemoryOffset": 6828,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 21,
-      "MemoryOffset": 7560,
+      "MemoryOffset": 6832,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7564,
+      "MemoryOffset": 6836,
       "Description": "Set 'actor_animation' to 'a_tank_d_00 + actor_var1'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7584,
+      "MemoryOffset": 6856,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 23,
-      "MemoryOffset": 7588,
+      "MemoryOffset": 6860,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 24,
-      "MemoryOffset": 7592,
+      "MemoryOffset": 6864,
       "Description": "Yield on actor timer to  next line"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 25,
-      "MemoryOffset": 7618,
+      "MemoryOffset": 6890,
       "Description": "GOSUB TO 'FN_GETDIRECTION'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 26,
-      "MemoryOffset": 7638,
-      "Description": "GOTO '00007200'"
+      "MemoryOffset": 6910,
+      "Description": "GOTO '00006472'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 27,
-      "MemoryOffset": 7644,
+      "MemoryOffset": 6916,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 27,
-      "MemoryOffset": 7650,
+      "MemoryOffset": 6922,
       "Description": "Raw expression 'enemy_bullet'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 27,
-      "MemoryOffset": 7656,
+      "MemoryOffset": 6928,
       "Description": "Core operation'ActorSpawn'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 28,
-      "MemoryOffset": 7660,
+      "MemoryOffset": 6932,
       "Description": "Set 'new_var1' to 'actor_var1'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 28,
-      "MemoryOffset": 7680,
+      "MemoryOffset": 6952,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "handler_tank",
       "CodeBlockLine": 28,
-      "MemoryOffset": 7684,
+      "MemoryOffset": 6956,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "hit_tank",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7720,
+      "MemoryOffset": 6992,
       "Description": "HIT_TANK"
     },
     {
       "CodeBlock": "hit_tank",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7720,
+      "MemoryOffset": 6992,
       "Description": "Set 'projectile_type' to 'none'"
     },
     {
       "CodeBlock": "hit_tank",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7726,
+      "MemoryOffset": 6998,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "hit_tank",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7730,
+      "MemoryOffset": 7002,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "hit_tank",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7734,
+      "MemoryOffset": 7006,
       "Description": "Set 'actor_type' to 'static'"
     },
     {
       "CodeBlock": "hit_tank",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7740,
+      "MemoryOffset": 7012,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "hit_tank",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7744,
+      "MemoryOffset": 7016,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "hit_tank",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7748,
+      "MemoryOffset": 7020,
       "Description": "Set 'actor_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "hit_tank",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7754,
+      "MemoryOffset": 7026,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "hit_tank",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7758,
+      "MemoryOffset": 7030,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "hit_tank",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7762,
+      "MemoryOffset": 7034,
       "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
     },
     {
       "CodeBlock": "hit_tank",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7768,
+      "MemoryOffset": 7040,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "hit_tank",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7772,
+      "MemoryOffset": 7044,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "hit_tank",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7776,
+      "MemoryOffset": 7048,
       "Description": "Set 'actor_animation' to 'a_explosion'"
     },
     {
       "CodeBlock": "hit_tank",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7782,
+      "MemoryOffset": 7054,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "hit_tank",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7786,
+      "MemoryOffset": 7058,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "spawn_ebullet",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7822,
+      "MemoryOffset": 7094,
       "Description": "SPAWN_EBULLET"
     },
     {
       "CodeBlock": "spawn_ebullet",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7822,
-      "Description": "If 'actor_var1' Equals '0'"
+      "MemoryOffset": 7094,
+      "Description": "Set 'rotated_angle' to 'actor_var1 * 45 / 2'"
     },
     {
       "CodeBlock": "spawn_ebullet",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7846,
-      "Description": "Set 'actor_x' to 'actor_x + 0'"
+      "MemoryOffset": 7124,
+      "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "spawn_ebullet",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7866,
-      "Description": "Core operation'RefreshActorVariable'"
+      "MemoryOffset": 7130,
+      "Description": "Raw expression '-20'"
     },
     {
       "CodeBlock": "spawn_ebullet",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7870,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "MemoryOffset": 7136,
+      "Description": "Raw expression 'rotated_angle'"
     },
     {
       "CodeBlock": "spawn_ebullet",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7874,
-      "Description": "Set 'actor_y' to 'actor_y - 20'"
+      "MemoryOffset": 7146,
+      "Description": "Core operation'Maths_Angle'"
     },
     {
       "CodeBlock": "spawn_ebullet",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7898,
-      "Description": "Core operation'RefreshActorVariable'"
+      "MemoryOffset": 7150,
+      "Description": "Set 'x_offset' to 'math_x'"
     },
     {
       "CodeBlock": "spawn_ebullet",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7902,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "MemoryOffset": 7160,
+      "Description": "Set 'y_offset' to 'math_y'"
     },
     {
       "CodeBlock": "spawn_ebullet",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7906,
-      "Description": "Set 'actor_xspeed' to '16384'"
+      "MemoryOffset": 7170,
+      "Description": "Set 'actor_x' to 'actor_x + x_offset'"
     },
     {
       "CodeBlock": "spawn_ebullet",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7914,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7918,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7922,
-      "Description": "Set 'actor_yspeed' to '17024'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7930,
+      "MemoryOffset": 7194,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "spawn_ebullet",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7934,
+      "MemoryOffset": 7198,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "spawn_ebullet",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7938,
-      "Description": "Set 'actor_isonplatform' to 'false'"
+      "MemoryOffset": 7202,
+      "Description": "Set 'actor_y' to 'actor_y + y_offset'"
     },
     {
       "CodeBlock": "spawn_ebullet",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7944,
+      "MemoryOffset": 7226,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "spawn_ebullet",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7948,
+      "MemoryOffset": 7230,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "spawn_ebullet",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7952,
-      "Description": "GOTO '00010108'"
+      "MemoryOffset": 7234,
+      "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "spawn_ebullet",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7958,
-      "Description": "If 'actor_var1' Equals '1'"
+      "MemoryOffset": 7240,
+      "Description": "Raw expression '16384'"
     },
     {
       "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 7982,
-      "Description": "Set 'actor_x' to 'actor_x + 8'"
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7248,
+      "Description": "Core operation'RefreshActorXSpeed'"
     },
     {
       "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 8004,
-      "Description": "Core operation'RefreshActorVariable'"
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7252,
+      "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 8008,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7258,
+      "Description": "Raw expression '-17024'"
     },
     {
       "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 8012,
-      "Description": "Set 'actor_y' to 'actor_y - 18'"
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7266,
+      "Description": "Raw expression 'rotated_angle'"
     },
     {
       "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 8036,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 8040,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 8044,
-      "Description": "Set 'actor_xspeed' to '16629'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 8052,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 8056,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 8060,
-      "Description": "Set 'actor_yspeed' to '-16975'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 8068,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 8072,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 8076,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 8082,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 8086,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 8090,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 8096,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 8100,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 8104,
-      "Description": "GOTO '00010108'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 8110,
-      "Description": "If 'actor_var1' Equals '2'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 8,
-      "MemoryOffset": 8134,
-      "Description": "Set 'actor_x' to 'actor_x + 14'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 8,
-      "MemoryOffset": 8158,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 8,
-      "MemoryOffset": 8162,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 8,
-      "MemoryOffset": 8166,
-      "Description": "Set 'actor_y' to 'actor_y - 14'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 8,
-      "MemoryOffset": 8190,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 8,
-      "MemoryOffset": 8194,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 8198,
-      "Description": "Set 'actor_xspeed' to '16837'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 8206,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 8210,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 8214,
-      "Description": "Set 'actor_yspeed' to '-16837'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 8222,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 8226,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 8230,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 8236,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 8240,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 8244,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 8250,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 8254,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 8258,
-      "Description": "GOTO '00010108'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 8264,
-      "Description": "If 'actor_var1' Equals '3'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 8288,
-      "Description": "Set 'actor_x' to 'actor_x + 18'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 8312,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 8316,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 8320,
-      "Description": "Set 'actor_y' to 'actor_y - 8'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 8342,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 8346,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 8350,
-      "Description": "Set 'actor_xspeed' to '16975'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 8358,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 8362,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 8366,
-      "Description": "Set 'actor_yspeed' to '-16629'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 8374,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 8378,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 8382,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 8388,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 8392,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 8396,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 8402,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 8406,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 8410,
-      "Description": "GOTO '00010108'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 8416,
-      "Description": "If 'actor_var1' Equals '4'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 14,
-      "MemoryOffset": 8440,
-      "Description": "Set 'actor_x' to 'actor_x + 20'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 14,
-      "MemoryOffset": 8464,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 14,
-      "MemoryOffset": 8468,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 14,
-      "MemoryOffset": 8472,
-      "Description": "Set 'actor_y' to 'actor_y + 0'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 14,
-      "MemoryOffset": 8492,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 14,
-      "MemoryOffset": 8496,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 8500,
-      "Description": "Set 'actor_xspeed' to '17024'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 8508,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 8512,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 8516,
-      "Description": "Set 'actor_yspeed' to '16384'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 8524,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 8528,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 8532,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 8538,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 8542,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 16,
-      "MemoryOffset": 8546,
-      "Description": "GOTO '00010108'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 16,
-      "MemoryOffset": 8552,
-      "Description": "If 'actor_var1' Equals '5'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 17,
-      "MemoryOffset": 8576,
-      "Description": "Set 'actor_x' to 'actor_x + 18'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 17,
-      "MemoryOffset": 8600,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 17,
-      "MemoryOffset": 8604,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 17,
-      "MemoryOffset": 8608,
-      "Description": "Set 'actor_y' to 'actor_y + 8'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 17,
-      "MemoryOffset": 8630,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 17,
-      "MemoryOffset": 8634,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 8638,
-      "Description": "Set 'actor_xspeed' to '16975'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 8646,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 8650,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 8654,
-      "Description": "Set 'actor_yspeed' to '16629'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 8662,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 8666,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 8670,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 8676,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 18,
-      "MemoryOffset": 8680,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 19,
-      "MemoryOffset": 8684,
-      "Description": "GOTO '00010108'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 19,
-      "MemoryOffset": 8690,
-      "Description": "If 'actor_var1' Equals '6'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 8714,
-      "Description": "Set 'actor_x' to 'actor_x + 14'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 8738,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 8742,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 8746,
-      "Description": "Set 'actor_y' to 'actor_y + 14'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 8770,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 8774,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 8778,
-      "Description": "Set 'actor_xspeed' to '16837'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 8786,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 8790,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 8794,
-      "Description": "Set 'actor_yspeed' to '16837'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 8802,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 8806,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 8810,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 8816,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 21,
-      "MemoryOffset": 8820,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 22,
-      "MemoryOffset": 8824,
-      "Description": "GOTO '00010108'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 22,
-      "MemoryOffset": 8830,
-      "Description": "If 'actor_var1' Equals '7'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 23,
-      "MemoryOffset": 8854,
-      "Description": "Set 'actor_x' to 'actor_x + 8'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 23,
-      "MemoryOffset": 8876,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 23,
-      "MemoryOffset": 8880,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 23,
-      "MemoryOffset": 8884,
-      "Description": "Set 'actor_y' to 'actor_y + 18'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 23,
-      "MemoryOffset": 8908,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 23,
-      "MemoryOffset": 8912,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 8916,
-      "Description": "Set 'actor_xspeed' to '16629'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 8924,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 8928,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 8932,
-      "Description": "Set 'actor_yspeed' to '16975'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 8940,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 8944,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 8948,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 8954,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 8958,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 8962,
-      "Description": "GOTO '00010108'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 8968,
-      "Description": "If 'actor_var1' Equals '8'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 26,
-      "MemoryOffset": 8992,
-      "Description": "Set 'actor_x' to 'actor_x + 0'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 26,
-      "MemoryOffset": 9012,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 26,
-      "MemoryOffset": 9016,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 26,
-      "MemoryOffset": 9020,
-      "Description": "Set 'actor_y' to 'actor_y + 20'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 26,
-      "MemoryOffset": 9044,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 26,
-      "MemoryOffset": 9048,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 9052,
-      "Description": "Set 'actor_xspeed' to '16384'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 9060,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 9064,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 9068,
-      "Description": "Set 'actor_yspeed' to '17024'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 9076,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 9080,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 9084,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 9090,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 27,
-      "MemoryOffset": 9094,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 9098,
-      "Description": "GOTO '00010108'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 28,
-      "MemoryOffset": 9104,
-      "Description": "If 'actor_var1' Equals '9'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 9128,
-      "Description": "Set 'actor_x' to 'actor_x - 8'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 9150,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 9154,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 9158,
-      "Description": "Set 'actor_y' to 'actor_y + 18'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 9182,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 29,
-      "MemoryOffset": 9186,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 30,
-      "MemoryOffset": 9190,
-      "Description": "Set 'actor_xspeed' to '-16629'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 30,
-      "MemoryOffset": 9198,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 30,
-      "MemoryOffset": 9202,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 30,
-      "MemoryOffset": 9206,
-      "Description": "Set 'actor_yspeed' to '16975'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 30,
-      "MemoryOffset": 9214,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 30,
-      "MemoryOffset": 9218,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 30,
-      "MemoryOffset": 9222,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 30,
-      "MemoryOffset": 9228,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 30,
-      "MemoryOffset": 9232,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 31,
-      "MemoryOffset": 9236,
-      "Description": "GOTO '00010108'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 31,
-      "MemoryOffset": 9242,
-      "Description": "If 'actor_var1' Equals '10'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 32,
-      "MemoryOffset": 9266,
-      "Description": "Set 'actor_x' to 'actor_x - 14'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 32,
-      "MemoryOffset": 9290,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 32,
-      "MemoryOffset": 9294,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 32,
-      "MemoryOffset": 9298,
-      "Description": "Set 'actor_y' to 'actor_y + 14'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 32,
-      "MemoryOffset": 9322,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 32,
-      "MemoryOffset": 9326,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 33,
-      "MemoryOffset": 9330,
-      "Description": "Set 'actor_xspeed' to '-16837'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 33,
-      "MemoryOffset": 9338,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 33,
-      "MemoryOffset": 9342,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 33,
-      "MemoryOffset": 9346,
-      "Description": "Set 'actor_yspeed' to '16837'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 33,
-      "MemoryOffset": 9354,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 33,
-      "MemoryOffset": 9358,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 33,
-      "MemoryOffset": 9362,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 33,
-      "MemoryOffset": 9368,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 33,
-      "MemoryOffset": 9372,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 34,
-      "MemoryOffset": 9376,
-      "Description": "GOTO '00010108'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 34,
-      "MemoryOffset": 9382,
-      "Description": "If 'actor_var1' Equals '11'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 35,
-      "MemoryOffset": 9406,
-      "Description": "Set 'actor_x' to 'actor_x - 18'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 35,
-      "MemoryOffset": 9430,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 35,
-      "MemoryOffset": 9434,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 35,
-      "MemoryOffset": 9438,
-      "Description": "Set 'actor_y' to 'actor_y + 8'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 35,
-      "MemoryOffset": 9460,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 35,
-      "MemoryOffset": 9464,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 36,
-      "MemoryOffset": 9468,
-      "Description": "Set 'actor_xspeed' to '-16975'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 36,
-      "MemoryOffset": 9476,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 36,
-      "MemoryOffset": 9480,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 36,
-      "MemoryOffset": 9484,
-      "Description": "Set 'actor_yspeed' to '16629'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 36,
-      "MemoryOffset": 9492,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 36,
-      "MemoryOffset": 9496,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 36,
-      "MemoryOffset": 9500,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 36,
-      "MemoryOffset": 9506,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 36,
-      "MemoryOffset": 9510,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 37,
-      "MemoryOffset": 9514,
-      "Description": "GOTO '00010108'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 37,
-      "MemoryOffset": 9520,
-      "Description": "If 'actor_var1' Equals '12'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 38,
-      "MemoryOffset": 9544,
-      "Description": "Set 'actor_x' to 'actor_x - 20'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 38,
-      "MemoryOffset": 9568,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 38,
-      "MemoryOffset": 9572,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 38,
-      "MemoryOffset": 9576,
-      "Description": "Set 'actor_y' to 'actor_y + 0'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 38,
-      "MemoryOffset": 9596,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 38,
-      "MemoryOffset": 9600,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 39,
-      "MemoryOffset": 9604,
-      "Description": "Set 'actor_xspeed' to '-17024'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 39,
-      "MemoryOffset": 9612,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 39,
-      "MemoryOffset": 9616,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 39,
-      "MemoryOffset": 9620,
-      "Description": "Set 'actor_yspeed' to '16384'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 39,
-      "MemoryOffset": 9628,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 39,
-      "MemoryOffset": 9632,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 39,
-      "MemoryOffset": 9636,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 39,
-      "MemoryOffset": 9642,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 39,
-      "MemoryOffset": 9646,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 40,
-      "MemoryOffset": 9650,
-      "Description": "GOTO '00010108'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 40,
-      "MemoryOffset": 9656,
-      "Description": "If 'actor_var1' Equals '13'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 9680,
-      "Description": "Set 'actor_x' to 'actor_x - 18'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 9704,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 9708,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 9712,
-      "Description": "Set 'actor_y' to 'actor_y - 8'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 9734,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 9738,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 42,
-      "MemoryOffset": 9742,
-      "Description": "Set 'actor_xspeed' to '-16975'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 42,
-      "MemoryOffset": 9750,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 42,
-      "MemoryOffset": 9754,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 42,
-      "MemoryOffset": 9758,
-      "Description": "Set 'actor_yspeed' to '-16629'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 42,
-      "MemoryOffset": 9766,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 42,
-      "MemoryOffset": 9770,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 42,
-      "MemoryOffset": 9774,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 42,
-      "MemoryOffset": 9780,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 42,
-      "MemoryOffset": 9784,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 42,
-      "MemoryOffset": 9788,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 42,
-      "MemoryOffset": 9794,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 42,
-      "MemoryOffset": 9798,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 9802,
-      "Description": "GOTO '00010108'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 9808,
-      "Description": "If 'actor_var1' Equals '14'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 44,
-      "MemoryOffset": 9832,
-      "Description": "Set 'actor_x' to 'actor_x - 14'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 44,
-      "MemoryOffset": 9856,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 44,
-      "MemoryOffset": 9860,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 44,
-      "MemoryOffset": 9864,
-      "Description": "Set 'actor_y' to 'actor_y - 14'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 44,
-      "MemoryOffset": 9888,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 44,
-      "MemoryOffset": 9892,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 9896,
-      "Description": "Set 'actor_xspeed' to '-16837'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 9904,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 9908,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 9912,
-      "Description": "Set 'actor_yspeed' to '-16837'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 9920,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 9924,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 9928,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 9934,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 9938,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 9942,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 9948,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 9952,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 9956,
-      "Description": "GOTO '00010108'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 9962,
-      "Description": "If 'actor_var1' Equals '15' ELSE GOTO 00010108"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 47,
-      "MemoryOffset": 9986,
-      "Description": "Set 'actor_x' to 'actor_x - 8'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 47,
-      "MemoryOffset": 10008,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 47,
-      "MemoryOffset": 10012,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 47,
-      "MemoryOffset": 10016,
-      "Description": "Set 'actor_y' to 'actor_y - 18'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 47,
-      "MemoryOffset": 10040,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 47,
-      "MemoryOffset": 10044,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 10048,
-      "Description": "Set 'actor_xspeed' to '-16629'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 10056,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 10060,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 10064,
-      "Description": "Set 'actor_yspeed' to '-16975'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 10072,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 10076,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 10080,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 10086,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 10090,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 10094,
-      "Description": "Set 'actor_isonplatform' to 'false'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 10100,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "spawn_ebullet",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 10104,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7276,
+      "Description": "Core operation'RefreshActorYSpeed'"
     },
     {
       "CodeBlock": "spawn_tank",
       "CodeBlockLine": 0,
-      "MemoryOffset": 10140,
+      "MemoryOffset": 7312,
       "Description": "SPAWN_TANK"
     },
     {
       "CodeBlock": "spawn_tank",
       "CodeBlockLine": 1,
-      "MemoryOffset": 10140,
+      "MemoryOffset": 7312,
       "Description": "Set 'actor_animation' to 'a_tank_d_08'"
     },
     {
       "CodeBlock": "spawn_tank",
       "CodeBlockLine": 1,
-      "MemoryOffset": 10146,
+      "MemoryOffset": 7318,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "spawn_tank",
       "CodeBlockLine": 1,
-      "MemoryOffset": 10150,
+      "MemoryOffset": 7322,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 10186,
+      "MemoryOffset": 7358,
       "Description": "STARTUP"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 10186,
+      "MemoryOffset": 7358,
       "Description": "Set 'newvalue' to '240'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 10194,
+      "MemoryOffset": 7366,
       "Description": "GOSUB TO 'SET_YRESOLUTION'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 10214,
+      "MemoryOffset": 7386,
       "Description": "Set 'spawnarea_y' to 'spawnarea_y - 16'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 3,
-      "MemoryOffset": 10228,
+      "MemoryOffset": 7400,
       "Description": "Set 'enemy_bullet_anim' to 'a_enemy_bullet_1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 10234,
+      "MemoryOffset": 7406,
       "Description": "Set 'newvalue' to 'level1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 4,
-      "MemoryOffset": 10240,
+      "MemoryOffset": 7412,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 5,
-      "MemoryOffset": 10260,
+      "MemoryOffset": 7432,
       "Description": "Set 'camera_follow' to '32'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 5,
-      "MemoryOffset": 10266,
+      "MemoryOffset": 7438,
       "Description": "Core operation'RefreshCameraFollow'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 6,
-      "MemoryOffset": 10270,
+      "MemoryOffset": 7442,
       "Description": "Core operation'RefreshCameraScrollY'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 6,
-      "MemoryOffset": 10274,
+      "MemoryOffset": 7446,
       "Description": "Raw data of type 'BlitzTool.FloatOnly'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 6,
-      "MemoryOffset": 10278,
+      "MemoryOffset": 7450,
       "Description": "Set 'camera_follow' to 'camera_follow & 32752'"
     }
   ],

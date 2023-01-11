@@ -58,13 +58,37 @@ Reduce width of sprites\big_shot_4.png by 15 pixels to 32 to improve blit perfor
 Reduce width of sprites\cursor.png by 7 pixels to 16 to improve blit performance by 200.00%
 Reduce width of sprites\cursor_shooting.png by 7 pixels to 16 to improve blit performance by 200.00%
 
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1 ): 38784
+Music memory: 0
+BP Buffer memory: 157248
+core sfx/gfx memory: 84844
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 1316
+Map background memory: 2672
+EXE memory: 210032
+vm memory: 7946
+project memory: 11356
+
+Accounted memory chip: 280876
+Accounted memory other: 233322
+Accounted memory total: 514198
+
 === Misc ===
+Maps and Asset Bundles Count: 3
+Maps and Asset Bundles Data Size: 36
 Actor Count: 12
-Actor Data Size: 3600
+Actor Data Size: 3552
 Block Count: 1
 Block Data Size: 52
 Anim5 Count: 1
-Anim5 Data Size: 4
+Anim5 Data Size: 1036
 Sound Count: 2
 Sound Data Size: 64
 Teleporter Count: 1
@@ -73,41 +97,19 @@ Animations Count: 31
 Animations Data Size: 496
 AnimationFrame Count: 76
 AnimationFrame Data Size: 1216
-ImageFrames: BlitzTool.BlitzWord
-ImageFrame Data Size: 4608
-Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
-Crunching Project virtual machine (codeblocks) as project.vm. Original size: 7788. Crunched size: 2132
-Crunching Project virtual machine redirects as project.rd. Original size: 4. Crunched size: 4
-Crunching Header data for map restaurant as 1.mhd. Original size: 9788. Crunched size: 450
-Crunching Data for map restaurant as 1.map. Original size: 1892. Crunched size: 692
-Crunching Background for map restaurant as 1.bg. Original size: 2672. Crunched size: 92
-Crunching Header data for map map as 2.mhd. Original size: 9788. Crunched size: 448
-Crunching Data for map map as 2.map. Original size: 1428. Crunched size: 490
-Crunching Background for map map as 2.bg. Original size: 2672. Crunched size: 92
-Crunching Asset bundle 0 as 0.gfx. Original size: 84844. Crunched size: 27040
-Crunching Asset bundle 1 as 1.gfx. Original size: 38784. Crunched size: 17606
-Crunching Asset bundle 2 as 2.gfx. Original size: 25152. Crunched size: 6400
-Crunching Project data as project.dat. Original size: 10048. Crunched size: 2086
-Crunching Scorpion header as project.hd. Original size: 4036. Crunched size: 1200
-
-Estimated memory usages:
-
-For chip:
-Map gfx (level gfx bundle 1 ): 38784
-Music memory: 0
-BP Buffer memory: 131040
-core sfx/gfx memory: 84844
-Parallax memory: 0
-
-For other:
-Map cache memory: 0
-Map header cache memory: 0
-Map data memory: 1892
-Map background memory: 2672
-EXE memory: 193924
-vm memory: 7788
-project memory: 10048
-
-Accounted memory chip: 254668
-Accounted memory other: 216324
-Accounted memory total: 470992
+ImageFrames: 72
+ImageFrame Data Size: 4896
+Asset bundle 0 (Core project asset bundle) Original size 84844 Crunched size 27040
+Asset bundle 1 (restaurant) Original size 38784 Crunched size 17606
+Asset bundle 2 (map) Original size 25152 Crunched size 6400
+Background for map restaurant Original size 2672 Crunched size 92
+Background for map map Original size 2672 Crunched size 92
+Tile data for map restaurant (mem restrictions:No_Blocks) Original size 1316 Crunched size 652
+Tile data for map map (mem restrictions:No_Blocks) Original size 996 Crunched size 448
+Header data for map restaurant Original size 8756 Crunched size 434
+Header data for map map Original size 8756 Crunched size 432
+Project Data Original size 11356 Crunched size 2148
+Project Header Original size 4040 Crunched size 1198
+Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
+Project virtual machine (codeblocks) Original size 7946 Crunched size 2186
+Project virtual machine redirects Original size 4 Crunched size 4

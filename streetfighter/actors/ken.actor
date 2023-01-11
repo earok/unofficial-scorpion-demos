@@ -1,6 +1,5 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
+  "ShootDirType": "actor_direction",
   "ClassType": "Actor",
   "DefaultLookDir": "left",
   "Recycle": "Default",
@@ -133,7 +132,21 @@
   "DivertOutOfScreenRight": "snap_to_screen",
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
+  "DivertPlatformEdge": null,
+  "DivertPlatformLand": null,
   "DivertTimer": null,
   "DivertTimerFrames": 0,
-  "TileID": 2
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "ControlPort": 0,
+  "DataVersion": 1,
+  "TileID": 2,
+  "SuggestedRecycle": "Always",
+  "UpAccelerationName": "Accel Up"
 }
