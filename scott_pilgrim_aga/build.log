@@ -1,12 +1,36 @@
 === Image optimisations ===
 
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1 ): 88064
+Music memory: 0
+BP Buffer memory: 131520
+core sfx/gfx memory: 80128
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 2340
+Map background memory: 2672
+EXE memory: 201384
+vm memory: 6470
+project memory: 5988
+
+Accounted memory chip: 299712
+Accounted memory other: 218854
+Accounted memory total: 518566
+
 === Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
 Actor Count: 5
-Actor Data Size: 1480
+Actor Data Size: 1080
 Block Count: 1
 Block Data Size: 52
-Anim5 Count: 1
-Anim5 Data Size: 4
+Anim5 Count: 0
+Anim5 Data Size: 0
 Sound Count: 1
 Sound Data Size: 32
 Teleporter Count: 1
@@ -15,38 +39,74 @@ Animations Count: 14
 Animations Data Size: 224
 AnimationFrame Count: 59
 AnimationFrame Data Size: 944
-ImageFrames: BlitzTool.BlitzWord
-ImageFrame Data Size: 3776
-Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
-Saving Panel title as 1.img. Original size: 61410
-Saving Project virtual machine (codeblocks) as project.vm. Original size: 6700
-Saving Project virtual machine redirects as project.rd. Original size: 4
-Saving Header data for map l1 as 1.mhd. Original size: 9788
-Saving Data for map l1 as 1.map. Original size: 3428
-Saving Background for map l1 as 1.bg. Original size: 2672
-Saving Asset bundle 0 as 0.gfx. Original size: 80128
-Saving Asset bundle 1 as 1.gfx. Original size: 88064
-Saving Project data as project.dat. Original size: 6520
-Saving Scorpion header as project.hd. Original size: 4036
+ImageFrames: 59
+ImageFrame Data Size: 2596
+Sprites: 57
+Sprites Data Size: 798
+Attack Data: 3
+Attack Data Size: 198
+Misc data size: 30
+Asset bundle 0 (Core project asset bundle) Original size 80128 Crunched size 36072
+Asset bundle 1 (l1) Original size 88064 Crunched size 34126
+Background for map l1 Original size 2672 Crunched size 92
+Tile data for map l1 (mem restrictions:No_Blocks) Original size 2340 Crunched size 1172
+Header data for map l1 Original size 7988 Crunched size 346
+Project Data Original size 5988 Crunched size 1740
+Project Header Original size 4040 Crunched size 1194
+Panel scorpion_eng_splashscreen Original size 35930 Crunched size 3266
+Panel title Original size 60250 Crunched size 47756
+Project virtual machine (codeblocks) Original size 6470 Crunched size 1970
+Project virtual machine redirects Original size 4 Crunched size 4
 
-Estimated memory usages:
+Codeblocks by compiled size: 
 
-For chip:
-Map gfx (level gfx bundle 1 ): 88064
-Music memory: 0
-BP Buffer memory: 115200
-core sfx/gfx memory: 80128
-Parallax memory: 0
-
-For other:
-Map cache memory: 0
-Map header cache memory: 0
-Map data memory: 3428
-Map background memory: 2672
-EXE memory: 194920
-vm memory: 6700
-project memory: 6520
-
-Accounted memory chip: 283392
-Accounted memory other: 214240
-Accounted memory total: 497632
+load_level: 988
+do_teleport: 362
+flipscreen_smooth: 346
+flipxymove: 306
+set_yresolution: 200
+snap_to_screen: 190
+pre_startup: 188
+flipymove: 174
+pre_quit: 166
+jumper_handler: 164
+flipxmove: 158
+load_panel: 146
+show_panel: 130
+destroy_all_blocks: 124
+startup: 122
+unload_level: 114
+load_panel_bottom: 96
+load_panel_top: 96
+waitforfirehit: 96
+attack_handler: 94
+unload_panel: 92
+wrap_screen_bottom: 92
+wrap_screen_right: 92
+wrap_screen_left: 88
+wrap_screen_top: 88
+flipscreen: 86
+pre_anim5: 86
+fadeout: 84
+waitforframes: 78
+quit: 66
+destroy_all_actors: 62
+jump_actor: 62
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+load_panel_finish: 56
+destroy_actor: 54
+fadein: 52
+regenerate_screen: 52
+return: 52
+destroy_block: 48
+regenerate_screen_wait: 42
+william_hurt: 42
+debug_dump: 30
+vm_registers: 26
+vm_constants: 26
+vm_registers_amiga: 26
+debug_breakpoint: 26
+vm_constants_notes: 26
+vm_constants_tile_properties: 26

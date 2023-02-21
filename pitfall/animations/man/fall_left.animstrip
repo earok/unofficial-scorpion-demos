@@ -13,27 +13,19 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "",
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
+      "OnFrame": "fall_handler"
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
   "SpriteType": "Attached_16colors",
   "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,
-  "OnFinish": "fall_handler"
+  "OnFinish": "",
+  "AutoFlip": false,
+  "RenderType": "Normal",
+  "AutoSprite": false,
+  "OnlySprite": false
 }

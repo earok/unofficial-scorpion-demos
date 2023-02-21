@@ -1,9 +1,9 @@
 {
-  "DivertPlayerProjectileCollision": null,
-  "IsPlayerProjectile": false,
+  "ShootDirType": "actor_direction",
   "ClassType": "Actor",
   "DefaultLookDir": "left",
   "Recycle": "Never",
+  "MoveType": "cpu_platform",
   "MaxEntities": 0,
   "NudgeX": 7,
   "NudgeY": 5,
@@ -99,7 +99,6 @@
     "Width": 24,
     "Height": 20
   },
-  "MoveType": "cpu_platform",
   "AttackDelay": 0,
   "ZOrder": 4,
   "SpeedLeft": 1.6,
@@ -112,6 +111,7 @@
   "AccelDown": 0.08,
   "AccelLeftAir": null,
   "AccelRightAir": null,
+  "RotationSpeed": 0.0,
   "CollType_Left": "bounce",
   "CollType_Right": "bounce",
   "CollType_Up": "bounce",
@@ -132,7 +132,21 @@
   "DivertOutOfScreenRight": null,
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
+  "DivertPlatformEdge": null,
+  "DivertPlatformLand": null,
   "DivertTimer": "",
   "DivertTimerFrames": 0,
-  "TileID": 6
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "ControlPort": 0,
+  "DataVersion": 1,
+  "TileID": 6,
+  "SuggestedRecycle": "Never",
+  "UpAccelerationName": "Accel Up"
 }

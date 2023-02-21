@@ -1,10 +1,10 @@
 {
   "Frames": [
     {
-      "Path": "ryu_crouch_1.png",
+      "Path": null,
       "Duration": 5000,
-      "HandleX": -24,
-      "HandleY": -48,
+      "HandleX": 0,
+      "HandleY": 0,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -18,7 +18,14 @@
   ],
   "PreventMovement": false,
   "PreventCollision": false,
+  "HideChildren": false,
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": false,
+  "RenderType": "Normal",
   "AutoSprite": false,
-  "OnlySprite": false,
-  "LoopFrame": 0
+  "OnlySprite": false
 }

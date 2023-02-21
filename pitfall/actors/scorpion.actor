@@ -95,9 +95,9 @@
   ],
   "CollBox": {
     "X": -7,
-    "Y": -8,
+    "Y": -3,
     "Width": 16,
-    "Height": 9
+    "Height": 4
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -145,6 +145,8 @@
     "0"
   ],
   "ControlPort": 1,
+  "DataVersion": 1,
   "TileID": 7,
-  "SuggestedRecycle": "Respawn"
+  "SuggestedRecycle": "Respawn",
+  "UpAccelerationName": "Accel Up"
 }

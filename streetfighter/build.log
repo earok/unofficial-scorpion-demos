@@ -86,23 +86,23 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 3096
 Map background memory: 2672
-EXE memory: 210032
-vm memory: 9220
-project memory: 9132
+EXE memory: 201384
+vm memory: 8780
+project memory: 6270
 
 Accounted memory chip: 767190
-Accounted memory other: 234152
-Accounted memory total: 1001342
+Accounted memory other: 222202
+Accounted memory total: 989392
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 5
-Actor Data Size: 1480
+Actor Data Size: 1080
 Block Count: 1
 Block Data Size: 52
-Anim5 Count: 1
-Anim5 Data Size: 1036
+Anim5 Count: 0
+Anim5 Data Size: 0
 Sound Count: 15
 Sound Data Size: 480
 Teleporter Count: 1
@@ -111,21 +111,90 @@ Animations Count: 19
 Animations Data Size: 304
 AnimationFrame Count: 83
 AnimationFrame Data Size: 1328
-ImageFrames: 65
-ImageFrame Data Size: 4420
+ImageFrames: 64
+ImageFrame Data Size: 2816
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 2
+Attack Data Size: 132
+Misc data size: 30
 Asset bundle 0 (Core project asset bundle) Original size 496212 Crunched size 243800
 Asset bundle 1 (stage) Original size 73920 Crunched size 37990
 Background for map stage Original size 2672 Crunched size 92
 Music file tune Original size 65538 Crunched size 42472
 Tile data for map stage (mem restrictions:No_Blocks) Original size 3096 Crunched size 1468
-Header data for map stage Original size 8756 Crunched size 294
-Project Data Original size 9132 Crunched size 2392
-Project Header Original size 4040 Crunched size 1202
-Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-Panel ending_screen Original size 43810 Crunched size 9320
-Panel hud Original size 10184 Crunched size 1104
-Panel select_screen Original size 46226 Crunched size 16604
-Panel splash_screen Original size 43810 Crunched size 9924
-Panel vs_screen Original size 43810 Crunched size 9946
-Project virtual machine (codeblocks) Original size 9220 Crunched size 2576
+Header data for map stage Original size 7988 Crunched size 270
+Project Data Original size 6270 Crunched size 2208
+Project Header Original size 4040 Crunched size 1198
+Panel scorpion_eng_splashscreen Original size 35930 Crunched size 3266
+Panel ending_screen Original size 42650 Crunched size 9292
+Panel hud Original size 8724 Crunched size 1128
+Panel select_screen Original size 44330 Crunched size 16570
+Panel splash_screen Original size 42650 Crunched size 9896
+Panel vs_screen Original size 42650 Crunched size 9914
+Project virtual machine (codeblocks) Original size 8780 Crunched size 2660
 Project virtual machine redirects Original size 4 Crunched size 4
+
+Codeblocks by compiled size: 
+
+load_level: 988
+startup: 546
+ryu_handler: 414
+do_teleport: 362
+flipscreen_smooth: 346
+flipxymove: 306
+game_over: 276
+init_game: 266
+ken_projectile: 230
+ken_hurt: 226
+set_yresolution: 200
+snap_to_screen: 190
+pre_startup: 188
+ken_handler: 178
+flipymove: 174
+pre_quit: 166
+flipxmove: 158
+load_panel: 146
+destroy_all_blocks: 124
+kick: 122
+punch: 122
+charge: 118
+unload_level: 114
+load_panel_bottom: 96
+load_panel_top: 96
+waitforfirehit: 96
+unload_panel: 92
+wrap_screen_bottom: 92
+wrap_screen_right: 92
+wrap_screen_left: 88
+wrap_screen_top: 88
+reset_ken: 88
+flipscreen: 86
+pre_anim5: 86
+fadeout: 84
+impact_spawn: 80
+waitforframes: 78
+quit: 66
+destroy_all_actors: 62
+jump_actor: 62
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+hadouken: 58
+load_panel_finish: 56
+destroy_actor: 54
+fadein: 52
+regenerate_screen: 52
+return: 52
+destroy_block: 48
+reset_attacks: 44
+regenerate_screen_wait: 42
+ground_impact: 42
+end_of_attack: 32
+debug_dump: 30
+vm_registers: 26
+vm_constants: 26
+vm_registers_amiga: 26
+debug_breakpoint: 26
+vm_constants_notes: 26
+vm_constants_tile_properties: 26

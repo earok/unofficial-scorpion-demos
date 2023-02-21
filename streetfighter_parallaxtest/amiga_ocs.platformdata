@@ -2,7 +2,7 @@
   "OutputSpeed": "PAL_50HZ",
   "GFXMode": "BP5",
   "MemorySaver": "None",
-  "EmulatedAmiga": "A1200",
+  "EmulatedAmiga": "A500",
   "EmulatedFastRam": 0,
   "WinUAEConfiguration": null,
   "SpriteMode": "Mode_0_16_Wide",

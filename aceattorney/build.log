@@ -1,14 +1,36 @@
 === Image optimisations ===
 
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1 ): 350080
+Music memory: 0
+BP Buffer memory: 132480
+core sfx/gfx memory: 25248
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 40356
+Map background memory: 2672
+EXE memory: 201384
+vm memory: 41852
+project memory: 620
+
+Accounted memory chip: 507808
+Accounted memory other: 286884
+Accounted memory total: 794692
+
 === Misc ===
 Maps and Asset Bundles Count: 4
 Maps and Asset Bundles Data Size: 48
 Actor Count: 1
-Actor Data Size: 296
+Actor Data Size: 216
 Block Count: 1
 Block Data Size: 52
-Anim5 Count: 1
-Anim5 Data Size: 4
+Anim5 Count: 0
+Anim5 Data Size: 0
 Sound Count: 4
 Sound Data Size: 128
 Teleporter Count: 1
@@ -18,7 +40,12 @@ Animations Data Size: 16
 AnimationFrame Count: 2
 AnimationFrame Data Size: 32
 ImageFrames: 2
-ImageFrame Data Size: 136
+ImageFrame Data Size: 88
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 0
+Attack Data Size: 0
+Misc data size: 16
 Asset bundle 0 (Core project asset bundle) Original size 25248 Crunched size 21804
 Asset bundle 1 (court) Original size 350080 Crunched size 167456
 Asset bundle 2 (intro0) Original size 173280 Crunched size 91290
@@ -26,16 +53,111 @@ Asset bundle 3 (lobby) Original size 100320 Crunched size 56918
 Background for map court Original size 2672 Crunched size 92
 Background for map intro0 Original size 2672 Crunched size 92
 Background for map lobby Original size 2672 Crunched size 92
-Tile data for map court Original size 60068 Crunched size 8572
-Tile data for map intro0 Original size 16916 Crunched size 3678
-Tile data for map lobby Original size 26700 Crunched size 2556
-Header data for map court Original size 9780 Crunched size 330
-Header data for map intro0 Original size 9780 Crunched size 330
-Header data for map lobby Original size 9780 Crunched size 318
-Project Data Original size 720 Crunched size 136
-Project Header Original size 4040 Crunched size 1188
-Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-Panel panel_talkpad Original size 49280 Crunched size 6084
-Panel pic_title Original size 55010 Crunched size 11720
-Project virtual machine (codeblocks) Original size 42452 Crunched size 13722
-Project virtual machine redirects Original size 956 Crunched size 708
+Tile data for map court (mem restrictions:No_Blocks) Original size 40356 Crunched size 8340
+Tile data for map intro0 (mem restrictions:No_Blocks) Original size 11396 Crunched size 3614
+Tile data for map lobby (mem restrictions:No_Blocks) Original size 17988 Crunched size 2454
+Header data for map court Original size 7988 Crunched size 280
+Header data for map intro0 Original size 7988 Crunched size 280
+Header data for map lobby Original size 7988 Crunched size 272
+Project Data Original size 620 Crunched size 142
+Project Header Original size 4040 Crunched size 1190
+Panel scorpion_eng_splashscreen Original size 35930 Crunched size 3266
+Panel panel_talkpad Original size 48562 Crunched size 6650
+Panel pic_title Original size 53850 Crunched size 11690
+Project virtual machine (codeblocks) Original size 41852 Crunched size 14068
+Project virtual machine redirects Original size 656 Crunched size 504
+
+Codeblocks by compiled size: 
+
+courtroom_questioning: 8474
+courtroom_callwitness: 5596
+start_lobby: 4272
+courtroom_choosedefendant: 3188
+courtroom_crossexamination_courtrecord: 2332
+start_courtroom: 1772
+courtroom_choosecauseofdeath: 1676
+courtroom_crossexamination: 1658
+courtroom_choosevictim: 1584
+start_case1: 1132
+load_level: 988
+open_evidence: 980
+open_profiles: 820
+do_teleport: 362
+flipscreen_smooth: 346
+flipxymove: 306
+set_yresolution: 200
+snap_to_screen: 190
+pre_startup: 188
+flipymove: 174
+pre_quit: 166
+startup: 162
+flipxmove: 158
+load_panel: 146
+destroy_all_blocks: 124
+unload_level: 114
+open_court_record: 108
+objection_payne: 102
+objection_phoenix: 102
+show_court_gavel: 98
+load_panel_bottom: 96
+load_panel_top: 96
+waitforfirehit: 96
+unload_panel: 92
+wrap_screen_bottom: 92
+wrap_screen_right: 92
+wrap_screen_left: 88
+wrap_screen_top: 88
+flipscreen: 86
+pre_anim5: 86
+fadeout: 84
+waitforframes: 78
+show_court_phoenix_deskslam: 76
+show_court_mia_sad: 68
+show_court_mia_serious: 68
+show_court_mia_shocked: 68
+show_court_phoenix_nervous: 68
+show_court_phoenix_paper: 68
+show_court_phoenix_point: 68
+show_court_phoenix_shocked: 68
+show_court_phoenix_thinking: 68
+quit: 66
+show_court_sahwit_nervous: 64
+show_court_sahwit_normal: 64
+destroy_all_actors: 62
+jump_actor: 62
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+show_court_judge_normal: 60
+show_court_judge_shocked: 60
+show_court_judge_thinking: 60
+show_court_judge_warn: 60
+show_court_larry_nervous: 60
+show_court_mia_disappointed: 60
+show_court_payne_nervous: 60
+show_court_payne_smug: 60
+show_court_phoenix_normal: 60
+show_court_phoenix_smug: 60
+show_lobby_cindy: 60
+show_lobby_larry_nervous: 60
+show_lobby_mia_curious: 60
+show_lobby_mia_smile2: 60
+load_panel_finish: 56
+show_court_larry_normal: 56
+show_court_payne_normal: 56
+show_lobby_larry_crying: 56
+show_lobby_mia_smile1: 56
+destroy_actor: 54
+fadein: 52
+regenerate_screen: 52
+return: 52
+show_lobby_empty: 52
+destroy_block: 48
+regenerate_screen_wait: 42
+debug_dump: 30
+vm_registers: 26
+vm_constants: 26
+vm_registers_amiga: 26
+debug_breakpoint: 26
+vm_constants_notes: 26
+vm_constants_tile_properties: 26

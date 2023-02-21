@@ -5,13 +5,17 @@
   "BlockImagePath": "blocks\\block.png",
   "X": 0,
   "Y": 16,
-  "Divert_PlayerCollision": "",
+  "Divert_PlayerCollision": "water_leftexit_handler",
   "Divert_PlayerHit": null,
   "Divert_PlayerOverlap": "water_leftexit_handler",
   "Divert_ProjectileCollision": null,
+  "OnAnimationFrame": null,
   "ShootOver": false,
   "FastBlit": false,
   "IsInvisible": true,
   "IsSlope": false,
-  "TileID": 4
+  "ReplaceTileProperties": true,
+  "LinkedMap": null,
+  "TileID": 4,
+  "ImagePath": "D:\\Scorpion\\Projects\\unofficial-scorpion-demos\\pitfall\\\\blocks\\block.png"
 }

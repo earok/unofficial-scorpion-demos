@@ -37,23 +37,23 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 23938
 Map background memory: 2672
-EXE memory: 211812
-vm memory: 7912
-project memory: 6488
+EXE memory: 201384
+vm memory: 7432
+project memory: 4608
 
 Accounted memory chip: 236912
-Accounted memory other: 252822
-Accounted memory total: 489734
+Accounted memory other: 240034
+Accounted memory total: 476946
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 6
-Actor Data Size: 1776
+Actor Data Size: 1296
 Block Count: 2
 Block Data Size: 104
-Anim5 Count: 1
-Anim5 Data Size: 1036
+Anim5 Count: 0
+Anim5 Data Size: 0
 Sound Count: 1
 Sound Data Size: 32
 Teleporter Count: 1
@@ -63,14 +63,76 @@ Animations Data Size: 400
 AnimationFrame Count: 37
 AnimationFrame Data Size: 592
 ImageFrames: 37
-ImageFrame Data Size: 2516
+ImageFrame Data Size: 1628
+Sprites: 20
+Sprites Data Size: 280
+Attack Data: 3
+Attack Data Size: 198
+Misc data size: 44
 Asset bundle 0 (Core project asset bundle) Original size 34128 Crunched size 13198
 Asset bundle 1 (level1) Original size 124160 Crunched size 22410
 Background for map level1 Original size 2672 Crunched size 92
 Tile data for map level1 (mem restrictions:None) Original size 23938 Crunched size 5366
-Header data for map level1 Original size 8756 Crunched size 288
-Project Data Original size 6488 Crunched size 1532
-Project Header Original size 4040 Crunched size 1184
-Panel scorpion_eng_splashscreen Original size 37090 Crunched size 3292
-Project virtual machine (codeblocks) Original size 7912 Crunched size 2260
+Header data for map level1 Original size 7988 Crunched size 284
+Project Data Original size 4608 Crunched size 1492
+Project Header Original size 4040 Crunched size 1186
+Panel scorpion_eng_splashscreen Original size 35930 Crunched size 3266
+Project virtual machine (codeblocks) Original size 7432 Crunched size 2310
 Project virtual machine redirects Original size 4 Crunched size 4
+
+Codeblocks by compiled size: 
+
+load_level: 988
+handler_tank: 612
+do_teleport: 362
+flipscreen_smooth: 346
+flipxymove: 306
+set_yresolution: 200
+snap_to_screen: 190
+pre_startup: 188
+spawn_ebullet: 184
+startup: 184
+flipymove: 174
+pre_quit: 166
+flipxmove: 158
+load_panel: 146
+fn_getdirection: 142
+handler_level: 128
+destroy_all_blocks: 124
+unload_level: 114
+hit_tank: 98
+load_panel_bottom: 96
+load_panel_top: 96
+waitforfirehit: 96
+unload_panel: 92
+wrap_screen_bottom: 92
+wrap_screen_right: 92
+wrap_screen_left: 88
+wrap_screen_top: 88
+flipscreen: 86
+pre_anim5: 86
+fadeout: 84
+waitforframes: 78
+destroy_pbullet: 70
+quit: 66
+destroy_all_actors: 62
+jump_actor: 62
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+load_panel_finish: 56
+destroy_actor: 54
+fadein: 52
+regenerate_screen: 52
+return: 52
+destroy_block: 48
+regenerate_screen_wait: 42
+handler_ebullet: 42
+spawn_tank: 42
+debug_dump: 30
+vm_registers: 26
+vm_constants: 26
+vm_registers_amiga: 26
+debug_breakpoint: 26
+vm_constants_notes: 26
+vm_constants_tile_properties: 26

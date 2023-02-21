@@ -1,31 +1,15 @@
 {
-  "GFXMode": "BP5",
-  "GFXModeAGA": "BP5",
   "TargetPlatform": "amiga_ocs",
-  "EmulatedAmiga": "A500+",
-  "EmulatedFastRam": 0,
   "Talkpad": null,
   "Talkpad_OnBottom": false,
-  "WinUAEConfiguration": null,
   "StartupCodeBlock": "startup",
-  "Uses24BitColor": false,
-  "AGARequired": false,
-  "SpriteMode": "Mode_0_16_Wide",
-  "SpriteColorBank": 1,
-  "FMode": 0,
-  "Width": 304,
-  "XOffset": 0,
-  "SScan2": false,
   "Recompile": true,
-  "Implode": false,
-  "MapCache": false,
+  "DebugMode": false,
+  "StartupSequenceDirty": false,
   "Fire1Jump": false,
   "Fire2Jump": true,
   "UpJump": true,
   "JumpOnHold": false,
-  "XFillSize": 23,
-  "YFillSize": 17,
-  "Add21K": false,
   "DataVersion": 4,
   "Commands": [],
   "AnimationMetaData": {
@@ -51,11 +35,12 @@
       "LinkedMap": ""
     }
   },
-  "NumberFontMetaData": {},
+  "NumberFontMetaData": {
+    "defaultnumberfont": {
+      "Radix": 10
+    }
+  },
   "FontMetaData": {},
   "SplashScreen": null,
-  "LogicSpeed": "PAL_50HZ",
-  "OutputSpeed": "PAL_50HZ",
-  "DoubleCopper": true,
-  "AllocateMemoryUpfront": true
+  "LogicSpeed": "PAL_50HZ"
 }
