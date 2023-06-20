@@ -1,0 +1,132 @@
+{
+  "Frames": [
+    {
+      "Path": "walk1.png",
+      "Duration": 5,
+      "HandleX": -18,
+      "HandleY": -61,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 2,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite",
+      "HighPriority": false
+    },
+    {
+      "Path": "walk2.png",
+      "Duration": 5,
+      "HandleX": -16,
+      "HandleY": -59,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 2,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite",
+      "HighPriority": false
+    },
+    {
+      "Path": "walk3.png",
+      "Duration": 5,
+      "HandleX": -16,
+      "HandleY": -59,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 2,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite",
+      "HighPriority": false
+    },
+    {
+      "Path": "walk4.png",
+      "Duration": 5,
+      "HandleX": -15,
+      "HandleY": -60,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 2,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite",
+      "HighPriority": false
+    },
+    {
+      "Path": "walk5.png",
+      "Duration": 5,
+      "HandleX": -15,
+      "HandleY": -60,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 2,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite",
+      "HighPriority": false
+    },
+    {
+      "Path": "walk6.png",
+      "Duration": 5,
+      "HandleX": -14,
+      "HandleY": -60,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 2,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite",
+      "HighPriority": false
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": true,
+  "Streamed": true
+}

@@ -1,0 +1,100 @@
+{
+  "DataVersion": 6,
+  "FirstCopper": 0,
+  "FadeInFrames": 50,
+  "FadeOutFrames": 50,
+  "FadeInMusic": false,
+  "FadeOutMusic": false,
+  "TalkpadFont": "default_font",
+  "TalkpadX": 57,
+  "TalkpadY": 56,
+  "TalkpadWidth": 66,
+  "TalkpadHeight": 18,
+  "PanelImagePath": "menubase.png",
+  "FireIndicatorPath": null,
+  "ChoiceIndicatorPath": null,
+  "FireIndicatorX": 0,
+  "FireIndicatorY": 0,
+  "Options": [
+    {
+      "X": 26,
+      "Y": 53,
+      "OptionIconPath": "icon.png",
+      "Left": null,
+      "Right": null,
+      "Up": null,
+      "Down": null,
+      "Columns": 1,
+      "FrameDelay": 5,
+      "PaletteLine": 3
+    },
+    {
+      "X": 26,
+      "Y": 101,
+      "OptionIconPath": "icon.png",
+      "Left": null,
+      "Right": null,
+      "Up": null,
+      "Down": null,
+      "Columns": 1,
+      "FrameDelay": 5,
+      "PaletteLine": 3
+    },
+    {
+      "X": 26,
+      "Y": 149,
+      "OptionIconPath": "icon.png",
+      "Left": null,
+      "Right": null,
+      "Up": null,
+      "Down": null,
+      "Columns": 1,
+      "FrameDelay": 5,
+      "PaletteLine": 3
+    },
+    {
+      "X": 26,
+      "Y": 197,
+      "OptionIconPath": "icon.png",
+      "Left": null,
+      "Right": null,
+      "Up": null,
+      "Down": null,
+      "Columns": 1,
+      "FrameDelay": 5,
+      "PaletteLine": 3
+    }
+  ],
+  "Elements": [],
+  "GFXMode": "BP5",
+  "PanelSlot": "Middle",
+  "PanelOptionSound": "none",
+  "PanelOptionSoundMD": null,
+  "OverlapsGameView": false,
+  "CenterAdjustments": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0
+  },
+  "CenterAdjust_MegaDrive": 0,
+  "PaletteLines_MegaDrive": 1,
+  "StartingPaletteLine_MegaDrive": 3,
+  "TalkpadPalLine": 0,
+  "FireIndicatorPalLine": 0,
+  "ChoiceIndicatorPalLine": 0,
+  "NumberFontPaletteLine": 0,
+  "ParallaxMultiplierX": 0.5,
+  "ParallaxMultiplierY": 0.0,
+  "SliceMode": "Unsliced",
+  "PanelSlices": [
+    {
+      "Left": -0.5,
+      "Idle": 0.0,
+      "Right": 0.5,
+      "Top": 0
+    }
+  ],
+  "ParallaxOverlayPath": null,
+  "Gap": 4
+}

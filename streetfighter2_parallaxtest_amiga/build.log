@@ -1,0 +1,133 @@
+=== Image optimisations ===
+Reduce width of bg\stage_base_00x00.png by 15 pixels to 560 to improve blit performance by 100.00%
+Reduce width of bg\stage_base_00x01.png by 15 pixels to 560 to improve blit performance by 100.00%
+Reduce width of bg\stage_base_00x02.png by 15 pixels to 560 to improve blit performance by 100.00%
+Reduce width of bg\stage_base_00x03.png by 15 pixels to 560 to improve blit performance by 100.00%
+Reduce width of bg\stage_base_00x04.png by 15 pixels to 560 to improve blit performance by 100.00%
+Reduce width of bg\stage_base_00x05.png by 15 pixels to 560 to improve blit performance by 100.00%
+Reduce width of bg\stage_base_00x06.png by 15 pixels to 560 to improve blit performance by 100.00%
+Reduce width of bg\stage_base_00x07.png by 15 pixels to 560 to improve blit performance by 100.00%
+Reduce width of bg\stage_base_00x08.png by 15 pixels to 560 to improve blit performance by 100.00%
+Reduce width of bg\stage_base_00x09.png by 15 pixels to 560 to improve blit performance by 100.00%
+Reduce width of bg\stage_base_00x10.png by 15 pixels to 560 to improve blit performance by 100.00%
+Reduce width of bg\stage_base_00x11.png by 15 pixels to 560 to improve blit performance by 100.00%
+Reduce width of bg\stage_base_00x12.png by 15 pixels to 560 to improve blit performance by 100.00%
+Reduce width of bg\stage_base_00x13.png by 15 pixels to 560 to improve blit performance by 100.00%
+Reduce width of bg\stage_base_00x14.png by 15 pixels to 560 to improve blit performance by 100.00%
+Reduce width of bg\stage_base_00x15.png by 15 pixels to 560 to improve blit performance by 100.00%
+Reduce width of sprites\guile\guile_00x00.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of sprites\guile\guile_01x00.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of sprites\guile\guile_02x00.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of sprites\guile\guile_03x00.png by 15 pixels to 32 to improve blit performance by 100.00%
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (Panel: scorpion_eng_splashscreen): 35930
+Music memory (): 0
+BP Buffer memory: 131520
+core sfx/gfx memory: 36300
+Parallax memory: 24704
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 2224
+Map background memory: 2880
+EXE memory: 202600
+vm memory: 7036
+project memory: 5190
+
+Accounted memory chip: 228454
+Accounted memory other: 219930
+Accounted memory total: 448384
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 18
+Actor Data Size: 3600
+Block Count: 1
+Block Data Size: 52
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 1
+Sound Data Size: 24
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 3
+Animations Data Size: 48
+AnimationFrame Count: 23
+AnimationFrame Data Size: 368
+ImageFrames: 22
+ImageFrame Data Size: 968
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 1
+Attack Data Size: 66
+Misc data size: 16
+Asset bundle 0 (Core project asset bundle) Original size 36300 Crunched size 10280
+Asset bundle 1 (map) Original size 33440 Crunched size 12142
+Background for map map Original size 2880 Crunched size 414
+Tile data for map map (mem restrictions:No_Blocks) Original size 2224 Crunched size 738
+Header data for map map Original size 7996 Crunched size 286
+Parallax for map map Original size 24704 Crunched size 2454
+Project Data Original size 5190 Crunched size 578
+Project Header Original size 4032 Crunched size 1188
+Panel scorpion_eng_splashscreen Original size 35930 Crunched size 3268
+Project virtual machine (codeblocks) Original size 7036 Crunched size 2240
+Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Codeblocks by compiled size ===
+load_level: 1012
+set_yresolution: 448
+do_teleport: 362
+flipscreen_smooth: 346 (Unused?)
+flipxymove: 306 (Unused?)
+startup: 286
+pause: 252 (Unused?)
+snap_to_screen: 190 (Unused?)
+pre_startup: 188
+flipymove: 174 (Unused?)
+flipxmove: 158 (Unused?)
+load_panel: 146
+pre_quit: 146
+destroy_all_blocks: 124 (Unused?)
+unload_level: 114
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96 (Unused?)
+waitforfireup: 94
+unload_panel: 92
+wrap_screen_bottom: 92 (Unused?)
+wrap_screen_right: 92 (Unused?)
+waitforfiredown: 90
+wrap_screen_left: 88 (Unused?)
+wrap_screen_top: 88 (Unused?)
+flipscreen: 86 (Unused?)
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+fadeout: 84
+waitforframes: 78
+quit: 66 (Unused?)
+destroy_all_actors: 62 (Unused?)
+jump_actor: 62 (Unused?)
+load_music: 62 (Unused?)
+unload_panel_bottom: 62
+unload_panel_top: 62
+fadein: 58
+load_panel_finish: 56
+destroy_actor: 54
+handler: 54
+regenerate_screen: 52
+return: 52 (Unused?)
+destroy_block: 48 (Unused?)
+regenerate_screen_wait: 42
+slice_start: 42
+debug_dump: 30 (Unused?)
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)

@@ -1,0 +1,176 @@
+{
+  "TargetPlatform": "megadrive",
+  "Talkpad": null,
+  "Talkpad_OnBottom": false,
+  "StartupCodeBlock": "startup",
+  "Recompile": true,
+  "DebugMode": false,
+  "StartupSequenceDirty": true,
+  "Fire1Jump": false,
+  "Fire2Jump": false,
+  "UpJump": true,
+  "JumpOnHold": false,
+  "DataVersion": 4,
+  "Commands": [
+    {
+      "Compiler": "amiga",
+      "Key": "Z",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": true,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "MegaDrive_B": false,
+      "MegaDrive_C": false,
+      "MegaDrive_A": false,
+      "MegaDrive_Start": false,
+      "OnPress": "punch",
+      "OnRelease": null
+    },
+    {
+      "Compiler": "amiga",
+      "Key": "X",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": true,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "MegaDrive_B": false,
+      "MegaDrive_C": false,
+      "MegaDrive_A": false,
+      "MegaDrive_Start": false,
+      "OnPress": "kick",
+      "OnRelease": null
+    },
+    {
+      "Compiler": "amiga",
+      "Key": "C",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "MegaDrive_B": false,
+      "MegaDrive_C": false,
+      "MegaDrive_A": false,
+      "MegaDrive_Start": false,
+      "OnPress": "charge",
+      "OnRelease": null
+    }
+  ],
+  "AnimationMetaData": {},
+  "Anim5MetaData": {},
+  "SoundMetaData": {
+    "ending": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
+    },
+    "ground_impact": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
+    },
+    "hadouken": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
+    },
+    "hit": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
+    },
+    "kick": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
+    },
+    "punch": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
+    },
+    "select": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
+    },
+    "snd_choose": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
+    },
+    "snd_japan": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
+    },
+    "snd_ko": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
+    },
+    "snd_plane": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
+    },
+    "snd_select": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
+    },
+    "snd_start": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
+    },
+    "vs": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0
+    }
+  },
+  "MMLMetaData": {},
+  "NumberFontMetaData": {
+    "defaultnumberfont": {
+      "Radix": 10
+    }
+  },
+  "FontMetaData": {},
+  "SplashScreen": null,
+  "LogicSpeed": "PAL_50HZ",
+  "PaletteLines": 1,
+  "ReadCD32Buttons": false,
+  "MDRegion": "E"
+}

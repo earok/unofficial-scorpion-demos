@@ -1,0 +1,332 @@
+{
+  "Frames": [
+    {
+      "Path": "stage_base_00x00.png",
+      "Duration": 0,
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Maskless",
+      "HighPriority": false
+    },
+    {
+      "Path": "stage_base_00x01.png",
+      "Duration": 0,
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Maskless",
+      "HighPriority": false
+    },
+    {
+      "Path": "stage_base_00x02.png",
+      "Duration": 0,
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Maskless",
+      "HighPriority": false
+    },
+    {
+      "Path": "stage_base_00x03.png",
+      "Duration": 0,
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Maskless",
+      "HighPriority": false
+    },
+    {
+      "Path": "stage_base_00x04.png",
+      "Duration": 0,
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Maskless",
+      "HighPriority": false
+    },
+    {
+      "Path": "stage_base_00x05.png",
+      "Duration": 0,
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Maskless",
+      "HighPriority": false
+    },
+    {
+      "Path": "stage_base_00x06.png",
+      "Duration": 0,
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Maskless",
+      "HighPriority": false
+    },
+    {
+      "Path": "stage_base_00x07.png",
+      "Duration": 0,
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Maskless",
+      "HighPriority": false
+    },
+    {
+      "Path": "stage_base_00x08.png",
+      "Duration": 0,
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Maskless",
+      "HighPriority": false
+    },
+    {
+      "Path": "stage_base_00x09.png",
+      "Duration": 0,
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Maskless",
+      "HighPriority": false
+    },
+    {
+      "Path": "stage_base_00x10.png",
+      "Duration": 0,
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Maskless",
+      "HighPriority": false
+    },
+    {
+      "Path": "stage_base_00x11.png",
+      "Duration": 0,
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Maskless",
+      "HighPriority": false
+    },
+    {
+      "Path": "stage_base_00x12.png",
+      "Duration": 0,
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Maskless",
+      "HighPriority": false
+    },
+    {
+      "Path": "stage_base_00x13.png",
+      "Duration": 0,
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Maskless",
+      "HighPriority": false
+    },
+    {
+      "Path": "stage_base_00x14.png",
+      "Duration": 0,
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Maskless",
+      "HighPriority": false
+    },
+    {
+      "Path": "stage_base_00x15.png",
+      "Duration": 0,
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Maskless",
+      "HighPriority": false
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": false,
+  "Streamed": true
+}

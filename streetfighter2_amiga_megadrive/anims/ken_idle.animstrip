@@ -1,0 +1,69 @@
+{
+  "Frames": [
+    {
+      "Path": "ken_idle_1.png",
+      "Duration": 8,
+      "HandleX": -20,
+      "HandleY": -48,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ken_idle_2.png",
+      "Duration": 8,
+      "HandleX": -20,
+      "HandleY": -48,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ken_idle_3.png",
+      "Duration": 8,
+      "HandleX": -20,
+      "HandleY": -48,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ken_idle_4.png",
+      "Duration": 8,
+      "HandleX": -21,
+      "HandleY": -48,
+      "XFlipped": true,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "LoopFrame": 0
+}

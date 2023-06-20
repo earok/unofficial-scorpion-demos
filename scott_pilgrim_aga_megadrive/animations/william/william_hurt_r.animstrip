@@ -1,0 +1,112 @@
+{
+  "Frames": [
+    {
+      "Path": "hurt1.png",
+      "Duration": 5,
+      "HandleX": -40,
+      "HandleY": -57,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 2,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite",
+      "HighPriority": false
+    },
+    {
+      "Path": "hurt2.png",
+      "Duration": 5,
+      "HandleX": -34,
+      "HandleY": -68,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 2,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite",
+      "HighPriority": false
+    },
+    {
+      "Path": "hurt3.png",
+      "Duration": 5,
+      "HandleX": -33,
+      "HandleY": -67,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 2,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite",
+      "HighPriority": false
+    },
+    {
+      "Path": "hurt4.png",
+      "Duration": 5,
+      "HandleX": -31,
+      "HandleY": -60,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 2,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite",
+      "HighPriority": false
+    },
+    {
+      "Path": "hurt5.png",
+      "Duration": 5,
+      "HandleX": -21,
+      "HandleY": -63,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 2,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "OnlySprite",
+      "HighPriority": false
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": true,
+  "Streamed": true
+}

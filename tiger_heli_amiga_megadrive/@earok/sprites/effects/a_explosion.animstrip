@@ -1,0 +1,168 @@
+{
+  "Frames": [
+    {
+      "Path": "explosion_00x00.png",
+      "Duration": 1,
+      "HandleX": -24,
+      "HandleY": -24,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "AutoSprite"
+    },
+    {
+      "Path": "explosion_00x01.png",
+      "Duration": 1,
+      "HandleX": -24,
+      "HandleY": -24,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "AutoSprite"
+    },
+    {
+      "Path": "explosion_00x02.png",
+      "Duration": 1,
+      "HandleX": -24,
+      "HandleY": -24,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "AutoSprite"
+    },
+    {
+      "Path": "explosion_00x03.png",
+      "Duration": 1,
+      "HandleX": -24,
+      "HandleY": -24,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "AutoSprite"
+    },
+    {
+      "Path": "explosion_00x04.png",
+      "Duration": 1,
+      "HandleX": -24,
+      "HandleY": -24,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "AutoSprite"
+    },
+    {
+      "Path": "explosion_00x05.png",
+      "Duration": 1,
+      "HandleX": -24,
+      "HandleY": -24,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "AutoSprite"
+    },
+    {
+      "Path": "explosion_00x06.png",
+      "Duration": 1,
+      "HandleX": -24,
+      "HandleY": -24,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "AutoSprite"
+    },
+    {
+      "Path": "explosion_00x07.png",
+      "Duration": 1,
+      "HandleX": -24,
+      "HandleY": -24,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "AutoSprite"
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": "destroy_actor",
+  "AutoFlip": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "Multiplexes": 0,
+  "SpriteType": "Attached_16colors",
+  "RenderType": "Normal"
+}

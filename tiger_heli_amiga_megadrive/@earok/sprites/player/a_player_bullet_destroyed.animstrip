@@ -1,0 +1,92 @@
+{
+  "Frames": [
+    {
+      "Path": "bullet_destroyed_1.png",
+      "Duration": 2,
+      "HandleX": -7,
+      "HandleY": -3,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "AutoSprite"
+    },
+    {
+      "Path": "bullet_destroyed_2.png",
+      "Duration": 2,
+      "HandleX": -8,
+      "HandleY": -4,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "AutoSprite"
+    },
+    {
+      "Path": "bullet_destroyed_3.png",
+      "Duration": 2,
+      "HandleX": -8,
+      "HandleY": -4,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "AutoSprite"
+    },
+    {
+      "Path": "bullet_destroyed_4.png",
+      "Duration": 2,
+      "HandleX": -8,
+      "HandleY": -4,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "AutoSprite"
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": "destroy_actor",
+  "AutoFlip": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "Multiplexes": 0,
+  "SpriteType": "Attached_16colors",
+  "RenderType": "Normal"
+}

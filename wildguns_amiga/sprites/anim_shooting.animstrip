@@ -1,0 +1,32 @@
+{
+  "Frames": [
+    {
+      "Path": "cursor_shooting.png",
+      "Duration": 5,
+      "HandleX": -16,
+      "HandleY": -15,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Channel_2_to_1",
+      "RenderType": "Normal",
+      "HighPriority": false
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": false,
+  "Streamed": true
+}
