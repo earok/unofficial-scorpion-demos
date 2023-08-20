@@ -1,0 +1,156 @@
+Attack Data Original size 66 Crunched size 66
+Default MD font Original size 2048 Crunched size 2048
+Map animation data formap Original size 3216 Crunched size 3216
+Map event data for map Original size 32 Crunched size 32
+Map header map Original size 31292 Crunched size 31292
+Map block data for map Original size 12090 Crunched size 462
+Map path node data for map Original size 12 Crunched size 12
+Map tile data  map Original size 12090 Crunched size 950
+Get Y lookup table map Original size 372 Crunched size 372
+Default MD number font Original size 320 Crunched size 320
+Number font for panel 1 Original size 320 Crunched size 320
+Project name table Original size 2944 Crunched size 2944
+Project actors Original size 3384 Crunched size 3384
+Project blocks Original size 1564 Crunched size 1564
+Teleporters Original size 8 Crunched size 8
+Animation Frames Original size 1616 Crunched size 1616
+Mega Drive header Original size 3660 Crunched size 3660
+Images Original size 1708 Crunched size 1708
+Panel  Original size 10322 Crunched size 10322
+Panel mainpanel Original size 1550 Crunched size 1550
+Animations Original size 624 Crunched size 624
+Project patterns Original size 1120 Crunched size 1120
+Pattern data for 1 Original size 1428 Crunched size 1428
+Streamed project patterns Original size 27200 Crunched size 27200
+Project sound Original size 24 Crunched size 24
+Var Data Original size 16 Crunched size 16
+Project virtual machine (codeblocks) Original size 15830 Crunched size 15830
+
+=== Possibly unused animations ===
+sleep
+
+=== Possibly unused blocks ===
+diamond2
+diamond3
+diamond4
+diamond5
+diamond6
+goldblock_2
+
+=== Possibly unused Actors ===
+balloon_spawner
+bat_right
+bird
+eel
+frog
+rat_spawner
+scorpion
+
+=== Codeblocks by compiled size ===
+load_level: 906
+ladder_top_handler: 494
+startup: 414
+set_yresolution: 388
+do_teleport: 372
+fall_ended: 356
+flipscreen_smooth: 346 (Unused?)
+angel_handler: 344
+ladder_middle_handler: 330
+flipxymove: 306 (Unused?)
+man_handler: 304
+getoffladder: 290
+frog_handler: 276
+pre_startup: 262
+pause: 252 (Unused?)
+water_handler: 252
+function_subtractscore: 226
+balloon_handler: 212
+water_leftexit_handler: 206
+rat_collision: 202
+water_rightexit_handler: 202
+snap_to_screen: 190
+balloon_spawn: 190
+flipymove: 174 (Unused?)
+fall_handler: 174
+ladder_bottom_handler: 174
+bird_leaveleft: 170
+bird_leaveright: 170
+celebrate: 162
+flipxmove: 158 (Unused?)
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen: 156
+AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 156
+scorpion_handler: 152
+load_panel: 146
+pre_quit: 146 (Unused?)
+cheat1: 146 (Unused?)
+cheat2: 146 (Unused?)
+cheat3: 146 (Unused?)
+cheat4: 146 (Unused?)
+cheat5: 146 (Unused?)
+getoffladder_sides: 144
+waterfall_handler: 140
+balloon_collide: 138
+scroll_left: 138
+scroll_right: 138
+wrap_right: 136
+hittest: 130
+destroy_all_blocks: 124 (Unused?)
+offscreen_left: 120
+offscreen_right: 120
+pre_load_level: 118
+unload_level: 114
+ladder_handler: 106
+collect_diamond: 98
+collect_quickclaw: 98
+collect_rhonda: 98
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96
+waitforfireup: 94
+unload_panel: 92
+wrap_screen_bottom: 92 (Unused?)
+wrap_screen_right: 92 (Unused?)
+set_man: 92
+waitforfiredown: 90
+AUTOGEN_OUTOFSCREEN_scroll_left_scroll_right_None_None: 90
+AUTOGEN_OUTOFSCREEN_wrap_fix_wrap_right_None_None: 90
+AUTOGEN_OUTOFSCREEN_bird_leaveleft_bird_leaveright_None_None: 90
+AUTOGEN_OUTOFSCREEN_offscreen_left_offscreen_right_None_None: 90
+wrap_screen_left: 88 (Unused?)
+wrap_screen_top: 88 (Unused?)
+flipscreen: 86 (Unused?)
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+fadeout: 84
+collect_goldbar: 82
+rat_spawn: 80
+waitforframes: 78
+balloon_pop: 78
+wrap_fix: 78
+forcejump_end: 64 (Unused?)
+destroy_all_actors: 62 (Unused?)
+jump_actor: 62 (Unused?)
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+AUTOGEN_OUTOFSCREEN_None_scroll_right_None_None: 60
+set_ladder: 60
+fadein: 58
+key_handler: 58
+load_panel_finish: 56
+spawn_handler: 56
+destroy_actor: 54
+balloon_spawn_repeat: 54
+regenerate_screen: 52
+return: 52 (Unused?)
+destroy_block: 48
+quit: 46 (Unused?)
+regenerate_screen_wait: 42
+rat_activate: 42
+cushion_land: 32
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)

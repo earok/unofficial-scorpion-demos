@@ -1,0 +1,189 @@
+=== Image optimisations ===
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1): 60960
+Music memory (pitfall_ii): 7336
+BP Buffer memory: 133440
+core sfx/gfx memory: 58684
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 61638
+Map background memory: 2672
+EXE memory: 206500
+vm memory: 16130
+project memory: 10294
+
+Accounted memory chip: 260420
+Accounted memory other: 297234
+Accounted memory total: 557654
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 18
+Actor Data Size: 3384
+Block Count: 23
+Block Data Size: 1564
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 8
+Sound Data Size: 192
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 39
+Animations Data Size: 624
+AnimationFrame Count: 101
+AnimationFrame Data Size: 1616
+ImageFrames: 63
+ImageFrame Data Size: 2772
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 1
+Attack Data Size: 66
+Misc data size: 16
+Asset bundle 0 (Core project asset bundle) Original size 58684 Crunched size 24108
+Asset bundle 1 (map) Original size 60960 Crunched size 16094
+Background for map map Original size 2672 Crunched size 92
+Music file pitfall_ii Original size 7336 Crunched size 990
+Tile data for map map (mem restrictions:None) Original size 61638 Crunched size 5176
+Header data for map map Original size 7996 Crunched size 810
+Project Data Original size 10294 Crunched size 2852
+Project Header Original size 4032 Crunched size 1210
+Panel scorpion_eng_splashscreen Original size 35154 Crunched size 3258
+Panel mainpanel Original size 3226 Crunched size 450
+Project virtual machine (codeblocks) Original size 16130 Crunched size 4404
+Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused animations ===
+sleep
+
+=== Possibly unused blocks ===
+diamond2
+diamond3
+diamond4
+diamond5
+diamond6
+goldblock_2
+
+=== Possibly unused Actors ===
+balloon_spawner
+bat_right
+bird
+eel
+frog
+rat_spawner
+scorpion
+
+=== Codeblocks by compiled size ===
+load_level: 926
+ladder_top_handler: 494
+set_yresolution: 448
+startup: 414
+do_teleport: 392
+fall_ended: 372
+flipscreen_smooth: 346 (Unused?)
+angel_handler: 344
+ladder_middle_handler: 330
+man_handler: 320
+flipxymove: 306 (Unused?)
+getoffladder: 290
+pre_startup: 282
+frog_handler: 276
+pause: 252 (Unused?)
+water_handler: 252
+function_subtractscore: 226
+rat_collision: 218
+balloon_handler: 212
+water_leftexit_handler: 206
+water_rightexit_handler: 202
+snap_to_screen: 190
+balloon_spawn: 190
+flipymove: 174 (Unused?)
+fall_handler: 174
+ladder_bottom_handler: 174
+bird_leaveleft: 170
+bird_leaveright: 170
+celebrate: 162
+flipxmove: 158 (Unused?)
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen: 156
+AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 156
+balloon_collide: 154
+scorpion_handler: 152
+load_panel: 146
+pre_quit: 146
+cheat1: 146
+cheat2: 146
+cheat3: 146
+cheat4: 146
+cheat5: 146
+hittest: 146
+getoffladder_sides: 144
+waterfall_handler: 140
+scroll_left: 138
+scroll_right: 138
+wrap_right: 136
+destroy_all_blocks: 124 (Unused?)
+offscreen_left: 120
+offscreen_right: 120
+pre_load_level: 118
+unload_level: 114
+collect_diamond: 114
+collect_quickclaw: 114
+collect_rhonda: 114
+ladder_handler: 106
+collect_goldbar: 98
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96
+waitforfireup: 94
+balloon_pop: 94
+unload_panel: 92
+wrap_screen_bottom: 92 (Unused?)
+wrap_screen_right: 92 (Unused?)
+set_man: 92
+waitforfiredown: 90
+AUTOGEN_OUTOFSCREEN_scroll_left_scroll_right_None_None: 90
+AUTOGEN_OUTOFSCREEN_wrap_fix_wrap_right_None_None: 90
+AUTOGEN_OUTOFSCREEN_bird_leaveleft_bird_leaveright_None_None: 90
+AUTOGEN_OUTOFSCREEN_offscreen_left_offscreen_right_None_None: 90
+wrap_screen_left: 88 (Unused?)
+wrap_screen_top: 88 (Unused?)
+flipscreen: 86 (Unused?)
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+fadeout: 84
+rat_spawn: 80
+waitforframes: 78
+wrap_fix: 78
+quit: 66
+forcejump_end: 64 (Unused?)
+destroy_all_actors: 62 (Unused?)
+jump_actor: 62 (Unused?)
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+AUTOGEN_OUTOFSCREEN_None_scroll_right_None_None: 60
+set_ladder: 60
+fadein: 58
+key_handler: 58
+load_panel_finish: 56
+spawn_handler: 56
+destroy_actor: 54
+balloon_spawn_repeat: 54
+regenerate_screen: 52
+return: 52 (Unused?)
+destroy_block: 48
+regenerate_screen_wait: 42
+rat_activate: 42
+cushion_land: 32
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)

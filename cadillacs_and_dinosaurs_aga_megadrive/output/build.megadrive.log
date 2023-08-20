@@ -1,0 +1,90 @@
+Attack Data Original size 132 Crunched size 132
+Default MD font Original size 2048 Crunched size 2048
+Font for panel 1 Original size 2048 Crunched size 2048
+Map event data for fase_1a Original size 32 Crunched size 32
+Map header fase_1a Original size 10428 Crunched size 10428
+Map block data for fase_1a Original size 1386 Crunched size 134
+Map path node data for fase_1a Original size 12 Crunched size 12
+Map tile data  fase_1a Original size 1386 Crunched size 168
+Get Y lookup table fase_1a Original size 84 Crunched size 84
+Default MD number font Original size 320 Crunched size 320
+Project name table Original size 2568 Crunched size 2568
+Project actors Original size 1504 Crunched size 1504
+Project blocks Original size 136 Crunched size 136
+Teleporters Original size 8 Crunched size 8
+Animation Frames Original size 1056 Crunched size 1056
+Mega Drive header Original size 3660 Crunched size 3660
+Images Original size 4876 Crunched size 4876
+Panel  Original size 10322 Crunched size 10322
+Panel fase_1b Original size 14040 Crunched size 14040
+Animations Original size 272 Crunched size 272
+Project patterns Original size 32 Crunched size 32
+Pattern data for 1 Original size 2056 Crunched size 2056
+Streamed project patterns Original size 101888 Crunched size 101888
+Project sound Original size 24 Crunched size 24
+Var Data Original size 16 Crunched size 16
+Project virtual machine (codeblocks) Original size 8134 Crunched size 8134
+
+=== Possibly unused animations ===
+pipe
+
+=== Codeblocks by compiled size ===
+load_level: 906
+camera: 584
+set_yresolution: 388 (Unused?)
+do_teleport: 372
+flipscreen_smooth: 346 (Unused?)
+flipxymove: 306 (Unused?)
+pre_startup: 262
+0_atk_hannah_code: 258
+pause: 252 (Unused?)
+snap_to_screen: 190
+flipymove: 174 (Unused?)
+flipxmove: 158 (Unused?)
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen: 156
+startup: 152
+load_panel: 146
+pre_quit: 146 (Unused?)
+destroy_all_blocks: 124 (Unused?)
+pre_load_level: 118
+unload_level: 114
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96 (Unused?)
+waitforfireup: 94
+unload_panel: 92
+wrap_screen_bottom: 92 (Unused?)
+wrap_screen_right: 92 (Unused?)
+waitforfiredown: 90
+wrap_screen_left: 88 (Unused?)
+wrap_screen_top: 88 (Unused?)
+flipscreen: 86 (Unused?)
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+fadeout: 84
+waitforframes: 78
+desl_down: 64 (Unused?)
+desl_up: 64 (Unused?)
+load_music: 62 (Unused?)
+destroy_all_actors: 62 (Unused?)
+jump_actor: 62 (Unused?)
+unload_panel_bottom: 62
+unload_panel_top: 62
+fadein: 58
+load_panel_finish: 56
+destroy_actor: 54
+0_stand_hannah_code: 54
+4_gneiss_stand: 54
+4_gneiss_walk: 54
+regenerate_screen: 52
+return: 52 (Unused?)
+destroy_block: 48 (Unused?)
+quit: 46 (Unused?)
+regenerate_screen_wait: 42
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)
+scroll: 26 (Unused?)

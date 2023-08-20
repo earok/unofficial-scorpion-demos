@@ -1,15 +1,16 @@
 Attack Data Original size 132 Crunched size 132
 Commands for Joystick 1 Original size 12 Crunched size 12
 Default MD font Original size 2048 Crunched size 2048
-Map event data for l1 Original size 28 Crunched size 28
+Map event data for l1 Original size 32 Crunched size 32
 Map header l1 Original size 11580 Crunched size 11580
 Map block data for l1 Original size 544 Crunched size 544
 Map path node data for l1 Original size 12 Crunched size 12
 Map tile data  l1 Original size 544 Crunched size 68
 Get Y lookup table l1 Original size 64 Crunched size 64
 Default MD number font Original size 320 Crunched size 320
-Project actors Original size 1000 Crunched size 1000
+Project actors Original size 940 Crunched size 940
 Project blocks Original size 52 Crunched size 52
+Teleporters Original size 8 Crunched size 8
 Animation Frames Original size 944 Crunched size 944
 Mega Drive header Original size 3660 Crunched size 3660
 Images Original size 3472 Crunched size 3472
@@ -21,7 +22,7 @@ Pattern data for 1 Original size 2766 Crunched size 2766
 Streamed project patterns Original size 109664 Crunched size 109664
 Project sound Original size 24 Crunched size 24
 Var Data Original size 16 Crunched size 16
-Project virtual machine (codeblocks) Original size 7274 Crunched size 7274
+Project virtual machine (codeblocks) Original size 7318 Crunched size 7318
 
 === Possibly unused animations ===
 william_hurt_r
@@ -31,9 +32,9 @@ william_idle_r
 william
 
 === Codeblocks by compiled size ===
-load_level: 1012
+load_level: 920
 set_yresolution: 448 (Unused?)
-do_teleport: 362
+do_teleport: 392
 flipscreen_smooth: 346 (Unused?)
 flipxymove: 306 (Unused?)
 pause: 252 (Unused?)
@@ -44,9 +45,10 @@ jumper_handler: 164
 flipxmove: 158 (Unused?)
 load_panel: 146
 pre_quit: 146
-show_panel: 130
+startup: 132
+show_panel: 130 (Unused?)
 destroy_all_blocks: 124 (Unused?)
-startup: 122
+pre_load_level: 118
 unload_level: 114
 jump: 104
 load_panel_bottom: 96 (Unused?)
@@ -72,13 +74,12 @@ unload_panel_top: 62
 fadein: 58
 load_panel_finish: 56
 destroy_actor: 54
+william_hurt: 54
 regenerate_screen: 52
 return: 52 (Unused?)
 attack_handler: 52
 destroy_block: 48 (Unused?)
-william_hurt: 48
 regenerate_screen_wait: 42
-debug_dump: 30 (Unused?)
 vm_registers: 26 (Unused?)
 vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
