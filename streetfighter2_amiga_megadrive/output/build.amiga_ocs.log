@@ -1,0 +1,144 @@
+=== Image optimisations ===
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1): 73920
+Music memory (tune): 65538
+BP Buffer memory: 131520
+core sfx/gfx memory: 488296
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 3120
+Map background memory: 2672
+EXE memory: 206484
+vm memory: 9978
+project memory: 5858
+
+Accounted memory chip: 759274
+Accounted memory other: 228112
+Accounted memory total: 987386
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 5
+Actor Data Size: 940
+Block Count: 1
+Block Data Size: 68
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 15
+Sound Data Size: 360
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 19
+Animations Data Size: 304
+AnimationFrame Count: 83
+AnimationFrame Data Size: 1328
+ImageFrames: 62
+ImageFrame Data Size: 2728
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 1
+Attack Data Size: 66
+Misc data size: 16
+Asset bundle 0 (Core project asset bundle) Original size 488296 Crunched size 243668
+Asset bundle 1 (stage) Original size 73920 Crunched size 37990
+Background for map stage Original size 2672 Crunched size 92
+Music file tune Original size 65538 Crunched size 42472
+Tile data for map stage (mem restrictions:No_Blocks) Original size 3120 Crunched size 1464
+Header data for map stage Original size 7996 Crunched size 276
+Project Data Original size 5858 Crunched size 2042
+Project Header Original size 4032 Crunched size 1196
+Panel scorpion_eng_splashscreen Original size 35154 Crunched size 3258
+Panel ending_screen Original size 42654 Crunched size 8570
+Panel hud Original size 8720 Crunched size 1126
+Panel select_screen Original size 44326 Crunched size 15694
+Panel splash_screen Original size 47454 Crunched size 8414
+Panel vs_screen Original size 42654 Crunched size 8810
+Project virtual machine (codeblocks) Original size 9978 Crunched size 3116
+Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused animations ===
+ryu_crouch
+
+=== Possibly unused Actors ===
+ken
+ryu
+
+=== Possibly unused sound effects ===
+select
+snd_select
+
+=== Codeblocks by compiled size ===
+load_level: 926
+startup: 544
+ryu_handler: 450
+set_yresolution: 448 (Unused?)
+do_teleport: 392
+flipscreen_smooth: 346 (Unused?)
+flipxymove: 306 (Unused?)
+game_over: 288
+pre_startup: 282
+init_game: 270
+ken_projectile: 266
+pause: 252 (Unused?)
+ken_hurt: 250
+snap_to_screen: 190
+ken_handler: 178
+flipymove: 174 (Unused?)
+flipxmove: 158 (Unused?)
+load_panel: 146
+pre_quit: 146
+kick: 146
+punch: 134
+charge: 130
+destroy_all_blocks: 124 (Unused?)
+pre_load_level: 118
+unload_level: 114
+reset_ken: 100
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96
+waitforfireup: 94
+unload_panel: 92
+wrap_screen_bottom: 92 (Unused?)
+wrap_screen_right: 92 (Unused?)
+waitforfiredown: 90
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_None_None: 90
+wrap_screen_left: 88 (Unused?)
+wrap_screen_top: 88 (Unused?)
+flipscreen: 86 (Unused?)
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+fadeout: 84
+impact_spawn: 80
+waitforframes: 78
+quit: 66 (Unused?)
+destroy_all_actors: 62 (Unused?)
+jump_actor: 62 (Unused?)
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+AUTOGEN_OUTOFSCREEN_None_destroy_actor_None_None: 60
+fadein: 58
+hadouken: 58
+load_panel_finish: 56
+destroy_actor: 54
+regenerate_screen: 52
+return: 52 (Unused?)
+destroy_block: 48 (Unused?)
+reset_attacks: 44
+regenerate_screen_wait: 42
+ground_impact: 42
+end_of_attack: 32 (Unused?)
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)

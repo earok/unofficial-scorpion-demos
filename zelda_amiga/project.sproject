@@ -2,7 +2,7 @@
   "TargetPlatform": "amiga_ocs",
   "Talkpad": "talkpad",
   "Talkpad_OnBottom": true,
-  "StartupCodeBlock": "part3",
+  "StartupCodeBlock": "startup",
   "Recompile": true,
   "DebugMode": false,
   "DataVersion": 4,

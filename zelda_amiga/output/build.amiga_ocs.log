@@ -1,0 +1,149 @@
+=== Image optimisations ===
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 3): 83840
+Music memory (mod_intro): 17748
+BP Buffer memory: 132480
+core sfx/gfx memory: 82264
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 24650
+Map background memory: 2672
+EXE memory: 206484
+vm memory: 12312
+project memory: 9340
+
+Accounted memory chip: 316332
+Accounted memory other: 255458
+Accounted memory total: 571790
+
+=== Misc ===
+Maps and Asset Bundles Count: 5
+Maps and Asset Bundles Data Size: 60
+Actor Count: 8
+Actor Data Size: 1504
+Block Count: 6
+Block Data Size: 408
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 2
+Sound Data Size: 48
+Teleporter Count: 3
+Teleporter Data Size: 24
+Animations Count: 27
+Animations Data Size: 432
+AnimationFrame Count: 108
+AnimationFrame Data Size: 1728
+ImageFrames: 113
+ImageFrame Data Size: 4972
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 2
+Attack Data Size: 132
+Misc data size: 16
+Asset bundle 0 (Core project asset bundle) Original size 82264 Crunched size 42488
+Asset bundle 1 (map_bedroom) Original size 10560 Crunched size 4290
+Asset bundle 2 (map_house_night) Original size 11840 Crunched size 5356
+Asset bundle 3 (map_intro) Original size 83840 Crunched size 65116
+Asset bundle 4 (map_outside) Original size 29194 Crunched size 14164
+Background for map map_bedroom Original size 2672 Crunched size 92
+Background for map map_house_night Original size 2672 Crunched size 92
+Background for map map_intro Original size 2672 Crunched size 92
+Background for map map_outside Original size 2672 Crunched size 92
+Music file mod_intro Original size 17748 Crunched size 2466
+Tile data for map map_bedroom (mem restrictions:None) Original size 2098 Crunched size 478
+Tile data for map map_house_night (mem restrictions:None) Original size 2066 Crunched size 452
+Tile data for map map_intro (mem restrictions:None) Original size 6828 Crunched size 1608
+Tile data for map map_outside (mem restrictions:None) Original size 24650 Crunched size 3028
+Header data for map map_bedroom Original size 7996 Crunched size 286
+Header data for map map_house_night Original size 7996 Crunched size 250
+Header data for map map_intro Original size 7996 Crunched size 278
+Header data for map map_outside Original size 7996 Crunched size 326
+Project Data Original size 9340 Crunched size 2568
+Project Header Original size 4032 Crunched size 1194
+Panel scorpion_eng_splashscreen Original size 35154 Crunched size 3258
+Panel hud Original size 10176 Crunched size 1102
+Panel main_menu Original size 61358 Crunched size 6822
+Panel pic_title Original size 53854 Crunched size 25208
+Panel talkpad Original size 28818 Crunched size 2910
+Project virtual machine (codeblocks) Original size 12312 Crunched size 4080
+Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused Actors ===
+link
+pickup_sword
+
+=== Codeblocks by compiled size ===
+part1: 2122
+load_level: 926
+on_playercollide_enemies: 570
+on_playerhit_enemies: 474
+set_yresolution: 448 (Unused?)
+do_teleport: 392
+flipscreen_smooth: 346 (Unused?)
+flipxymove: 306 (Unused?)
+gamemenu: 292
+pre_startup: 282
+pause: 252 (Unused?)
+startup: 252
+on_pickupsword_collision: 230
+on_shieldchest_collision: 230
+snap_to_screen: 190 (Unused?)
+on_exit_house: 176 (Unused?)
+flipymove: 174 (Unused?)
+part3: 164
+flipxmove: 158 (Unused?)
+load_panel: 146
+pre_quit: 146
+move_camera_right: 138
+part2: 128
+destroy_all_blocks: 124 (Unused?)
+on_signpost: 122 (Unused?)
+pre_load_level: 118
+on_killpuff_over: 116
+unload_level: 114
+spawn_link: 98
+load_panel_bottom: 96
+load_panel_top: 96
+waitforfireup: 94
+unload_panel: 92
+wrap_screen_bottom: 92 (Unused?)
+wrap_screen_right: 92 (Unused?)
+on_bush_hit: 92
+waitforfiredown: 90
+wrap_screen_left: 88 (Unused?)
+wrap_screen_top: 88 (Unused?)
+flipscreen: 86 (Unused?)
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+fadeout: 84
+on_rupee_collision: 82
+waitforframes: 78
+spawn_pickup_sword: 76
+on_enter_house: 74 (Unused?)
+configure_level: 72
+quit: 66
+destroy_all_actors: 62 (Unused?)
+jump_actor: 62 (Unused?)
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+fadein: 58
+load_panel_finish: 56
+destroy_actor: 54
+regenerate_screen: 52
+return: 52 (Unused?)
+destroy_block: 48 (Unused?)
+regenerate_screen_wait: 42
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)

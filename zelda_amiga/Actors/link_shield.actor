@@ -94,15 +94,15 @@
     }
   ],
   "InvalidDirections": [
+    true,
+    false,
+    true,
     false,
     false,
     false,
+    true,
     false,
-    false,
-    false,
-    false,
-    false,
-    false
+    true
   ],
   "CollBox": {
     "X": -8,
@@ -142,10 +142,10 @@
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
   "DivertProjectileCollision": null,
-  "DivertOutOfScreenLeft": "flipscreen_smooth",
-  "DivertOutOfScreenRight": "flipscreen_smooth",
-  "DivertOutOfScreenUp": "flipscreen_smooth",
-  "DivertOutOfScreenDown": "flipscreen_smooth",
+  "DivertOutOfScreenLeft": "",
+  "DivertOutOfScreenRight": "",
+  "DivertOutOfScreenUp": "",
+  "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
   "DivertTimer": null,

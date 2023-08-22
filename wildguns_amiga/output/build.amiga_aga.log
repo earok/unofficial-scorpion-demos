@@ -1,0 +1,131 @@
+=== Image optimisations ===
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1): 38784
+Music memory (): 0
+BP Buffer memory: 157248
+core sfx/gfx memory: 84602
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 1340
+Map background memory: 2672
+EXE memory: 206484
+vm memory: 8778
+project memory: 7356
+
+Accounted memory chip: 280634
+Accounted memory other: 226630
+Accounted memory total: 507264
+
+=== Misc ===
+Maps and Asset Bundles Count: 3
+Maps and Asset Bundles Data Size: 36
+Actor Count: 12
+Actor Data Size: 2256
+Block Count: 1
+Block Data Size: 68
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 2
+Sound Data Size: 48
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 31
+Animations Data Size: 496
+AnimationFrame Count: 76
+AnimationFrame Data Size: 1216
+ImageFrames: 69
+ImageFrame Data Size: 3036
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 2
+Attack Data Size: 132
+Misc data size: 44
+Asset bundle 0 (Core project asset bundle) Original size 84602 Crunched size 26948
+Asset bundle 1 (restaurant) Original size 38784 Crunched size 17574
+Asset bundle 2 (map) Original size 26304 Crunched size 8108
+Background for map restaurant Original size 2672 Crunched size 92
+Background for map map Original size 2672 Crunched size 92
+Tile data for map restaurant (mem restrictions:No_Blocks) Original size 1340 Crunched size 648
+Tile data for map map (mem restrictions:No_Blocks) Original size 1020 Crunched size 450
+Header data for map restaurant Original size 7996 Crunched size 378
+Header data for map map Original size 7996 Crunched size 374
+Project Data Original size 7356 Crunched size 1966
+Project Header Original size 4032 Crunched size 1194
+Panel scorpion_eng_splashscreen Original size 35154 Crunched size 3258
+Project virtual machine (codeblocks) Original size 8778 Crunched size 2664
+Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused Actors ===
+mouse_actor
+muzzle2_
+muzzle3_
+muzzle4_
+muzzle5_
+
+=== Codeblocks by compiled size ===
+torso_handler: 1086
+load_level: 926
+set_yresolution: 448
+do_teleport: 392
+flipscreen_smooth: 346 (Unused?)
+flipxymove: 306 (Unused?)
+pre_startup: 282
+pause: 252 (Unused?)
+legs_handler: 204
+snap_to_screen: 190
+flipymove: 174 (Unused?)
+flipxmove: 158 (Unused?)
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen: 156
+startup: 154
+load_panel: 146
+pre_quit: 146
+handle_right_click: 136 (Unused?)
+destroy_all_blocks: 124 (Unused?)
+pre_load_level: 118
+unload_level: 114
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96 (Unused?)
+waitforfireup: 94
+unload_panel: 92
+wrap_screen_bottom: 92 (Unused?)
+wrap_screen_right: 92 (Unused?)
+waitforfiredown: 90
+wrap_screen_left: 88 (Unused?)
+wrap_screen_top: 88 (Unused?)
+flipscreen: 86 (Unused?)
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+fadeout: 84
+waitforframes: 78
+quit: 66 (Unused?)
+destroy_all_actors: 62 (Unused?)
+jump_actor: 62 (Unused?)
+load_music: 62 (Unused?)
+unload_panel_bottom: 62
+unload_panel_top: 62
+fadein: 58
+shoot: 58
+load_panel_finish: 56
+destroy_actor: 54
+regenerate_screen: 52
+return: 52 (Unused?)
+destroy_block: 48 (Unused?)
+regenerate_screen_wait: 42
+legs_spawn: 42
+keyboard_left_d: 38
+keyboard_right_d: 38
+keyboard_left_u: 32
+keyboard_right_u: 32
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)

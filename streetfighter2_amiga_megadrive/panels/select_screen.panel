@@ -1,5 +1,5 @@
 {
-  "DataVersion": 3,
+  "DataVersion": 6,
   "FirstCopper": 0,
   "FadeInFrames": 10,
   "FadeOutFrames": 10,
@@ -10,7 +10,7 @@
   "TalkpadY": 0,
   "TalkpadWidth": 8,
   "TalkpadHeight": 8,
-  "PanelImagePath": "panels\\select.png",
+  "PanelImagePath": "select.png",
   "FireIndicatorPath": null,
   "ChoiceIndicatorPath": null,
   "FireIndicatorX": 0,
@@ -19,7 +19,7 @@
     {
       "X": 114,
       "Y": 121,
-      "OptionIconPath": "panels\\cursor.png",
+      "OptionIconPath": "cursor.png",
       "Left": 3,
       "Right": 1,
       "Up": 4,
@@ -31,7 +31,7 @@
     {
       "X": 137,
       "Y": 121,
-      "OptionIconPath": "panels\\cursor.png",
+      "OptionIconPath": "cursor.png",
       "Left": 0,
       "Right": 2,
       "Up": 5,
@@ -43,7 +43,7 @@
     {
       "X": 160,
       "Y": 121,
-      "OptionIconPath": "panels\\cursor.png",
+      "OptionIconPath": "cursor.png",
       "Left": 1,
       "Right": 3,
       "Up": 6,
@@ -55,7 +55,7 @@
     {
       "X": 190,
       "Y": 120,
-      "OptionIconPath": "panels\\cursor.png",
+      "OptionIconPath": "cursor.png",
       "Left": 2,
       "Right": 0,
       "Up": 7,
@@ -67,7 +67,7 @@
     {
       "X": 114,
       "Y": 152,
-      "OptionIconPath": "panels\\cursor.png",
+      "OptionIconPath": "cursor.png",
       "Left": 7,
       "Right": 5,
       "Up": 0,
@@ -79,7 +79,7 @@
     {
       "X": 137,
       "Y": 152,
-      "OptionIconPath": "panels\\cursor.png",
+      "OptionIconPath": "cursor.png",
       "Left": 4,
       "Right": 6,
       "Up": 1,
@@ -91,7 +91,7 @@
     {
       "X": 160,
       "Y": 152,
-      "OptionIconPath": "panels\\cursor.png",
+      "OptionIconPath": "cursor.png",
       "Left": 5,
       "Right": 7,
       "Up": 2,
@@ -103,7 +103,7 @@
     {
       "X": 184,
       "Y": 153,
-      "OptionIconPath": "panels\\cursor.png",
+      "OptionIconPath": "cursor.png",
       "Left": 6,
       "Right": 4,
       "Up": 3,
@@ -129,7 +129,20 @@
   "PaletteLines_MegaDrive": 1,
   "StartingPaletteLine_MegaDrive": 3,
   "TalkpadPalLine": 0,
+  "FireIndicatorPalLine": 0,
+  "ChoiceIndicatorPalLine": 0,
   "NumberFontPaletteLine": 0,
   "ParallaxMultiplierX": 0.5,
-  "ParallaxMultiplierY": 0.0
+  "ParallaxMultiplierY": 0.0,
+  "SliceMode": "Unsliced",
+  "PanelSlices": [
+    {
+      "Left": -0.5,
+      "Idle": 0.0,
+      "Right": 0.5,
+      "Top": 0
+    }
+  ],
+  "ParallaxOverlayPath": null,
+  "Gap": 4
 }
