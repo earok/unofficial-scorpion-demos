@@ -1,6 +1,6 @@
 {
   "OutputSpeed": "PAL_50HZ",
-  "GFXMode": "BP4",
+  "GFXMode": "Default",
   "MemorySaver": "None",
   "EmulatedAmiga": "A1200",
   "EmulatedFastRam": 0,
@@ -14,9 +14,13 @@
   "XOffset": 32,
   "XFillSize": 24,
   "YFillSize": 17,
-  "Implode": true,
+  "XFillSizeMD": 16,
+  "YFillSizeMD": 12,
   "MapCache": false,
   "DoubleCopper": true,
   "AllocateMemoryUpfront": true,
-  "NTSC": false
+  "NTSC": false,
+  "CrunchMode": "Implode",
+  "MaxActiveActors": 32,
+  "DynamicPatterns": 950
 }

@@ -1,15 +1,8 @@
 {
-  "TargetPlatform": "amiga_ocs",
-  "Talkpad": null,
-  "Talkpad_OnBottom": false,
+  "TargetPlatform": "megadrive",
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DebugMode": false,
-  "StartupSequenceDirty": true,
-  "Fire1Jump": false,
-  "Fire2Jump": true,
-  "UpJump": true,
-  "JumpOnHold": false,
   "DataVersion": 4,
   "Commands": [],
   "AnimationMetaData": {},
@@ -20,7 +13,10 @@
   "FontMetaData": {},
   "SplashScreen": null,
   "LogicSpeed": "PAL_50HZ",
+  "StartingPaletteLine": 0,
   "PaletteLines": 1,
   "ReadCD32Buttons": false,
-  "MDRegion": "E"
+  "MDRegion": "E",
+  "MDSoundDriver": "MDSDRV",
+  "SplashScreenFrames": 50
 }
