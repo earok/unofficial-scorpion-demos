@@ -1,7 +1,5 @@
 {
-  "TargetPlatform": "megadrive",
-  "Talkpad": null,
-  "Talkpad_OnBottom": false,
+  "TargetPlatform": "amiga_aga",
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DebugMode": false,
@@ -25,7 +23,8 @@
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
       "OnPress": "pause",
-      "OnRelease": null
+      "OnRelease": null,
+      "buttonState": 0
     }
   ],
   "AnimationMetaData": {},
@@ -43,5 +42,7 @@
   "StartingPaletteLine": 0,
   "PaletteLines": 4,
   "ReadCD32Buttons": false,
-  "MDRegion": "E"
+  "MDRegion": "E",
+  "MDSoundDriver": "MDSDRV",
+  "SplashScreenFrames": 50
 }

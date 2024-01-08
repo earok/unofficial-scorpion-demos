@@ -1,7 +1,5 @@
 {
-  "TargetPlatform": "amiga_aga",
-  "Talkpad": null,
-  "Talkpad_OnBottom": false,
+  "TargetPlatform": "amiga_ocs",
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DebugMode": false,
@@ -25,7 +23,8 @@
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
       "OnPress": "startup",
-      "OnRelease": null
+      "OnRelease": null,
+      "buttonState": 0
     },
     {
       "Compiler": "amiga",
@@ -45,7 +44,8 @@
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
       "OnPress": "show_panel",
-      "OnRelease": null
+      "OnRelease": null,
+      "buttonState": 0
     },
     {
       "Compiler": "megadrive",
@@ -65,7 +65,8 @@
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
       "OnPress": "jump",
-      "OnRelease": null
+      "OnRelease": null,
+      "buttonState": 2
     }
   ],
   "AnimationMetaData": {},
@@ -79,5 +80,7 @@
   "StartingPaletteLine": 0,
   "PaletteLines": 3,
   "ReadCD32Buttons": false,
-  "MDRegion": "E"
+  "MDRegion": "E",
+  "MDSoundDriver": "MDSDRV",
+  "SplashScreenFrames": 50
 }

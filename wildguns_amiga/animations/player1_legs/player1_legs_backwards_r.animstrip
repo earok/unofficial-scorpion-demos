@@ -1,105 +1,157 @@
 {
   "Frames": [
     {
-      "Path": "p1_legs6.png",
       "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "p1_legs6.png",
+      "OnFrame": null,
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
       "HandleX": -11,
       "HandleY": -16,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "p1_legs6",
+      "IsBlank": false
+    },
+    {
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "p1_legs5.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null
-    },
-    {
-      "Path": "p1_legs5.png",
-      "Duration": 5,
       "HandleX": -14,
       "HandleY": -16,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "p1_legs5",
+      "IsBlank": false
+    },
+    {
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "p1_legs4.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null
-    },
-    {
-      "Path": "p1_legs4.png",
-      "Duration": 5,
       "HandleX": -16,
       "HandleY": -16,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "p1_legs4",
+      "IsBlank": false
+    },
+    {
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "p1_legs3.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null
-    },
-    {
-      "Path": "p1_legs3.png",
-      "Duration": 5,
       "HandleX": -10,
       "HandleY": -16,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "p1_legs3",
+      "IsBlank": false
+    },
+    {
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "p1_legs2.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null
-    },
-    {
-      "Path": "p1_legs2.png",
-      "Duration": 5,
       "HandleX": -13,
       "HandleY": -16,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "p1_legs2",
+      "IsBlank": false
+    },
+    {
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "p1_legs1.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null
-    },
-    {
-      "Path": "p1_legs1.png",
-      "Duration": 5,
       "HandleX": -17,
       "HandleY": -16,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "p1_legs1",
+      "IsBlank": false
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": null,
-  "AutoFlip": true
+  "AutoFlip": true,
+  "Streamed": true,
+  "PatternBuffer": 0
 }

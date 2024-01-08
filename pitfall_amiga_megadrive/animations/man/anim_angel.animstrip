@@ -1,39 +1,65 @@
 {
   "Frames": [
     {
-      "Path": "angel1.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
-      "HandleX": -7,
-      "HandleY": -21,
-      "XFlipped": false,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "angel1.png",
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 8,
         "Height": 8
       },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HandleX": -7,
+      "HandleY": -21,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "angel1",
+      "IsBlank": false
     },
     {
-      "Path": "angel2.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
-      "HandleX": -7,
-      "HandleY": -22,
-      "XFlipped": false,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "angel2.png",
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HandleX": -7,
+      "HandleY": -22,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "angel2",
+      "IsBlank": false
     }
   ],
   "PreventMovement": false,
   "PreventCollision": true,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "LoopFrame": 0
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": "",
+  "OnFinish": null,
+  "AutoFlip": null,
+  "Streamed": true,
+  "PatternBuffer": 0
 }

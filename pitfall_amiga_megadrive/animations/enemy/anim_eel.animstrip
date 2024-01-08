@@ -1,54 +1,91 @@
 {
   "Frames": [
     {
-      "Path": "eel1.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "eel1.png",
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
       "HandleX": 1,
       "HandleY": -4,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "eel1",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "eel2.png",
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null
-    },
-    {
-      "Path": "eel2.png",
-      "Duration": 5,
       "HandleX": 1,
       "HandleY": -2,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "eel2",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "eel3.png",
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null
-    },
-    {
-      "Path": "eel3.png",
-      "Duration": 5,
       "HandleX": 0,
       "HandleY": -3,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "eel3",
+      "IsBlank": false
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "LoopFrame": 0
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": "",
+  "OnFinish": null,
+  "AutoFlip": null,
+  "Streamed": true,
+  "PatternBuffer": 0
 }

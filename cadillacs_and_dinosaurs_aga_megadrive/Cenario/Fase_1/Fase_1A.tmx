@@ -5,8 +5,8 @@
     <property name="md_parallax" value="fase_1b" />
     <property name="override_palette" type="file" value="" />
   </properties>
-  <tileset firstgid="1" source="..\..\Actors.tsx" />
-  <tileset firstgid="257" source="..\..\Blocks.tsx" />
+  <tileset firstgid="1" source="../../Actors.tsx" />
+  <tileset firstgid="257" source="../../Blocks.tsx" />
   <tileset firstgid="513" source="Fase_1A.tileset.tsx" />
   <tileset firstgid="833" source="door_foreground.tileset.tsx" />
   <layer id="1" name="map" width="64" height="19">

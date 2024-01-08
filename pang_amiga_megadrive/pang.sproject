@@ -1,7 +1,5 @@
 {
-  "TargetPlatform": "megadrive",
-  "Talkpad": null,
-  "Talkpad_OnBottom": false,
+  "TargetPlatform": "amiga_ocs",
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DebugMode": false,
@@ -24,19 +22,22 @@
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "sndpook": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "sndshot": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},
@@ -51,5 +52,7 @@
   "StartingPaletteLine": 0,
   "PaletteLines": 1,
   "ReadCD32Buttons": false,
-  "MDRegion": "E"
+  "MDRegion": "E",
+  "MDSoundDriver": "XGM",
+  "SplashScreenFrames": 50
 }

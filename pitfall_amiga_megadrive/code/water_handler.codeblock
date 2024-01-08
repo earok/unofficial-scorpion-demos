@@ -19,24 +19,15 @@
       "PaletteOperationType": "SetColor",
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
-      "Goto": null,
+      "Goto": "",
       "Comment": "",
       "Variable": "player_type",
       "Expression": "man_swim",
       "Index": "0",
-      "Label": null,
+      "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "player_type",
-          "Comparison": "NotEquals",
-          "RightSide": "man_swim",
-          "ComparisonNext": "End",
-          "IsValid": true
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": null,
@@ -87,7 +78,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "player_type",
+          "Comparison": "NotEquals",
+          "RightSide": "man_swim",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ]
     },
     {
       "Values": {},
@@ -105,24 +106,15 @@
       "PaletteOperationType": "SetColor",
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
-      "Goto": null,
+      "Goto": "",
       "Comment": null,
       "Variable": "player_yspeed",
       "Expression": "0",
       "Index": "0",
-      "Label": null,
+      "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "player_yspeed",
-          "Comparison": "LessThanOrEqual",
-          "RightSide": "0",
-          "ComparisonNext": "End",
-          "IsValid": true
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": null,
@@ -173,7 +165,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "player_yspeed",
+          "Comparison": "LessThanOrEqual",
+          "RightSide": "0",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ]
     },
     {
       "Values": {},
@@ -191,16 +193,15 @@
       "PaletteOperationType": "SetColor",
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
-      "Goto": null,
+      "Goto": "",
       "Comment": "",
       "Variable": "player_type",
       "Expression": "man",
       "Index": "0",
-      "Label": null,
+      "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": null,
@@ -251,7 +252,9 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": []
     },
     {
       "Values": {},
@@ -269,16 +272,15 @@
       "PaletteOperationType": "SetColor",
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
-      "Goto": null,
+      "Goto": "",
       "Comment": "",
       "Variable": "player_type",
       "Expression": "man",
       "Index": "0",
-      "Label": null,
+      "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": null,
@@ -329,7 +331,9 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": []
     },
     {
       "Values": {},
@@ -356,15 +360,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "lookmask_left",
-          "Comparison": "BitTest",
-          "RightSide": "player_lookdir",
-          "ComparisonNext": "End",
-          "IsValid": true
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -415,7 +410,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "lookmask_left",
+          "Comparison": "BitTest",
+          "RightSide": "player_lookdir",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ]
     },
     {
       "Values": {},
@@ -442,7 +447,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "block_x * 16 + 4",
@@ -493,7 +497,9 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": []
     },
     {
       "Values": {},
@@ -520,7 +526,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -571,7 +576,9 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": []
     },
     {
       "Values": {},
@@ -598,7 +605,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "block_x * 16 + 12",
@@ -649,7 +655,9 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": []
     },
     {
       "Values": {},
@@ -676,7 +684,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -727,7 +734,9 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": []
     },
     {
       "Values": {},
@@ -745,16 +754,15 @@
       "PaletteOperationType": "SetColor",
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
-      "Goto": null,
+      "Goto": "",
       "Comment": null,
       "Variable": "none",
       "Expression": "0",
       "Index": "0",
-      "Label": null,
+      "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": null,
@@ -805,7 +813,9 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": []
     },
     {
       "Values": {},
@@ -823,16 +833,15 @@
       "PaletteOperationType": "SetColor",
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
-      "Goto": null,
+      "Goto": "",
       "Comment": "",
       "Variable": "player_type",
       "Expression": "man",
       "Index": "0",
-      "Label": null,
+      "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": null,
@@ -883,7 +892,9 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": []
     },
     {
       "Values": {},
@@ -901,24 +912,15 @@
       "PaletteOperationType": "SetColor",
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
-      "Goto": null,
+      "Goto": "",
       "Comment": "",
       "Variable": "player_y",
       "Expression": "block_y * 16",
       "Index": "0",
-      "Label": null,
+      "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "player_y",
-          "Comparison": "LessThan",
-          "RightSide": "block_y * 16",
-          "ComparisonNext": "End",
-          "IsValid": true
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": null,
@@ -969,7 +971,17 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "player_y",
+          "Comparison": "LessThan",
+          "RightSide": "block_y * 16",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ]
     },
     {
       "Values": {},
@@ -987,16 +999,15 @@
       "PaletteOperationType": "SetColor",
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
-      "Goto": null,
+      "Goto": "",
       "Comment": "",
       "Variable": "player_y",
       "Expression": "block_y * 16 + 8",
       "Index": "0",
-      "Label": null,
+      "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1047,7 +1058,9 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": []
     },
     {
       "Values": {},
@@ -1067,14 +1080,13 @@
       "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
-      "Variable": "player_y_fractional",
+      "Variable": "player_y_lower",
       "Expression": "0",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1125,7 +1137,9 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": []
     },
     {
       "Values": {},
@@ -1143,16 +1157,15 @@
       "PaletteOperationType": "SetColor",
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
-      "Goto": null,
+      "Goto": "",
       "Comment": "",
       "Variable": "player_type",
       "Expression": "man",
       "Index": "0",
-      "Label": null,
+      "Label": "",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": null,
@@ -1203,7 +1216,9 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": []
     }
   ]
 }

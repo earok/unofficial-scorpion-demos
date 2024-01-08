@@ -1,35 +1,37 @@
 {
   "Frames": [
     {
-      "Path": "bullets.png",
       "Duration": 5,
-      "HandleX": -8,
-      "HandleY": -4,
-      "XFlipped": false,
+      "Background": false,
+      "Multiplexes": 16,
+      "PaletteLine": 0,
+      "RenderType": "AutoSprite",
+      "SpriteType": "Channel_2_to_1",
+      "Path": "bullets.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 0,
-      "Multiplexes": 16,
-      "SpriteType": "Channel_2_to_1",
-      "RenderType": "AutoSprite"
+      "HandleX": -8,
+      "HandleY": -4,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "bullets",
+      "IsBlank": false
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "Multiplexes": 0,
-  "SpriteType": "Attached_16colors",
-  "RenderType": "Normal"
+  "Streamed": true,
+  "PatternBuffer": 0
 }

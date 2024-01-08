@@ -1,114 +1,109 @@
 {
   "Frames": [
     {
-      "Path": "ryu_hado_1.png",
       "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "ryu_hado_1.png",
+      "OnFrame": null,
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
       "HandleX": -32,
       "HandleY": -32,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "ryu_hado_1",
+      "IsBlank": false
+    },
+    {
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "ryu_hado_2.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
-    },
-    {
-      "Path": "ryu_hado_2.png",
-      "Duration": 5,
       "HandleX": -31,
       "HandleY": -32,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "ryu_hado_2",
+      "IsBlank": false
+    },
+    {
+      "Duration": 1,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "ryu_hado_3.png",
+      "OnFrame": "hadouken",
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
-    },
-    {
-      "Path": "ryu_hado_3.png",
-      "Duration": 1,
       "HandleX": -30,
       "HandleY": -32,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "ryu_hado_3",
+      "IsBlank": false
+    },
+    {
+      "Duration": 15,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "ryu_hado_4.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": "hadouken",
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
-    },
-    {
-      "Path": "ryu_hado_4.png",
-      "Duration": 15,
       "HandleX": -31,
       "HandleY": -32,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "ryu_hado_4",
+      "IsBlank": false
     }
   ],
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 0,
-  "LinkedMap": null,
-  "OnFinish": "reset_attacks"
+  "LinkedMap": "",
+  "OnFinish": "reset_attacks",
+  "AutoFlip": null,
+  "Streamed": true,
+  "PatternBuffer": 0
 }

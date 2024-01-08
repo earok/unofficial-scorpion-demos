@@ -3,8 +3,8 @@
   <properties>
     <property name="override_palette" type="file" value="" />
   </properties>
-  <tileset firstgid="1" source="..\Actors.tsx" />
-  <tileset firstgid="257" source="..\Blocks.tsx" />
+  <tileset firstgid="1" source="../Actors.tsx" />
+  <tileset firstgid="257" source="../Blocks.tsx" />
   <tileset firstgid="513" source="tileset.tileset.tsx" />
   <layer id="7" name="background" width="128" height="91">
     <data encoding="csv">

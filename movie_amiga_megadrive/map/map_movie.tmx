@@ -3,8 +3,8 @@
   <properties>
     <property name="divert_timer" type="string" value="" />
   </properties>
-  <tileset firstgid="1" source="..\Actors.tsx" />
-  <tileset firstgid="257" source="..\Blocks.tsx" />
+  <tileset firstgid="1" source="../Actors.tsx" />
+  <tileset firstgid="257" source="../Blocks.tsx" />
   <tileset firstgid="513" source="map_movie.tileset.tsx" />
   <layer id="1" name="map" width="128" height="14">
     <data encoding="csv">

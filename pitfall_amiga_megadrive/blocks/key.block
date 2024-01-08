@@ -1,7 +1,5 @@
 {
   "Divert_PlayerProjectileCollision": null,
-  "IsPlatform": false,
-  "IsSolid": false,
   "BlockImagePath": "blocks\\block.png",
   "X": 16,
   "Y": 0,
@@ -10,10 +8,32 @@
   "Divert_PlayerOverlap": "",
   "Divert_ProjectileCollision": null,
   "OnAnimationFrame": null,
-  "ShootOver": false,
   "FastBlit": false,
   "IsInvisible": false,
-  "IsSlope": false,
   "ReplaceTileProperties": false,
+  "LinkedMap": "",
+  "BlockSolidType": "NotSolid",
+  "PlayerCollisionOverride": "Default",
+  "ProjectileCollisionOverride": "Default",
+  "PaletteLines": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "Priorities": [
+    [
+      false,
+      false
+    ],
+    [
+      false,
+      false
+    ]
+  ],
   "TileID": 1
 }

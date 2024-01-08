@@ -3703,7 +3703,7 @@
       "Variable": "temp",
       "Expression": "hook_accel",
       "Index": "0",
-      "Label": "hook end",
+      "Label": "hook_end",
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,

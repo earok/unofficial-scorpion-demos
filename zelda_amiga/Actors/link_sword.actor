@@ -10,32 +10,32 @@
   "Idles": {
     "UpLeft": "",
     "Up": "link_idle_su",
-    "UpRight": null,
+    "UpRight": "",
     "Left": "link_idle_sl",
     "Right": "link_idle_sr",
-    "DownLeft": null,
+    "DownLeft": "",
     "Down": "link_idle_sd",
-    "DownRight": null
+    "DownRight": ""
   },
   "Moves": {
     "UpLeft": "",
     "Up": "link_walk_su",
-    "UpRight": null,
+    "UpRight": "",
     "Left": "link_walk_sl",
     "Right": "link_walk_sr",
-    "DownLeft": null,
+    "DownLeft": "",
     "Down": "link_walk_sd",
-    "DownRight": null
+    "DownRight": ""
   },
   "Attacks": {
     "UpLeft": "",
     "Up": "link_attack_u",
-    "UpRight": null,
+    "UpRight": "",
     "Left": "link_attack_l",
     "Right": "link_attack_r",
-    "DownLeft": null,
+    "DownLeft": "",
     "Down": "link_attack_d",
-    "DownRight": null
+    "DownRight": ""
   },
   "ProjectileOffsets": [
     {
@@ -136,16 +136,16 @@
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
-  "DivertAttack": null,
+  "DivertAttack": "",
   "DivertSpawn": "",
-  "DivertPlayerCollision": null,
-  "DivertPlayerHit": null,
-  "DivertHitAgainstPlayer": null,
-  "DivertProjectileCollision": null,
-  "DivertOutOfScreenLeft": null,
-  "DivertOutOfScreenRight": null,
-  "DivertOutOfScreenUp": null,
-  "DivertOutOfScreenDown": null,
+  "DivertPlayerCollision": "",
+  "DivertPlayerHit": "",
+  "DivertHitAgainstPlayer": "",
+  "DivertProjectileCollision": "",
+  "DivertOutOfScreenLeft": "",
+  "DivertOutOfScreenRight": "",
+  "DivertOutOfScreenUp": "",
+  "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
   "DivertTimer": null,

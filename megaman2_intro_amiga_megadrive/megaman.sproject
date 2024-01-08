@@ -1,7 +1,5 @@
 {
-  "TargetPlatform": "megadrive",
-  "Talkpad": null,
-  "Talkpad_OnBottom": false,
+  "TargetPlatform": "amiga_ocs",
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DebugMode": false,
@@ -18,5 +16,7 @@
   "StartingPaletteLine": 0,
   "PaletteLines": 1,
   "ReadCD32Buttons": false,
-  "MDRegion": "E"
+  "MDRegion": "E",
+  "MDSoundDriver": "MDSDRV",
+  "SplashScreenFrames": 50
 }

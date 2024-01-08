@@ -1,90 +1,133 @@
 {
   "Frames": [
     {
+      "Duration": 1,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
       "Path": "1.png",
-      "Duration": 1,
-      "HandleX": 4,
-      "HandleY": -20,
-      "XFlipped": false,
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HandleX": 4,
+      "HandleY": -20,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "1",
+      "IsBlank": false
     },
     {
+      "Duration": 1,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
       "Path": "2.png",
-      "Duration": 1,
-      "HandleX": 4,
-      "HandleY": -20,
-      "XFlipped": false,
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HandleX": 4,
+      "HandleY": -20,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "2",
+      "IsBlank": false
     },
     {
+      "Duration": 1,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
       "Path": "1.png",
-      "Duration": 1,
-      "HandleX": 4,
-      "HandleY": -20,
-      "XFlipped": false,
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HandleX": 4,
+      "HandleY": -20,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "1",
+      "IsBlank": false
     },
     {
-      "Path": "2.png",
       "Duration": 1,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "2.png",
+      "OnFrame": null,
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
       "HandleX": 4,
       "HandleY": -20,
       "XFlipped": true,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "2",
+      "IsBlank": false
+    },
+    {
+      "Duration": 1,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "3.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null
-    },
-    {
-      "Path": "3.png",
-      "Duration": 1,
       "HandleX": 4,
       "HandleY": -20,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "3",
+      "IsBlank": false
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": "destroy_actor",
-  "AutoFlip": true
+  "AutoFlip": true,
+  "Streamed": true,
+  "PatternBuffer": 0
 }

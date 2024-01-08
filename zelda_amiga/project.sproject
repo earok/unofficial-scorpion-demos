@@ -1,7 +1,5 @@
 {
   "TargetPlatform": "amiga_ocs",
-  "Talkpad": "talkpad",
-  "Talkpad_OnBottom": true,
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DebugMode": false,
@@ -25,7 +23,8 @@
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
       "OnPress": null,
-      "OnRelease": "quit"
+      "OnRelease": "quit",
+      "buttonState": 0
     }
   ],
   "AnimationMetaData": {},
@@ -35,7 +34,8 @@
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},
@@ -56,5 +56,7 @@
   "StartingPaletteLine": 0,
   "PaletteLines": 1,
   "ReadCD32Buttons": false,
-  "MDRegion": "E"
+  "MDRegion": "E",
+  "MDSoundDriver": "MDSDRV",
+  "SplashScreenFrames": 50
 }

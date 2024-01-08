@@ -1,139 +1,133 @@
 {
   "Frames": [
     {
-      "Path": "attack_u1.png",
       "Duration": 5,
-      "HandleX": -16,
-      "HandleY": -32,
-      "XFlipped": false,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "attack_u1.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 8,
         "Height": 8
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
-    },
-    {
-      "Path": "attack_u2.png",
-      "Duration": 5,
       "HandleX": -16,
       "HandleY": -32,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "attack_u1",
+      "IsBlank": false
+    },
+    {
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "attack_u2.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
-    },
-    {
-      "Path": "attack_u3.png",
-      "Duration": 5,
       "HandleX": -16,
       "HandleY": -32,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "attack_u2",
+      "IsBlank": false
+    },
+    {
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "attack_u3.png",
+      "OnFrame": null,
+      "HasHitBox": true,
       "HitBox": {
         "X": -13,
         "Y": -32,
         "Width": 16,
         "Height": 11
       },
-      "HasHitBox": true,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
+      "HandleX": -16,
+      "HandleY": -32,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "attack_u3",
+      "IsBlank": false
     },
     {
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
       "Path": "attack_u4.png",
-      "Duration": 5,
-      "HandleX": -16,
-      "HandleY": -32,
-      "XFlipped": false,
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
+      "HandleX": -16,
+      "HandleY": -32,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "attack_u4",
+      "IsBlank": false
     },
     {
-      "Path": "attack_u5.png",
       "Duration": 5,
-      "HandleX": -16,
-      "HandleY": -32,
-      "XFlipped": false,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "attack_u5.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "Bitplanes": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
+      "HandleX": -16,
+      "HandleY": -32,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "attack_u5",
+      "IsBlank": false
     }
   ],
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 0,
-  "LinkedMap": null,
-  "OnFinish": null
+  "LinkedMap": "",
+  "OnFinish": null,
+  "AutoFlip": null,
+  "Streamed": true,
+  "PatternBuffer": 0
 }

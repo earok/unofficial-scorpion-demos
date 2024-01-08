@@ -1,6 +1,9 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": true,
       "Multiplexes": 0,
@@ -8,14 +11,6 @@
       "RenderType": "OnlySprite",
       "SpriteType": "Attached_16colors",
       "Path": "Stage 1_Bedit.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 0,
       "HandleY": 0,
       "XFlipped": false,
@@ -29,7 +24,7 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,

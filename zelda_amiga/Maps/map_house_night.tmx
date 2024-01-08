@@ -5,8 +5,8 @@
     <property name="override_color_start" type="int" value="0" />
     <property name="override_color_count" type="int" value="255" />
   </properties>
-  <tileset firstgid="1" source="..\Actors.tsx" />
-  <tileset firstgid="257" source="..\Blocks.tsx" />
+  <tileset firstgid="1" source="../Actors.tsx" />
+  <tileset firstgid="257" source="../Blocks.tsx" />
   <tileset firstgid="513" source="nighttiles.tileset.tsx" />
   <layer id="1" name="map" width="20" height="15">
     <data encoding="csv">

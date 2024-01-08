@@ -3,8 +3,8 @@
   <properties>
     <property name="override_palette" type="file" value="lobby.palette.png" />
   </properties>
-  <tileset firstgid="1" source="..\Actors.tsx" />
-  <tileset firstgid="257" source="..\Blocks.tsx" />
+  <tileset firstgid="1" source="../Actors.tsx" />
+  <tileset firstgid="257" source="../Blocks.tsx" />
   <tileset firstgid="513" source="lobby.tileset.tsx" />
   <layer id="1" name="map" width="64" height="64">
     <data encoding="csv">
@@ -76,6 +76,7 @@
     <properties>
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="False" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="objects" width="64" height="64">
@@ -148,6 +149,7 @@
     <properties>
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="False" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="foreground" width="64" height="64">
@@ -220,6 +222,7 @@
     <properties>
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="True" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="0" name="events" />

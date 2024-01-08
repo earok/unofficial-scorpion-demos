@@ -53,7 +53,7 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 2,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,

@@ -1,112 +1,133 @@
 {
   "Frames": [
     {
-      "Path": "hurt1.png",
       "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 2,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "hurt1.png",
+      "OnFrame": null,
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
       "HandleX": -40,
       "HandleY": -57,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "hurt1",
+      "IsBlank": false
+    },
+    {
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 2,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "hurt2.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 2,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "OnlySprite",
-      "HighPriority": false
-    },
-    {
-      "Path": "hurt2.png",
-      "Duration": 5,
       "HandleX": -34,
       "HandleY": -68,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "hurt2",
+      "IsBlank": false
+    },
+    {
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 2,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "hurt3.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 2,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "OnlySprite",
-      "HighPriority": false
-    },
-    {
-      "Path": "hurt3.png",
-      "Duration": 5,
       "HandleX": -33,
       "HandleY": -67,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "hurt3",
+      "IsBlank": false
+    },
+    {
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 2,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "hurt4.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 2,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "OnlySprite",
-      "HighPriority": false
-    },
-    {
-      "Path": "hurt4.png",
-      "Duration": 5,
       "HandleX": -31,
       "HandleY": -60,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "hurt4",
+      "IsBlank": false
+    },
+    {
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 2,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "hurt5.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 2,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "OnlySprite",
-      "HighPriority": false
-    },
-    {
-      "Path": "hurt5.png",
-      "Duration": 5,
       "HandleX": -21,
       "HandleY": -63,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 2,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "OnlySprite",
-      "HighPriority": false
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "hurt5",
+      "IsBlank": false
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": true,
-  "Streamed": true
+  "Streamed": true,
+  "PatternBuffer": 0
 }

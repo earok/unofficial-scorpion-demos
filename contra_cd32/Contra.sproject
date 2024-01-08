@@ -1,0 +1,75 @@
+{
+  "TargetPlatform": "amiga_aga_cd32",
+  "Talkpad": null,
+  "Talkpad_OnBottom": false,
+  "StartupCodeBlock": "!!_startup",
+  "Recompile": true,
+  "DebugMode": false,
+  "DataVersion": 3,
+  "Commands": [
+    {
+      "Compiler": "amiga",
+      "Key": "Space",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "MegaDrive_B": false,
+      "MegaDrive_C": false,
+      "MegaDrive_A": false,
+      "MegaDrive_Start": false,
+      "OnPress": "!!_spawn_test_actor",
+      "OnRelease": null,
+      "buttonState": 0
+    }
+  ],
+  "AnimationMetaData": {},
+  "Anim5MetaData": {},
+  "SoundMetaData": {
+    "contra__arcade_soundtrack__01_title_back": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0,
+      "Channel": null
+    },
+    "contra__arcade_soundtrack__02_battle_in_the_dense_forest": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
+      "Priority": 0,
+      "Channel": null
+    },
+    "player_shotgun": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "aplayer_shotgun": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    }
+  },
+  "MMLMetaData": {},
+  "NumberFontMetaData": {},
+  "FontMetaData": {},
+  "SplashScreen": null,
+  "LogicSpeed": "PAL_50HZ",
+  "StartingPaletteLine": 0,
+  "PaletteLines": 1,
+  "ReadCD32Buttons": false,
+  "MDRegion": "E",
+  "MDSoundDriver": "MDSDRV",
+  "SplashScreenFrames": 50
+}

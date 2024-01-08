@@ -1,7 +1,5 @@
 {
-  "TargetPlatform": "megadrive",
-  "Talkpad": null,
-  "Talkpad_OnBottom": false,
+  "TargetPlatform": "amiga_ocs",
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DebugMode": false,
@@ -25,7 +23,8 @@
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
       "OnPress": "",
-      "OnRelease": "cheat1"
+      "OnRelease": "cheat1",
+      "buttonState": 0
     },
     {
       "Compiler": "amiga",
@@ -45,7 +44,8 @@
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
       "OnPress": null,
-      "OnRelease": "restart_game"
+      "OnRelease": "restart_game",
+      "buttonState": 0
     },
     {
       "Compiler": "amiga",
@@ -65,7 +65,8 @@
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
       "OnPress": "",
-      "OnRelease": "cheat2"
+      "OnRelease": "cheat2",
+      "buttonState": 0
     },
     {
       "Compiler": "amiga",
@@ -85,7 +86,8 @@
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
       "OnPress": "",
-      "OnRelease": "cheat3"
+      "OnRelease": "cheat3",
+      "buttonState": 0
     },
     {
       "Compiler": "amiga",
@@ -105,7 +107,8 @@
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
       "OnPress": "",
-      "OnRelease": "cheat4"
+      "OnRelease": "cheat4",
+      "buttonState": 0
     },
     {
       "Compiler": "amiga",
@@ -125,7 +128,8 @@
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
       "OnPress": "",
-      "OnRelease": "cheat5"
+      "OnRelease": "cheat5",
+      "buttonState": 0
     },
     {
       "Compiler": "amiga",
@@ -145,7 +149,8 @@
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
       "OnPress": null,
-      "OnRelease": "quit"
+      "OnRelease": "quit",
+      "buttonState": 0
     },
     {
       "Compiler": "amiga",
@@ -165,7 +170,8 @@
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
       "OnPress": null,
-      "OnRelease": "restart_game"
+      "OnRelease": "restart_game",
+      "buttonState": 48
     }
   ],
   "AnimationMetaData": {
@@ -179,43 +185,50 @@
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "bigcollect": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "earthquake": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "hurt": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "jump": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "pop": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     },
     "smallcollect": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},
@@ -230,5 +243,7 @@
   "StartingPaletteLine": 0,
   "PaletteLines": 1,
   "ReadCD32Buttons": false,
-  "MDRegion": "E"
+  "MDRegion": "E",
+  "MDSoundDriver": "MDSDRV",
+  "SplashScreenFrames": 50
 }

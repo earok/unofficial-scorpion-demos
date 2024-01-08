@@ -14,9 +14,10 @@
   "XOffset": 48,
   "XFillSize": 18,
   "YFillSize": 17,
-  "Implode": true,
   "MapCache": false,
   "DoubleCopper": false,
   "AllocateMemoryUpfront": true,
-  "NTSC": false
+  "NTSC": false,
+  "CrunchMode": "Implode",
+  "MaxActiveActors": 32
 }

@@ -1,29 +1,37 @@
 {
   "Frames": [
     {
-      "Path": "batman_hang.png",
       "Duration": 1,
-      "HandleX": -6,
-      "HandleY": 0,
-      "XFlipped": true,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "batman_hang.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HandleX": -6,
+      "HandleY": 0,
+      "XFlipped": true,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "batman_hang",
+      "IsBlank": false
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 0,
-  "LinkedMap": null,
-  "OnFinish": null
+  "LinkedMap": "",
+  "OnFinish": null,
+  "AutoFlip": null,
+  "Streamed": true,
+  "PatternBuffer": 0
 }

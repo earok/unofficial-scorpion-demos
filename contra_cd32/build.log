@@ -1,0 +1,185 @@
+=== Image optimisations ===
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1): 133728
+Music memory (): 0
+BP Buffer memory: 141120
+core sfx/gfx memory: 226312
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 11904
+Map background memory: 2672
+EXE memory: 206344
+vm memory: 13716
+project memory: 17164
+
+Accounted memory chip: 501160
+Accounted memory other: 251800
+Accounted memory total: 752960
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 26
+Actor Data Size: 4888
+Block Count: 6
+Block Data Size: 408
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 1
+Sound Data Size: 24
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 59
+Animations Data Size: 944
+AnimationFrame Count: 242
+AnimationFrame Data Size: 3872
+ImageFrames: 151
+ImageFrame Data Size: 6644
+Sprites: 2
+Sprites Data Size: 28
+Attack Data: 4
+Attack Data Size: 264
+Misc data size: 58
+Asset bundle 0 (Core project asset bundle) Original size 226312 Crunched size 226312
+Asset bundle 1 (level_01) Original size 133728 Crunched size 133728
+Background for map level_01 Original size 2672 Crunched size 2672
+Tile data for map level_01 (mem restrictions:None) Original size 11904 Crunched size 11904
+Header data for map level_01 Original size 7996 Crunched size 7996
+Project Data Original size 17164 Crunched size 17164
+Project Header Original size 4032 Crunched size 4032
+Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
+Panel title_screen Original size 38494 Crunched size 38494
+Panel top_panel Original size 2878 Crunched size 2878
+Project virtual machine (codeblocks) Original size 13716 Crunched size 13716
+Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused animations ===
+dummyplayer
+player_side_fire_sg_dr_r
+player_side_fire_sg_dr_l
+player_side_fire_sg_u_r
+player_side_fire_sg_u_l
+player_side_fire_sg_ur_r
+player_side_fire_sg_ur_l
+
+=== Possibly unused Actors ===
+00_dummyactor
+00_dummycamera
+00_dummyplayer
+00_plyr_bullet_sg
+00_weap_pod_1
+01_brdg_sct_1
+01_brdg_sct_2
+01_brdg_sct_3
+01_brdg_sct_4
+01_enmy_01_run
+01_mountain_bg
+01_reactor
+01_turret_grnd
+01_turret_rck_active
+
+=== Codeblocks by compiled size ===
+01_end_level: 986
+load_level: 926
+!!_startup: 764
+01_handler_bridge_1: 702
+set_yresolution: 448
+do_teleport: 392
+01_handler_weap_pod_2: 374
+flipscreen_smooth: 346 (Unused?)
+flipxymove: 306 (Unused?)
+pre_startup: 282
+01_handler_turret_ground_1: 260
+pause: 252 (Unused?)
+00_colour_cycle: 236 (Unused?)
+01_handler_weap_pod_1: 222
+snap_to_screen: 190
+00_dstry_w_explsn_01: 190 (Unused?)
+00_dstry_w_explsn_02: 190
+00_dstry_ground_turret: 188
+flipymove: 174 (Unused?)
+flipxmove: 158 (Unused?)
+AUTOGEN_OUTOFSCREEN_00_donothing_00_donothing_00_donothing_00_donothing: 154
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_00_donothing_00_donothing: 154
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_00_donothing_!!_startup: 154
+AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 154
+01_handler_reactor: 148
+load_panel: 146
+pre_quit: 146
+00_colour_cycle2: 142
+destroy_all_blocks: 124 (Unused?)
+pre_load_level: 118
+unload_level: 114
+00_handler_level: 98
+load_panel_bottom: 96
+load_panel_top: 96 (Unused?)
+waitforfireup: 94
+unload_panel: 92
+wrap_screen_bottom: 92 (Unused?)
+wrap_screen_right: 92 (Unused?)
+AUTOGEN_OUTOFSCREEN_00_leave_screen_None_None_destroy_actor: 92
+waitforfiredown: 90
+wrap_screen_left: 88 (Unused?)
+wrap_screen_top: 88 (Unused?)
+00_handler_bg: 88 (Unused?)
+flipscreen: 86 (Unused?)
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+00_setcamera: 86
+fadeout: 84
+00_leave_screen: 84
+00_enemy01_death: 82
+waitforframes: 78
+00_player_fall: 78
+01_handler_turret_rock: 72
+00_event_delay_rnd: 70 (Unused?)
+01_handler_bg_parallax: 68
+quit: 66 (Unused?)
+00_enemy01_land: 64
+destroy_all_actors: 62 (Unused?)
+jump_actor: 62 (Unused?)
+load_music: 62 (Unused?)
+unload_panel_bottom: 62
+unload_panel_top: 62
+AUTOGEN_OUTOFSCREEN_None_00_leave_screen_None_None: 60
+fadein: 58
+!!flame_test: 58
+load_panel_finish: 56
+AUTOGEN_OUTOFSCREEN_destroy_actor_None_None_None: 56
+AUTOGEN_OUTOFSCREEN_00_leave_screen_None_None_None: 56
+AUTOGEN_OUTOFSCREEN_00_dstry_parallax_None_None_None: 56
+destroy_actor: 54
+00_dstry_parallax: 54
+00_handler_player: 54 (Unused?)
+00_move_all: 54
+regenerate_screen: 52
+return: 52 (Unused?)
+00_increase_var1: 52
+destroy_block: 48 (Unused?)
+00_follow_start: 46 (Unused?)
+00_follow_stop: 46
+regenerate_screen_wait: 42
+00_actor_hide: 42
+00_enemy01_fall: 42
+00_invisble_off: 42
+00_invisble_on: 42
+00_spawn_torso: 42
+00_update_off: 42
+00_update_on: 42
+00_move_camera_r: 38
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+debug_dump: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)
+00_donothing: 26
+startup: 26 (Unused?)
