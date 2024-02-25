@@ -22,6 +22,10 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
       "OnPress": null,
       "OnRelease": "quit",
       "buttonState": 0
@@ -56,7 +60,9 @@
   "StartingPaletteLine": 0,
   "PaletteLines": 1,
   "ReadCD32Buttons": false,
-  "MDRegion": "E",
+  "ReadMD6Buttons": false,
+  "MDRegion": "Universal",
   "MDSoundDriver": "MDSDRV",
-  "SplashScreenFrames": 50
+  "SplashScreenFrames": 50,
+  "TestLevel": null
 }

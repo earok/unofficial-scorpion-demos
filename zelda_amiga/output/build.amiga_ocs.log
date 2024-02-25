@@ -3,10 +3,10 @@
 === Estimated memory usages ===
 
 For chip:
-Map gfx (level gfx bundle 3): 83840
+Map gfx (level gfx bundle 3): 83258
 Music memory (mod_intro): 17748
 BP Buffer memory: 132480
-core sfx/gfx memory: 82264
+core sfx/gfx memory: 82174
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -14,17 +14,17 @@ For other:
 Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 24650
-Map background memory: 1396
-EXE memory: 211412
-vm memory: 13182
-project memory: 8908
+Map background memory: 1400
+EXE memory: 210376
+vm memory: 13842
+project memory: 8950
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 521132
-Accounted memory other: 273508
-Accounted memory total: 794640
+Accounted memory chip: 520460
+Accounted memory other: 273178
+Accounted memory total: 793638
 
 === Misc ===
 Maps and Asset Bundles Count: 5
@@ -43,39 +43,39 @@ Animations Count: 27
 Animations Data Size: 432
 AnimationFrame Count: 108
 AnimationFrame Data Size: 1728
-ImageFrames: 103
-ImageFrame Data Size: 4532
+ImageFrames: 104
+ImageFrame Data Size: 4576
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 2
 Attack Data Size: 132
-Misc data size: 16
+Misc data size: 14
 Music file mod_intro Original size 17748 Crunched size 2466
-Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3262
-Panel hud Original size 10180 Crunched size 1110
-Panel main_menu Original size 61362 Crunched size 6820
-Panel pic_title Original size 53858 Crunched size 25214
-Panel talkpad Original size 28822 Crunched size 2912
-Header data for map map_bedroom Original size 7992 Crunched size 280
-Tile data for map map_bedroom (mem restrictions:None) Original size 2098 Crunched size 480
-Background for map map_bedroom Original size 1396 Crunched size 80
-Header data for map map_house_night Original size 7992 Crunched size 244
-Tile data for map map_house_night (mem restrictions:None) Original size 2066 Crunched size 452
-Background for map map_house_night Original size 1396 Crunched size 80
-Header data for map map_intro Original size 7992 Crunched size 272
-Tile data for map map_intro (mem restrictions:None) Original size 6828 Crunched size 1608
-Background for map map_intro Original size 1396 Crunched size 80
-Header data for map map_outside Original size 7992 Crunched size 320
-Tile data for map map_outside (mem restrictions:None) Original size 24650 Crunched size 3034
-Background for map map_outside Original size 1396 Crunched size 80
-Asset bundle 0 (Core project asset bundle) Original size 82264 Crunched size 42480
-Asset bundle 1 (map_bedroom) Original size 10560 Crunched size 4290
-Asset bundle 2 (map_house_night) Original size 11840 Crunched size 5356
-Asset bundle 3 (map_intro) Original size 83840 Crunched size 65116
-Asset bundle 4 (map_outside) Original size 29194 Crunched size 14164
-Project Header Original size 4032 Crunched size 1194
-Project Data Original size 8908 Crunched size 2536
-Project virtual machine (codeblocks) Original size 13182 Crunched size 4204
+Panel scorpion_eng_splashscreen Original size 35160 Crunched size 3260
+Panel hud Original size 10182 Crunched size 1104
+Panel main_menu Original size 61320 Crunched size 6812
+Panel pic_title Original size 53860 Crunched size 25210
+Panel talkpad Original size 28814 Crunched size 2912
+Header data for map map_bedroom Original size 7996 Crunched size 282
+Tile data for map map_bedroom (mem restrictions:None) Original size 2098 Crunched size 498
+Background for map map_bedroom Original size 1400 Crunched size 80
+Header data for map map_house_night Original size 7996 Crunched size 246
+Tile data for map map_house_night (mem restrictions:None) Original size 2066 Crunched size 474
+Background for map map_house_night Original size 1400 Crunched size 80
+Header data for map map_intro Original size 7996 Crunched size 274
+Tile data for map map_intro (mem restrictions:None) Original size 6828 Crunched size 1812
+Background for map map_intro Original size 1400 Crunched size 80
+Header data for map map_outside Original size 7996 Crunched size 322
+Tile data for map map_outside (mem restrictions:None) Original size 24650 Crunched size 3038
+Background for map map_outside Original size 1400 Crunched size 80
+Asset bundle 0 (Core project asset bundle) Original size 82174 Crunched size 42468
+Asset bundle 1 (map_bedroom) Original size 10038 Crunched size 4268
+Asset bundle 2 (map_house_night) Original size 11580 Crunched size 5342
+Asset bundle 3 (map_intro) Original size 83258 Crunched size 65112
+Asset bundle 4 (map_outside) Original size 28250 Crunched size 14150
+Project Header Original size 4036 Crunched size 1198
+Project Data Original size 8950 Crunched size 2514
+Project virtual machine (codeblocks) Original size 13842 Crunched size 4318
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused Actors ===
@@ -83,81 +83,85 @@ link
 pickup_sword
 
 === Codeblocks by compiled size ===
-part1: 2186
-load_level: 726
-on_playercollide_enemies: 550
-set_yresolution: 446 (Unused?)
-on_playerhit_enemies: 424
-do_teleport: 368
-flipscreen_smooth: 306 (Unused?)
-startup: 294
-gamemenu: 292
-flipxymove: 250 (Unused?)
-on_pickupsword_collision: 236
-on_shieldchest_collision: 236
-pre_startup: 206
-check_talkpad: 188
-part2: 188
-waitforframes: 186
-on_exit_house: 182 (Unused?)
-part3: 172
-pause: 164 (Unused?)
+part1: 2270
+load_level: 764
+on_playercollide_enemies: 594
+set_yresolution: 458 (Unused?)
+on_playerhit_enemies: 448
+do_teleport: 424
+flipscreen_smooth: 310 (Unused?)
+gamemenu: 304
+startup: 302
+flipxymove: 278 (Unused?)
+on_pickupsword_collision: 256
+on_shieldchest_collision: 256
+part2: 208
+part3: 196
+waitforframes: 194
+check_talkpad: 192
+pre_startup: 192
+on_exit_house: 186 (Unused?)
+pause: 176 (Unused?)
+flipymove: 162 (Unused?)
 snap_to_screen: 158 (Unused?)
-flipymove: 146 (Unused?)
+pre_quit: 152
 load_panel: 146
-pre_quit: 144
+flipxmove: 142 (Unused?)
+unload_level: 142
 move_camera_right: 132
-flipxmove: 130 (Unused?)
-on_signpost: 128 (Unused?)
-destroy_all_blocks: 120 (Unused?)
-load_music: 118
-pre_load_level: 118
-unload_level: 114
-waitforfireup: 106
-fadein: 102
-waitforfiredown: 102
-on_killpuff_over: 100
-spawn_link: 98
+on_signpost: 132 (Unused?)
+load_music: 130
+destroy_all_blocks: 124 (Unused?)
+pre_load_level: 122
+waitforfireup: 114
+fadein: 112
+on_killpuff_over: 112
+waitforfiredown: 110
+unload_panel: 106
+spawn_link: 106
+on_bush_hit: 104
 load_panel_bottom: 96
 load_panel_top: 96
-unload_panel: 92
-on_bush_hit: 92
-destroy_child_actors: 90 (Unused?)
+destroy_child_actors: 94 (Unused?)
+autogen_link_attack_d_2: 90
+autogen_link_attack_r_2: 90
+autogen_link_attack_l_2: 90
+autogen_link_attack_u_2: 90
+fadeout: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
-autogen_link_attack_d_2: 86
-autogen_link_attack_r_2: 86
-autogen_link_attack_l_2: 86
-autogen_link_attack_u_2: 86
-fadeout: 84
-on_rupee_collision: 78
+on_rupee_collision: 86
+on_enter_house: 78 (Unused?)
+load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
-on_enter_house: 74 (Unused?)
+configure_level: 76
+set_ntsc: 74 (Unused?)
+spawn_pickup_sword: 74
+flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
-configure_level: 72
-flipscreen: 70 (Unused?)
-spawn_pickup_sword: 70
-quit: 66
-load_music_finish: 64
-jump_actor: 62 (Unused?)
+quit: 70
+jump_actor: 66 (Unused?)
+load_panel_finish: 66
 unload_panel_bottom: 62
 unload_panel_top: 62
-destroy_all_actors: 56 (Unused?)
-load_panel_finish: 56
-destroy_actor: 54
-regenerate_screen: 52
+destroy_all_actors: 60 (Unused?)
+destroy_actor: 58
+regenerate_screen: 58
+destroy_block: 52 (Unused?)
 return: 52 (Unused?)
-destroy_block: 48 (Unused?)
-regenerate_screen_wait: 42
-freeze_actor: 36 (Unused?)
-unfreeze_actor: 36 (Unused?)
+regenerate_screen_wait: 46
+freeze_actor: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
+clear_block_collision: 32
 vm_registers: 26 (Unused?)
 vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
+hardware_megadrive: 26 (Unused?)
 vm_constants_audiodriver: 26 (Unused?)
 vm_constants_controlbits: 26 (Unused?)
 vm_constants_notes: 26 (Unused?)

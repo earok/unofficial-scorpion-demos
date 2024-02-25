@@ -34,6 +34,7 @@
       <property name="amiga_aga_cd32" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="1" name="map" width="128" height="16">
@@ -60,6 +61,7 @@
       <property name="amiga_aga_cd32" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="objects" width="128" height="16">
@@ -86,6 +88,7 @@
       <property name="amiga_aga_cd32" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="foreground" width="128" height="16">
@@ -112,6 +115,7 @@
       <property name="amiga_aga_cd32" type="bool" value="true" />
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="true" />
+      <property name="megadrive" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="5" name="events">

@@ -19,7 +19,7 @@
   "Elements": [
     {
       "PanelElementType": 0,
-      "Variable": "score_high",
+      "Variable": "score",
       "X": 0,
       "Y": 0,
       "NumberFont": "defaultnumberfont",
@@ -29,12 +29,12 @@
       "CounterDivisions": 1,
       "PaletteLine": 3,
       "IsHighPriority": true,
-      "MaxValue": 999
+      "MaxValue": 999999
     },
     {
       "PanelElementType": 0,
-      "Variable": "score_low",
-      "X": 24,
+      "Variable": "highscore",
+      "X": 208,
       "Y": 0,
       "NumberFont": "defaultnumberfont",
       "Font": null,
@@ -43,13 +43,12 @@
       "CounterDivisions": 1,
       "PaletteLine": 3,
       "IsHighPriority": true,
-      "MaxValue": 999
+      "MaxValue": 999999
     }
   ],
   "GFXMode": "BP1",
   "PanelSlot": "Top",
   "PanelOptionSound": "none",
-  "PanelOptionSoundMD": "none",
   "OverlapsGameView": false,
   "CenterAdjustments": {
     "0": 32,
@@ -72,9 +71,13 @@
       "Left": -0.5,
       "Idle": 0.0,
       "Right": 0.5,
+      "Pseudo3DDistance": 0.0,
+      "Pseudo3DSpeed": 0.0,
       "Top": 0
     }
   ],
   "ParallaxOverlayPath": null,
-  "Gap": 4
+  "Gap": 4,
+  "MarsRenderMode": "ForegroundAlpha16bit",
+  "OnType": null
 }

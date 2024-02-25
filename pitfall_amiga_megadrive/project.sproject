@@ -22,6 +22,10 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
       "OnPress": "",
       "OnRelease": "cheat1",
       "buttonState": 0
@@ -43,6 +47,10 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
       "OnPress": null,
       "OnRelease": "restart_game",
       "buttonState": 0
@@ -64,6 +72,10 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
       "OnPress": "",
       "OnRelease": "cheat2",
       "buttonState": 0
@@ -85,6 +97,10 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
       "OnPress": "",
       "OnRelease": "cheat3",
       "buttonState": 0
@@ -106,6 +122,10 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
       "OnPress": "",
       "OnRelease": "cheat4",
       "buttonState": 0
@@ -127,6 +147,10 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
       "OnPress": "",
       "OnRelease": "cheat5",
       "buttonState": 0
@@ -148,6 +172,10 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
       "OnPress": null,
       "OnRelease": "quit",
       "buttonState": 0
@@ -169,6 +197,10 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
       "OnPress": null,
       "OnRelease": "restart_game",
       "buttonState": 48
@@ -237,13 +269,21 @@
       "Radix": 10
     }
   },
-  "FontMetaData": {},
+  "FontMetaData": {
+    "defaultfont": {
+      "IsMonoSpaced": false,
+      "LineHeight": 8,
+      "SpaceWidth": 8
+    }
+  },
   "SplashScreen": null,
   "LogicSpeed": "PAL_50HZ",
   "StartingPaletteLine": 0,
   "PaletteLines": 1,
   "ReadCD32Buttons": false,
-  "MDRegion": "E",
+  "ReadMD6Buttons": false,
+  "MDRegion": "Universal",
   "MDSoundDriver": "MDSDRV",
-  "SplashScreenFrames": 50
+  "SplashScreenFrames": 50,
+  "TestLevel": null
 }

@@ -1,29 +1,30 @@
+RAM reserved for level tiles: 24180 bytes (largest level: map)
+
 Default MD font Original size 2048 Crunched size 2048
 Default MD number font Original size 320 Crunched size 320
-Project virtual machine (codeblocks) Original size 15540 Crunched size 15540
-Panel  Original size 10332 Crunched size 10332
+Project virtual machine (codeblocks) Original size 16040 Crunched size 16040
+Panel  Original size 10334 Crunched size 10334
 Number font for panel 1 Original size 320 Crunched size 320
-Panel mainpanel Original size 1560 Crunched size 1560
+Panel mainpanel Original size 1534 Crunched size 1534
 Project blocks Original size 1564 Crunched size 1564
 Project actors Original size 3384 Crunched size 3384
 Project patterns Original size 1120 Crunched size 1120
 Pattern data for 1 Original size 1428 Crunched size 1428
-Dynamic pattern data for 1 Original size 32 Crunched size 32
-Map header map Original size 31288 Crunched size 31288
+Map header map Original size 31292 Crunched size 31292
 Get Y lookup table map Original size 372 Crunched size 372
-Map tile data  map Original size 12090 Crunched size 647
-Map block data for map Original size 12090 Crunched size 290
+Map tile data  map Original size 12090 Crunched size 727
+Map block data for map Original size 12090 Crunched size 292
 Map path node data for map Original size 12 Crunched size 12
 Map event data for map Original size 32 Crunched size 32
 Map animation data formap Original size 3216 Crunched size 3216
-Project name table Original size 2944 Crunched size 2944
+Project name table Original size 2904 Crunched size 2904
 Streamed project patterns Original size 27200 Crunched size 27200
-Images Original size 1708 Crunched size 1708
+Images Original size 1812 Crunched size 1812
 Animations Original size 624 Crunched size 624
 Animation Frames Original size 1616 Crunched size 1616
-Mega Drive header Original size 2894 Crunched size 2894
+Mega Drive header Original size 2902 Crunched size 2902
 Teleporters Original size 8 Crunched size 8
-Var Data Original size 16 Crunched size 16
+Var Data Original size 14 Crunched size 14
 Attack Data Original size 66 Crunched size 66
 
 === Possibly unused animations ===
@@ -47,119 +48,122 @@ rat_spawner
 scorpion
 
 === Codeblocks by compiled size ===
-load_level: 686
-ladder_top_handler: 434
-startup: 416
-set_yresolution: 386
-do_teleport: 348
-fall_ended: 328
-flipscreen_smooth: 306 (Unused?)
-getoffladder: 284
-man_handler: 282
-angel_handler: 280
+load_level: 724
+ladder_top_handler: 446
+startup: 440
+do_teleport: 404
+set_yresolution: 398
+fall_ended: 352
+man_handler: 330
+flipscreen_smooth: 310 (Unused?)
+angel_handler: 310
+getoffladder: 304
+frog_handler: 280
 ladder_middle_handler: 280
-frog_handler: 276
-flipxymove: 250 (Unused?)
-water_handler: 220
-function_subtractscore: 212
+flipxymove: 278 (Unused?)
+water_handler: 224
+pre_startup: 212
+rat_collision: 210
+waitforframes: 194
 balloon_handler: 192
-water_leftexit_handler: 188
-waitforframes: 186
-rat_collision: 186
-water_rightexit_handler: 184
-pre_startup: 182
-check_talkpad: 168 (Unused?)
-celebrate: 162
-ladder_bottom_handler: 160
+celebrate: 174
+check_talkpad: 172 (Unused?)
+water_leftexit_handler: 170
+water_rightexit_handler: 166
+ladder_bottom_handler: 164
+flipymove: 162 (Unused?)
+bird_leaveleft: 160
+bird_leaveright: 160
 snap_to_screen: 158
-fall_handler: 158
-bird_leaveleft: 152
-bird_leaveright: 152
-balloon_spawn: 150
-flipymove: 146 (Unused?)
+balloon_spawn: 154
+pre_quit: 152 (Unused?)
 load_panel: 146
-pre_quit: 144 (Unused?)
+fall_handler: 144
+flipxmove: 142 (Unused?)
+unload_level: 142
+balloon_collide: 142
+pause: 138 (Unused?)
 getoffladder_sides: 138
-flipxmove: 130 (Unused?)
+scorpion_handler: 136
+cheat1: 134 (Unused?)
+cheat2: 134 (Unused?)
+cheat3: 134 (Unused?)
+cheat4: 134 (Unused?)
+cheat5: 134 (Unused?)
+scroll_left: 134
+scroll_right: 134
+load_music: 130
 AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen: 130
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
-balloon_collide: 130
-cheat1: 128 (Unused?)
-cheat2: 128 (Unused?)
-cheat3: 128 (Unused?)
-cheat4: 128 (Unused?)
-cheat5: 128 (Unused?)
-scorpion_handler: 128
-scroll_left: 128
-scroll_right: 128
-pause: 126 (Unused?)
-waterfall_handler: 126
-wrap_right: 122
-destroy_all_blocks: 120 (Unused?)
-load_music: 118
-pre_load_level: 118
-hittest: 118
-unload_level: 114
-offscreen_left: 114
-offscreen_right: 114
-waitforfireup: 106
-fadein: 102
-waitforfiredown: 102
-ladder_handler: 100
+waterfall_handler: 130
+wrap_right: 126
+destroy_all_blocks: 124 (Unused?)
+pre_load_level: 122
+hittest: 122
+offscreen_left: 122
+offscreen_right: 122
+waitforfireup: 114
+fadein: 112
+waitforfiredown: 110
+collect_diamond: 110
+collect_quickclaw: 110
+collect_rhonda: 110
+unload_panel: 106
+ladder_handler: 104
+set_man: 100
+collect_goldbar: 98
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96
-collect_diamond: 94
-collect_quickclaw: 94
-collect_rhonda: 94
-unload_panel: 92
-set_man: 92
-destroy_child_actors: 90 (Unused?)
+destroy_child_actors: 94 (Unused?)
+autogen_anim_rat_0: 90
+fadeout: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
-autogen_anim_rat_0: 86
-fadeout: 84
-rat_spawn: 80
+balloon_pop: 86
+rat_spawn: 84
 AUTOGEN_OUTOFSCREEN_scroll_left_scroll_right_None_None: 78
 AUTOGEN_OUTOFSCREEN_wrap_fix_wrap_right_None_None: 78
 AUTOGEN_OUTOFSCREEN_bird_leaveleft_bird_leaveright_None_None: 78
 AUTOGEN_OUTOFSCREEN_offscreen_left_offscreen_right_None_None: 78
-collect_goldbar: 78
+load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
+wrap_fix: 76
+flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
-balloon_pop: 72
-wrap_fix: 72
-flipscreen: 70 (Unused?)
-load_music_finish: 64
-forcejump_end: 64 (Unused?)
-jump_actor: 62 (Unused?)
+forcejump_end: 70 (Unused?)
+jump_actor: 66 (Unused?)
+load_panel_finish: 66
+set_ladder: 64
 unload_panel_bottom: 62
 unload_panel_top: 62
-set_ladder: 60
-destroy_all_actors: 56 (Unused?)
-load_panel_finish: 56
-destroy_actor: 54
+destroy_all_actors: 60 (Unused?)
+destroy_actor: 58
+regenerate_screen: 58
 AUTOGEN_OUTOFSCREEN_None_scroll_right_None_None: 54
 balloon_spawn_repeat: 54
 key_handler: 54
-regenerate_screen: 52
+destroy_block: 52
 return: 52 (Unused?)
 spawn_handler: 52
-destroy_block: 48
-quit: 46 (Unused?)
-regenerate_screen_wait: 42
-rat_activate: 42
+quit: 50 (Unused?)
+regenerate_screen_wait: 46
+rat_activate: 46
+freeze_actor: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
 autogen_fall_r_0: 38
 autogen_fall_l_0: 38
-freeze_actor: 36 (Unused?)
-unfreeze_actor: 36 (Unused?)
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
+clear_block_collision: 32
 cushion_land: 32
 vm_registers: 26 (Unused?)
 vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
+hardware_megadrive: 26 (Unused?)
+set_ntsc: 26
 vm_constants_audiodriver: 26 (Unused?)
 vm_constants_controlbits: 26 (Unused?)
 vm_constants_notes: 26 (Unused?)
