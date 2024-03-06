@@ -1,0 +1,28 @@
+{
+  "BlockImagePath": "blocks\\solid.png",
+  "X": 0,
+  "Y": 0,
+  "Divert_PlayerCollision": null,
+  "Divert_PlayerHit": null,
+  "Divert_PlayerOverlap": null,
+  "Divert_ProjectileCollision": null,
+  "OnAnimationFrame": null,
+  "FastBlit": false,
+  "IsInvisible": true,
+  "ReplaceTileProperties": true,
+  "LinkedMap": "",
+  "BlockSolidType": "Solid",
+  "PlayerCollisionOverride": "Default",
+  "ProjectileCollisionOverride": "Default",
+  "Priorities": [
+    [
+      false,
+      false
+    ],
+    [
+      false,
+      false
+    ]
+  ],
+  "TileID": 1
+}
