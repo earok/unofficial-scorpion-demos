@@ -1,0 +1,8 @@
+NullReferenceException: Object reference not set to an instance of an object
+AnimationManager.get_SelectedEventID () (at <daed6d2ae4da4968992f6b45272c7e65>:0)
+AnimationManager.get_SelectedEvent () (at <daed6d2ae4da4968992f6b45272c7e65>:0)
+AnimationManager.GetValue (System.String parameter) (at <daed6d2ae4da4968992f6b45272c7e65>:0)
+Binder_Base.get_BoundValue () (at <daed6d2ae4da4968992f6b45272c7e65>:0)
+Binder_Visibility.RefreshUI () (at <daed6d2ae4da4968992f6b45272c7e65>:0)
+Binder_Base.OnEnable () (at <daed6d2ae4da4968992f6b45272c7e65>:0)
+UnityEngine.EventSystems.EventSystem:Update()
