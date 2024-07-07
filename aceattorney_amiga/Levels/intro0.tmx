@@ -51,6 +51,7 @@
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="False" />
       <property name="megadrive" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="objects" width="67" height="38">
@@ -98,6 +99,7 @@
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="False" />
       <property name="megadrive" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="foreground" width="67" height="38">
@@ -145,6 +147,7 @@
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="True" />
       <property name="megadrive" type="bool" value="true" />
+      <property name="neogeo" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="0" name="events" />

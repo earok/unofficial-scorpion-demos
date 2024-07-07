@@ -25,7 +25,7 @@
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
-      "Disabled": true,
+      "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
       "NewBlock": "none",

@@ -1,27 +1,22 @@
 {
   "Frames": [
     {
-      "Duration": 1,
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
-      "Path": "batman_hang.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HandleX": -6,
-      "HandleY": 0,
-      "XFlipped": true,
+      "Path": "snake_run_2.png",
+      "HandleX": -14,
+      "HandleY": -40,
+      "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "batman_hang",
+      "Name": "snake_run_2",
       "IsBlank": false
     }
   ],
@@ -29,9 +24,9 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0
+  "PatternBuffer": 0,
+  "LinkedMap": ""
 }

@@ -110,7 +110,7 @@
       "Goto": "",
       "Comment": "gravity per frame",
       "Variable": "gravity",
-      "Expression": "0.1",
+      "Expression": "0.2",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,

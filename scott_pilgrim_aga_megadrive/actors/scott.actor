@@ -1,6 +1,5 @@
 {
-  "ShootDirType": "actor_direction",
-  "ClassType": "DefaultClass",
+  "ShootDirType": "projectile_direction",
   "DefaultLookDir": "left",
   "Recycle": "Default",
   "MoveType": "control",
@@ -110,7 +109,7 @@
     "Width": 16,
     "Height": 16
   },
-  "AttackDelay": 0,
+  "AttackDelay": 1,
   "ZOrder": 1,
   "SpeedLeft": 2.0,
   "SpeedRight": 2.0,
@@ -128,11 +127,12 @@
   "CollType_Up": "block",
   "CollType_Down": "block",
   "Player": null,
+  "BlockCollider": null,
   "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
   "Flags": 0,
-  "AttackProjectile": null,
+  "AttackProjectile": "",
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
@@ -159,8 +159,40 @@
     "0"
   ],
   "ControlPort": 1,
-  "DataVersion": 3,
+  "DataVersion": 4,
+  "ActorTag": "None",
   "AutoSpawn": null,
   "AutoNavigate": false,
+  "ActorTimeline": {
+    "TimelineFrames": {
+      "50": {
+        "X": 16,
+        "Y": 16,
+        "EaseX": "linear",
+        "EaseY": "linear",
+        "Bezier": "linear",
+        "BezierPoints": [
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          }
+        ]
+      }
+    },
+    "TimelineEvents": {},
+    "PingPong": false
+  },
+  "DontSpawnIfTooMany": false,
+  "DivertMeleeByProjectile": null,
+  "DivertMeleeAgainstProjectile": null,
+  "IsAttacker": true,
   "TileID": 0
 }

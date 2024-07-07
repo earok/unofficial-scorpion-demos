@@ -1,172 +1,166 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Multiplexes": 0,
+      "PaletteLine": 2,
+      "PaletteLineNeo": 2,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
       "Path": "idle1.png",
-      "Duration": 5,
       "HandleX": -16,
       "HandleY": -58,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 2,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "OnlySprite",
-      "HighPriority": false
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "idle1",
+      "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Multiplexes": 0,
+      "PaletteLine": 2,
+      "PaletteLineNeo": 2,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
       "Path": "idle2.png",
-      "Duration": 5,
       "HandleX": -16,
       "HandleY": -56,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 2,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "OnlySprite",
-      "HighPriority": false
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "idle2",
+      "IsBlank": false
     },
     {
-      "Path": "idle3.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
+      "Multiplexes": 0,
+      "PaletteLine": 2,
+      "PaletteLineNeo": 2,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "idle3.png",
       "HandleX": -17,
       "HandleY": -55,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 2,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "OnlySprite",
-      "HighPriority": false
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "idle3",
+      "IsBlank": false
     },
     {
-      "Path": "idle4.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
+      "Multiplexes": 0,
+      "PaletteLine": 2,
+      "PaletteLineNeo": 2,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "idle4.png",
       "HandleX": -17,
       "HandleY": -56,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 2,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "OnlySprite",
-      "HighPriority": false
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "idle4",
+      "IsBlank": false
     },
     {
-      "Path": "idle5.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
+      "Multiplexes": 0,
+      "PaletteLine": 2,
+      "PaletteLineNeo": 2,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "idle5.png",
       "HandleX": -17,
       "HandleY": -58,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 2,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "OnlySprite",
-      "HighPriority": false
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "idle5",
+      "IsBlank": false
     },
     {
-      "Path": "idle6.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
+      "Multiplexes": 0,
+      "PaletteLine": 2,
+      "PaletteLineNeo": 2,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "idle6.png",
       "HandleX": -17,
       "HandleY": -56,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 2,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "OnlySprite",
-      "HighPriority": false
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "idle6",
+      "IsBlank": false
     },
     {
-      "Path": "idle7.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
+      "Multiplexes": 0,
+      "PaletteLine": 2,
+      "PaletteLineNeo": 2,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "idle7.png",
       "HandleX": -17,
       "HandleY": -55,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 2,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "OnlySprite",
-      "HighPriority": false
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "idle7",
+      "IsBlank": false
     },
     {
-      "Path": "idle8.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
+      "Multiplexes": 0,
+      "PaletteLine": 2,
+      "PaletteLineNeo": 2,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "idle8.png",
       "HandleX": -17,
       "HandleY": -56,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 2,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "OnlySprite",
-      "HighPriority": false
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "idle8",
+      "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "l1",
   "OnFinish": null,
   "AutoFlip": true,
-  "Streamed": true
+  "Streamed": true,
+  "PatternBuffer": 0,
+  "LinkedMap": "l1"
 }

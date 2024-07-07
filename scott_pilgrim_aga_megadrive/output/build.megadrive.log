@@ -1,30 +1,53 @@
-RAM reserved for level tiles: 1088 bytes (largest level: l1)
+Compiled on Sunday, 7 July 2024 4:15:11 p.m.
+Version string: SE2024.1.240707.16.03.EX
 
-Default MD font Original size 2048 Crunched size 2048
-Default MD number font Original size 320 Crunched size 320
-Project virtual machine (codeblocks) Original size 8126 Crunched size 8126
-Panel  Original size 10334 Crunched size 10334
-Panel title Original size 31518 Crunched size 31518
-Project blocks Original size 68 Crunched size 68
-Project actors Original size 940 Crunched size 940
-Project patterns Original size 32 Crunched size 32
-Pattern data for 1 Original size 3054 Crunched size 3054
-Map header l1 Original size 8892 Crunched size 8892
-Get Y lookup table l1 Original size 64 Crunched size 64
-Map tile data  l1 Original size 544 Crunched size 14
+ImageFrames: 84
+ImageFrame Data Size: 3722
+Actor Count: 5
+Actor Data Size: 900
+Animations Count: 14
+Animations Data Size: 224
+AnimationFrame Count: 59
+AnimationFrame Data Size: 944
+XGM Null song Original size 172 Crunched size 172
+Project sound Original size 28 Crunched size 28
 Map block data for l1 Original size 544 Crunched size 6
-Map path node data for l1 Original size 12 Crunched size 12
-Map event data for l1 Original size 32 Crunched size 32
-Project name table Original size 2512 Crunched size 2512
-Streamed project patterns Original size 105344 Crunched size 105344
+Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
+XGM Null sound Original size 256 Crunched size 256
+XGM 68K Plugin Driver Original size 812 Crunched size 812
+XGM Core Driver Original size 5888 Crunched size 5888
+Default MD font Original size 2048 Crunched size 2048
+Project virtual machine (codeblocks) Original size 8880 Crunched size 8880
+Panel  Original size 10350 Crunched size 10350
+Panel title Original size 31534 Crunched size 31534
+Project blocks Original size 68 Crunched size 68
 Images Original size 3722 Crunched size 3722
+Project actors Original size 900 Crunched size 900
+Project patterns Original size 32 Crunched size 32
+Map tile data  l1 Original size 544 Crunched size 14
+Tile data for map l1 (mem restrictions:None) Original size 896 Crunched size 896
+Pattern data for 1 Original size 2766 Crunched size 2766
+Map event data for l1 Original size 40 Crunched size 40
+Get Y lookup table l1 Original size 64 Crunched size 64
+Map path node data for l1 Original size 12 Crunched size 12
+Header data for map l1 Original size 8000 Crunched size 8000
+Project name table Original size 2336 Crunched size 2336
+Streamed project patterns Original size 67616 Crunched size 67616
 Animations Original size 224 Crunched size 224
 Animation Frames Original size 944 Crunched size 944
-Mega Drive header Original size 2902 Crunched size 2902
-Teleporters Original size 8 Crunched size 8
+Project Header Original size 2902 Crunched size 2902
 Var Data Original size 14 Crunched size 14
-Attack Data Original size 132 Crunched size 132
+Attack Data Original size 352 Crunched size 352
+Teleporters Original size 8 Crunched size 8
 Commands for Joystick 1 Original size 12 Crunched size 12
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+RAM reserved for level tiles: (largest level: l1): 1088
+memory reserved for active actors on screen (32): 4616
+memory reserved for dormant actors in map (256): 9216
+
+Total: 14920 bytes
 
 === Possibly unused animations ===
 william_hurt_r
@@ -34,16 +57,20 @@ william_idle_r
 william
 
 === Codeblocks by compiled size ===
-load_level: 724
+load_level: 528
 do_teleport: 404
-set_yresolution: 398 (Unused?)
+set_yresolution: 390 (Unused?)
+pre_startup: 342
 flipscreen_smooth: 310 (Unused?)
+scott_autogen_attack: 292
 flipxymove: 278 (Unused?)
-pre_startup: 212
+block_find: 206 (Unused?)
 waitforframes: 194
 startup: 194
-jumper_handler: 174
+scott_jumpshadow_autogen_attack: 184
+block_count: 178 (Unused?)
 check_talkpad: 172 (Unused?)
+jumper_handler: 170
 flipymove: 162 (Unused?)
 snap_to_screen: 158 (Unused?)
 pre_quit: 152 (Unused?)
@@ -51,8 +78,8 @@ load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
 pause: 138 (Unused?)
-load_music: 130 (Unused?)
-destroy_all_blocks: 124 (Unused?)
+show_panel: 130
+destroy_all_blocks: 128 (Unused?)
 pre_load_level: 122
 waitforfireup: 114
 fadein: 112
@@ -62,6 +89,7 @@ unload_panel: 106
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
+autogen_anim_shadow_0: 90
 autogen_scott_punch_r_1: 90
 autogen_scott_punch_l_1: 90
 fadeout: 88
@@ -73,6 +101,7 @@ wrap_screen_right: 76 (Unused?)
 flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
+load_music: 70 (Unused?)
 jump_actor: 66 (Unused?)
 load_panel_finish: 66
 unload_panel_bottom: 62
@@ -92,14 +121,6 @@ block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
 clear_block_collision: 32
 vm_registers: 26 (Unused?)
-vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
-hardware_amiga: 26 (Unused?)
-hardware_megadrive: 26 (Unused?)
 set_ntsc: 26
-vm_constants_audiodriver: 26 (Unused?)
-vm_constants_controlbits: 26 (Unused?)
-vm_constants_notes: 26 (Unused?)
-vm_constants_platform: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
-show_panel: 26

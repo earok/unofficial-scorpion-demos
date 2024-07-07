@@ -1,21 +1,16 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 2,
+      "PaletteLineNeo": 2,
       "RenderType": "OnlySprite",
       "SpriteType": "Attached_16colors",
       "Path": "jump_temp.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -19,
       "HandleY": -57,
       "XFlipped": false,
@@ -25,13 +20,14 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": true,
   "Streamed": true,
-  "PatternBuffer": 0
+  "PatternBuffer": 0,
+  "LinkedMap": ""
 }

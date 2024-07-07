@@ -1,15 +1,8 @@
 {
   "TargetPlatform": "amiga_aga",
-  "Talkpad": null,
-  "Talkpad_OnBottom": false,
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DebugMode": false,
-  "StartupSequenceDirty": false,
-  "Fire1Jump": false,
-  "Fire2Jump": true,
-  "UpJump": true,
-  "JumpOnHold": false,
   "DataVersion": 4,
   "Commands": [
     {
@@ -29,8 +22,19 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
+      "Neo_A": false,
+      "Neo_B": false,
+      "Neo_C": false,
+      "Neo_D": false,
+      "Neo_Start": false,
+      "Neo_Select": false,
       "OnPress": "keyboard_left_d",
-      "OnRelease": "keyboard_left_u"
+      "OnRelease": "keyboard_left_u",
+      "buttonState": 0
     },
     {
       "Compiler": "amiga",
@@ -49,8 +53,19 @@
       "MegaDrive_C": false,
       "MegaDrive_A": false,
       "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
+      "Neo_A": false,
+      "Neo_B": false,
+      "Neo_C": false,
+      "Neo_D": false,
+      "Neo_Start": false,
+      "Neo_Select": false,
       "OnPress": "keyboard_right_d",
-      "OnRelease": "keyboard_right_u"
+      "OnRelease": "keyboard_right_u",
+      "buttonState": 0
     }
   ],
   "AnimationMetaData": {},
@@ -60,7 +75,8 @@
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},
@@ -68,7 +84,11 @@
   "FontMetaData": {},
   "SplashScreen": null,
   "LogicSpeed": "PAL_50HZ",
-  "PaletteLines": 1,
   "ReadCD32Buttons": false,
-  "MDRegion": "E"
+  "ReadMD6Buttons": false,
+  "MDRegion": "Universal",
+  "MDSoundDriver": "MDSDRV",
+  "SplashScreenFrames": 50,
+  "TestLevel": null,
+  "SafetyRails": true
 }

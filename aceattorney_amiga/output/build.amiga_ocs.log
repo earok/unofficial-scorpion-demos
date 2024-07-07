@@ -1,36 +1,13 @@
-=== Image optimisations ===
-
-=== Estimated memory usages ===
-
-For chip:
-Map gfx (level gfx bundle 1): 340360
-Music memory (): 0
-BP Buffer memory: 132480
-core sfx/gfx memory: 25242
-Parallax memory: 0
-OS/other estimated: 99328
-
-For other:
-Map cache memory: 0
-Map header cache memory: 0
-Map data memory: 40380
-Map background memory: 1400
-EXE memory: 210384
-vm memory: 53692
-project memory: 590
-memory reserved for active actors on screen (32): 4744
-memory reserved for dormant actors in map (256): 9216
-OS/other estimated: 105472
-
-Accounted memory chip: 702882
-Accounted memory other: 320406
-Accounted memory total: 1023288
+Compiled on Sunday, 7 July 2024 4:41:53 p.m.
+Version string: SE2024.1.240707.16.03.EX
 
 === Misc ===
+ImageFrames: 1
+ImageFrame Data Size: 44
 Maps and Asset Bundles Count: 4
 Maps and Asset Bundles Data Size: 48
 Actor Count: 1
-Actor Data Size: 188
+Actor Data Size: 180
 Block Count: 1
 Block Data Size: 68
 Anim5 Count: 0
@@ -43,33 +20,60 @@ Animations Count: 1
 Animations Data Size: 16
 AnimationFrame Count: 2
 AnimationFrame Data Size: 32
-ImageFrames: 2
-ImageFrame Data Size: 88
 Sprites: 1
 Sprites Data Size: 14
-Attack Data: 0
-Attack Data Size: 0
+Attack Data: 1
+Attack Data Size: 88
 Misc data size: 14
-Panel scorpion_eng_splashscreen Original size 35160 Crunched size 3260
-Panel pic_title Original size 53860 Crunched size 11692
-Panel talkpad Original size 48132 Crunched size 6636
-Header data for map court Original size 7996 Crunched size 282
-Tile data for map court (mem restrictions:No_Blocks) Original size 40380 Crunched size 9326
-Background for map court Original size 1400 Crunched size 80
-Header data for map intro0 Original size 7996 Crunched size 282
-Tile data for map intro0 (mem restrictions:No_Blocks) Original size 11420 Crunched size 4062
-Background for map intro0 Original size 1400 Crunched size 80
-Header data for map lobby Original size 7996 Crunched size 276
-Tile data for map lobby (mem restrictions:No_Blocks) Original size 18012 Crunched size 2730
-Background for map lobby Original size 1400 Crunched size 80
+=== Image optimisations ===
+Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
+Panel pic_title Original size 53872 Crunched size 11694
+Panel talkpad Original size 48144 Crunched size 6636
+Project virtual machine (codeblocks) Original size 53258 Crunched size 15528
+Header data for map court Original size 8000 Crunched size 284
+Tile data for map court (mem restrictions:No_Blocks) Original size 40388 Crunched size 9334
+Background for map court Original size 1396 Crunched size 80
+Header data for map intro0 Original size 8000 Crunched size 284
+Tile data for map intro0 (mem restrictions:No_Blocks) Original size 11428 Crunched size 4070
+Background for map intro0 Original size 1396 Crunched size 80
+Header data for map lobby Original size 8000 Crunched size 278
+Tile data for map lobby (mem restrictions:No_Blocks) Original size 18020 Crunched size 2736
+Background for map lobby Original size 1396 Crunched size 80
 Asset bundle 0 (Core project asset bundle) Original size 25242 Crunched size 21802
 Asset bundle 1 (court) Original size 340360 Crunched size 167270
 Asset bundle 2 (intro0) Original size 166144 Crunched size 91110
 Asset bundle 3 (lobby) Original size 96694 Crunched size 56826
-Project Header Original size 4036 Crunched size 1190
-Project Data Original size 590 Crunched size 122
-Project virtual machine (codeblocks) Original size 53692 Crunched size 15488
-Project virtual machine redirects Original size 1864 Crunched size 1356
+Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
+Project Header Original size 4036 Crunched size 1188
+Project Data Original size 626 Crunched size 118
+Project virtual machine redirects Original size 1848 Crunched size 1346
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+
+For chip:
+Map gfx (level gfx bundle 1): 340360
+Music memory (): 0
+BP Buffer memory: 132480
+core sfx/gfx memory: 25242
+Parallax memory: 0
+OS/other estimated: 99328
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 40388
+Map background memory: 1396
+EXE memory: 215848
+vm memory: 53258
+project memory: 626
+memory reserved for active actors on screen (32): 4616
+memory reserved for dormant actors in map (256): 9216
+OS/other estimated: 105472
+
+Accounted memory chip: 597410
+Accounted memory other: 430820
+Accounted memory total: 1028230
 
 === Codeblocks by compiled size ===
 courtroom_questioning: 11134
@@ -84,15 +88,17 @@ courtroom_choosevictim: 2026
 start_case1: 1376
 open_evidence: 1130
 open_profiles: 946
-load_level: 764
-set_yresolution: 458
+load_level: 568
 do_teleport: 424
+pre_startup: 354
 flipscreen_smooth: 310 (Unused?)
 flipxymove: 278 (Unused?)
 startup: 234
+block_find: 206 (Unused?)
+set_yresolution: 202
 waitforframes: 194
 check_talkpad: 192
-pre_startup: 192
+block_count: 178 (Unused?)
 pause: 176 (Unused?)
 flipymove: 162 (Unused?)
 snap_to_screen: 158 (Unused?)
@@ -100,24 +106,23 @@ pre_quit: 152
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
-load_music: 130 (Unused?)
-destroy_all_blocks: 124 (Unused?)
+destroy_all_blocks: 128 (Unused?)
 open_court_record: 124
 pre_load_level: 122
 waitforfireup: 114
 fadein: 112
 waitforfiredown: 110
+objection_payne: 110
 unload_panel: 106
-objection_payne: 104
-objection_phoenix: 104
-show_court_gavel: 100
+show_court_gavel: 106
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
 fadeout: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
-show_court_phoenix_deskslam: 78
+show_court_phoenix_deskslam: 84
+load_music: 78 (Unused?)
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
@@ -154,12 +159,8 @@ show_court_payne_smug: 58 (Unused?)
 show_court_phoenix_normal: 58
 show_court_phoenix_smug: 58
 show_lobby_cindy: 58
-show_lobby_larry_nervous: 58
-show_lobby_mia_curious: 58
-show_lobby_mia_smile2: 58
 show_court_larry_normal: 54
 show_court_payne_normal: 54
-show_lobby_larry_crying: 54
 show_lobby_mia_smile1: 54
 destroy_block: 52 (Unused?)
 return: 52
@@ -171,12 +172,5 @@ block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
 clear_block_collision: 32
 vm_registers: 26 (Unused?)
-vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
-hardware_amiga: 26 (Unused?)
-hardware_megadrive: 26 (Unused?)
-vm_constants_audiodriver: 26 (Unused?)
-vm_constants_controlbits: 26 (Unused?)
-vm_constants_notes: 26 (Unused?)
-vm_constants_platform: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)

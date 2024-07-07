@@ -1,5 +1,5 @@
-Compiled on Saturday, 29 June 2024 11:50:56 p.m.
-Version string: SE2024.1.240629.16.00.EX
+Compiled on Sunday, 7 July 2024 4:26:59 p.m.
+Version string: SE2024.1.240707.16.03.EX
 
 === Misc ===
 ImageFrames: 46
@@ -35,7 +35,7 @@ Asset bundle 0 (Core project asset bundle) Original size 97188 Crunched size 332
 Asset bundle 1 (l1_map) Original size 35442 Crunched size 12210
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 1196
-Project Data Original size 4558 Crunched size 1314
+Project Data Original size 4558 Crunched size 1320
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -54,7 +54,7 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 3010
 Map background memory: 1396
-EXE memory: 214900
+EXE memory: 215848
 vm memory: 7868
 project memory: 4558
 memory reserved for active actors on screen (32): 4616
@@ -62,8 +62,8 @@ memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 383208
-Accounted memory other: 351036
-Accounted memory total: 734244
+Accounted memory other: 351984
+Accounted memory total: 735192
 
 === Possibly unused Actors ===
 p_erik

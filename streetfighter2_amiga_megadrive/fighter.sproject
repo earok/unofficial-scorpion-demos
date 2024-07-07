@@ -26,6 +26,12 @@
       "MegaDrive_Y": false,
       "MegaDrive_Z": false,
       "MegaDrive_Mode": false,
+      "Neo_A": false,
+      "Neo_B": false,
+      "Neo_C": false,
+      "Neo_D": false,
+      "Neo_Start": false,
+      "Neo_Select": false,
       "OnPress": "punch",
       "OnRelease": null,
       "buttonState": 1
@@ -51,6 +57,12 @@
       "MegaDrive_Y": false,
       "MegaDrive_Z": false,
       "MegaDrive_Mode": false,
+      "Neo_A": false,
+      "Neo_B": false,
+      "Neo_C": false,
+      "Neo_D": false,
+      "Neo_Start": false,
+      "Neo_Select": false,
       "OnPress": "kick",
       "OnRelease": null,
       "buttonState": 2
@@ -76,6 +88,12 @@
       "MegaDrive_Y": false,
       "MegaDrive_Z": false,
       "MegaDrive_Mode": false,
+      "Neo_A": false,
+      "Neo_B": false,
+      "Neo_C": false,
+      "Neo_D": false,
+      "Neo_Start": false,
+      "Neo_Select": false,
       "OnPress": "charge",
       "OnRelease": null,
       "buttonState": 0
@@ -192,12 +210,11 @@
   "FontMetaData": {},
   "SplashScreen": null,
   "LogicSpeed": "PAL_50HZ",
-  "StartingPaletteLine": 0,
-  "PaletteLines": 1,
   "ReadCD32Buttons": false,
   "ReadMD6Buttons": false,
   "MDRegion": "Universal",
   "MDSoundDriver": "XGM",
   "SplashScreenFrames": 50,
-  "TestLevel": null
+  "TestLevel": null,
+  "SafetyRails": true
 }
