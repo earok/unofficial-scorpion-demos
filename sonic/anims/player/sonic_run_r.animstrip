@@ -1,0 +1,91 @@
+{
+  "Frames": [
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "sonic_run_1_r.png",
+      "HandleX": -10,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "sonic_run_1_r",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "sonic_run_2_r.png",
+      "HandleX": -10,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "sonic_run_2_r",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "sonic_run_3_r.png",
+      "HandleX": -10,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "sonic_run_3_r",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "sonic_run_4_r.png",
+      "HandleX": -10,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "sonic_run_4_r",
+      "IsBlank": false
+    }
+  ],
+  "PreventAttack": false,
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "OnFinish": "reset_run",
+  "AutoFlip": true,
+  "Streamed": true,
+  "PatternBuffer": 0,
+  "AnimationTag": null,
+  "LinkedMap": ""
+}
