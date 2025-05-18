@@ -24,7 +24,6 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -81,6 +80,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": []
     },
     {
@@ -105,7 +105,6 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -162,6 +161,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "IsAmiga",
@@ -194,7 +194,6 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -251,6 +250,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": []
     },
     {
@@ -275,7 +275,6 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -332,6 +331,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": []
     },
     {
@@ -356,7 +356,6 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "map",
@@ -413,6 +412,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": []
     },
     {
@@ -437,7 +437,6 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -494,7 +493,16 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
-      "Conditions": []
+      "DiceSides": "2",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -518,7 +526,6 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -575,7 +582,16 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
-      "Conditions": []
+      "DiceSides": "2",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -599,7 +615,6 @@
       "Expression": "16",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -656,6 +671,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "i",
@@ -688,7 +704,6 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -745,6 +760,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -777,8 +793,7 @@
       "Expression": "512",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
-      "Disabled": false,
+      "Disabled": true,
       "Breakpoint": false,
       "Level": "none",
       "NewBlock": "none",
@@ -834,6 +849,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -862,11 +878,10 @@
       "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
-      "Variable": "new_var4",
-      "Expression": "118+32",
+      "Variable": "new_origin_x",
+      "Expression": "i * 4 + 240",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -923,6 +938,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": []
     },
     {
@@ -943,11 +959,10 @@
       "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
-      "Variable": "new_var5",
+      "Variable": "new_origin_y",
       "Expression": "i * 2 + 192 - 31",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -1004,6 +1019,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": []
     },
     {
@@ -1028,7 +1044,6 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -1085,6 +1100,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": []
     },
     {
@@ -1109,7 +1125,6 @@
       "Expression": "i + 1",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -1166,6 +1181,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": []
     },
     {
@@ -1190,7 +1206,6 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -1247,6 +1262,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": []
     }
   ]

@@ -1,36 +1,13 @@
-=== Image optimisations ===
-
-=== Estimated memory usages ===
-
-For chip:
-Map gfx (level gfx bundle 3): 83258
-Music memory (mod_intro): 17748
-BP Buffer memory: 132480
-core sfx/gfx memory: 82174
-Parallax memory: 0
-OS/other estimated: 99328
-
-For other:
-Map cache memory: 0
-Map header cache memory: 0
-Map data memory: 24650
-Map background memory: 1400
-EXE memory: 210376
-vm memory: 13842
-project memory: 8950
-memory reserved for active actors on screen (32): 4744
-memory reserved for dormant actors in map (256): 9216
-OS/other estimated: 105472
-
-Accounted memory chip: 520460
-Accounted memory other: 273178
-Accounted memory total: 793638
+Compiled on Sunday, 18 May 2025 7:59:57 p.m.
+Version string: SE2024.2.250517.21.12.EX
 
 === Misc ===
+ImageFrames: 107
+ImageFrame Data Size: 4708
 Maps and Asset Bundles Count: 5
 Maps and Asset Bundles Data Size: 60
 Actor Count: 8
-Actor Data Size: 1504
+Actor Data Size: 1440
 Block Count: 6
 Block Data Size: 408
 Anim5 Count: 0
@@ -43,94 +20,125 @@ Animations Count: 27
 Animations Data Size: 432
 AnimationFrame Count: 108
 AnimationFrame Data Size: 1728
-ImageFrames: 104
-ImageFrame Data Size: 4576
 Sprites: 1
 Sprites Data Size: 14
-Attack Data: 2
-Attack Data Size: 132
-Misc data size: 14
+Attack Data: 3
+Attack Data Size: 264
+Misc data size: 50
+=== Image optimisations ===
 Music file mod_intro Original size 17748 Crunched size 2466
-Panel scorpion_eng_splashscreen Original size 35160 Crunched size 3260
-Panel hud Original size 10182 Crunched size 1104
-Panel main_menu Original size 61320 Crunched size 6812
-Panel pic_title Original size 53860 Crunched size 25210
-Panel talkpad Original size 28814 Crunched size 2912
-Header data for map map_bedroom Original size 7996 Crunched size 282
-Tile data for map map_bedroom (mem restrictions:None) Original size 2098 Crunched size 498
-Background for map map_bedroom Original size 1400 Crunched size 80
-Header data for map map_house_night Original size 7996 Crunched size 246
-Tile data for map map_house_night (mem restrictions:None) Original size 2066 Crunched size 474
-Background for map map_house_night Original size 1400 Crunched size 80
-Header data for map map_intro Original size 7996 Crunched size 274
-Tile data for map map_intro (mem restrictions:None) Original size 6828 Crunched size 1812
-Background for map map_intro Original size 1400 Crunched size 80
-Header data for map map_outside Original size 7996 Crunched size 322
-Tile data for map map_outside (mem restrictions:None) Original size 24650 Crunched size 3038
-Background for map map_outside Original size 1400 Crunched size 80
-Asset bundle 0 (Core project asset bundle) Original size 82174 Crunched size 42468
+Panel (background color #000) Original size 1296 Crunched size 76
+Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
+Panel hud Original size 7288 Crunched size 536
+Panel bobs hud Original size 1132 Crunched size 368
+Panel main_menu Original size 50416 Crunched size 4418
+Panel bobs main_menu Original size 5554 Crunched size 1974
+Panel pic_title Original size 52992 Crunched size 25212
+Panel talkpad Original size 18304 Crunched size 842
+Panel bobs talkpad Original size 5422 Crunched size 1572
+Project virtual machine (codeblocks) Original size 14464 Crunched size 4542
+Map actor data for map_bedroom Original size 28 Crunched size 28
+Header data for map map_bedroom Original size 844 Crunched size 198
+Tile data for map map_bedroom (mem restrictions:None) Original size 2110 Crunched size 504
+Header data for map map_house_night Original size 844 Crunched size 164
+Tile data for map map_house_night (mem restrictions:None) Original size 2078 Crunched size 482
+Header data for map map_intro Original size 844 Crunched size 194
+Tile data for map map_intro (mem restrictions:None) Original size 6840 Crunched size 1822
+Map actor data for map_outside Original size 196 Crunched size 106
+Header data for map map_outside Original size 844 Crunched size 202
+Tile data for map map_outside (mem restrictions:None) Original size 24662 Crunched size 3042
+Asset bundle 0 (Core project asset bundle) Original size 82222 Crunched size 42480
 Asset bundle 1 (map_bedroom) Original size 10038 Crunched size 4268
 Asset bundle 2 (map_house_night) Original size 11580 Crunched size 5342
 Asset bundle 3 (map_intro) Original size 83258 Crunched size 65112
 Asset bundle 4 (map_outside) Original size 28250 Crunched size 14150
-Project Header Original size 4036 Crunched size 1198
-Project Data Original size 8950 Crunched size 2514
-Project virtual machine (codeblocks) Original size 13842 Crunched size 4318
+Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
+Project Header Original size 4408 Crunched size 1240
+Project Data Original size 9186 Crunched size 2628
 Project virtual machine redirects Original size 4 Crunched size 4
 
-=== Possibly unused Actors ===
-link
-pickup_sword
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+
+For chip:
+Map gfx (level gfx bundle 3): 83258
+Music memory (mod_intro): 17748
+BP Buffer memory: 132480
+Core sfx/gfx memory: 82222
+Parallax memory: 0
+OS/other estimated: 99328
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map actor cache memory: 0
+Map data memory: 24662
+Map background memory: 1296
+EXE memory: 204056
+vm memory: 14464
+project memory: 9186
+memory reserved for active actors on screen (32): 4616
+memory reserved for dormant actors in map (128): 4608
+OS/other estimated: 105472
+
+Accounted memory chip: 415036
+Accounted memory other: 368360
+Accounted memory total: 783396
 
 === Codeblocks by compiled size ===
-part1: 2270
-load_level: 764
-on_playercollide_enemies: 594
-set_yresolution: 458 (Unused?)
+part1: 2318
+on_playercollide_enemies: 584
+load_level: 550
 on_playerhit_enemies: 448
-do_teleport: 424
+pre_startup: 422
+do_teleport: 402
+gamemenu: 318
 flipscreen_smooth: 310 (Unused?)
-gamemenu: 304
-startup: 302
+startup: 310
+link_sword_autogen_attack: 286
 flipxymove: 278 (Unused?)
-on_pickupsword_collision: 256
-on_shieldchest_collision: 256
-part2: 208
-part3: 196
+on_pickupsword_collision: 262
+on_shieldchest_collision: 262
+load_next_level: 252 (Unused?)
+block_find: 206 (Unused?)
+set_yresolution: 202
 waitforframes: 194
 check_talkpad: 192
-pre_startup: 192
 on_exit_house: 186 (Unused?)
-pause: 176 (Unused?)
+part2: 186
+pause: 184 (Unused?)
+part3: 180
+block_count: 178 (Unused?)
 flipymove: 162 (Unused?)
+pre_quit: 160
 snap_to_screen: 158 (Unused?)
-pre_quit: 152
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
 move_camera_right: 132
 on_signpost: 132 (Unused?)
-load_music: 130
-destroy_all_blocks: 124 (Unused?)
+destroy_all_blocks: 128 (Unused?)
+restart_this_level: 128 (Unused?)
 pre_load_level: 122
-waitforfireup: 114
 fadein: 112
 on_killpuff_over: 112
-waitforfiredown: 110
+on_bush_hit: 110
 unload_panel: 106
 spawn_link: 106
-on_bush_hit: 104
+waitforfireup: 102
+waitforfiredown: 98
 load_panel_bottom: 96
 load_panel_top: 96
 destroy_child_actors: 94 (Unused?)
+on_rupee_collision: 92
 autogen_link_attack_d_2: 90
-autogen_link_attack_r_2: 90
 autogen_link_attack_l_2: 90
+autogen_link_attack_r_2: 90
 autogen_link_attack_u_2: 90
 fadeout: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
-on_rupee_collision: 86
+load_music: 78
 on_enter_house: 78 (Unused?)
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
@@ -158,12 +166,5 @@ block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
 clear_block_collision: 32
 vm_registers: 26 (Unused?)
-vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
-hardware_amiga: 26 (Unused?)
-hardware_megadrive: 26 (Unused?)
-vm_constants_audiodriver: 26 (Unused?)
-vm_constants_controlbits: 26 (Unused?)
-vm_constants_notes: 26 (Unused?)
-vm_constants_platform: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)

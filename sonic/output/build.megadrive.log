@@ -1,7 +1,6 @@
-Compiled on Friday, 25 October 2024 3:51:30 p.m.
-Version string: SE2024.2.241024.16.53.EX
+Compiled on Sunday, 18 May 2025 7:19:26 p.m.
+Version string: SE2024.2.250517.21.12.EX
 
-ImageFrames: 32
 ImageFrame Data Size: 1416
 Actor Count: 4
 Actor Data Size: 720
@@ -9,40 +8,40 @@ Animations Count: 15
 Animations Data Size: 240
 AnimationFrame Count: 79
 AnimationFrame Data Size: 1264
+Project patterns Original size 48 Crunched size 48
+Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
+Teleporters Original size 8 Crunched size 8
+XGM Null sound Original size 256 Crunched size 256
 XGM Null song Original size 172 Crunched size 172
+Map event data for green_hills_1 Original size 44 Crunched size 44
 Map path node data for green_hills_1 Original size 12 Crunched size 12
 Map actor data for green_hills_1 Original size 28 Crunched size 12
-Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-XGM Null sound Original size 256 Crunched size 256
-XGM 68K Plugin Driver Original size 802 Crunched size 802
-Project sound Original size 140 Crunched size 140
-Project patterns Original size 48 Crunched size 48
-Teleporters Original size 8 Crunched size 8
 XGM PCM sound Original size 1792 Crunched size 1792
-XGM Core Driver Original size 5888 Crunched size 5888
+XGM 68K Plugin Driver Original size 852 Crunched size 852
+Project sound Original size 140 Crunched size 140
 XGM PCM sound Original size 6144 Crunched size 6144
+XGM Core Driver Original size 5888 Crunched size 5888
 XGM PCM sound Original size 6656 Crunched size 6656
 XGM PCM sound Original size 22016 Crunched size 22016
 Default MD font Original size 2048 Crunched size 2048
-Project virtual machine (codeblocks) Original size 11490 Crunched size 11490
-Panel  Original size 10352 Crunched size 10352
+Project virtual machine (codeblocks) Original size 11294 Crunched size 11294
+Panel  Original size 10362 Crunched size 10362
 Project blocks Original size 1836 Crunched size 1836
 Images Original size 1416 Crunched size 1416
 Project actors Original size 720 Crunched size 720
 Map tile data  green_hills_1 Original size 9588 Crunched size 380
 Tile data for map green_hills_1 (mem restrictions:None) Original size 17920 Crunched size 17920
 Pattern data for 1 Original size 874 Crunched size 874
-Map event data for green_hills_1 Original size 40 Crunched size 40
 Get Y lookup table green_hills_1 Original size 136 Crunched size 136
-Header data for map green_hills_1 Original size 836 Crunched size 836
+Header data for map green_hills_1 Original size 844 Crunched size 844
 Map block data for green_hills_1 Original size 9588 Crunched size 422
 Project name table Original size 1432 Crunched size 1432
 Streamed project patterns Original size 19808 Crunched size 19808
 Animations Original size 240 Crunched size 240
 Animation Frames Original size 1264 Crunched size 1264
-Project Header Original size 3262 Crunched size 3262
+Project Header Original size 3266 Crunched size 3266
 Var Data Original size 50 Crunched size 50
-Attack Data Original size 264 Crunched size 264
+Attack Data Original size 176 Crunched size 176
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -71,13 +70,12 @@ reset_game: 244
 startup: 224
 block_find: 206 (Unused?)
 waitforframes: 194
-sonic_dead_autogen_attack: 184
 block_count: 178 (Unused?)
 check_talkpad: 172 (Unused?)
 kill_player: 170
 flipymove: 162 (Unused?)
+pre_quit: 160 (Unused?)
 snap_to_screen: 158 (Unused?)
-pre_quit: 152 (Unused?)
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
@@ -88,10 +86,10 @@ restart_this_level: 128 (Unused?)
 reset_run: 128
 pre_load_level: 122
 get_ring: 116
-waitforfireup: 114
 fadein: 112
-waitforfiredown: 110
 unload_panel: 106
+waitforfireup: 102
+waitforfiredown: 98
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)

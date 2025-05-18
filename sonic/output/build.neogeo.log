@@ -1,7 +1,6 @@
-Compiled on Friday, 25 October 2024 3:50:30 p.m.
-Version string: SE2024.2.241024.16.53.EX
+Compiled on Sunday, 18 May 2025 7:20:02 p.m.
+Version string: SE2024.2.250517.21.12.EX
 
-ImageFrames: 64
 ImageFrame Data Size: 2830
 Actor Count: 4
 Actor Data Size: 720
@@ -10,26 +9,27 @@ Animations Data Size: 240
 AnimationFrame Count: 79
 AnimationFrame Data Size: 1264
 Music file green_hill Original size 55110 Crunched size 39536
-Project virtual machine (codeblocks) Original size 9542 Crunched size 9542
-Panel  Original size 3120 Crunched size 3120
+Project virtual machine (codeblocks) Original size 9300 Crunched size 9300
+Panel  Original size 3130 Crunched size 3130
 Project blocks Original size 1836 Crunched size 1836
 Images Original size 2830 Crunched size 2830
 Project actors Original size 720 Crunched size 720
 Map block data for green_hills_1 Original size 9588 Crunched size 9588
 Map actor data for green_hills_1 Original size 28 Crunched size 12
-Header data for map green_hills_1 Original size 836 Crunched size 836
+Header data for map green_hills_1 Original size 844 Crunched size 844
 Map tile data  green_hills_1 Original size 9588 Crunched size 9588
-Tile data for map green_hills_1 (mem restrictions:None) Original size 35840 Crunched size 35840
-Map event data for green_hills_1 Original size 40 Crunched size 40
+Tile data for map green_hills_1 (mem restrictions:None) Original size 17920 Crunched size 17920
+Map event data for green_hills_1 Original size 44 Crunched size 44
 Get Y lookup table green_hills_1 Original size 136 Crunched size 136
 Map path node data for green_hills_1 Original size 12 Crunched size 12
+Project name table Original size 704 Crunched size 704
 Animations Original size 240 Crunched size 240
 Animation Frames Original size 1264 Crunched size 1264
 Project sound Original size 140 Crunched size 140
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 3262 Crunched size 3262
+Project Header Original size 3266 Crunched size 3266
 Var Data Original size 50 Crunched size 50
-Attack Data Original size 264 Crunched size 264
+Attack Data Original size 176 Crunched size 176
 Teleporters Original size 8 Crunched size 8
 
 === Accounted Memory Usage ===
@@ -53,19 +53,18 @@ do_teleport: 382
 pre_startup: 316
 flipscreen_smooth: 310 (Unused?)
 flipxymove: 278 (Unused?)
-startup: 270
-set_yresolution: 256
+set_yresolution: 256 (Unused?)
 load_next_level: 252 (Unused?)
 reset_game: 244
+startup: 224
 block_find: 206 (Unused?)
 waitforframes: 194
-sonic_dead_autogen_attack: 184
 block_count: 178 (Unused?)
 check_talkpad: 172 (Unused?)
 kill_player: 170
 flipymove: 162 (Unused?)
+pre_quit: 160 (Unused?)
 snap_to_screen: 158 (Unused?)
-pre_quit: 152 (Unused?)
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
@@ -76,10 +75,10 @@ restart_this_level: 128 (Unused?)
 reset_run: 128
 pre_load_level: 122
 get_ring: 116
-waitforfireup: 114
 fadein: 112
-waitforfiredown: 110
 unload_panel: 106
+waitforfireup: 102
+waitforfiredown: 98
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)

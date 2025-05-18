@@ -1,0 +1,243 @@
+{
+  "Frames": [
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Hannah_2.png",
+      "HandleX": -80,
+      "HandleY": -84,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Hannah_2",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Hannah_3.png",
+      "HandleX": -80,
+      "HandleY": -84,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Hannah_3",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Hannah_4.png",
+      "HandleX": -80,
+      "HandleY": -84,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Hannah_4",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Hannah_5.png",
+      "HandleX": -80,
+      "HandleY": -84,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Hannah_5",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Hannah_6.png",
+      "HandleX": -80,
+      "HandleY": -84,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Hannah_6",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Hannah_7.png",
+      "HandleX": -80,
+      "HandleY": -84,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Hannah_7",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Hannah_8.png",
+      "HandleX": -80,
+      "HandleY": -84,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Hannah_8",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Hannah_9.png",
+      "HandleX": -80,
+      "HandleY": -84,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Hannah_9",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Hannah_10.png",
+      "HandleX": -80,
+      "HandleY": -84,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Hannah_10",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Hannah_11.png",
+      "HandleX": -80,
+      "HandleY": -84,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Hannah_11",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Hannah_12.png",
+      "HandleX": -80,
+      "HandleY": -84,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Hannah_12",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Hannah_2.png",
+      "HandleX": -80,
+      "HandleY": -84,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Hannah_2",
+      "IsBlank": false
+    }
+  ],
+  "PreventAttack": false,
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "PreventJump": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "OnFinish": null,
+  "AutoFlip": null,
+  "Streamed": true,
+  "AnimationTag": null,
+  "LinkedMap": ""
+}

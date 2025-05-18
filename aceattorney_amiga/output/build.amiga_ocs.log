@@ -1,5 +1,5 @@
-Compiled on Sunday, 7 July 2024 4:41:53 p.m.
-Version string: SE2024.1.240707.16.03.EX
+Compiled on Sunday, 18 May 2025 4:14:13 p.m.
+Version string: SE2024.2.250517.21.12.EX
 
 === Misc ===
 ImageFrames: 1
@@ -24,29 +24,28 @@ Sprites: 1
 Sprites Data Size: 14
 Attack Data: 1
 Attack Data Size: 88
-Misc data size: 14
+Misc data size: 18
 === Image optimisations ===
-Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
-Panel pic_title Original size 53872 Crunched size 11694
-Panel talkpad Original size 48144 Crunched size 6636
-Project virtual machine (codeblocks) Original size 53258 Crunched size 15528
-Header data for map court Original size 8000 Crunched size 284
-Tile data for map court (mem restrictions:No_Blocks) Original size 40388 Crunched size 9334
-Background for map court Original size 1396 Crunched size 80
-Header data for map intro0 Original size 8000 Crunched size 284
-Tile data for map intro0 (mem restrictions:No_Blocks) Original size 11428 Crunched size 4070
-Background for map intro0 Original size 1396 Crunched size 80
-Header data for map lobby Original size 8000 Crunched size 278
-Tile data for map lobby (mem restrictions:No_Blocks) Original size 18020 Crunched size 2736
-Background for map lobby Original size 1396 Crunched size 80
-Asset bundle 0 (Core project asset bundle) Original size 25242 Crunched size 21802
+Panel (background color #000) Original size 1296 Crunched size 76
+Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
+Panel pic_title Original size 52992 Crunched size 11696
+Panel talkpad Original size 15696 Crunched size 1398
+Panel bobs talkpad Original size 17090 Crunched size 2790
+Project virtual machine (codeblocks) Original size 53610 Crunched size 15624
+Header data for map court Original size 844 Crunched size 202
+Tile data for map court (mem restrictions:No_Blocks) Original size 40392 Crunched size 9334
+Header data for map intro0 Original size 844 Crunched size 204
+Tile data for map intro0 (mem restrictions:No_Blocks) Original size 11432 Crunched size 4070
+Header data for map lobby Original size 844 Crunched size 194
+Tile data for map lobby (mem restrictions:No_Blocks) Original size 18024 Crunched size 2736
+Asset bundle 0 (Core project asset bundle) Original size 25244 Crunched size 21804
 Asset bundle 1 (court) Original size 340360 Crunched size 167270
 Asset bundle 2 (intro0) Original size 166144 Crunched size 91110
 Asset bundle 3 (lobby) Original size 96694 Crunched size 56826
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 4036 Crunched size 1188
-Project Data Original size 626 Crunched size 118
-Project virtual machine redirects Original size 1848 Crunched size 1346
+Project Header Original size 4408 Crunched size 1228
+Project Data Original size 630 Crunched size 118
+Project virtual machine redirects Original size 1860 Crunched size 1348
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -55,66 +54,69 @@ For chip:
 Map gfx (level gfx bundle 1): 340360
 Music memory (): 0
 BP Buffer memory: 132480
-core sfx/gfx memory: 25242
+Core sfx/gfx memory: 25244
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 40388
-Map background memory: 1396
-EXE memory: 215848
-vm memory: 53258
-project memory: 626
+Map actor cache memory: 0
+Map data memory: 40392
+Map background memory: 1296
+EXE memory: 204060
+vm memory: 53610
+project memory: 630
 memory reserved for active actors on screen (32): 4616
-memory reserved for dormant actors in map (256): 9216
+memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 597410
-Accounted memory other: 430820
-Accounted memory total: 1028230
+Accounted memory chip: 597412
+Accounted memory other: 414684
+Accounted memory total: 1012096
 
 === Codeblocks by compiled size ===
 courtroom_questioning: 11134
 courtroom_callwitness: 7334
-start_lobby: 5830
+start_lobby: 5808
 courtroom_choosedefendant: 4224
 courtroom_crossexamination_courtrecord: 3052
-start_courtroom: 2340
+start_courtroom: 2318
 courtroom_choosecauseofdeath: 2178
 courtroom_crossexamination: 2080
 courtroom_choosevictim: 2026
-start_case1: 1376
+start_case1: 1354
 open_evidence: 1130
 open_profiles: 946
-load_level: 568
-do_teleport: 424
-pre_startup: 354
+load_level: 550
+pre_startup: 422
+do_teleport: 402
 flipscreen_smooth: 310 (Unused?)
 flipxymove: 278 (Unused?)
-startup: 234
+load_next_level: 252 (Unused?)
+startup: 242
 block_find: 206 (Unused?)
 set_yresolution: 202
 waitforframes: 194
 check_talkpad: 192
+pause: 184 (Unused?)
 block_count: 178 (Unused?)
-pause: 176 (Unused?)
 flipymove: 162 (Unused?)
+pre_quit: 160
 snap_to_screen: 158 (Unused?)
-pre_quit: 152
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
 destroy_all_blocks: 128 (Unused?)
+restart_this_level: 128 (Unused?)
 open_court_record: 124
 pre_load_level: 122
-waitforfireup: 114
 fadein: 112
-waitforfiredown: 110
 objection_payne: 110
 unload_panel: 106
 show_court_gavel: 106
+waitforfireup: 102
+waitforfiredown: 98
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)

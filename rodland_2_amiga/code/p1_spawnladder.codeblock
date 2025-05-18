@@ -24,7 +24,6 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -81,6 +80,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -113,7 +113,6 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -170,6 +169,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -202,7 +202,6 @@
       "Expression": "-100",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -259,6 +258,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -291,7 +291,6 @@
       "Expression": "-100",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -348,6 +347,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -380,7 +380,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -437,6 +436,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "actor_controly",
@@ -483,7 +483,6 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -540,6 +539,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -572,7 +572,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -629,6 +628,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -661,7 +661,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -718,6 +717,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -750,7 +750,6 @@
       "Expression": "Actor_X >> 4",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -807,6 +806,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": []
     },
     {
@@ -831,7 +831,6 @@
       "Expression": "targetx",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -888,6 +887,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -920,7 +920,6 @@
       "Expression": "Actor_Y + 1 >> 4",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -977,7 +976,105 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
-      "Conditions": []
+      "DiceSides": "2",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
+    },
+    {
+      "Values": {},
+      "DataVersion": 6,
+      "Category": "Conditional",
+      "BasicOperationType": "SetVariable",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "ForeachActor",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "",
+      "Variable": "none",
+      "Expression": "",
+      "Index": "0",
+      "Label": "",
+      "Disabled": true,
+      "Breakpoint": false,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": "",
+      "YPosition": "",
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "",
+      "PushYPixels": "",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": "",
+      "CameraY": "",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": "",
+      "FrameWait": "",
+      "CameraFollowLeft": true,
+      "CameraFollowRight": true,
+      "CameraFollowUp": true,
+      "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
+      "DiceSides": "2",
+      "Conditions": [
+        {
+          "LeftSide": "actor_spawnerid",
+          "Comparison": "Equals",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ]
     },
     {
       "Values": {},
@@ -1001,7 +1098,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -1058,6 +1154,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "tile_properties",
@@ -1097,7 +1194,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -1154,6 +1250,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1186,7 +1283,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -1243,6 +1339,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": []
     },
     {
@@ -1267,7 +1364,6 @@
       "Expression": "Actor_Y - 1 >> 4",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -1324,6 +1420,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1356,7 +1453,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -1413,6 +1509,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "actor_controly",
@@ -1445,7 +1542,6 @@
       "Expression": "TargetY + 3",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -1502,6 +1598,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1534,7 +1631,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -1591,6 +1687,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "targety",
@@ -1623,7 +1720,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -1680,6 +1776,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1712,7 +1809,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -1769,6 +1865,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": []
     },
     {
@@ -1793,7 +1890,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -1850,6 +1946,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1882,7 +1979,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -1939,6 +2035,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1971,7 +2068,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -2028,6 +2124,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": []
     },
     {
@@ -2052,7 +2149,6 @@
       "Expression": "-100",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -2109,6 +2205,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2141,7 +2238,6 @@
       "Expression": "-100",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -2198,6 +2294,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2230,7 +2327,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -2287,6 +2383,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "actor_type",
@@ -2319,7 +2416,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -2376,6 +2472,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2408,7 +2505,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -2465,6 +2561,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "actor_controly",
@@ -2497,7 +2594,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -2554,6 +2650,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2586,7 +2683,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -2643,6 +2739,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2675,7 +2772,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -2732,6 +2828,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": []
     },
     {
@@ -2756,7 +2853,6 @@
       "Expression": "",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -2813,6 +2909,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": []
     },
     {
@@ -2837,7 +2934,6 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
@@ -2894,6 +2990,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
+      "DiceSides": "2",
       "Conditions": [
         {
           "LeftSide": "",

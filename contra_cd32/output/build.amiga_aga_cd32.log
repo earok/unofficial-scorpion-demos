@@ -1,9 +1,9 @@
-Compiled on Sunday, 7 July 2024 4:30:24 p.m.
-Version string: SE2024.1.240707.16.03.EX
+Compiled on Sunday, 18 May 2025 6:20:26 p.m.
+Version string: SE2024.2.250517.21.12.EX
 
 === Misc ===
-ImageFrames: 160
-ImageFrame Data Size: 7040
+ImageFrames: 241
+ImageFrame Data Size: 10604
 Maps and Asset Bundles Count: 3
 Maps and Asset Bundles Data Size: 36
 Actor Count: 26
@@ -24,23 +24,24 @@ Sprites: 2
 Sprites Data Size: 28
 Attack Data: 4
 Attack Data Size: 352
-Misc data size: 56
+Misc data size: 194
 === Image optimisations ===
-Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
-Panel top_panel Original size 2896 Crunched size 2896
-Project virtual machine (codeblocks) Original size 23270 Crunched size 23270
-Header data for map level_01 Original size 8000 Crunched size 8000
-Tile data for map level_01 (mem restrictions:None) Original size 15860 Crunched size 15860
-Background for map level_01 Original size 1396 Crunched size 1396
-Header data for map title_screen Original size 8000 Crunched size 8000
-Tile data for map title_screen (mem restrictions:None) Original size 2912 Crunched size 2912
-Background for map title_screen Original size 1396 Crunched size 1396
-Asset bundle 0 (Core project asset bundle) Original size 287754 Crunched size 287754
+Panel (background color #000) Original size 1296 Crunched size 76
+Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
+Panel (background)level_01_sky Original size 1296 Crunched size 1296
+Panel top_panel Original size 2016 Crunched size 2016
+Project virtual machine (codeblocks) Original size 23642 Crunched size 23642
+Map actor data for level_01 Original size 784 Crunched size 784
+Header data for map level_01 Original size 844 Crunched size 844
+Tile data for map level_01 (mem restrictions:None) Original size 15864 Crunched size 15864
+Header data for map title_screen Original size 844 Crunched size 844
+Tile data for map title_screen (mem restrictions:None) Original size 2916 Crunched size 2916
+Asset bundle 0 (Core project asset bundle) Original size 288728 Crunched size 288728
 Asset bundle 1 (level_01) Original size 132132 Crunched size 132132
 Asset bundle 2 (title_screen) Original size 24028 Crunched size 24028
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 4036 Crunched size 4036
-Project Data Original size 17510 Crunched size 17510
+Project Header Original size 4408 Crunched size 4408
+Project Data Original size 21212 Crunched size 21212
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -50,64 +51,51 @@ For chip:
 Map gfx (level gfx bundle 1): 132132
 Music memory (): 0
 BP Buffer memory: 141120
-core sfx/gfx memory: 287754
+Core sfx/gfx memory: 288728
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 15860
-Map background memory: 1396
-EXE memory: 215848
-vm memory: 23270
-project memory: 17510
+Map actor cache memory: 0
+Map data memory: 15864
+Map background memory: 1296
+EXE memory: 204056
+vm memory: 23642
+project memory: 21212
 memory reserved for active actors on screen (32): 4616
-memory reserved for dormant actors in map (256): 9216
+memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 660334
-Accounted memory other: 393188
-Accounted memory total: 1053522
+Accounted memory chip: 661308
+Accounted memory other: 380766
+Accounted memory total: 1042074
 
 === Possibly unused animations ===
-dummyplayer
-player_side_fire_sg_dr_r
 player_side_fire_sg_dr_l
-player_side_fire_sg_u_r
+player_side_fire_sg_dr_r
 player_side_fire_sg_u_l
-player_side_fire_sg_ur_r
+player_side_fire_sg_u_r
 player_side_fire_sg_ur_l
-
-=== Possibly unused Actors ===
-00_dummyactor
-00_dummycamera
-00_dummyplayer
-00_weap_pod_1
-01_brdg_sct_1
-01_brdg_sct_2
-01_brdg_sct_3
-01_brdg_sct_4
-01_mountain_bg
-01_reactor
-01_turret_grnd
-01_turret_rck_active
+player_side_fire_sg_ur_r
 
 === Possibly unused sound effects ===
 aplayer_shotgun
 
 === Codeblocks by compiled size ===
-!!_startup: 9144
+!!_startup: 9100
 01_end_level: 954
 01_handler_bridge_1: 652
-load_level: 568
-pre_startup: 432
-do_teleport: 424
+load_level: 550
+pre_startup: 500
+do_teleport: 402
 flipscreen_smooth: 310 (Unused?)
 01_handler_weap_pod_2: 294
 flipxymove: 278 (Unused?)
 00_dummyplayer_autogen_attack: 278
 00_dummyplayer_auto_autogen_attack: 278
+load_next_level: 252 (Unused?)
 00_colour_cycle: 242 (Unused?)
 01_handler_turret_ground_1: 238
 block_find: 206 (Unused?)
@@ -118,11 +106,11 @@ check_talkpad: 192 (Unused?)
 00_dstry_w_explsn_01: 190 (Unused?)
 00_dstry_w_explsn_02: 190
 00_dstry_ground_turret: 188
+pause: 184 (Unused?)
 block_count: 178 (Unused?)
-pause: 176 (Unused?)
 flipymove: 162 (Unused?)
+pre_quit: 160
 snap_to_screen: 158
-pre_quit: 152
 00_colour_cycle2: 152
 load_panel: 146
 !!flame_test: 146 (Unused?)
@@ -133,12 +121,13 @@ AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_00_donothing_00_donothing: 130
 AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_00_donothing_!!_startup: 130
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
 destroy_all_blocks: 128 (Unused?)
+restart_this_level: 128 (Unused?)
 01_handler_reactor: 128
 pre_load_level: 122
-waitforfireup: 114
 fadein: 112
-waitforfiredown: 110
 unload_panel: 106
+waitforfireup: 102
+waitforfiredown: 98
 load_panel_bottom: 96
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
@@ -152,6 +141,7 @@ waitforfirehit: 86
 00_leave_screen: 80
 load_music: 78 (Unused?)
 AUTOGEN_OUTOFSCREEN_00_leave_screen_None_None_destroy_actor: 78
+00_event_delay_rnd: 78 (Unused?)
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
@@ -159,7 +149,6 @@ set_ntsc: 74 (Unused?)
 flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
-00_event_delay_rnd: 72 (Unused?)
 01_handler_bg_parallax: 72 (Unused?)
 quit: 70 (Unused?)
 01_handler_turret_rock: 68

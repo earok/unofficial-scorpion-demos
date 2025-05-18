@@ -1,0 +1,133 @@
+Compiled on Sunday, 18 May 2025 5:54:38 p.m.
+Version string: SE2024.2.250517.21.12.EX
+
+=== Misc ===
+ImageFrames: 4
+ImageFrame Data Size: 176
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 4
+Actor Data Size: 720
+Block Count: 1
+Block Data Size: 68
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 1
+Sound Data Size: 28
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 4
+Animations Data Size: 64
+AnimationFrame Count: 5
+AnimationFrame Data Size: 80
+Sprites: 2
+Sprites Data Size: 28
+Attack Data: 1
+Attack Data Size: 88
+Misc data size: 50
+=== Image optimisations ===
+Panel (background color #112) Original size 1296 Crunched size 76
+Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
+Project virtual machine (codeblocks) Original size 39028 Crunched size 10410
+Map actor data for level1 Original size 28 Crunched size 28
+Header data for map level1 Original size 844 Crunched size 198
+Tile data for map level1 (mem restrictions:No_Blocks) Original size 10264 Crunched size 1330
+Asset bundle 0 (Core project asset bundle) Original size 2528 Crunched size 866
+Asset bundle 1 (level1) Original size 20710 Crunched size 7434
+Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
+Project Header Original size 4408 Crunched size 1228
+Project Data Original size 1336 Crunched size 320
+Project virtual machine redirects Original size 28 Crunched size 28
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+
+For chip:
+Map gfx (Panel: scorpion_eng_splashscreen): 36792
+Music memory (): 0
+BP Buffer memory: 132480
+Core sfx/gfx memory: 2528
+Parallax memory: 0
+OS/other estimated: 99328
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map actor cache memory: 0
+Map data memory: 10264
+Map background memory: 1296
+EXE memory: 204056
+vm memory: 39028
+project memory: 1336
+memory reserved for active actors on screen (32): 4616
+memory reserved for dormant actors in map (128): 4608
+OS/other estimated: 105472
+
+Accounted memory chip: 271128
+Accounted memory other: 370676
+Accounted memory total: 641804
+
+=== Codeblocks by compiled size ===
+handler_batman_hang: 4126
+load_level: 2988
+pre_startup: 2660
+waitforframes: 1490
+do_teleport: 1358
+flipscreen_smooth: 1342 (Unused?)
+pause: 1320 (Unused?)
+block_find: 1308 (Unused?)
+flipxymove: 1262 (Unused?)
+block_count: 1054 (Unused?)
+set_yresolution: 950
+unload_level: 832
+snap_to_screen: 820 (Unused?)
+load_panel: 774
+check_talkpad: 730 (Unused?)
+unload_panel: 722
+fadein: 668
+spawn_grapple_hook: 664
+flipymove: 616 (Unused?)
+load_panel_bottom: 592 (Unused?)
+pre_quit: 574
+load_panel_top: 562 (Unused?)
+waitforfireup: 534
+flipxmove: 532 (Unused?)
+waitforfiredown: 532
+load_next_level: 520 (Unused?)
+fadeout: 484
+set_ntsc: 466 (Unused?)
+destroy_all_blocks: 450 (Unused?)
+pre_load_level: 442
+load_music_finish: 420
+load_music: 400 (Unused?)
+unload_panel_bottom: 380
+load_panel_finish: 370
+unload_panel_top: 362
+waitforfirehit: 316
+destroy_child_actors: 298 (Unused?)
+startup: 272
+wrap_screen_bottom: 268 (Unused?)
+pre_anim5: 266 (Unused?)
+wrap_screen_right: 264 (Unused?)
+wrap_screen_left: 250 (Unused?)
+wrap_screen_top: 248 (Unused?)
+handler_grapple_point: 242
+regenerate_screen: 238
+regenerate_screen_wait: 234
+block_coll_passthru: 224 (Unused?)
+block_coll_force: 216 (Unused?)
+restart_this_level: 194 (Unused?)
+vm_constants_tile_properties: 178 (Unused?)
+destroy_all_actors: 160 (Unused?)
+flipscreen: 158 (Unused?)
+jump_actor: 132 (Unused?)
+quit: 118 (Unused?)
+destroy_block: 110 (Unused?)
+destroy_actor: 100
+clear_block_collision: 96
+unfreeze_actor: 84 (Unused?)
+freeze_actor: 80 (Unused?)
+return: 80 (Unused?)
+debug_breakpoint: 70 (Unused?)
+vm_registers: 26 (Unused?)
+batman_spawn: 26

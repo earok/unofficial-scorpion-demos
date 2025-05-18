@@ -1,0 +1,111 @@
+Compiled on Sunday, 18 May 2025 6:27:39 p.m.
+Version string: SE2024.2.250517.21.12.EX
+
+ImageFrame Data Size: 202
+Actor Count: 3
+Actor Data Size: 540
+Animations Count: 3
+Animations Data Size: 48
+AnimationFrame Count: 4
+AnimationFrame Data Size: 64
+Project sound Original size 28 Crunched size 28
+Project blocks Original size 68 Crunched size 68
+Project patterns Original size 4 Crunched size 4
+Map path node data for intromap Original size 12 Crunched size 12
+XGM Null sound Original size 256 Crunched size 256
+XGM Null song Original size 172 Crunched size 172
+XGM 68K Plugin Driver Original size 852 Crunched size 852
+XGM Core Driver Original size 5888 Crunched size 5888
+Default MD font Original size 2048 Crunched size 2048
+Project virtual machine (codeblocks) Original size 10086 Crunched size 10086
+Panel  Original size 10362 Crunched size 10362
+Images Original size 202 Crunched size 202
+Project actors Original size 540 Crunched size 540
+Map tile data  intromap Original size 1044 Crunched size 26
+Tile data for map intromap (mem restrictions:None) Original size 1792 Crunched size 1792
+Pattern data for 1 Original size 864 Crunched size 864
+Map event data for intromap Original size 44 Crunched size 44
+Get Y lookup table intromap Original size 232 Crunched size 232
+Map animation data forintromap Original size 536 Crunched size 536
+Map actor data for intromap Original size 84 Crunched size 21
+Header data for map intromap Original size 844 Crunched size 844
+Map block data for intromap Original size 1044 Crunched size 7
+Project name table Original size 872 Crunched size 872
+Streamed project patterns Original size 10464 Crunched size 10464
+Animations Original size 48 Crunched size 48
+Animation Frames Original size 64 Crunched size 64
+Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
+Project Header Original size 3266 Crunched size 3266
+Var Data Original size 52 Crunched size 52
+Attack Data Original size 88 Crunched size 88
+Teleporters Original size 8 Crunched size 8
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+RAM reserved for level tiles: (largest level: intromap): 2088
+memory reserved for active actors on screen (32): 4616
+memory reserved for dormant actors in map (128): 4608
+
+Total: 11312 bytes
+
+=== Codeblocks by compiled size ===
+load_level: 510
+set_yresolution: 390 (Unused?)
+startup: 386
+do_teleport: 382
+pre_startup: 360
+flipscreen_smooth: 310 (Unused?)
+flipxymove: 278 (Unused?)
+load_next_level: 252 (Unused?)
+block_find: 206 (Unused?)
+waitforframes: 194
+block_count: 178 (Unused?)
+check_talkpad: 172 (Unused?)
+flipymove: 162 (Unused?)
+pre_quit: 160 (Unused?)
+snap_to_screen: 158 (Unused?)
+load_panel: 146
+flipxmove: 142 (Unused?)
+unload_level: 142
+pause: 138 (Unused?)
+destroy_all_blocks: 128 (Unused?)
+restart_this_level: 128 (Unused?)
+parallax_handler: 126
+pre_load_level: 122
+fadein: 112
+unload_panel: 106
+waitforfireup: 102
+waitforfiredown: 98
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96 (Unused?)
+destroy_child_actors: 94 (Unused?)
+fadeout: 88
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+load_music_finish: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+load_music: 70 (Unused?)
+jump_actor: 66 (Unused?)
+load_panel_finish: 66
+unload_panel_bottom: 62
+unload_panel_top: 62
+destroy_all_actors: 60 (Unused?)
+destroy_actor: 58
+regenerate_screen: 58
+destroy_block: 52 (Unused?)
+return: 52 (Unused?)
+quit: 50 (Unused?)
+regenerate_screen_wait: 46
+freeze_actor: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32 (Unused?)
+clear_block_collision: 32
+vm_registers: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+set_ntsc: 26
+vm_constants_tile_properties: 26 (Unused?)
