@@ -1,0 +1,147 @@
+{
+  "Frames": [
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 16,
+      "Multiplexes": 5,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "turtle-001-dive_00x00.png",
+      "HandleX": -15,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "turtle-001-dive_00x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 16,
+      "Multiplexes": 5,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "turtle-002-dive_00x00.png",
+      "HandleX": -15,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "turtle-002-dive_00x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 16,
+      "Multiplexes": 5,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "turtle-001_00x00.png",
+      "HandleX": -15,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "turtle-001_00x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 10,
+      "Multiplexes": 5,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "turtle-002_00x00.png",
+      "HandleX": -15,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "turtle-002_00x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 10,
+      "Multiplexes": 5,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "turtle-003_00x00.png",
+      "HandleX": -15,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "turtle-003_00x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 10,
+      "Multiplexes": 5,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "turtle-002_00x00.png",
+      "HandleX": -15,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "turtle-002_00x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 10,
+      "Multiplexes": 5,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "turtle-003_00x00.png",
+      "HandleX": -15,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "turtle-003_00x00",
+      "IsBlank": false
+    }
+  ],
+  "PreventAttack": false,
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "OnFinish": null,
+  "AutoFlip": false,
+  "Streamed": true,
+  "AnimationTag": null,
+  "LinkedMap": ""
+}

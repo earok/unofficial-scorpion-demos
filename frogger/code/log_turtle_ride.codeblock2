@@ -1,0 +1,11 @@
+Alias IsUnderWater = Actor_Var2
+
+If HopFrames == 0
+    PlayerPosition X=player_x. + actor_xspeed.
+End
+
+if IsUnderWater == false
+    Set IsSafe = True
+End
+
+

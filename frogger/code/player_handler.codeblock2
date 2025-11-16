@@ -1,0 +1,44 @@
+Variable word HopFrames=0
+Variable word BestPlayerPosition=0
+
+If HopFrames > 0
+    PlayerPosition X=Player_X + Player_XSpeed Y=Player_y + Player_YSpeed
+    Set HopFrames=HopFrames - 1
+Else
+    
+    If Player_Y <= 104 and IsSafe == False
+        //In the water
+        Goto frog_deth_water
+    End
+    
+    //Assume we're not safe by default
+    Set IsSafe=False
+    
+    If Player_Y < BestPlayerPosition
+        Set BestPlayerPosition=Player_Y
+        Set Score=Score + 10
+    End
+    
+    If Control1_X < 0
+        Set HopFrames=8
+        Set Player_XSpeed=-2
+        Set Player_YSpeed=0
+        PlayerAnimation player1_moveleft Frame=0
+    ElseIf Control1_X > 0
+        Set HopFrames=8
+        Set Player_XSpeed=2
+        Set Player_YSpeed=0
+        PlayerAnimation player1_moveright Frame=0
+    ElseIf Control1_Y < 0
+        Set HopFrames=8
+        Set Player_XSpeed=0
+        Set Player_YSpeed=-2
+        PlayerAnimation player1_moveup Frame=0
+    ElseIf Control1_Y > 0 and Player_Y < 216
+        Set HopFrames=8
+        Set Player_XSpeed=0
+        Set Player_YSpeed=2
+        PlayerAnimation player1_movedn Frame=0
+    End
+    
+End

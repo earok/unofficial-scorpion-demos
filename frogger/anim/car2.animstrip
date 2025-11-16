@@ -1,0 +1,33 @@
+{
+  "Frames": [
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 8,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Channel_2_to_1",
+      "Path": "car1-002.png",
+      "HandleX": -9,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "car1-002",
+      "IsBlank": false
+    }
+  ],
+  "PreventAttack": false,
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "OnFinish": null,
+  "AutoFlip": false,
+  "Streamed": true,
+  "AnimationTag": null,
+  "LinkedMap": ""
+}

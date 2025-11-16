@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="16" height="14" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="6" nextobjectid="1">
+  <properties>
+    <property name="amiga_panel" value="lvl1_copper" />
+    <property name="padding_bottom" type="int" value="1" />
+    <property name="padding_top" type="int" value="1" />
+  </properties>
+  <tileset firstgid="1" source="../Actors.tsx" />
+  <tileset firstgid="257" source="../Blocks.tsx" />
+  <tileset firstgid="513" source="frogmap1.tileset.tsx" />
+  <layer id="1" name="map" width="16" height="14">
+    <data encoding="csv">
+513,514,515,513,514,515,513,514,515,513,514,515,513,514,0,0,
+516,517,518,516,517,518,519,520,518,516,517,518,516,517,0,0,
+521,521,521,521,521,521,521,521,521,521,521,521,521,521,0,0,
+521,521,521,521,521,521,521,521,521,521,521,521,521,521,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+521,521,521,521,521,521,521,521,521,521,521,521,521,521,0,0,
+521,521,521,521,521,521,521,521,521,521,521,521,521,521,0,0,
+543,543,543,543,543,543,543,543,543,543,543,543,543,543,0,0,
+548,548,548,548,548,548,548,548,548,548,548,548,548,548,0,0,
+548,548,548,548,548,548,548,548,548,548,548,548,548,548,0,0,
+548,548,548,548,548,548,548,548,548,548,548,548,548,548,0,0,
+548,548,548,548,548,548,548,548,548,548,548,548,548,548,0,0,
+548,548,548,548,548,548,548,548,548,548,548,548,548,548,0,0,
+560,560,560,560,560,560,543,560,560,560,560,560,560,560,0,0
+</data>
+    <properties>
+      <property name="amiga_aga" type="bool" value="true" />
+      <property name="amiga_ecs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="neogeo_cd" type="bool" value="true" />
+    </properties>
+  </layer>
+  <layer id="2" name="objects" width="16" height="14">
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,16,0,0,16,0,0,16,0,0,16,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,7,0,0,0,0,17,0,0,0,0,7,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,2,0,0,0,0,0,0,0,0,2,0,0,
+0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,
+0,0,0,4,0,0,0,0,0,4,0,0,0,4,0,0,
+0,0,5,0,0,0,0,0,0,0,5,0,0,0,0,0,
+3,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+    <properties>
+      <property name="amiga_aga" type="bool" value="true" />
+      <property name="amiga_ecs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="neogeo_cd" type="bool" value="true" />
+    </properties>
+  </layer>
+  <layer id="3" name="foreground" width="16" height="14">
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+    <properties>
+      <property name="amiga_aga" type="bool" value="true" />
+      <property name="amiga_ecs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="true" />
+      <property name="megadrive" type="bool" value="true" />
+      <property name="neogeo_cd" type="bool" value="true" />
+    </properties>
+  </layer>
+  <objectgroup id="5" name="events" />
+</map>
