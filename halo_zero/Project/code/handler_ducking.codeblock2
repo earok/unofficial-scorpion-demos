@@ -1,0 +1,4 @@
+If control1_y <= 0 or actor_isonplatform == false
+    Set isducking=false
+    ActorType masterchief_legs_stand
+End

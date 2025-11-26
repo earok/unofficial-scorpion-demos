@@ -1,0 +1,5 @@
+Variable word IsDucking=0
+CameraFollow !LRUDC MaxCamera=8 lowest
+CameraBox L=32 R=32 LookL=64 LookR=64
+AttackControls player1 !1A
+Level level1

@@ -1,0 +1,11 @@
+Variable Word DeltaX = 0
+
+Set DeltaX = Player_X - Actor_X
+If DeltaX > 32
+    ActorDirection move_right
+ElseIf DeltaX < -32
+    ActorDirection move_left
+Else
+    ActorDirection stop_moving
+End
+

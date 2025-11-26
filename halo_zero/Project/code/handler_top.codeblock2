@@ -1,0 +1,13 @@
+If IsDucking
+    Set actor_origin_y=-21
+Else
+    Set actor_origin_y=-39
+End
+
+If Control1Fire == false
+    If Control1_X > 0
+        ActorDirection look_right
+    ElseIf Control1_X < 0
+        ActorDirection look_left
+    End
+End

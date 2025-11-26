@@ -1,0 +1,202 @@
+{
+  "ShootDirType": "actor_direction",
+  "DefaultLookDir": "left",
+  "Recycle": "Default",
+  "MoveType": "cpu_parentlock",
+  "MaxEntities": 0,
+  "NudgeX": 0,
+  "NudgeY": -39,
+  "Idles": {
+    "UpLeft": "masterchief_top_idle_l",
+    "Up": "masterchief_top_idle_r",
+    "UpRight": "masterchief_top_idle_r",
+    "Left": "masterchief_top_idle_l",
+    "Right": "masterchief_top_idle_r",
+    "DownLeft": "masterchief_top_idle_l",
+    "Down": "masterchief_top_idle_r",
+    "DownRight": "masterchief_top_idle_r"
+  },
+  "Moves": {
+    "UpLeft": "masterchief_top_idle_l",
+    "Up": "masterchief_top_idle_r",
+    "UpRight": "masterchief_top_idle_r",
+    "Left": "masterchief_top_idle_l",
+    "Right": "masterchief_top_idle_r",
+    "DownLeft": "masterchief_top_idle_l",
+    "Down": "masterchief_top_idle_r",
+    "DownRight": "masterchief_top_idle_r"
+  },
+  "Attacks": {
+    "UpLeft": "",
+    "Up": "masterchief_top_attack_r",
+    "UpRight": "masterchief_top_attack_r",
+    "Left": "",
+    "Right": "masterchief_top_attack_r",
+    "DownLeft": "",
+    "Down": "masterchief_top_attack_l",
+    "DownRight": "masterchief_top_attack_r"
+  },
+  "ProjectileOffsets": [
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    }
+  ],
+  "InvalidDirections": [
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true
+  ],
+  "CollBox": {
+    "X": -4,
+    "Y": -8,
+    "Width": 8,
+    "Height": 8
+  },
+  "AttackDelay": 10,
+  "ZOrder": -50,
+  "SpeedLeft": 0.0,
+  "SpeedRight": 0.0,
+  "SpeedUp": 0.0,
+  "SpeedDown": 0.0,
+  "AccelLeft": null,
+  "AccelRight": null,
+  "AccelUp": null,
+  "AccelDown": null,
+  "AccelLeftAir": null,
+  "AccelRightAir": null,
+  "RotationSpeed": 0.0,
+  "CollType_Left": "block",
+  "CollType_Right": "block",
+  "CollType_Up": "block",
+  "CollType_Down": "block",
+  "Player": true,
+  "BlockCollider": null,
+  "CanRidePlatform": null,
+  "Camera": true,
+  "AutoScroll": null,
+  "Flags": 0,
+  "AttackProjectile": null,
+  "AttackProjectileAmmoVariable": null,
+  "AttackSound": null,
+  "JumpSound": null,
+  "DivertAttack": "",
+  "DivertSpawn": "",
+  "DivertPlayerCollision": "",
+  "DivertPlayerHit": "",
+  "DivertHitAgainstPlayer": "",
+  "DivertProjectileCollision": "",
+  "DivertOutOfScreenLeft": "",
+  "DivertOutOfScreenRight": "",
+  "DivertOutOfScreenUp": "",
+  "DivertOutOfScreenDown": "",
+  "DivertPlatformEdge": null,
+  "DivertPlatformLand": null,
+  "DivertTimer": "handler_top",
+  "DivertTimerFrames": 0,
+  "Vars": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "ControlPort": 1,
+  "DataVersion": 8,
+  "ActorTag": "None",
+  "AutoSpawn": null,
+  "AutoNavigate": false,
+  "ActorTimeline": {
+    "TimelineFrames": {
+      "50": {
+        "X": 16,
+        "Y": 16,
+        "EaseX": "linear",
+        "EaseY": "linear",
+        "Bezier": "linear",
+        "BezierPoints": [
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          }
+        ]
+      }
+    },
+    "TimelineEvents": {},
+    "PingPong": false
+  },
+  "DontSpawnIfTooMany": false,
+  "AutoClearChildren": false,
+  "DivertMeleeByProjectile": null,
+  "DivertMeleeAgainstProjectile": null,
+  "IsAttacker": true,
+  "PreviewParent": "masterchief_legs_stand",
+  "RotationEnabled": false,
+  "TileID": 1,
+  "MaxTimelineFrames": 50
+}
