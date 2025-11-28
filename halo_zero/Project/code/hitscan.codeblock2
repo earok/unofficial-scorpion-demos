@@ -1,0 +1,14 @@
+Variable Word HS_BestDistance = 0
+Variable Word HS_XOrigin = 0
+Variable Word HS_Direction = 0
+
+
+Set HS_BestDistance = 9999
+Set HS_XOrigin = Actor_X
+Set HS_Direction = actor_xfacing
+ForEachActor actor_tag == enemy Goto hitscan_loop
+
+If HS_BestDistance < 9999
+    Set New_Var1 = New_Var1 - 1
+End
+

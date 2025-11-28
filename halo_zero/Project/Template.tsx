@@ -21,4 +21,9 @@
       <property name="Name" value="marine" type="string" />
     </properties>
   </tile>
+  <tile id="4">
+    <properties>
+      <property name="Name" value="elite_rifle" type="string" />
+    </properties>
+  </tile>
 </tileset>

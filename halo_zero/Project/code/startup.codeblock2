@@ -1,5 +1,10 @@
+Variable word DeltaX=0
 Variable word IsDucking=0
-CameraFollow !LRUDC MaxCamera=8 lowest
-CameraBox L=32 R=32 LookL=64 LookR=64
+
+//Set SpawnArea_Width = SpawnArea_Width + 128
+//Set SpawnArea_X = SpawnArea_X - 64
+Set RecycleDistance=256
+CameraFollow !LRUD MaxCamera=8 lowest
+CameraBox L=80 R=80 LookL=64 LookR=64
 AttackControls player1 !1A
 Level level1

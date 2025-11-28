@@ -1,0 +1,22 @@
+//Is already dead
+If Actor_Var1 <= 0
+    Return
+End
+
+//Right facing
+If HS_Direction > 0
+    If Actor_X < HS_XOrigin
+        Return
+    End
+Else
+//Left facing
+    If Actor_X > HS_XOrigin
+        Return
+    End
+End
+
+Absolute DeltaX = Actor_X - HS_XOrigin
+If DeltaX < HS_BestDistance
+    Set HS_BestDistance = DeltaX
+    ActorAsNew self
+End

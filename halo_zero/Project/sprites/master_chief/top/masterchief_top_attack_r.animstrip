@@ -9,7 +9,7 @@
       "PaletteLine": 1,
       "PaletteLineNeo": 1,
       "Bitplane": 0,
-      "RenderType": "Normal",
+      "RenderType": "OnlySprite",
       "SpriteType": "Attached_16colors",
       "Path": "MasterChiefTop_Import_01x01.png",
       "HandleX": -29,
