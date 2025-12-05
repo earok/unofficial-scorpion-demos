@@ -1,0 +1,854 @@
+
+
+ __     __     _________     __            _________
+|  |   |  |   |   ___   |   |  |          |         |   
+|  |   |  |   |  |   |  |   |  |          |   ___   |   
+|  |___|  |   |  |___|  |   |  |          |  |   |  |   
+|         |   |         |   |  |          |  |   |  |   
+|         |   |         |   |  |          |  |   |  |   
+|   ___   |   |   ___   |   |  |          |  |   |  |   
+|  |   |  |   |  |   |  |   |  |______    |  |___|  |   
+|  |   |  |   |  |   |  |   |         |   |         |   
+|__|   |__|   |__|   |__|   |_________|   |_________|   COMBAT EVOLVED
+
+
+Weapons and Enemies Statistics Guide:
+
+
+Document Started: January 05, 2007
+Last Updated:     January 05, 2007 
+
+by Alan Chan (joylock@hotmail.com)
+
+
+The Usual:
+This document is mine. Please don't rip it off or take credit for it. That
+being said, feel free to post it on any site you want, provided you a) 
+don't make any changes to it, and b) don't charge money for it. You 
+don't even have to get my permission to post it (as long as it remains
+unaltered), but it would be nice if you emailed me and let me know 
+(joylock @ hotmail.com).
+
+I spent several hours extracting the game data files, searching through them,
+and compiling these statistics from them. If you take the information from
+this document and use it in your own guide, web-site, or other work, you must
+credit me with providing you with the in-game statistics. With that said, feel
+free to distribute this information and this document as widely as you want,
+as long as you do acknowledge me in the credits.
+
+
+
+What's the Purpose of This Guide?
+
+There are already some excellent, detailed FAQs on how to best use the
+weapons in Halo, as well as the tactics, behavior, and methods of killing
+the various enemies found in the game. The purpose of this guide is not
+to provide detailed combat strategies for Halo. Instead, this guide is a
+list of the in-game statistics of the game's weapons and characters, including
+such information as health, armor, and weapon damage.
+
+I recently was able to find this information thanks to the Halo Editing Kit
+for the PC version of Halo: Combat Evolved. This information does not appear
+to be published anywhere else on the internet, so I thought I would share
+it with you here on Gamefaqs.
+
+
+
+Version History:
+
+*******************************************************************************
+*                                                                             *
+*1.0: Initial Release                                                         *
+*                                                                             *
+*******************************************************************************
+
+The latest version of this FAQ can be found at www.gamefaqs.com.
+
+
+
+ACKNOWLEDGEMENTS:
+
+I would like to thank the following people, without whom I could not have
+browsed through Halo's game code and compiled the statistics used in this
+guide.
+
+- The people behind Halo Custom Edition and the Halo Editing Kit, from
+  which I was able to acquire the game's statistical information.
+
+- SteelIXB and his Halo Editing Kit Plus, for providing an easy way to
+  read the single-player character files.
+
+- Halopedia (halo.wikia.com) for providing the proper names and ammo types
+  for the game's weapons.
+
+
+
+TABLE OF CONTENTS:
+
+- GAME ENGINE
+- WEAPONS
+    - Human Weapons
+    - Covenant Weapons
+    - Melee and Grenades
+- CHARACTERS/ENEMIES
+    - Humans
+    - Covenant
+    - Flood
+    - Sentinels
+- VEHICLES
+    - Human Vehicles
+    - Covenant Vehicles
+
+
+**************
+*GAME ENGINE:*
+*******************************************************************************
+
+A NOTE ON DIFFICULTY SETTING:
+
+The values given in this guide are the game's base values. These values are
+modified by the difficulty setting you're playing on.
+
+
+EASY DIFFICULTY:
+
+- Enemies do 30% damage
+- Enemies have 60% health
+- Enemies have 60% shields
+- Enemy shields recharge at 50% speed
+
+- Friends do 40% damage
+- Friends have 80% health
+- Friends have 80% shields
+- Friend shields recharge at 50% speed
+
+- The Flood infection attack lasts 40% shorter
+
+- Enemies have slower reflexes, and fire in fewer, less accurate bursts
+- Overall, enemies are 80% efficient
+
+
+NORMAL DIFFICULTY:
+
+- All values are at baseline.
+
+
+HARD DIFFICULTY:
+
+- Enemies do 140% damage
+- Enemies have 120% health
+- Enemies have 120% shields
+- Enemy shields recharge at 150% speed
+
+- Friends do 140% damage
+- Friends have 120% health
+- Friends have 120% shields
+- Friend shields recharge at 150% speed
+
+- The Flood infection attack lasts 50% longer
+
+- Enemies have faster reflexes, and fire in more frequent, more accurate bursts
+- Overall, enemies are 120% efficient
+
+
+LEGENDARY DIFFICULTY:
+
+- Enemies do 180% damage
+- Enemies have 140% health
+- Enemies have 140% shields
+- Enemy shields recharge at 200% speed
+
+- Friends do 180% damage
+- Friends have 140% health
+- Friends have 140% shields
+- Friend shields recharge at 200% speed
+
+- The Flood infection attack lasts twice as long
+
+- Enemies have deadly reflexes, and fire in sustained, dead-accurate bursts
+- Overall, enemies are 140% efficient.
+
+
+**********
+*WEAPONS:*
+*******************************************************************************
+
+ENTRY KEY:
+
+Weapon Name:
+Ammo Type: What kind of projectiles the weapon fires.
+Damage: How much damage the weapon does.
+Rate of Fire: The weapon's rate of fire, in rounds-per-minute.
+Clip Size: The amount of bullets in a single clip.
+Max Ammo: The maximum amount of ammo that can be carried overall.
+Special Features: Extra/additional features found on the weapon.
+Damage Modifiers: Modifiers to base weapon damage when used on different enemy
+                  types.
+
+================
+=Human Weapons:=
+===============================================================================
+
+
+M6D Pistol:
+Ammo Type: 12.7mmx40 (M225 semi-armor piercing, high-explosive)
+Damage: 25
+Rate of Fire: 210 rpm
+Clip Size: 12
+Max Ammo: 120
+Special Features: 2x scope
+Damage Modifiers:
+		  Cyborg Armor: 150%
+		  Jackal Shield: 0%
+		  Hunter Armor: 20%
+		  Flood Flesh: 150%
+		  Sentinel Metal: 20%
+		  Ghost/Warthog Metal: 25%
+		  Vehicle Metal: 25%
+
+
+
+MA5B ICWS Assault Rifle:
+Ammo Type: 7.62mmx51 (M118 armor-piercing, full metal jacket)
+Damage: 10
+Rate of Fire: 900 rpm
+Clip Size: 60
+Max Ammo: 600
+Special Features: Compass, Digital Ammo Counter
+Damage Modifiers:
+  		  Jackal Shield: 0%
+		  Elite Shield: 70%
+		  Hunter Armor: 50%
+		  Hunter Flesh: 50%
+		  Flood Flesh: 65%
+		  Ghost/Warthog Metal: 25%
+		  Vehicle Metal: 25%
+
+
+
+M90 Mk.I Shotgun:
+Ammo Type: 8-gauge, 3.5-inch (magnum buckshot)
+Damage: 8x15 (120) to 18x15 (270) to 25x15 (375)
+Rate of Fire: 60 rpm
+Clip Size: 12
+Max Ammo: 60
+Damage Modifiers:
+		  Cyborg Shield: 50%
+		  Jackal Shield: 0%
+		  Hunter Armor: 20%
+		  Flood Flesh (Combat): 150%
+		  Flood Flesh (Carrier): 175%
+		  Sentinel Metal: 50%
+		  Ghost/Warthog Metal: 25%
+		  Vehicle Metal: 25%
+
+
+
+SRS99C-S2 AM Sniper Rifle:
+Ammo Type: 14.5mmx114 (armor-piercing, fin-stabilized, discarding sabot)
+Damage: 101
+Rate of Fire: 120 rpm
+Clip Size: 4
+Max Ammo: 24
+Special Features: 2x scope, 8x scope
+Damage Modifiers:
+		  Jackal Shield: 0%
+		  Elite Shield: 200%
+		  Hunter Armor: 50%
+		  Hunter Flesh: 50%
+		  Flood Flesh: 5%
+		  Sentinel Metal: 20%
+		  Ghost/Warthog Metal: 0%
+		  Vehicle Metal: 0%
+
+
+
+M199 SSM SPNKr Rocket Launcher:
+Ammo Type: 102mm HEAT (high-explosive, anti-tank shaped charge) 
+Damage: 80 to 300 to 330
+Rate of Fire: 30 rpm
+Clip Size: 2
+Max Ammo: 8
+Special Features: 2x scope
+Damage Modifiers:
+		  Flood Flesh (Combat): 200%
+		  Flood Flesh (Carrier): 400%
+		  Sentinel Metal: 40%
+
+
+
+M7057 Defoliant Projector Flamethrower (PC Multiplayer Only):
+Ammo Type: Fire! Fire! Heh heh heh!
+Impact Damage: 18x2 (36) to 20x2 (40) to 23x2 (46)
+Flame Damage:  10x2 (20) to 12x2 (24) to 13x2 (26)
+Rate of Fire: 720 rpm
+Clip Size: 100
+Max Ammo: 600
+Special Features: Sets enemies on fire
+Damage Modifiers (Impact):
+		  Jackal Shield: 50%
+		  Elite Shield: 50%
+		  Hunter Armor: 50%
+		  Hunter Shield: 50%
+		  Sentinel Metal: 50%
+		  Ghost/Warthog Metal: 200%
+		  Vehicle Metal: 30%
+Damage Modifiers (Flame):
+		  Jackal Shield: 10%
+		  Elite Shield: 20%
+		  Hunter Armor: 50%
+		  Hunter Shield: 20%
+		  Sentinel Metal: 50%
+		  Ghost/Warthog Metal: 200%
+		  Vehicle Metal: 30%
+
+
+
+===================
+=Covenant Weapons:=
+===============================================================================
+
+
+Plasma Pistol:
+Ammo Type: Superheated Plasma
+Damage: Normal:  10 to 16 to 20
+        Charged: 70
+Rate of Fire: ??
+Battery Size: 100
+Shots per Battery: Normal:  500 (5 shots per charge)
+                   Charged: 9   (11 charges per shot)
+Special Features: Overcharge shots
+Damage Modifiers (Normal):
+		  cyborg Armor: 60%
+		  Cyborg Shield: 60%
+		  Elite Energy Shield: 200%
+		  Hunter Armor: 50%
+		  Hunter Flesh: 50%
+		  Sentinel Metal: 200%
+		  Ghost/Warthog Metal: 25%
+		  Vehicle Metal: 25%
+Damage Modifiers (Charged):
+		  Cyborg Armor: 60%
+		  Human Armor: 20%
+		  Human Flesh: 20%
+		  Elite Shield: 150%
+		  Hunter Armor: 25%
+		  Hunter Flesh: 25%
+		  Sentinel Metal: 400%
+		  Ghost/Warthog Metal: 25%
+		  Vehicle Metal: 25%
+
+
+
+Plasma Rifle:
+Ammo Type: Superheated Plasma
+Damage: 10 to 12 to 14
+Rate of Fire: 420 to 700 rpm
+Battery Size: 100
+Shots per Battery: 200 (2 shots per charge)
+Damage Modifiers:
+		  Cyborg Armor: 50%
+		  Cyborg Shield: 200%
+		  Elite Shield: 200%
+		  Hunter Armor: 50%
+		  Hunter Flesh: 50%
+		  Sentinel Metal: 200%
+		  Ghost/Warthog Metal: 25%
+		  Vehicle Metal: 25%
+
+
+
+Needler:
+Ammo Type: Explosive crystal needles
+Damage: Shard:     10
+        Explosion: 40 to 60
+Rate of Fire: 180 to 600 rpm
+Clip Size: 20
+Max Ammo: 80
+Damage Modifiers (Shard):
+		  Hunter Armor: 50%
+		  Flood Flesh: 120%
+		  Ghost/Warthog Metal: 25%
+		  Vehicle Metal: 25%
+Damage Modifiers (Explosion):
+		  Jackal Shield: 150%
+		  Elite Shield: 400%
+		  Hunter Armor: 20%
+		  Hunter Flesh: 50%
+		  Flood Flesh (Combat): 200%
+		  Flood Flesh (Carrier): 400%
+		  Sentinel Metal: 400%
+
+
+
+Fuel Rod Gun (PC Multiplayer Only):
+Ammo Type: Superheated Plasma
+Damage: 40 to 75
+Rate of Fire: ??
+Battery Size: 100
+Shots per Battery: 28 (3 to 4 charges per shot)
+Damage Modifiers:
+		  Grunt Flesh: 200%
+		  Jackal Flesh: 200%
+		  Elite Flesh: 200%
+		  Elite Shield: 200%
+		  Hunter Flesh: 200%
+		  Flood Flesh (Combat): 200%
+		  Flood Flesh (Carrier): 400%
+		  Sentinel Metal: 200%
+
+
+=====================
+=Melee and Grenades:=
+===============================================================================
+
+
+Melee Attack:
+Damage: 40 to 50 to 60
+Rate of Fire: varies
+Damage Modifiers:
+                  Cyborg Armor: 140%
+                  Cyborg Shield: 140%
+                  Flood Flesh: 20%
+                  Sentinel Metal: 20%
+  		  Ghost/Warthog Metal: 0%
+  		  Vehicle Metal: 0%
+
+NOTE: The player's melee attack is affected by difficulty level.
+
+EASY: Melee attacks do 200% damage
+HARD: Melee attacks do 80% damage
+LEGENDARY: Melee attacks do 50% damage
+
+
+
+M9 HE-DP Grenade:
+Ammo Type: High explosive
+Damage: 80 to 120
+Max Ammo: 4
+Damage Modifiers:
+		  Hunter Armor: 25%
+		  Hunter Flesh: 50%
+		  Flood Flesh (Combat): 200%
+		  Flood Flesh (Carrier): 400%
+		  Sentinel Metal: 40%
+
+
+
+Plasma Grenade:
+Ammo Type: Superheated Plasma
+Damage: 80 to 120
+Max Ammo: 4
+Damage Modifiers:
+ 		  Jackal Shield: 150%
+		  Elite Shield: 400%
+		  Hunter Armor: 25%
+		  Hunter Flesh: 50%
+		  Flood Flesh (Combat): 200%
+		  Flood Flesh (Carrier): 400%
+		  Sentinel Metal: 400%
+
+
+
+*********************
+*CHARACTERS/ENEMIES:*
+*******************************************************************************
+
+ENTRY KEY
+
+Character Name:
+Appearance: What the character looks like (for the 3 or 4 of you who have
+            never played the game or seen any demo footage/pictures of it).
+Color: The armor color of the enemy. Armor color is used to indicate the
+       rank and difficulty of similar enemy types (Palette-swapping lives on!)
+Health: How much health the character has.
+Shield: How strong the character's energy shield is, if they have one. Human
+        Marines have "Armor", which functions like shields for all intents and
+        purposes.
+Weapons: What weapons the character uses, and how much base damage they do.
+Other Attacks: Other attacks the character uses, and how much base damage they
+               do.
+
+=========
+=Humans:=
+===============================================================================
+
+
+Master Chief:
+Appearance: The dude on the front cover of the game. You can't miss him.
+            7-foot tall super-soldier in green armored spacesuit.
+Health: 75
+Shield: 75
+Weapons: Any and All of Them (duh!)
+Other Attacks: Melee Attack (40 to 50 to 60 damage)
+               Grenades (80 to 120 damage)
+               Plasma Grenades (80 to 120 damage)
+
+
+
+Crewmember:
+Appearance: Unarmored human wearing bright-colored coverall uniform.
+Health: 25
+Shield: 0
+Weapons: Pistol (12.5 damage)
+Other Attacks: None
+
+
+
+Marine:
+Appearance: Human marine wearing grey uniform and metal plate armor.
+Health: 60
+Armor:  45
+Weapons: Assault Rifle (5 damage)
+         Shotgun (4.8x15 (72) to 10.8x15 (120) to 15x15 (225) damage)
+         Sniper Rifle (60.6 damage)
+         Plasma Rifle (6 to 7.2 to 8.4 damage)
+         Needler (6 damage / 40 to 60 damage)
+Other Attacks: Grenades (80 to 120 damage)
+
+
+
+Marine Major:
+Appearance: Sgt. Johnson. He's one bad mofo (SHUT YOUR MOUTH!)
+            Black Marine Sarge wearing grey uniform and metal plate armor.
+Health: NORMAL: 75 SPECIAL WEAPONS: 75
+Armor:  NORMAL: 45 SPECIAL WEAPONS: 60
+Weapons: Assault Rifle (5 damage)
+         Shotgun (4.8x15 (72) to 10.8x15 (120) to 15x15 (225) damage)
+         Sniper Rifle (60.6 damage)
+         Plasma Rifle (6 to 7.2 to 8.4 damage)
+Other Attacks: Grenades (80 to 120 damage)
+
+
+
+Captain Keyes:
+Appearance: Gruff UNSC Captain, with grey uniform and greying crew-cut. 
+Health: 60
+Armor:  0
+Weapons: Needler (10 damage / 40 to 60 damage)
+Other Attacks: None
+
+
+===========
+=Covenant:=
+===============================================================================
+
+
+Grunt Minor:
+Appearance: Short, 5-foot tall, chimp-like alien with bow-legs and barrel-like
+            body, wearing metal chest armor and cone-shaped backpack.
+Color: Orange
+Health: PLASMA PISTOL: 30, NEEDLER: 45
+Shield: 0
+Weapons: Plasma Pistol (5 to 8 to 10 damage)
+         Needler (5 damage / 40 to 60 damage)
+Other Attacks: Plasma Grenades (80 to 120 damage)
+
+
+
+Grunt Major:
+Appearance: Short, 5-foot tall, chimp-like alien with bow-legs and barrel-like
+            body, wearing metal chest armor and cone-shaped backpack.
+Color: Red
+Health: PLASMA PISTOL: 60, NEEDLER: 75
+Shield: 0
+Weapons: Plasma Pistol (5 to 8 to 10 damage)
+         Needler (5 damage / 40 to 60 damage)
+Other Attacks: Plasma Grenades (80 to 120 damage)
+
+
+
+Grunt SpecOps:
+Appearance: Short, 5-foot tall, chimp-like alien with bow-legs and barrel-like
+            body, wearing metal chest armor and cone-shaped backpack.
+Color: Black
+Health: 75
+Shield: 0
+Weapons: Needler (5 damage / 40 to 60 damage)
+         Fuel Rod Gun (40 to 75 damage)
+Other Attacks: Plasma Grenades (80 to 120 damage)
+
+
+
+Jackal Minor:
+Appearance: Thin, lizard-bird alien wearing light armor and carrying a
+            hand-mounted energy shield.
+Color: Blue
+Health: 50
+Shield: 200
+Weapons: Plasma Pistol (5 to 8 to 10 damage)
+Other Attacks: None
+
+
+
+Jackal Major:
+Appearance: Thin, bird-lizard alien wearing light armor and carrying a
+            hand-mounted energy shield.
+Color: Orange
+Health: 75
+Shield: 250
+Weapons: Plasma Pistol (5 to 8 to 10 damage)
+Other Attacks: None
+
+
+
+Elite Minor:
+Appearance: 7.5-foot tall reptilian alien, fast and lean, wearing alien
+            body armor.
+Color: Blue
+Health: 100
+Shield: 100
+Weapons: Plasma Rifle (5 to 6 to 7 damage)
+         Needler (5 damage / 40 to 60 damage)
+Other Attacks: Melee Attack (20 to 30 to 35 damage)
+               Plasma Grenades (80 to 120 damage)
+
+
+
+Elite Major:
+Appearance: 7.5-foot tall reptilian alien, fast and lean, wearing alien
+            body armor.
+Color: Red
+Health: 100
+Shield: 150
+Weapons: Plasma Rifle (5 to 6 to 7 damage)
+         Needler (5 damage / 40 to 60 damage)
+Other Attacks: Melee Attack (20 to 30 to 35 damage)
+               Plasma Grenades (80 to 120 damage)
+
+
+
+Elite Stealth:
+Appearance: 7.5-foot tall reptilian alien, fast and lean, wearing alien
+            body armor. Is largely invisible due to Predator-like
+            cloaking device.
+Color: Light Blue
+Health: 100
+Shield: 0
+Weapons: Plasma Rifle (5 to 6 to 7 damage)
+         Energy Sword (151 damage)
+Other Attacks: Melee Attack (20 to 30 to 35 damage)
+
+
+
+Elite SpecOps:
+Appearance: 7.5-foot tall reptilian alien, fast and lean, wearing alien
+            body armor.
+Color: Black
+Health: 125
+Shield: 200
+Weapons: Plasma Rifle (6 to 7.2 to 8.4 damage)
+         Needler (6 damage / 40 to 60 damage)
+Other Attacks: Melee Attack (20 to 30 to 35 damage)
+               Plasma Grenades (80 to 120 damage)
+
+
+
+Elite Commander:
+Appearance: 7.5-foot tall reptilian alien, fast and lean, wearing alien
+            body armor.
+Color: Gold
+Health: PLASMA RIFLE: 100, ENERGY SWORD: 100
+Shield: PLASMA RIFLE: 200, ENERGY SWORD: 300
+Weapons: Plasma Rifle (6 to 7.2 to 8.4 damage)
+         Energy Sword (151 damage)
+Other Attacks: Melee Attack (20 to 30 to 35 damage)
+
+
+
+Hunter Minor:
+Appearance: 8-foot tall, large, thick-bodied alien encased in a suit
+            of thick metal armor.
+Health: 225
+Shield: 0
+Weapons: Fuel Rod Gun (40 to 75 damage)
+Other Attacks: Melee Attack (35 to 45 damage)
+
+
+
+Hunter Major:
+Appearance: 8-foot tall, large, thick-bodied alien encased in a suit
+            of thick metal armor.
+Health: 350
+Shield: 0
+Weapons: Fuel Rod Gun (40 to 75 damage)
+Other Attacks: Melee Attack (35 to 45 damage)
+
+
+========
+=Flood:=
+===============================================================================
+
+
+Infection Form:
+Appearance: Greyish-yellow, basketball-sized, squid-like pod creature.
+Health: 0.01
+Shield: 0
+Weapons: None
+Other Attacks: Infection Attack (0.2 to 3 damage)
+
+
+
+Combat Form (Human):
+Appearance: Flood-infected human with greyish-yellow flesh, twisted body,
+            and tentacles sprouting from various orifices.
+Health: 100
+Shield: 0
+Weapons: Assault Rifle (4 damage)
+         Shotgun 1.2x15 (18) to 2.7x15 (40.5) to 3.75x15 (56.25)
+         Pistol (10 damage)
+         Plasma Pistol (4 to 6.4 to 8 damage)
+         Plasma Rifle (4 to 4.8 to 5.6 damage)
+         Needler (4 damage / 40 to 60 damage)
+         Rocket Launcher (80 to 300 to 330 damage)
+Other Attacks: Melee Attack (20 to 30 damage)
+
+
+
+Combat Form (Elite):
+Appearance: Flood-infected Covenant Elite with greyish-yellow flesh,
+            twisted body, tentacles sprouting from various orifices,
+            and its head hanging limply on backwards, with a broken neck.
+Health: UNARMED: 100, WEAPONS: 120, ROCKET LAUNCHER: 150, STEALTH: 200
+Shield: 0
+Weapons: Assault Rifle (4 damage)
+         Shotgun 1.2x15 (18) to 2.7x15 (40.5) to 3.75x15 (56.25)
+         Pistol (10 damage)
+         Plasma Pistol (4 to 6.4 to 8 damage)
+         Plasma Rifle (4 to 4.8 to 5.6 damage)
+         Needler (4 damage / 40 to 60 damage)
+         Rocket Launcher (80 to 300 to 330 damage)
+Other Attacks: Melee Attack (10 to 12 to 16 damage)
+
+
+
+Carrier Form:
+Appearance: Grossly bloated bio-mass, walking on a pair of human legs.
+Health: 50
+Shield: 0
+Weapons: None
+Other Attacks: Body Explosion (40 to 70 to 85 damage)
+
+
+============
+=Sentinels:=
+===============================================================================
+
+
+Sentinel Minor:
+Appearance: Floating, non-humanoid, triangular robot, about the size of a
+            large dog.
+Color: Silver
+Health: NORMAL: 80, DEFENSIVE: 80, SHIELDED: 60
+Shield: NORMAL: 0 , DEFENSIVE: 0 , SHIELDED: 60
+Weapons: Sentinel Beam (1 damage)
+Other Attacks: Kamikaze Explosion (30 to 60 damage)
+
+
+
+Sentinel Major:
+Appearance: Floating, non-humanoid, triangular robot, about the size of a
+            large dog.
+Color: Black
+Health: NORMAL: 120, SHIELDED: 80
+Shield: NORMAL: 0  , SHIELDED: 80
+Weapons: Sentinel Beam (1 damage)
+Other Attacks: Kamikaze Explosion (30 to 60 damage)
+
+
+***********
+*VEHICLES:*
+*******************************************************************************
+
+ENTRY KEY:
+Appearance: What the vehicle looks like (again, for the 3 or 4 of you who
+            have never played the game, seen screenshots, or watched
+            Red vs Blue.)
+Health: How much damage the vehicle can take in single-player before blowing
+        up.
+Top Speed: The vehicle's top speed, in miles-per-hour.
+Capacity: How many people the vehicle seats.
+Weapons: The weapons the vehicle is equipped with.
+
+=================
+=Human Vehicles:=
+===============================================================================
+
+
+M12 LRV Warthog:
+Appearance: Green, roofless, futuristic roadster jeep. Kinda looks like a Puma.
+Health: Indestructible
+Top Speed: 55 mph
+Capacity: 1 driver, 1 gunner, 1 passenger
+Weapons: 12.7mmx99 M41 Light Anti-Aircraft Gun (16 to 24 damage)
+
+
+
+M12A1 LAAV Warthog (PC Multiplayer Only):
+Appearance: Black, roofless, futuristic roadster jeep.
+Health: Indestructible
+Top Speed: 55 mph
+Capacity: 1 driver, 1 gunner, 1 passenger
+Weapons: Triple Barrel Rocket Launcher (80 to 300 to 330 damage)
+
+
+
+Scorpion M808B Main Battle Tank:
+Appearance: Large tank with a 360 degree rotating main cannon, an enclosed
+            central cockpit, and 4 wheel-like pods with tank treads on them.
+Health: Indestructible
+Top Speed: 28 mph
+Capacity: 1 driver, 4 passengers
+Weapons: 90mm High-Velocity Main Cannon (80 to 351 damage)
+         Secondary Coaxial 7.62mm AP-T Machine Gun (10 damage)
+
+
+====================
+=Covenant Vehicles:=
+===============================================================================
+
+
+Shade Turret:
+Appearance: Bubble-shaped floating chair with a really big cannon in front.
+Health: Indestructible
+Top Speed: 0 mph
+Capacity: 1 gunner
+Weapons: Triple Plasma Turret (8 to 10 to 14 damage)
+
+
+
+Ghost:
+Appearance: Purple alien motorbike-like vehicle, with a pill-like shape, two
+            wings sticking out the side, and an open driver's seat. Glides
+            along via levitation.
+Health: 160
+Top Speed: 45 mph
+Capacity: 1 driver
+Weapons: Dual Light Plasma Cannons (10 to 14 damage)
+
+
+
+Banshee:
+Appearance: Purple alien single-man flight craft, relatively compact in size,
+            with an oblong enclosed canopy, and two small engine wings.
+Health: 100
+Top Speed: 44 mph
+Capacity: 1 driver
+Weapons: Dual Light Plasma Cannons (10 to 14 damage)
+         Fuel Rod Gun (40 to 75 damage)
+
+
+
+Wraith:
+Appearance: large, purple, alien tank. A very smooth, round object with no
+            side parts sticking out. Glides along via leviatation.
+Health: 450
+Top Speed: 25 mph
+Capacity: 1 driver
+Weapons: Wraith Plasma Mortar (30 to 60 damage)
+
+
+===============================================================================
+=Copyright 2007 Alan Chan                                                     =
+===============================================================================
+

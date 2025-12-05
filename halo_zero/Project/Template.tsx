@@ -26,4 +26,14 @@
       <property name="Name" value="elite_rifle" type="string" />
     </properties>
   </tile>
+  <tile id="5">
+    <properties>
+      <property name="Name" value="corpse" type="string" />
+    </properties>
+  </tile>
+  <tile id="6">
+    <properties>
+      <property name="Name" value="projectile_elite_rifle" type="string" />
+    </properties>
+  </tile>
 </tileset>

@@ -4,7 +4,12 @@ Else
     Set actor_origin_y=-39
 End
 
-If Control1Fire == false
+If Control1Fire
+    If Actor_AnimationTag != Masterchief_Top_Attack
+        ActorAnimation Masterchief_Top_Attack_R Frame=0 AutoFlip
+        Goto fire_rifle
+    End
+Else
     If Control1_X > 0
         ActorDirection look_right
     ElseIf Control1_X < 0

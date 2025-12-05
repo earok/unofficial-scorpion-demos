@@ -1,0 +1,18 @@
+//Cannot see enemy so follow player
+Set hs_xorigin=actor_x
+Set hs_tag=enemy
+Set hs_direction=actor_xfacing
+GoSub visualscan
+If hs_success
+    ActorDirection stop_moving
+    ActorAnimation marine_shoot_r Frame=0 AutoFlip
+    Goto fire_rifle
+End
+Set deltax=player_x - actor_x
+If DeltaX > 32 and Player_XFacing > 0
+    ActorDirection move_right
+ElseIf DeltaX < -32 and Player_XFacing < 0
+    ActorDirection move_left
+Else
+    ActorDirection stop_moving
+End

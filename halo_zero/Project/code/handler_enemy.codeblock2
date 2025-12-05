@@ -1,9 +1,0 @@
-If Actor_Var1 <= 0
-    //We've been killed
-    ActorAnimation elite_rifle_die_r Frame=0 AutoFlip
-    
-    //Wait 100 frames before kill
-    ActorYield 100
-    ActorType None
-    Return
-End

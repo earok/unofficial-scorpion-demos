@@ -1,63 +1,63 @@
-Compiled on Thursday, 20 November 2025 3:11:38 p.m.
-Version string: SE2025.0.251119.16.07.EX
+Compiled on Saturday, 29 November 2025 7:26:45 p.m.
+Version string: SE2025.0.251129.00.16.EX
 
-ImageFrame Data Size: 1680
-Actor Count: 4
-Actor Data Size: 720
-Animations Count: 15
-Animations Data Size: 240
-AnimationFrame Count: 34
-AnimationFrame Data Size: 544
+ImageFrame Data Size: 4068
+Actor Count: 6
+Actor Data Size: 1080
+Animations Count: 25
+Animations Data Size: 400
+AnimationFrame Count: 64
+AnimationFrame Data Size: 1024
 
 === Cartridge Composition ===
  Header |   Offset | Size     | Crunch    | Detail
-   VC00 |   105758 |     8390 |  NoCrunch | Project virtual machine (codeblocks)
-   PL01 |   114148 |     2012 |  NoCrunch | Panel 
-   PB00 |   116160 |       68 |  NoCrunch | Project blocks
-   PI00 |   116228 |     1680 |  NoCrunch | Images
-   PA00 |   117908 |      720 |  NoCrunch | Project actors
-   ML01 |   118628 |        8 |       ZX0 | Map block data for level1
-   MA01 |   118636 |       14 |       ZX0 | Map actor data for level1
-   MH01 |   118650 |      848 |  NoCrunch | Header data for map level1
-   MT01 |   119498 |       82 |       ZX0 | Map tile data  level1
-   MD01 |   119580 |    26784 |  NoCrunch | Tile data for map level1 (mem restrictions:None)
-   ME01 |   146364 |       44 |  NoCrunch | Map event data for level1
-   MY01 |   146408 |      116 |  NoCrunch | Get Y lookup table level1
-   MN01 |   146524 |       20 |  NoCrunch | Map path node data for level1
-   NT00 |   146544 |     1744 |  NoCrunch | Project name table
-   PN00 |   148288 |      240 |  NoCrunch | Animations
-   PF00 |   148528 |      544 |  NoCrunch | Animation Frames
-   PS00 |   149072 |       28 |  NoCrunch | Project sound
-   DB00 |   149100 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |   149102 |     3290 |  NoCrunch | Project Header
-   PV00 |   152392 |       50 |  NoCrunch | Var Data
-   AT00 |   152442 |      176 |  NoCrunch | Attack Data
-   PE00 |   152618 |        8 |  NoCrunch | Teleporters
-   CM00 |   152626 |       12 |  NoCrunch | Commands for Joystick 1
+   VC00 |   106686 |     9428 |  NoCrunch | Project virtual machine (codeblocks)
+   PL01 |   116114 |     2012 |  NoCrunch | Panel 
+   PB00 |   118126 |     1224 |  NoCrunch | Project blocks
+   PI00 |   119350 |     4068 |  NoCrunch | Images
+   PA00 |   123418 |     1080 |  NoCrunch | Project actors
+   ML01 |   124498 |       42 |       ZX0 | Map block data for level1
+   MA01 |   124540 |       28 |       ZX0 | Map actor data for level1
+   MH01 |   124568 |      848 |  NoCrunch | Header data for map level1
+   MT01 |   125416 |      114 |       ZX0 | Map tile data  level1
+   MD01 |   125530 |    26784 |  NoCrunch | Tile data for map level1 (mem restrictions:None)
+   ME01 |   152314 |       44 |  NoCrunch | Map event data for level1
+   MY01 |   152358 |      116 |  NoCrunch | Get Y lookup table level1
+   MN01 |   152474 |       20 |  NoCrunch | Map path node data for level1
+   NT00 |   152494 |     3372 |  NoCrunch | Project name table
+   PN00 |   155866 |      400 |  NoCrunch | Animations
+   PF00 |   156266 |     1024 |  NoCrunch | Animation Frames
+   PS00 |   157290 |       28 |  NoCrunch | Project sound
+   DB00 |   157318 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   157320 |     3290 |  NoCrunch | Project Header
+   PV00 |   160610 |      110 |  NoCrunch | Var Data
+   AT00 |   160720 |      264 |  NoCrunch | Attack Data
+   PE00 |   160984 |        8 |  NoCrunch | Teleporters
+   CM00 |   160992 |       12 |  NoCrunch | Commands for Joystick 1
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
    26784 |    26784 |        | Tile data for map level1 (mem restrictions:None)
-    8390 |     8390 |        | Project virtual machine (codeblocks)
+    9428 |     9428 |        | Project virtual machine (codeblocks)
+    4068 |     4068 |        | Images
+    3372 |     3372 |        | Project name table
     3290 |     3290 |        | Project Header
     2012 |     2012 |        | Panel 
-    1744 |     1744 |        | Project name table
-    1680 |     1680 |        | Images
+    1224 |     1224 |        | Project blocks
+    1080 |     1080 |        | Project actors
+    1024 |     1024 |        | Animation Frames
      848 |      848 |        | Header data for map level1
-     720 |      720 |        | Project actors
-     544 |      544 |        | Animation Frames
-     240 |      240 |        | Animations
-     176 |      176 |        | Attack Data
+     400 |      400 |        | Animations
+     264 |      264 |        | Attack Data
      116 |      116 |        | Get Y lookup table level1
-      82 |    14442 | (100%) | Map tile data  level1
-      68 |       68 |        | Project blocks
-      50 |       50 |        | Var Data
+     114 |    14442 | (100%) | Map tile data  level1
+     110 |      110 |        | Var Data
       44 |       44 |        | Map event data for level1
+      42 |    14442 | (100%) | Map block data for level1
+      28 |      112 |  (75%) | Map actor data for level1
       28 |       28 |        | Project sound
       20 |       20 |        | Map path node data for level1
-      14 |       28 |  (50%) | Map actor data for level1
       12 |       12 |        | Commands for Joystick 1
-       8 |    14442 | (100%) | Map block data for level1
        8 |        8 |        | Teleporters
        2 |        2 |        | Misc Data (paths, hurt boxes etc)
 
@@ -69,24 +69,34 @@ memory reserved for dormant actors in map (128): 4608
 
 Total: 38556 bytes
 
+=== Possibly unused animations ===
+elite_rifle_die_l
+
+=== Possibly unused Actors ===
+elite_rifle
+
 === Codeblocks by compiled size ===
-load_level: 624
+load_level: 636
 pre_startup: 348
 flipscreen_smooth: 310 (Unused?)
 do_teleport: 300
-masterchief_top_autogen_attack: 286
+masterchief_top_autogen_attack: 292
 flipxymove: 278 (Unused?)
 load_next_level: 268 (Unused?)
 set_yresolution: 256 (Unused?)
+hitscan_loop: 252
+startup: 212
 block_find: 210 (Unused?)
-startup: 206
 waitforframes: 194
 block_count: 178 (Unused?)
 check_talkpad: 172 (Unused?)
-handler_legs: 164
+hitscan: 166
 flipymove: 162 (Unused?)
 snap_to_screen: 162 (Unused?)
 pre_quit: 160 (Unused?)
+handler_enemy: 152
+handler_marine: 144
+handler_top: 144
 flipxmove: 142 (Unused?)
 pause: 138
 restart_this_level: 136 (Unused?)
@@ -95,9 +105,12 @@ destroy_all_blocks: 128 (Unused?)
 unload_level: 118
 fadein: 108
 unload_panel: 102
+spawn_mc: 102
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
+handler_ducking: 94
+handler_standing: 94
 pre_load_level: 86
 waitforfirehit: 86
 fadeout: 76
@@ -111,7 +124,6 @@ jump_actor: 66 (Unused?)
 waitforfiredown: 64
 load_music: 62 (Unused?)
 waitforfireup: 62
-handler_top: 62
 destroy_all_actors: 60 (Unused?)
 destroy_actor: 58
 destroy_block: 52 (Unused?)
@@ -119,10 +131,12 @@ return: 52 (Unused?)
 load_panel_finish: 50
 unload_panel_bottom: 50
 unload_panel_top: 50
-spawn_mc: 46
+blink: 46
+spawn_enemy: 46
 freeze_actor: 40 (Unused?)
 quit: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
+autogen_elite_rifle_die_l_3: 38
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32
 debug_breakpoint: 26 (Unused?)

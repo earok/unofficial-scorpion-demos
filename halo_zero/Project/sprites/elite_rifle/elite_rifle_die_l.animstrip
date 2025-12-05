@@ -4,10 +4,10 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 5,
+      "Duration": 3,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "PaletteLineNeo": 0,
+      "PaletteLineNeo": 1,
       "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
@@ -24,10 +24,10 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 5,
+      "Duration": 3,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "PaletteLineNeo": 0,
+      "PaletteLineNeo": 1,
       "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
@@ -47,7 +47,7 @@
       "Duration": 25,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "PaletteLineNeo": 0,
+      "PaletteLineNeo": 1,
       "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
@@ -109,10 +109,10 @@
           }
         ]
       },
-      "Duration": 0,
+      "Duration": 50,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "PaletteLineNeo": 0,
+      "PaletteLineNeo": 1,
       "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
@@ -134,7 +134,7 @@
   "IsScaleable": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "OnFinish": "none",
+  "OnFinish": "destroy_actor",
   "AutoFlip": null,
   "Streamed": true,
   "AnimationTag": null,

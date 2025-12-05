@@ -2,14 +2,59 @@
   "Frames": [
     {
       "EventContainer": {
-        "Events": []
+        "Events": [
+          {
+            "FrameEventType": "SetPosition",
+            "Dir": "move_right",
+            "Codeblock": null,
+            "Actor": "none",
+            "Sound": "none",
+            "Variable": "hs_xorigin",
+            "Expression": "hs_yorigin",
+            "Tag": "FrameEvent0",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "IsGlobal": true,
+            "Volume": "",
+            "OverrideSpeed": false,
+            "XFloat": "30",
+            "YFloat": "-14",
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "ResetMovement": true,
+            "ResetAnimation": true,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": false,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": -64.983106816112013,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": true
+          }
+        ]
       },
-      "Duration": 5,
+      "Duration": 1,
       "Multiplexes": 0,
       "PaletteLine": 1,
       "PaletteLineNeo": 1,
       "Bitplane": 0,
-      "RenderType": "OnlySprite",
+      "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "MasterChiefTop_Import_01x01.png",
       "HandleX": -29,
@@ -18,6 +63,26 @@
       "HighPriority": false,
       "ZeroIsTransparent": false,
       "Name": "MasterChiefTop_Import_01x01",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 1,
+      "Multiplexes": 0,
+      "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "Bitplane": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "MasterChiefTop_Import_00x01.png",
+      "HandleX": -29,
+      "HandleY": -43,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "MasterChiefTop_Import_00x01",
       "IsBlank": false
     }
   ],

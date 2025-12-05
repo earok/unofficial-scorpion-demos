@@ -1,0 +1,8 @@
+If projectile_origintag == actor_tag
+    Return
+End
+
+Set actor_health = actor_health - projectile_health
+ProjectileType None
+ActorAsNew self
+Goto kill_new

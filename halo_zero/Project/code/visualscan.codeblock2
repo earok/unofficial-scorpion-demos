@@ -1,0 +1,3 @@
+Set HS_Success=False
+Set HS_BestDistance=320
+ForEachActor actor_tag == hs_tag Goto visualscan_loop

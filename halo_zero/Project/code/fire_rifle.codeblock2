@@ -1,0 +1,8 @@
+Set hs_targetdistance=320
+Set hs_direction=actor_xfacing
+Set hs_tag=enemy
+GoSub hitscan
+If hs_success
+    Set new_health=new_health - 10
+    Goto kill_new
+End

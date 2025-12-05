@@ -1,0 +1,11 @@
+If new_health <= 0
+    
+    If new_type == elite_rifle
+        NewAnimation elite_rifle_die_r Frame=0 AutoFlip
+    ElseIf new_type == marine
+        NewAnimation marine_die_r Frame=0 AutoFlip
+    End
+    
+    //We've been killed
+    NewType corpse
+End

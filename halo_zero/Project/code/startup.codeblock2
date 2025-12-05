@@ -1,8 +1,19 @@
+LookupTable word heights "..\data\heights.txt"
 Variable word DeltaX=0
-Variable word IsDucking=0
 
-//Set SpawnArea_Width = SpawnArea_Width + 128
-//Set SpawnArea_X = SpawnArea_X - 64
+Alias new_origintag=new_var2
+Alias actor_origintag=actor_var2
+Alias projectile_origintag=projectile_var2
+
+Alias new_health=new_var1
+Alias actor_health=actor_var1
+Alias projectile_health=projectile_var1
+
+Variable word IsDucking=0
+//Increase the size of the spawn area
+Set SpawnArea_Width=SpawnArea_Width + 64
+Set SpawnArea_X=SpawnArea_X - 32
+//Make it so the recycle distance is massive so enemies are not frozen unless you go a really long way
 Set RecycleDistance=256
 CameraFollow !LRUD MaxCamera=8 lowest
 CameraBox L=80 R=80 LookL=64 LookR=64
