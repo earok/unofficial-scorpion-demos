@@ -36,4 +36,19 @@
       <property name="Name" value="projectile_elite_rifle" type="string" />
     </properties>
   </tile>
+  <tile id="7">
+    <properties>
+      <property name="Name" value="bullet_hit" type="string" />
+    </properties>
+  </tile>
+  <tile id="8">
+    <properties>
+      <property name="Name" value="plasma_rifle_hit" type="string" />
+    </properties>
+  </tile>
+  <tile id="9">
+    <properties>
+      <property name="Name" value="case" type="string" />
+    </properties>
+  </tile>
 </tileset>

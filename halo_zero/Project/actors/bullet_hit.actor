@@ -1,30 +1,30 @@
 {
   "ShootDirType": "actor_direction",
   "DefaultLookDir": "left",
-  "Recycle": "Default",
+  "Recycle": "Trash",
   "MoveType": "none",
-  "MaxEntities": 0,
+  "MaxEntities": 1,
   "NudgeX": 8,
   "NudgeY": 8,
   "Idles": {
-    "UpLeft": "elite_rifle_die_l",
-    "Up": "a_blank",
-    "UpRight": "a_blank",
-    "Left": "a_blank",
-    "Right": "elite_rifle_die_r",
-    "DownLeft": "elite_rifle_die_l",
-    "Down": "elite_rifle_die_r",
-    "DownRight": "elite_rifle_die_r"
+    "UpLeft": "a_bullet_hit",
+    "Up": "a_bullet_hit",
+    "UpRight": "a_bullet_hit",
+    "Left": "a_bullet_hit",
+    "Right": "a_bullet_hit",
+    "DownLeft": "a_bullet_hit",
+    "Down": "a_bullet_hit",
+    "DownRight": "a_bullet_hit"
   },
   "Moves": {
-    "UpLeft": "elite_rifle_die_l",
-    "Up": "elite_rifle_die_r",
-    "UpRight": "elite_rifle_die_r",
-    "Left": "a_blank",
-    "Right": "elite_rifle_die_r",
-    "DownLeft": "elite_rifle_die_l",
-    "Down": "elite_rifle_die_r",
-    "DownRight": "elite_rifle_die_r"
+    "UpLeft": "a_bullet_hit",
+    "Up": "a_bullet_hit",
+    "UpRight": "a_bullet_hit",
+    "Left": "a_bullet_hit",
+    "Right": "a_bullet_hit",
+    "DownLeft": "a_bullet_hit",
+    "Down": "a_bullet_hit",
+    "DownRight": "a_bullet_hit"
   },
   "Attacks": {
     "UpLeft": "",
@@ -93,15 +93,15 @@
     }
   ],
   "InvalidDirections": [
-    true,
-    true,
-    true,
     false,
     false,
-    true,
-    true,
-    true,
-    true
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
   ],
   "CollBox": {
     "X": -4,
@@ -110,7 +110,7 @@
     "Height": 8
   },
   "AttackDelay": 0,
-  "ZOrder": 0,
+  "ZOrder": 999,
   "SpeedLeft": 0.0,
   "SpeedRight": 0.0,
   "SpeedUp": 0.0,
@@ -137,7 +137,7 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": "",
-  "DivertSpawn": "",
+  "DivertSpawn": "randomize_offset",
   "DivertPlayerCollision": "",
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",
@@ -197,6 +197,6 @@
   "IsAttacker": null,
   "PreviewParent": null,
   "RotationEnabled": false,
-  "TileID": 5,
+  "TileID": 7,
   "MaxTimelineFrames": 50
 }

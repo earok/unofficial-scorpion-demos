@@ -2,22 +2,31 @@ If projectile_origintag == marine //Never get hit by other marines
     Return
 End
 
-//Select the legs to destroy
-If actor_type == masterchief_top
-    ActorAsNew parent
-Else
-    ActorAsNew self
-End
 
-If new_health <= 0
+If Health <= 0
     Return
 End
 
-Set new_health=new_health - projectile_health
+Set Shield=Shield - projectile_health
+Set ShieldDelay=100
 ProjectileType None
-If new_health <= 0
+Spawn plasma_rifle_hit X=projectile_x Y=projectile_y
+
+If Shield < 0
+    Set Health=Health + Shield
+    Set healthdisplay=Health << 3 / 75
+    Set Shield=0
+End
+
+If Health <= 0
+    //Select the legs to destroy
+    If actor_type == masterchief_top
+        ActorAsNew parent
+    Else
+        ActorAsNew self
+    End
     
-    CameraPosition X=camera_x Y=camera_y ResetMovement
+    CameraFollow ! MaxCamera=0
     //We've been killed
     
     //Destroy the live master chief actor (and torso etc)

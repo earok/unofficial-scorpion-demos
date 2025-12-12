@@ -1,5 +1,10 @@
-LookupTable word heights "..\data\heights.txt"
+LookupTable byte heights "..\data\heights.txt"
 Variable word DeltaX=0
+Variable word DeltaY=0
+Variable word Shield=75
+Variable word ShieldDelay=0
+Variable word Health=75
+Variable word HealthDisplay=8
 
 Alias new_origintag=new_var2
 Alias actor_origintag=actor_var2
@@ -16,6 +21,6 @@ Set SpawnArea_X=SpawnArea_X - 32
 //Make it so the recycle distance is massive so enemies are not frozen unless you go a really long way
 Set RecycleDistance=256
 CameraFollow !LRUD MaxCamera=8 lowest
-CameraBox L=80 R=80 LookL=64 LookR=64
+CameraBox L=80 R=80 U=0 D=0 LookL=64 LookR=64 LookU=0 LookD=0
 AttackControls player1 !1A
-Level level1
+Level level1 PanelTop=top_hud

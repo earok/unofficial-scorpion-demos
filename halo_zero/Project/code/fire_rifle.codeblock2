@@ -4,5 +4,6 @@ Set hs_tag=enemy
 GoSub hitscan
 If hs_success
     Set new_health=new_health - 10
-    Goto kill_new
+    GoSub kill_new
+    Spawn bullet_hit X=new_x Y=hs_yorigin
 End

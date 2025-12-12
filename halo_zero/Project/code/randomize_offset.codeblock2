@@ -1,0 +1,3 @@
+Roll 16 MinSide=-8 Into deltax
+Roll 16 MinSide=-8 Into deltay
+ActorPosition X=Actor_X + deltax Y=Actor_Y + deltaY

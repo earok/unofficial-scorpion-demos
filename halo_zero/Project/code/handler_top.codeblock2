@@ -1,3 +1,20 @@
+//If we are damaged
+If Shield < 75
+    If ShieldDelay > 0
+        Set ShieldDelay=ShieldDelay - 1
+        If ShieldDelay == 0
+            //We've just hit the End of the shield recharge time
+            Sound ShieldRecharge
+        End
+    Else
+        Set Shield=Shield + 1
+    End
+    If Shield == 0
+        Sound ShieldLow
+    End
+End
+
+
 If IsDucking
     Set actor_origin_y=-21
 Else
