@@ -1,9 +1,9 @@
-Compiled on Saturday, 13 December 2025 9:42:31 a.m.
-Version string: SE2025.0.251213.06.43.EX
+Compiled on Tuesday, 16 December 2025 6:23:46 p.m.
+Version string: SE2025.0.251216.11.34.EX
 
 === Misc ===
-ImageFrames: 115
-ImageFrame Data Size: 5520
+ImageFrames: 119
+ImageFrame Data Size: 5712
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 0
 Actor Count: 11
@@ -12,14 +12,14 @@ Block Count: 18
 Block Data Size: 1224
 Anim5 Count: 0
 Anim5 Data Size: 0
-Sound Count: 8
-Sound Data Size: 224
+Sound Count: 9
+Sound Data Size: 252
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 41
-Animations Data Size: 656
-AnimationFrame Count: 116
-AnimationFrame Data Size: 1856
+Animations Count: 43
+Animations Data Size: 688
+AnimationFrame Count: 120
+AnimationFrame Data Size: 1920
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 4
@@ -30,32 +30,32 @@ Misc data size: 164
  Header |   Offset | Size     | Crunch    | Detail
    PL03 |      274 |       76 |   Implode | Panel (background color #000)
    PL01 |      350 |     3380 |   Implode | Panel scorpion_eng_splashscreen
-   PL02 |     3730 |      266 |   Implode | Panel top_hud
-   PC02 |     3996 |      104 |   Implode | Panel bobs top_hud
-   VC00 |     4100 |     3820 |   Implode | Project virtual machine (codeblocks)
-   MA01 |     7920 |       96 |   Implode | Map actor data for level1
-   MH01 |     8016 |      186 |   Implode | Header data for map level1
-   MD01 |     8202 |     3832 |   Implode | Tile data for map level1 (mem restrictions:None)
-   AB00 |    12034 |   125116 |   Implode | Asset bundle 0 (Core project asset bundle)
-   AB01 |   137150 |    33710 |   Implode | Asset bundle 1 (level1)
-   DB00 |   170860 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |   170862 |     1220 |   Implode | Project Header
-   PD01 |   172082 |        4 |  NoCrunch | Project Custom Collisions
-   PD00 |   172086 |     3760 |   Implode | Project Data
-   VR00 |   175846 |        4 |  NoCrunch | Project virtual machine redirects
+   PL02 |     3730 |      694 |   Implode | Panel top_hud
+   PC02 |     4424 |      340 |   Implode | Panel bobs top_hud
+   VC00 |     4764 |     3944 |   Implode | Project virtual machine (codeblocks)
+   MA01 |     8708 |       96 |   Implode | Map actor data for level1
+   MH01 |     8804 |      186 |   Implode | Header data for map level1
+   MD01 |     8990 |     3832 |   Implode | Tile data for map level1 (mem restrictions:None)
+   AB00 |    12822 |   129590 |   Implode | Asset bundle 0 (Core project asset bundle)
+   AB01 |   142412 |    33710 |   Implode | Asset bundle 1 (level1)
+   DB00 |   176122 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   176124 |     1220 |   Implode | Project Header
+   PD01 |   177344 |        4 |  NoCrunch | Project Custom Collisions
+   PD00 |   177348 |     3896 |   Implode | Project Data
+   VR00 |   181244 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
-  125116 |   373386 |  (67%) | Asset bundle 0 (Core project asset bundle)
+  129590 |   385656 |  (67%) | Asset bundle 0 (Core project asset bundle)
    33710 |   114500 |  (71%) | Asset bundle 1 (level1)
+    3944 |    13780 |  (72%) | Project virtual machine (codeblocks)
+    3896 |    12316 |  (69%) | Project Data
     3832 |    72522 |  (95%) | Tile data for map level1 (mem restrictions:None)
-    3820 |    13368 |  (72%) | Project virtual machine (codeblocks)
-    3760 |    12000 |  (69%) | Project Data
     3380 |    36784 |  (91%) | Panel scorpion_eng_splashscreen
     1220 |     4376 |  (73%) | Project Header
-     266 |     3128 |  (92%) | Panel top_hud
+     694 |     4504 |  (85%) | Panel top_hud
+     340 |     1560 |  (79%) | Panel bobs top_hud
      186 |      848 |  (79%) | Header data for map level1
-     104 |      544 |  (81%) | Panel bobs top_hud
       96 |      168 |  (43%) | Map actor data for level1
       76 |     1296 |  (95%) | Panel (background color #000)
        4 |        4 |        | Project Custom Collisions
@@ -69,7 +69,7 @@ For chip:
 Map gfx (level gfx bundle 1): 114500
 Music sample (): 0
 BP Buffer memory: 140640
-Core sfx/gfx memory: 373385
+Core sfx/gfx memory: 385655
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -77,22 +77,24 @@ For other:
 Map data memory: 72522
 Map background memory: 1296
 EXE memory: 220120
-vm memory: 13368
-project memory: 12000
+vm memory: 13780
+project memory: 12316
 Music data (): 0
 memory reserved for active actors on screen (32): 5064
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 727853
-Accounted memory other: 434450
-Accounted memory total: 1162303
+Accounted memory chip: 740123
+Accounted memory other: 435178
+Accounted memory total: 1175301
 
 === Possibly unused animations ===
 elite_rifle_die_l
 elite_rifle_shoot_l
 marine_die_l
 masterchief_die_l
+masterchief_top_melee_l
+masterchief_top_melee_r
 
 === Possibly unused sound effects ===
 plasmapistolshot
@@ -100,18 +102,18 @@ plasmapistolshot
 === Codeblocks by compiled size ===
 load_level: 676
 hit_projectile_mc: 650
+handler_top: 624
 pre_startup: 438
 statemachine_marine: 408
-handler_top: 362
 hitscan_loop: 340
 do_teleport: 320
+visualscan_loop: 320
 flipscreen_smooth: 310 (Unused?)
 statemachine_elite_rifle: 296
 flipxymove: 278 (Unused?)
 load_next_level: 268 (Unused?)
 startup: 242
 freemem: 236
-visualscan_loop: 228
 block_find: 210 (Unused?)
 set_yresolution: 202
 hit_projectile: 200
@@ -169,6 +171,7 @@ destroy_block: 52 (Unused?)
 return: 52 (Unused?)
 autogen_elite_rifle_die_l_0: 52
 autogen_marine_die_l_0: 52
+autogen_masterchief_top_melee_l_0: 52
 load_panel_finish: 50
 unload_panel_bottom: 50
 unload_panel_top: 50

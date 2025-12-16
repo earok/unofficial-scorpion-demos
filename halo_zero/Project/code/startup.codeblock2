@@ -5,6 +5,9 @@ Variable word Shield=75
 Variable word ShieldDelay=0
 Variable word Health=75
 Variable word HealthDisplay=8
+Variable word Ammo=600
+Variable word Clip=60
+Variable word Grenades=2
 
 Alias new_origintag=new_var2
 Alias actor_origintag=actor_var2
@@ -21,6 +24,6 @@ Set SpawnArea_X=SpawnArea_X - 32
 //Make it so the recycle distance is massive so enemies are not frozen unless you go a really long way
 Set RecycleDistance=256
 CameraFollow !LRUD MaxCamera=8 lowest
-CameraBox L=80 R=80 U=0 D=0 LookL=64 LookR=64 LookU=0 LookD=0
+CameraBox L=40 R=40 U=0 D=0 LookL=64 LookR=64 LookU=0 LookD=0
 AttackControls player1 !1A
 Level level1 PanelTop=top_hud

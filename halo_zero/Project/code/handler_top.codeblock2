@@ -22,9 +22,21 @@ Else
 End
 
 If Control1Fire
-    If Actor_AnimationTag != Masterchief_Top_Attack
-        ActorAnimation Masterchief_Top_Attack_R Frame=0 AutoFlip
-        Goto fire_rifle
+    If Actor_AnimationTag == Masterchief_Top_Idle
+        If Clip > 0
+            ActorAnimation Masterchief_Top_Attack_R Frame=0 AutoFlip
+            Set clip=clip - 1
+            Goto fire_rifle
+        ElseIf Ammo > 0
+            If Ammo > 60
+                Set clip=60
+                Set Ammo=Ammo - 60
+            Else
+                Set clip=Ammo
+                Set Ammo=0
+            End
+        End
+        ActorAnimation masterchief_top_melee Frame=0 AutoFlip
     End
 Else
     If Control1_X > 0

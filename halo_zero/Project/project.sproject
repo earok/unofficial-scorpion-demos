@@ -105,14 +105,14 @@
       "LinkedMap": "",
       "RepeatDelay": 11,
       "IsMusic": false,
-      "Priority": 1,
+      "Priority": 8,
       "Channel": null
     },
     "shieldrecharge": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 2,
+      "Priority": 9,
       "Channel": null
     },
     "rifleshot": {
@@ -140,14 +140,14 @@
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0,
+      "Priority": 10,
       "Channel": null
     },
     "elitedead": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
-      "Priority": 0,
+      "Priority": 5,
       "Channel": null
     }
   },

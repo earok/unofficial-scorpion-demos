@@ -9,6 +9,13 @@ ElseIf HS_Direction < 0
         Return
     End
 End
+//The actor can only see what the player can see
+If actor_x < camera_x
+    Return
+End
+If actor_x > camera_x + xres
+    Return
+End
 
 Absolute DeltaX=Actor_X - HS_XOrigin
 If DeltaX < HS_BestDistance
