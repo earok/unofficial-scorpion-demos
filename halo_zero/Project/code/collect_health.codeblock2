@@ -1,0 +1,5 @@
+If hasjustducked and health < 75
+    ActorType none ResetMovement ResetAnimation
+    Set health=75
+    Goto refresh_ui
+End

@@ -1,4 +1,31 @@
+Set hasjustducked=false
+
 If control1_y <= 0 or actor_isonplatform == false
     Set isducking=false
     ActorType masterchief_legs_stand
+	Goto Handler_Standing_Continue
+End
+
+Label Handler_Ducking_Continue
+
+If control1_x
+    If actor_framedelay <= 0
+        If control1_x == actor_xfacing
+            //Run forward
+            Set NextFrame=Actor_Frame + 1
+            If NextFrame >= 3
+                Set NextFrame=0
+            End
+        Else
+            //Run backwards
+            Set NextFrame=Actor_Frame - 1
+            If NextFrame < 0
+                Set NextFrame=2
+            End
+        End
+        ActorAnimation MasterChief_Crawl_R Frame=NextFrame AutoFlip
+        Set Actor_FrameDelay=Frame_Adjust*4
+    End
+elseif Actor_AnimationTag != MasterChief_Duck
+    ActorAnimation MasterChief_Duck_R AutoFlip
 End

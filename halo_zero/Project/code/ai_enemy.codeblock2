@@ -1,10 +1,14 @@
 Roll 16 MinSide=0
 If dice == 0
     //Charge
-    ActorDirection move_left
+    If actor_isonplatform
+        ActorDirection move_left
+    End
 ElseIf dice == 1
     //Retreat
-    ActorDirection move_right
+    If actor_isonplatform
+        ActorDirection move_right
+    End
 Else
     ActorDirection stop_moving
     
@@ -18,6 +22,17 @@ Else
             ActorDirection look_left
         Else
             ActorDirection look_right
+        End
+        If hs_bestdistance < 64 and melee_anims[actor_type]
+            ActorAnimation melee_anims[actor_type] Frame=0 AutoFlip
+            Return
+        End
+        If hs_bestdistance > 64 and grenade_anims[actor_type]
+            Roll 16 MinSide=0
+            If dice == 0 //Rarely throw grenade instead of shoot
+                ActorAnimation grenade_anims[actor_type] Frame=0 AutoFlip
+                Return
+            End
         End
         Set aimx=new_x
         Set aimy=hs_yhit

@@ -1,4 +1,8 @@
 //If we are damaged
+Variable word mc_xfacing=0
+Variable word mc_x=0
+Set mc_xfacing=actor_xfacing
+Set mc_x=actor_x
 If Shield < 75
     If ShieldDelay > 0
         Set ShieldDelay=ShieldDelay - 1
@@ -39,9 +43,12 @@ If Control1Fire
         ActorAnimation masterchief_top_melee_r Frame=0 AutoFlip
     End
 Else
+    ActorAsNew parent
     If Control1_X > 0
         ActorDirection look_right
+        NewDirection look_right
     ElseIf Control1_X < 0
         ActorDirection look_left
+        NewDirection look_left
     End
 End

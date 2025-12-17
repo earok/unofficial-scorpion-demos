@@ -176,7 +176,7 @@
   ],
   "PreventAttack": false,
   "PreventMovement": false,
-  "PreventCollision": false,
+  "PreventCollision": true,
   "PreventJump": false,
   "IsSynchronised": false,
   "IsScaleable": false,

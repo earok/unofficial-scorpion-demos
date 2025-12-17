@@ -8,11 +8,13 @@ If hs_success
     ActorAnimation marine_shoot_r Frame=0 AutoFlip
     Goto fire_rifle
 End
-Set deltax=player_x - actor_x
-If DeltaX > 32 and Player_XFacing > 0
-    ActorDirection move_right
-ElseIf DeltaX < -32 and Player_XFacing < 0
-    ActorDirection move_left
-Else
-    ActorDirection stop_moving
+If actor_isonplatform
+    Set deltax=mc_x - actor_x
+    If DeltaX > 32 and MC_XFacing > 0
+        ActorDirection move_right
+    ElseIf DeltaX < -32 and MC_XFacing < 0
+        ActorDirection move_left
+    Else
+        ActorDirection stop_moving
+    End
 End

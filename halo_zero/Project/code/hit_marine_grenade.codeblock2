@@ -1,0 +1,9 @@
+If player_type == marine
+    //Special handling for marine damage
+    Set player_health=actor_health - melee_damage[projectile_type]
+    ActorAsNew self
+    Goto kill_new
+End
+Set Shield=Shield - melee_damage[projectile_type]
+PlayerAsNew self
+Goto hurt_mc

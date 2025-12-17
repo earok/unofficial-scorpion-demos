@@ -61,4 +61,19 @@
       <property name="Name" value="projectile_plasma_pistol" type="string" />
     </properties>
   </tile>
+  <tile id="12">
+    <properties>
+      <property name="Name" value="enemy_grenade" type="string" />
+    </properties>
+  </tile>
+  <tile id="13">
+    <properties>
+      <property name="Name" value="grenade_explosion" type="string" />
+    </properties>
+  </tile>
+  <tile id="14">
+    <properties>
+      <property name="Name" value="item_medkit" type="string" />
+    </properties>
+  </tile>
 </tileset>

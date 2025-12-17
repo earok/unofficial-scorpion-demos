@@ -2,13 +2,33 @@
   "Frames": [
     {
       "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Multiplexes": 0,
+      "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "Bitplane": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "EliteRifle_Import_00x02.png",
+      "HandleX": -60,
+      "HandleY": -96,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "EliteRifle_Import_00x02",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
         "Events": [
           {
-            "FrameEventType": "Sound",
+            "FrameEventType": "MeleeBox",
             "Dir": "move_right",
             "Codeblock": null,
             "Actor": "none",
-            "Sound": "reload",
+            "Sound": "none",
             "Variable": null,
             "Expression": null,
             "Tag": "FrameEvent0",
@@ -29,12 +49,12 @@
             "ResetMovement": true,
             "ResetAnimation": true,
             "Box": {
-              "X": -4,
-              "Y": -4,
-              "Width": 8,
-              "Height": 8
+              "X": -52,
+              "Y": -52,
+              "Width": 53,
+              "Height": 17
             },
-            "HasTag": false,
+            "HasTag": true,
             "Color": {
               "r": 0,
               "g": 0,
@@ -56,46 +76,26 @@
       "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
-      "Path": "MasterChiefTop_Import_02x01.png",
-      "HandleX": -29,
-      "HandleY": -43,
+      "Path": "EliteRifle_Import_01x02.png",
+      "HandleX": -65,
+      "HandleY": -96,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "MasterChiefTop_Import_02x01",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 5,
-      "Multiplexes": 0,
-      "PaletteLine": 1,
-      "PaletteLineNeo": 1,
-      "Bitplane": 0,
-      "RenderType": "Normal",
-      "SpriteType": "Attached_16colors",
-      "Path": "MasterChiefTop_Import_03x01.png",
-      "HandleX": -29,
-      "HandleY": -43,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "MasterChiefTop_Import_03x01",
+      "Name": "EliteRifle_Import_01x02",
       "IsBlank": false
     }
   ],
   "PreventAttack": false,
   "PreventMovement": false,
-  "PreventCollision": true,
+  "PreventCollision": false,
   "PreventJump": false,
   "IsSynchronised": false,
   "IsScaleable": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "OnFinish": null,
-  "AutoFlip": true,
+  "OnFinish": "ai_enemy",
+  "AutoFlip": null,
   "Streamed": true,
   "AnimationTag": null,
   "LinkedMap": ""

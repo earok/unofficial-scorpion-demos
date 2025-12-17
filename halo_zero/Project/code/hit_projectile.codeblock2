@@ -2,8 +2,16 @@ If projectile_origintag == actor_tag
     Return
 End
 
+If projectile_tag == grenade
+    Goto grenade_explode
+End
+
 Set actor_health=actor_health - projectile_health
+If projectile_type == projectile_elite_rifle
+    Spawn plasma_rifle_hit X=projectile_x Y=projectile_y
+ElseIf projectile_type == enemy_grenade
+    Spawn plasma_rifle_hit X=projectile_x Y=projectile_y
+End
 ProjectileType None
-Spawn plasma_rifle_hit X=projectile_x Y=projectile_y
 ActorAsNew self
 Goto kill_new

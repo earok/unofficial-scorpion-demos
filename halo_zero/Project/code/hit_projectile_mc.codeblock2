@@ -1,36 +1,19 @@
 If projectile_origintag == marine //Never get hit by other marines
     Return
 End
-
+If projectile_tag == fx
+    Return
+End
+If projectile_tag == grenade
+    Goto grenade_explode
+End
 
 If Health <= 0
     Return
 End
 
 Set Shield=Shield - projectile_health
-Set ShieldDelay=100
 ProjectileType None
 Spawn plasma_rifle_hit X=projectile_x Y=projectile_y
-
-If Shield < 0
-    Set Health=Health + Shield
-    Set healthdisplay=Health << 3 / 75
-    Set Shield=0
-End
-
-If Health <= 0
-    //Select the legs to destroy
-    If actor_type == masterchief_top
-        ActorAsNew parent
-    Else
-        ActorAsNew self
-    End
-    
-    CameraFollow ! MaxCamera=0
-    //We've been killed
-    
-    //Destroy the live master chief actor (and torso etc)
-    NewType none
-    Spawn corpse X=new_x Y=new_y
-    NewAnimation masterchief_die Frame=0 AutoFlip
-End
+ActorAsNew self
+Goto hurt_mc

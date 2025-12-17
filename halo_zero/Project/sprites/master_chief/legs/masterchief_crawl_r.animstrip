@@ -4,7 +4,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 4,
+      "Duration": 0,
       "Multiplexes": 0,
       "PaletteLine": 1,
       "PaletteLineNeo": 1,
@@ -24,7 +24,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 4,
+      "Duration": 0,
       "Multiplexes": 0,
       "PaletteLine": 1,
       "PaletteLineNeo": 1,
@@ -44,7 +44,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 4,
+      "Duration": 0,
       "Multiplexes": 0,
       "PaletteLine": 1,
       "PaletteLineNeo": 1,

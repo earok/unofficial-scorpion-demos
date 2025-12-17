@@ -1,0 +1,2 @@
+elite_rifle = elite_rifle_melee_r
+grunt_yellow = false
