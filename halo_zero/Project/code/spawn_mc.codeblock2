@@ -1,1 +1,8 @@
+Set Shield=75
+Set ShieldDelay=0
+Set Health=75
+Set Ammo=600
+Set Clip=60
+Set Grenades=2
+Set IsDucking=0
 ActorSpawnChild masterchief_top

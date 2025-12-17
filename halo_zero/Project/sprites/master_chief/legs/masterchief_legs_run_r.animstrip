@@ -4,7 +4,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 3,
+      "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 1,
       "PaletteLineNeo": 1,
@@ -24,7 +24,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 3,
+      "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 1,
       "PaletteLineNeo": 1,
@@ -44,7 +44,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 3,
+      "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 1,
       "PaletteLineNeo": 1,
@@ -64,7 +64,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 3,
+      "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 1,
       "PaletteLineNeo": 1,
@@ -84,7 +84,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 3,
+      "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 1,
       "PaletteLineNeo": 1,
@@ -104,7 +104,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 3,
+      "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 1,
       "PaletteLineNeo": 1,
@@ -124,7 +124,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 3,
+      "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 1,
       "PaletteLineNeo": 1,
@@ -144,7 +144,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 3,
+      "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 1,
       "PaletteLineNeo": 1,
@@ -164,7 +164,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 3,
+      "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 1,
       "PaletteLineNeo": 1,

@@ -104,7 +104,7 @@
     false
   ],
   "CollBox": {
-    "X": -11,
+    "X": -10,
     "Y": -75,
     "Width": 20,
     "Height": 75
@@ -137,7 +137,7 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": "",
-  "DivertSpawn": "statemachine_elite_rifle",
+  "DivertSpawn": "ai_enemy",
   "DivertPlayerCollision": "",
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",

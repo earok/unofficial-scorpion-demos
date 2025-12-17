@@ -12,13 +12,15 @@ Else
     Set hs_xorigin=actor_x
     Set hs_tag=marine
     Set hs_direction=0
-    GoSub visualscan
+    GoSub hitscan
     If hs_success
         If new_x < actor_x
             ActorDirection look_left
         Else
             ActorDirection look_right
         End
-        ActorAnimation elite_rifle_shoot_r Frame=0 AutoFlip
+        Set aimx=new_x
+        Set aimy=hs_yhit
+        ActorAnimation shoot_anims[actor_type] Frame=0 AutoFlip
     End
 End

@@ -149,10 +149,28 @@
       "IsMusic": false,
       "Priority": 5,
       "Channel": null
+    },
+    "gruntdead": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "reload": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},
-  "NumberFontMetaData": {},
+  "NumberFontMetaData": {
+    "defaultnumberfont": {
+      "Radix": 10
+    }
+  },
   "FontMetaData": {},
   "SplashScreen": null,
   "LogicSpeed": "PAL_25HZ",

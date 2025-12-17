@@ -31,15 +31,6 @@ If Health <= 0
     
     //Destroy the live master chief actor (and torso etc)
     NewType none
-    Set deltax=new_xfacing
     Spawn corpse X=new_x Y=new_y
-    
-    //Corpse should face the way the player is facing
-    If deltax > 0
-        NewDirection look_right
-    Else
-        NewDirection look_left
-    End
-    
-    NewAnimation masterchief_die_r Frame=0 AutoFlip
+    NewAnimation masterchief_die Frame=0 AutoFlip
 End

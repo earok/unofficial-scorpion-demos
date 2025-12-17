@@ -5,5 +5,5 @@ GoSub hitscan
 If hs_success
     Set new_health=new_health - 10
     GoSub kill_new
-    Spawn bullet_hit X=new_x Y=hs_yorigin
+    Spawn bullet_hit X=new_x Y=hs_yhit
 End

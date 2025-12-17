@@ -51,4 +51,14 @@
       <property name="Name" value="case" type="string" />
     </properties>
   </tile>
+  <tile id="10">
+    <properties>
+      <property name="Name" value="grunt_yellow" type="string" />
+    </properties>
+  </tile>
+  <tile id="11">
+    <properties>
+      <property name="Name" value="projectile_plasma_pistol" type="string" />
+    </properties>
+  </tile>
 </tileset>

@@ -36,7 +36,7 @@ If Control1Fire
                 Set Ammo=0
             End
         End
-        ActorAnimation masterchief_top_melee Frame=0 AutoFlip
+        ActorAnimation masterchief_top_melee_r Frame=0 AutoFlip
     End
 Else
     If Control1_X > 0

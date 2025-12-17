@@ -21,7 +21,7 @@
   "DoubleCopper": true,
   "NTSC": false,
   "CrunchMode": "Implode",
-  "MaxActiveActors": 32,
+  "MaxActiveActors": 48,
   "MaxDormantActors": 128,
   "PaletteLines": 1,
   "StartingPaletteLine": 0

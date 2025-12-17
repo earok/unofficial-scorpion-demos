@@ -10,12 +10,11 @@ Else
     End
 End
 
-//Too low
-If HS_YOrigin > actor_y
+//The actor can only see what the player can see
+If actor_x < camera_x
     Return
 End
-
-If HS_YOrigin < actor_y - heights[actor_type]
+If actor_x > camera_x + xres
     Return
 End
 
@@ -23,5 +22,6 @@ Absolute DeltaX=Actor_X - HS_XOrigin
 If DeltaX < HS_BestDistance
     Set HS_BestDistance=DeltaX
     Set HS_Success=True
+    Set hs_yhit=-heights[actor_type] >> 1 + actor_y
     ActorAsNew self
 End

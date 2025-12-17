@@ -5,7 +5,14 @@ Variable word HS_YOrigin=0
 Variable word HS_Direction=0
 Variable word HS_Success=0
 Variable word HS_Tag=0
+Variable word HS_YHit=0
 
 Set HS_Success=False
+If hs_xorigin < camera_x
+    Return //Eyes aren't inside camera
+End
+If hs_xorigin > camera_x + xres
+    Return //Eyes aren't inside camera
+End
 Set HS_BestDistance=HS_TargetDistance
 ForEachActor actor_tag == hs_tag Goto hitscan_loop

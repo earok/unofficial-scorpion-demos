@@ -1,0 +1,11 @@
+//Remember the tag of the actor that shot this projectile
+Variable word AimX=0
+Variable word AimY=0
+Variable word AimAngle=0
+ActorAsNew parent
+Set actor_origintag=new_origintag
+If AimX
+    Atan2 aimangle X=aimx - actor_x Y=aimy - actor_y
+    ActorSpeed Y=-16 Angle=AimAngle
+    Set aimx=0
+End

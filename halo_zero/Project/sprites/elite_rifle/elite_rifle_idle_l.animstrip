@@ -29,7 +29,7 @@
   "IsScaleable": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "OnFinish": "statemachine_elite_rifle",
+  "OnFinish": "ai_enemy",
   "AutoFlip": null,
   "Streamed": true,
   "AnimationTag": null,

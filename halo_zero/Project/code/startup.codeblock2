@@ -1,13 +1,16 @@
 LookupTable byte heights "..\data\heights.txt"
+LookupTable word shoot_anims "..\data\shoot_anims.txt"
+LookupTable word dead_anims "..\data\dead_anims.txt"
 Variable word DeltaX=0
 Variable word DeltaY=0
+Variable word HealthDisplay=8
 Variable word Shield=75
 Variable word ShieldDelay=0
 Variable word Health=75
-Variable word HealthDisplay=8
 Variable word Ammo=600
 Variable word Clip=60
 Variable word Grenades=2
+Variable word IsDucking=0
 
 Alias new_origintag=new_var2
 Alias actor_origintag=actor_var2
@@ -17,13 +20,12 @@ Alias new_health=new_var1
 Alias actor_health=actor_var1
 Alias projectile_health=projectile_var1
 
-Variable word IsDucking=0
 //Increase the size of the spawn area
 Set SpawnArea_Width=SpawnArea_Width + 64
 Set SpawnArea_X=SpawnArea_X - 32
 //Make it so the recycle distance is massive so enemies are not frozen unless you go a really long way
 Set RecycleDistance=256
 CameraFollow !LRUD MaxCamera=8 lowest
-CameraBox L=40 R=40 U=0 D=0 LookL=64 LookR=64 LookU=0 LookD=0
+CameraBox L=60 R=60 U=0 D=0 LookL=64 LookR=64 LookU=0 LookD=0
 AttackControls player1 !1A
 Level level1 PanelTop=top_hud

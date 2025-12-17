@@ -1,0 +1,2 @@
+Missing image: D:\Scorpion\Projects\unofficial-scorpion-demos\halo_zero\Project\sprites\projectiles\.\projectiles_import_03x00.png
+UnityEngine.EventSystems.EventSystem:Update()

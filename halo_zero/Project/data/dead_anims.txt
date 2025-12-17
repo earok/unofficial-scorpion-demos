@@ -1,0 +1,3 @@
+elite_rifle = elite_rifle_die
+grunt_yellow = grunt_yellow_die
+marine = marine_die
