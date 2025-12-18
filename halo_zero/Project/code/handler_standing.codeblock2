@@ -11,7 +11,7 @@ Label Handler_Standing_Continue
 
 //Running animation is entirely manual
 If Actor_IsOnPlatform == false
-    ActorAnimation MasterChief_Legs_Fall Frame=0 AutoFlip
+    ActorAnimation MasterChief_Legs_Fall_R Frame=0 AutoFlip
 ElseIf control1_x
     If actor_framedelay <= 0
         If control1_x == actor_xfacing

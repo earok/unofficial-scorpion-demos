@@ -1,1 +1,6 @@
-ProjectileType grenade_explosion ResetMovement ResetAnimation
+If projectile_type == marine_grenade
+    ProjectileAnimation a_marine_grenade_explosion Frame=0
+Else
+    ProjectileAnimation a_enemy_grenade_explosion Frame=0
+End
+ProjectileType grenade_explosion

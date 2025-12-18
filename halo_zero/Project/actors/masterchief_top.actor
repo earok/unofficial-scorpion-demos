@@ -160,7 +160,7 @@
   ],
   "ControlPort": 1,
   "DataVersion": 8,
-  "ActorTag": "None",
+  "ActorTag": "marine",
   "AutoSpawn": null,
   "AutoNavigate": false,
   "ActorTimeline": {

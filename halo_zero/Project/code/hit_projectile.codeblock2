@@ -1,7 +1,9 @@
 If projectile_origintag == actor_tag
     Return
 End
-
+If projectile_tag == fx
+    Return
+End
 If projectile_tag == grenade
     Goto grenade_explode
 End

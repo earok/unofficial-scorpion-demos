@@ -1,0 +1,3 @@
+Set Shield=Shield - melee_damage[projectile_type]
+PlayerAsNew self
+Goto hurt_mc

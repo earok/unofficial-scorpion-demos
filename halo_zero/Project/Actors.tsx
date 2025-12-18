@@ -76,4 +76,14 @@
       <property name="Name" value="item_medkit" type="string" />
     </properties>
   </tile>
+  <tile id="15">
+    <properties>
+      <property name="Name" value="marine_grenade" type="string" />
+    </properties>
+  </tile>
+  <tile id="16">
+    <properties>
+      <property name="Name" value="grunt_red" type="string" />
+    </properties>
+  </tile>
 </tileset>

@@ -1,2 +1,3 @@
-elite_rifle = elite_rifle_shoot_r
-grunt_yellow = grunt_yellow_shoot_r
+elite_rifle = elite_rifle_shoot_l
+grunt_yellow = grunt_yellow_shoot_l
+grunt_red = grunt_red_shoot_l

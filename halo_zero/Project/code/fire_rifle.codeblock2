@@ -1,4 +1,3 @@
-Set hs_targetdistance=320
 Set hs_direction=actor_xfacing
 Set hs_tag=enemy
 GoSub hitscan

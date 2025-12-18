@@ -18,14 +18,16 @@ If Shield < 75
     End
 End
 
-
 If IsDucking
     Set actor_origin_y=-21
 Else
     Set actor_origin_y=-39
 End
 
-If Control1Fire
+If control1_buttons btst Amiga_Fire2 and Actor_AnimationTag == masterchief_top_idle and grenades > 0
+    ActorAnimation masterchief_top_grenade_r Frame=0 AutoFlip
+    Set grenades=grenades - 1
+ElseIf Control1Fire
     If Actor_AnimationTag == Masterchief_Top_Idle
         If Clip > 0
             ActorAnimation Masterchief_Top_Attack_R Frame=0 AutoFlip

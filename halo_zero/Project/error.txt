@@ -1,2 +1,10 @@
-Missing image: D:\Scorpion\Projects\unofficial-scorpion-demos\halo_zero\Project\sprites\projectiles\.\projectiles_import_03x00.png
-UnityEngine.EventSystems.EventSystem:Update()
+FileNotFoundException: D:\Scorpion\Projects\unofficial-scorpion-demos\halo_zero\Project\output\whdload_13\game does not exist
+System.IO.File.Copy (System.String sourceFileName, System.String destFileName, System.Boolean overwrite) (at <695d1cc93cca45069c528c15c9fdd749>:0)
+System.IO.File.Copy (System.String sourceFileName, System.String destFileName) (at <695d1cc93cca45069c528c15c9fdd749>:0)
+ProjectManager+<>c.<Workbench>b__41_0 (System.String filepath) (at <667c28cab330425d8b8764ded621bece>:0)
+SFB.StandaloneFileBrowserWindows.SaveFilePanelAsync (System.String title, System.String directory, System.String defaultName, SFB.ExtensionFilter[] extensions, System.Action`1[T] cb) (at <667c28cab330425d8b8764ded621bece>:0)
+SFB.StandaloneFileBrowser.SaveFilePanelAsync (System.String title, System.String directory, System.String defaultName, SFB.ExtensionFilter[] extensions, System.Action`1[T] cb) (at <667c28cab330425d8b8764ded621bece>:0)
+SFB.StandaloneFileBrowser.SaveFilePanelAsync (System.String title, System.String directory, System.String defaultName, System.String extension, System.Action`1[T] cb) (at <667c28cab330425d8b8764ded621bece>:0)
+ProjectManager.Workbench () (at <667c28cab330425d8b8764ded621bece>:0)
+ProjectManager+<CompileCoroutine>d__35.MoveNext () (at <667c28cab330425d8b8764ded621bece>:0)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <4fae2288737c4dfda349689bbefabfcc>:0)

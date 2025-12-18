@@ -163,6 +163,20 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
+    },
+    "plasmaexplosion": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "fragexplosion": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},

@@ -1,7 +1,5 @@
 If new_health <= 0
-    
     NewAnimation dead_anims[new_type] Frame=0 AutoFlip
-    
     //We've been killed
     NewType corpse ResetMovement
 End

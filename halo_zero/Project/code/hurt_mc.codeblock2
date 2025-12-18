@@ -6,16 +6,12 @@ If Shield < 0
 End
 
 If Health <= 0
-    //Select the legs to destroy
-    If new_type == masterchief_top
-        NewAsNew parent
-    End
     
-    CameraFollow ! MaxCamera=0
     //We've been killed
+    CameraFollow ! MaxCamera=0
     
-    //Destroy the live master chief actor (and torso etc)
-    NewType none
-    Spawn corpse X=new_x Y=new_y
+    ForEachActor actor_type == masterchief_top Goto destroy_actor
+    ActorType none
+    Spawn corpse X=actor_x Y=actor_y
     NewAnimation masterchief_die Frame=0 AutoFlip
 End

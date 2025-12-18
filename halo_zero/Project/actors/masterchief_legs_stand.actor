@@ -191,8 +191,8 @@
     "PingPong": false
   },
   "DontSpawnIfTooMany": false,
-  "AutoClearChildren": true,
-  "DivertMeleeByProjectile": "hit_marine_grenade",
+  "AutoClearChildren": false,
+  "DivertMeleeByProjectile": "hit_mc_grenade",
   "DivertMeleeAgainstProjectile": null,
   "IsAttacker": null,
   "PreviewParent": null,

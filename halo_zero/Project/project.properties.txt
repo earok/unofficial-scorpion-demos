@@ -1,12 +1,12 @@
 [all]
-author=
-copyright_month=
-copyright_year=
-description=
-project_name=
-project_name_international=
-publisher=
-version=
+author=Earok
+copyright_month=Dec
+copyright_year=2025
+description=Halo Zero
+project_name=Halo Zero
+project_name_international=Halo Zero
+publisher=Earok
+version=1
 
 [megadrive]
 sega_revision=00
@@ -16,3 +16,7 @@ sega_system=SEGA MEGA DRIVE
 
 [neogeo]
 neogeo_ngh_hex=
+
+[whdload_13]
+chip_mem_size=$E8000
+fast_mem_size=$100000

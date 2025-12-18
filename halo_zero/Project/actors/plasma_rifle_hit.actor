@@ -10,7 +10,7 @@
     "UpLeft": "a_bullet_hit",
     "Up": "a_bullet_hit",
     "UpRight": "a_bullet_hit",
-    "Left": "a_plasma_hit",
+    "Left": "a_bullet_hit",
     "Right": "a_bullet_hit",
     "DownLeft": "a_bullet_hit",
     "Down": "a_bullet_hit",
@@ -160,7 +160,7 @@
   ],
   "ControlPort": 1,
   "DataVersion": 8,
-  "ActorTag": "None",
+  "ActorTag": "fx",
   "AutoSpawn": null,
   "AutoNavigate": false,
   "ActorTimeline": {

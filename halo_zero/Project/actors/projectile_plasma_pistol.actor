@@ -7,8 +7,8 @@
   "NudgeX": 8,
   "NudgeY": 8,
   "Idles": {
-    "UpLeft": "projectile_elite_rifle_l",
-    "Up": "projectile_elite_rifle_l",
+    "UpLeft": "projectile_elite_rifle_r",
+    "Up": "projectile_elite_rifle_r",
     "UpRight": "projectile_elite_rifle_r",
     "Left": "projectile_plasma_pistol_l",
     "Right": "projectile_plasma_pistol_r",
@@ -17,13 +17,13 @@
     "DownRight": "projectile_plasma_pistol_r"
   },
   "Moves": {
-    "UpLeft": "projectile_elite_rifle_l",
-    "Up": "projectile_elite_rifle_l",
+    "UpLeft": "projectile_elite_rifle_r",
+    "Up": "projectile_elite_rifle_r",
     "UpRight": "projectile_elite_rifle_r",
     "Left": "projectile_plasma_pistol_l",
     "Right": "projectile_plasma_pistol_r",
-    "DownLeft": "projectile_elite_rifle_l",
-    "Down": "projectile_elite_rifle_l",
+    "DownLeft": "projectile_elite_rifle_r",
+    "Down": "projectile_elite_rifle_r",
     "DownRight": "projectile_elite_rifle_r"
   },
   "Attacks": {

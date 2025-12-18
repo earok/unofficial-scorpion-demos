@@ -1,4 +1,5 @@
 elite_rifle = 75
 grunt_yellow = 44
+grunt_red = 44
 masterchief_legs_duck = 44
 masterchief_legs_stand = 88

@@ -1,0 +1,3 @@
+Set actor_health=actor_health - melee_damage[projectile_type]
+ActorAsNew self
+Goto kill_new

@@ -192,7 +192,7 @@
   },
   "DontSpawnIfTooMany": false,
   "AutoClearChildren": false,
-  "DivertMeleeByProjectile": "hit_marine_grenade",
+  "DivertMeleeByProjectile": "hit_ai_grenade",
   "DivertMeleeAgainstProjectile": null,
   "IsAttacker": false,
   "PreviewParent": null,
