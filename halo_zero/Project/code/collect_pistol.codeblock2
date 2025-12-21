@@ -1,0 +1,12 @@
+If player_type == Marine_Actor
+    Return
+End
+
+If Weapon1 == Weapon_Pistol or Weapon2 == Weapon_Pistol
+    Set Ammo[Weapon_Pistol]=Actor_Var1+Ammo[Weapon_Pistol]
+    Sound reload
+    ActorType None
+    Goto refresh_ui
+End
+
+Goto pickup_weapon

@@ -1,0 +1,38 @@
+If HasJustDucked == False
+    Return
+End
+
+Set DeltaX = Weapon1
+
+//Weapon from the floor
+If actor_type == Item_Rifle
+    Set Weapon1 = Weapon_Rifle
+    Set Ammo[Weapon_Rifle] = Ammo[Weapon_Rifle] + Actor_Var1
+    Set Weapon1Clip = 0
+ElseIf actor_type == Item_Pistol
+    Set Weapon1 = Weapon_Pistol
+    Set Ammo[Weapon_Pistol] = Ammo[Weapon_Pistol] + Actor_Var1
+    Set Weapon1Clip = 0
+ElseIf actor_type == Item_PlasmaPistol
+    Set Weapon1 = Weapon_PlasmaPistol
+    Set Weapon1Clip = Actor_Var1 //No stored ammo, only fixed battery
+End
+
+//Weapon to go on the floor
+if DeltaX == Weapon_Rifle
+    Set Actor_Var1 = 0 //Keep all bullets on person
+    ActorType Item_Rifle
+ElseIf DeltaX == Weapon_Pistol
+    Set Actor_Var1 = 0 //Keep all bullets on person
+    ActorType Item_Pistol
+ElseIf DeltaX == Weapon_PlasmaPistol
+    If Weapon1Clip == 0 //If out of ammo, may as well just delete
+        ActorType None
+    Else
+        Set Actor_Var1 = Weapon1Clip
+        ActorType Item_PlasmaPistol
+    End
+End
+
+Gosub refresh_ui
+Goto reload_start

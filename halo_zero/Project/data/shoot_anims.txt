@@ -1,3 +1,5 @@
 elite_rifle = elite_rifle_shoot_l
 grunt_yellow = grunt_yellow_shoot_l
 grunt_red = grunt_red_shoot_l
+jackal = jackal_shoot_l
+hunter = hunter_shoot_l

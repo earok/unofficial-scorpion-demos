@@ -59,7 +59,7 @@
     },
     {
       "PanelElementType": 0,
-      "Variable": "ammo",
+      "Variable": "ammodisplay",
       "X": 8,
       "Y": 0,
       "NumberFont": "defaultnumberfont",
@@ -78,7 +78,7 @@
     },
     {
       "PanelElementType": 2,
-      "Variable": "clip",
+      "Variable": "clipdisplay",
       "X": 8,
       "Y": 8,
       "NumberFont": "defaultnumberfont",
@@ -92,12 +92,12 @@
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
       "Characters": 0,
-      "MaxValue": 60,
+      "MaxValue": 64,
       "CanBeRightToLeft": true
     },
     {
       "PanelElementType": 0,
-      "Variable": "grenades",
+      "Variable": "grenadedisplay",
       "X": 64,
       "Y": 0,
       "NumberFont": "defaultnumberfont",

@@ -182,7 +182,7 @@
   "IsScaleable": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "OnFinish": null,
+  "OnFinish": "reset_mc_animation",
   "AutoFlip": true,
   "Streamed": true,
   "AnimationTag": null,

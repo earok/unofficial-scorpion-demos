@@ -1,0 +1,19 @@
+Constant Weapon_Rifle=0
+Constant Weapon_Pistol=1
+Constant Weapon_PlasmaPistol=2
+
+Constant RifleClip=60
+Constant PistolClip=12
+Constant PlasmaPistolBattery=100
+
+Array Word Ammo[5]
+
+Variable word Weapon1=0
+Variable word Weapon1Clip=0
+
+Variable word Weapon2=0
+Variable word Weapon2Clip=0
+
+Variable word Grenade1=0
+Variable word Grenade2=0
+Variable word GrenadeThrown=0

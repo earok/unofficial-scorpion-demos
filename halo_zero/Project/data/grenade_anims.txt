@@ -1,3 +1,5 @@
 elite_rifle = elite_rifle_grenade_l
 grunt_yellow = grunt_yellow_grenade_l
 grunt_red = grunt_red_grenade_l
+jackal = false
+hunter = false

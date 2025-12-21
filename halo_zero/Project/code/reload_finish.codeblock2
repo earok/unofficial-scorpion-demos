@@ -1,0 +1,20 @@
+If Weapon1 == Weapon_Rifle
+    Set DeltaX=RifleClip-Weapon1Clip
+ElseIf Weapon1 == Weapon_Pistol
+    Set deltax=PistolClip-Weapon1Clip
+Else
+    Set deltax=0
+End
+
+If DeltaX
+    If deltax < Ammo[Weapon1]
+        Set Ammo[Weapon1]=Ammo[Weapon1] - deltax
+        Set Weapon1Clip=Weapon1Clip + deltax
+    Else
+        Set Weapon1Clip=Weapon1Clip+Ammo[Weapon1]
+        Set Ammo[Weapon1]=0
+    End
+End
+
+GoSub refresh_ui
+Goto reset_mc_animation

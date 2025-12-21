@@ -104,7 +104,7 @@
     false
   ],
   "CollBox": {
-    "X": -11,
+    "X": -10,
     "Y": -44,
     "Width": 20,
     "Height": 44
@@ -139,7 +139,7 @@
   "DivertAttack": "",
   "DivertSpawn": "ai_enemy",
   "DivertPlayerCollision": "",
-  "DivertPlayerHit": "",
+  "DivertPlayerHit": "hit_ai_byplayer",
   "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": "hit_projectile",
   "DivertOutOfScreenLeft": "",

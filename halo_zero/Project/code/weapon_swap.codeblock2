@@ -1,0 +1,10 @@
+//Swap guns
+Set deltax=Weapon2
+Set Weapon2=Weapon1
+Set Weapon1=DeltaX
+
+Set deltax=Weapon2Clip
+Set Weapon2Clip=Weapon1Clip
+Set Weapon1Clip=DeltaX
+
+Goto refresh_ui

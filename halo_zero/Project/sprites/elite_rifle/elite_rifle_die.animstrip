@@ -10,7 +10,7 @@
             "Actor": "none",
             "Sound": "elitedead",
             "Variable": null,
-            "Expression": null,
+            "Expression": "0",
             "Tag": "FrameEvent0",
             "IsConditional": false,
             "OverrideDirection": false,
@@ -45,7 +45,7 @@
             "Angle": 0.0,
             "HasActorAngle": false,
             "HasChildAngle": false,
-            "HasAngle": false
+            "HasAngle": true
           }
         ]
       },
@@ -54,7 +54,7 @@
       "PaletteLine": 0,
       "PaletteLineNeo": 1,
       "Bitplane": 0,
-      "RenderType": "Normal",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "EliteRifle_Import_00x04.png",
       "HandleX": -60,
@@ -74,7 +74,7 @@
       "PaletteLine": 0,
       "PaletteLineNeo": 1,
       "Bitplane": 0,
-      "RenderType": "Normal",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "EliteRifle_Import_01x04.png",
       "HandleX": -60,
@@ -94,7 +94,7 @@
       "PaletteLine": 0,
       "PaletteLineNeo": 1,
       "Bitplane": 0,
-      "RenderType": "Normal",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "EliteRifle_Import_02x04.png",
       "HandleX": -60,
@@ -159,7 +159,7 @@
       "PaletteLine": 0,
       "PaletteLineNeo": 1,
       "Bitplane": 0,
-      "RenderType": "Normal",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "EliteRifle_Import_02x04.png",
       "HandleX": -60,

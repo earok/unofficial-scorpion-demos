@@ -1,3 +1,5 @@
 elite_rifle = elite_rifle_melee_l
 grunt_yellow = false
 grunt_red = false
+jackal = false
+hunter = false

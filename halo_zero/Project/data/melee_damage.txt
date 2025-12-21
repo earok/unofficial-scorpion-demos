@@ -2,3 +2,6 @@ elite_rifle = 20
 grenade_explosion = 80
 grunt_yellow = false
 grunt_red = false
+masterchief_top = 40
+jackal = false
+hunter = false

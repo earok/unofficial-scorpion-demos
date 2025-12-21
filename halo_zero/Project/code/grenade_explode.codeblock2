@@ -4,3 +4,16 @@ Else
     ProjectileAnimation a_enemy_grenade_explosion Frame=0
 End
 ProjectileType grenade_explosion
+Set Shake_Camera_X=-3
+ProjectileYield 0
+Set Shake_Camera_X=3
+ProjectileYield 0
+Set Shake_Camera_X=-2
+ProjectileYield 0
+Set Shake_Camera_X=2
+ProjectileYield 0
+Set Shake_Camera_X=-1
+ProjectileYield 0
+Set Shake_Camera_X=1
+ProjectileYield 0
+Set Shake_Camera_X=0

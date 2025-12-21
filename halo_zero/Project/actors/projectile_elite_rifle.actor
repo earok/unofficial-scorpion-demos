@@ -10,7 +10,7 @@
     "UpLeft": "projectile_elite_rifle_r",
     "Up": "projectile_elite_rifle_r",
     "UpRight": "projectile_elite_rifle_r",
-    "Left": "projectile_elite_rifle_r",
+    "Left": "projectile_elite_rifle_l",
     "Right": "projectile_elite_rifle_r",
     "DownLeft": "projectile_elite_rifle_r",
     "Down": "projectile_elite_rifle_r",
@@ -20,7 +20,7 @@
     "UpLeft": "projectile_elite_rifle_r",
     "Up": "projectile_elite_rifle_r",
     "UpRight": "projectile_elite_rifle_r",
-    "Left": "projectile_elite_rifle_r",
+    "Left": "projectile_elite_rifle_l",
     "Right": "projectile_elite_rifle_r",
     "DownLeft": "projectile_elite_rifle_r",
     "Down": "projectile_elite_rifle_r",
@@ -93,15 +93,15 @@
     }
   ],
   "InvalidDirections": [
+    true,
+    true,
+    true,
     false,
     false,
     false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false
+    true,
+    true,
+    true
   ],
   "CollBox": {
     "X": -7,

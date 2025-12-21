@@ -1,0 +1,8 @@
+Set hs_direction=actor_xfacing
+Set hs_tag=enemy
+GoSub hitscan
+If hs_success
+    Set new_health=new_health - 25
+    GoSub kill_new
+    Spawn bullet_hit X=new_x Y=hs_yhit
+End

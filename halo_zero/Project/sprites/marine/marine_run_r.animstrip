@@ -130,7 +130,7 @@
   "HideChildren": false,
   "LoopFrame": 0,
   "OnFinish": "ai_marine",
-  "AutoFlip": null,
+  "AutoFlip": false,
   "Streamed": true,
   "AnimationTag": null,
   "LinkedMap": ""

@@ -10,31 +10,31 @@
     "UpLeft": "marine_r",
     "Up": "marine_r",
     "UpRight": "marine_r",
-    "Left": "marine_l",
-    "Right": "marine_idle_r",
+    "Left": "hunter_idle_l",
+    "Right": "hunter_idle_r",
     "DownLeft": "marine_r",
     "Down": "marine_r",
     "DownRight": "marine_r"
   },
   "Moves": {
-    "UpLeft": "marine_l",
+    "UpLeft": "hunter_idle_l",
     "Up": "marine_r",
-    "UpRight": "marine_idle_r",
-    "Left": "marine_l",
-    "Right": "marine_run_r",
-    "DownLeft": "marine_idle_l",
+    "UpRight": "hunter_idle_r",
+    "Left": "hunter_run_l",
+    "Right": "hunter_run_r",
+    "DownLeft": "hunter_idle_l",
     "Down": "marine_r",
-    "DownRight": "marine_idle_r"
+    "DownRight": "hunter_idle_r"
   },
   "Attacks": {
     "UpLeft": "",
     "Up": "",
-    "UpRight": "marine_shoot_r",
+    "UpRight": "",
     "Left": "",
-    "Right": "marine_shoot_r",
+    "Right": "",
     "DownLeft": "",
     "Down": "",
-    "DownRight": "marine_shoot_r"
+    "DownRight": ""
   },
   "ProjectileOffsets": [
     {
@@ -105,9 +105,9 @@
   ],
   "CollBox": {
     "X": -10,
-    "Y": -63,
+    "Y": -89,
     "Width": 20,
-    "Height": 63
+    "Height": 89
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -126,20 +126,20 @@
   "CollType_Right": "bounce",
   "CollType_Up": "block",
   "CollType_Down": "block",
-  "Player": true,
-  "BlockCollider": false,
+  "Player": null,
+  "BlockCollider": null,
   "CanRidePlatform": false,
-  "Camera": false,
+  "Camera": null,
   "AutoScroll": null,
-  "Flags": 0,
+  "Flags": "onspawnAfterRecycle",
   "AttackProjectile": null,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": "",
-  "DivertSpawn": "ai_marine",
+  "DivertSpawn": "ai_enemy",
   "DivertPlayerCollision": "",
-  "DivertPlayerHit": "",
+  "DivertPlayerHit": "hit_ai_byplayer",
   "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": "hit_projectile",
   "DivertOutOfScreenLeft": "",
@@ -151,17 +151,17 @@
   "DivertTimer": "none",
   "DivertTimerFrames": 0,
   "Vars": [
-    "105",
+    "350",
     "0",
     "0",
     "0",
     "0",
     "0"
   ],
-  "ControlPort": 0,
+  "ControlPort": 1,
   "DataVersion": 8,
-  "ActorTag": "None",
-  "AutoSpawn": false,
+  "ActorTag": "enemy",
+  "AutoSpawn": null,
   "AutoNavigate": false,
   "ActorTimeline": {
     "TimelineFrames": {
@@ -194,9 +194,9 @@
   "AutoClearChildren": false,
   "DivertMeleeByProjectile": "hit_ai_grenade",
   "DivertMeleeAgainstProjectile": null,
-  "IsAttacker": false,
+  "IsAttacker": null,
   "PreviewParent": null,
   "RotationEnabled": false,
-  "TileID": 3,
+  "TileID": 19,
   "MaxTimelineFrames": 50
 }

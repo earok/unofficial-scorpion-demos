@@ -1,0 +1,202 @@
+{
+  "ShootDirType": "actor_direction",
+  "DefaultLookDir": "left",
+  "Recycle": "Default",
+  "MoveType": "cpu_platform",
+  "MaxEntities": 0,
+  "NudgeX": 10,
+  "NudgeY": 16,
+  "Idles": {
+    "UpLeft": "marine_r",
+    "Up": "marine_r",
+    "UpRight": "marine_r",
+    "Left": "jackal_idle_l",
+    "Right": "jackal_idle_r",
+    "DownLeft": "marine_r",
+    "Down": "marine_r",
+    "DownRight": "marine_r"
+  },
+  "Moves": {
+    "UpLeft": "jackal_idle_l",
+    "Up": "marine_r",
+    "UpRight": "jackal_idle_r",
+    "Left": "jackal_run_l",
+    "Right": "jackal_run_r",
+    "DownLeft": "jackal_idle_l",
+    "Down": "marine_r",
+    "DownRight": "jackal_idle_r"
+  },
+  "Attacks": {
+    "UpLeft": "",
+    "Up": "",
+    "UpRight": "",
+    "Left": "",
+    "Right": "",
+    "DownLeft": "",
+    "Down": "",
+    "DownRight": ""
+  },
+  "ProjectileOffsets": [
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    }
+  ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "CollBox": {
+    "X": -10,
+    "Y": -50,
+    "Width": 20,
+    "Height": 50
+  },
+  "AttackDelay": 0,
+  "ZOrder": 0,
+  "SpeedLeft": 5.0,
+  "SpeedRight": 5.0,
+  "SpeedUp": 0.0,
+  "SpeedDown": 14.0,
+  "AccelLeft": null,
+  "AccelRight": null,
+  "AccelUp": null,
+  "AccelDown": 1.0,
+  "AccelLeftAir": null,
+  "AccelRightAir": null,
+  "RotationSpeed": 0.0,
+  "CollType_Left": "bounce",
+  "CollType_Right": "bounce",
+  "CollType_Up": "block",
+  "CollType_Down": "block",
+  "Player": null,
+  "BlockCollider": null,
+  "CanRidePlatform": false,
+  "Camera": null,
+  "AutoScroll": null,
+  "Flags": "onspawnAfterRecycle",
+  "AttackProjectile": null,
+  "AttackProjectileAmmoVariable": null,
+  "AttackSound": null,
+  "JumpSound": null,
+  "DivertAttack": "",
+  "DivertSpawn": "ai_enemy",
+  "DivertPlayerCollision": "",
+  "DivertPlayerHit": "hit_ai_byplayer",
+  "DivertHitAgainstPlayer": "",
+  "DivertProjectileCollision": "hit_projectile",
+  "DivertOutOfScreenLeft": "",
+  "DivertOutOfScreenRight": "",
+  "DivertOutOfScreenUp": "",
+  "DivertOutOfScreenDown": "",
+  "DivertPlatformEdge": null,
+  "DivertPlatformLand": null,
+  "DivertTimer": "none",
+  "DivertTimerFrames": 0,
+  "Vars": [
+    "125",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "ControlPort": 1,
+  "DataVersion": 8,
+  "ActorTag": "enemy",
+  "AutoSpawn": null,
+  "AutoNavigate": false,
+  "ActorTimeline": {
+    "TimelineFrames": {
+      "50": {
+        "X": 16,
+        "Y": 16,
+        "EaseX": "linear",
+        "EaseY": "linear",
+        "Bezier": "linear",
+        "BezierPoints": [
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          }
+        ]
+      }
+    },
+    "TimelineEvents": {},
+    "PingPong": false
+  },
+  "DontSpawnIfTooMany": false,
+  "AutoClearChildren": false,
+  "DivertMeleeByProjectile": "hit_ai_grenade",
+  "DivertMeleeAgainstProjectile": null,
+  "IsAttacker": null,
+  "PreviewParent": null,
+  "RotationEnabled": false,
+  "TileID": 18,
+  "MaxTimelineFrames": 50
+}

@@ -130,7 +130,7 @@
   "HideChildren": false,
   "LoopFrame": 0,
   "OnFinish": "ai_enemy",
-  "AutoFlip": null,
+  "AutoFlip": false,
   "Streamed": true,
   "AnimationTag": null,
   "LinkedMap": ""

@@ -1,10 +1,15 @@
 //Cannot see enemy so follow player
 Set hs_xorigin=actor_x
 Set hs_tag=enemy
-Set hs_direction=actor_xfacing
+Set hs_direction=0
 GoSub hitscan
 If hs_success
     ActorDirection stop_moving
+    If new_x < actor_x
+        ActorDirection look_left
+    Else
+        ActorDirection look_right
+    End
     ActorAnimation marine_shoot_r Frame=0 AutoFlip
     Goto fire_rifle
 End

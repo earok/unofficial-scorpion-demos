@@ -1,4 +1,8 @@
-If player_type == marine
+If player_type == masterchief_top
+    //Do no damage against torso, all damage should be received by legs
+    Return
+End
+If player_type == marine_Actor
     //Special handling for marine damage
     Set player_health=actor_health - melee_damage[actor_type]
     ActorAsNew self

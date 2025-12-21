@@ -1,1 +1,14 @@
+Variable word HealthDisplay=8
+Variable word GrenadeDisplay=0
+Variable word AmmoDisplay=0
+Variable word ClipDisplay=0
+
 Set healthdisplay=Health << 3 / 75
+Set AmmoDisplay=Ammo[Weapon1]
+Set GrenadeDisplay=Grenade1+Grenade2
+
+If Weapon1 == Weapon_Rifle
+    Set ClipDisplay=Weapon1Clip * 64 / RifleClip
+ElseIf Weapon1 == Weapon_Pistol
+    Set ClipDisplay=Weapon1Clip * 64 / PistolClip
+End

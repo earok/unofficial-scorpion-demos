@@ -4,15 +4,15 @@ LookupTable word dead_anims "..\data\dead_anims.txt"
 LookupTable word melee_anims "..\data\melee_anims.txt"
 LookupTable word grenade_anims "..\data\grenade_anims.txt"
 LookupTable word melee_damage "..\data\melee_damage.txt"
+LookupTable word mc_top_idles "..\data\mc_top_idles.txt"
+LookupTable word mc_top_melees "..\data\mc_top_melees.txt"
+LookupTable word mc_top_shoots "..\data\mc_top_shoots.txt"
+
 Variable word DeltaX=0
 Variable word DeltaY=0
-Variable word HealthDisplay=8
 Variable word Health=75
 Variable word Shield=75
 Variable word ShieldDelay=0
-Variable word Ammo=600
-Variable word Clip=60
-Variable word Grenades=2
 Variable word IsDucking=0
 Alias HasJustDucked=player_var3
 

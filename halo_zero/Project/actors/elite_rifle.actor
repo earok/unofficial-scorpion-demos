@@ -139,7 +139,7 @@
   "DivertAttack": "",
   "DivertSpawn": "ai_enemy",
   "DivertPlayerCollision": "",
-  "DivertPlayerHit": "",
+  "DivertPlayerHit": "hit_ai_byplayer",
   "DivertHitAgainstPlayer": "hit_melee_marine",
   "DivertProjectileCollision": "hit_projectile",
   "DivertOutOfScreenLeft": "",

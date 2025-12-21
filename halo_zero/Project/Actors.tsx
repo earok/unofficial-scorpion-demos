@@ -18,7 +18,7 @@
   </tile>
   <tile id="3">
     <properties>
-      <property name="Name" value="marine" type="string" />
+      <property name="Name" value="marine_actor" type="string" />
     </properties>
   </tile>
   <tile id="4">
@@ -84,6 +84,41 @@
   <tile id="16">
     <properties>
       <property name="Name" value="grunt_red" type="string" />
+    </properties>
+  </tile>
+  <tile id="17">
+    <properties>
+      <property name="Name" value="projectile_needle" type="string" />
+    </properties>
+  </tile>
+  <tile id="18">
+    <properties>
+      <property name="Name" value="jackal" type="string" />
+    </properties>
+  </tile>
+  <tile id="19">
+    <properties>
+      <property name="Name" value="hunter" type="string" />
+    </properties>
+  </tile>
+  <tile id="20">
+    <properties>
+      <property name="Name" value="projectile_fuelrod" type="string" />
+    </properties>
+  </tile>
+  <tile id="21">
+    <properties>
+      <property name="Name" value="item_rifle" type="string" />
+    </properties>
+  </tile>
+  <tile id="22">
+    <properties>
+      <property name="Name" value="item_pistol" type="string" />
+    </properties>
+  </tile>
+  <tile id="23">
+    <properties>
+      <property name="Name" value="item_plasmapistol" type="string" />
     </properties>
   </tile>
 </tileset>

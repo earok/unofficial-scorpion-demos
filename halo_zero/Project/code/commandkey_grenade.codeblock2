@@ -1,0 +1,1 @@
+[amiga_all] Set control1_buttons=control1_buttons | 0x20 //Set bit 5 (CD32 Blue)

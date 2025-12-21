@@ -1,0 +1,137 @@
+{
+  "Frames": [
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 1,
+      "Bitplane": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Marine_Import_05x01.png",
+      "HandleX": -29,
+      "HandleY": -71,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Marine_Import_05x01",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 1,
+      "Bitplane": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Marine_Import_04x01.png",
+      "HandleX": -29,
+      "HandleY": -71,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Marine_Import_04x01",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 1,
+      "Bitplane": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Marine_Import_03x01.png",
+      "HandleX": -29,
+      "HandleY": -71,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Marine_Import_03x01",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 1,
+      "Bitplane": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Marine_Import_02x01.png",
+      "HandleX": -29,
+      "HandleY": -71,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Marine_Import_02x01",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 1,
+      "Bitplane": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Marine_Import_01x01.png",
+      "HandleX": -29,
+      "HandleY": -71,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Marine_Import_01x01",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 1,
+      "Bitplane": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "Marine_Import_00x01.png",
+      "HandleX": -29,
+      "HandleY": -71,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "Marine_Import_00x01",
+      "IsBlank": false
+    }
+  ],
+  "PreventAttack": false,
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "PreventJump": false,
+  "IsSynchronised": false,
+  "IsScaleable": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "OnFinish": "ai_marine",
+  "AutoFlip": false,
+  "Streamed": true,
+  "AnimationTag": null,
+  "LinkedMap": ""
+}
