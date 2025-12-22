@@ -4,50 +4,6 @@
       "EventContainer": {
         "Events": [
           {
-            "FrameEventType": "Sound",
-            "Dir": "move_right",
-            "Codeblock": null,
-            "Actor": "none",
-            "Sound": "plasmapistolshot",
-            "Variable": null,
-            "Expression": null,
-            "Tag": "FrameEvent0",
-            "IsConditional": false,
-            "OverrideDirection": false,
-            "Animation": "none",
-            "AnimationLoop": false,
-            "AutoFlip": false,
-            "AnimationFrame": "0",
-            "IsGlobal": true,
-            "Volume": "",
-            "OverrideSpeed": false,
-            "XFloat": null,
-            "YFloat": null,
-            "ColorR": 0,
-            "ColorG": 0,
-            "ColorB": 255,
-            "ResetMovement": true,
-            "ResetAnimation": true,
-            "Box": {
-              "X": -4,
-              "Y": -4,
-              "Width": 8,
-              "Height": 8
-            },
-            "HasTag": false,
-            "Color": {
-              "r": 0,
-              "g": 0,
-              "b": 255,
-              "a": 128
-            },
-            "Conditions": [],
-            "Angle": 0.0,
-            "HasActorAngle": false,
-            "HasChildAngle": false,
-            "HasAngle": false
-          },
-          {
             "FrameEventType": "Spawn",
             "Dir": "move_left",
             "Codeblock": null,

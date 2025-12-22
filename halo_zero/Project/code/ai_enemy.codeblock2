@@ -34,8 +34,6 @@ Else
                 Return
             End
         End
-        Set aimx=new_x
-        Set aimy=hs_yhit
         ActorAnimation shoot_anims[actor_type] Frame=0 AutoFlip
     End
 End

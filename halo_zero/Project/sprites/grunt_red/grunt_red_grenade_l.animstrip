@@ -50,7 +50,7 @@
             "ResetAnimation": true,
             "Box": {
               "X": -33,
-              "Y": -35,
+              "Y": -30,
               "Width": 8,
               "Height": 8
             },

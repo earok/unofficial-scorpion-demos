@@ -1,0 +1,12 @@
+If player_type == Marine_Actor
+    Return
+End
+
+If Weapon1 == Weapon_Needler or Weapon2 == Weapon_Needler
+    Set Ammo[Weapon_Needler]=Actor_Var1+Ammo[Weapon_Needler]
+    Sound reload
+    ActorType None
+    Goto refresh_ui
+End
+
+Goto pickup_weapon

@@ -1,6 +1,6 @@
 elite_rifle = elite_rifle_die
 grunt_yellow = grunt_yellow_die
 grunt_red = grunt_red_die
-marine = marine_die
+marine_actor = marine_die
 jackal = jackal_die
 hunter = hunter_die

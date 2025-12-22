@@ -11,7 +11,7 @@ If Health <= 0
     CameraFollow ! MaxCamera=0
     
     ForEachActor actor_type == masterchief_top Goto destroy_actor
-    ActorType none
-    Spawn corpse X=actor_x Y=actor_y
+    PlayerType none
+    Spawn corpse X=player_x Y=player_y
     NewAnimation masterchief_die Frame=0 AutoFlip
 End

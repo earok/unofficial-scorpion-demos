@@ -179,7 +179,7 @@
   "IsScaleable": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "OnFinish": "destroy_actor",
+  "OnFinish": "drop_plasmapistol",
   "AutoFlip": false,
   "Streamed": true,
   "AnimationTag": null,

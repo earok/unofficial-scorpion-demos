@@ -4,11 +4,21 @@ Variable word AmmoDisplay=0
 Variable word ClipDisplay=0
 
 Set healthdisplay=Health << 3 / 75
-Set AmmoDisplay=Ammo[Weapon1]
 Set GrenadeDisplay=Grenade1+Grenade2
 
 If Weapon1 == Weapon_Rifle
+    Set AmmoDisplay=Ammo[Weapon1]
     Set ClipDisplay=Weapon1Clip * 64 / RifleClip
 ElseIf Weapon1 == Weapon_Pistol
+    Set AmmoDisplay=Ammo[Weapon1]
     Set ClipDisplay=Weapon1Clip * 64 / PistolClip
+ElseIf Weapon1 == Weapon_PlasmaPistol
+    Set AmmoDisplay=Weapon1Clip
+    Set ClipDisplay=PlasmaHeat * 64 / 100
+ElseIf Weapon1 == Weapon_PlasmaRifle
+    Set AmmoDisplay=Weapon1Clip
+    Set ClipDisplay=PlasmaHeat * 64 / 100
+ElseIf Weapon1 == Weapon_Needler
+    Set AmmoDisplay=Ammo[Weapon1]
+    Set ClipDisplay=Weapon1Clip * 64 / NeedlerClip
 End

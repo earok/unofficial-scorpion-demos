@@ -197,6 +197,6 @@
   "IsAttacker": null,
   "PreviewParent": null,
   "RotationEnabled": false,
-  "TileID": 17,
+  "TileID": -1,
   "MaxTimelineFrames": 50
 }

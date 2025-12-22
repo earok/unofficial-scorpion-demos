@@ -36,4 +36,14 @@ CameraFollow !LRUD MaxCamera=8 lowest
 CameraBox L=60 R=60 U=0 D=0 LookL=64 LookR=64 LookU=0 LookD=0
 AttackControls player1 !1SA
 JumpControls player1 !UH
+GoSub freemem
+Sound main_theme
+PanelTop none
+Panel title Frames=0 ForFire
+
+If Option == 1
+    Panel Credits Frames=0 ForFire
+    Goto Startup
+End
+
 Level level1 PanelTop=top_hud

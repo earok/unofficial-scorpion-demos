@@ -32,7 +32,7 @@
             "Variable": null,
             "Expression": null,
             "Tag": "FrameEvent0",
-            "IsConditional": false,
+            "IsConditional": true,
             "OverrideDirection": true,
             "Animation": "none",
             "AnimationLoop": false,
@@ -50,7 +50,7 @@
             "ResetAnimation": true,
             "Box": {
               "X": 37,
-              "Y": -17,
+              "Y": -11,
               "Width": 8,
               "Height": 8
             },
@@ -61,7 +61,67 @@
               "b": 255,
               "a": 128
             },
-            "Conditions": [],
+            "Conditions": [
+              {
+                "LeftSide": "GrenadeThrown",
+                "Comparison": "Equals",
+                "RightSide": "1",
+                "ComparisonNext": "End",
+                "IsValid": true
+              }
+            ],
+            "Angle": -63.4349488000089,
+            "HasActorAngle": false,
+            "HasChildAngle": true,
+            "HasAngle": true
+          },
+          {
+            "FrameEventType": "Spawn",
+            "Dir": "move_upright",
+            "Codeblock": null,
+            "Actor": "enemy_grenade",
+            "Sound": "none",
+            "Variable": null,
+            "Expression": null,
+            "Tag": "FrameEvent0",
+            "IsConditional": true,
+            "OverrideDirection": true,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "IsGlobal": true,
+            "Volume": "",
+            "OverrideSpeed": true,
+            "XFloat": "10",
+            "YFloat": "-5",
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "ResetMovement": true,
+            "ResetAnimation": true,
+            "Box": {
+              "X": 37,
+              "Y": -11,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": false,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [
+              {
+                "LeftSide": "GrenadeThrown",
+                "Comparison": "Equals",
+                "RightSide": "2",
+                "ComparisonNext": "End",
+                "IsValid": true
+              }
+            ],
             "Angle": -63.4349488000089,
             "HasActorAngle": false,
             "HasChildAngle": true,

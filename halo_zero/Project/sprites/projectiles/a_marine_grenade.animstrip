@@ -13,7 +13,7 @@
       "SpriteType": "Attached_16colors",
       "Path": "marine_grenade.png",
       "HandleX": -5,
-      "HandleY": -5,
+      "HandleY": -10,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,

@@ -2,7 +2,7 @@
   "ShootDirType": "actor_direction",
   "DefaultLookDir": "left",
   "Recycle": "Default",
-  "MoveType": "cpu",
+  "MoveType": "none",
   "MaxEntities": 0,
   "NudgeX": 7,
   "NudgeY": 13,
@@ -151,7 +151,7 @@
   "DivertTimer": null,
   "DivertTimerFrames": 0,
   "Vars": [
-    "120",
+    "100",
     "0",
     "0",
     "0",

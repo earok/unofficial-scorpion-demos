@@ -22,15 +22,35 @@
     },
     {
       "EventContainer": {
+        "Events": []
+      },
+      "Duration": 1,
+      "Multiplexes": 0,
+      "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "Bitplane": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "MasterChiefTop_Import_00x03.png",
+      "HandleX": -29,
+      "HandleY": -43,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "MasterChiefTop_Import_00x03",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
         "Events": [
           {
-            "FrameEventType": "Spawn",
+            "FrameEventType": "SetPosition",
             "Dir": "move_right",
             "Codeblock": null,
             "Actor": "projectile_plasma_pistol",
             "Sound": "none",
-            "Variable": null,
-            "Expression": null,
+            "Variable": "deltax",
+            "Expression": "deltay",
             "Tag": "FrameEvent2",
             "IsConditional": false,
             "OverrideDirection": true,
@@ -41,8 +61,8 @@
             "IsGlobal": true,
             "Volume": "",
             "OverrideSpeed": false,
-            "XFloat": "-4",
-            "YFloat": "-1.5",
+            "XFloat": "37",
+            "YFloat": "-11",
             "ColorR": 0,
             "ColorG": 0,
             "ColorB": 255,
@@ -61,18 +81,26 @@
               "b": 255,
               "a": 128
             },
-            "Conditions": [],
-            "Angle": 69.443951506314079,
+            "Conditions": [
+              {
+                "LeftSide": "control1fire",
+                "Comparison": "Equals",
+                "RightSide": "false",
+                "ComparisonNext": "End",
+                "IsValid": true
+              }
+            ],
+            "Angle": -73.44292799442087,
             "HasActorAngle": false,
             "HasChildAngle": false,
             "HasAngle": true
           },
           {
-            "FrameEventType": "Sound",
+            "FrameEventType": "Trigger",
             "Dir": "move_right",
-            "Codeblock": null,
+            "Codeblock": "charge_plasmapistol",
             "Actor": "none",
-            "Sound": "plasmapistolshot",
+            "Sound": "none",
             "Variable": null,
             "Expression": null,
             "Tag": "FrameEvent1",
@@ -98,7 +126,7 @@
               "Width": 8,
               "Height": 8
             },
-            "HasTag": false,
+            "HasTag": true,
             "Color": {
               "r": 0,
               "g": 0,

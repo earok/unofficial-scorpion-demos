@@ -1,12 +1,20 @@
 Constant Weapon_Rifle=0
 Constant Weapon_Pistol=1
 Constant Weapon_PlasmaPistol=2
+Constant Weapon_PlasmaRifle=3
+Constant Weapon_Needler=4
 
 Constant RifleClip=60
 Constant PistolClip=12
+Constant NeedlerClip=20
+
 Constant PlasmaPistolBattery=100
 
-Array Word Ammo[5]
+Array word Ammo[5]
+
+Variable word PlasmaHeat=0
+Variable word PlasmaOverheated=0
+Variable word PlasmaCharge=0
 
 Variable word Weapon1=0
 Variable word Weapon1Clip=0

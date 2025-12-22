@@ -33,7 +33,7 @@
   </tile>
   <tile id="6">
     <properties>
-      <property name="Name" value="projectile_elite_rifle" type="string" />
+      <property name="Name" value="item_plasmarifle" type="string" />
     </properties>
   </tile>
   <tile id="7">
@@ -58,14 +58,10 @@
   </tile>
   <tile id="11">
     <properties>
-      <property name="Name" value="projectile_plasma_pistol" type="string" />
+      <property name="Name" value="item_needler" type="string" />
     </properties>
   </tile>
-  <tile id="12">
-    <properties>
-      <property name="Name" value="enemy_grenade" type="string" />
-    </properties>
-  </tile>
+  <tile id="12" />
   <tile id="13">
     <properties>
       <property name="Name" value="grenade_explosion" type="string" />
@@ -76,11 +72,7 @@
       <property name="Name" value="item_medkit" type="string" />
     </properties>
   </tile>
-  <tile id="15">
-    <properties>
-      <property name="Name" value="marine_grenade" type="string" />
-    </properties>
-  </tile>
+  <tile id="15" />
   <tile id="16">
     <properties>
       <property name="Name" value="grunt_red" type="string" />
@@ -88,7 +80,7 @@
   </tile>
   <tile id="17">
     <properties>
-      <property name="Name" value="projectile_needle" type="string" />
+      <property name="Name" value="item_grenade1" type="string" />
     </properties>
   </tile>
   <tile id="18">
@@ -103,7 +95,7 @@
   </tile>
   <tile id="20">
     <properties>
-      <property name="Name" value="projectile_fuelrod" type="string" />
+      <property name="Name" value="item_grenade2" type="string" />
     </properties>
   </tile>
   <tile id="21">

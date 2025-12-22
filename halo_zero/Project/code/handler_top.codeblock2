@@ -1,3 +1,14 @@
+If PlasmaHeat > 0
+    If PlasmaHeat >= 100
+        Set PlasmaOverheated = True
+    End    
+    Set PlasmaHeat=PlasmaHeat - Frame_Adjust
+    If PlasmaHeat <= 0
+        Set PlasmaOverheated=False
+    End
+    Gosub refresh_ui
+End
+
 //If we are damaged
 Variable word mc_xfacing=0
 Variable word mc_x=0
@@ -40,18 +51,30 @@ ElseIf control1_buttons btst Amiga_Fire2 and Actor_AnimationTag == masterchief_t
     Goto refresh_ui
 ElseIf Control1Fire
     If Actor_AnimationTag == Masterchief_Top_Idle
+        
+        //Condition to check if we've got an overheated plasma pistol/rifle
+        If Weapon1 == Weapon_PlasmaPistol or Weapon1 == Weapon_PlasmaRifle
+            If PlasmaOverheated
+                Goto reload_start
+            End
+        End
+            
         If Weapon1Clip > 0
+            Set PlasmaCharge = 0
             ActorAnimation mc_top_shoots[Weapon1] Frame=0 AutoFlip
             Set Weapon1Clip=Weapon1Clip - 1
             If Weapon1 == Weapon_Rifle
                 GoSub fire_rifle
             ElseIf Weapon1 == Weapon_Pistol
                 GoSub fire_pistol
+            ElseIf Weapon1 == Weapon_PlasmaRifle
+                Set PlasmaHeat = PlasmaHeat + 30
             End
             Goto refresh_ui
         Else
             Goto reload_start
         End
+            
     End
 Else
     ActorAsNew parent

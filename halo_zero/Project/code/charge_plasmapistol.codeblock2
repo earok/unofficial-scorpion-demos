@@ -1,0 +1,31 @@
+If control1fire and Weapon1Clip >= 10
+
+    //Still charging so reset the frame
+    PlayerAnimation player_animation Frame=0
+    If PlasmaCharge < 10
+        Set PlasmaCharge=PlasmaCharge + 1
+        Sound plasma_charge_start
+    Else
+        Sound plasma_charge_loop
+    End
+
+Else
+
+    If PlasmaCharge < 10      
+        PlayerSpawnChild projectile_plasma_pistol
+        Set PlasmaHeat = PlasmaHeat + 50
+    Else
+        PlayerSpawnChild projectile_plasma_charged
+        Set Weapon1Clip=Weapon1Clip - 9
+        Set PlasmaHeat=100
+        Set PlasmaOverheated=True
+    End
+    
+    If actor_animation == masterchief_top_attack_plasmapistol_r
+        NewDirection move_right
+    Else
+        NewDirection move_left
+    End
+    NewPosition X=deltax Y=deltay
+
+End

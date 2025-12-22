@@ -1,7 +1,7 @@
 {
   "TargetPlatform": "amiga_ecs",
   "StartupCodeBlock": "startup",
-  "Recompile": true,
+  "Recompile": false,
   "DataVersion": 3,
   "Commands": [
     {
@@ -269,6 +269,34 @@
       "Channel": null
     },
     "pistolshot": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "plasma_charge_start": {
+      "LinkedMap": "",
+      "RepeatDelay": 15,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "plasma_charge_loop": {
+      "LinkedMap": "",
+      "RepeatDelay": 15,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "plasmapistolcharged": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "main_theme": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,

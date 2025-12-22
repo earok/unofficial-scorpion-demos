@@ -13,7 +13,7 @@
       "SpriteType": "Attached_16colors",
       "Path": "enemy_grenade.png",
       "HandleX": -6,
-      "HandleY": -6,
+      "HandleY": -10,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,

@@ -4,8 +4,8 @@
   "Recycle": "Default",
   "MoveType": "cpu_platform",
   "MaxEntities": 0,
-  "NudgeX": 8,
-  "NudgeY": 8,
+  "NudgeX": 7,
+  "NudgeY": 11,
   "Idles": {
     "UpLeft": "a_enemy_grenade",
     "Up": "a_enemy_grenade",
@@ -104,8 +104,8 @@
     false
   ],
   "CollBox": {
-    "X": -4,
-    "Y": -4,
+    "X": -3,
+    "Y": -8,
     "Width": 8,
     "Height": 8
   },
@@ -197,6 +197,6 @@
   "IsAttacker": null,
   "PreviewParent": null,
   "RotationEnabled": false,
-  "TileID": 15,
+  "TileID": -1,
   "MaxTimelineFrames": 50
 }

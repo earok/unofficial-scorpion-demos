@@ -14,6 +14,6 @@ If projectile_type == projectile_elite_rifle
 ElseIf projectile_type == enemy_grenade
     Spawn plasma_rifle_hit X=projectile_x Y=projectile_y
 End
-ProjectileType None
+ProjectileType bullet_hit
 ActorAsNew self
 Goto kill_new

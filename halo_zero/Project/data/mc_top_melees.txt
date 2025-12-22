@@ -1,3 +1,5 @@
 Weapon_Rifle = masterchief_top_melee_r
 Weapon_Pistol = masterchief_top_melee_pistol_r
 Weapon_PlasmaPistol = masterchief_top_melee_plasmapistol_r
+Weapon_PlasmaRifle = masterchief_top_melee_plasmarifle_r
+Weapon_Needler = masterchief_top_melee_needler_r

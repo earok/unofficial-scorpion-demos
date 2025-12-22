@@ -2,6 +2,8 @@ If Weapon1 == Weapon_Rifle
     Set DeltaX=RifleClip-Weapon1Clip
 ElseIf Weapon1 == Weapon_Pistol
     Set deltax=PistolClip-Weapon1Clip
+ElseIf Weapon1 == Weapon_Needler
+    Set deltax=NeedlerClip-Weapon1Clip
 Else
     Set deltax=0
 End

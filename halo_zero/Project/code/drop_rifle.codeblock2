@@ -1,0 +1,7 @@
+ActorType None
+Roll 6
+If Dice == 1
+    ActorSpawnChild item_grenade1
+Else
+    ActorSpawnChild item_rifle
+End
