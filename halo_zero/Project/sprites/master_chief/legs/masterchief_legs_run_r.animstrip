@@ -191,7 +191,7 @@
   "LoopFrame": 0,
   "OnFinish": null,
   "AutoFlip": null,
-  "Streamed": true,
+  "Streamed": false,
   "AnimationTag": null,
-  "LinkedMap": ""
+  "LinkedMap": "level1"
 }

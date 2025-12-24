@@ -1,5 +1,5 @@
-//Remember the tag of the actor that shot this projectile
 Variable word AimAngle=0
+//Remember the tag of the actor that shot this projectile
 ActorAsNew parent
 Set actor_origintag=new_tag
 

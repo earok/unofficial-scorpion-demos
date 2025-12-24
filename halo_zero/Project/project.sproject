@@ -1,71 +1,9 @@
 {
   "TargetPlatform": "amiga_ecs",
   "StartupCodeBlock": "startup",
-  "Recompile": false,
+  "Recompile": true,
   "DataVersion": 3,
   "Commands": [
-    {
-      "Compiler": "megadrive",
-      "Key": "Tilde",
-      "JoystickPort": 0,
-      "JoystickX": 0,
-      "JoystickY": 0,
-      "JoystickFire1": false,
-      "JoystickFire2": false,
-      "CD32Play": false,
-      "CD32Reverse": false,
-      "CD32Forward": false,
-      "CD32Green": false,
-      "CD32Yellow": false,
-      "MegaDrive_B": false,
-      "MegaDrive_C": false,
-      "MegaDrive_A": false,
-      "MegaDrive_Start": true,
-      "MegaDrive_X": false,
-      "MegaDrive_Y": false,
-      "MegaDrive_Z": false,
-      "MegaDrive_Mode": false,
-      "Neo_A": false,
-      "Neo_B": false,
-      "Neo_C": false,
-      "Neo_D": false,
-      "Neo_Start": false,
-      "Neo_Select": false,
-      "OnPress": "pause",
-      "OnRelease": null,
-      "buttonState": 128
-    },
-    {
-      "Compiler": "neogeo",
-      "Key": "Tilde",
-      "JoystickPort": 0,
-      "JoystickX": 0,
-      "JoystickY": 0,
-      "JoystickFire1": false,
-      "JoystickFire2": false,
-      "CD32Play": false,
-      "CD32Reverse": false,
-      "CD32Forward": false,
-      "CD32Green": false,
-      "CD32Yellow": false,
-      "MegaDrive_B": false,
-      "MegaDrive_C": false,
-      "MegaDrive_A": false,
-      "MegaDrive_Start": false,
-      "MegaDrive_X": false,
-      "MegaDrive_Y": false,
-      "MegaDrive_Z": false,
-      "MegaDrive_Mode": false,
-      "Neo_A": false,
-      "Neo_B": false,
-      "Neo_C": false,
-      "Neo_D": false,
-      "Neo_Start": true,
-      "Neo_Select": false,
-      "OnPress": "pause",
-      "OnRelease": null,
-      "buttonState": 256
-    },
     {
       "Compiler": "amiga",
       "Key": "X",
@@ -164,77 +102,77 @@
   "Anim5MetaData": {},
   "SoundMetaData": {
     "shieldlow": {
-      "LinkedMap": "",
+      "LinkedMap": "ab_gamesounds",
       "RepeatDelay": 11,
       "IsMusic": false,
       "Priority": 8,
       "Channel": null
     },
     "shieldrecharge": {
-      "LinkedMap": "",
-      "RepeatDelay": 1,
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 37,
       "IsMusic": false,
       "Priority": 9,
       "Channel": null
     },
     "rifleshot": {
-      "LinkedMap": "",
+      "LinkedMap": "ab_gamesounds",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
     },
     "plasmarifleshot": {
-      "LinkedMap": "",
+      "LinkedMap": "ab_gamesounds",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
     },
     "plasmapistolshot": {
-      "LinkedMap": "",
+      "LinkedMap": "ab_gamesounds",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
     },
     "masterchiefdead": {
-      "LinkedMap": "",
+      "LinkedMap": "ab_gamesounds",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 10,
       "Channel": null
     },
     "elitedead": {
-      "LinkedMap": "",
+      "LinkedMap": "ab_gamesounds",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 5,
       "Channel": null
     },
     "gruntdead": {
-      "LinkedMap": "",
+      "LinkedMap": "ab_gamesounds",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
     },
     "reload": {
-      "LinkedMap": "",
+      "LinkedMap": "ab_gamesounds",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
     },
     "plasmaexplosion": {
-      "LinkedMap": "",
+      "LinkedMap": "ab_gamesounds",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
     },
     "fragexplosion": {
-      "LinkedMap": "",
+      "LinkedMap": "ab_gamesounds",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
@@ -255,42 +193,42 @@
       "Channel": null
     },
     "jackaldead": {
-      "LinkedMap": "",
+      "LinkedMap": "ab_gamesounds",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
     },
     "needlershot": {
-      "LinkedMap": "",
+      "LinkedMap": "ab_gamesounds",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
     },
     "pistolshot": {
-      "LinkedMap": "",
+      "LinkedMap": "ab_gamesounds",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
     },
     "plasma_charge_start": {
-      "LinkedMap": "",
+      "LinkedMap": "ab_gamesounds",
       "RepeatDelay": 15,
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
     },
     "plasma_charge_loop": {
-      "LinkedMap": "",
+      "LinkedMap": "ab_gamesounds",
       "RepeatDelay": 15,
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
     },
     "plasmapistolcharged": {
-      "LinkedMap": "",
+      "LinkedMap": "ab_gamesounds",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
@@ -310,14 +248,20 @@
       "Radix": 10
     }
   },
-  "FontMetaData": {},
+  "FontMetaData": {
+    "defaultfont": {
+      "IsMonoSpaced": false,
+      "LineHeight": 8,
+      "SpaceWidth": 8
+    }
+  },
   "SplashScreen": null,
   "LogicSpeed": "PAL_25HZ",
   "ReadCD32Buttons": true,
   "ReadMD6Buttons": false,
-  "MDRegion": "Universal",
-  "MDSoundDriver": "MDSDRV",
+  "MDRegion": "All_NTSC",
+  "MDSoundDriver": "XGM",
   "SplashScreenFrames": 50,
   "TestLevel": null,
-  "SafetyRails": true
+  "SafetyRails": false
 }

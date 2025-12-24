@@ -1,12 +1,12 @@
 If PlasmaHeat > 0
     If PlasmaHeat >= 100
-        Set PlasmaOverheated = True
-    End    
-    Set PlasmaHeat=PlasmaHeat - Frame_Adjust
+        Set PlasmaOverheated=True
+    End
+    Set PlasmaHeat=PlasmaHeat - frame_wait
     If PlasmaHeat <= 0
         Set PlasmaOverheated=False
     End
-    Gosub refresh_ui
+    GoSub refresh_ui
 End
 
 //If we are damaged
@@ -16,13 +16,14 @@ Set mc_xfacing=actor_xfacing
 Set mc_x=actor_x
 If Shield < 75
     If ShieldDelay > 0
-        Set ShieldDelay=ShieldDelay - 1
+        Set ShieldDelay=ShieldDelay - frame_wait
         If ShieldDelay == 0
             //We've just hit the End of the shield recharge time
             Sound shieldrecharge
         End
     Else
-        Set Shield=Shield + 1
+        Set Shield=Shield + frame_wait
+        GoSub refresh_ui
     End
     If Shield == 0
         Sound shieldlow
@@ -35,11 +36,11 @@ Else
     Set actor_origin_y=-39
 End
 
-If control1_buttons btst CD32_Green and Actor_AnimationTag == masterchief_top_idle
+If control1_buttons btst Button_Reload and Actor_AnimationTag == masterchief_top_idle
     Goto reload_start
-ElseIf control1_buttons btst CD32_Yellow and Actor_AnimationTag == masterchief_top_idle
+ElseIf control1_buttons btst Button_Swap and Actor_AnimationTag == masterchief_top_idle
     Goto weapon_swap
-ElseIf control1_buttons btst Amiga_Fire2 and Actor_AnimationTag == masterchief_top_idle and Grenade1+Grenade2 > 0
+ElseIf control1_buttons btst Button_Grenade and Actor_AnimationTag == masterchief_top_idle and Grenade1+Grenade2 > 0
     If Grenade2
         Set Grenade2=Grenade2-1
         Set GrenadeThrown=2
@@ -58,9 +59,9 @@ ElseIf Control1Fire
                 Goto reload_start
             End
         End
-            
+        
         If Weapon1Clip > 0
-            Set PlasmaCharge = 0
+            Set PlasmaCharge=0
             ActorAnimation mc_top_shoots[Weapon1] Frame=0 AutoFlip
             Set Weapon1Clip=Weapon1Clip - 1
             If Weapon1 == Weapon_Rifle
@@ -68,13 +69,13 @@ ElseIf Control1Fire
             ElseIf Weapon1 == Weapon_Pistol
                 GoSub fire_pistol
             ElseIf Weapon1 == Weapon_PlasmaRifle
-                Set PlasmaHeat = PlasmaHeat + 30
+                Set PlasmaHeat=PlasmaHeat + 15
             End
             Goto refresh_ui
         Else
             Goto reload_start
         End
-            
+        
     End
 Else
     ActorAsNew parent

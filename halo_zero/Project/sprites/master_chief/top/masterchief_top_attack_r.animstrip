@@ -100,7 +100,7 @@
             "Variable": null,
             "Expression": null,
             "Tag": "FrameEvent2",
-            "IsConditional": false,
+            "IsConditional": true,
             "OverrideDirection": false,
             "Animation": "none",
             "AnimationLoop": false,
@@ -129,7 +129,15 @@
               "b": 255,
               "a": 128
             },
-            "Conditions": [],
+            "Conditions": [
+              {
+                "LeftSide": "HiFi",
+                "Comparison": "NotZero",
+                "RightSide": "",
+                "ComparisonNext": "End",
+                "IsValid": true
+              }
+            ],
             "Angle": 82.874985911166732,
             "HasActorAngle": false,
             "HasChildAngle": true,

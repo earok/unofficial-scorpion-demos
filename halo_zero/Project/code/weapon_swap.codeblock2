@@ -7,4 +7,5 @@ Set deltax=Weapon2Clip
 Set Weapon2Clip=Weapon1Clip
 Set Weapon1Clip=DeltaX
 
+GoSub reload_start
 Goto refresh_ui

@@ -1,5 +1,5 @@
 {
-  "OutputSpeed": "PAL_50HZ",
+  "OutputSpeed": "NTSC_60HZ",
   "GFXMode": "Default",
   "EmulatedAmiga": "A1200",
   "EmulatedFastRam": 0,
@@ -10,9 +10,9 @@
   "SScan2": false,
   "SmoothScrolling": true,
   "FMode": 0,
-  "Width": 304,
-  "XOffset": 16,
-  "XFillSize": 23,
+  "Width": 320,
+  "XOffset": 0,
+  "XFillSize": 24,
   "YFillSize": 17,
   "MDPlaneMode": "Width_512_Height_256",
   "XFillSizeMD": 32,
@@ -21,8 +21,8 @@
   "DoubleCopper": true,
   "NTSC": false,
   "CrunchMode": "Implode",
-  "MaxActiveActors": 32,
+  "MaxActiveActors": 48,
   "MaxDormantActors": 128,
-  "PaletteLines": 16,
+  "PaletteLines": 2,
   "StartingPaletteLine": 0
 }

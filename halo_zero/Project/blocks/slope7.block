@@ -16,12 +16,12 @@
   "ProjectileCollisionOverride": "Default",
   "PaletteLines": [
     [
-      null,
-      null
+      0,
+      0
     ],
     [
-      null,
-      null
+      0,
+      0
     ]
   ],
   "Priorities": [
@@ -36,6 +36,7 @@
   ],
   "ZeroIsTransparent": false,
   "PaletteLineNeo": 0,
+  "IsForeground": false,
   "BlockTag": null,
   "TileID": 6
 }

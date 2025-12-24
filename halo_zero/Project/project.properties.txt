@@ -18,5 +18,9 @@ sega_system=SEGA MEGA DRIVE
 neogeo_ngh_hex=
 
 [whdload_13]
-chip_mem_size=$E8000
+chip_mem_size=$110000
 fast_mem_size=$100000
+
+[whdload_31]
+chip_mem_size=$1ff000
+fast_mem_size=$0

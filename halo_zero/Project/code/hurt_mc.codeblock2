@@ -1,9 +1,9 @@
 Set ShieldDelay=100
 If Shield < 0
     Set Health=Health + Shield
-    GoSub refresh_ui
     Set Shield=0
 End
+GoSub refresh_ui
 
 If Health <= 0
     

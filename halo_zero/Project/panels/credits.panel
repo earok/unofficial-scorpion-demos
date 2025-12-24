@@ -2,8 +2,8 @@
   "DataVersion": 6,
   "FirstCopper": 0,
   "Copper24": false,
-  "FadeInFrames": 0,
-  "FadeOutFrames": 0,
+  "FadeInFrames": 50,
+  "FadeOutFrames": 50,
   "FadeInMusic": false,
   "FadeOutMusic": false,
   "TalkpadFont": null,
@@ -31,20 +31,20 @@
   },
   "CenterAdjust_MegaDrive": 0,
   "MegaDrivePaletteLines": {
-    "Start": 3,
-    "Talkpad": 0,
-    "FireIndicator": 0,
-    "ChoiceIndicator": 0,
-    "NumberFont": 0,
-    "Total": 1
+    "Start": 0,
+    "Talkpad": 1,
+    "FireIndicator": 1,
+    "ChoiceIndicator": 1,
+    "NumberFont": 1,
+    "Total": 2
   },
   "NeoGeoPaletteLines": {
     "Start": 14,
-    "Talkpad": 0,
-    "FireIndicator": 0,
-    "ChoiceIndicator": 0,
-    "NumberFont": 0,
-    "Total": 1
+    "Talkpad": 14,
+    "FireIndicator": 14,
+    "ChoiceIndicator": 14,
+    "NumberFont": 14,
+    "Total": 2
   },
   "ParallaxMultiplierX": 0.5,
   "ParallaxMultiplierY": 0.0,

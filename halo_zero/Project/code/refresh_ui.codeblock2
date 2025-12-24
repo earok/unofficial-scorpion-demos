@@ -1,24 +1,30 @@
+[amiga_all] Constant ClipMultiplier=64
+[megadrive_or_neogeo] Constant ClipMultiplier=8
+
+[megadrive_or_neogeo] Variable word ShieldDisplay=8
 Variable word HealthDisplay=8
 Variable word GrenadeDisplay=0
 Variable word AmmoDisplay=0
 Variable word ClipDisplay=0
 
 Set healthdisplay=Health << 3 / 75
+[megadrive_or_neogeo] Set ShieldDisplay=Shield * 10 / 75
+
 Set GrenadeDisplay=Grenade1+Grenade2
 
 If Weapon1 == Weapon_Rifle
     Set AmmoDisplay=Ammo[Weapon1]
-    Set ClipDisplay=Weapon1Clip * 64 / RifleClip
+    Set ClipDisplay=Weapon1Clip * ClipMultiplier / RifleClip
 ElseIf Weapon1 == Weapon_Pistol
     Set AmmoDisplay=Ammo[Weapon1]
-    Set ClipDisplay=Weapon1Clip * 64 / PistolClip
+    Set ClipDisplay=Weapon1Clip * ClipMultiplier / PistolClip
 ElseIf Weapon1 == Weapon_PlasmaPistol
     Set AmmoDisplay=Weapon1Clip
-    Set ClipDisplay=PlasmaHeat * 64 / 100
+    Set ClipDisplay=PlasmaHeat * ClipMultiplier / 100
 ElseIf Weapon1 == Weapon_PlasmaRifle
     Set AmmoDisplay=Weapon1Clip
-    Set ClipDisplay=PlasmaHeat * 64 / 100
+    Set ClipDisplay=PlasmaHeat * ClipMultiplier / 100
 ElseIf Weapon1 == Weapon_Needler
     Set AmmoDisplay=Ammo[Weapon1]
-    Set ClipDisplay=Weapon1Clip * 64 / NeedlerClip
+    Set ClipDisplay=Weapon1Clip * ClipMultiplier / NeedlerClip
 End

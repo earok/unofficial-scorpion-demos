@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
 <softwarelist name="neogeo" description="SNK Neo-Geo Cartridges">
-  <software name="project">
-    <description>Scorpion Engine game for NeoGeo</description>
+  <software name="halo_zero">
+    <description>Halo Zero</description>
     <year>2025</year>
-    <publisher>unknown</publisher>
+    <publisher>Earok</publisher>
     <sharedfeat name="release" value="MVS,AES" />
     <sharedfeat name="compatibility" value="MVS,AES" />
     <part name="cart" interface="neo_cart">
       <dataarea name="maincpu" width="16" endianness="big" size="0x080000">
-        <rom loadflag="load16_word_swap" name="scorpion.p1" offset="0x000000" size="0x080000" crc="560ffb8f" sha1="3746639cd7fa684bb7b93cb7f9b0d080ccf4e2b9" />
+        <rom loadflag="load16_word_swap" name="scorpion.p1" offset="0x000000" size="0x080000" crc="37159bf7" sha1="fe2c9eb7fd768e5a0edf28e86e5c00e4194106b2" />
       </dataarea>
       <dataarea name="fixed" size="0x020000">
-        <rom name="scorpion.s1" offset="0x000000" size="0x020000" crc="73864d20" sha1="be506c51c5b5f0a052c4e72c98b505d0735ecbe1" />
+        <rom name="scorpion.s1" offset="0x000000" size="0x020000" crc="bd4b9a5c" sha1="20d619b798df509e26a934d1ebe49fe6581ed53f" />
       </dataarea>
-      <dataarea name="sprites" size="0x080000">
-        <rom loadflag="load16_byte" name="scorpion.c1" offset="0x000000" size="0x040000" crc="445d9f1b" sha1="fa00b64637924e1a22e4dd2de3362a60e0adfe87" />
-        <rom loadflag="load16_byte" name="scorpion.c2" offset="0x000001" size="0x040000" crc="95983961" sha1="32271d4464f8038448f169ed5348976192db0bf0" />
+      <dataarea name="sprites" size="0x0c0000">
+        <rom loadflag="load16_byte" name="scorpion.c1" offset="0x000000" size="0x060000" crc="315cdba9" sha1="5e1badaf05aa3359c8ed0b13c40d1c6d096d1004" />
+        <rom loadflag="load16_byte" name="scorpion.c2" offset="0x000001" size="0x060000" crc="134ffa7b" sha1="2fffec09c8ad22e541b9e11ce74c7f2765852c73" />
       </dataarea>
       <dataarea name="audiocpu" size="0x040000">
-        <rom name="mzs_driver.m1" offset="0x000000" size="0x040000" crc="6065418e" sha1="15c9e00ba3a1d182c724ef3f84e764f8048d9f89" />
+        <rom name="mzs_driver.m1" offset="0x000000" size="0x040000" crc="ebc4dd39" sha1="4c3ed6d2c913c775cab484cb96e095226f052391" />
       </dataarea>
       <dataarea name="ymsnd:adpcma" size="0x040000">
-        <rom name="scorpion.v1" offset="0x000000" size="0x040000" crc="ff6c0895" sha1="c6af981c53865d8864d056431f9b4981b68e1217" />
+        <rom name="scorpion.v1" offset="0x000000" size="0x040000" crc="91926de7" sha1="946aac852f868b1e8bd639023073a9ec44834978" />
       </dataarea>
       <dataarea name="ymsnd:adpcmb" size="0x040000">
         <rom name="scorpion.v2" offset="0x000000" size="0x040000" crc="e20eea22" sha1="2e000fa7e85759c7f4c254d4d9c33ef481e459a7" />

@@ -5,7 +5,7 @@
   "EmulatedFastRam": 2,
   "WinUAEConfiguration": "none",
   "SpriteMode": "Mode_0_16_Wide",
-  "Uses24BitColor": null,
+  "Uses24BitColor": false,
   "SpriteColorBank": 1,
   "SScan2": false,
   "SmoothScrolling": true,

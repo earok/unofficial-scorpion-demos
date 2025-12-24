@@ -1,3 +1,14 @@
+[neogeo] Constant Hifi=true
+[amiga_all] Constant Hifi=true
+[megadrive] Constant Hifi=true
+
+Constant Button_Fire=4
+Constant Button_Grenade=5
+[megadrive_or_neogeo] Constant Button_Reload=6
+[megadrive_or_neogeo] Constant Button_Swap=7
+[amiga_all] Constant Button_Reload=10
+[amiga_all] Constant Button_Swap=11
+
 LookupTable byte heights "..\data\heights.txt"
 LookupTable word shoot_anims "..\data\shoot_anims.txt"
 LookupTable word dead_anims "..\data\dead_anims.txt"
@@ -25,25 +36,20 @@ Alias actor_health=actor_var1
 Alias projectile_health=projectile_var1
 Alias player_health=player_var1
 
-//Increase the size of the spawn area
-Set SpawnArea_Width=SpawnArea_Width + 64
-Set SpawnArea_Height=SpawnArea_Height + 128
-Set SpawnArea_X=SpawnArea_X - 32
-Set SpawnArea_Y=SpawnArea_Y - 64
-//Make it so the recycle distance is massive so enemies are not frozen unless you go a really long way
-Set RecycleDistance=256
-CameraFollow !LRUD MaxCamera=8 lowest
-CameraBox L=60 R=60 U=0 D=0 LookL=64 LookR=64 LookU=0 LookD=0
-AttackControls player1 !1SA
-JumpControls player1 !UH
+
 GoSub freemem
-Sound main_theme
-PanelTop none
 Panel title Frames=0 ForFire
 
 If Option == 1
-    Panel Credits Frames=0 ForFire
-    Goto Startup
+    GoSub freemem
+    Panel credits Frames=0 ForFire
+    Goto startup
 End
 
-Level level1 PanelTop=top_hud
+If Option == 2
+    GoSub freemem
+    Panel instructions Frames=0 ForFire
+    Goto startup
+End
+
+Goto intro

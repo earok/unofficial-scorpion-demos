@@ -1,0 +1,18 @@
+Variable word i=0
+GoSub freemem
+Level intro NoFadeIn
+CameraPosition Y=16 ResetMovement
+FadeIn
+[megadrive] Spawn planet X=160 Y=112
+[amiga_all] Wait 50
+[amiga_all] For i From 0 To 6
+    [amiga_all] CameraPosition Y=camera_y + 256 ResetMovement Warp
+    [amiga_all] Advanced RefreshFrame
+[amiga_all] End
+[amiga_all] Goto play_level
+[neogeo] Wait 50
+[neogeo] For i From 0 To 6
+    [neogeo] CameraPosition Y=camera_y + 256 ResetMovement Warp
+    [neogeo] Advanced RefreshFrame
+[neogeo] End
+[neogeo] Goto play_level
