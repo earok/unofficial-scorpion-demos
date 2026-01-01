@@ -5,9 +5,10 @@
         "Events": []
       },
       "Duration": 5,
-      "Background": true,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "OnlySprite",
       "SpriteType": "Attached_16colors",
       "Path": "Stage 1_Bedit.png",
@@ -20,13 +21,17 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": false,
   "PreventCollision": false,
+  "PreventJump": false,
+  "IsSynchronised": false,
+  "IsScaleable": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0
+  "AnimationTag": null,
+  "LinkedMap": ""
 }

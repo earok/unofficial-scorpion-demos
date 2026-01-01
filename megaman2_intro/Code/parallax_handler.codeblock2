@@ -1,0 +1,7 @@
+Set actor_var1=actor_var1 + parallaxmove
+If camera_y > actor_var2
+    If actor_var1 > 32
+        Set actor_var1=actor_var1 - 72
+    End
+End
+ActorPosition Y=camera_y + actor_var1 + 224

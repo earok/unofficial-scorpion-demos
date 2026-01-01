@@ -1,0 +1,6 @@
+If player_y > 108
+    Goto snap_to_screen
+End
+If player_y < 108
+    # Goto frog_deth_topscreen
+End

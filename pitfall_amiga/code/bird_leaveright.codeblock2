@@ -1,0 +1,8 @@
+If actor_var1 != camera_x
+    ActorType none ResetMovement ResetAnimation
+    Return
+End
+If actor_x > camera_x + 272
+    ActorPosition Y=actor_var2
+    ActorDirection move_upleft
+End

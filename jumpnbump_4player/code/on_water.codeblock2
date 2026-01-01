@@ -1,0 +1,14 @@
+If actor_type == dead_bunny
+    Return
+End
+If actor_yspeed > 0 and actor_type != actor_var4
+    If actor_yspeed >= 0.5
+        Spawn splash X=actor_x Y=actor_y & 0xfff0
+    End
+    ActorType actor_var4 ResetMovement ResetAnimation
+    If LookMask_Left btst actor_lookdir
+        ActorAnimation actor_var3 Frame=0
+    Else
+        PlayerAnimation actor_var3 - 1 Frame=0
+    End
+End

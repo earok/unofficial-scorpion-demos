@@ -1,0 +1,7 @@
+If player_x < block_x * 16
+    Return
+End
+If player_type == man_swim
+    GoSub set_man
+    PlayerDirection move_upright
+End

@@ -1,0 +1,5 @@
+Sound balloon_on Period=0
+PlayerPosition X=actor_x Y=actor_y
+ActorType none ResetMovement ResetAnimation
+PlayerType man_balloon ResetMovement ResetAnimation
+PlayerDirection move_upleft

@@ -1,21 +1,17 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 0,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "tank_d_00.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -24,
       "HandleY": -24,
       "XFlipped": false,
@@ -25,21 +21,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 0,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "tank_d_01.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -24,
       "HandleY": -24,
       "XFlipped": false,
@@ -49,21 +41,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 0,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "tank_d_02.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -24,
       "HandleY": -24,
       "XFlipped": false,
@@ -73,21 +61,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 0,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "tank_d_03.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -24,
       "HandleY": -24,
       "XFlipped": false,
@@ -97,21 +81,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 0,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "tank_d_04.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -24,
       "HandleY": -24,
       "XFlipped": false,
@@ -121,21 +101,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 0,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "tank_d_05.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -24,
       "HandleY": -24,
       "XFlipped": false,
@@ -145,21 +121,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 0,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "tank_d_06.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -24,
       "HandleY": -24,
       "XFlipped": false,
@@ -169,21 +141,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 0,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "tank_d_07.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -24,
       "HandleY": -24,
       "XFlipped": false,
@@ -193,21 +161,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 0,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "tank_d_08.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -24,
       "HandleY": -24,
       "XFlipped": false,
@@ -217,21 +181,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 0,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "tank_d_09.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -24,
       "HandleY": -24,
       "XFlipped": false,
@@ -241,21 +201,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 0,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "tank_d_10.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -24,
       "HandleY": -24,
       "XFlipped": false,
@@ -265,21 +221,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 0,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "tank_d_11.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -24,
       "HandleY": -24,
       "XFlipped": false,
@@ -289,21 +241,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 0,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "tank_d_12.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -24,
       "HandleY": -24,
       "XFlipped": false,
@@ -313,21 +261,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 0,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "tank_d_13.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -24,
       "HandleY": -24,
       "XFlipped": false,
@@ -337,21 +281,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 0,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "tank_d_14.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -24,
       "HandleY": -24,
       "XFlipped": false,
@@ -361,21 +301,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 0,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "tank_d_15.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -24,
       "HandleY": -24,
       "XFlipped": false,
@@ -385,13 +321,17 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": false,
   "PreventCollision": false,
+  "PreventJump": false,
+  "IsSynchronised": false,
+  "IsScaleable": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": false,
   "Streamed": true,
-  "PatternBuffer": 0
+  "AnimationTag": null,
+  "LinkedMap": ""
 }

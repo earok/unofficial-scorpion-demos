@@ -1,0 +1,2 @@
+PlayerType man ResetMovement ResetAnimation
+Set player_xspeed=0

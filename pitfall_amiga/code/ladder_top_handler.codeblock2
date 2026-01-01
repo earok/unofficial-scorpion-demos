@@ -1,0 +1,35 @@
+Variable word destx=0
+Variable word desty=0
+Variable word laddertop_y=0
+Variable word cangetoffladder=false
+Set laddertop_y=block_y * 16 + 24
+If player_type == man
+    If player_yspeed == 0
+        If control1_y > 0
+            If player_x <= block_x * 16 + 7
+                If player_lookdir != look_right
+                    Return
+                End
+                PlayerAnimation ladder_in_l Frame=0
+            End
+            If player_x > block_x * 16 + 7
+                If player_lookdir != look_left
+                    Return
+                End
+                PlayerAnimation ladder_in_r Frame=0
+            End
+            PlayerPosition X=block_x * 16 + 7 Y=block_y * 16 + 20
+            PlayerType man_static ResetMovement ResetAnimation
+            ActorYield 10
+            PlayerPosition X=block_x * 16 + 7 Y=laddertop_y
+            Goto set_ladder
+        End
+    End
+End
+# If cangetoffladder == true
+    If player_y <= laddertop_y
+        If player_type == man_ladder
+            Goto getoffladder
+        End
+    End
+# End

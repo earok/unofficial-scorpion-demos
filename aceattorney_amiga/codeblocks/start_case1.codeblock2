@@ -1,0 +1,46 @@
+Set selected_profile=0
+Set seen_cindy_profile=0
+Set seen_autopsy=0
+Set selected_evidence=0
+Set selected_crossexamination=0
+Set profile_count=4
+Set evidence_count=2
+Set can_present_evidence=false
+Set presented_evidence=-1
+Level intro0
+CameraPosition Y=384 - 212 ResetMovement
+FadeOut
+Say "Episode 1:<br>The First Turnabout" Frames=0
+FadeIn
+Yield 100
+Say "*gasp*... *gasp*..." Frames=0
+While camera_y > 0
+    CameraPosition Y=camera_y - 2 ResetMovement
+    Yield 1
+End
+Yield 100
+FadeOut
+CameraPosition X=256+16 Y=0 ResetMovement
+FadeIn
+Yield 100
+Say "Damnit! ...Why me?" Frames=0
+FadeOut
+Say "I can't get caught... Not like this!" Frames=0
+CameraPosition Y=396 ResetMovement
+FadeIn
+While camera_y > 224
+    CameraPosition Y=Camera_Y - 2 ResetMovement
+    Yield 1
+End
+Say "I-I've gotta find someone to pin this on..." Frames=0
+CameraPosition X=34*16 Y=0 ResetMovement
+Yield 25
+CameraPosition Y=14*16 ResetMovement
+Yield 25
+CameraPosition X=51*16 Y=0 ResetMovement
+Say "Someone like..." Frames=0
+CameraPosition Y=14*16 ResetMovement
+Yield 25
+CameraPosition Y=0 ResetMovement
+Say "I'll make it look like... HE did it!" Frames=0
+Goto start_lobby

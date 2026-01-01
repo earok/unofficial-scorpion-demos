@@ -1,0 +1,5 @@
+If camera_x == 0
+    CameraPosition X=336 Y=16 ResetMovement
+Else
+    CameraPosition X=0 Y=16 ResetMovement
+End

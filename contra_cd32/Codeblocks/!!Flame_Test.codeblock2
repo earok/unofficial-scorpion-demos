@@ -1,0 +1,6 @@
+PlayerSpawnChild 00_flm_up
+Yield 0
+ActorYield 0
+PlayerYield 0
+ProjectileYield 0
+NewDirection look_up

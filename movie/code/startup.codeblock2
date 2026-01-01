@@ -1,0 +1,11 @@
+Variable word cam_pos=0 //current camera position (or frame number)
+Constant frame_size=256 //the size of an individual frame
+Constant frame_gap=0 //if there is a gap between frames, set it here
+Variable word screen_size=0 //will be set to frame_size+frame_gap
+Constant num_frames=8 //total number of movie frames
+# Screen Height=192 Frames=0
+Set cam_pos=0
+Set screen_size=frame_size+frame_gap
+//the map will handle the camera movement on timer
+Level map_movie
+Goto play_movie

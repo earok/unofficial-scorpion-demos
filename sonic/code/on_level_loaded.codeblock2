@@ -1,0 +1,5 @@
+CameraBox L=0 R=0 U=48 D=48 LookL=0 LookR=0 LookU=0 LookD=0
+CameraFollow !LRUD MaxCamera=8
+Music green_hill
+Set is_running=0
+Set is_skidding=0

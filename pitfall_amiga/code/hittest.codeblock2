@@ -1,0 +1,8 @@
+If player_type == man_balloon
+    Goto balloon_pop
+End
+If player_type != angel
+    Sound hurt Period=angel
+    Wait 50
+    PlayerType angel ResetMovement ResetAnimation
+End

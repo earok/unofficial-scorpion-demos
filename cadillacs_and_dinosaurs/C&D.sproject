@@ -1,5 +1,5 @@
 {
-  "TargetPlatform": "neogeo",
+  "TargetPlatform": "neogeo_aes",
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DataVersion": 3,
@@ -55,5 +55,5 @@
   "SplashScreenFrames": 50,
   "TestLevel": null,
   "SafetyRails": true,
-  "NGH": 21317
+  "VDPColor": false
 }

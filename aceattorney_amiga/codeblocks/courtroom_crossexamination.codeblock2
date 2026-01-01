@@ -1,0 +1,49 @@
+Set evidence_count=5
+GoSub show_court_sahwit_normal
+If selected_crossexamination == 0
+    Say "Sahwit: I was going door-to-door, selling subscriptions when I saw a man fleeing an apartment." Frames=0
+End
+If selected_crossexamination == 1
+    Say "Sahwit: I thought he must be in a hurry because he left the door half-open behind him." Frames=0
+End
+If selected_crossexamination == 2
+    Say "Sahwit: Thinking it strange, I looked inside the apartment." Frames=0
+End
+If selected_crossexamination == 3
+    Say "Sahwit: Then I saw her lying there... A woman... not moving... dead!" Frames=0
+End
+If selected_crossexamination == 4
+    Say "Sahwit: I quailed in fright and found myself unable to go inside." Frames=0
+End
+If selected_crossexamination == 5
+    Say "Sahwit: I thought to call the police immediately!" Frames=0
+End
+If selected_crossexamination == 6
+    Say "Sahwit: However, the phone in her apartment wasn't working." Frames=0
+End
+If selected_crossexamination == 7
+    Say "Sahwit: I went to a nearby park and found a public phone." Frames=0
+End
+If selected_crossexamination == 8
+    Say "Sahwit: I remember the time exactly: It was 1:00PM." Frames=0
+End
+If selected_crossexamination == 9
+    Say "Sahwit: The man who ran was, without a doubt, the defendant sitting right over there." Frames=0
+End
+Choice "Next Line" cross_examination_next
+Choice "Previous Line" cross_examination_previous
+Choice "Court Record" courtroom_crossexamination_courtrecord
+Label cross_examination_previous
+Set selected_crossexamination=selected_crossexamination - 1
+Goto courtroom_crossexamination
+Label cross_examination_next
+Set selected_crossexamination=selected_crossexamination + 1
+If selected_crossexamination == 10
+    GoSub show_court_mia_serious
+    Say "Mia: That's all of it." Frames=0
+    Say "Mia: There must be a contradiction in there somewhere." Frames=0
+    Say "Mia: Examine the Court Record if something strikes you as being suspicious." Frames=0
+    Say "Mia: Then, find the evidence that contradicts his testimony, and present it to him!" Frames=0
+    Set selected_crossexamination=0
+End
+Goto courtroom_crossexamination

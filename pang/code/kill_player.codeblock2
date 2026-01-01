@@ -1,0 +1,9 @@
+PlayerDirection stop_moving
+CameraFollow ! MaxCamera=8
+Set lives=lives-1
+Sound sndhurt Period=0
+Wait 20
+ActorSpawnChild player_dead
+PlayerType none ResetMovement ResetAnimation
+ActorYield 100
+Goto game_over

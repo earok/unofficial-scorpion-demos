@@ -1,0 +1,3 @@
+Sound snd_objection Period=0
+CameraPosition X=68*16 Y=83*16 ResetMovement
+Wait 50

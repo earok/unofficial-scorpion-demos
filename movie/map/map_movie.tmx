@@ -2,6 +2,7 @@
 <map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="128" height="14" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="7" nextobjectid="1">
   <properties>
     <property name="divert_timer" type="string" value="" />
+    <property name="md_tilemodes" type="string" value="Dynamic" />
   </properties>
   <tileset firstgid="1" source="../Actors.tsx" />
   <tileset firstgid="257" source="../Blocks.tsx" />

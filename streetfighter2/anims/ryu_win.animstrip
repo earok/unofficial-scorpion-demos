@@ -1,21 +1,17 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ryu_win_3.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -18,
       "HandleY": -47,
       "XFlipped": false,
@@ -25,21 +21,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ryu_win_4.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -18,
       "HandleY": -47,
       "XFlipped": false,
@@ -49,21 +41,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ryu_win_3.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -18,
       "HandleY": -47,
       "XFlipped": false,
@@ -73,21 +61,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ryu_win_4.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -18,
       "HandleY": -47,
       "XFlipped": false,
@@ -97,21 +81,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ryu_win_3.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -18,
       "HandleY": -47,
       "XFlipped": false,
@@ -121,21 +101,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ryu_win_4.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -18,
       "HandleY": -47,
       "XFlipped": false,
@@ -145,21 +121,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ryu_win_3.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -18,
       "HandleY": -47,
       "XFlipped": false,
@@ -169,21 +141,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ryu_win_4.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -18,
       "HandleY": -47,
       "XFlipped": false,
@@ -193,21 +161,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ryu_win_3.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -18,
       "HandleY": -47,
       "XFlipped": false,
@@ -217,21 +181,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ryu_win_4.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -18,
       "HandleY": -47,
       "XFlipped": false,
@@ -241,21 +201,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ryu_win_3.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -18,
       "HandleY": -47,
       "XFlipped": false,
@@ -265,21 +221,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 500,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ryu_win_4.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -18,
       "HandleY": -47,
       "XFlipped": false,
@@ -289,13 +241,17 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": true,
   "PreventCollision": true,
+  "PreventJump": false,
+  "IsSynchronised": false,
+  "IsScaleable": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0
+  "AnimationTag": null,
+  "LinkedMap": ""
 }

@@ -105,6 +105,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="10" name="platforms" width="128" height="91">
@@ -206,6 +207,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="8" name="map" width="128" height="91">
@@ -307,6 +309,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="9" name="details" width="128" height="91">
@@ -408,6 +411,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="foreground" width="128" height="91">
@@ -509,6 +513,7 @@
       <property name="foreground" type="bool" value="true" />
       <property name="megadrive" type="bool" value="true" />
       <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="objects" width="128" height="91">
@@ -610,6 +615,7 @@
       <property name="foreground" type="bool" value="false" />
       <property name="megadrive" type="bool" value="true" />
       <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="5" name="events" />

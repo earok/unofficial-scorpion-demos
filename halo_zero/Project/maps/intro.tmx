@@ -149,6 +149,7 @@
       <property name="amiga_ecs_trackdisk" type="bool" value="true" />
       <property name="whdload_13" type="bool" value="true" />
       <property name="whdload_31" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="9" name="mapmegadrive" width="20" height="128">
@@ -291,6 +292,7 @@
       <property name="amiga_ecs_trackdisk" type="bool" value="true" />
       <property name="whdload_13" type="bool" value="true" />
       <property name="whdload_31" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="blocks" width="20" height="128">
@@ -433,6 +435,7 @@
       <property name="amiga_ecs_trackdisk" type="bool" value="true" />
       <property name="whdload_13" type="bool" value="true" />
       <property name="whdload_31" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="actors" width="20" height="128">
@@ -575,6 +578,7 @@
       <property name="amiga_ecs_trackdisk" type="bool" value="true" />
       <property name="whdload_13" type="bool" value="true" />
       <property name="whdload_31" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="4" name="foreground" width="20" height="128">
@@ -717,6 +721,7 @@
       <property name="amiga_ecs_trackdisk" type="bool" value="true" />
       <property name="whdload_13" type="bool" value="true" />
       <property name="whdload_31" type="bool" value="true" />
+      <property name="amiga_aga_cd32" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="6" name="events" />

@@ -1,0 +1,8 @@
+If player_yspeed
+    Return
+End
+If canpunch == true
+    Set canpunch=false
+    PlayerAnimation ryu_punch Frame=0
+    Sound punch Period=0
+End

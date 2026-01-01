@@ -1,0 +1,37 @@
+//Wrap evidence
+If selected_evidence < 0
+    Set selected_evidence=evidence_count - 1
+End
+If selected_evidence >= evidence_count
+    Set selected_evidence=0
+End
+CameraPosition X=selected_evidence * 16 * 17 Y=96 * 16 ResetMovement
+If selected_evidence == 0
+    Say "Attorney's Badge:<br>No one would believe I was a defense attorney if I didn't carry this." Frames=0
+End
+If selected_evidence == 1
+    Say "Cindy's Autopsy Report:<br>Time of Death: 7-31, 4PM-5PM. Cause of death: loss of blood due to blunt trauma." Frames=0
+    Set seen_autopsy=true
+End
+If selected_evidence == 2
+    Say "Statue/The Thinker:<br>A statue in the shape of "The Thinker". It's rather heavy." Frames=0
+End
+If selected_evidence == 3
+    Say "Passport:<br>The victim apparently arrived home from Paris on 7/30, the day before the murder." Frames=0
+End
+If selected_evidence == 4
+    Say "Blackout Record:<br>Electricity to Ms. Stone's building was out from noon to 6 PM on the day of the crime." Frames=0
+End
+Choice "Next Record" next_evidence
+Choice "Previous Record" previous_evidence
+Choice "Present Evidence" present_evidence
+Choice "Go back" open_court_record
+Label next_evidence
+Set selected_evidence=selected_evidence + 1
+Goto open_evidence
+Label previous_evidence
+Set selected_evidence=selected_evidence - 1
+Goto open_evidence
+Label present_evidence
+Set presented_evidence=selected_evidence
+Return

@@ -1,0 +1,30 @@
+//Wrap around profiles
+If selected_profile < 0
+    Set selected_profile=profile_count - 1
+End
+If selected_profile >= profile_count
+    Set selected_profile=0
+End
+CameraPosition X=selected_profile * 16 * 17 Y=83*16 ResetMovement
+If selected_profile == 0
+    Say "Mia Fey. Age 27. Female:<br>Chief Attorney at Fey and Co My boss, and a very good defense attorney." Frames=0
+End
+If selected_profile == 1
+    Say "Larry Butz. Age 23. Male:<br>The defendant in this case. A likeable guy who was my friend in grade school." Frames=0
+End
+If selected_profile == 2
+    Set seen_cindy_profile=true
+    Say "Cindy Stone. Age 22. Female:<br>The victim in this case. A model, she lived in an apartment by herself." Frames=0
+End
+If selected_profile == 3
+    Say "Winston Paine. Age 52. Male:<br>The prosecutor for this case. Lacks presence, Generally bad at getting his points across." Frames=0
+End
+Choice "Next Record" next_profile
+Choice "Previous Record" next_profile
+Choice "Go back" open_court_record
+Label next_profile
+Set selected_profile=selected_profile + 1
+Goto open_profiles
+Label previous_profile
+Set selected_profile=selected_profile - 1
+Goto open_profiles

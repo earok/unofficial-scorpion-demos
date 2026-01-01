@@ -1,0 +1,19 @@
+///** RENDER TILES UP */
+If lookmask_up btst player_lookdir
+    Goto process_tiles_up
+End
+
+///** RENDER TILES DOWN */
+If lookmask_down btst player_lookdir
+    Goto process_tiles_down
+End
+
+///** RENDER TILES LEFT */
+If lookmask_left btst player_lookdir
+    Goto process_tiles_left
+End
+
+///** RENDER TILES RIGHT */
+If lookmask_right btst player_lookdir
+    Goto process_tiles_right
+End

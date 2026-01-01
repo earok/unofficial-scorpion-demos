@@ -1,0 +1,5 @@
+If player_xspeed > 5
+    PlayerAnimation sonic_run_r Frame=0
+ElseIf player_xspeed <= -5
+    PlayerAnimation sonic_run_l Frame=0
+End

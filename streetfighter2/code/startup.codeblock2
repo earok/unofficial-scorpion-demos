@@ -1,0 +1,28 @@
+Variable word P1Life=100
+Variable word P2Life=100
+Variable word CanHurtKen=true
+Variable word CanPunch=true
+Variable word CanKick=true
+Variable word CanHadou=true
+Variable word GameOver=false
+Variable word P1Score=0
+# Screen Height=208 Frames=0
+CameraBox L=64 R=-64 U=0 D=0 LookL=0 LookR=0 LookU=0 LookD=0
+Music tune
+Music none
+Panel splash_screen Frames=0
+Wait 0
+Sound snd_start Period=0
+Wait 15
+Panel select_screen Frames=0
+Wait 0
+Sound snd_choose Period=0
+Wait 10
+Sound snd_plane Period=0
+Wait 75
+Sound snd_japan Period=0
+Wait 50
+Panel vs_screen Frames=0
+Sound vs Period=0
+Wait 250
+Goto init_game

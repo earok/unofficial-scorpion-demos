@@ -1,0 +1,5 @@
+If camera_x != actor_var1
+    ActorType none ResetMovement ResetAnimation
+    Return
+End
+ActorDirection move_left

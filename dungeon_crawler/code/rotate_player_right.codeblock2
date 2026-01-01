@@ -1,0 +1,11 @@
+Variable word right_block=0
+If lookmask_up btst player_lookdir
+    PlayerDirection look_right
+ElseIf lookmask_right btst player_lookdir
+    PlayerDirection look_down
+ElseIf lookmask_down btst player_lookdir
+    PlayerDirection look_left
+ElseIf lookmask_left btst player_lookdir
+    PlayerDirection look_up
+End
+Goto process_tiles

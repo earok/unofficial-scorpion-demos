@@ -1,0 +1,13 @@
+Variable word selected_profile=0
+Variable word selected_evidence=0
+Variable word seen_cindy_profile=0
+Variable word seen_autopsy=0
+Variable word profile_count=4
+Variable word evidence_count=2
+Variable word selected_crossexamination=0
+Variable word can_present_evidence=0
+Variable word presented_evidence=-1
+Talkpad talkpad
+[amiga_all] Screen Height=172 Frames=0
+Panel pic_title Frames=0 ForFire
+Goto start_case1

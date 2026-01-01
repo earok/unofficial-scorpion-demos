@@ -1,0 +1,38 @@
+Variable word down_block=0
+///** MOVE DOWN */
+If lookmask_up btst player_lookdir
+    GetBlock next_block X=player_x >> 4 Y=player_y >> 4 + 1
+    If next_block == 0
+        Set player_y=player_y + 16
+    End
+    Goto process_tiles
+End
+
+///** MOVE UP */
+If lookmask_down btst player_lookdir
+    GetBlock next_block X=player_x >> 4 Y=player_y >> 4 - 1
+    If next_block == 0
+        Set player_y=player_y - 16
+    End
+    Goto process_tiles
+End
+
+///** MOVE RIGHT */
+If lookmask_left btst player_lookdir
+    GetBlock next_block X=player_x >> 4 + 1 Y=player_y >> 4
+    If next_block == 0
+        Set player_x=player_x + 16
+    End
+    Goto process_tiles
+End
+
+///** MOVE LEFT */
+If lookmask_right btst player_lookdir
+    GetBlock next_block X=player_x >> 4 - 1 Y=player_y >> 4
+    If next_block == 0
+        Set player_x=player_x - 16
+    End
+    Goto process_tiles
+End
+
+Set actor_framedelay=0

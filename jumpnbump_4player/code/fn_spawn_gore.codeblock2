@@ -1,0 +1,17 @@
+Variable fraction speed=0
+Spawn gore X=actor_x Y=actor_y-4
+If new_type == gore
+    If actor_controller == 1
+        NewAnimation p1_gore Frame=0
+    ElseIf actor_controller == 2
+        NewAnimation p2_gore Frame=0
+    ElseIf actor_controller == 3
+        NewAnimation p3_gore Frame=0
+    ElseIf actor_controller == 4
+        NewAnimation p4_gore Frame=0
+    End
+    Roll 8
+    Set speed=dice * 0.5
+    Roll 91
+    NewSpeed X=0 Y=0 - speed Angle=dice - 46
+End

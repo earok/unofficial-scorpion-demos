@@ -1,0 +1,6 @@
+If level != map1
+    Return
+End
+PanelBottom none
+Panel score Music=score_music Frames=0 ForFire
+Goto startup

@@ -7,10 +7,10 @@
       <property name="IsPlatform" value="True" type="bool" />
       <property name="IsSolid" value="True" type="bool" />
       <property name="MD_Is_Dynamic" value="False" type="bool" />
-      <property name="MD_Palette_BL" value="0" type="string" />
-      <property name="MD_Palette_BR" value="0" type="string" />
-      <property name="MD_Palette_TL" value="0" type="string" />
-      <property name="MD_Palette_TR" value="0" type="string" />
+      <property name="MD_Palette_BL" type="string" />
+      <property name="MD_Palette_BR" type="string" />
+      <property name="MD_Palette_TL" type="string" />
+      <property name="MD_Palette_TR" type="string" />
       <property name="Neo_Palette" value="0" type="string" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
       <property name="MD_FG_Priority_TL" value="True" type="bool" />
@@ -30,10 +30,10 @@
       <property name="IsPlatform" value="True" type="bool" />
       <property name="IsSolid" value="True" type="bool" />
       <property name="MD_Is_Dynamic" value="False" type="bool" />
-      <property name="MD_Palette_BL" value="0" type="string" />
-      <property name="MD_Palette_BR" value="0" type="string" />
-      <property name="MD_Palette_TL" value="0" type="string" />
-      <property name="MD_Palette_TR" value="0" type="string" />
+      <property name="MD_Palette_BL" type="string" />
+      <property name="MD_Palette_BR" type="string" />
+      <property name="MD_Palette_TL" type="string" />
+      <property name="MD_Palette_TR" type="string" />
       <property name="Neo_Palette" value="0" type="string" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
       <property name="MD_FG_Priority_TL" value="True" type="bool" />
@@ -53,10 +53,10 @@
       <property name="IsPlatform" value="True" type="bool" />
       <property name="IsSolid" value="True" type="bool" />
       <property name="MD_Is_Dynamic" value="False" type="bool" />
-      <property name="MD_Palette_BL" value="0" type="string" />
-      <property name="MD_Palette_BR" value="0" type="string" />
-      <property name="MD_Palette_TL" value="0" type="string" />
-      <property name="MD_Palette_TR" value="0" type="string" />
+      <property name="MD_Palette_BL" type="string" />
+      <property name="MD_Palette_BR" type="string" />
+      <property name="MD_Palette_TL" type="string" />
+      <property name="MD_Palette_TR" type="string" />
       <property name="Neo_Palette" value="0" type="string" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
       <property name="MD_FG_Priority_TL" value="True" type="bool" />

@@ -1,0 +1,157 @@
+Compiled on Friday, 26 July 2024 9:18:47 p.m.
+Version string: SE2024.2.240726.12.37.EX
+
+ImageFrames: 110
+ImageFrame Data Size: 4876
+Actor Count: 25
+Actor Data Size: 4500
+Animations Count: 62
+Animations Data Size: 992
+AnimationFrame Count: 186
+AnimationFrame Data Size: 2976
+Music file bump_music Original size 71776 Crunched size 53370
+Music file jump_music Original size 50206 Crunched size 38688
+Music file score_music Original size 68982 Crunched size 50212
+Project virtual machine (codeblocks) Original size 14104 Crunched size 14104
+Panel  Original size 3118 Crunched size 3118
+Panel hud Original size 1166 Crunched size 1166
+Panel score Original size 3950 Crunched size 3950
+Project blocks Original size 272 Crunched size 272
+Images Original size 4876 Crunched size 4876
+Project actors Original size 4500 Crunched size 4500
+Map block data for map1 Original size 456 Crunched size 456
+Header data for map map1 Original size 8000 Crunched size 8000
+Map tile data  map1 Original size 456 Crunched size 456
+Tile data for map map1 (mem restrictions:None) Original size 1408 Crunched size 1408
+Map event data for map1 Original size 40 Crunched size 40
+Get Y lookup table map1 Original size 76 Crunched size 76
+Map path node data for map1 Original size 12 Crunched size 12
+Map block data for menu Original size 486 Crunched size 486
+Header data for map menu Original size 8000 Crunched size 8000
+Map tile data  menu Original size 486 Crunched size 486
+Tile data for map menu (mem restrictions:None) Original size 1600 Crunched size 1600
+Map event data for menu Original size 72 Crunched size 72
+Get Y lookup table menu Original size 72 Crunched size 72
+Map path node data for menu Original size 12 Crunched size 12
+Animations Original size 992 Crunched size 992
+Animation Frames Original size 2976 Crunched size 2976
+Project sound Original size 140 Crunched size 140
+Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
+Project Header Original size 2902 Crunched size 2902
+Var Data Original size 112 Crunched size 112
+Attack Data Original size 440 Crunched size 440
+Teleporters Original size 8 Crunched size 8
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+RAM reserved for level tiles: (largest level: menu): 972
+memory reserved for active actors on screen (32): 4616
+memory reserved for dormant actors in map (256): 9216
+
+Total: 14804 bytes
+
+=== Possibly unused animations ===
+p1_water_fall_r
+p2_die_r
+p2_water_fall_r
+p3_die_r
+p3_water_fall_r
+p4_die_r
+p4_water_fall_r
+
+=== Possibly unused Actors ===
+butterfly_red
+butterfly_yellow
+p1_menu
+p2_menu
+p3_menu
+p4_menu
+spring
+
+=== Possibly unused sound effects ===
+jump
+
+=== Codeblocks by compiled size ===
+fn_awardpoint: 892
+startup: 766
+load_level: 528
+bunny_handler: 458
+fn_spawn_gore: 448
+start_level: 426
+water_handler: 422
+do_teleport: 404
+player_collision: 400
+flipscreen_smooth: 310 (Unused?)
+on_water: 302
+load_next_level: 300 (Unused?)
+pre_startup: 298
+flipxymove: 278 (Unused?)
+fn_spawn_bunny: 266
+set_yresolution: 256
+to_score_screen: 220 (Unused?)
+butterfly_rotate: 218
+block_find: 206 (Unused?)
+waitforframes: 194
+dead_bunny_autogen_attack: 184
+block_count: 178 (Unused?)
+check_talkpad: 172 (Unused?)
+flipymove: 162 (Unused?)
+on_death: 162
+on_spring_collide: 160
+snap_to_screen: 158
+camera_handler: 158
+pre_quit: 152 (Unused?)
+restart_this_level: 150 (Unused?)
+load_panel: 146
+flipxmove: 142 (Unused?)
+unload_level: 142
+fn_check_bunny_active: 140
+pause: 138 (Unused?)
+gore_handler: 138
+on_ice: 132
+on_land: 132
+destroy_all_blocks: 128 (Unused?)
+pre_load_level: 122
+waitforfireup: 114
+fadein: 112
+waitforfiredown: 110
+unload_panel: 106
+load_panel_bottom: 96
+load_panel_top: 96 (Unused?)
+destroy_child_actors: 94 (Unused?)
+test_respawn: 92 (Unused?)
+fadeout: 88
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+load_music_finish: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+jump_actor: 66 (Unused?)
+load_panel_finish: 66
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+destroy_all_actors: 60 (Unused?)
+destroy_actor: 58
+regenerate_screen: 58
+destroy_block: 52 (Unused?)
+return: 52 (Unused?)
+autogen_splash_anim_0: 52
+autogen_spring_hit_0: 52
+quit: 50 (Unused?)
+AUTOGEN_OUTOFSCREEN_snap_to_screen_None_None_None: 50
+regenerate_screen_wait: 46
+freeze_actor: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+fn_force_jump: 40
+on_landed: 40
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32 (Unused?)
+clear_block_collision: 32
+vm_registers: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+set_ntsc: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)

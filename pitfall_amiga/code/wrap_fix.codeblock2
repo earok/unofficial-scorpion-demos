@@ -1,0 +1,3 @@
+If actor_var1 != camera_x //Actor is off screen...
+    ActorType none ResetMovement ResetAnimation
+End

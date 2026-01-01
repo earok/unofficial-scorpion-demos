@@ -1,0 +1,10 @@
+LookupTable word fmvdata "..\fmv_data.txt"
+Variable word drawx=-1
+Variable word drawy=0
+Variable word currenttile=0
+Variable long pcx=0
+Variable word rle=0
+Level new_map
+CameraFollow ! MaxCamera=8
+Music bedappol_00111231125261_nocounter
+Goto process_next_tile

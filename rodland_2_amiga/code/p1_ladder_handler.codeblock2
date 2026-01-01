@@ -1,0 +1,29 @@
+If actor_controly and actor_controlfire != button_hit
+    //Don't allow diagonal movement, Y takes prescedence
+    Set actor_controlx=0
+    Set ladder_test_x=actor_x
+    If actor_controly > 0
+        Set ladder_test_y=actor_y
+        If actor_lookdir == look_right
+            ActorDirection look_downright
+        Else
+            ActorDirection look_downleft
+        End
+    Else
+        Set ladder_test_y=actor_y - 1
+        If actor_lookdir == look_right
+            ActorDirection look_upright
+        Else
+            ActorDirection look_upleft
+        End
+    End
+    GoSub fn_test_ladder
+    If ladder_test_result == false or actor_y < 32
+        Set actor_controly=0 //Prevent climb too high or fall etc
+    End
+ElseIf actor_controlx or actor_controlfire == button_hit
+    ActorType p1 ResetMovement ResetAnimation
+    ActorSpeed Y=0
+    Set actor_isonplatform=true
+    Goto p1_handler
+End

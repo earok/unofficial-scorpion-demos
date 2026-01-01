@@ -1,0 +1,3 @@
+If actor_x < camera_x-255-64
+    ActorType none ResetMovement ResetAnimation
+End

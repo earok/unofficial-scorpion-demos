@@ -1,0 +1,9 @@
+Variable word butterfly_direction=0
+Roll 360 Into butterfly_direction
+Set butterfly_direction=butterfly_direction - 1
+If butterfly_direction > 179
+    ActorDirection look_left
+Else
+    ActorDirection look_right
+End
+ActorSpeed X=0 Y=-0.25 Angle=butterfly_direction

@@ -1,0 +1,203 @@
+{
+  "Frames": [
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "butterfly_00x00.png",
+      "HandleX": -4,
+      "HandleY": -4,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "butterfly_00x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "butterfly_01x00.png",
+      "HandleX": -4,
+      "HandleY": -4,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "butterfly_01x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "butterfly_02x00.png",
+      "HandleX": -4,
+      "HandleY": -4,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "butterfly_02x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "butterfly_03x00.png",
+      "HandleX": -4,
+      "HandleY": -4,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "butterfly_03x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "butterfly_04x00.png",
+      "HandleX": -4,
+      "HandleY": -4,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "butterfly_04x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "butterfly_05x00.png",
+      "HandleX": -4,
+      "HandleY": -4,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "butterfly_05x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "butterfly_04x00.png",
+      "HandleX": -4,
+      "HandleY": -4,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "butterfly_04x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "butterfly_03x00.png",
+      "HandleX": -4,
+      "HandleY": -4,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "butterfly_03x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "butterfly_02x00.png",
+      "HandleX": -4,
+      "HandleY": -4,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "butterfly_02x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "butterfly_01x00.png",
+      "HandleX": -4,
+      "HandleY": -4,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "butterfly_01x00",
+      "IsBlank": false
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "OnFinish": null,
+  "AutoFlip": null,
+  "Streamed": true,
+  "PatternBuffer": 0,
+  "LinkedMap": ""
+}

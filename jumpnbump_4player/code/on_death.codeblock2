@@ -1,0 +1,7 @@
+Sound death Period=0
+GoSub fn_spawn_gore
+GoSub fn_spawn_gore
+GoSub fn_spawn_gore
+Set bunny_spawn_type=actor_var1
+ActorType none ResetMovement ResetAnimation
+Goto fn_spawn_bunny

@@ -1,0 +1,220 @@
+{
+  "Frames": [
+    {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Sound",
+            "Dir": "move_right",
+            "Codeblock": null,
+            "Actor": "none",
+            "Sound": "snd_splash",
+            "Expression": null,
+            "Tag": "FrameEvent0",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": false,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
+      },
+      "Duration": 3,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "splash_00x00.png",
+      "HandleX": -5,
+      "HandleY": -6,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "splash_00x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "splash_01x00.png",
+      "HandleX": -7,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "splash_01x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "splash_02x00.png",
+      "HandleX": -9,
+      "HandleY": -10,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "splash_02x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "splash_03x00.png",
+      "HandleX": -11,
+      "HandleY": -11,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "splash_03x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "splash_04x00.png",
+      "HandleX": -12,
+      "HandleY": -12,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "splash_04x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "splash_05x00.png",
+      "HandleX": -13,
+      "HandleY": -11,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "splash_05x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "splash_06x00.png",
+      "HandleX": -14,
+      "HandleY": -9,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "splash_06x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "splash_07x00.png",
+      "HandleX": -15,
+      "HandleY": -6,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "splash_07x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "splash_08x00.png",
+      "HandleX": -15,
+      "HandleY": -3,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "splash_08x00",
+      "IsBlank": false
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 8,
+  "OnFinish": "destroy_actor",
+  "AutoFlip": null,
+  "Streamed": true,
+  "PatternBuffer": 0,
+  "LinkedMap": ""
+}

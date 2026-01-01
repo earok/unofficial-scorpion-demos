@@ -1,0 +1,7 @@
+If player_y == actor_y
+    If player_x > actor_x
+        ActorDirection move_right
+        Return
+    End
+    ActorDirection move_left
+End

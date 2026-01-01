@@ -1,0 +1,21 @@
+Variable fraction temp_player_speed=0
+If actor_type == dead_bunny
+    Return
+End
+If player_type == dead_bunny
+    Return
+End
+If player_y < actor_y - 4
+    GoSub fn_awardpoint
+    Set actor_var1=actor_tag
+    ActorType dead_bunny ResetMovement ResetAnimation
+    ActorAnimation actor_var2 Frame=0 AutoFlip
+    If player_yspeed > 0
+        Set player_yspeed=-player_yspeed
+    End
+    If player_yspeed < -4
+        Set player_yspeed=-4
+    End
+    Goto fn_force_jump
+End
+PlayerSeparate Actor UseX

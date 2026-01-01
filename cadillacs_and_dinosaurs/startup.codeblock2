@@ -1,0 +1,7 @@
+Level fase_1a
+# PlayerSpawnChild hannah_stand
+# PlayerPosition X=264 Y=112
+# ActorSpawnChild pipe_1a
+[amiga_aga] Spawn aga_background X=0 Y=0
+[amiga_aga] Screen Height= Frames=0 AGASpriteWrap
+[neogeo] Spawn neogeo_background X=0 Y=0

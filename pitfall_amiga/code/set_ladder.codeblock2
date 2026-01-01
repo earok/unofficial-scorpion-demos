@@ -1,0 +1,2 @@
+PlayerType man_ladder ResetMovement ResetAnimation
+Set cangetoffladder=false

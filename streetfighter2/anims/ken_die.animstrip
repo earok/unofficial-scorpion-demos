@@ -1,21 +1,17 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ken_die_1.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -20,
       "HandleY": -62,
       "XFlipped": false,
@@ -25,21 +21,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ken_die_1.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -19,
       "HandleY": -63,
       "XFlipped": false,
@@ -49,21 +41,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ken_die_1.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -18,
       "HandleY": -64,
       "XFlipped": false,
@@ -73,21 +61,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ken_die_1.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -16,
       "HandleY": -66,
       "XFlipped": false,
@@ -97,21 +81,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ken_die_1.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -10,
       "HandleY": -67,
       "XFlipped": false,
@@ -121,21 +101,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ken_die_1.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -4,
       "HandleY": -64,
       "XFlipped": false,
@@ -145,21 +121,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ken_die_1.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -2,
       "HandleY": -62,
       "XFlipped": false,
@@ -169,21 +141,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ken_die_1.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 2,
       "HandleY": -59,
       "XFlipped": false,
@@ -193,21 +161,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ken_die_2.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 2,
       "HandleY": -73,
       "XFlipped": false,
@@ -217,21 +181,62 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Dir": "move_right",
+            "Codeblock": "ground_impact",
+            "Actor": "none",
+            "Sound": "none",
+            "Variable": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "IsGlobal": true,
+            "Volume": "",
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "ResetMovement": true,
+            "ResetAnimation": true,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ken_die_2.png",
-      "OnFrame": "ground_impact",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 5,
       "HandleY": -60,
       "XFlipped": false,
@@ -241,21 +246,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ken_die_3.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -34,
       "HandleY": -48,
       "XFlipped": false,
@@ -265,21 +266,62 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Dir": "move_right",
+            "Codeblock": "ground_impact",
+            "Actor": "none",
+            "Sound": "none",
+            "Variable": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "IsGlobal": true,
+            "Volume": "",
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "ResetMovement": true,
+            "ResetAnimation": true,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ken_die_4.png",
-      "OnFrame": "ground_impact",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -37,
       "HandleY": -47,
       "XFlipped": false,
@@ -289,21 +331,17 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ken_die_3.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -31,
       "HandleY": -48,
       "XFlipped": false,
@@ -313,21 +351,62 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Dir": "move_right",
+            "Codeblock": "ground_impact",
+            "Actor": "none",
+            "Sound": "none",
+            "Variable": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "IsGlobal": true,
+            "Volume": "",
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "ResetMovement": true,
+            "ResetAnimation": true,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
+      },
       "Duration": 500,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ken_die_4.png",
-      "OnFrame": "ground_impact",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -33,
       "HandleY": -47,
       "XFlipped": false,
@@ -337,13 +416,17 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": false,
   "PreventCollision": false,
+  "PreventJump": false,
+  "IsSynchronised": false,
+  "IsScaleable": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0
+  "AnimationTag": null,
+  "LinkedMap": ""
 }

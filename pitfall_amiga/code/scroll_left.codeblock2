@@ -1,0 +1,8 @@
+Variable word IsScrolling=false
+Set isscrolling=true
+While camera_x > player_x / 256 * 256
+    Wait 1
+    Set camera_x=camera_x - 4
+End
+Set isscrolling=false
+CameraFollow !UD MaxCamera=8

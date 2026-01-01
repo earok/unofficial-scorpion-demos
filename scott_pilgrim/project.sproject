@@ -1,5 +1,5 @@
 {
-  "TargetPlatform": "neogeo",
+  "TargetPlatform": "megadrive",
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DataVersion": 4,
@@ -95,7 +95,7 @@
       "Neo_Select": false,
       "OnPress": "jump",
       "OnRelease": null,
-      "buttonState": 2
+      "buttonState": 32
     },
     {
       "Compiler": "neogeo",
@@ -126,7 +126,7 @@
       "Neo_Select": false,
       "OnPress": "jump",
       "OnRelease": null,
-      "buttonState": 2
+      "buttonState": 32
     }
   ],
   "AnimationMetaData": {},
@@ -144,5 +144,5 @@
   "SplashScreenFrames": 50,
   "TestLevel": "l1",
   "SafetyRails": true,
-  "NGH": 21317
+  "VDPColor": false
 }

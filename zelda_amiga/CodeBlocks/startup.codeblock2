@@ -1,0 +1,11 @@
+Variable word rupee=0
+Variable word has_sword=false
+Variable word has_shield=false
+Variable word max_health=6
+Variable word health=6
+Talkpad talkpad
+CameraBox L=16 R=16 U=16 D=16 LookL=0 LookR=0 LookU=0 LookD=0
+Panel pic_title Music=mod_intro Frames=0 ForFire
+Music none
+ControlMode joys_2
+Goto gamemenu

@@ -1,0 +1,3 @@
+ForEachActor actor_tag == p1 Goto destroy_actor
+Set bunny_spawn_type=p1
+GoSub fn_spawn_bunny

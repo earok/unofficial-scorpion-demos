@@ -1,0 +1,15 @@
+Variable word i=0
+If IsAmiga
+    Screen Height=192 Frames=0
+End
+Level map
+CameraPosition X=118 Y=0 ResetMovement
+Set i=0
+While i < 16
+    Spawn slice_00 + i X=0 Y=0
+    # Set new_var3=512
+    Set new_origin_x=i * 4 + 240
+    Set new_origin_y=i * 2 + 192 - 31
+    NewAnimation a_p00 Frame=i
+    Set i=i + 1
+End

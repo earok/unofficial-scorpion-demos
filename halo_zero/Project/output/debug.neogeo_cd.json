@@ -14887,276 +14887,288 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 40,
       "MemoryOffset": 23156,
-      "Description": "GOSUB TO 'FREEMEM'"
+      "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 23176,
-      "Description": "Core operation'WaitForNoActors'"
+      "CodeBlockLine": 40,
+      "MemoryOffset": 23164,
+      "Description": "GOSUB TO 'UNLOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 41,
       "MemoryOffset": 23184,
-      "Description": "GOSUB TO 'UNLOAD_LEVEL'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 23204,
-      "Description": "Set 'newvalue' to 'title'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 23210,
-      "Description": "GOSUB TO 'LOAD_PANEL'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 23230,
-      "Description": "If panel != 0 ELSE GOTO 00023288"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 23242,
-      "Description": "Set 'wait' to '0'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 23248,
-      "Description": "GOSUB TO 'WAITFORFRAMES'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 23268,
-      "Description": "GOSUB TO 'UNLOAD_PANEL'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 23288,
-      "Description": "If Option == 1 ELSE GOTO 00023438"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 44,
-      "MemoryOffset": 23300,
       "Description": "GOSUB TO 'FREEMEM'"
     },
     {
       "CodeBlock": "startup",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 23320,
+      "CodeBlockLine": 42,
+      "MemoryOffset": 23204,
       "Description": "Core operation'WaitForNoActors'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 42,
+      "MemoryOffset": 23212,
+      "Description": "GOSUB TO 'UNLOAD_LEVEL'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 42,
+      "MemoryOffset": 23232,
+      "Description": "Set 'newvalue' to 'title'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 42,
+      "MemoryOffset": 23238,
+      "Description": "GOSUB TO 'LOAD_PANEL'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 42,
+      "MemoryOffset": 23258,
+      "Description": "If panel != 0 ELSE GOTO 00023316"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 42,
+      "MemoryOffset": 23270,
+      "Description": "Set 'wait' to '0'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 42,
+      "MemoryOffset": 23276,
+      "Description": "GOSUB TO 'WAITFORFRAMES'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 42,
+      "MemoryOffset": 23296,
+      "Description": "GOSUB TO 'UNLOAD_PANEL'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 44,
+      "MemoryOffset": 23316,
+      "Description": "If Option == 1 ELSE GOTO 00023466"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 45,
       "MemoryOffset": 23328,
-      "Description": "GOSUB TO 'UNLOAD_LEVEL'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 23348,
-      "Description": "Set 'newvalue' to 'credits'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 23354,
-      "Description": "GOSUB TO 'LOAD_PANEL'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 23374,
-      "Description": "If panel != 0 ELSE GOTO 00023432"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 23386,
-      "Description": "Set 'wait' to '0'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 23392,
-      "Description": "GOSUB TO 'WAITFORFRAMES'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 23412,
-      "Description": "GOSUB TO 'UNLOAD_PANEL'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 23432,
-      "Description": "GOTO 'STARTUP'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 49,
-      "MemoryOffset": 23438,
-      "Description": "If Option == 2 ELSE GOTO 00023588"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 50,
-      "MemoryOffset": 23450,
       "Description": "GOSUB TO 'FREEMEM'"
     },
     {
       "CodeBlock": "startup",
-      "CodeBlockLine": 51,
-      "MemoryOffset": 23470,
+      "CodeBlockLine": 46,
+      "MemoryOffset": 23348,
       "Description": "Core operation'WaitForNoActors'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 46,
+      "MemoryOffset": 23356,
+      "Description": "GOSUB TO 'UNLOAD_LEVEL'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 46,
+      "MemoryOffset": 23376,
+      "Description": "Set 'newvalue' to 'credits'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 46,
+      "MemoryOffset": 23382,
+      "Description": "GOSUB TO 'LOAD_PANEL'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 46,
+      "MemoryOffset": 23402,
+      "Description": "If panel != 0 ELSE GOTO 00023460"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 46,
+      "MemoryOffset": 23414,
+      "Description": "Set 'wait' to '0'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 46,
+      "MemoryOffset": 23420,
+      "Description": "GOSUB TO 'WAITFORFRAMES'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 46,
+      "MemoryOffset": 23440,
+      "Description": "GOSUB TO 'UNLOAD_PANEL'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 47,
+      "MemoryOffset": 23460,
+      "Description": "GOTO 'STARTUP'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 50,
+      "MemoryOffset": 23466,
+      "Description": "If Option == 2 ELSE GOTO 00023616"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 51,
       "MemoryOffset": 23478,
-      "Description": "GOSUB TO 'UNLOAD_LEVEL'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 51,
-      "MemoryOffset": 23498,
-      "Description": "Set 'newvalue' to 'instructions'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 51,
-      "MemoryOffset": 23504,
-      "Description": "GOSUB TO 'LOAD_PANEL'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 51,
-      "MemoryOffset": 23524,
-      "Description": "If panel != 0 ELSE GOTO 00023582"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 51,
-      "MemoryOffset": 23536,
-      "Description": "Set 'wait' to '0'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 51,
-      "MemoryOffset": 23542,
-      "Description": "GOSUB TO 'WAITFORFRAMES'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 51,
-      "MemoryOffset": 23562,
-      "Description": "GOSUB TO 'UNLOAD_PANEL'"
+      "Description": "GOSUB TO 'FREEMEM'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 52,
-      "MemoryOffset": 23582,
+      "MemoryOffset": 23498,
+      "Description": "Core operation'WaitForNoActors'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 52,
+      "MemoryOffset": 23506,
+      "Description": "GOSUB TO 'UNLOAD_LEVEL'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 52,
+      "MemoryOffset": 23526,
+      "Description": "Set 'newvalue' to 'instructions'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 52,
+      "MemoryOffset": 23532,
+      "Description": "GOSUB TO 'LOAD_PANEL'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 52,
+      "MemoryOffset": 23552,
+      "Description": "If panel != 0 ELSE GOTO 00023610"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 52,
+      "MemoryOffset": 23564,
+      "Description": "Set 'wait' to '0'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 52,
+      "MemoryOffset": 23570,
+      "Description": "GOSUB TO 'WAITFORFRAMES'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 52,
+      "MemoryOffset": 23590,
+      "Description": "GOSUB TO 'UNLOAD_PANEL'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 53,
+      "MemoryOffset": 23610,
       "Description": "GOTO 'STARTUP'"
     },
     {
       "CodeBlock": "startup",
-      "CodeBlockLine": 55,
-      "MemoryOffset": 23588,
+      "CodeBlockLine": 56,
+      "MemoryOffset": 23616,
       "Description": "GOTO 'INTRO'"
     },
     {
       "CodeBlock": "weapon_swap",
       "CodeBlockLine": 0,
-      "MemoryOffset": 23620,
+      "MemoryOffset": 23648,
       "Description": "WEAPON_SWAP"
     },
     {
       "CodeBlock": "weapon_swap",
       "CodeBlockLine": 2,
-      "MemoryOffset": 23620,
+      "MemoryOffset": 23648,
       "Description": "Set 'deltax' to 'Weapon2'"
     },
     {
       "CodeBlock": "weapon_swap",
       "CodeBlockLine": 3,
-      "MemoryOffset": 23626,
+      "MemoryOffset": 23654,
       "Description": "Set 'weapon2' to 'Weapon1'"
     },
     {
       "CodeBlock": "weapon_swap",
       "CodeBlockLine": 4,
-      "MemoryOffset": 23632,
+      "MemoryOffset": 23660,
       "Description": "Set 'weapon1' to 'DeltaX'"
     },
     {
       "CodeBlock": "weapon_swap",
       "CodeBlockLine": 6,
-      "MemoryOffset": 23638,
+      "MemoryOffset": 23666,
       "Description": "Set 'deltax' to 'Weapon2Clip'"
     },
     {
       "CodeBlock": "weapon_swap",
       "CodeBlockLine": 7,
-      "MemoryOffset": 23644,
+      "MemoryOffset": 23672,
       "Description": "Set 'weapon2clip' to 'Weapon1Clip'"
     },
     {
       "CodeBlock": "weapon_swap",
       "CodeBlockLine": 8,
-      "MemoryOffset": 23650,
+      "MemoryOffset": 23678,
       "Description": "Set 'weapon1clip' to 'DeltaX'"
     },
     {
       "CodeBlock": "weapon_swap",
       "CodeBlockLine": 10,
-      "MemoryOffset": 23656,
+      "MemoryOffset": 23684,
       "Description": "GOSUB TO 'RELOAD_START'"
     },
     {
       "CodeBlock": "weapon_swap",
       "CodeBlockLine": 11,
-      "MemoryOffset": 23676,
+      "MemoryOffset": 23704,
       "Description": "GOTO 'REFRESH_UI'"
     },
     {
       "CodeBlock": "weapons",
       "CodeBlockLine": 0,
-      "MemoryOffset": 23708,
+      "MemoryOffset": 23736,
       "Description": "WEAPONS"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 0,
-      "MemoryOffset": 23734,
+      "MemoryOffset": 23762,
       "Description": "AUTOGEN_UNLOADALLASSETBUNDLES"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 1,
-      "MemoryOffset": 23734,
+      "MemoryOffset": 23762,
       "Description": "Set 'fr[0]' to '0'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 1,
-      "MemoryOffset": 23740,
+      "MemoryOffset": 23768,
       "Description": "Set 'fr[1]' to 'ab_gamesounds'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 1,
-      "MemoryOffset": 23746,
+      "MemoryOffset": 23774,
       "Description": "Core operation'AssetBundle'"
     }
   ],

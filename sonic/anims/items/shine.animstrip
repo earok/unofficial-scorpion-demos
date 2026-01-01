@@ -1,135 +1,177 @@
 {
   "Frames": [
     {
-      "Path": "particle.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 2,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "AutoSprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "particle.png",
       "HandleX": -8,
       "HandleY": -8,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "particle",
+      "IsBlank": false
     },
     {
-      "Path": "particle.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 2,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "AutoSprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "particle.png",
       "HandleX": -7,
       "HandleY": -9,
       "XFlipped": true,
-      "HitBox": {
-        "X": -8,
-        "Y": 0,
-        "Width": 8,
-        "Height": 8
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "particle",
+      "IsBlank": false
     },
     {
-      "Path": "particle.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 2,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "AutoSprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "particle.png",
       "HandleX": -8,
       "HandleY": -10,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 8,
-        "Height": 8
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "particle",
+      "IsBlank": false
     },
     {
-      "Path": "particle.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 2,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "AutoSprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "particle.png",
       "HandleX": -7,
       "HandleY": -12,
       "XFlipped": true,
-      "HitBox": {
-        "X": -8,
-        "Y": 0,
-        "Width": 8,
-        "Height": 8
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "particle",
+      "IsBlank": false
     },
     {
-      "Path": "particle.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 2,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "AutoSprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "particle.png",
       "HandleX": -8,
       "HandleY": -13,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 8,
-        "Height": 8
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "particle",
+      "IsBlank": false
     },
     {
-      "Path": "particle.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 2,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "AutoSprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "particle.png",
       "HandleX": -7,
       "HandleY": -14,
       "XFlipped": true,
-      "HitBox": {
-        "X": -8,
-        "Y": 0,
-        "Width": 8,
-        "Height": 8
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "particle",
+      "IsBlank": false
     },
     {
-      "Path": "particle.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 2,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "AutoSprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "particle.png",
       "HandleX": -8,
       "HandleY": -15,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 8,
-        "Height": 8
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "particle",
+      "IsBlank": false
     },
     {
-      "Path": "particle.png",
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 2,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "AutoSprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "particle.png",
       "HandleX": -7,
       "HandleY": -16,
       "XFlipped": true,
-      "HitBox": {
-        "X": -8,
-        "Y": 0,
-        "Width": 8,
-        "Height": 8
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "particle",
+      "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": true,
   "PreventCollision": true,
+  "PreventJump": false,
+  "IsSynchronised": false,
+  "IsScaleable": false,
   "HideChildren": false,
-  "AutoSprite": true,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 0,
-  "LinkedMap": null,
   "OnFinish": "destroy_actor",
-  "AutoFlip": false
+  "AutoFlip": false,
+  "Streamed": true,
+  "AnimationTag": null,
+  "LinkedMap": ""
 }

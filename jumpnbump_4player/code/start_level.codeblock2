@@ -1,0 +1,23 @@
+Set forcefadeout=true
+While brightness > 0
+    Yield 1
+End
+ForEachActor actor_type Goto fn_check_bunny_active
+Level map1 Music=bump_music PanelBottom=hud NoFadeIn
+If p1_active == true
+    Set bunny_spawn_type=p1
+    GoSub fn_spawn_bunny
+End
+If p2_active == true
+    Set bunny_spawn_type=p2
+    GoSub fn_spawn_bunny
+End
+If p3_active == true
+    Set bunny_spawn_type=p3
+    GoSub fn_spawn_bunny
+End
+If p4_active == true
+    Set bunny_spawn_type=p4
+    GoSub fn_spawn_bunny
+End
+FadeIn

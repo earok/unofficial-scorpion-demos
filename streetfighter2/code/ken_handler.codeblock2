@@ -1,0 +1,14 @@
+Variable word distance=0
+ActorYield 2
+If canhurtken == false
+    Goto ken_handler
+End
+Set distance=actor_x - player_x
+If distance > 128
+    If actor_xspeed == 0
+        ActorDirection move_left
+    End
+Else
+    ActorDirection stop_moving
+End
+Goto ken_handler

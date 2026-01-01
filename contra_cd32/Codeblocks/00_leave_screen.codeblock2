@@ -1,0 +1,7 @@
+If actor_x < camera_x-64
+    ActorType none ResetMovement ResetAnimation
+End
+
+# If actor_x > camera_x+xres
+    # ActorType none ResetMovement ResetAnimation
+# End

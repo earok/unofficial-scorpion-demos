@@ -1,0 +1,15 @@
+If issafe == false
+    PlayerType froggy_ded ResetMovement ResetAnimation
+    Yield 80
+    
+    PlayerType none ResetMovement ResetAnimation
+    Set lives=lives -1
+    Set timer=60
+    SpawnOnBlock player_frog X=7 Y=13
+    
+    If lives <= 0
+        //Start of high scores check
+        Set topscore=topscore+score
+        Goto highscores
+    End
+End

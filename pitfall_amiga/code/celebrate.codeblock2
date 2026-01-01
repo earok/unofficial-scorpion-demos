@@ -1,0 +1,13 @@
+If has_quickclaw
+    If has_rhonda
+        If has_diamond
+            PlayerType man_celebrate ResetMovement ResetAnimation
+            Label celebrate_loop
+            PlayerDirection move_upright
+            ActorYield 35
+            PlayerDirection move_upleft
+            ActorYield 35
+            Goto celebrate_loop
+        End
+    End
+End

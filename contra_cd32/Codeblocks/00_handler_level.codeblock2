@@ -1,0 +1,6 @@
+If currentlevel == 1
+    
+End
+
+//Colour Cycle
+GoSub 00_colour_cycle2

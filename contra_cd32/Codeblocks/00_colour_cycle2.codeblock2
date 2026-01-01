@@ -1,0 +1,19 @@
+Set ctemp=ctemp-2
+Set red=ctemp
+Set green=0
+Set blue=0
+WriteColor 1
+
+Set red=0
+Set green=ctemp
+Set blue=0
+WriteColor 2
+
+Set red=0
+Set green=0
+Set blue=ctemp
+WriteColor 3
+
+If ctemp < 200
+    Set ctemp=255
+End

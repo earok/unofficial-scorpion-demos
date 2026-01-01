@@ -1,0 +1,3 @@
+Sound snd_gavel Period=0
+CameraPosition X=0 Y=14 * 16 ResetMovement
+Wait 50

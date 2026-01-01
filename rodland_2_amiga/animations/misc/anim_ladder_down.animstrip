@@ -8,6 +8,7 @@
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ladder_down_1.png",
@@ -16,7 +17,7 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "ladder_up_1",
+      "Name": "ladder_down_1",
       "IsBlank": false
     },
     {
@@ -27,6 +28,7 @@
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ladder_down_2.png",
@@ -35,7 +37,7 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "ladder_up_2",
+      "Name": "ladder_down_2",
       "IsBlank": false
     },
     {
@@ -46,6 +48,7 @@
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ladder_down_3.png",
@@ -54,7 +57,7 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "ladder_up_3",
+      "Name": "ladder_down_3",
       "IsBlank": false
     },
     {
@@ -65,6 +68,7 @@
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "ladder_down_4.png",
@@ -73,18 +77,21 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "ladder_up_4",
+      "Name": "ladder_down_4",
       "IsBlank": false
     }
   ],
   "PreventAttack": false,
   "PreventMovement": false,
   "PreventCollision": false,
+  "PreventJump": false,
+  "IsSynchronised": false,
+  "IsScaleable": false,
   "HideChildren": false,
   "LoopFrame": 0,
   "OnFinish": "ladder_finished",
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0,
+  "AnimationTag": null,
   "LinkedMap": ""
 }

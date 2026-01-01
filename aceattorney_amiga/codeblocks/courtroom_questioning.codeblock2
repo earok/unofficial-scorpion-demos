@@ -1,0 +1,175 @@
+GoSub show_court_judge_normal
+Say "Judge: Well, then..." Frames=0
+GoSub show_court_judge_warn
+Say "Judge: First, a question for the prosecution. Mr. Payne?" Frames=0
+GoSub show_court_payne_normal
+Say "Payne: Yes, Your Honor?" Frames=0
+GoSub show_court_judge_normal
+Say "Judge: As Mr. Wright just told us, the victim was struck with a blunt object." Frames=0
+Say "Judge: Would you explain to the court just what that "object" was?" Frames=0
+GoSub show_court_payne_normal
+Say "Payne: The murder weapon was this statue of "The Thinker."" Frames=0
+Say "Payne: It was found lying on the floor, next to the victim." Frames=0
+GoSub show_court_judge_normal
+Say "Judge: I see... the court accepts it into evidence." Frames=0
+CameraPosition X=2 * 16 * 17 Y=96 * 16 ResetMovement
+Set evidence_count=3
+Say "Statue added to the court record." Frames=0
+GoSub show_court_mia_serious
+Say "Mia: Wright..." Frames=0
+Say "Mia: Be sure to pay attention to any evidence added during the trial." Frames=0
+Say "Mia: That evidence is the only ammunition you have in court." Frames=0
+Say "Mia: Check the Court record frequently." Frames=0
+GoSub show_court_gavel
+GoSub show_court_judge_normal
+Say "Judge: Mr. Payne, the prosecution may call its first witness." Frames=0
+GoSub show_court_payne_normal
+Say "Payne: The prosecution calls the defendant, Mr. Butz, to the stand." Frames=0
+GoSub show_court_mia_serious
+Say "Phoenix: Um, Chief, what do I do now?" Frames=0
+Say "Mia: Pay attention. You don't want to miss any information that might help your client's case." Frames=0
+Say "Mia: You'll get your chance to respond to the prosecution later, so be ready!" Frames=0
+Say "Mia: Let's just hope he doesn't say anything... unfortunate." Frames=0
+Say "Phoenix: (Uh oh, Larry gets excited easily... this could be bad.)" Frames=0
+FadeOut
+Wait 50
+GoSub show_court_larry_normal
+FadeIn
+Wait 100
+GoSub show_court_payne_normal
+Say "Payne: Ahem." Frames=0
+Say "Payne: Mr. Butz. Is it not true that the victim had recently dumped you?" Frames=0
+GoSub show_court_larry_nervous
+Say "Butz: Hey, watch it buddy!" Frames=0
+Say "Butz: We were great together! We were Romeo and Juliet, Cleopatra and Mark Anthony!" Frames=0
+GoSub show_court_phoenix_nervous
+Say "Phoenix: (Um... didn't they all die?)" Frames=0
+GoSub show_court_larry_normal
+Say "Butz: I wasn't dumped! She just wasn't taking my phone call. Or seeing me... Ever." Frames=0
+GoSub show_court_larry_nervous
+Say "Butz: WHAT'S IT TO YOU, ANYWAY!?" Frames=0
+GoSub show_court_payne_normal
+Say "Payne: Mr. Butz, what you describe is generally what we mean by "dumped."" Frames=0
+Say "Payne: In fact, she had completely abandoned you... and was seeing other men!" Frames=0
+Say "Payne: She had just returned from overseas with one of them the day before the murder!" Frames=0
+GoSub show_court_larry_nervous
+Say "Butz: Whaddya mean, "one of them"!?" Frames=0
+Say "Butz: Lies! All of it, lies! I don't believe a word of it." Frames=0
+GoSub show_court_payne_normal
+Say "Payne: Your Honor, the victim's passport." Frames=0
+Say "Payne: According to this, she was in Paris until the day before she died." Frames=0
+CameraPosition X=3 * 16 * 17 Y=96 * 16 ResetMovement
+Set evidence_count=4
+Say "Passport added to the court record." Frames=0
+GoSub show_court_judge_normal
+Say "Judge: Hmm... Indeed, she appears to have returned the day before the murder." Frames=0
+GoSub show_court_larry_nervous
+Say "Butz: Dude... no way..." Frames=0
+GoSub show_court_payne_normal
+Say "Payne: The victim was a model, but did not have a large income." Frames=0
+Say "Payne: It appears that she has several "Sugar Daddies."" Frames=0
+GoSub show_court_larry_nervous
+Say "Butz: Daddies? Sugar?" Frames=0
+GoSub show_court_payne_normal
+Say "Payne: Yes. Older men, who gave her money and gifts." Frames=0
+Say "Payne: She took their money and used it to support their lifestyle." Frames=0
+GoSub show_court_larry_nervous
+Say "Butz: Duuude!" Frames=0
+GoSub show_court_payne_normal
+Say "Payne: We can clearly see what kind of woman this Ms. Stone was." Frames=0
+Say "Payne: Tell me, Mr. Butz, what do you think of her now?" Frames=0
+GoSub show_court_mia_serious
+Say "Mia: Wright..." Frames=0
+Say "Mia: I don't think you want him to answer than question." Frames=0
+GoSub show_court_phoenix_nervous
+Say "Phoenix: (Yeah... Larry has a way of running his mouth in all the wrong directions.)" Frames=0
+GoSub show_court_phoenix_thinking
+Say "Phoenix: (Should I...?)" Frames=0
+Choice "Wait and see" waitandsee
+Choice "Stop him from answering" stopfromanswering
+Label waitandsee
+GoSub show_court_phoenix_thinking
+Say "Phoenix: (Might be better not to get involved in this one...)" Frames=0
+GoSub show_court_payne_normal
+Say "Payne: Well, Mr. Butz?" Frames=0
+GoSub show_court_larry_nervous
+Say "Butz: Dude, no way! That cheatin' she-dog!" Frames=0
+Goto aftershedog
+Label stopfromanswering
+GoSub show_court_phoenix_deskslam
+Say "Phoenix: My client had no idea the victim was seeing other men!" Frames=0
+GoSub show_court_phoenix_point
+Say "Phoenix: That question is irrelevant to this case!" Frames=0
+GoSub show_court_payne_nervous
+Say "Payne: Oof! *wince*" Frames=0
+GoSub show_court_larry_nervous
+Say "Butz: Dude! Nick! Whaddya mean, "irrelevant"!?" Frames=0
+GoSub show_court_larry_normal
+Say "Butz: That cheatin' she-dog!" Frames=0
+Label aftershedog
+GoSub show_court_larry_nervous
+Say "Butz: I'm gonna die. I'm just gonna drop dead!" Frames=0
+Say "Butz: And when I meet her in the afterlife..." Frames=0
+Say "Butz: I'm going to get to the bottom of this!" Frames=0
+GoSub show_court_gavel
+GoSub show_court_judge_normal
+Say "Judge: Let's continue with the trial, shall we?" Frames=0
+GoSub show_court_payne_normal
+Say "Payne: I believe the accused's motive is clear to everyone." Frames=0
+GoSub show_court_judge_normal
+Say "Judge: Yes, quite." Frames=0
+GoSub show_court_phoenix_nervous
+Say "Phoenix: (Oh boy. This is so not looking good.)" Frames=0
+GoSub show_court_payne_normal
+Say "Payne: Next question!" Frames=0
+Say "Payne: You went to the victim's apartment on the day of the murder, did you not?" Frames=0
+GoSub show_court_larry_nervous
+Say "Butz: Gulp!" Frames=0
+GoSub show_court_payne_normal
+Say "Payne: Well, did you, or did you not?" Frames=0
+GoSub show_court_larry_normal
+Say "Butz: Heh? Heh heh. Well, maybe I did, and maybe I didn't!" Frames=0
+GoSub show_court_phoenix_nervous
+Say "Phoenix: (Uh oh. He went.)" Frames=0
+Say "Phoenix: (What do I do?)" Frames=0
+Choice "Have him answer honestly" answerhonestly
+Choice "Stop him from answering" answerstop
+Label answerhonestly
+GoSub show_court_phoenix_normal
+Say "Phoenix: (I know! I'll send him a signal...)" Frames=0
+GoSub show_court_phoenix_point
+Say "Phoenix:  (TELL THE TRUTH)" Frames=0
+GoSub show_court_larry_normal
+Say "Butz: Er... Yeah! Yeah! I was there! I went!" Frames=0
+GoSub show_court_gavel
+GoSub show_court_judge_normal
+Say "Judge: Order!" Frames=0
+GoSub show_court_judge_warn
+Say "Judge: Well, Mr. Butz?" Frames=0
+GoSub show_court_larry_normal
+Say "Butz: Dude, chill!" Frames=0
+Say "Butz: She wasn't home, man... So, like, I didn't see her." Frames=0
+GoSub objection_payne
+GoSub show_court_payne_normal
+Say "Payne: Your Honor, the defendant is lying." Frames=0
+GoSub show_court_judge_normal
+GoSub show_court_judge_shocked
+Say "Judge: Lying?" Frames=0
+GoSub show_court_payne_normal
+Say "Payne: The prosectution would like to call a witness who can prove Mr. Butz is lying." Frames=0
+Goto courtroom_callwitness
+Label answerstop
+GoSub show_court_phoenix_normal
+Say "Phoenix: (I know! I'll send him a signal...)" Frames=0
+GoSub show_court_phoenix_deskslam
+Say "Phoenix:  (LIE LIKE A DOG)" Frames=0
+GoSub show_court_larry_normal
+Say "Butz: Um, well, see it's like this: I don't remember." Frames=0
+GoSub show_court_payne_normal
+Say "Payne: You "don't remember"?" Frames=0
+Say "Payne: Well then, we'll just have to remind you!" Frames=0
+GoSub show_court_phoenix_normal
+Say "Phoenix: (I've got a bad feeling about this...)" Frames=0
+GoSub show_court_payne_normal
+Say "Payne: We have a witness that can prove he DID go to the victim's apartment that day!" Frames=0
+Goto courtroom_callwitness

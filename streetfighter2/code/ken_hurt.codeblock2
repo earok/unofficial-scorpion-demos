@@ -1,0 +1,10 @@
+If canhurtken == false
+    Return
+End
+Set canhurtken=false
+Set p2life=p2life-5
+Set p1score=p1score + 150
+ActorSpawnChild impact
+Sound hit Period=p2life-10
+ActorAnimation ken_hurt Frame=0
+ActorPush 5 X=8 ResetMovement

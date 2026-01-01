@@ -1,0 +1,20 @@
+PanelBottom none
+Set has_shield=false
+Set has_sword=false
+Set rupee=0
+Panel main_menu Frames=0
+Print "P1" middle
+Wait 0 ForFire
+If option == 0
+    Goto part1
+End
+If option == 1
+    Goto part2
+End
+If option == 2
+    Set has_shield=true
+    Goto part3
+End
+If option == 3
+    Quit="Thank you for playing"
+End

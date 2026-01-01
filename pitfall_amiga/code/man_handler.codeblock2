@@ -1,0 +1,28 @@
+Variable word animation_to_play=0
+If player_isonplatform == false
+    If fall_y > 0
+        If player_y > fall_y //The player is in free fall
+            If player_xfacing == 1
+                Set animation_to_play=fall_r
+            Else
+                Set animation_to_play=fall_l
+            End
+            If player_animation != animation_to_play
+                ActorAnimation animation_to_play Frame=0 Loop
+            End
+        End
+    End
+    Return
+End
+Set fall_y=player_y
+If control1jump
+    Sound jump Period=0
+    If control1_x == 1
+        PlayerDirection move_upright
+    ElseIf control1_x == -1
+        PlayerDirection move_upleft
+    Else
+        PlayerDirection move_up
+    End
+End
+Set highscore=score

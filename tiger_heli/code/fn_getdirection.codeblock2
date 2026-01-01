@@ -1,0 +1,6 @@
+Variable word fn_getdirection=0 //result
+Atan2 fn_getdirection X=player_x - actor_x Y=player_y - actor_y //Get the 0-359 degree angle
+Set fn_getdirection=fn_getdirection + 12 / 23 //Approximate the direction to a division of 16
+If fn_getdirection > 16 //Wrap around to 0
+    Set fn_getdirection=0
+End

@@ -1,0 +1,3 @@
+Spawn ring_shine X=block_x * 16 Y=block_y * 16
+SetBlock none X=block_x Y=block_y
+Sound snd_coin Period=0

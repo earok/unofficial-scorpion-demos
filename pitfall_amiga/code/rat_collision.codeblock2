@@ -1,0 +1,9 @@
+If player_x < actor_x
+    Set has_caverat=true
+    Sound bigcollect Period=true
+    Set score=score + 15000
+    ActorType none ResetMovement ResetAnimation
+    Return
+End
+PlayerType man_shoved ResetMovement ResetAnimation
+PlayerDirection move_right

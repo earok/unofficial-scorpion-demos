@@ -1,0 +1,25 @@
+Variable word bun_min_x=0
+Variable word bun_min_y=0
+Variable word bun_max_x=0
+Variable word bun_max_y=0
+Variable word bun_middle_x=0
+Variable word bun_middle_y=0
+Variable word cam_middle_x=0
+Variable word cam_middle_y=0
+Variable word delta_x=0
+Variable word delta_y=0
+//Get the middle camera point for all of the bunnies
+Set bun_middle_x=bun_min_x + bun_max_x >> 1
+Set bun_middle_y=bun_min_y + bun_max_y >> 1
+//Work out the delta between the current camera middle and the bunny position
+Set cam_middle_x=xres >> 1 + camera_x
+Set cam_middle_y=yres >> 1 + camera_y
+Set delta_x=bun_middle_x - cam_middle_x
+Set delta_y=bun_middle_y - cam_middle_y
+Set camera_x=delta_x >> 4 + camera_x
+Set camera_y=delta_y >> 4 + camera_y
+//Reset the min and max positions
+Set bun_max_x=0xffff
+Set bun_max_y=0xffff
+Set bun_min_x=0x7fff
+Set bun_min_y=0x7fff

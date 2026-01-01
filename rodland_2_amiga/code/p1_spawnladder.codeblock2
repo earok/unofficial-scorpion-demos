@@ -1,0 +1,34 @@
+Variable word TargetX=0
+Variable word TargetY=0
+Variable word P1LadderX=-100
+Variable word P1LadderY=-100
+If actor_controly == 0 or actor_controlfire != Button_Hit or actor_isonplatform == 0
+    Set actor_controly=0 //Prevent climb too high or fall etc
+    Return
+End
+Set TargetX=Actor_X >> 4
+Set block_x=targetx
+Set block_y=Actor_Y + 1 >> 4
+# ForEachActor actor_spawnerid ==
+If tile_properties btst0 TileBit_IsSolid or actor_y & 0xf
+    Return
+End
+Set TargetY=Actor_Y - 1 >> 4
+If actor_controly > 0
+    Set TargetY=TargetY + 3
+    If targety > 13
+        Return
+    End
+Else
+    //Special case - prevent build on top of ladder we're destroying, unless it's a solid block
+End
+Set P1LadderX=-100
+Set P1LadderY=-100
+ForEachActor actor_type == p1_ladder Goto kill_ladder
+Spawn misc X=TargetX * 16 Y=TargetY * 16 - 32
+If actor_controly > 0
+    NewAnimation anim_ladder_down Frame=0
+Else
+    NewAnimation anim_ladder_up Frame=0
+End
+Set actor_controly=0 //Prevent climb too high or fall etc

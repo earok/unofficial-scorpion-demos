@@ -1,0 +1,5 @@
+Sound bigcollect Period=0
+SetBlock none
+Set score=score + 20000
+Set has_diamond=true
+Goto celebrate

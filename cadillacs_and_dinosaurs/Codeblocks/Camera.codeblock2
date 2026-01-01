@@ -1,0 +1,45 @@
+Variable word Cam_x=0 //Camera_x
+Variable word Cam_Y=0 //Camera_y
+Variable word Pos_X=0 //Eixo X
+Variable word Pos_Y=0 //Eixo Y
+Variable word Cam_on=99 //Ativar_camera
+Variable word PLR_X=0 //XX
+Variable word PLR_Y=0 //YY
+
+
+
+Set plr_x=player_x
+Set plr_y=player_y
+Set cam_x=camera_x
+Set cam_y=camera_y
+Set pos_x=player_x - cam_x
+Set pos_y=player_y - cam_y
+
+If cam_on == 0
+    ScrollSpeed X=0.0 Y=0.0 ResetMovement
+ElseIf cam_on == 1
+    If pos_x > 160
+        ScrollSpeed X=2.0 ResetMovement
+    ElseIf pos_x < 161
+        ScrollSpeed X=0.0 ResetMovement
+    End
+    If cam_x > 255
+        If pos_y > 113
+            ScrollSpeed Y=2.0 ResetMovement
+        ElseIf pos_y < 111
+            ScrollSpeed Y=-2.0 ResetMovement
+        Else
+            ScrollSpeed Y=0.0 ResetMovement
+        End
+    End
+ElseIf cam_on == 99
+    
+    If cam_x == 104
+        ScrollSpeed X=0.0 Y=0.0 ResetMovement
+        Set cam_on=1
+    End
+    If cam_x < 104
+        ScrollSpeed X=2.0 ResetMovement
+    End
+    
+End

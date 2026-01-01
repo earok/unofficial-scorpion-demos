@@ -5,19 +5,13 @@
         "Events": []
       },
       "Duration": 5,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "eel1.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 1,
       "HandleY": -4,
       "XFlipped": false,
@@ -31,19 +25,13 @@
         "Events": []
       },
       "Duration": 5,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "eel2.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 1,
       "HandleY": -2,
       "XFlipped": false,
@@ -57,19 +45,13 @@
         "Events": []
       },
       "Duration": 5,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "eel3.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 0,
       "HandleY": -3,
       "XFlipped": false,
@@ -79,13 +61,17 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": false,
   "PreventCollision": false,
+  "PreventJump": false,
+  "IsSynchronised": false,
+  "IsScaleable": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0
+  "AnimationTag": null,
+  "LinkedMap": ""
 }

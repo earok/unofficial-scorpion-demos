@@ -1,0 +1,37 @@
+Level court
+FadeOut
+SpeakDelay 2
+Say "August 3, 10:00 AM<br>District Court Coutroom No. 2" Frames=0
+SpeakDelay 1
+FadeIn
+Wait 50
+GoSub show_court_gavel
+GoSub show_court_judge_normal
+Say "Judge: The court is now in session for the trial of Mr. Larry Butz." Frames=0
+GoSub show_court_payne_normal
+Say "Payne: The prosecution is ready, Your Honor." Frames=0
+GoSub show_court_phoenix_normal
+Say "Phoenix: The, um, defense is ready, Your Honor." Frames=0
+GoSub show_court_judge_thinking
+Say "Judge: Ahem." Frames=0
+GoSub show_court_judge_warn
+Say "Judge: Mr. Wright?" Frames=0
+Say "Judge: This is your first trial, is it not?" Frames=0
+GoSub show_court_phoenix_normal
+Say "Phoenix: Y-Yes, Your Honor. I'm, um, a little nervous." Frames=0
+GoSub show_court_judge_warn
+Say "Judge: Your contact during this trial will decide the fate of your client." Frames=0
+Say "Judge: Murder is a serious charge. For your client's sake, I hope you can control your nerves." Frames=0
+GoSub show_court_phoenix_normal
+Say "Phoenix: Thank... thank you, Your Honor." Frames=0
+GoSub show_court_judge_warn
+Say "Judge: ..." Frames=0
+Say "Judge: Mr. Wright, given the circumstances..." Frames=0
+Say "Judge: I think we should have a test to ascertain your readiness." Frames=0
+GoSub show_court_phoenix_normal
+Say "Phoenix: Yes, Your Honor." Frames=0
+GoSub show_court_phoenix_nervous
+Say "Phoenix: (Gulp... Hands shaking... Eyesight... fading...)" Frames=0
+GoSub show_court_judge_warn
+Say "Judge: The test will consist of a few simple questions. Answer them clearly and concisely." Frames=0
+Goto courtroom_choosedefendant

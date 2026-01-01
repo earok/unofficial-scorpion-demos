@@ -1,0 +1,4 @@
+Variable word Score=0
+Variable word Lives=5
+Variable word BubblesCount=1
+Goto show_menu

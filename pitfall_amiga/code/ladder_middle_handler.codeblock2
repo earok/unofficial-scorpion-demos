@@ -1,0 +1,26 @@
+Set laddertop_y=0
+If player_type == man
+    If player_yspeed == 0
+        If control1_y
+            If player_x <= block_x * 16
+                If player_lookdir != look_right
+                    Return
+                End
+            End
+            If player_x > block_x * 16 + 15
+                If player_lookdir != look_left
+                    Return
+                End
+            End
+            PlayerPosition X=block_x * 16 + 7
+            Goto set_ladder
+        End
+    End
+End
+# If player_type == man_ladder
+    If cangetoffladder == true
+        If player_y >= block_y * 16 + 16
+            Goto getoffladder
+        End
+        Goto getoffladder_sides
+    End

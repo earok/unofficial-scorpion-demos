@@ -1,0 +1,4 @@
+Spawn blood X=actor_x Y=actor_y
+If new_type == blood
+    NewSpeed X=actor_xspeed Y=actor_yspeed Angle=0
+End

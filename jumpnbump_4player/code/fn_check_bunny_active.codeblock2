@@ -1,0 +1,14 @@
+If actor_x > mapwidth / 2
+    If actor_controller == 1
+        Set p1_active=true
+    End
+    If actor_controller == 2
+        Set p2_active=true
+    End
+    If actor_controller == 3
+        Set p3_active=true
+    End
+    If actor_controller == 4
+        Set p4_active=true
+    End
+End

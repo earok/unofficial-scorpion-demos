@@ -1,0 +1,108 @@
+{
+  "Frames": [
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 2,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "smoke_00x00.png",
+      "HandleX": 0,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "smoke_00x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 2,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "smoke_01x00.png",
+      "HandleX": -1,
+      "HandleY": -2,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "smoke_01x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 2,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "smoke_02x00.png",
+      "HandleX": -2,
+      "HandleY": -2,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "smoke_02x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 2,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "smoke_03x00.png",
+      "HandleX": -2,
+      "HandleY": -2,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "smoke_03x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 2,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "smoke_04x00.png",
+      "HandleX": -2,
+      "HandleY": -2,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "smoke_04x00",
+      "IsBlank": false
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "OnFinish": "destroy_actor",
+  "AutoFlip": null,
+  "Streamed": true,
+  "PatternBuffer": 0,
+  "LinkedMap": ""
+}

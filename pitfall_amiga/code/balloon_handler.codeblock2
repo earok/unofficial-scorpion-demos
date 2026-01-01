@@ -1,0 +1,16 @@
+Variable word ballooncheck=0
+Variable word balloonpos=0
+Constant balloonlimit=24
+Set balloonpos=player_x - camera_x
+If balloonpos <= balloonlimit
+    PlayerPosition X=camera_x + balloonlimit
+ElseIf balloonpos >= 256 - balloonlimit
+    PlayerPosition X=camera_x + 256 - balloonlimit
+End
+If control1_y > 0
+    Set ballooncheck=1 - ballooncheck
+    If ballooncheck > 0
+        Return
+    End
+End
+PlayerPosition Y=player_y - 1

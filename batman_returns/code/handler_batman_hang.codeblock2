@@ -1,0 +1,60 @@
+Variable word hook_lookdir=look_right
+Variable word temp=0
+Variable word adjusted_rotation=0
+Variable word hook_accel=0
+Variable word hook_drag=0
+Constant drag_threshold=3
+Constant kick_amount=20
+Set player_origin_y=player_origin_y + control1_y //Up/down movement
+//Just animation stuff
+If control1_x > 0
+    Set hook_lookdir=look_right
+ElseIf control1_x < 0
+    Set hook_lookdir=look_left
+End
+Set temp=player_rotation
+Set player_lookdir=hook_lookdir
+Set player_rotation=temp //Restore rotation after setting the lookdir
+If player_rotation == 180
+    //idle position swing kick
+    If control1_x > 0 //idle position
+        If hook_accel > 0 - kick_amount //idle position
+            Set hook_accel=0 - kick_amount //idle position
+        End //idle position
+    ElseIf control1_x < 0 //idle position
+        If hook_accel < kick_amount //idle position
+            Set hook_accel=kick_amount //idle position
+        End //idle position
+    End
+End
+//Add up drag
+Set hook_drag=hook_drag + 1 //Add up drag
+If hook_drag >= drag_threshold
+    Set hook_drag=0
+    If hook_accel > 0
+        Set hook_accel=hook_accel - 1
+    ElseIf hook_accel < 0
+        Set hook_accel=hook_accel + 1
+    End
+End
+If player_rotation == 180
+    //At bottom of swing
+ElseIf player_rotation > 180
+    //Left side
+    Set hook_accel=hook_accel - 1
+    If control1_x > 0
+        Set hook_accel=hook_accel - 1
+    End
+Else
+    //Right side
+    Set hook_accel=hook_accel + 1
+    If control1_x < 0
+        Set hook_accel=hook_accel + 1
+    End
+End
+Label hook_end
+If player_origin_y > 0
+    Set temp=hook_accel << 3 / player_origin_y //left/right movement
+    Set player_rotation=player_rotation + temp //left/right movement
+End
+Print "Hello world! {temp}" debug

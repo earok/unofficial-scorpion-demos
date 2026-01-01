@@ -1,0 +1,17 @@
+//Wait for POD open position
+If actor_var1 == 0
+    If actor_x <= camera_x+168
+        GoSub 00_update_on
+        ActorDirection look_left
+        Set actor_var1=1
+    End
+End
+
+//Wait for POD close position
+If actor_var1 == 1
+    If actor_x == camera_x+40
+        GoSub 00_update_on
+        ActorDirection look_right
+        Set actor_var1=2
+    End
+End

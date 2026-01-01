@@ -1,0 +1,6 @@
+CameraFollow ! MaxCamera=8
+PlayerType none ResetMovement ResetAnimation
+Yield 25
+FadeOut
+Yield 25
+Level green_hills_1

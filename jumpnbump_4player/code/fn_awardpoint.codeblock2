@@ -1,0 +1,37 @@
+If player_controller == 1
+    Set score1=score1+1
+    If actor_controller == 2
+        Set score1_v2=score1_v2+1
+    ElseIf actor_controller == 3
+        Set score1_v3=score1_v3+1
+    ElseIf actor_controller == 4
+        Set score1_v4=score1_v4+1
+    End
+ElseIf player_controller == 2
+    Set score2=score2+1
+    If actor_controller == 1
+        Set score2_v1=score2_v1+1
+    ElseIf actor_controller == 3
+        Set score2_v3=score2_v3+1
+    ElseIf actor_controller == 4
+        Set score2_v4=score2_v4+1
+    End
+ElseIf player_controller == 3
+    Set score3=score3+1
+    If actor_controller == 1
+        Set score3_v1=score3_v1+1
+    ElseIf actor_controller == 2
+        Set score3_v2=score3_v2+1
+    ElseIf actor_controller == 4
+        Set score3_v4=score3_v4+1
+    End
+ElseIf player_controller == 4
+    Set score4=score4+1
+    If actor_controller == 1
+        Set score4_v1=score4_v1+1
+    ElseIf actor_controller == 2
+        Set score4_v2=score4_v2+1
+    ElseIf actor_controller == 3
+        Set score4_v3=score4_v3+1
+    End
+End

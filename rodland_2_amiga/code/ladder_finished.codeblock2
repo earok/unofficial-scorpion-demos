@@ -1,0 +1,3 @@
+Set p1ladderx=actor_x
+Set p1laddery=actor_y
+ActorType p1_ladder ResetMovement ResetAnimation

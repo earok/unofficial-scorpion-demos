@@ -1,0 +1,24 @@
+Variable long score=0
+Variable long highscore=0
+Variable word has_caverat=false
+Variable word has_diamond=false
+Variable word has_rhonda=false
+Variable word has_quickclaw=false
+Variable word fall_y=0
+JumpControls player1 !123JF
+Music pitfall_ii
+If IsAmiga
+    Screen Height=208 Frames=0
+End
+Set spawnarea_height=spawnarea_height - 16
+CameraBox L=0 R=0 U=0 D=16 LookL=0 LookR=0 LookU=0 LookD=0
+PanelTop mainpanel
+Label restart_game
+Set has_caverat=false
+Set has_diamond=false
+Set has_rhonda=false
+Set has_quickclaw=false
+Set score=40
+Level map
+CameraPosition X=player_x / 256 * 256 ResetMovement
+CameraFollow !UD MaxCamera=8

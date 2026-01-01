@@ -1,0 +1,7 @@
+ActorSpawnChild batman_hang
+ActorSpawnChild grapple_point
+Set new_var1=512
+ActorSpawnChild grapple_point
+Set new_var1=256
+ActorSpawnChild grapple_point
+Set new_var1=170

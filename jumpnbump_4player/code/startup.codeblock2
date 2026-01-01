@@ -1,0 +1,50 @@
+Variable word score1=0
+Variable word score2=0
+Variable word score3=0
+Variable word score4=0
+Variable word score1_v2=0
+Variable word score1_v3=0
+Variable word score1_v4=0
+Variable word score2_v1=0
+Variable word score2_v3=0
+Variable word score2_v4=0
+Variable word score3_v1=0
+Variable word score3_v2=0
+Variable word score3_v4=0
+Variable word score4_v1=0
+Variable word score4_v2=0
+Variable word score4_v3=0
+Variable word p1_active=0
+Variable word p2_active=0
+Variable word p3_active=0
+Variable word p4_active=0
+Set score1=0
+Set score2=0
+Set score3=0
+Set score4=0
+Set score1_v2=0
+Set score1_v3=0
+Set score1_v4=0
+Set score2_v1=0
+Set score2_v3=0
+Set score2_v4=0
+Set score3_v1=0
+Set score3_v2=0
+Set score3_v4=0
+Set score4_v1=0
+Set score4_v2=0
+Set score4_v3=0
+Set p1_active=false
+Set p2_active=false
+Set p3_active=false
+Set p4_active=false
+CameraFollow ! MaxCamera=8
+Screen Height=240 Frames=0
+JumpControls player1 !123
+JumpControls player2 !123
+JumpControls player3 !123
+JumpControls player4 !123
+Level menu Music=jump_music NoFadeIn
+Set camera_x=mapwidth / 2
+Set camera_x=-xres / 2 + camera_x
+FadeIn

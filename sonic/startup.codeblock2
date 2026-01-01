@@ -1,0 +1,7 @@
+JumpControls player1 !12
+# Screen Height=208 Frames=0
+Music green_hill
+MusicVol 96
+Music none
+Set maxslopestep=maxslopestep * 2 //Stick to hills when running
+Level green_hills_1

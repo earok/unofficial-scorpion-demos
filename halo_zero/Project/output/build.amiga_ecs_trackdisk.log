@@ -1,5 +1,5 @@
-Compiled on Thursday, 25 December 2025 12:30:48 a.m.
-Version string: SE2025.0.251224.20.26.EX
+Compiled on Friday, 26 December 2025 6:24:40 p.m.
+Version string: SE2025.0.251226.16.12.EX
 
 === Misc ===
 ImageFrames: 291
@@ -36,41 +36,41 @@ Misc data size: 470
    PC04 |   153600 |     3934 |   Implode | Panel bobs title
    PL05 |   157534 |      662 |   Implode | Panel top_hud
    PC05 |   158196 |      436 |   Implode | Panel bobs top_hud
-   VC00 |   158632 |     6702 |   Implode | Project virtual machine (codeblocks)
-   MH01 |   165334 |      148 |   Implode | Header data for map intro
-   MD01 |   165482 |     4736 |   Implode | Tile data for map intro (mem restrictions:None)
-   MA02 |   170218 |      300 |   Implode | Map actor data for level1
+   VC00 |   158632 |     6704 |   Implode | Project virtual machine (codeblocks)
+   MH01 |   165336 |      148 |   Implode | Header data for map intro
+   MD01 |   165484 |     4736 |   Implode | Tile data for map intro (mem restrictions:None)
+   MA02 |   170220 |      298 |   Implode | Map actor data for level1
    MH02 |   170518 |      200 |   Implode | Header data for map level1
    MD02 |   170718 |     4646 |   Implode | Tile data for map level1 (mem restrictions:None)
-   AB00 |   175364 |   170470 |   Implode | Asset bundle 0 (Core project asset bundle)
-   AB02 |   345834 |    58948 |   Implode | Asset bundle 2 (level1)
-   AB03 |   404782 |    69970 |   Implode | Asset bundle 3 (ab_gamesounds)
-   AB01 |   474752 |   121252 |   Implode | Asset bundle 1 (intro)
-   DB00 |   596004 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |   596006 |     1226 |   Implode | Project Header
-   PD01 |   597232 |        8 |  NoCrunch | Project Custom Collisions
-   PD00 |   597240 |     8618 |   Implode | Project Data
-   VR00 |   605858 |        4 |  NoCrunch | Project virtual machine redirects
+   AB00 |   175364 |   172526 |   Implode | Asset bundle 0 (Core project asset bundle)
+   AB02 |   347890 |    59048 |   Implode | Asset bundle 2 (level1)
+   AB03 |   406938 |    69970 |   Implode | Asset bundle 3 (ab_gamesounds)
+   AB01 |   476908 |   121252 |   Implode | Asset bundle 1 (intro)
+   DB00 |   598160 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   598162 |     1230 |   Implode | Project Header
+   PD01 |   599392 |        8 |  NoCrunch | Project Custom Collisions
+   PD00 |   599400 |     8618 |   Implode | Project Data
+   VR00 |   608018 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
-  170470 |   567304 |  (70%) | Asset bundle 0 (Core project asset bundle)
+  172526 |   567304 |  (70%) | Asset bundle 0 (Core project asset bundle)
   121252 |   227200 |  (47%) | Asset bundle 1 (intro)
    69970 |   117276 |  (41%) | Asset bundle 3 (ab_gamesounds)
-   58948 |   180380 |  (68%) | Asset bundle 2 (level1)
+   59048 |   180380 |  (68%) | Asset bundle 2 (level1)
    28486 |    46584 |  (39%) | Panel credits
    27588 |    46584 |  (41%) | Panel instructions
    17364 |    46668 |  (63%) | Panel title
     8618 |    28926 |  (71%) | Project Data
-    6702 |    25704 |  (74%) | Project virtual machine (codeblocks)
+    6704 |    25732 |  (74%) | Project virtual machine (codeblocks)
     4736 |    15420 |  (70%) | Tile data for map intro (mem restrictions:None)
     4646 |    70056 |  (94%) | Tile data for map level1 (mem restrictions:None)
     3934 |    11032 |  (65%) | Panel bobs title
     3380 |    36784 |  (91%) | Panel scorpion_eng_splashscreen
-    1226 |     4376 |  (72%) | Project Header
+    1230 |     4376 |  (72%) | Project Header
      662 |     4504 |  (86%) | Panel top_hud
      436 |     1880 |  (77%) | Panel bobs top_hud
-     300 |      980 |  (70%) | Map actor data for level1
+     298 |      980 |  (70%) | Map actor data for level1
      200 |      848 |  (77%) | Header data for map level1
      148 |      848 |  (83%) | Header data for map intro
       76 |     1296 |  (95%) | Panel (background color #000)
@@ -79,7 +79,7 @@ Misc data size: 470
        2 |        2 |        | Misc Data (paths, hurt boxes etc)
 
 === ADF Size ===
-605886 bytes total (out of 901120, 67%)
+608046 bytes total (out of 901120, 67%)
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -96,7 +96,7 @@ For other:
 Map data memory: 70056
 Map background memory: 1296
 EXE memory: 220304
-vm memory: 25704
+vm memory: 25732
 project memory: 28926
 Music data (): 0
 memory reserved for active actors on screen (48): 7592
@@ -104,8 +104,8 @@ memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 1034472
-Accounted memory other: 463958
-Accounted memory total: 1498430
+Accounted memory other: 463986
+Accounted memory total: 1498458
 
 === Possibly unused animations ===
 elite_rifle_grenade_r
@@ -145,7 +145,7 @@ pickup_weapon: 730
 load_level: 676
 ai_enemy: 672
 spawn_projectile: 540
-startup: 464
+startup: 492
 pre_startup: 438
 handler_standing: 422
 handler_ducking: 386

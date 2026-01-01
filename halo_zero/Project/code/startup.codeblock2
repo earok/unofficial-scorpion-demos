@@ -37,6 +37,7 @@ Alias projectile_health=projectile_var1
 Alias player_health=player_var1
 
 
+Level none
 GoSub freemem
 Panel title Frames=0 ForFire
 

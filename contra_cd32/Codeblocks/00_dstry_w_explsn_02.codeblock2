@@ -1,0 +1,6 @@
+ActorNoClear
+ActorYield 2
+NewSpawnChild 00_expl_02
+NewPosition X=actor_x+16 Y=actor_y+16
+ProjectileType none ResetMovement ResetAnimation
+ActorType none ResetMovement ResetAnimation

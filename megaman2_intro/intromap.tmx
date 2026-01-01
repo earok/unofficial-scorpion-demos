@@ -73,6 +73,7 @@
       <property name="foreground" type="bool" value="False" />
       <property name="megadrive" type="bool" value="true" />
       <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="objects" width="16" height="56">
@@ -139,6 +140,7 @@
       <property name="foreground" type="bool" value="False" />
       <property name="megadrive" type="bool" value="true" />
       <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="foreground" width="16" height="56">
@@ -205,6 +207,7 @@
       <property name="foreground" type="bool" value="True" />
       <property name="megadrive" type="bool" value="true" />
       <property name="neogeo" type="bool" value="true" />
+      <property name="neogeo_aes" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="5" name="events" />

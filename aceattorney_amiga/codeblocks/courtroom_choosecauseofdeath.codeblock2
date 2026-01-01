@@ -1,0 +1,41 @@
+GoSub show_court_judge_warn
+Say "Judge: She died because she was...?" Frames=0
+Choice "Poisoned" causeofdeath_poisoned
+Choice "Strangled" causeofdeath_strangled
+Choice "Hit with a blunt object" causeofdeath_blunt seen_autopsy == true
+Choice "View Court Record" causeofdeath_courtrecord
+Label causeofdeath_poisoned
+GoSub show_court_phoenix_thinking
+Say "Phoenix: Oh, right! Wasn't she, um, poisioned by er... poison?" Frames=0
+GoSub show_court_judge_shocked
+Say "Judge: You're asking me?" Frames=0
+GoSub show_court_mia_disappointed
+Say "Phoenix: Um... Chief! Help me out!" Frames=0
+Say "Mia: Check the court record. Remember?" Frames=0
+Say "Phoenix: (Geez. Give a guy a break!)" Frames=0
+GoSub show_court_judge_warn
+Say "Judge: Let me ask again." Frames=0
+Goto courtroom_choosecauseofdeath
+Label causeofdeath_strangled
+GoSub show_court_phoenix_thinking
+Say "Phoenix: Right... she was strangled, wasn't she?" Frames=0
+GoSub show_court_mia_disappointed
+Say "Mia: Please tell me that was you talking to yourself." Frames=0
+GoSub show_court_judge_warn
+Say "Judge: If you wish to hang yourself Mr. Wright, you're welcome to, but not inside my courtroom." Frames=0
+Say "Judge: I suppose there's nothing to do but give you another try:" Frames=0
+Goto courtroom_choosecauseofdeath
+Label causeofdeath_courtrecord
+GoSub open_court_record
+Goto courtroom_choosecauseofdeath
+Label causeofdeath_blunt
+GoSub show_court_phoenix_normal
+Say "Phoenix: She was struck once, by a blunt object." Frames=0
+GoSub show_court_judge_normal
+Say "Judge: Correct." Frames=0
+Say "Judge: You've answered all my questions. I see no reason why we shouldn't proceed." Frames=0
+GoSub show_court_judge_warn
+Say "Judge: You seem much more relaxed, Mr. Wright. Good for you." Frames=0
+GoSub show_court_phoenix_nervous
+Say "Thank you (Because I don't FEEL relaxed)" Frames=0
+Goto courtroom_questioning

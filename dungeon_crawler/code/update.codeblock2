@@ -1,0 +1,21 @@
+Variable word last_x=0
+Variable word last_y=0
+If last_x != control1_x
+    If control1_x == -1
+        GoSub rotate_player_left
+    ElseIf control1_x == 1
+        GoSub rotate_player_right
+    End
+End
+If last_y != control1_y
+    If control1_y == -1
+        GoSub move_player_forward
+    ElseIf control1_y == 1
+        GoSub move_player_backwards
+    End
+End
+If control1fire == Button_Hit
+    GoSub toggle_camera_x
+End
+Set last_x=control1_x
+Set last_y=control1_y

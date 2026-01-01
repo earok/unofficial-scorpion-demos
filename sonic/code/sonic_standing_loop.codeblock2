@@ -1,0 +1,56 @@
+Variable word is_running=0
+Variable word is_skidding=0
+Label standing_loop
+
+If player_isonplatform == 0
+    If player_animationtag == sonic_run
+        PlayerAnimation trigger_cancelanimation Frame=0
+    End
+    ActorYield 1
+    Goto standing_loop
+End
+If control1_x
+    If player_xspeed > 5
+        If player_animation != sonic_run_r
+            PlayerAnimation sonic_run_r Frame=0
+        End
+        If is_running == 0
+            Set is_running=1
+            Sound snd_sprint Period=0
+        End
+    ElseIf player_xspeed <= -5
+        If player_animation != sonic_run_l
+            PlayerAnimation sonic_run_l Frame=0
+        End
+        If is_running == 0
+            Set is_running=1
+            Sound snd_sprint Period=0
+        End
+    Else
+        Set is_running=0
+    End
+    If control1_x > 0
+        If player_xspeed < 0
+            PlayerAnimation sonic_skid_l Frame=0
+            If is_skidding == 0
+                Set is_skidding=1
+                Sound snd_skid Period=0
+            End
+        Else
+            Set is_skidding=0
+        End
+    ElseIf control1_x < 0
+        If player_xspeed > 0
+            PlayerAnimation sonic_skid_r Frame=0
+            If is_skidding == 0
+                Set is_skidding=1
+                Sound snd_skid Period=0
+            End
+        Else
+            Set is_skidding=0
+        End
+    End
+End
+
+ActorYield 1
+Goto standing_loop

@@ -1,0 +1,7 @@
+Panel panel_title Frames=0 ForFire NoLevelUnload
+Panel none Frames=0 NoLevelUnload
+Wait 20
+CameraFollow !LR MaxCamera=8
+Set bubblescount=1
+Set lives=5
+Level tajmahal PanelTop=panel_hud

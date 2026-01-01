@@ -1,5 +1,5 @@
-Compiled on Thursday, 25 December 2025 12:38:40 a.m.
-Version string: SE2025.0.251224.20.26.EX
+Compiled on Monday, 29 December 2025 11:32:00 a.m.
+Version string: SE2025.0.251229.11.21.EX
 
 ImageFrame Data Size: 21472
 Actor Count: 30
@@ -11,55 +11,55 @@ AnimationFrame Data Size: 4672
 
 === Cartridge Composition ===
  Header |   Offset | Size     | Crunch    | Detail
-   VC00 |   108560 |    25536 |  NoCrunch | Project virtual machine (codeblocks)
-   PL01 |   134096 |     2012 |  NoCrunch | Panel 
-   PL02 |   136108 |     2012 |  NoCrunch | Panel credits
-   PL03 |   138120 |     2012 |  NoCrunch | Panel instructions
-   PL04 |   140132 |     2096 |  NoCrunch | Panel title
-   PL05 |   142228 |     1212 |  NoCrunch | Panel top_hud
-   PB00 |   143440 |     1224 |  NoCrunch | Project blocks
-   PI00 |   144664 |    21472 |  NoCrunch | Images
-   PA00 |   166136 |     5400 |  NoCrunch | Project actors
-   ML01 |   171536 |        8 |       ZX0 | Map block data for intro
-   MH01 |   171544 |      848 |  NoCrunch | Header data for map intro
-   MT01 |   172392 |       14 |       ZX0 | Map tile data  intro
-   MD01 |   172406 |     5120 |  NoCrunch | Tile data for map intro (mem restrictions:None)
-   ME01 |   177526 |       44 |  NoCrunch | Map event data for intro
-   MY01 |   177570 |      520 |  NoCrunch | Get Y lookup table intro
-   MN01 |   178090 |       20 |  NoCrunch | Map path node data for intro
-   ML02 |   178110 |    13944 |  NoCrunch | Map block data for level1
-   MA02 |   192054 |      174 |       ZX0 | Map actor data for level1
-   MH02 |   192228 |      848 |  NoCrunch | Header data for map level1
-   MT02 |   193076 |    13944 |  NoCrunch | Map tile data  level1
-   MD02 |   207020 |    25792 |  NoCrunch | Tile data for map level1 (mem restrictions:None)
-   ME02 |   232812 |       76 |  NoCrunch | Map event data for level1
-   MY02 |   232888 |      112 |  NoCrunch | Get Y lookup table level1
-   MN02 |   233000 |       20 |  NoCrunch | Map path node data for level1
-   NT00 |   233020 |     9824 |  NoCrunch | Project name table
-   PN00 |   242844 |     1872 |  NoCrunch | Animations
-   PF00 |   244716 |     4672 |  NoCrunch | Animation Frames
-   PS00 |   249388 |      504 |  NoCrunch | Project sound
-   DB00 |   249892 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |   249894 |     3290 |  NoCrunch | Project Header
-   PD01 |   253184 |        8 |  NoCrunch | Project Custom Collisions
-   PV00 |   253192 |      470 |  NoCrunch | Var Data
-   AT00 |   253662 |      792 |  NoCrunch | Attack Data
-   PE00 |   254454 |        8 |  NoCrunch | Teleporters
+   VC00 |   107944 |    25564 |  NoCrunch | Project virtual machine (codeblocks)
+   PL01 |   133508 |     2012 |  NoCrunch | Panel credits
+   PL02 |   135520 |     2012 |  NoCrunch | Panel credits
+   PL03 |   137532 |     2012 |  NoCrunch | Panel instructions
+   PL04 |   139544 |     2096 |  NoCrunch | Panel title
+   PL05 |   141640 |     1212 |  NoCrunch | Panel top_hud
+   PB00 |   142852 |     1224 |  NoCrunch | Project blocks
+   PI00 |   144076 |    21472 |  NoCrunch | Images
+   PA00 |   165548 |     5400 |  NoCrunch | Project actors
+   ML01 |   170948 |        8 |       ZX0 | Map block data for intro
+   MH01 |   170956 |      848 |  NoCrunch | Header data for map intro
+   MT01 |   171804 |       14 |       ZX0 | Map tile data  intro
+   MD01 |   171818 |     5120 |  NoCrunch | Tile data for map intro (mem restrictions:None)
+   ME01 |   176938 |       44 |  NoCrunch | Map event data for intro
+   MY01 |   176982 |      520 |  NoCrunch | Get Y lookup table intro
+   MN01 |   177502 |       20 |  NoCrunch | Map path node data for intro
+   ML02 |   177522 |    13944 |  NoCrunch | Map block data for level1
+   MA02 |   191466 |      174 |       ZX0 | Map actor data for level1
+   MH02 |   191640 |      848 |  NoCrunch | Header data for map level1
+   MT02 |   192488 |    13944 |  NoCrunch | Map tile data  level1
+   MD02 |   206432 |    25792 |  NoCrunch | Tile data for map level1 (mem restrictions:None)
+   ME02 |   232224 |       76 |  NoCrunch | Map event data for level1
+   MY02 |   232300 |      112 |  NoCrunch | Get Y lookup table level1
+   MN02 |   232412 |       20 |  NoCrunch | Map path node data for level1
+   NT00 |   232432 |     9824 |  NoCrunch | Project name table
+   PN00 |   242256 |     1872 |  NoCrunch | Animations
+   PF00 |   244128 |     4672 |  NoCrunch | Animation Frames
+   PS00 |   248800 |      504 |  NoCrunch | Project sound
+   DB00 |   249304 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   249306 |    11482 |  NoCrunch | Project Header
+   PD01 |   260788 |        8 |  NoCrunch | Project Custom Collisions
+   PV00 |   260796 |      470 |  NoCrunch | Var Data
+   AT00 |   261266 |      792 |  NoCrunch | Attack Data
+   PE00 |   262058 |        8 |  NoCrunch | Teleporters
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
    25792 |    25792 |        | Tile data for map level1 (mem restrictions:None)
-   25536 |    25536 |        | Project virtual machine (codeblocks)
+   25564 |    25564 |        | Project virtual machine (codeblocks)
    21472 |    21472 |        | Images
    13944 |    13944 |        | Map block data for level1
    13944 |    13944 |        | Map tile data  level1
+   11482 |    11482 |        | Project Header
     9824 |     9824 |        | Project name table
     5400 |     5400 |        | Project actors
     5120 |     5120 |        | Tile data for map intro (mem restrictions:None)
     4672 |     4672 |        | Animation Frames
-    3290 |     3290 |        | Project Header
     2096 |     2096 |        | Panel title
-    2012 |     2012 |        | Panel 
+    2012 |     2012 |        | Panel credits
     2012 |     2012 |        | Panel credits
     2012 |     2012 |        | Panel instructions
     1872 |     1872 |        | Animations
@@ -130,7 +130,7 @@ pickup_weapon: 730
 ai_enemy: 672
 load_level: 636
 spawn_projectile: 540
-startup: 464
+startup: 492
 handler_standing: 422
 handler_ducking: 386
 hitscan_loop: 374

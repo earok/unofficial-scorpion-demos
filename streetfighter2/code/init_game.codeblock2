@@ -1,0 +1,7 @@
+Panel none Frames=0
+Set canhurtken=true
+GoSub reset_attacks
+Set p1score=0
+Set p2life=100
+Level stage PanelTop=hud
+Music tune

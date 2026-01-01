@@ -1,0 +1,24 @@
+Constant AngelSpeed=2
+Variable word AngelClose=true
+Set angelclose=true
+If player_x < key_x - AngelSpeed
+    PlayerPosition X=player_x + AngelSpeed
+    Set angelclose=false
+End
+If player_x > key_x + AngelSpeed
+    PlayerPosition X=player_x - AngelSpeed
+    Set angelclose=false
+End
+If player_y < key_y - AngelSpeed
+    PlayerPosition Y=player_y +  AngelSpeed
+    Set angelclose=false
+End
+If player_y > key_y + AngelSpeed
+    PlayerPosition Y=player_y -  AngelSpeed
+    Set angelclose=false
+End
+If angelclose == true
+    PlayerPosition X=key_x Y=key_y
+    PlayerType man ResetMovement ResetAnimation
+End
+Set score=score - 2
