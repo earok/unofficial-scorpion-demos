@@ -1,5 +1,5 @@
 {
-  "TargetPlatform": "neogeo_aes",
+  "TargetPlatform": "amiga_ocs",
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DataVersion": 3,
@@ -157,6 +157,13 @@
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "jump_music": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": true,
       "Priority": 0,
       "Channel": null
     }

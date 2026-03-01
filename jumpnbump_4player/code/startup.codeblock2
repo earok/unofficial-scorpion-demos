@@ -40,11 +40,19 @@ Set p3_active=false
 Set p4_active=false
 CameraFollow ! MaxCamera=8
 Screen Height=240 Frames=0
-JumpControls player1 !123
-JumpControls player2 !123
-JumpControls player3 !123
-JumpControls player4 !123
-Level menu Music=jump_music NoFadeIn
+[megadrive_or_neogeo] JumpControls player1 !123
+[megadrive_or_neogeo] JumpControls player2 !123
+[megadrive_or_neogeo] JumpControls player3 !123
+[megadrive_or_neogeo] JumpControls player4 !123
+[amiga_all] JumpControls player1 !1
+[amiga_all] JumpControls player2 !1
+[amiga_all] JumpControls player3 !1
+[amiga_all] JumpControls player4 !1
+ControlMode joys_4
+[amiga_all] Level menu Music=jump_music NoFadeIn
+[megadrive] Level menu NoFadeIn
+[neogeo] Level menu NoFadeIn
+[neogeo] MusicCD jump_music
 Set camera_x=mapwidth / 2
 Set camera_x=-xres / 2 + camera_x
 FadeIn

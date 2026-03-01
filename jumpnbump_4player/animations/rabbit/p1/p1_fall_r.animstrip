@@ -5,9 +5,10 @@
         "Events": []
       },
       "Duration": 5,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "rabbit_16_05x00.png",
@@ -24,9 +25,10 @@
         "Events": []
       },
       "Duration": 5,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "rabbit_16_06x00.png",
@@ -43,9 +45,10 @@
         "Events": []
       },
       "Duration": 5,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 1,
+      "PaletteLineNeo": 1,
+      "Bitplane": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "rabbit_16_07x00.png",
@@ -58,13 +61,17 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": false,
   "PreventCollision": false,
+  "PreventJump": false,
+  "IsSynchronised": false,
+  "IsScaleable": false,
   "HideChildren": false,
   "LoopFrame": 1,
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0,
+  "AnimationTag": null,
   "LinkedMap": ""
 }

@@ -1,0 +1,28 @@
+//Amiga control processor. Adds shared CD32 pad support etc
+If port[1] == Port_CD32Pad
+    JumpControls player1 !U5 //Force player 1 to use reverse button for jump
+    If control1_buttons btst cd32_green //left
+        Set control3_x=-1
+    ElseIf control1_buttons btst cd32_blue //right
+        Set control3_x=1
+    End
+    
+    AttackControls player1 !U6 //Use P1/P2 attack function for P3/P4 jump
+    If control1fire
+        Set control3jump=control1fire
+    End
+End
+
+If port[0] == Port_CD32Pad
+    JumpControls player2 !U5 //Force player 2 to use reverse button for jump
+    If control2_buttons btst cd32_green //left
+        Set control4_x=-1
+    ElseIf control2_buttons btst cd32_blue //right
+        Set control4_x=1
+    End
+    
+    AttackControls player2 !U6 //Use P1/P2 attack function for P3/P4 jump
+    If control2fire
+        Set control4jump=control2fire
+    End
+End

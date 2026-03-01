@@ -23,3 +23,4 @@ Set bun_max_x=0xffff
 Set bun_max_y=0xffff
 Set bun_min_x=0x7fff
 Set bun_min_y=0x7fff
+Goto control_processor

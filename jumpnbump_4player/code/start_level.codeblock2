@@ -3,7 +3,9 @@ While brightness > 0
     Yield 1
 End
 ForEachActor actor_type Goto fn_check_bunny_active
-Level map1 Music=bump_music PanelBottom=hud NoFadeIn
+[neogeo] Level map1 PanelBottom=hud NoFadeIn
+[megadrive] Level map1 PanelBottom=hud NoFadeIn
+[amiga_all] Level map1 Music=bump_music PanelBottom=hud NoFadeIn
 If p1_active == true
     Set bunny_spawn_type=p1
     GoSub fn_spawn_bunny
