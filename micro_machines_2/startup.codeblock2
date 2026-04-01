@@ -1,0 +1,3 @@
+ParallaxPointer XVar=camera_y YVar=camera_y
+CameraFollow !LRUD MaxCamera=8
+Level turbo_turns
