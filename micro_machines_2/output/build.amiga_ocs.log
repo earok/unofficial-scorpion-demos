@@ -1,5 +1,5 @@
-Compiled on Wednesday, 1 April 2026 2:35:52 p.m.
-Version string: SE2026.0.260331.21.16.EX
+Compiled on Wednesday, 1 April 2026 11:12:16 p.m.
+Version string: SE2026.0.260401.14.37.EX
 
 === Misc ===
 ImageFrames: 9
@@ -74,7 +74,7 @@ OS/other estimated: 99328
 For other:
 Map data memory: 36560
 Map background memory: 1948
-EXE memory: 225616
+EXE memory: 225588
 vm memory: 8590
 project memory: 1466
 Music data (): 0
@@ -84,8 +84,8 @@ memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 309384
-Accounted memory other: 389326
-Accounted memory total: 698710
+Accounted memory other: 389298
+Accounted memory total: 698682
 
 === Codeblocks by compiled size ===
 load_level: 634
