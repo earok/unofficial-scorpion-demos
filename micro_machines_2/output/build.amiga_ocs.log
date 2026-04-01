@@ -1,5 +1,5 @@
-Compiled on Wednesday, 1 April 2026 11:12:16 p.m.
-Version string: SE2026.0.260401.14.37.EX
+Compiled on Thursday, 2 April 2026 11:48:31 a.m.
+Version string: SE2026.0.260401.23.16.EX
 
 === Misc ===
 ImageFrames: 9
@@ -40,8 +40,8 @@ Misc data size: 38
    AB01 |    13294 |    12076 |   Implode | Asset bundle 1 (turbo_turns)
    DB00 |    25370 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
    PH00 |    25372 |     1264 |   Implode | Project Header
-   PD00 |    26636 |      412 |   Implode | Project Data
-   VR00 |    27048 |        4 |  NoCrunch | Project virtual machine redirects
+   PD00 |    26636 |      416 |   Implode | Project Data
+   VR00 |    27052 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
@@ -52,7 +52,7 @@ Misc data size: 38
     1988 |     5672 |  (65%) | Asset bundle 0 (Core project asset bundle)
     1264 |     4504 |  (72%) | Project Header
     1234 |    57600 |  (98%) | Parallax for background turboturns_parallax
-     412 |     1466 |  (72%) | Project Data
+     416 |     1466 |  (72%) | Project Data
      366 |     1948 |  (82%) | Panel (background)turboturns_parallax
      170 |      848 |  (80%) | Header data for map turbo_turns
       82 |     1816 |  (96%) | Panel (background color #000)
@@ -74,7 +74,7 @@ OS/other estimated: 99328
 For other:
 Map data memory: 36560
 Map background memory: 1948
-EXE memory: 225588
+EXE memory: 225776
 vm memory: 8590
 project memory: 1466
 Music data (): 0
@@ -84,8 +84,8 @@ memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 309384
-Accounted memory other: 389298
-Accounted memory total: 698682
+Accounted memory other: 389486
+Accounted memory total: 698870
 
 === Codeblocks by compiled size ===
 load_level: 634
