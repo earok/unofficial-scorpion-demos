@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="neogeo" description="SNK Neo-Geo Cartridges">
+  <software name="micro_machines_2">
+    <description>Scorpion Engine game for NeoGeo</description>
+    <year>2026</year>
+    <publisher>unknown</publisher>
+    <sharedfeat name="release" value="MVS,AES" />
+    <sharedfeat name="compatibility" value="MVS,AES" />
+    <part name="cart" interface="neo_cart">
+      <dataarea name="maincpu" width="16" endianness="big" size="0x080000">
+        <rom loadflag="load16_word_swap" name="micro_ma-p1.bin" offset="0x000000" size="0x080000" crc="9283c562" sha1="de5f8fdf2b8415dc122cedeaaa798b11c41fcfe4" />
+      </dataarea>
+      <dataarea name="fixed" size="0x020000">
+        <rom name="micro_ma-s1.bin" offset="0x000000" size="0x020000" crc="e9e72a18" sha1="f7f766192cb4b5a9444824943d9122d7901950df" />
+      </dataarea>
+      <dataarea name="sprites" size="0x040000">
+        <rom loadflag="load16_byte" name="micro_ma-c1.bin" offset="0x000000" size="0x020000" crc="26a94b7d" sha1="10b5c120688443ccd3eb43b9ff9c6acd500f667d" />
+        <rom loadflag="load16_byte" name="micro_ma-c2.bin" offset="0x000001" size="0x020000" crc="5ef26809" sha1="3d47f6938fe6798c7cc161deff6214bb30d4db4f" />
+      </dataarea>
+      <dataarea name="audiocpu" size="0x040000">
+        <rom name="micro_ma-m1.bin" offset="0x000000" size="0x040000" crc="df8a234" sha1="44e9e55c5d1889338a702b29e7876b7c3a6812f4" />
+      </dataarea>
+      <dataarea name="ymsnd:adpcma" size="0x040000">
+        <rom name="micro_ma-v1.bin" offset="0x000000" size="0x040000" crc="e20eea22" sha1="2e000fa7e85759c7f4c254d4d9c33ef481e459a7" />
+      </dataarea>
+      <dataarea name="ymsnd:adpcmb" size="0x040000">
+        <rom name="micro_ma-v2.bin" offset="0x000000" size="0x040000" crc="e20eea22" sha1="2e000fa7e85759c7f4c254d4d9c33ef481e459a7" />
+      </dataarea>
+    </part>
+  </software>
+</softwarelist>

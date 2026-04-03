@@ -1,5 +1,5 @@
 {
-  "TargetPlatform": "amiga_ocs",
+  "TargetPlatform": "megadrive",
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DataVersion": 3,
@@ -111,7 +111,7 @@
   "LogicSpeed": "PAL_50HZ",
   "ReadCD32Buttons": false,
   "ReadMD6Buttons": false,
-  "MDRegion": "Universal",
+  "MDRegion": "Europe",
   "MDSoundDriver": "MDSDRV",
   "SplashScreenFrames": 50,
   "TestLevel": null,

@@ -1,0 +1,6 @@
+If actor_controller == 0
+    Return
+End
+Set camera_x_total=camera_x_total + actor_x
+Set camera_y_total=camera_y_total + actor_y
+Set camera_count=camera_count + 1

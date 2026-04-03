@@ -6,4 +6,9 @@
       <property name="Name" value="car" type="string" />
     </properties>
   </tile>
+  <tile id="1">
+    <properties>
+      <property name="Name" value="camera_manager" type="string" />
+    </properties>
+  </tile>
 </tileset>

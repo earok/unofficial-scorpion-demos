@@ -1,62 +1,60 @@
-Compiled on Thursday, 2 April 2026 11:48:31 a.m.
-Version string: SE2026.0.260401.23.16.EX
+Compiled on Saturday, 4 April 2026 11:09:51 a.m.
+Version string: SE2026.0.260403.18.53.EX
 
 === Misc ===
-ImageFrames: 9
-ImageFrame Data Size: 468
+ImageFrames: 10
+ImageFrame Data Size: 520
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 0
-Actor Count: 2
-Actor Data Size: 360
-Block Count: 1
-Block Data Size: 68
+Actor Count: 3
+Actor Data Size: 540
+Block Count: 5
+Block Data Size: 340
 Anim5 Count: 0
 Anim5 Data Size: 0
 Sound Count: 1
 Sound Data Size: 28
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 9
-Animations Data Size: 144
-AnimationFrame Count: 10
-AnimationFrame Data Size: 160
+Animations Count: 10
+Animations Data Size: 160
+AnimationFrame Count: 11
+AnimationFrame Data Size: 176
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 2
 Attack Data Size: 176
-Misc data size: 38
+Misc data size: 56
 
 === Cartridge Composition ===
  Header |   Offset | Size     | Crunch    | Detail
-   PL03 |      256 |       82 |   Implode | Panel (background color #000)
-   PL01 |      338 |     3380 |   Implode | Panel scorpion_eng_splashscreen
-   MP02 |     3718 |     1234 |   Implode | Parallax for background turboturns_parallax
-   PL02 |     4952 |      366 |   Implode | Panel (background)turboturns_parallax
-   VC00 |     5318 |     2490 |   Implode | Project virtual machine (codeblocks)
-   MA01 |     7808 |       28 |  NoCrunch | Map actor data for turbo_turns
-   MH01 |     7836 |      170 |   Implode | Header data for map turbo_turns
-   MD01 |     8006 |     3300 |   Implode | Tile data for map turbo_turns (mem restrictions:No_Blocks)
-   AB00 |    11306 |     1988 |   Implode | Asset bundle 0 (Core project asset bundle)
-   AB01 |    13294 |    12076 |   Implode | Asset bundle 1 (turbo_turns)
-   DB00 |    25370 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |    25372 |     1264 |   Implode | Project Header
-   PD00 |    26636 |      416 |   Implode | Project Data
-   VR00 |    27052 |        4 |  NoCrunch | Project virtual machine redirects
+   PL03 |      238 |       82 |   Implode | Panel (background color #000)
+   PL01 |      320 |     3380 |   Implode | Panel scorpion_eng_splashscreen
+   MP02 |     3700 |     1234 |   Implode | Parallax for background turboturns_parallax
+   PL02 |     4934 |      366 |   Implode | Panel (background)turboturns_parallax
+   VC00 |     5300 |     2904 |   Implode | Project virtual machine (codeblocks)
+   MH01 |     8204 |      170 |   Implode | Header data for map turbo_turns
+   MD01 |     8374 |     3686 |   Implode | Tile data for map turbo_turns (mem restrictions:None)
+   AB00 |    12060 |     2232 |   Implode | Asset bundle 0 (Core project asset bundle)
+   AB01 |    14292 |    12286 |   Implode | Asset bundle 1 (turbo_turns)
+   DB00 |    26578 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |    26580 |     1262 |   Implode | Project Header
+   PD00 |    27842 |      590 |   Implode | Project Data
+   VR00 |    28432 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
-   12076 |    32894 |  (64%) | Asset bundle 1 (turbo_turns)
+   12286 |    32888 |  (63%) | Asset bundle 1 (turbo_turns)
+    3686 |    45300 |  (92%) | Tile data for map turbo_turns (mem restrictions:None)
     3380 |    36784 |  (91%) | Panel scorpion_eng_splashscreen
-    3300 |    36560 |  (91%) | Tile data for map turbo_turns (mem restrictions:No_Blocks)
-    2490 |     8590 |  (72%) | Project virtual machine (codeblocks)
-    1988 |     5672 |  (65%) | Asset bundle 0 (Core project asset bundle)
-    1264 |     4504 |  (72%) | Project Header
+    2904 |     9862 |  (71%) | Project virtual machine (codeblocks)
+    2232 |     5728 |  (62%) | Asset bundle 0 (Core project asset bundle)
+    1262 |     4504 |  (72%) | Project Header
     1234 |    57600 |  (98%) | Parallax for background turboturns_parallax
-     416 |     1466 |  (72%) | Project Data
+     590 |     2020 |  (71%) | Project Data
      366 |     1948 |  (82%) | Panel (background)turboturns_parallax
      170 |      848 |  (80%) | Header data for map turbo_turns
       82 |     1816 |  (96%) | Panel (background color #000)
-      28 |       28 |        | Map actor data for turbo_turns
        4 |        4 |        | Project virtual machine redirects
        2 |        2 |        | Misc Data (paths, hurt boxes etc)
 
@@ -67,29 +65,31 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 36784
 Music sample (): 0
 BP Buffer memory: 110000
-Core sfx/gfx memory: 5672
+Core sfx/gfx memory: 5728
 Parallax memory: 57600
 OS/other estimated: 99328
 
 For other:
-Map data memory: 36560
+Map data memory: 45300
 Map background memory: 1948
-EXE memory: 225776
-vm memory: 8590
-project memory: 1466
+EXE memory: 226292
+vm memory: 9862
+project memory: 2020
 Music data (): 0
 Misc data memory: 2
 memory reserved for active actors on screen (32): 5064
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 309384
-Accounted memory other: 389486
-Accounted memory total: 698870
+Accounted memory chip: 309440
+Accounted memory other: 400568
+Accounted memory total: 710008
 
 === Codeblocks by compiled size ===
 load_level: 634
+ai_code: 384
 pre_startup: 378
+startup: 376
 do_teleport: 320
 flipscreen_smooth: 310 (Unused?)
 freemem: 296
@@ -97,11 +97,12 @@ flipxymove: 278 (Unused?)
 load_next_level: 268 (Unused?)
 block_find: 210 (Unused?)
 set_yresolution: 202
+collision_handler: 196
 waitforframes: 194
+camera_handler: 194
 check_talkpad: 192 (Unused?)
 pause: 184
 block_count: 178 (Unused?)
-startup: 172
 flipymove: 162 (Unused?)
 snap_to_screen: 162 (Unused?)
 pre_quit: 160
@@ -111,6 +112,7 @@ load_panel: 134
 stop_sfx: 130
 destroy_all_blocks: 128 (Unused?)
 unload_level: 118
+car_get_camera_position: 114
 anim_force_left: 108 (Unused?)
 anim_force_right: 108 (Unused?)
 fadein: 108

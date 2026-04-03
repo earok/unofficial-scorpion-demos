@@ -1,0 +1,14 @@
+Variable word camera_x_total=0
+Variable word camera_y_total=0
+Variable word camera_count=0
+
+ForEachActor actor_tag == car_tag Goto car_get_camera_position
+If camera_count == 0
+    Return
+End
+
+CameraPosition X=(camera_x_total/camera_count) Y=(camera_y_total/camera_count) center
+
+Set camera_x_total=0
+Set camera_y_total=0
+Set camera_count=0
