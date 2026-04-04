@@ -163,7 +163,7 @@
   "DataVersion": 8,
   "ActorTag": "car_tag",
   "AutoSpawn": null,
-  "AutoNavigate": false,
+  "AutoNavigate": true,
   "ActorTimeline": {
     "TimelineFrames": {
       "50": {
