@@ -1,4 +1,6 @@
 ParallaxPointer XVar=camera_y YVar=camera_y
+DriveControls player1 !U
+BrakeControls player1 !D
 CameraFollow ! MaxCamera=8
 ControlMode joys_2
 Level turbo_turns
