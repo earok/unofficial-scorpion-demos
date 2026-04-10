@@ -1,3 +1,4 @@
+[neogeo] Goto play_level
 Variable word i=0
 GoSub freemem
 Level intro NoFadeIn

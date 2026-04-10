@@ -15,4 +15,5 @@ Set Grenade2=0
 
 Set IsDucking=0
 ActorSpawnChild masterchief_top
+GoSub mc_fix_offset
 Goto refresh_ui

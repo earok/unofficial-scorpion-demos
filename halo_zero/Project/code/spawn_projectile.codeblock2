@@ -15,6 +15,7 @@ Set hs_direction=actor_xfacing
 GoSub hitscan
 
 If hs_success
-    Atan2 aimangle X=new_x - actor_x Y=hs_yhit - actor_y
+    Atan2 aimangle X=new_x-actor_x Y=hs_yhit-actor_y
+    Set aimangle=aimangle + 22 / 45 * 45
     ActorSpeed Y=-16 Angle=AimAngle
 End

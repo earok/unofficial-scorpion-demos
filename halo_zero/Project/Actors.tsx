@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <tileset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="actors" tilewidth="16" tileheight="16" tilecount="256" columns="0">
   <image source="actors.png" width="256" height="256" />
   <tile id="0">
@@ -72,7 +72,11 @@
       <property name="Name" value="item_medkit" type="string" />
     </properties>
   </tile>
-  <tile id="15" />
+  <tile id="15">
+    <properties>
+      <property name="Name" value="pipe" type="string" />
+    </properties>
+  </tile>
   <tile id="16">
     <properties>
       <property name="Name" value="grunt_red" type="string" />

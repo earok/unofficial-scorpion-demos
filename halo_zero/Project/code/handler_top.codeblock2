@@ -30,12 +30,6 @@ If Shield < 75
     End
 End
 
-If IsDucking
-    Set actor_origin_y=-21
-Else
-    Set actor_origin_y=-39
-End
-
 If control1_buttons btst Button_Reload and Actor_AnimationTag == masterchief_top_idle
     Goto reload_start
 ElseIf control1_buttons btst Button_Swap and Actor_AnimationTag == masterchief_top_idle

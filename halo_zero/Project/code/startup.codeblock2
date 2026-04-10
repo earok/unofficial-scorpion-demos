@@ -9,7 +9,7 @@ Constant Button_Grenade=5
 [amiga_all] Constant Button_Reload=10
 [amiga_all] Constant Button_Swap=11
 
-LookupTable byte heights "..\data\heights.txt"
+LookupTable word heights "..\data\heights.txt"
 LookupTable word shoot_anims "..\data\shoot_anims.txt"
 LookupTable word dead_anims "..\data\dead_anims.txt"
 LookupTable word melee_anims "..\data\melee_anims.txt"
@@ -25,7 +25,6 @@ Variable word Health=75
 Variable word Shield=75
 Variable word ShieldDelay=0
 Variable word IsDucking=0
-Alias HasJustDucked=player_var3
 
 Alias new_origintag=new_var2
 Alias actor_origintag=actor_var2
@@ -53,4 +52,4 @@ If Option == 2
     Goto startup
 End
 
-Goto intro
+Goto intro_code

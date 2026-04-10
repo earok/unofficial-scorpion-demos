@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="neogeo" description="SNK Neo-Geo Cartridges">
+  <software name="halo_zero">
+    <description>Halo Zero</description>
+    <year>2025</year>
+    <publisher>Earok</publisher>
+    <sharedfeat name="release" value="MVS,AES" />
+    <sharedfeat name="compatibility" value="MVS,AES" />
+    <part name="cart" interface="neo_cart">
+      <dataarea name="maincpu" width="16" endianness="big" size="0x080000">
+        <rom loadflag="load16_word_swap" name="halo_zer-p1.bin" offset="0x000000" size="0x080000" crc="3ab80a61" sha1="133e45e0949c4b76994e9769e947feda92d790c4" />
+      </dataarea>
+      <dataarea name="fixed" size="0x020000">
+        <rom name="halo_zer-s1.bin" offset="0x000000" size="0x020000" crc="bd4b9a5c" sha1="20d619b798df509e26a934d1ebe49fe6581ed53f" />
+      </dataarea>
+      <dataarea name="sprites" size="0x0c0000">
+        <rom loadflag="load16_byte" name="halo_zer-c1.bin" offset="0x000000" size="0x060000" crc="457cfdd" sha1="6e9eafafecf8b588055ecbe20cf1ea3b44e86727" />
+        <rom loadflag="load16_byte" name="halo_zer-c2.bin" offset="0x000001" size="0x060000" crc="1b447a17" sha1="47fac05283bd267f016f18093142ce087cf60d3d" />
+      </dataarea>
+      <dataarea name="audiocpu" size="0x040000">
+        <rom name="halo_zer-m1.bin" offset="0x000000" size="0x040000" crc="ebc4dd39" sha1="4c3ed6d2c913c775cab484cb96e095226f052391" />
+      </dataarea>
+      <dataarea name="ymsnd:adpcma" size="0x040000">
+        <rom name="halo_zer-v1.bin" offset="0x000000" size="0x040000" crc="91926de7" sha1="946aac852f868b1e8bd639023073a9ec44834978" />
+      </dataarea>
+      <dataarea name="ymsnd:adpcmb" size="0x040000">
+        <rom name="halo_zer-v2.bin" offset="0x000000" size="0x040000" crc="e20eea22" sha1="2e000fa7e85759c7f4c254d4d9c33ef481e459a7" />
+      </dataarea>
+    </part>
+  </software>
+</softwarelist>

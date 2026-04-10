@@ -104,10 +104,10 @@
     false
   ],
   "CollBox": {
-    "X": -10,
-    "Y": -89,
-    "Width": 20,
-    "Height": 89
+    "X": -40,
+    "Y": -90,
+    "Width": 80,
+    "Height": 90
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -128,6 +128,7 @@
   "CollType_Down": "block",
   "Player": null,
   "BlockCollider": null,
+  "BlockOverlap": null,
   "CanRidePlatform": false,
   "Camera": null,
   "AutoScroll": null,
@@ -197,6 +198,7 @@
   "IsAttacker": null,
   "PreviewParent": null,
   "RotationEnabled": false,
+  "SlopeMode": "Single",
   "TileID": 19,
   "MaxTimelineFrames": 50
 }

@@ -24,5 +24,6 @@
   "MaxActiveActors": 48,
   "MaxDormantActors": 128,
   "PaletteLines": 1,
-  "StartingPaletteLine": 0
+  "StartingPaletteLine": 0,
+  "Players": 1
 }
