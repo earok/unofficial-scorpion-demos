@@ -1,0 +1,14 @@
+Variable word ladder_test_x=0
+Variable word ladder_test_y=0
+Variable word ladder_test_result=0
+Set block_x=ladder_test_x >> 4
+Set block_y=ladder_test_y >> 4
+If block_tag == ladder
+    Set ladder_test_result=true
+    Return
+End
+If ladder_test_x >= p1ladderx and ladder_test_x < p1ladderx + 16 and ladder_test_y >= p1laddery and ladder_test_y < p1laddery + 48
+    Set ladder_test_result=true
+    Return
+End
+Set ladder_test_result=false

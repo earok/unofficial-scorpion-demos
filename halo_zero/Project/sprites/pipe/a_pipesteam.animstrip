@@ -1,0 +1,185 @@
+{
+  "Frames": [
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 1,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "ShrinkPaddingNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "pipesteam_00x00.png",
+      "HandleX": -16,
+      "HandleY": -64,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "pipesteam_00x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 1,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "ShrinkPaddingNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "pipesteam_04x00.png",
+      "HandleX": -16,
+      "HandleY": -64,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "pipesteam_04x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 1,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "ShrinkPaddingNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "pipesteam_01x00.png",
+      "HandleX": -16,
+      "HandleY": -64,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "pipesteam_01x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 1,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "ShrinkPaddingNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "pipesteam_05x00.png",
+      "HandleX": -16,
+      "HandleY": -64,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "pipesteam_05x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 1,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "ShrinkPaddingNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "pipesteam_02x00.png",
+      "HandleX": -16,
+      "HandleY": -64,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "pipesteam_02x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 1,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "ShrinkPaddingNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "pipesteam_06x00.png",
+      "HandleX": -16,
+      "HandleY": -64,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "pipesteam_06x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 1,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "ShrinkPaddingNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "pipesteam_03x00.png",
+      "HandleX": -16,
+      "HandleY": -64,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "pipesteam_03x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 1,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "ShrinkPaddingNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "pipesteam_07x00.png",
+      "HandleX": -16,
+      "HandleY": -64,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "pipesteam_07x00",
+      "IsBlank": false
+    }
+  ],
+  "PreventAttack": false,
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "PreventJump": false,
+  "IsSynchronised": false,
+  "IsScaleable": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "OnFinish": null,
+  "AutoFlip": null,
+  "Streamed": true,
+  "AnimationTag": null,
+  "LinkedMap": "level1"
+}

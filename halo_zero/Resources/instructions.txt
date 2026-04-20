@@ -1,0 +1,25 @@
+Instructions:
+
+Fire Gun:             CD32 Red    | Fire 1 
+Throw Grenade: Z    | CD32 Blue   | Fire 2
+Reload Gun:    X    | CD32 Green
+Swap Gun:      C    | CD32 Yellow
+Collect Gun:   Down
+
+Fire Gun:      B
+Throw Grenade: C
+Reload Gun:    A
+Swap Gun:      Start
+Collect Gun:   Down
+
+Fire Gun:      A
+Throw Grenade: B
+Reload Gun:    C
+Swap Gun:      D
+Collect Gun:   Down
+
+Notes:
+- Vertical aiming is automatic.
+- All grenades are counted together.
+- Covenant grenades are always used first.
+- Reload and Melee happen simultaneously.

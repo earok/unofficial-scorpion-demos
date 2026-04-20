@@ -1,0 +1,27 @@
+Variable fraction tempspeedx=0
+Variable fraction tempspeedy=0
+
+ActorSeparate Player UseX UseY
+
+Set tempspeedx = actor_xspeed.
+Set tempspeedy = actor_yspeed.
+
+ActorSpeed X=player_xspeed. Y=player_yspeed.
+PlayerSpeed X=tempspeedx. Y=tempspeedy.
+
+//Apply additional knock away
+if actor_x < player_x
+	Set Player_XSpeed = Player_XSpeed + 1
+	Set Actor_XSpeed = Actor_XSpeed - 1
+else
+	Set Player_XSpeed = Player_XSpeed - 1
+	Set Actor_XSpeed = Actor_XSpeed + 1
+end
+
+if actor_y < player_y
+	Set Player_YSpeed = Player_YSpeed + 1
+	Set Actor_YSpeed = Actor_YSpeed - 1
+else
+	Set Player_YSpeed = Player_YSpeed - 1
+	Set Actor_YSpeed = Actor_YSpeed + 1
+end

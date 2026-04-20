@@ -1,0 +1,21 @@
+Variable word AimAngle=0
+//Remember the tag of the actor that shot this projectile
+ActorAsNew parent
+Set actor_origintag=new_tag
+
+Set hs_xorigin=actor_x
+
+If actor_origintag == marine
+    Set hs_tag=enemy
+Else
+    Set hs_tag=marine
+End
+
+Set hs_direction=actor_xfacing
+GoSub hitscan
+
+If hs_success
+    Atan2 aimangle X=new_x-actor_x Y=hs_yhit-actor_y
+    Set aimangle=aimangle + 22 / 45 * 45
+    ActorSpeed Y=-16 Angle=AimAngle
+End

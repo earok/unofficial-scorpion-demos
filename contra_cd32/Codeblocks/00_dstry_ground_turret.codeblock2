@@ -1,0 +1,7 @@
+ActorNoClear
+ActorYield 2
+ActorDirection look_upleft
+Set actor_var1=3
+NewSpawnChild 00_expl_02
+NewPosition X=actor_x+16 Y=actor_y+16
+ProjectileType none ResetMovement ResetAnimation

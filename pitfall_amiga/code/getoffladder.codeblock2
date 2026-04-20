@@ -1,0 +1,20 @@
+If control1_x
+    If control1_y <= 0
+        PlayerType man_static ResetMovement ResetAnimation
+        Set desty=block_y * 16 + 15
+        If control1_x < 0
+            Set destx=block_x * 16
+            PlayerDirection look_left
+            PlayerAnimation ladder_in_l Frame=0
+        End
+        If control1_x > 0
+            Set destx=block_x * 16 + 16
+            PlayerDirection look_right
+            PlayerAnimation ladder_in_r Frame=0
+        End
+        Set cangetoffladder=false
+        ActorYield 10
+        PlayerPosition X=destx Y=desty
+        Goto set_man
+    End
+End

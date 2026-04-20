@@ -1,0 +1,31 @@
+[all]
+author=Earok
+copyright_month=Dec
+copyright_year=2025
+description=Halo Zero
+project_name=Halo Zero
+project_name_international=Halo Zero
+publisher=Earok
+version=1
+
+[amiga_all]
+atlas_compression=0
+tightly_pack_graphics=true
+
+[megadrive]
+sega_revision=00
+sega_serial_number=
+sega_software_type=GM
+sega_system=SEGA MEGA DRIVE
+
+[neogeo]
+neogeo_genre=Other
+neogeo_ngh_hex=
+
+[whdload_13]
+chip_mem_size=$110000
+fast_mem_size=$100000
+
+[whdload_31]
+chip_mem_size=$1ff000
+fast_mem_size=$0

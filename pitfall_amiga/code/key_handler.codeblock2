@@ -1,0 +1,4 @@
+Variable word key_x=0
+Variable word key_y=0
+Set key_x=block_x * 16 + 7
+Set key_y=block_y * 16 - 1

@@ -1,0 +1,3 @@
+Set has_sword=true
+Level map_outside Music=mod_intro
+Goto configure_level

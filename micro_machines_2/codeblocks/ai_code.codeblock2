@@ -1,0 +1,40 @@
+Variable word aiblock=0
+Variable word delta=0
+Alias ai_direction=actor_var1
+
+If actor_controller != 0
+    Return //Not an AI
+End
+
+DriveControls actor !A //Force auto accelerate for AI
+
+GetBlockAtPixel aiblock X=actor_x Y=actor_y
+
+If aiblock == ai_right
+    Set ai_direction=90
+ElseIf aiblock == ai_left
+    Set ai_direction=270
+ElseIf aiblock == ai_down
+    Set ai_direction=180
+ElseIf aiblock == ai_up
+    Set ai_direction=0
+End
+
+//Delta is now the difference between the REAL direction and the INTENDED direction
+Set delta=ai_direction - actor_rotation
+
+//Clamp delta range
+If delta < -180
+    Set delta=0-delta
+ElseIf delta > 180
+    Set delta=0-delta
+End
+
+//Now that we've got our direction delta, let's adjust our steering wheel
+If delta > 0
+    Set actor_controlx=1
+ElseIf delta < 0
+    Set actor_controlx=-1
+Else
+    Set actor_controlx=0
+End

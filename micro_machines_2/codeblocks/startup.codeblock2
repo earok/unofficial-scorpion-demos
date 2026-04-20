@@ -1,0 +1,14 @@
+ParallaxPointer XVar=camera_y YVar=camera_y
+DriveControls player1 !U
+BrakeControls player1 !D
+CameraFollow ! MaxCamera=8
+ControlMode joys_2
+Level turbo_turns
+Spawn camera_manager
+SpawnOnBlock car X=11 Y=150
+SpawnOnBlock car X=13 Y=150
+NewController=0
+SpawnOnBlock car X=11 Y=152
+NewController=0
+SpawnOnBlock car X=13 Y=152
+NewController=0

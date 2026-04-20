@@ -1,0 +1,12 @@
+CameraPosition X=screen_size * cam_pos Y=0 ResetMovement
+Set frame_countdown=0
+While frame_countdown > -5
+    //Insert a processor independent frame wait
+End
+Wait 1
+# Wait 1 //control movie speed by increasing or decreasing this value
+Set cam_pos=cam_pos + 1
+If cam_pos == num_frames
+    Set cam_pos=0 //by resetting camera to 0 we loop the movie
+End
+Goto play_movie

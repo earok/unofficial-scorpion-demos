@@ -1,0 +1,7 @@
+Variable word camera_target=0
+Set camera_target=camera_x + 256
+While camera_x < camera_target
+    Wait 1
+    CameraPosition X=Camera_X + 2 ResetMovement
+End
+Return

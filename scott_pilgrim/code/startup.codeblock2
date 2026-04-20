@@ -1,0 +1,3 @@
+GoSub show_panel
+CameraFollow ! MaxCamera=8
+Level l1

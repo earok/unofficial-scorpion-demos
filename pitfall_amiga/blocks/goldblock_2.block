@@ -1,0 +1,42 @@
+{
+  "BlockImagePath": "blocks\\block.png",
+  "X": 16,
+  "Y": 48,
+  "Divert_PlayerCollision": "collect_goldbar",
+  "Divert_PlayerHit": null,
+  "Divert_PlayerOverlap": null,
+  "Divert_ProjectileCollision": null,
+  "OnAnimationFrame": "goldblock_1",
+  "FastBlit": false,
+  "IsInvisible": false,
+  "ReplaceTileProperties": true,
+  "LinkedMap": "",
+  "BlockSolidType": "NotSolid",
+  "PlayerCollisionOverride": "Default",
+  "ProjectileCollisionOverride": "Default",
+  "PaletteLines": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "Priorities": [
+    [
+      false,
+      false
+    ],
+    [
+      false,
+      false
+    ]
+  ],
+  "ZeroIsTransparent": false,
+  "PaletteLineNeo": 0,
+  "IsForeground": false,
+  "BlockTag": null,
+  "TileID": -1
+}

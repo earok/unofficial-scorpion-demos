@@ -1,0 +1,22 @@
+SetBlock none X=13 Y=1
+SetBlock none X=14 Y=1
+Set score=score+50
+Set frog_safecount=frog_safecount +1
+
+If frog_safecount < 5
+    Set timer=60
+    PlayerPosition X=120 Y=216
+    GoSub player_spawn
+End
+If frog_safecount == 5
+    PlayerType none ResetMovement ResetAnimation
+    Yield 25
+    Set frog_safecount=0
+    Set timer=60
+    Set score=score +1000
+    Set level_no=level_no +1
+    Level frogmap1 PanelTop=score_panel PanelBottom=frog_timer
+    Spawn player_frog X=0 Y=0
+    PlayerPosition X=120 Y=216
+    CameraBounds L=16 R=256 U=0 D=256
+End

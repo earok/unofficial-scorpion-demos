@@ -1,0 +1,6 @@
+If actor_type == dead_bunny
+    Return
+End
+If actor_type == actor_tag
+    ActorType actor_var5
+End

@@ -1,0 +1,41 @@
+//Activate Bomb
+If actor_x <= camera_x+224-64
+    If actor_lookdir != look_right
+        ActorDirection look_right
+    End
+End
+
+//Detonate Bomb
+If actor_x <= camera_x+224-96
+    If explosion_chain == 0
+        GoSub 00_update_on
+        NewSpawnChild 00_expl_01
+        NewPosition X=actor_x+24 Y=actor_y+16
+        ActorType 01_brdg_dst_1 ResetMovement ResetAnimation
+        Set explosion_chain=1
+    ElseIf explosion_chain == 1
+        
+        GoSub 00_update_on
+        NewSpawnChild 00_expl_01
+        NewPosition X=actor_x+24 Y=actor_y+16
+        ActorType none ResetMovement ResetAnimation
+        Set explosion_chain=2
+        
+    ElseIf explosion_chain == 2
+        
+        GoSub 00_update_on
+        NewSpawnChild 00_expl_01
+        NewPosition X=actor_x+24 Y=actor_y+16
+        ActorType none ResetMovement ResetAnimation
+        Set explosion_chain=3
+        
+    ElseIf explosion_chain == 3
+        
+        GoSub 00_update_on
+        NewSpawnChild 00_expl_01
+        NewPosition X=actor_x+24 Y=actor_y+16
+        ActorType 01_brdg_dst_4 ResetMovement ResetAnimation
+        Set explosion_chain=0
+        
+    End
+End

@@ -1,0 +1,42 @@
+Yield 5
+If topscore > hiscore5
+    Set hiscore5=topscore
+ElseIf topscore == hiscore5
+    Set hiscore5=topscore
+End
+
+If score > hiscore4
+    Set hiscore5=hiscore4
+    Set hiscore4=topscore
+ElseIf score == hiscore4
+    Set hiscore5=hiscore4
+    Set hiscore4=topscore
+End
+
+If topscore > hiscore3
+    Set hiscore4=hiscore3
+    Set hiscore3=topscore
+ElseIf topscore == hiscore3
+    Set hiscore4=hiscore3
+    Set hiscore3=topscore
+End
+
+If topscore > hiscore2
+    Set hiscore3=hiscore2
+    Set hiscore2=topscore
+ElseIf topscore == hiscore2
+    Set hiscore3=hiscore2
+    Set hiscore2=topscore
+End
+
+If topscore > hiscore1
+    Set hiscore2=hiscore1
+    Set hiscore1=topscore
+    # Set score=hiscore1
+ElseIf topscore == hiscore1
+    Set hiscore2=hiscore1
+    Set hiscore1=topscore
+    # Set score=hiscore1
+End
+
+Goto restart

@@ -1,0 +1,2 @@
+ActorType static ResetMovement ResetAnimation
+ActorAnimation a_player_bullet_destroyed Frame=0

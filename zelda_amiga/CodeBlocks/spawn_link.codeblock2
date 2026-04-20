@@ -1,0 +1,5 @@
+If has_sword
+    PlayerType link_sword ResetMovement ResetAnimation
+Else
+    PlayerType link_shield ResetMovement ResetAnimation
+End

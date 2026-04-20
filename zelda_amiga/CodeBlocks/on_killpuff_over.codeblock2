@@ -1,0 +1,2 @@
+SetBlock rupee1 X=Actor_X / 16 Y=Actor_Y / 16
+ActorType none ResetMovement ResetAnimation

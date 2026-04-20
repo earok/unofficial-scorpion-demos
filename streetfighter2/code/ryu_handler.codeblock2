@@ -1,0 +1,50 @@
+Variable word hadouken_state=0
+Variable word attack_state=0
+Variable word hadouken_timeout=0
+ActorYield 1
+If control1fire == button_hit
+    # If attack_state == false
+        # Set attack_state=true
+        If hadouken_state == 3
+            Inline charge
+            Set hadouken_state=0
+            Goto ryu_handler
+        End
+        Set hadouken_state=0
+        If control1_x
+            PlayerAnimation ryu_kick Frame=0
+            Goto ryu_handler
+        End
+        PlayerAnimation ryu_punch Frame=0
+    # End
+End
+If hadouken_state == 0
+    If control1_x == 0
+        If control1_y > 0
+            Set hadouken_state=1
+            Set hadouken_timeout=25
+        End
+    End
+    Goto ryu_handler
+End
+If hadouken_timeout == 0
+    Set hadouken_state=0
+    Goto ryu_handler
+End
+Set hadouken_timeout=hadouken_timeout - 1
+If hadouken_state == 1
+    If control1_x > 0
+        If control1_y > 0
+            Set hadouken_state=2
+        End
+    End
+    Goto ryu_handler
+End
+If hadouken_state == 2
+    If control1_x > 0
+        If control1_y == 0
+            Set hadouken_state=3
+        End
+    End
+End
+Goto ryu_handler

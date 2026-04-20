@@ -1,0 +1,3 @@
+PlayerPosition X=36 * 16 + 7 Y=84 * 16 - 1
+CameraPosition X=player_x / 256 * 256 Y=player_y - 96 ResetMovement
+CameraFollow !UD MaxCamera=8

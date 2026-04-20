@@ -1,0 +1,219 @@
+Compiled on Saturday, 3 January 2026 9:03:34 a.m.
+Version string: SE2025.0.260102.23.09.EX
+
+=== Misc ===
+ImageFrames: 241
+ImageFrame Data Size: 11568
+Maps and Asset Bundles Count: 3
+Maps and Asset Bundles Data Size: 0
+Actor Count: 26
+Actor Data Size: 4680
+Block Count: 6
+Block Data Size: 408
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 3
+Sound Data Size: 84
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 59
+Animations Data Size: 944
+AnimationFrame Count: 242
+AnimationFrame Data Size: 3872
+Sprites: 2
+Sprites Data Size: 28
+Attack Data: 5
+Attack Data Size: 440
+Misc data size: 308
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   PL04 |      310 |     1296 |  NoCrunch | Panel (background color #000)
+   PL01 |     1606 |     2474 |       ZX0 | Panel scorpion_eng_splashscreen
+   PL02 |     4080 |     1296 |  NoCrunch | Panel (background)level_01_sky
+   PL03 |     5376 |     2008 |  NoCrunch | Panel top_panel
+   VC00 |     7384 |    24390 |  NoCrunch | Project virtual machine (codeblocks)
+   MA01 |    31774 |      784 |  NoCrunch | Map actor data for level_01
+   MH01 |    32558 |      848 |  NoCrunch | Header data for map level_01
+   MD01 |    33406 |    15872 |  NoCrunch | Tile data for map level_01 (mem restrictions:None)
+   MH02 |    49278 |      848 |  NoCrunch | Header data for map title_screen
+   MD02 |    50126 |     2924 |  NoCrunch | Tile data for map title_screen (mem restrictions:None)
+   AB00 |    53050 |   297250 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB01 |   350300 |   134176 |  NoCrunch | Asset bundle 1 (level_01)
+   AB02 |   484476 |    26880 |  NoCrunch | Asset bundle 2 (title_screen)
+   DB00 |   511356 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   511358 |     4376 |  NoCrunch | Project Header
+   PD00 |   515734 |    22342 |  NoCrunch | Project Data
+   VR00 |   538076 |        4 |  NoCrunch | Project virtual machine redirects
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+  297250 |   297250 |        | Asset bundle 0 (Core project asset bundle)
+  134176 |   134176 |        | Asset bundle 1 (level_01)
+   26880 |    26880 |        | Asset bundle 2 (title_screen)
+   24390 |    24390 |        | Project virtual machine (codeblocks)
+   22342 |    22342 |        | Project Data
+   15872 |    15872 |        | Tile data for map level_01 (mem restrictions:None)
+    4376 |     4376 |        | Project Header
+    2924 |     2924 |        | Tile data for map title_screen (mem restrictions:None)
+    2474 |    36784 |  (94%) | Panel scorpion_eng_splashscreen
+    2008 |     2008 |        | Panel top_panel
+    1296 |     1296 |        | Panel (background color #000)
+    1296 |     1296 |        | Panel (background)level_01_sky
+     848 |      848 |        | Header data for map level_01
+     848 |      848 |        | Header data for map title_screen
+     784 |      784 |        | Map actor data for level_01
+       4 |        4 |        | Project virtual machine redirects
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+
+For chip:
+Map gfx (level gfx bundle 1): 134176
+Music sample (): 0
+BP Buffer memory: 141120
+Core sfx/gfx memory: 297250
+Parallax memory: 0
+OS/other estimated: 99328
+
+For other:
+Map data memory: 15872
+Map background memory: 1296
+EXE memory: 219724
+vm memory: 24390
+project memory: 22342
+Music data (): 0
+memory reserved for active actors on screen (32): 5064
+memory reserved for dormant actors in map (128): 4608
+OS/other estimated: 105472
+
+Accounted memory chip: 671874
+Accounted memory other: 398768
+Accounted memory total: 1070642
+
+=== Possibly unused animations ===
+player_side_fire_sg_dr_l
+player_side_fire_sg_dr_r
+player_side_fire_sg_u_l
+player_side_fire_sg_u_r
+player_side_fire_sg_ur_l
+player_side_fire_sg_ur_r
+
+=== Possibly unused sound effects ===
+aplayer_shotgun
+
+=== Codeblocks by compiled size ===
+!!_startup: 9096
+01_end_level: 954
+load_level: 676
+01_handler_bridge_1: 652
+pre_startup: 500
+do_teleport: 320
+flipscreen_smooth: 310 (Unused?)
+01_handler_weap_pod_2: 294
+flipxymove: 278 (Unused?)
+00_dummyplayer_autogen_attack: 278
+00_dummyplayer_auto_autogen_attack: 278
+load_next_level: 268 (Unused?)
+freemem: 256
+00_colour_cycle: 242 (Unused?)
+01_handler_turret_ground_1: 238
+block_find: 210 (Unused?)
+set_yresolution: 202
+01_handler_weap_pod_1: 202
+waitforframes: 194
+check_talkpad: 192 (Unused?)
+00_dstry_w_explsn_01: 190 (Unused?)
+00_dstry_w_explsn_02: 190
+00_dstry_ground_turret: 188
+pause: 184 (Unused?)
+block_count: 178 (Unused?)
+flipymove: 162 (Unused?)
+snap_to_screen: 162
+pre_quit: 160
+00_colour_cycle2: 152
+!!flame_test: 146 (Unused?)
+flipxmove: 142 (Unused?)
+restart_this_level: 136 (Unused?)
+load_panel: 134
+stop_sfx: 130
+AUTOGEN_OUTOFSCREEN_00_donothing_00_donothing_00_donothing_00_donothing: 130
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_00_donothing_00_donothing: 130
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_00_donothing_!!_startup: 130
+AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
+destroy_all_blocks: 128 (Unused?)
+01_handler_reactor: 128
+unload_level: 118
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+waitforfireup: 106
+unload_panel: 102
+waitforfiredown: 102
+load_panel_bottom: 96
+load_panel_top: 96
+destroy_child_actors: 94 (Unused?)
+00_enemy01_death: 90
+pre_load_level: 86
+waitforfirehit: 86
+00_player_fall: 86
+00_handler_bg: 84 (Unused?)
+00_setcamera: 82
+00_leave_screen: 80
+load_music: 78
+AUTOGEN_OUTOFSCREEN_00_leave_screen_None_None_destroy_actor: 78
+00_event_delay_rnd: 78 (Unused?)
+fadeout: 76
+load_music_finish: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+set_ntsc: 74 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+01_handler_bg_parallax: 72 (Unused?)
+01_handler_turret_rock: 68
+jump_actor: 66 (Unused?)
+00_enemy01_land: 64
+destroy_all_actors: 60 (Unused?)
+quit: 60 (Unused?)
+destroy_actor: 58
+00_dstry_parallax: 58 (Unused?)
+00_handler_level: 58
+00_handler_player: 58 (Unused?)
+freemem_hard: 54 (Unused?)
+AUTOGEN_OUTOFSCREEN_None_00_leave_screen_None_None: 54
+destroy_block: 52 (Unused?)
+return: 52 (Unused?)
+!!_spawn_test_actor: 52
+00_snd_plyr_sg: 52
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
+AUTOGEN_OUTOFSCREEN_destroy_actor_None_None_None: 50
+AUTOGEN_OUTOFSCREEN_00_leave_screen_None_None_None: 50
+00_actor_hide: 46
+00_enemy01_fall: 46
+00_invisble_off: 46
+00_invisble_on: 46
+00_move_all: 46
+00_spawn_torso: 46
+00_update_off: 46
+00_update_on: 46
+00_increase_var1: 44
+00_follow_start: 42 (Unused?)
+00_follow_stop: 42
+freeze_actor: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+autogen_00_explosion_01_10: 38
+autogen_00_weapons_pod_1_0: 38
+autogen_01_enemy_01_fall_l_2: 38
+autogen_01_turret_ground_0: 38
+autogen_01_turret_ground_open_4: 38
+00_move_camera_r: 36
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32
+debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)

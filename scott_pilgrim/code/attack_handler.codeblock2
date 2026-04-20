@@ -1,0 +1,5 @@
+If IsAmiga
+    If control1_y < 0
+        Goto jump
+    End
+End

@@ -1,0 +1,6 @@
+ActorType none ResetMovement ResetAnimation
+PlayerAnimation link_pickup_sword Frame=0
+Sound snd_happy Period=0
+Set has_sword=true
+Say "You found a sword!!!<br><br>You can now fight monsters." Frames=0
+PlayerType link_sword ResetMovement ResetAnimation

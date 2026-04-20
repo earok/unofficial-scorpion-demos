@@ -1,0 +1,9 @@
+If player_yspeed
+    Return
+End
+If canhadou == true
+    Set canhadou=false
+    Set cankick=false
+    Set canpunch=false
+    PlayerAnimation ryu_hadouken Frame=0
+End

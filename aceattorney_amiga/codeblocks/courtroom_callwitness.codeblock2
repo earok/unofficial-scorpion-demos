@@ -1,0 +1,100 @@
+GoSub show_court_judge_shocked
+Say "Judge: Well, that simplifies matters. Who is your witness?" Frames=0
+GoSub show_court_payne_normal
+Say "Payne: The man who found the victim's body." Frames=0
+Say "Payne: Just before making the gruesome discovery..." Frames=0
+GoSub show_court_larry_nervous
+Say "Payne: He saw the defendant fleeing the scene of the crime!" Frames=0
+GoSub show_court_gavel
+GoSub show_court_gavel
+GoSub show_court_judge_normal
+Say "Judge: Order! Order in the court!" Frames=0
+GoSub show_court_judge_warn
+Say "Judge: Mr. Payne, the prosecution may call its witness." Frames=0
+GoSub show_court_payne_normal
+Say "Payne: Yes, Your Honor." Frames=0
+GoSub show_court_phoenix_normal
+Say "Phoenix: (This is bad...)" Frames=0
+GoSub show_court_payne_normal
+Say "Payne: On the day of the murder, my witness was selling newspapers at the victim's building." Frames=0
+Say "Payne: Please bring Mr. Frank Sahwit to the stand!" Frames=0
+FadeOut
+GoSub show_court_sahwit_normal
+FadeIn
+Wait 100
+GoSub show_court_payne_normal
+Say "Payne: Mr. Sahwit, you sell newspaper subscriptions, is this correct?" Frames=0
+GoSub show_court_sahwit_normal
+Say "Sahwit: Oh, oh yes! Newspapers, yes!" Frames=0
+GoSub show_court_judge_normal
+Say "Judge: Mr. Sahwit, you may proceed with your testimony." Frames=0
+GoSub show_court_judge_warn
+Say "Judge: Please tell the court what you saw on the day of the murder." Frames=0
+FadeOut
+Wait 50
+GoSub show_court_sahwit_normal
+FadeIn
+Say "-- Witness's Account --" Frames=0
+Say "Sahwit: I was going door-to-door, selling subscriptions when I saw a man fleeing an apartment." Frames=0
+Say "Sahwit: I thought he must be in a hurry because he left the door half-open behind him." Frames=0
+Say "Sahwit: Thinking it strange, I looked inside the apartment." Frames=0
+Say "Sahwit: Then I saw her lying there... A woman... not moving... dead!" Frames=0
+Say "Sahwit: I quailed in fright and found myself unable to go inside." Frames=0
+Say "Sahwit: I thought to call the police immediately!" Frames=0
+Say "Sahwit: However, the phone in her apartment wasn't working." Frames=0
+Say "Sahwit: I went to a nearby park and found a public phone." Frames=0
+Say "Sahwit: I remember the time exactly: It was 1:00pm." Frames=0
+Say "Sahwit: The man who ran was, without a doubt, the defantant sitting right over there." Frames=0
+FadeOut
+GoSub show_court_judge_thinking
+FadeIn
+Say "Judge: Hmm..." Frames=0
+GoSub show_court_phoenix_deskslam
+Say "Phoenix: (Larry! Why didn't you tell the truth?)" Frames=0
+GoSub show_court_phoenix_nervous
+Say "Phoenix: (I can't defend you against a testimony like that!)" Frames=0
+GoSub show_court_judge_warn
+Say "Judge: Incidentally, why wasn't the phone in the victim's apartment working?" Frames=0
+GoSub show_court_payne_normal
+Say "Payne: Your Honor, at the time of the murder, there was a blackout in the building." Frames=0
+GoSub show_court_judge_shocked
+Say "Judge: Aren't phones supposed to work during a blackout?" Frames=0
+GoSub show_court_payne_normal
+Say "Payne: Yes, Your Honor..." Frames=0
+Say "Payne: However, some cordless phones do not function normally." Frames=0
+Say "Payne: The phone that Mr. Sahwit used was one of those." Frames=0
+Say "Payne: Your Honor..." Frames=0
+Say "Payne: I have a record of the blackout, for your perusal." Frames=0
+CameraPosition X=4 * 16 * 17 Y=96 * 16 ResetMovement
+Set evidence_count=5
+Say "Blackout Record added to the Court Record." Frames=0
+GoSub show_court_judge_thinking
+Say "Judge: Now, Mr. Wright..." Frames=0
+GoSub show_court_phoenix_normal
+Say "Phoenix: Yes! Er... yes, Your Honor?" Frames=0
+GoSub show_court_judge_warn
+Say "Judge: You may begin your cross-examination." Frames=0
+GoSub show_court_phoenix_thinking
+Say "Phoenix: C-Cross-examination, Your Honor?" Frames=0
+GoSub show_court_mia_serious
+Say "Mia: Alright, Wright, this is it. The real deal!" Frames=0
+Say "Phoenix: Uh... what exactly am I supposed to do?" Frames=0
+Say "Mia: Why, you expose the lies in the testimony the witness just gave!" Frames=0
+Say "Phoenix: Lies! What?! He was lying!?" Frames=0
+Say "Mia: Your client is innocent, right?" Frames=0
+Say "Mia: Then that witness must have lied in his testimony!" Frames=0
+Say "Mia: Or is your client really... guilty?" Frames=0
+Say "Phoenix: !!! How do I prove he's not?" Frames=0
+Say "Mia: You hold the key. It's in the evidence!" Frames=0
+Say "Mia: Compare the witness's testimony to the evidence at hand." Frames=0
+Say "Mia: There's bound to be a contradiction in there!" Frames=0
+Say "Mia: First, find contradictions between the Court Record and the witness's testimony." Frames=0
+Say "Mia: Then, once you've found the contradicting evidence..." Frames=0
+Say "Mia: Present it and rub it in the witness's face!" Frames=0
+Say "Phoenix: Um... okay." Frames=0
+Say "Mia: Look at the Court Record and point out the contradictions in the testimony!" Frames=0
+FadeOut
+GoSub show_court_sahwit_normal
+FadeIn
+Say " -- Witness's Account --<br>-- Cross-Examination --" Frames=0
+Goto courtroom_crossexamination

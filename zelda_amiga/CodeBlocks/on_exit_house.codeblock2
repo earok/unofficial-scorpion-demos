@@ -1,0 +1,5 @@
+If has_shield == false
+    Say "Don't go anywhere without your shield" Frames=0
+    Return
+End
+Teleport houseoutside

@@ -1,0 +1,3 @@
+If actor_x <= 0
+    ActorPosition X=actor_x + 256
+End

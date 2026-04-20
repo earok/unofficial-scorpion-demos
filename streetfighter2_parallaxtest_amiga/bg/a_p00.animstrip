@@ -1,0 +1,319 @@
+{
+  "Frames": [
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "stage_base_00x00.png",
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "stage_base_00x00",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "stage_base_00x01.png",
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "stage_base_00x01",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "stage_base_00x02.png",
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "stage_base_00x02",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "stage_base_00x03.png",
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "stage_base_00x03",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "stage_base_00x04.png",
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "stage_base_00x04",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "stage_base_00x05.png",
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "stage_base_00x05",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "stage_base_00x06.png",
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "stage_base_00x06",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "stage_base_00x07.png",
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "stage_base_00x07",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "stage_base_00x08.png",
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "stage_base_00x08",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "stage_base_00x09.png",
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "stage_base_00x09",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "stage_base_00x10.png",
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "stage_base_00x10",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "stage_base_00x11.png",
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "stage_base_00x11",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "stage_base_00x12.png",
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "stage_base_00x12",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "stage_base_00x13.png",
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "stage_base_00x13",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "stage_base_00x14.png",
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "stage_base_00x14",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 0,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Maskless",
+      "SpriteType": "Attached_16colors",
+      "Path": "stage_base_00x15.png",
+      "HandleX": -287,
+      "HandleY": -1,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "stage_base_00x15",
+      "IsBlank": false
+    }
+  ],
+  "PreventAttack": false,
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "PreventJump": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "OnFinish": null,
+  "AutoFlip": false,
+  "Streamed": true,
+  "AnimationTag": null,
+  "LinkedMap": ""
+}

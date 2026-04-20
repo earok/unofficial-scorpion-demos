@@ -1,0 +1,7 @@
+Variable word enemy_bullet_anim=0
+[amiga_all] Screen Height=240 Frames=0
+Set spawnarea_y=spawnarea_y - 16
+Set enemy_bullet_anim=a_enemy_bullet_1
+Level level1
+CameraFollow !S MaxCamera=8
+ScrollSpeed Y=-0.25 ResetMovement

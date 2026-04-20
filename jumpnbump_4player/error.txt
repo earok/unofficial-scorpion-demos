@@ -1,0 +1,9 @@
+InvalidOperationException: The operation is invalid [GDI+ status: Win32Error]
+System.Drawing.GDIPlus.CheckStatus (System.Drawing.Status status) (at <04abc238e1e64b378e01047493bf1e72>:0)
+System.Drawing.Image.Save (System.String filename, System.Drawing.Imaging.ImageCodecInfo encoder, System.Drawing.Imaging.EncoderParameters encoderParams) (at <04abc238e1e64b378e01047493bf1e72>:0)
+System.Drawing.Image.Save (System.String filename, System.Drawing.Imaging.ImageFormat format) (at <04abc238e1e64b378e01047493bf1e72>:0)
+(wrapper remoting-invoke-with-check) System.Drawing.Image.Save(string,System.Drawing.Imaging.ImageFormat)
+Manager.GenerateTileset (System.Boolean isActorTileSet, System.Int32 size, TilesetContainer tileSet, System.Drawing.Bitmap tileSetBaseImage, System.String output, System.Boolean trimToEdges) (at <f811a2acc22d4adab15472fc51cb7c59>:0)
+Manager.GenerateTilesets () (at <f811a2acc22d4adab15472fc51cb7c59>:0)
+Manager.Load (System.String path) (at <f811a2acc22d4adab15472fc51cb7c59>:0)
+Manager.OnEnable () (at <f811a2acc22d4adab15472fc51cb7c59>:0)

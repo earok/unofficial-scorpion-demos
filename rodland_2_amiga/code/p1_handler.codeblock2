@@ -1,0 +1,15 @@
+Set ladder_test_x=actor_x
+Set ladder_test_y=actor_y
+GoSub fn_test_ladder
+If ladder_test_result
+    Set actor_isonplatform=true
+End
+If actor_isonplatform and actor_controly
+    Set ladder_test_x=actor_x
+    Set ladder_test_y=actor_y + actor_controly
+    GoSub fn_test_ladder
+    If ladder_test_result
+        PlayerType p1_climb ResetMovement ResetAnimation
+    End
+End
+Goto p1_spawnladder

@@ -1,0 +1,19 @@
+Set Shield=75
+Set ShieldDelay=0
+Set Health=75
+
+Set Weapon1=Weapon_Rifle
+Set Weapon1Clip=RifleClip
+Set Ammo[Weapon_Rifle]=RifleClip
+
+Set Weapon2=Weapon_Pistol
+Set Weapon2Clip=PistolClip
+Set Ammo[Weapon_Pistol]=PistolClip * 2
+
+Set Grenade1=2
+Set Grenade2=0
+
+Set IsDucking=0
+ActorSpawnChild masterchief_top
+GoSub mc_fix_offset
+Goto refresh_ui

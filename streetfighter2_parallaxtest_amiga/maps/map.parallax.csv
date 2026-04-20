@@ -1,0 +1,4 @@
+SliceLine,InitialOffset,ScrollLeftSpeed,ScrollIdleSpeed,ScrollRightSpeed,IsForeground,IsCloud,InitialCloudOffset,CloudAnimLeft,CloudAnimIdle,CloudAnimRight,LeftFrame,RightFrame
+0,0,-0.3,0,0.3,FALSE,FALSE,0,0,0,0,,
+15,0,-0.4,0,0.4,FALSE,FALSE,0,0,0,0,,
+26,0,-0.5,0,0.5,FALSE,FALSE,0,0,0,0,,

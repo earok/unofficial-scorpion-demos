@@ -1,0 +1,13 @@
+Variable word shootdelay=0
+If enemy_bullet_anim == a_enemy_bullet_1
+    Set enemy_bullet_anim=a_enemy_bullet_2
+ElseIf enemy_bullet_anim == a_enemy_bullet_2
+    Set enemy_bullet_anim=a_enemy_bullet_3
+ElseIf enemy_bullet_anim == a_enemy_bullet_3
+    Set enemy_bullet_anim=a_enemy_bullet_4
+Else
+    Set enemy_bullet_anim=a_enemy_bullet_1
+End
+If shootdelay > 0
+    Set shootdelay=shootdelay - 1
+End

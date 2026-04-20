@@ -1,0 +1,2 @@
+Teleport housedoor
+SetBlock chest_empty X=15 Y=10 ////Since we already have the shield, we can delete it

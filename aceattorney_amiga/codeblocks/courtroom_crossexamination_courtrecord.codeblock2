@@ -1,0 +1,53 @@
+Set can_present_evidence=true
+Set presented_evidence=-1
+GoSub open_court_record
+Set can_present_evidence=false
+If presented_evidence >= 0 //We've selected evidence
+    GoSub objection_phoenix
+    If selected_crossexamination == 8
+        If presented_evidence == 1
+            GoSub show_court_phoenix_point
+            Say "Phoenix: You found the body at 1:00 PM. You're sure?" Frames=0
+            GoSub show_court_sahwit_normal
+            Say "Sahwit: Yes. It was 1:00 PM, for certain." Frames=0
+            GoSub show_court_phoenix_normal
+            Say "Phoenix: Frankly, I find that hard to believe!" Frames=0
+            GoSub show_court_phoenix_paper
+            Say "Phoenix: Your statement directly contradicts the autopsy report." Frames=0
+            Say "Phoenix: The autopsy notes the time of death at sometime after 4PM." Frames=0
+            Say "Phoenix: There was no body to... er... no "body" to find at 1:00 PM!" Frames=0
+            GoSub show_court_phoenix_smug
+            Say "Phoenix: How do you explain this three-hour gap?" Frames=0
+            GoSub show_court_sahwit_nervous
+            Say "Sahwit: !!!" Frames=0
+            Say "Sahwit: Oh, that! Oh, er..." Frames=0
+            GoSub show_court_payne_nervous
+            Say "Payne: This is trivial! The witness merely forgot the time!" Frames=0
+            GoSub show_court_judge_normal
+            Say "Judge: After his testimony, I find that hard to believe." Frames=0
+            GoSub show_court_judge_warn
+            Say "Judge: Mr. Sahwit..." Frames=0
+            Say "Judge: Why were you so certain that you found the body at 1:00pm?" Frames=0
+            GoSub show_court_sahwit_nervous
+            Say "Sahwit: I... er... well, I... Gee, that's a really good question!" Frames=0
+            GoSub show_court_mia_serious
+            Say "Mia: Great job, Wright! Way to put him on the spot!" Frames=0
+            Say "Mia: That's all you have to do: point out contradictions!" Frames=0
+            Say "Mia: Lies always beget more lies!" Frames=0
+            Say "Mia: See through one, and their whole story falls apart!" Frames=0
+            Goto startup
+        End
+    End
+    //If we've reached here, this evidence is wrong
+    GoSub show_court_phoenix_deskslam
+    Say "Phoenix: Your Honor! What do you think about the witness's statement?" Frames=0
+    GoSub show_court_judge_warn
+    Say "Judge: Uh... I'm not sure I follow?" Frames=0
+    GoSub show_court_phoenix_deskslam
+    Say "Phoenix: It clearly, er, contradicts the... um... I thought..." Frames=0
+    GoSub show_court_judge_warn
+    Say "Judge: You don't sound very convinced, Mr. Wright." Frames=0
+    Say "Judge: Objection overruled." Frames=0
+    Say "Phoenix: (I don't think that won me any points with the judge...)" Frames=0
+End
+Goto courtroom_crossexamination

@@ -1,0 +1,15 @@
+ActorDirection move_upright
+ActorYield 32
+Set actor_xspeed=0
+Set actor_yspeed=0
+ActorYield 32
+Set actor_lookdir=look_left
+ActorYield 32
+ActorDirection move_upleft
+ActorYield 32
+Set actor_xspeed=0
+Set actor_yspeed=0
+ActorYield 32
+Set actor_lookdir=look_right
+ActorYield 32
+Goto frog_handler

@@ -1,0 +1,3 @@
+//Get the screen pos
+Set actor_var1=camera_x
+Set actor_var2=actor_y

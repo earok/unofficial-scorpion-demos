@@ -1,0 +1,3 @@
+Sound smallcollect Period=0
+SetBlock none
+Set score=score + 5000

@@ -1,0 +1,8 @@
+If player_type == dead_bunny
+    Return
+End
+If player_yspeed >= 0
+    ActorAnimation spring_hit Frame=0
+    PlayerSpeed Y=-6.5 Angle=0
+    Goto fn_force_jump
+End

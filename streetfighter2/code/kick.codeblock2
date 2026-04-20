@@ -1,0 +1,9 @@
+If cankick == true
+    Set cankick=false
+    Sound kick Period=0
+    If player_y < 150
+        PlayerAnimation ryu_kick_air Frame=0
+    Else
+        PlayerAnimation ryu_kick Frame=0
+    End
+End

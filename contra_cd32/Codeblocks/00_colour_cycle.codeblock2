@@ -1,0 +1,31 @@
+If currentlevel == 1
+    If cyc_red < 255
+        Set red=cyc_red
+        Set green=0
+        Set blue=0
+        WriteColor 1
+        Set cyc_red=cyc_red+1
+    Else
+        Set cyc_red=200
+    End
+    
+    If cyc_green < 192
+        Set red=0
+        Set green=cyc_green
+        Set blue=0
+        WriteColor 2
+        Set cyc_green=cyc_green+1
+    Else
+        Set cyc_green=128
+    End
+    
+    If cyc_blue < 255
+        Set red=0
+        Set green=0
+        Set blue=cyc_blue
+        WriteColor 3
+        Set cyc_blue=cyc_blue+1
+    Else
+        Set cyc_blue=200
+    End
+End

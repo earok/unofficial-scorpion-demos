@@ -1,0 +1,3 @@
+PlayerDirection move_upright
+ActorYield 50
+PlayerDirection move_downright

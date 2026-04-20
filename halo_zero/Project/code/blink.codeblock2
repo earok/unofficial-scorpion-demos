@@ -1,0 +1,7 @@
+Variable word LastBlink=0
+If LastBlink
+    ActorRenderMode RenderMode_Blink
+Else
+    ActorRenderMode RenderMode_BlinkAlternative
+End
+Set LastBlink=1 - LastBlink

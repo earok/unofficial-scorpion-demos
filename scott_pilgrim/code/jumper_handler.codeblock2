@@ -1,0 +1,12 @@
+Constant jumpspeed=5 //Initial jump speed
+Constant gravity=0.2 //gravity per frame
+Variable fraction currentjumpspeed=0
+Variable fraction currentjumpheight=0
+Set currentjumpspeed=currentjumpspeed. - gravity.
+Set currentjumpheight=currentjumpheight. + currentjumpspeed.
+Set actor_origin_y=-currentjumpheight
+Set actor_z=-actor_origin_y
+If currentjumpheight <= 0
+    ActorType none ResetMovement ResetAnimation
+    PlayerType scott ResetMovement ResetAnimation
+End

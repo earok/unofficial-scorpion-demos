@@ -1,0 +1,21 @@
+Variable word bunny_spawn_x=0
+Variable word bunny_spawn_y=0
+Variable word bunny_spawn_type=0
+If xres == 320
+    Roll 288 Into bunny_spawn_x
+Else
+    Roll 272 Into bunny_spawn_x
+End
+Roll 192 Into bunny_spawn_y
+Set block_x=bunny_spawn_x + camera_x >> 4
+Set block_y=bunny_spawn_y + camera_y >> 4
+If block_type == 0
+    Set block_y=block_y + 1
+    If block_type == block_solid
+        Set bunny_spawn_x=block_x << 4 + 8
+        Set bunny_spawn_y=block_y << 4 - 1
+        Spawn bunny_spawn_type X=bunny_spawn_x Y=bunny_spawn_y
+        Return
+    End
+End
+Goto fn_spawn_bunny

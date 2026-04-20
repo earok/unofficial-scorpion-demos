@@ -1,0 +1,33 @@
+If actor_type == dead_bunny
+    Return
+End
+If actor_x < bun_min_x
+    Set bun_min_x=actor_x
+End
+If actor_x > bun_max_x
+    Set bun_max_x=actor_x
+End
+If actor_y + 12 < bun_min_y
+    Set bun_min_y=actor_y + 12
+End
+If actor_y + 12 > bun_max_y
+    Set bun_max_y=actor_y + 12
+End
+//Use melee for instant collision detection check
+ActorMelee X=actor_x - 5 Y=actor_y - 14 Width=11 Height=15
+//Do smoke if we're on the platform, and decelerating
+If actor_isonplatform and actor_xspeed
+    If actor_controlx == 0
+        Roll 2
+        If dice == 1
+            Spawn smoke X=actor_x Y=actor_y
+            //Make sure we actually spawned smoke
+            If new_type == smoke
+                Roll 5
+                NewPosition Y=actor_y + dice
+                Roll 9
+                NewPosition X=actor_x + dice - 5
+            End
+        End
+    End
+End

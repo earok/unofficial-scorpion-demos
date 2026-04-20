@@ -1,0 +1,14 @@
+Variable word grenade_delay=0
+//Check grenade cooldown
+If grenade_delay > 0
+    Set grenade_delay=grenade_delay - 1
+    Return
+End
+//If we get to here, grenade is ready
+//Use the jump variable on control2 (port 1) for right button logic
+If control2jump != button_hit //We only throw grenades on button hit, not if we're holding button down
+    Return
+End
+//If we get to here, throw grenade
+Set grenade_delay=25
+PlayerSpawnChild explosion_actor

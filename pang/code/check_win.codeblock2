@@ -1,0 +1,6 @@
+If bubblescount == 0
+    Level none
+    PanelTop none
+    Panel panel_win Frames=0 ForFire
+    Goto show_menu
+End

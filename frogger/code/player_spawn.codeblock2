@@ -1,0 +1,6 @@
+Set BestPlayerPosition=216
+Set HopFrames=0
+
+PlayerFreeze
+PlayerYield 25
+PlayerFreeze False

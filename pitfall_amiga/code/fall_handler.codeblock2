@@ -1,0 +1,10 @@
+ActorSpeed X=0.0 Angle=0
+If control1_x > 0
+    PlayerPosition X=player_x + 1
+    PlayerDirection look_downright
+End
+If control1_x < 0
+    PlayerPosition X=player_x - 1
+    PlayerDirection look_downleft
+End
+Set control1_x=0

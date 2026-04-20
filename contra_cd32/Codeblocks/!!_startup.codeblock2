@@ -1,0 +1,59 @@
+Variable word TestType=0 //Change the test you want to run
+Variable word cyc_green=128
+Variable word cyc_red=200
+Variable word cyc_blue=200
+Variable word CurrentLevel=1
+Variable word Explosion_Chain=0
+Variable word cyc_test=1
+Variable word ctemp=255
+Variable word Title=1 //0 off/1 on
+Variable word FirstRun=0
+//Thanks to Eric for creating Scorpion
+//I had so much fun with this
+//Would of been nice to go further
+//Maybe you will :)
+
+JumpControls player1 !2F
+Level none
+PanelBottom none
+Screen Height=256 Frames=0 AGASpriteWrap
+
+If firstrun == 0
+    Set firstrun=1
+End
+
+//Display the title screen
+If title == 1
+    PaletteSet "..\Maps\Title\Title_Screen.png" 0 0 128
+    
+    //Screen loads to the left showing black
+    Level title_screen
+    
+    //Wait a little for the CD to spin up
+    MusicCD contra__arcade_soundtrack__01_title_back
+    Wait 10
+    
+    //Move camera to the right to show title panel
+    CameraPosition X=224 ResetMovement
+    
+    //Allow music to play
+    Wait 100
+    GoSub waitforfiredown
+    Level none
+End
+
+//Load level 1 You are on your own from here :)
+//I wanted to tidy things up
+//But you have fun unravelling the whole thing :)
+If currentlevel == 1
+    PaletteSet "..\Maps\Level_01\Level_01.png" 0 0 128
+    PanelBottom top_panel
+    Level level_01
+    CameraFollow !R MaxCamera=8
+    CameraBox L=0 R=-16 U=0 D=0 LookL=0 LookR=0 LookU=0 LookD=0
+    CameraBounds L=0 R=1504 U=0 D=0
+    SetColor 1 #FF00FF
+    Set spawnarea_x=-64
+    Set spawnarea_width=352-32
+    MusicCD contra__arcade_soundtrack__02_battle_in_the_dense_forest
+End

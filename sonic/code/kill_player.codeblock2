@@ -1,0 +1,6 @@
+If player_type != sonic_dead
+    CameraFollow ! MaxCamera=8
+    PlayerType sonic_dead ResetMovement ResetAnimation
+    PlayerDirection jump_movement
+    Music none
+End

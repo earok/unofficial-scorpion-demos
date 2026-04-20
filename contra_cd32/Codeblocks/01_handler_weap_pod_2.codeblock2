@@ -1,0 +1,28 @@
+//Pod moving right
+If actor_type == 00_weap_pod_2_move_r
+    If actor_var1 == 0
+        If actor_x <= camera_x-16
+            Set actor_var1=1
+            GoSub 00_invisble_off
+        End
+    End
+    
+    If actor_var1 >= 1
+        ActorPosition X=camera_x-32+actor_var1
+        Set actor_var1=actor_var1+1
+    End
+End
+
+//Pod moving left
+If actor_type == 00_weap_pod_2_move_l
+    If actor_var1 == 0
+        If actor_x < camera_x+224
+            Set actor_var1=1
+        End
+    End
+    
+    If actor_var1 >= 1
+        ActorPosition X=camera_x+224-actor_var1
+        Set actor_var1=actor_var1+1
+    End
+End

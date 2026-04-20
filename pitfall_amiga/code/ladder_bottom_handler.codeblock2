@@ -1,0 +1,12 @@
+If actor_type == man_ladder
+    If control1_y > 0
+        PlayerType man ResetMovement ResetAnimation
+    End
+    Return
+End
+If actor_type == man_swim
+    If control1_y < 0
+        PlayerPosition X=block_x * 16 + 7
+        Goto set_ladder
+    End
+End

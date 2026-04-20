@@ -1,0 +1,17 @@
+Set ShieldDelay=100
+If Shield < 0
+    Set Health=Health + Shield
+    Set Shield=0
+End
+GoSub refresh_ui
+
+If Health <= 0
+    
+    //We've been killed
+    CameraFollow ! MaxCamera=0
+    
+    ForEachActor actor_type == masterchief_top Goto destroy_actor
+    PlayerType none
+    Spawn corpse X=player_x Y=player_y
+    NewAnimation masterchief_die Frame=0 AutoFlip
+End

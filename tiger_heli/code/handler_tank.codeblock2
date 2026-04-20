@@ -1,0 +1,36 @@
+Variable word direction_delta=8
+Variable word tank_block=0
+GetBlockAtPixel tank_block X=actor_x Y=actor_y
+If tank_block == block_down
+    ActorSpeed Y=0.5 Angle=0
+End
+ActorAnimation a_tank_d Frame=actor_var1
+GoSub fn_getdirection
+While actor_var1 != fn_getdirection //We're not looking in the right direction, yet
+    Set direction_delta=fn_getdirection - actor_var1
+    If direction_delta < - 8 //Determine which direction to turn in
+        Set actor_var1=actor_var1 + 1
+    ElseIf direction_delta > 8
+        Set actor_var1=actor_var1 - 1
+    ElseIf direction_delta < 0
+        Set actor_var1=actor_var1 - 1
+    ElseIf direction_delta > 0
+        Set actor_var1=actor_var1 + 1
+    End
+    If actor_var1 < 0 //Prevent wrap around
+        Set actor_var1=actor_var1 + 16
+    ElseIf actor_var1 > 15
+        Set actor_var1=actor_var1 - 16
+    End
+    ActorAnimation a_tank_d Frame=actor_var1
+    ActorYield 4
+    GoSub fn_getdirection
+End
+ActorSpawnChild enemy_bullet
+Variable word x_offset=0
+Variable word y_offset=0
+Variable word rotated_angle=0
+Set rotated_angle=actor_var1 * 45 / 2
+Rotate rotated_angle X=0 Y=-20 XVar=x_offset YVar=y_offset //Move bullet 20px pixels from center
+NewPosition X=actor_x + x_offset Y=actor_y + y_offset
+NewSpeed X=0.0 Y=-5.0 Angle=rotated_angle

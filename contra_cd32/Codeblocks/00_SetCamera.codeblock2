@@ -1,0 +1,3 @@
+Set camera_x=actor_x
+Set camera_y=actor_y
+ActorType none ResetMovement ResetAnimation

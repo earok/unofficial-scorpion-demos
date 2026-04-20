@@ -1,0 +1,19 @@
+If fall_y > 0
+    If player_y > fall_y + 8
+        //shake shake shake
+        Set score=score - 100
+        Sound earthquake Period=0 //shake shake shake
+        PlayerType man_static ResetAnimation
+        ActorYield 1
+        CameraPosition Y=camera_y - 2 ResetMovement
+        ActorYield 1
+        CameraPosition Y=camera_y + 4 ResetMovement
+        ActorYield 1
+        CameraPosition Y=camera_y - 3 ResetMovement
+        ActorYield 1
+        CameraPosition Y=camera_y + 2 ResetMovement
+        ActorYield 1
+        CameraPosition Y=camera_y - 1 ResetMovement
+        Goto set_man
+    End
+End

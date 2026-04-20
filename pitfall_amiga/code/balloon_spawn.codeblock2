@@ -1,0 +1,12 @@
+If player_type == man_balloon
+    Goto balloon_spawn_repeat
+End
+If actor_y > player_y
+    Goto balloon_spawn_repeat
+End
+If actor_y < player_y - 64
+    Goto balloon_spawn_repeat
+End
+ActorSpawnChild balloon
+NewPosition X=new_x - 128
+Goto balloon_spawn_repeat

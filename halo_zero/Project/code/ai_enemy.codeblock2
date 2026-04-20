@@ -1,0 +1,40 @@
+Roll 16 MinSide=0
+Goto flipscreen
+If dice == 0
+    //Charge
+    If actor_isonplatform
+        ActorDirection move_left
+    End
+ElseIf dice == 1
+    //Retreat
+    If actor_isonplatform
+        ActorDirection move_right
+    End
+Else
+    ActorDirection stop_moving
+    
+    //Try to open fire
+    Set hs_xorigin=actor_x
+    Set hs_tag=marine
+    Set hs_direction=0
+    GoSub hitscan
+    If hs_success
+        If new_x < actor_x
+            ActorDirection look_left
+        Else
+            ActorDirection look_right
+        End
+        If hs_bestdistance < 64 and melee_anims[actor_type]
+            ActorAnimation melee_anims[actor_type] Frame=0 AutoFlip
+            Return
+        End
+        If hs_bestdistance > 64 and grenade_anims[actor_type]
+            Roll 16 MinSide=0
+            If dice == 0 //Rarely throw grenade instead of shoot
+                ActorAnimation grenade_anims[actor_type] Frame=0 AutoFlip
+                Return
+            End
+        End
+        ActorAnimation shoot_anims[actor_type] Frame=0 AutoFlip
+    End
+End

@@ -1,0 +1,10 @@
+If player_type == man_swim
+    If control1_x < 0
+        If player_y < block_y * 16 + 20
+            GoSub set_man
+            PlayerPosition X=block_x * 16 + 16 Y=block_y * 16 + 8
+            PlayerDirection move_upleft
+            PlayerSpeed X=-1.0 Angle=0
+        End
+    End
+End

@@ -1,0 +1,14 @@
+If player_type != man_swim
+    If player_yspeed <= 0
+        Return
+    End
+    If lookmask_left btst player_lookdir
+        PlayerPosition X=block_x * 16 + 4
+    Else
+        PlayerPosition X=block_x * 16 + 12
+    End
+    PlayerType man_swim ResetMovement ResetAnimation
+End
+If player_y < block_y * 16
+    PlayerPosition Y=block_y * 16
+End

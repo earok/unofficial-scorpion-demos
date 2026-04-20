@@ -1,0 +1,19 @@
+Set topscore=00000
+Set score=00000
+Set frog_safecount=0
+Set lives=3
+Set timer=60
+Set level_no=0
+PanelBottom none
+Panel hiscore_panel PanelTop=score_panel Frames=0 ForFire NoLevelUnload
+If option == 0
+    Level frogmap1 PanelTop=score_panel PanelBottom=frog_timer
+    # Spawn player_frog X=0 Y=0
+    # PlayerPosition X=120 Y=216
+    SpawnOnBlock player_frog X=7 Y=13
+    CameraBounds L=16 R=256 U=0 D=256
+    CameraPosition X=120 Y=171 Center ResetMovement
+End
+If option == 1
+    Quit
+End

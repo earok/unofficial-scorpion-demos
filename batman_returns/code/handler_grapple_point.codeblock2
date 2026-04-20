@@ -1,0 +1,2 @@
+Set actor_origin_y=player_origin_y * 128 / actor_var1
+Set actor_rotation=player_rotation

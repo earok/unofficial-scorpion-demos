@@ -1,0 +1,22 @@
+Set health=health - 1
+If health == 0
+    Level level //Reload the current level
+    Set health=max_health
+    Return
+End
+If actor_lookdir == look_left
+    PlayerPush 3 X=-12 ResetMovement
+    Return
+End
+If actor_lookdir == look_right
+    PlayerPush 3 X=12 ResetMovement
+    Return
+End
+If actor_lookdir == look_up
+    PlayerPush 3 Y=-12 ResetMovement
+    Return
+End
+If actor_lookdir == look_down
+    PlayerPush 3 Y=12 ResetMovement
+    Return
+End

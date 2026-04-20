@@ -1,0 +1,10 @@
+If currenttile < rle_black00
+    Return
+End
+If currenttile < rle_white00
+    Set rle=currenttile - rle_black00
+    Set currenttile=block000
+    Return
+End
+Set rle=currenttile - rle_white00
+Set currenttile=block001

@@ -1,0 +1,278 @@
+Compiled on Saturday, 14 February 2026 10:24:26 a.m.
+Version string: SE2026.0.260213.10.07.EX
+
+ImageFrame Data Size: 22754
+Actor Count: 31
+Actor Data Size: 5580
+Animations Count: 118
+Animations Data Size: 1888
+AnimationFrame Count: 300
+AnimationFrame Data Size: 4800
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   VC00 |   109208 |    25664 |  NoCrunch | Project virtual machine (codeblocks)
+   PL01 |   134872 |     2028 |  NoCrunch | Panel 
+   PL02 |   136900 |     2028 |  NoCrunch | Panel credits
+   PL03 |   138928 |     2028 |  NoCrunch | Panel instructions
+   PL04 |   140956 |     2112 |  NoCrunch | Panel title
+   PL05 |   143068 |     1228 |  NoCrunch | Panel top_hud
+   PB00 |   144296 |     1224 |  NoCrunch | Project blocks
+   PI00 |   145520 |    22754 |  NoCrunch | Images
+   PA00 |   168274 |     5580 |  NoCrunch | Project actors
+   ML01 |   173854 |        8 |       ZX0 | Map block data for intro
+   MH01 |   173862 |      848 |  NoCrunch | Header data for map intro
+   MT01 |   174710 |       14 |       ZX0 | Map tile data  intro
+   MD01 |   174724 |     5120 |  NoCrunch | Tile data for map intro (mem restrictions:None)
+   ME01 |   179844 |       44 |  NoCrunch | Map event data for intro
+   MY01 |   179888 |      520 |  NoCrunch | Get Y lookup table intro
+   MN01 |   180408 |       20 |  NoCrunch | Map path node data for intro
+   ML02 |   180428 |    13944 |  NoCrunch | Map block data for level1
+   MA02 |   194372 |      184 |       ZX0 | Map actor data for level1
+   MH02 |   194556 |      848 |  NoCrunch | Header data for map level1
+   MT02 |   195404 |    13944 |  NoCrunch | Map tile data  level1
+   MD02 |   209348 |    25792 |  NoCrunch | Tile data for map level1 (mem restrictions:None)
+   ME02 |   235140 |       76 |  NoCrunch | Map event data for level1
+   MY02 |   235216 |      112 |  NoCrunch | Get Y lookup table level1
+   MN02 |   235328 |       20 |  NoCrunch | Map path node data for level1
+   NT00 |   235348 |    10772 |  NoCrunch | Project name table
+   PN00 |   246120 |     1888 |  NoCrunch | Animations
+   PF00 |   248008 |     4800 |  NoCrunch | Animation Frames
+   PS00 |   252808 |      504 |  NoCrunch | Project sound
+   DB00 |   253312 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   253314 |    11482 |  NoCrunch | Project Header
+   PD01 |   264796 |        8 |  NoCrunch | Project Custom Collisions
+   PV00 |   264804 |      488 |  NoCrunch | Var Data
+   AT00 |   265292 |      792 |  NoCrunch | Attack Data
+   PE00 |   266084 |        8 |  NoCrunch | Teleporters
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+   25792 |    25792 |        | Tile data for map level1 (mem restrictions:None)
+   25664 |    25664 |        | Project virtual machine (codeblocks)
+   22754 |    22754 |        | Images
+   13944 |    13944 |        | Map block data for level1
+   13944 |    13944 |        | Map tile data  level1
+   11482 |    11482 |        | Project Header
+   10772 |    10772 |        | Project name table
+    5580 |     5580 |        | Project actors
+    5120 |     5120 |        | Tile data for map intro (mem restrictions:None)
+    4800 |     4800 |        | Animation Frames
+    2112 |     2112 |        | Panel title
+    2028 |     2028 |        | Panel 
+    2028 |     2028 |        | Panel credits
+    2028 |     2028 |        | Panel instructions
+    1888 |     1888 |        | Animations
+    1228 |     1228 |        | Panel top_hud
+    1224 |     1224 |        | Project blocks
+     848 |      848 |        | Header data for map intro
+     848 |      848 |        | Header data for map level1
+     792 |      792 |        | Attack Data
+     520 |      520 |        | Get Y lookup table intro
+     504 |      504 |        | Project sound
+     488 |      488 |        | Var Data
+     184 |     1008 |  (82%) | Map actor data for level1
+     112 |      112 |        | Get Y lookup table level1
+      76 |       76 |        | Map event data for level1
+      44 |       44 |        | Map event data for intro
+      20 |       20 |        | Map path node data for intro
+      20 |       20 |        | Map path node data for level1
+      14 |     2860 | (100%) | Map tile data  intro
+       8 |     2860 | (100%) | Map block data for intro
+       8 |        8 |        | Project Custom Collisions
+       8 |        8 |        | Teleporters
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+NeoGeo BIOS memory: 3328
+RAM reserved for level tiles: (largest level: intro): 5720
+memory reserved for active actors on screen (48): 7592
+memory reserved for dormant actors in map (128): 4608
+
+Total: 21248 bytes
+
+=== Possibly unused animations ===
+elite_rifle_grenade_r
+elite_rifle_melee_r
+elite_rifle_shoot_r
+grunt_red_grenade_r
+grunt_red_shoot_r
+grunt_yellow_grenade_r
+grunt_yellow_shoot_r
+hunter_shoot_r
+jackal_shoot_r
+marine_shoot_l
+masterchief_top_attack_needler_l
+masterchief_top_attack_pistol_l
+masterchief_top_attack_plasmapistol_l
+masterchief_top_attack_plasmarifle_l
+masterchief_top_attack_l
+masterchief_top_grenade_l
+masterchief_top_idle_l
+masterchief_top_melee_needler_l
+masterchief_top_melee_pistol_l
+masterchief_top_melee_plasmapistol_l
+masterchief_top_melee_plasmarifle_l
+masterchief_top_melee_l
+masterchief_top_needler_idle_l
+masterchief_top_pistol_idle_l
+masterchief_top_plasmapistol_idle_l
+masterchief_top_plasmarifle_idle_l
+
+=== Possibly unused Actors ===
+item_medkit
+
+=== Codeblocks by compiled size ===
+handler_top: 1012
+refresh_ui: 842
+pickup_weapon: 730
+ai_enemy: 672
+load_level: 642
+spawn_projectile: 540
+startup: 492
+handler_standing: 422
+handler_ducking: 386
+hitscan_loop: 374
+hit_projectile: 368
+charge_plasmapistol: 364
+ai_marine: 358
+pre_startup: 348
+freemem: 316
+play_level: 312
+flipscreen_smooth: 310 (Unused?)
+autogen_masterchief_top_grenade_l_1: 310
+autogen_masterchief_top_grenade_r_1: 310
+grenade_explode: 306
+do_teleport: 300
+intro: 298
+hit_projectile_mc: 292
+reload_finish: 292
+flipxymove: 278 (Unused?)
+load_next_level: 268 (Unused?)
+set_yresolution: 256 (Unused?)
+hurt_mc: 248
+hit_melee_marine: 232
+block_find: 210 (Unused?)
+autogen_masterchief_top_attack_pistol_l_0: 202
+autogen_masterchief_top_attack_pistol_r_0: 202
+autogen_masterchief_top_attack_l_0: 202
+autogen_masterchief_top_attack_r_0: 202
+waitforframes: 194
+fire_pistol: 184
+fire_rifle: 184
+block_count: 178 (Unused?)
+collect_needler: 178 (Unused?)
+collect_pistol: 178
+collect_rifle: 178
+check_talkpad: 172 (Unused?)
+hitscan: 164
+flipymove: 162 (Unused?)
+snap_to_screen: 162 (Unused?)
+pre_quit: 160 (Unused?)
+autogen_elite_rifle_grenade_l_1: 156
+autogen_elite_rifle_grenade_r_1: 156
+autogen_grunt_red_grenade_l_1: 156
+autogen_grunt_red_grenade_r_1: 156
+flipxmove: 142 (Unused?)
+pause: 138 (Unused?)
+kill_new: 138
+restart_this_level: 136 (Unused?)
+drop_needler: 136
+drop_plasmapistol: 136
+drop_plasmarifle: 136
+drop_rifle: 136
+load_panel: 134
+stop_sfx: 130
+destroy_all_blocks: 128 (Unused?)
+spawn_mc: 128
+collect_grenade: 122
+unload_level: 118
+randomize_offset: 118
+autogen_a_enemy_grenade_explosion_1: 116
+autogen_a_marine_grenade_explosion_1: 116
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+autogen_elite_rifle_shoot_l_0: 106
+autogen_elite_rifle_shoot_r_0: 106
+autogen_grunt_red_shoot_l_0: 106
+autogen_grunt_red_shoot_r_0: 106
+autogen_grunt_yellow_shoot_l_0: 106
+autogen_grunt_yellow_shoot_r_0: 106
+autogen_hunter_shoot_l_1: 106
+autogen_hunter_shoot_r_1: 106
+autogen_jackal_shoot_l_0: 106
+autogen_jackal_shoot_r_0: 106
+autogen_masterchief_top_attack_needler_l_0: 106
+autogen_masterchief_top_attack_needler_r_0: 106
+autogen_masterchief_top_attack_plasmarifle_l_0: 106
+autogen_masterchief_top_attack_plasmarifle_r_0: 106
+hit_ai_byplayer: 104
+hit_ai_grenade: 104
+unload_panel: 102
+load_panel_bottom: 96
+load_panel_top: 96
+hit_mc_grenade: 96
+destroy_child_actors: 94 (Unused?)
+autogen_elite_rifle_melee_l_1: 90
+autogen_elite_rifle_melee_r_1: 90
+autogen_masterchief_top_melee_needler_l_1: 90
+autogen_masterchief_top_melee_needler_r_1: 88
+weapon_swap: 88
+pre_load_level: 86
+waitforfirehit: 86
+autogen_marine_shoot_l_0: 84
+autogen_marine_shoot_r_0: 84
+collect_health: 82
+reload_start: 78
+reset_mc_animation: 78
+fadeout: 76
+load_music_finish: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+autogen_masterchief_top_attack_plasmapistol_l_2: 70
+autogen_masterchief_top_attack_plasmapistol_r_2: 70
+jump_actor: 66 (Unused?)
+spawn_grenade: 66
+waitforfiredown: 64
+load_music: 62
+waitforfireup: 62
+destroy_all_actors: 60 (Unused?)
+destroy_actor: 58
+freemem_hard: 54 (Unused?)
+destroy_block: 52 (Unused?)
+return: 52 (Unused?)
+autogen_elite_rifle_die_0: 52
+autogen_grunt_red_die_0: 52
+autogen_hunter_die_0: 52
+autogen_jackal_die_0: 52
+autogen_marine_die_0: 52
+autogen_masterchief_top_melee_needler_l_0: 52
+autogen_projectile_elite_rifle_l_0: 52
+autogen_projectile_needle_anim_0: 52
+autogen_projectile_plasma_charged_l_0: 52
+autogen_projectile_plasma_pistol_l_0: 52
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
+blink: 46
+noclear: 46
+Autogen_UnloadAllAssetBundles: 46 (Unused?)
+freeze_actor: 40 (Unused?)
+quit: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+autogen_elite_rifle_die_3: 38
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32
+debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
+set_ntsc: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+commandkey_grenade: 26 (Unused?)
+commandkey_reloadmelee: 26 (Unused?)
+commandkey_swap: 26 (Unused?)
+weapons: 26 (Unused?)

@@ -1,0 +1,7 @@
+If p2life <= 0
+    Sound snd_ko Period=0
+    ActorAnimation ken_die Frame=0
+    Goto game_over
+Else
+    Set canhurtken=true
+End

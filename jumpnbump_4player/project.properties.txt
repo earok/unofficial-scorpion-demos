@@ -1,0 +1,24 @@
+[all]
+author=
+copyright_month=
+copyright_year=
+description=
+project_name=
+project_name_international=
+publisher=
+version=
+
+[amiga_all]
+tightly_pack_graphics=true
+
+[amiga_ocs]
+tightly_pack_graphics=true
+
+[megadrive]
+sega_revision=00
+sega_serial_number=
+sega_software_type=GM
+sega_system=SEGA MEGA DRIVE
+
+[neogeo]
+neogeo_ngh_hex=

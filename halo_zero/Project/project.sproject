@@ -1,0 +1,303 @@
+{
+  "TargetPlatform": "amiga_ecs",
+  "StartupCodeBlock": "startup",
+  "Recompile": true,
+  "DataVersion": 3,
+  "Commands": [
+    {
+      "Compiler": "amiga",
+      "Key": "X",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "JoystickFire3": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "MegaDrive_B": false,
+      "MegaDrive_C": false,
+      "MegaDrive_A": false,
+      "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
+      "Neo_A": false,
+      "Neo_B": false,
+      "Neo_C": false,
+      "Neo_D": false,
+      "Neo_Start": false,
+      "Neo_Select": false,
+      "OnPress": "commandkey_reloadmelee",
+      "OnRelease": null,
+      "buttonState": 0
+    },
+    {
+      "Compiler": "amiga",
+      "Key": "Z",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "JoystickFire3": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "MegaDrive_B": false,
+      "MegaDrive_C": false,
+      "MegaDrive_A": false,
+      "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
+      "Neo_A": false,
+      "Neo_B": false,
+      "Neo_C": false,
+      "Neo_D": false,
+      "Neo_Start": false,
+      "Neo_Select": false,
+      "OnPress": "commandkey_grenade",
+      "OnRelease": null,
+      "buttonState": 0
+    },
+    {
+      "Compiler": "amiga",
+      "Key": "C",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "JoystickFire3": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "MegaDrive_B": false,
+      "MegaDrive_C": false,
+      "MegaDrive_A": false,
+      "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
+      "Neo_A": false,
+      "Neo_B": false,
+      "Neo_C": false,
+      "Neo_D": false,
+      "Neo_Start": false,
+      "Neo_Select": false,
+      "OnPress": "commandkey_swap",
+      "OnRelease": null,
+      "buttonState": 0
+    },
+    {
+      "Compiler": "amiga",
+      "Key": "Escape",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "JoystickFire3": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "MegaDrive_B": false,
+      "MegaDrive_C": false,
+      "MegaDrive_A": false,
+      "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
+      "Neo_A": false,
+      "Neo_B": false,
+      "Neo_C": false,
+      "Neo_D": false,
+      "Neo_Start": false,
+      "Neo_Select": false,
+      "OnPress": "startup",
+      "OnRelease": null,
+      "buttonState": 0
+    }
+  ],
+  "AnimationMetaData": {},
+  "Anim5MetaData": {},
+  "SoundMetaData": {
+    "shieldlow": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 11,
+      "IsMusic": false,
+      "Priority": 8,
+      "Channel": null
+    },
+    "shieldrecharge": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 37,
+      "IsMusic": false,
+      "Priority": 9,
+      "Channel": null
+    },
+    "rifleshot": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "plasmarifleshot": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "plasmapistolshot": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "masterchiefdead": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 10,
+      "Channel": null
+    },
+    "elitedead": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 5,
+      "Channel": null
+    },
+    "gruntdead": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "reload": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "plasmaexplosion": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "fragexplosion": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "hunterdead": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "huntershot": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "jackaldead": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "needlershot": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "pistolshot": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "plasma_charge_start": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 15,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "plasma_charge_loop": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 15,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "plasmapistolcharged": {
+      "LinkedMap": "ab_gamesounds",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "main_theme": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    }
+  },
+  "MMLMetaData": {},
+  "NumberFontMetaData": {
+    "defaultnumberfont": {
+      "Radix": 10
+    }
+  },
+  "FontMetaData": {
+    "defaultfont": {
+      "IsMonoSpaced": false,
+      "LineHeight": 8,
+      "SpaceWidth": 8
+    }
+  },
+  "SplashScreen": "credits",
+  "LogicSpeed": "PAL_25HZ",
+  "ReadCD32Buttons": true,
+  "ReadMD6Buttons": false,
+  "MDRegion": "All_NTSC",
+  "MDSoundDriver": "XGM",
+  "SplashScreenFrames": 50,
+  "TestLevel": "none",
+  "SafetyRails": true,
+  "VDPColor": false
+}

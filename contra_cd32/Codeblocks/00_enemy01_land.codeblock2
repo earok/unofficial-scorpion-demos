@@ -1,0 +1,3 @@
+If actor_isonplatform >= 1
+    ActorDirection move_left
+End

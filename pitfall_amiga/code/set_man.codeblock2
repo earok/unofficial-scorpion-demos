@@ -1,0 +1,5 @@
+PlayerType man ResetAnimation
+CameraFollow !UD MaxCamera=8
+Set laddertop_y=0
+Set fall_y=0
+Set cangetoffladder=false

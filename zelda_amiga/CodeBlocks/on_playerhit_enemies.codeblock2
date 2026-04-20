@@ -1,0 +1,25 @@
+//Handling for enemy health
+Set actor_var1=actor_var1 + 1
+If actor_type == enemy_tentacles
+    ActorType killpuff ResetMovement ResetAnimation
+    Return
+End
+If actor_type == enemy_spider
+    If actor_var1 > 1
+        ActorType killpuff ResetMovement ResetAnimation
+        Return
+    End
+End
+//Handling for enemy pushback
+If player_lookdir == look_left
+    ActorPush 8 X=-32 ResetMovement
+End
+If player_lookdir == look_right
+    ActorPush 8 X=32 ResetMovement
+End
+If player_lookdir == look_up
+    ActorPush 8 Y=-32 ResetMovement
+End
+If player_lookdir == look_down
+    ActorPush 8 Y=32 ResetMovement
+End

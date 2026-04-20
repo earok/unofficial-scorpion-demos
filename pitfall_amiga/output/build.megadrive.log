@@ -1,0 +1,177 @@
+Compiled on Sunday, 18 May 2025 6:55:19 p.m.
+Version string: SE2024.2.250517.21.12.EX
+
+ImageFrame Data Size: 1678
+Actor Count: 18
+Actor Data Size: 3240
+Animations Count: 39
+Animations Data Size: 624
+AnimationFrame Count: 101
+AnimationFrame Data Size: 1616
+XGM Null song Original size 172 Crunched size 172
+Map path node data for map Original size 12 Crunched size 12
+Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
+Teleporters Original size 8 Crunched size 8
+XGM Null sound Original size 256 Crunched size 256
+XGM 68K Plugin Driver Original size 852 Crunched size 852
+Project patterns Original size 106 Crunched size 106
+Map event data for map Original size 44 Crunched size 44
+XGM PCM sound Original size 8960 Crunched size 8960
+XGM Core Driver Original size 5888 Crunched size 5888
+XGM PCM sound Original size 7936 Crunched size 7936
+XGM PCM sound Original size 2816 Crunched size 2816
+XGM PCM sound Original size 6144 Crunched size 6144
+XGM PCM sound Original size 1280 Crunched size 1280
+XGM PCM sound Original size 2816 Crunched size 2816
+XGM PCM sound Original size 4096 Crunched size 4096
+Project sound Original size 224 Crunched size 224
+Default MD font Original size 2048 Crunched size 2048
+Project virtual machine (codeblocks) Original size 18656 Crunched size 18656
+Panel  Original size 10362 Crunched size 10362
+Number font for panel 1 Original size 320 Crunched size 320
+Panel mainpanel Original size 1562 Crunched size 1562
+Project blocks Original size 1564 Crunched size 1564
+Images Original size 1678 Crunched size 1678
+Project actors Original size 3240 Crunched size 3240
+Map tile data  map Original size 12090 Crunched size 653
+Tile data for map map (mem restrictions:None) Original size 23296 Crunched size 23296
+Pattern data for 1 Original size 1428 Crunched size 1428
+Get Y lookup table map Original size 372 Crunched size 372
+Map animation data formap Original size 3216 Crunched size 3216
+Map actor data for map Original size 2884 Crunched size 435
+Header data for map map Original size 844 Crunched size 844
+Map block data for map Original size 12090 Crunched size 292
+Project name table Original size 2904 Crunched size 2904
+Streamed project patterns Original size 23456 Crunched size 23456
+Animations Original size 624 Crunched size 624
+Animation Frames Original size 1616 Crunched size 1616
+Project Header Original size 3266 Crunched size 3266
+Var Data Original size 176 Crunched size 176
+Attack Data Original size 176 Crunched size 176
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+RAM reserved for level tiles: (largest level: map): 24180
+memory reserved for active actors on screen (32): 4616
+memory reserved for dormant actors in map (128): 4608
+
+Total: 33404 bytes
+
+=== Codeblocks by compiled size ===
+load_level: 510
+ladder_top_handler: 446
+startup: 426
+man_handler: 404
+set_yresolution: 390
+fall_ended: 384
+do_teleport: 382
+pre_startup: 360
+frog_handler: 332
+angel_handler: 316
+flipscreen_smooth: 310 (Unused?)
+getoffladder: 304
+ladder_middle_handler: 280
+flipxymove: 278 (Unused?)
+load_next_level: 252 (Unused?)
+rat_collision: 242
+water_handler: 214
+block_find: 206 (Unused?)
+waitforframes: 194
+balloon_handler: 192
+block_count: 178 (Unused?)
+celebrate: 174
+check_talkpad: 172 (Unused?)
+water_leftexit_handler: 170
+balloon_collide: 168
+water_rightexit_handler: 166
+ladder_bottom_handler: 164
+flipymove: 162 (Unused?)
+pre_quit: 160 (Unused?)
+bird_leaveleft: 160
+bird_leaveright: 160
+snap_to_screen: 158
+balloon_spawn: 154
+hittest: 148
+load_panel: 146
+fall_handler: 144
+flipxmove: 142 (Unused?)
+unload_level: 142
+collect_diamond: 142
+collect_quickclaw: 142
+collect_rhonda: 142
+pause: 138 (Unused?)
+balloon_pop: 138
+getoffladder_sides: 138
+scorpion_handler: 136
+cheat1: 134 (Unused?)
+cheat2: 134 (Unused?)
+cheat3: 134 (Unused?)
+cheat4: 134 (Unused?)
+cheat5: 134 (Unused?)
+scroll_left: 134
+scroll_right: 134
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_snap_to_screen_snap_to_screen: 130
+AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
+collect_goldbar: 130
+waterfall_handler: 130
+destroy_all_blocks: 128 (Unused?)
+restart_this_level: 128 (Unused?)
+wrap_right: 126
+pre_load_level: 122
+offscreen_left: 122
+offscreen_right: 122
+fadein: 112
+unload_panel: 106
+ladder_handler: 104
+waitforfireup: 102
+set_man: 100
+waitforfiredown: 98
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96
+destroy_child_actors: 94 (Unused?)
+autogen_anim_rat_0: 90
+fadeout: 88
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+rat_spawn: 84
+AUTOGEN_OUTOFSCREEN_scroll_left_scroll_right_None_None: 78
+AUTOGEN_OUTOFSCREEN_wrap_fix_wrap_right_None_None: 78
+AUTOGEN_OUTOFSCREEN_bird_leaveleft_bird_leaveright_None_None: 78
+AUTOGEN_OUTOFSCREEN_offscreen_left_offscreen_right_None_None: 78
+load_music_finish: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+wrap_fix: 76
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+load_music: 70
+forcejump_end: 70 (Unused?)
+jump_actor: 66 (Unused?)
+load_panel_finish: 66
+set_ladder: 64
+unload_panel_bottom: 62
+unload_panel_top: 62
+destroy_all_actors: 60 (Unused?)
+destroy_actor: 58
+regenerate_screen: 58
+AUTOGEN_OUTOFSCREEN_None_scroll_right_None_None: 54
+balloon_spawn_repeat: 54
+key_handler: 54
+destroy_block: 52
+return: 52 (Unused?)
+spawn_handler: 52
+quit: 50 (Unused?)
+regenerate_screen_wait: 46
+rat_activate: 46
+freeze_actor: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+autogen_fall_l_0: 38
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32 (Unused?)
+clear_block_collision: 32
+cushion_land: 32
+vm_registers: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+set_ntsc: 26
+vm_constants_tile_properties: 26 (Unused?)

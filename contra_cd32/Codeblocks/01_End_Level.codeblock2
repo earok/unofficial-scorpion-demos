@@ -1,0 +1,25 @@
+//Reactor Damaged
+If camera_x > 1500-224
+    If explosion_chain == 1
+        GoSub 00_follow_stop
+        Set actor_lookdir=look_up
+        NewSpawnChild 00_expl_02
+        ForEachActor actor_type Goto 00_move_all
+        Set camera_x=camera_x+224
+        CameraBounds L=camera_x R=camera_x+224 U=0 D=0
+        Set explosion_chain=explosion_chain+1
+    End
+End
+
+//Reactor Destroyed
+If explosion_chain == 3
+    Inline 00_dstry_w_explsn_01
+    ForEachActor actor_type Goto 00_move_all
+    Set camera_x=camera_x+224
+    CameraBounds L=camera_x R=mapwidth-8 U=0 D=0
+    PlayerType 00_dummyplayer_auto ResetMovement ResetAnimation
+    PlayerDirection move_right
+    
+    ForEachActor actor_type == 01_turret_rck Goto 00_dstry_w_explsn_02
+    Set explosion_chain=0
+End

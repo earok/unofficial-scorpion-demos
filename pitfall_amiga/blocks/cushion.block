@@ -1,0 +1,42 @@
+{
+  "BlockImagePath": "blocks\\block.png",
+  "X": 32,
+  "Y": 16,
+  "Divert_PlayerCollision": "cushion_land",
+  "Divert_PlayerHit": null,
+  "Divert_PlayerOverlap": "",
+  "Divert_ProjectileCollision": null,
+  "OnAnimationFrame": null,
+  "FastBlit": false,
+  "IsInvisible": true,
+  "ReplaceTileProperties": true,
+  "LinkedMap": "",
+  "BlockSolidType": "NotSolid",
+  "PlayerCollisionOverride": "Default",
+  "ProjectileCollisionOverride": "Default",
+  "PaletteLines": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "Priorities": [
+    [
+      false,
+      false
+    ],
+    [
+      false,
+      false
+    ]
+  ],
+  "ZeroIsTransparent": false,
+  "PaletteLineNeo": 0,
+  "IsForeground": false,
+  "BlockTag": null,
+  "TileID": 23
+}

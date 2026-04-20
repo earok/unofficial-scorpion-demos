@@ -1,0 +1,14 @@
+If control1_x
+    If control1_y <= 0
+        Set desty=block_y * 16 + 15
+        If control1_x < 0
+            Set destx=block_x * 16
+        End
+        If control1_x > 0
+            Set destx=block_x * 16 + 16
+        End
+        Set cangetoffladder=false
+        PlayerPosition X=destx
+        Goto set_man
+    End
+End

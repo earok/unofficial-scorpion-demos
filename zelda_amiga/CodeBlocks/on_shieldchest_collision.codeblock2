@@ -1,0 +1,6 @@
+SetBlock chest_empty
+Set has_shield=true
+Sound snd_happy Period=0
+PlayerAnimation link_pickup_shield Frame=0
+Say "You found a shield!!!<br><br>Your defence rises by one point." Frames=0
+PlayerType link_shield ResetMovement ResetAnimation

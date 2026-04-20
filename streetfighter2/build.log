@@ -1,0 +1,210 @@
+=== Image optimisations ===
+Reduce width of anims\hado_1.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\impact_2.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\impact_3.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\impact_4.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\ken_die_1.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_die_1.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_die_1.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_die_1.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_die_1.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_die_1.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_die_1.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_die_1.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_die_2.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_die_2.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_die_3.png by 8 pixels to 64 to improve blit performance by 100.00%
+Reduce width of anims\ken_die_4.png by 11 pixels to 64 to improve blit performance by 100.00%
+Reduce width of anims\ken_die_3.png by 8 pixels to 64 to improve blit performance by 100.00%
+Reduce width of anims\ken_die_4.png by 11 pixels to 64 to improve blit performance by 100.00%
+Reduce width of anims\ken_walk_1.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_walk_2.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_walk_3.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_walk_4.png by 10 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_walk_5.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_hurt_1.png by 7 pixels to 48 to improve blit performance by 100.00%
+Reduce width of anims\ken_hurt_3.png by 12 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_idle_1.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_idle_2.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_idle_3.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ken_idle_4.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_walk_5.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_walk_4.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_walk_3.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_walk_2.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_walk_1.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_fall_1.png by 1 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_fall_2.png by 1 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_walk_1.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_walk_2.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_walk_3.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_walk_4.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_walk_5.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_hado_1.png by 1 pixels to 64 to improve blit performance by 100.00%
+Reduce width of anims\ryu_hado_2.png by 1 pixels to 64 to improve blit performance by 100.00%
+Reduce width of anims\ryu_hado_3.png by 1 pixels to 80 to improve blit performance by 100.00%
+Reduce width of anims\ryu_hado_4.png by 4 pixels to 64 to improve blit performance by 100.00%
+Reduce width of anims\ryu_idle_1.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_idle_2.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_idle_3.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_idle_4.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_jump_1.png by 1 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_jump_2.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of anims\ryu_kick_1.png by 10 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_kick_2.png by 7 pixels to 48 to improve blit performance by 100.00%
+Reduce width of anims\ryu_kick_3.png by 5 pixels to 64 to improve blit performance by 100.00%
+Reduce width of anims\ryu_kick_4.png by 9 pixels to 48 to improve blit performance by 100.00%
+Reduce width of anims\ryu_kick_5.png by 10 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_fly_kick.png by 15 pixels to 48 to improve blit performance by 100.00%
+Reduce width of anims\ryu_punch_1.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_punch_3.png by 5 pixels to 64 to improve blit performance by 100.00%
+Reduce width of anims\ryu_punch_1.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_win_3.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_win_4.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_win_3.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_win_4.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_win_3.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_win_4.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_win_3.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_win_4.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_win_3.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_win_4.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_win_3.png by 9 pixels to 32 to improve blit performance by 100.00%
+Reduce width of anims\ryu_win_4.png by 9 pixels to 32 to improve blit performance by 100.00%
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1): 73920
+Music memory (tune): 65538
+BP Buffer memory: 131520
+core sfx/gfx memory: 488322
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 3108
+Map background memory: 2672
+EXE memory: 202600
+vm memory: 9562
+project memory: 5902
+
+Accounted memory chip: 759300
+Accounted memory other: 223844
+Accounted memory total: 983144
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 5
+Actor Data Size: 1000
+Block Count: 1
+Block Data Size: 52
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 15
+Sound Data Size: 360
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 19
+Animations Data Size: 304
+AnimationFrame Count: 83
+AnimationFrame Data Size: 1328
+ImageFrames: 62
+ImageFrame Data Size: 2728
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 1
+Attack Data Size: 66
+Misc data size: 16
+Asset bundle 0 (Core project asset bundle) Original size 488322 Crunched size 243672
+Asset bundle 1 (stage) Original size 73920 Crunched size 37990
+Background for map stage Original size 2672 Crunched size 92
+Music file tune Original size 65538 Crunched size 42472
+Tile data for map stage (mem restrictions:No_Blocks) Original size 3108 Crunched size 1468
+Header data for map stage Original size 7996 Crunched size 276
+Project Data Original size 5902 Crunched size 2058
+Project Header Original size 4032 Crunched size 1194
+Panel scorpion_eng_splashscreen Original size 35930 Crunched size 3268
+Panel ending_screen Original size 42650 Crunched size 8568
+Panel hud Original size 8716 Crunched size 1124
+Panel select_screen Original size 44322 Crunched size 15692
+Panel splash_screen Original size 47450 Crunched size 8412
+Panel vs_screen Original size 42650 Crunched size 8806
+Project virtual machine (codeblocks) Original size 9562 Crunched size 2986
+Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused animations ===
+ryu_crouch
+
+=== Possibly unused sound effects ===
+select
+snd_select
+
+=== Codeblocks by compiled size ===
+load_level: 1012
+startup: 520
+set_yresolution: 448 (Unused?)
+ryu_handler: 432
+do_teleport: 362
+flipscreen_smooth: 346 (Unused?)
+flipxymove: 306 (Unused?)
+game_over: 282
+ken_projectile: 254
+pause: 252 (Unused?)
+ken_hurt: 244
+init_game: 240
+snap_to_screen: 190
+pre_startup: 188
+ken_handler: 178
+flipymove: 174 (Unused?)
+flipxmove: 158 (Unused?)
+load_panel: 146
+pre_quit: 146
+kick: 134
+punch: 128
+destroy_all_blocks: 124 (Unused?)
+charge: 124
+unload_level: 114
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96
+waitforfireup: 94
+reset_ken: 94
+unload_panel: 92
+wrap_screen_bottom: 92 (Unused?)
+wrap_screen_right: 92 (Unused?)
+waitforfiredown: 90
+wrap_screen_left: 88 (Unused?)
+wrap_screen_top: 88 (Unused?)
+flipscreen: 86 (Unused?)
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+fadeout: 84
+impact_spawn: 80
+waitforframes: 78
+quit: 66 (Unused?)
+destroy_all_actors: 62 (Unused?)
+jump_actor: 62 (Unused?)
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+fadein: 58
+hadouken: 58
+load_panel_finish: 56
+destroy_actor: 54
+regenerate_screen: 52
+return: 52 (Unused?)
+destroy_block: 48 (Unused?)
+reset_attacks: 44
+regenerate_screen_wait: 42
+ground_impact: 42
+end_of_attack: 32 (Unused?)
+debug_dump: 30 (Unused?)
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)

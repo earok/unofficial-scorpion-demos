@@ -1,0 +1,14 @@
+Set gameover=true
+PlayerDirection stop_moving
+Set canpunch=false
+Set cankick=false
+Set canhadou=false
+PlayerAnimation ryu_win Frame=0
+Music none
+ActorYield 200
+Level none
+PanelTop none
+Panel ending_screen Frames=0
+Sound ending Period=0
+Wait 250
+Goto startup

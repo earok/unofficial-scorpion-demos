@@ -1,0 +1,19 @@
+Variable word block_under_player=0
+Set actor_yspeed=actor_yspeed -0.0234375
+If actor_yspeed > 1
+    Set actor_yspeed=1
+End
+If actor_yspeed < -1
+    Set actor_yspeed=-1
+End
+GetBlockAtPixel block_under_player X=actor_x Y=actor_y - 4
+If block_under_player != block_water and actor_yspeed < 0
+    If player_controljump
+        GoSub fn_force_jump
+        PlayerSpeed Y=-3 Angle=0
+        PlayerType player_tag ResetMovement ResetAnimation
+    Else
+        PlayerSpeed Y=0 Angle=0
+    End
+End
+Goto bunny_handler

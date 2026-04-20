@@ -1,0 +1,10 @@
+If Grenade1 + Grenade2 < 8
+    If Actor_Type == Item_Grenade1
+        Set Grenade1 = Grenade1 + 1
+    Else
+        Set Grenade2 = Grenade2 + 1
+    End
+    ActorType None
+    Goto refresh_ui
+End
+

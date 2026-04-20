@@ -1,0 +1,3 @@
+If control1_buttons btst move_left
+    Set player_y=player_y - 1
+End

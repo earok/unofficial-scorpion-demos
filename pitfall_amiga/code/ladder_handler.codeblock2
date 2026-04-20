@@ -1,0 +1,7 @@
+If control1_x == 0
+    Set cangetoffladder=true
+End
+If player_y <= laddertop_y
+    PlayerAnimation ladder_idle Frame=0
+    PlayerPosition Y=laddertop_y
+End

@@ -1,0 +1,7 @@
+If player_type == man_balloon
+    Sound pop Period=man_balloon
+    GoSub set_man
+    Set player_xspeed=0
+    Set player_yspeed=1
+    # ForEachActor actor_type == balloon_spawner Goto balloon_spawn
+End

@@ -1,0 +1,5 @@
+SetBlock none
+Roll 2
+If dice == 2
+    SetBlock rupee1
+End

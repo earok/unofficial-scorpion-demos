@@ -1,0 +1,139 @@
+=== Image optimisations ===
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 1): 50954
+Music memory (bump_music): 71776
+BP Buffer memory: 131040
+core sfx/gfx memory: 53848
+Parallax memory: 0
+OS/other estimated: 99328
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 2492
+Map background memory: 1396
+EXE memory: 210000
+vm memory: 8558
+project memory: 4036
+memory reserved for active actors on screen (32): 4744
+memory reserved for dormant actors in map (256): 9216
+OS/other estimated: 105472
+
+Accounted memory chip: 512418
+Accounted memory other: 240442
+Accounted memory total: 752860
+
+=== Misc ===
+Maps and Asset Bundles Count: 2
+Maps and Asset Bundles Data Size: 24
+Actor Count: 6
+Actor Data Size: 1128
+Block Count: 4
+Block Data Size: 272
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 5
+Sound Data Size: 140
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 14
+Animations Data Size: 224
+AnimationFrame Count: 37
+AnimationFrame Data Size: 592
+ImageFrames: 34
+ImageFrame Data Size: 1496
+Sprites: 5
+Sprites Data Size: 70
+Attack Data: 1
+Attack Data Size: 66
+Misc data size: 14
+Music file bump_music Original size 71776 Crunched size 53370
+Music file jump_music Original size 50206 Crunched size 38688
+Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3262
+Header data for map map1 Original size 7992 Crunched size 330
+Tile data for map map1 (mem restrictions:None) Original size 2492 Crunched size 1246
+Background for map map1 Original size 1396 Crunched size 80
+Asset bundle 0 (Core project asset bundle) Original size 53848 Crunched size 29496
+Asset bundle 1 (map1) Original size 50954 Crunched size 17406
+Project Header Original size 4034 Crunched size 1194
+Project Data Original size 4036 Crunched size 1202
+Project virtual machine (codeblocks) Original size 8558 Crunched size 2598
+Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused Actors ===
+spring
+
+=== Possibly unused sound effects ===
+death
+jump
+
+=== Codeblocks by compiled size ===
+load_level: 764
+set_yresolution: 458 (Unused?)
+do_teleport: 424
+flipscreen_smooth: 310 (Unused?)
+water_handler: 306
+flipxymove: 278 (Unused?)
+pre_startup: 270
+on_water: 234
+startup: 196
+waitforframes: 194
+check_talkpad: 192 (Unused?)
+pause: 176
+flipymove: 162 (Unused?)
+snap_to_screen: 158 (Unused?)
+pre_quit: 152
+load_panel: 146
+flipxmove: 142 (Unused?)
+load_music: 130
+destroy_all_blocks: 124 (Unused?)
+pre_load_level: 122
+unload_level: 118
+on_spring_collide: 118
+waitforfireup: 114
+waitforfiredown: 110
+fadein: 106
+unload_panel: 100
+load_panel_bottom: 96 (Unused?)
+load_panel_top: 96 (Unused?)
+destroy_child_actors: 94 (Unused?)
+fadeout: 88
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+on_ice: 80
+on_land: 80
+load_music_finish: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+quit: 70 (Unused?)
+jump_actor: 66 (Unused?)
+unload_panel_bottom: 62
+unload_panel_top: 62
+destroy_all_actors: 60 (Unused?)
+load_panel_finish: 60
+destroy_actor: 58
+destroy_block: 52 (Unused?)
+regenerate_screen: 52
+return: 52 (Unused?)
+autogen_splash_anim_0: 46
+autogen_spring_hit_0: 46
+regenerate_screen_wait: 42
+freeze_actor: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32 (Unused?)
+clear_block_collision: 32
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_audiodriver: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)

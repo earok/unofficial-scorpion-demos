@@ -1,0 +1,16 @@
+Variable word P1_Step_ATK=0 //Sequencia de atk
+If control1_buttons btst megadrive_b
+    If p1_step_atk == 0
+        PlayerType 0_atk_hannah_0 ResetMovement ResetAnimation
+        Set p1_step_atk=P1_Step_ATK + 1
+    ElseIf p1_step_atk == 1
+        PlayerType 0_atk_hannah_0 ResetMovement ResetAnimation
+        Set p1_step_atk=P1_Step_ATK + 1
+    ElseIf p1_step_atk == 2
+        PlayerType 0_atk_hannah_1 ResetMovement ResetAnimation
+        Set p1_step_atk=P1_Step_ATK + 1
+    ElseIf p1_step_atk == 3
+        PlayerType 0_atk_hannah_2 ResetMovement ResetAnimation
+        Set p1_step_atk=0
+    End
+End

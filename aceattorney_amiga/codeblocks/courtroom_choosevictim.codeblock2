@@ -1,0 +1,40 @@
+GoSub show_court_judge_warn
+Say "Judge: Let's hear your answer. Who is the victim in this case." Frames=0
+Choice "Mia Fey" victim_miafey
+Choice "Cinder Block" victim_cinderblock
+Choice "Cindy Stone" victim_cindystone seen_cindy_profile == true
+Choice "View Court Record" victim_courtrecord
+Label victim_miafey
+GoSub show_court_phoenix_thinking
+Say "Phoenix: Um... Mia Fey?" Frames=0
+GoSub show_court_mia_shocked
+Say "Mia: W-W-What!? How can I be the victim!?" Frames=0
+GoSub show_court_mia_disappointed
+Say "Phoenix: Oh! Right! Sorry! I, er, it was the first name that popped into my head, and--" Frames=0
+GoSub show_court_mia_serious
+Say "Mia: The Court Record! Remember to use it when you are in a pinch." Frames=0
+GoSub show_court_judge_warn
+Say "Judge: Let me ask that one again:" Frames=0
+Goto courtroom_choosevictim
+Label victim_cinderblock
+GoSub show_court_phoenix_thinking
+Say "Phoenix: Oh, um, wasn't it Ms. Block? Ms. Cinder Block?" Frames=0
+GoSub show_court_judge_warn
+Say "Judge: The person in question was a victim of murder, not ill- conceived naming, Mr. Wright." Frames=0
+GoSub show_court_mia_disappointed
+Say "Mia: Wright?" Frames=0
+Say "Mia: If you forget something, just use the Court Record to help you remember." Frames=0
+GoSub show_court_mia_serious
+Say "Mia: A mistake in court could cost you the case." Frames=0
+GoSub show_court_judge_warn
+Say "Judge: I'll ask you again:" Frames=0
+Goto courtroom_choosevictim
+Label victim_courtrecord
+GoSub open_court_record
+Goto courtroom_choosevictim
+Label victim_cindystone
+GoSub show_court_phoenix_normal
+Say "Phoenix: Um... the victim's name is Cindy Stone." Frames=0
+GoSub show_court_judge_normal
+Say "Judge: Now, tell me, what was the cause of death?" Frames=0
+Goto courtroom_choosecauseofdeath

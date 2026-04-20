@@ -1,0 +1,20 @@
+Variable word parallaxmove=0
+Level intromap
+CameraPosition Y=672 ResetMovement
+ActorYield 150
+Set parallaxmove=2
+While camera_y > 448
+    CameraPosition Y=camera_y - 1 ResetMovement
+    ActorYield 1
+End
+While camera_y > 224
+    CameraPosition Y=camera_y - 2 ResetMovement
+    ActorYield 1
+End
+Set parallaxmove=0
+ActorYield 50
+CameraPosition Y=0 ResetMovement
+While control1fire == false
+    ActorYield 1
+End
+Goto startup

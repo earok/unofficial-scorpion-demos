@@ -1,0 +1,71 @@
+Variable word cursor_offset=0
+Variable word height_delta=0
+PlayerAnimation anim_mouse Frame=0
+If player_y >= actor_y //Aiming below the player. Prevent divide/0 bug
+    If player_x >= actor_x //Are we facing right?
+        Set cursor_offset=5
+    Else
+        Set cursor_offset=-5
+    End
+Else
+    Set height_delta=actor_y - player_y
+    Set cursor_offset=player_x - actor_x
+    Set cursor_offset=cursor_offset / height_delta
+End
+
+If player_x >= actor_x //Are we facing right?
+    If cursor_offset < 1
+        ActorAnimation player1_torso1_r Frame=0
+        If control2fire == 1
+            ActorSpawnChild muzzle1_
+            NewDirection look_right
+        End
+    ElseIf cursor_offset < 2
+        ActorAnimation player1_torso2_r Frame=0
+        If control2fire == 1
+            ActorAnimation muzzle2_r Frame=0
+        End
+    ElseIf cursor_offset < 3
+        ActorAnimation player1_torso3_r Frame=0
+        If control2fire == 1
+            ActorAnimation muzzle3_r Frame=0
+        End
+    ElseIf cursor_offset < 4
+        ActorAnimation player1_torso4_r Frame=0
+        If control2fire == 1
+            ActorAnimation muzzle4_r Frame=0
+        End
+    Else
+        ActorAnimation player1_torso5_r Frame=0
+        If control2fire == 1
+            ActorAnimation muzzle5_r Frame=0
+        End
+    End
+Else //We are facing left
+    If cursor_offset > -1
+        ActorAnimation player1_torso1_l Frame=0
+        If control2fire == 1
+            ActorSpawnChild muzzle1_
+        End
+    ElseIf cursor_offset > -2
+        ActorAnimation player1_torso2_l Frame=0
+        If control2fire == 1
+            ActorAnimation muzzle2_l Frame=0
+        End
+    ElseIf cursor_offset > -3
+        ActorAnimation player1_torso3_l Frame=0
+        If control2fire == 1
+            ActorAnimation muzzle3_l Frame=0
+        End
+    ElseIf cursor_offset > -4
+        ActorAnimation player1_torso4_l Frame=0
+        If control2fire == 1
+            ActorAnimation muzzle4_l Frame=0
+        End
+    Else
+        ActorAnimation player1_torso5_l Frame=0
+        If control2fire == 1
+            ActorAnimation muzzle5_l Frame=0
+        End
+    End
+End

@@ -1,0 +1,6 @@
+If player_type == scott
+    PlayerType scott_jumpshadow ResetAnimation
+    PlayerSpawnChild scott_jumper
+    Set currentjumpspeed=jumpspeed
+    Set currentjumpheight=0
+End

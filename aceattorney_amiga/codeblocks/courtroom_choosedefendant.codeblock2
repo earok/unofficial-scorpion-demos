@@ -1,0 +1,65 @@
+GoSub show_court_judge_warn
+Say "Judge: Please state the name of the defendant in this case." Frames=0
+Choice "Phoenix Wright" defendant_phoenixwright
+Choice "Larry Butz" defendant_larrybutz
+Choice "Mia Fey" defendant_miafey
+Label repeat_defendant_answer
+GoSub show_court_judge_warn
+Say "Judge: Sorry, I couldn't hear your answer. I'll ask once more:" Frames=0
+Goto courtroom_choosedefendant
+Label defendant_phoenixwright
+GoSub show_court_phoenix_thinking
+Say "Phoenix: Um... the defendant... is me, right?" Frames=0
+GoSub show_court_mia_sad
+Say "Mia: Wright! Have you completely lost your mind? Focus!" Frames=0
+GoSub show_court_mia_shocked
+Say "Mia: The defendant is the person on trial!" Frames=0
+Say "Mia: You're his lawyer!" Frames=0
+GoSub show_court_mia_disappointed
+Say "Phoenix: Um, er, eh? Oh yeah, right! Eh heh heh." Frames=0
+Say "Mia: This is no laughing matter!" Frames=0
+Say "Mia: You did pass the bar, didn't you?" Frames=0
+Goto repeat_defendant_answer
+Label defendant_miafey
+GoSub show_court_phoenix_thinking
+Say "Phoenix: The, um, defendant? That's... er... Mia Fey?" Frames=0
+GoSub show_court_mia_disappointed
+Say "Mia: Wrong, Wright. Look, I have to leave." Frames=0
+Say "Mia: I have to go home. I'm... I'm expecting a delivery." Frames=0
+Say "Phoenix: Aw, c'mon Chief. There's no need to be going so soon, is there?" Frames=0
+GoSub show_court_mia_shocked
+Say "Mia: Wright!" Frames=0
+Say "Mia: Listen: the defendant is the one on trial--your client!" Frames=0
+GoSub show_court_mia_disappointed
+Say "Mia: I mean, that's about as basic as you can get!" Frames=0
+Say "Phoenix: (I put my foot in it this time! I've got to relax!)" Frames=0
+Goto repeat_defendant_answer
+Label defendant_larrybutz
+GoSub show_court_phoenix_thinking
+Say "Phoenix: The defendant? Well, that's Larry Butz, Your Honor." Frames=0
+GoSub show_court_judge_normal
+Say "Judge: Correct." Frames=0
+Say "Judge: Just keep your wits about you and you'll do fine." Frames=0
+Say "Judge: Next Question:" Frames=0
+GoSub show_court_judge_warn
+Say "Judge: This is a murder trial. Tell me - " Frames=0
+Say "Judge: What's the victim's name?" Frames=0
+GoSub show_court_phoenix_normal
+Say "Phoenix: (Whew, I know this one! Glad I read the case report cover to cover so many times.)" Frames=0
+GoSub show_court_phoenix_thinking
+Say "Phoenix: (It's... wait... Uh-oh!)" Frames=0
+GoSub show_court_phoenix_nervous
+Say "Phoenix: (No... no way! I forgot! I'm drawing a total blank here!)" Frames=0
+GoSub show_court_mia_shocked
+Say "Mia: Phoenix! Are you absolutely SURE you're up to this?" Frames=0
+Say "Mia: You don't even know the victim's name!?" Frames=0
+GoSub show_court_mia_disappointed
+Say "Phoenix: Oh, the victim! O-Of course I know the victim's name!" Frames=0
+Say "Phoenix: I, um, just forgot. ... Temporarily" Frames=0
+Say "Mia: I think I feel a migraine coming on." Frames=0
+GoSub show_court_mia_serious
+Say "Mia: Look, the victim's name is listed in the Court Record." Frames=0
+Say "Mia: Just select Court Record to check it, okay?" Frames=0
+GoSub show_court_mia_disappointed
+Say "Mia: Remember to check it often. Do it for me, please. I'm begging you." Frames=0
+Goto courtroom_choosevictim

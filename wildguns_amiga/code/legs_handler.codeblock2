@@ -1,0 +1,16 @@
+Variable word kb_left=0
+Variable word kb_right=0
+If player_x >= actor_x
+    If actor_type != player1_legs_r_side
+        ActorType player1_legs_r_side ResetMovement ResetAnimation
+    End
+Else
+    If actor_type != player1_legs_l_side
+        ActorType player1_legs_l_side ResetMovement ResetAnimation
+    End
+End
+If kb_left
+    Set control1_x=-1
+ElseIf kb_right
+    Set control1_x=1
+End

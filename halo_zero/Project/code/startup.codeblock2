@@ -1,0 +1,55 @@
+[neogeo] Constant Hifi=true
+[amiga_all] Constant Hifi=true
+[megadrive] Constant Hifi=true
+
+Constant Button_Fire=4
+Constant Button_Grenade=5
+[megadrive_or_neogeo] Constant Button_Reload=6
+[megadrive_or_neogeo] Constant Button_Swap=7
+[amiga_all] Constant Button_Reload=10
+[amiga_all] Constant Button_Swap=11
+
+LookupTable word heights "..\data\heights.txt"
+LookupTable word shoot_anims "..\data\shoot_anims.txt"
+LookupTable word dead_anims "..\data\dead_anims.txt"
+LookupTable word melee_anims "..\data\melee_anims.txt"
+LookupTable word grenade_anims "..\data\grenade_anims.txt"
+LookupTable word melee_damage "..\data\melee_damage.txt"
+LookupTable word mc_top_idles "..\data\mc_top_idles.txt"
+LookupTable word mc_top_melees "..\data\mc_top_melees.txt"
+LookupTable word mc_top_shoots "..\data\mc_top_shoots.txt"
+
+Variable word DeltaX=0
+Variable word DeltaY=0
+Variable word Health=75
+Variable word Shield=75
+Variable word ShieldDelay=0
+Variable word IsDucking=0
+
+Alias new_origintag=new_var2
+Alias actor_origintag=actor_var2
+Alias projectile_origintag=projectile_var2
+
+Alias new_health=new_var1
+Alias actor_health=actor_var1
+Alias projectile_health=projectile_var1
+Alias player_health=player_var1
+
+
+Level none
+GoSub freemem
+Panel title Frames=0 ForFire
+
+If Option == 1
+    GoSub freemem
+    Panel credits Frames=0 ForFire
+    Goto startup
+End
+
+If Option == 2
+    GoSub freemem
+    Panel instructions Frames=0 ForFire
+    Goto startup
+End
+
+Goto intro_code

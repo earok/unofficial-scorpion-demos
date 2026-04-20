@@ -1,0 +1,3 @@
+If camera_x > 768
+    ActorType none ResetMovement ResetAnimation
+End

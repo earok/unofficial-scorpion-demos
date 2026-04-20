@@ -1,0 +1,31 @@
+//Right facing
+If HS_Direction > 0
+    If Actor_X < HS_XOrigin
+        Return
+    End
+ElseIf HS_Direction < 0
+    //Left facing
+    If Actor_X > HS_XOrigin
+        Return
+    End
+End
+
+//The actor can only see what the player can see
+If actor_x < camera_x
+    Return
+End
+If actor_x > camera_x + xres
+    Return
+End
+//Special case - do not target the master chief's torso
+If actor_type == masterchief_top
+    Return
+End
+
+Absolute DeltaX=Actor_X - HS_XOrigin
+If DeltaX < HS_BestDistance
+    Set HS_BestDistance=DeltaX
+    Set HS_Success=True
+    Set hs_yhit=-heights[actor_type] >> 1 + actor_y
+    ActorAsNew self
+End

@@ -1,0 +1,7 @@
+Label timeloop
+Set timer=timer -1
+Yield 25
+If timer <= 0
+    Goto frog_deth_topscreen
+End
+Goto timeloop

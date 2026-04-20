@@ -1,0 +1,27 @@
+Set currenttile=fmvdata[pcx]
+Set pcx=pcx + 1
+If currenttile == 0
+    Quit="Thank you for watching!" //End of program
+End
+GoSub set_tile_parameters
+Label tileloop
+If drawx >= 0
+    SetBlock currenttile X=drawx Y=drawy
+End
+Set drawx=drawx + 1
+If drawx > 15
+    Set drawx=0
+    Set drawy=drawy + 1
+    If drawy > 11
+        Set drawy=0
+        ActorYield 4
+    End
+    If drawy % 2
+        ActorYield 1
+    End
+End
+If rle > 0
+    Set rle=rle - 1
+    Goto tileloop
+End
+Goto process_next_tile

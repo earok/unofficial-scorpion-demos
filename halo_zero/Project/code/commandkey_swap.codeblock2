@@ -1,0 +1,1 @@
+[amiga_all] Set control1_buttons=control1_buttons | 0x800 //Set bit 11 (CD32 Yellow)

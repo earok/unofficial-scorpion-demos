@@ -1,0 +1,202 @@
+Compiled on Saturday, 3 January 2026 7:44:07 p.m.
+Version string: SE2025.0.260103.19.39.EX
+
+=== Misc ===
+ImageFrames: 1
+ImageFrame Data Size: 48
+Maps and Asset Bundles Count: 4
+Maps and Asset Bundles Data Size: 0
+Actor Count: 1
+Actor Data Size: 180
+Block Count: 1
+Block Data Size: 68
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 4
+Sound Data Size: 112
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 1
+Animations Data Size: 16
+AnimationFrame Count: 2
+AnimationFrame Data Size: 32
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 1
+Attack Data Size: 88
+Misc data size: 20
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   PL04 |      364 |       76 |   Implode | Panel (background color #000)
+   PL01 |      440 |     3380 |   Implode | Panel scorpion_eng_splashscreen
+   PL02 |     3820 |    11696 |   Implode | Panel pic_title
+   PL03 |    15516 |     1396 |   Implode | Panel talkpad
+   PC03 |    16912 |     2772 |   Implode | Panel bobs talkpad
+   VC00 |    19684 |    15628 |   Implode | Project virtual machine (codeblocks)
+   MH01 |    35312 |      202 |   Implode | Header data for map court
+   MD01 |    35514 |     8362 |   Implode | Tile data for map court (mem restrictions:No_Blocks)
+   MH02 |    43876 |      204 |   Implode | Header data for map intro0
+   MD02 |    44080 |     3624 |   Implode | Tile data for map intro0 (mem restrictions:No_Blocks)
+   MH03 |    47704 |      196 |   Implode | Header data for map lobby
+   MD03 |    47900 |     2452 |   Implode | Tile data for map lobby (mem restrictions:No_Blocks)
+   AB00 |    50352 |    21804 |   Implode | Asset bundle 0 (Core project asset bundle)
+   AB01 |    72156 |   167456 |   Implode | Asset bundle 1 (court)
+   AB02 |   239612 |    91290 |   Implode | Asset bundle 2 (intro0)
+   AB03 |   330902 |    56920 |   Implode | Asset bundle 3 (lobby)
+   DB00 |   387822 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   387824 |     1214 |   Implode | Project Header
+   PD00 |   389038 |      118 |   Implode | Project Data
+   VR00 |   389156 |     1352 |   Implode | Project virtual machine redirects
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+  167456 |   350080 |  (53%) | Asset bundle 1 (court)
+   91290 |   173280 |  (48%) | Asset bundle 2 (intro0)
+   56920 |   100480 |  (44%) | Asset bundle 3 (lobby)
+   21804 |    25248 |  (14%) | Asset bundle 0 (Core project asset bundle)
+   15628 |    54228 |  (72%) | Project virtual machine (codeblocks)
+   11696 |    52984 |  (78%) | Panel pic_title
+    8362 |    40400 |  (80%) | Tile data for map court (mem restrictions:No_Blocks)
+    3624 |    11440 |  (69%) | Tile data for map intro0 (mem restrictions:No_Blocks)
+    3380 |    36784 |  (91%) | Panel scorpion_eng_splashscreen
+    2772 |    17428 |  (85%) | Panel bobs talkpad
+    2452 |    18032 |  (87%) | Tile data for map lobby (mem restrictions:No_Blocks)
+    1396 |    15744 |  (92%) | Panel talkpad
+    1352 |     1860 |  (28%) | Project virtual machine redirects
+    1214 |     4376 |  (73%) | Project Header
+     204 |      848 |  (76%) | Header data for map intro0
+     202 |      848 |  (77%) | Header data for map court
+     196 |      848 |  (77%) | Header data for map lobby
+     118 |      588 |  (80%) | Project Data
+      76 |     1296 |  (95%) | Panel (background color #000)
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+
+For chip:
+Map gfx (level gfx bundle 1): 350080
+Music sample (): 0
+BP Buffer memory: 132480
+Core sfx/gfx memory: 25248
+Parallax memory: 0
+OS/other estimated: 99328
+
+For other:
+Map data memory: 40400
+Map background memory: 1296
+EXE memory: 219516
+vm memory: 54228
+project memory: 588
+Music data (): 0
+memory reserved for active actors on screen (32): 5064
+memory reserved for dormant actors in map (128): 4608
+OS/other estimated: 105472
+
+Accounted memory chip: 607136
+Accounted memory other: 431172
+Accounted memory total: 1038308
+
+=== Codeblocks by compiled size ===
+courtroom_questioning: 11036
+courtroom_callwitness: 7334
+start_lobby: 5770
+courtroom_choosedefendant: 4224
+courtroom_crossexamination_courtrecord: 3026
+start_courtroom: 2326
+courtroom_choosecauseofdeath: 2178
+courtroom_crossexamination: 2080
+courtroom_choosevictim: 2026
+start_case1: 1402
+open_evidence: 1096
+open_profiles: 946
+load_level: 676
+pre_startup: 438
+do_teleport: 320
+flipscreen_smooth: 310 (Unused?)
+flipxymove: 278 (Unused?)
+load_next_level: 268 (Unused?)
+freemem: 256
+startup: 218
+block_find: 210 (Unused?)
+set_yresolution: 202
+waitforframes: 194
+check_talkpad: 192
+pause: 184 (Unused?)
+block_count: 178 (Unused?)
+flipymove: 162 (Unused?)
+snap_to_screen: 162 (Unused?)
+pre_quit: 160
+flipxmove: 142 (Unused?)
+restart_this_level: 136 (Unused?)
+load_panel: 134
+stop_sfx: 130
+destroy_all_blocks: 128 (Unused?)
+open_court_record: 124
+unload_level: 118
+objection_payne: 110
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+waitforfireup: 106
+show_court_gavel: 106
+unload_panel: 102
+waitforfiredown: 102
+load_panel_bottom: 96
+load_panel_top: 96
+destroy_child_actors: 94 (Unused?)
+pre_load_level: 86
+waitforfirehit: 86
+show_court_phoenix_deskslam: 84
+load_music: 78
+fadeout: 76
+load_music_finish: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+set_ntsc: 74 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+jump_actor: 66 (Unused?)
+show_court_mia_sad: 66
+show_court_mia_serious: 66
+show_court_mia_shocked: 66
+show_court_phoenix_nervous: 66
+show_court_phoenix_paper: 66
+show_court_phoenix_point: 66
+show_court_phoenix_shocked: 66 (Unused?)
+show_court_phoenix_thinking: 66
+show_court_sahwit_nervous: 62
+show_court_sahwit_normal: 62
+destroy_all_actors: 60 (Unused?)
+quit: 60 (Unused?)
+destroy_actor: 58
+show_court_judge_normal: 58
+show_court_judge_shocked: 58
+show_court_judge_thinking: 58
+show_court_judge_warn: 58
+show_court_larry_nervous: 58
+show_court_mia_disappointed: 58
+show_court_payne_nervous: 58
+show_court_payne_smug: 58 (Unused?)
+show_court_phoenix_normal: 58
+show_court_phoenix_smug: 58
+show_lobby_cindy: 58
+freemem_hard: 54 (Unused?)
+show_court_larry_normal: 54
+show_court_payne_normal: 54
+show_lobby_mia_smile1: 54
+destroy_block: 52 (Unused?)
+return: 52
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
+show_lobby_empty: 50
+freeze_actor: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32
+debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)

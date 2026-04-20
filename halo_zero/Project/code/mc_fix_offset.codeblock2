@@ -1,0 +1,8 @@
+ForEachActor actor_type == masterchief_top Goto mc_fix_offset_inner
+Return
+Label mc_fix_offset_inner
+If IsDucking
+    Set actor_origin_y=-21
+Else
+    Set actor_origin_y=-39
+End

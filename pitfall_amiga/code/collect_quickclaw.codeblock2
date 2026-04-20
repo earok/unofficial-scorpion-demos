@@ -1,0 +1,5 @@
+Sound bigcollect Period=true
+SetBlock none
+Set score=score + 10000
+Set has_quickclaw=true
+Goto celebrate

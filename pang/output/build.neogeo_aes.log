@@ -1,0 +1,154 @@
+Compiled on Saturday, 3 January 2026 9:57:14 a.m.
+Version string: SE2025.0.260102.23.09.EX
+
+ImageFrame Data Size: 1594
+Actor Count: 11
+Actor Data Size: 1980
+Animations Count: 18
+Animations Data Size: 288
+AnimationFrame Count: 47
+AnimationFrame Data Size: 752
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   VC00 |   107848 |    11270 |  NoCrunch | Project virtual machine (codeblocks)
+   PL01 |   119118 |     2012 |  NoCrunch | Panel 
+   PL02 |   121130 |     1196 |  NoCrunch | Panel panel_hud
+   PL03 |   122326 |     1932 |  NoCrunch | Panel panel_title
+   PL04 |   124258 |     1932 |  NoCrunch | Panel panel_win
+   PB00 |   126190 |       68 |  NoCrunch | Project blocks
+   PI00 |   126258 |     1594 |  NoCrunch | Images
+   PA00 |   127852 |     1980 |  NoCrunch | Project actors
+   ML01 |   129832 |        6 |       ZX0 | Map block data for tajmahal
+   MA01 |   129838 |       20 |       ZX0 | Map actor data for tajmahal
+   MH01 |   129858 |      848 |  NoCrunch | Header data for map tajmahal
+   MT01 |   130706 |       20 |       ZX0 | Map tile data  tajmahal
+   MD01 |   130726 |      960 |  NoCrunch | Tile data for map tajmahal (mem restrictions:None)
+   ME01 |   131686 |       44 |  NoCrunch | Map event data for tajmahal
+   MY01 |   131730 |       88 |  NoCrunch | Get Y lookup table tajmahal
+   MN01 |   131818 |       20 |  NoCrunch | Map path node data for tajmahal
+   NT00 |   131838 |      860 |  NoCrunch | Project name table
+   PN00 |   132698 |      288 |  NoCrunch | Animations
+   PF00 |   132986 |      752 |  NoCrunch | Animation Frames
+   PS00 |   133738 |      112 |  NoCrunch | Project sound
+   DB00 |   133850 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   133852 |    11482 |  NoCrunch | Project Header
+   PD01 |   145334 |        4 |  NoCrunch | Project Custom Collisions
+   PV00 |   145338 |      164 |  NoCrunch | Var Data
+   AT00 |   145502 |      264 |  NoCrunch | Attack Data
+   PE00 |   145766 |        8 |  NoCrunch | Teleporters
+
+=== Data Sizes ===
+    Size |   Memory | Crunch | Detail
+   11482 |    11482 |        | Project Header
+   11270 |    11270 |        | Project virtual machine (codeblocks)
+    2012 |     2012 |        | Panel 
+    1980 |     1980 |        | Project actors
+    1932 |     1932 |        | Panel panel_title
+    1932 |     1932 |        | Panel panel_win
+    1594 |     1594 |        | Images
+    1196 |     1196 |        | Panel panel_hud
+     960 |      960 |        | Tile data for map tajmahal (mem restrictions:None)
+     860 |      860 |        | Project name table
+     848 |      848 |        | Header data for map tajmahal
+     752 |      752 |        | Animation Frames
+     288 |      288 |        | Animations
+     264 |      264 |        | Attack Data
+     164 |      164 |        | Var Data
+     112 |      112 |        | Project sound
+      88 |       88 |        | Get Y lookup table tajmahal
+      68 |       68 |        | Project blocks
+      44 |       44 |        | Map event data for tajmahal
+      20 |       56 |  (65%) | Map actor data for tajmahal
+      20 |      572 |  (97%) | Map tile data  tajmahal
+      20 |       20 |        | Map path node data for tajmahal
+       8 |        8 |        | Teleporters
+       6 |      572 |  (99%) | Map block data for tajmahal
+       4 |        4 |        | Project Custom Collisions
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+NeoGeo BIOS memory: 3328
+RAM reserved for level tiles: (largest level: tajmahal): 1144
+memory reserved for active actors on screen (32): 5064
+memory reserved for dormant actors in map (128): 4608
+
+Total: 14144 bytes
+
+=== Possibly unused animations ===
+explo_r
+
+=== Codeblocks by compiled size ===
+load_level: 636
+spawn_l_bubbles: 352
+spawn_m_bubbles: 352
+spawn_s_bubbles: 352
+pre_startup: 348
+show_menu: 348
+flipscreen_smooth: 310 (Unused?)
+do_teleport: 300
+player_autogen_attack: 292
+flipxymove: 278 (Unused?)
+load_next_level: 268 (Unused?)
+freemem: 256
+set_yresolution: 256 (Unused?)
+kill_player: 232
+block_find: 210 (Unused?)
+check_win: 210
+waitforframes: 194
+block_count: 178 (Unused?)
+check_talkpad: 172 (Unused?)
+flipymove: 162 (Unused?)
+snap_to_screen: 162
+pre_quit: 160 (Unused?)
+flipxmove: 142 (Unused?)
+pause: 138 (Unused?)
+restart_this_level: 136 (Unused?)
+load_panel: 134
+stop_sfx: 130
+destroy_all_blocks: 128 (Unused?)
+kill_bubble: 126
+unload_level: 118
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
+fadein: 108
+unload_panel: 102
+load_panel_bottom: 96
+load_panel_top: 96
+destroy_child_actors: 94 (Unused?)
+pre_load_level: 86
+waitforfirehit: 86
+game_over: 86
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_None_None: 78
+fadeout: 76
+load_music_finish: 76
+wrap_screen_bottom: 76 (Unused?)
+wrap_screen_right: 76 (Unused?)
+flipscreen: 72 (Unused?)
+wrap_screen_left: 72 (Unused?)
+wrap_screen_top: 72 (Unused?)
+spawn_bullet: 72
+jump_actor: 66 (Unused?)
+waitforfiredown: 64
+load_music: 62
+waitforfireup: 62
+destroy_all_actors: 60 (Unused?)
+destroy_actor: 58
+freemem_hard: 54 (Unused?)
+AUTOGEN_OUTOFSCREEN_None_None_None_destroy_actor: 54
+destroy_block: 52 (Unused?)
+return: 52 (Unused?)
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
+freeze_actor: 40 (Unused?)
+quit: 40 (Unused?)
+unfreeze_actor: 40 (Unused?)
+block_coll_force: 32 (Unused?)
+block_coll_passthru: 32
+startup: 32
+debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
+set_ntsc: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)

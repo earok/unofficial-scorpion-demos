@@ -1,0 +1,19 @@
+If projectile_origintag == marine //Never get hit by other marines
+    Return
+End
+If projectile_tag == fx
+    Return
+End
+If projectile_tag == grenade
+    Goto grenade_explode
+End
+
+If Health <= 0
+    Return
+End
+
+Set Shield=Shield - projectile_health
+ProjectileType None
+Spawn plasma_rifle_hit X=projectile_x Y=projectile_y
+ActorAsNew self
+Goto hurt_mc

@@ -1,0 +1,105 @@
+Set view_blocked=0
+
+///** LEFT BIG WALL */
+GetBlock temp_block X=player_x >> 4 Y=player_y >> 4 - 1
+If temp_block
+    ForEachActor actor_type == wall_big_left Goto set_left_wall_big_solid
+Else
+    GetBlock temp_block X=player_x >> 4 + 1 Y=player_y >> 4 - 1
+    If temp_block
+        ForEachActor actor_type == wall_big_left Goto set_left_wall_big_flat
+    Else
+        ForEachActor actor_type == wall_big_left Goto set_empty
+    End
+End
+
+///** RIGHT BIG WALL */
+GetBlock temp_block X=player_x >> 4 Y=player_y >> 4 + 1
+If temp_block
+    ForEachActor actor_type == wall_big_right Goto set_right_wall_big_solid
+Else
+    GetBlock temp_block X=player_x >> 4 + 1 Y=player_y >> 4 + 1
+    If temp_block
+        ForEachActor actor_type == wall_big_right Goto set_right_wall_big_flat
+    Else
+        ForEachActor actor_type == wall_big_right Goto set_empty
+    End
+End
+
+///** FRONT WALL */
+GetBlock temp_block X=player_x >> 4 + 1 Y=player_y >> 4
+If temp_block
+    ForEachActor actor_type == wall_front Goto set_front_wall_big
+    Set view_blocked=1
+Else
+    GetBlock temp_block X=player_x >> 4 + 2 Y=player_y >> 4
+    If temp_block
+        ForEachActor actor_type == wall_front Goto set_front_wall_med
+        Set view_blocked=1
+    Else
+        GetBlock temp_block X=player_x >> 4 + 3 Y=player_y >> 4
+        If temp_block
+            ForEachActor actor_type == wall_front Goto set_front_wall_small
+        Else
+            ForEachActor actor_type == wall_front Goto set_empty
+        End
+    End
+End
+
+///** LEFT MEDIUM WALL */
+GetBlock temp_block X=player_x >> 4 + 1 Y=player_y >> 4 - 1
+If temp_block
+    ForEachActor actor_type == wall_med_left Goto set_left_wall_med_solid
+Else
+    GetBlock temp_block X=player_x >> 4 + 2 Y=player_y >> 4 - 1
+    If temp_block
+        ForEachActor actor_type == wall_med_left Goto set_left_wall_med_flat
+    Else
+        ForEachActor actor_type == wall_med_left Goto set_empty
+    End
+End
+
+///** RIGHT MEDIUM WALL */
+GetBlock temp_block X=player_x >> 4 + 1 Y=player_y >> 4 + 1
+If temp_block
+    ForEachActor actor_type == wall_med_right Goto set_right_wall_med_solid
+Else
+    GetBlock temp_block X=player_x >> 4 + 2 Y=player_y >> 4 + 1
+    If temp_block
+        ForEachActor actor_type == wall_med_right Goto set_right_wall_med_flat
+    Else
+        ForEachActor actor_type == wall_med_right Goto set_empty
+    End
+End
+
+If view_blocked
+    ForEachActor actor_type == wall_small_left Goto set_empty
+    ForEachActor actor_type == wall_small_right Goto set_empty
+    Return
+End
+
+///** LEFT SMALL WALL */
+GetBlock temp_block X=player_x >> 4 + 2 Y=player_y >> 4 - 1
+If temp_block
+    ForEachActor actor_type == wall_small_left Goto set_left_wall_small_solid
+Else
+    GetBlock temp_block X=player_x >> 4 + 3 Y=player_y >> 4 - 1
+    If temp_block
+        ForEachActor actor_type == wall_small_left Goto set_left_wall_small_flat
+    Else
+        ForEachActor actor_type == wall_small_left Goto set_empty
+    End
+End
+
+///** RIGHT SMALL WALL */
+GetBlock temp_block X=player_x >> 4 + 2 Y=player_y >> 4 + 1
+If temp_block
+    ForEachActor actor_type == wall_small_right Goto set_right_wall_small_solid
+Else
+    GetBlock temp_block X=player_x >> 4 + 3 Y=player_y >> 4 + 1
+    If temp_block
+        ForEachActor actor_type == wall_small_right Goto set_right_wall_small_flat
+    Else
+        ForEachActor actor_type == wall_small_right Goto set_empty
+    End
+End

@@ -1,0 +1,14 @@
+ProjectileType none ResetMovement ResetAnimation
+If actor_var5 == 1
+    Return
+End
+Set actor_var5=1
+Set score=score + 50
+ActorDirection stop_moving
+ActorSpeed X=0.0 Y=0.0 Angle=0
+ActorAnimation explo_l Frame=0
+Sound sndpook Period=0
+ActorYield 2
+ActorSpawnChild ball_m_left
+ActorSpawnChild ball_m_right
+Set bubblescount=bubblescount + 1

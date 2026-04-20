@@ -1,0 +1,7 @@
+Variable word current_block=0
+Variable word x1=0
+Variable word y1=0
+JumpControls player1 !JF
+PanelSpecial sidepanel
+Level l1
+CameraPosition X=64 ResetMovement
