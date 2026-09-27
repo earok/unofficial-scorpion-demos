@@ -38,5 +38,6 @@
   "PaletteLineNeo": 0,
   "IsForeground": false,
   "BlockTag": null,
+  "IsBaked": false,
   "TileID": 0
 }

@@ -15,7 +15,7 @@
   "XFillSize": 24,
   "YFillSize": 17,
   "MDPlaneMode": "Width_512_Height_256",
-  "XFillSizeMD": 21,
+  "XFillSizeMD": 22,
   "YFillSizeMD": 16,
   "MapCache": false,
   "DoubleCopper": true,
@@ -24,5 +24,6 @@
   "MaxActiveActors": 48,
   "MaxDormantActors": 128,
   "PaletteLines": 2,
-  "StartingPaletteLine": 0
+  "StartingPaletteLine": 0,
+  "Players": 1
 }

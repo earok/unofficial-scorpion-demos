@@ -1,7 +1,7 @@
-Compiled on Tuesday, 24 March 2026 11:58:32 a.m.
-Version string: SE2026.0.260324.11.49.EX
+Compiled on Tuesday, 30 June 2026 3:48:50 p.m.
+Version string: SE2026.0.260630.11.50.EX
 
-ImageFrame Data Size: 17188
+ImageFrame Data Size: 16222
 Actor Count: 32
 Actor Data Size: 5760
 Animations Count: 119
@@ -11,122 +11,122 @@ AnimationFrame Data Size: 4928
 
 === Cartridge Composition ===
  Header |   Offset | Size     | Crunch    | Detail
-   MC00 |   129280 |      172 |  NoCrunch | XGM Null song
-   XG-1 |   140288 |      854 |  NoCrunch | XGM 68K Plugin Driver
-   XG00 |   152064 |     5888 |  NoCrunch | XGM Core Driver
-   XG01 |   129024 |      256 |  NoCrunch | XGM Null sound
-   XG02 |   129536 |    10752 |  NoCrunch | XGM PCM sound: elitedead
-   XG03 |   141312 |    10752 |  NoCrunch | XGM PCM sound: fragexplosion
-   XG04 |   157952 |     7680 |  NoCrunch | XGM PCM sound: gruntdead
-   XG05 |   165632 |     8448 |  NoCrunch | XGM PCM sound: jackaldead
-   XG06 |   174080 |     7936 |  NoCrunch | XGM PCM sound: masterchiefdead
-   XG07 |   182016 |     4864 |  NoCrunch | XGM PCM sound: needlershot
-   XG08 |   186880 |     7424 |  NoCrunch | XGM PCM sound: pistolshot
-   XG09 |   194304 |    11264 |  NoCrunch | XGM PCM sound: plasma_charge_loop
-   XG10 |   205568 |    11264 |  NoCrunch | XGM PCM sound: plasma_charge_start
-   XG11 |   216832 |     9984 |  NoCrunch | XGM PCM sound: plasmaexplosion
-   XG12 |   226816 |     7168 |  NoCrunch | XGM PCM sound: plasmapistolcharged
-   XG13 |   233984 |     6400 |  NoCrunch | XGM PCM sound: plasmapistolshot
-   XG14 |   240384 |     8448 |  NoCrunch | XGM PCM sound: plasmarifleshot
-   XG15 |   248832 |     7168 |  NoCrunch | XGM PCM sound: reload
-   XG16 |   256000 |     7168 |  NoCrunch | XGM PCM sound: rifleshot
-   XG17 |   263168 |     6144 |  NoCrunch | XGM PCM sound: shieldlow
-   XG18 |   269312 |    20736 |  NoCrunch | XGM PCM sound: shieldrecharge
-   PS00 |   290048 |      504 |  NoCrunch | Project sound
-   FN00 |   290552 |     2048 |  NoCrunch | Default MD font
-   VC00 |   292600 |    26984 |  NoCrunch | Project virtual machine (codeblocks)
-   PL01 |   319584 |    10380 |  NoCrunch | Panel 
-   PL02 |   329964 |    38860 |  NoCrunch | Panel credits
-   PL03 |   368824 |    38764 |  NoCrunch | Panel instructions
-   PL04 |   407588 |    36768 |  NoCrunch | Panel title
-   NF05 |   444356 |      320 |  NoCrunch | Number font for panel 5
-   PL05 |   444676 |     2444 |  NoCrunch | Panel top_hud
-   PI00 |   447120 |    18612 |  NoCrunch | Images
-   PB00 |   465732 |     1224 |  NoCrunch | Project blocks
-   PA00 |   466956 |     5760 |  NoCrunch | Project actors
-   PP00 |   128858 |      138 |  NoCrunch | Project patterns
-   MT01 |   128996 |       14 |       ZX0 | Map tile data  intro
-   MD01 |   472716 |     5120 |  NoCrunch | Tile data for map intro (mem restrictions:None)
-   PP01 |   477836 |      576 |  NoCrunch | Pattern data for intro
-   ME01 |   129452 |       44 |  NoCrunch | Map event data for intro
-   MY01 |   478412 |      520 |  NoCrunch | Get Y lookup table intro
-   MN01 |   129496 |       20 |  NoCrunch | Map path node data for intro
-   MH01 |   478932 |      848 |  NoCrunch | Header data for map intro
-   ML01 |   129010 |        8 |       ZX0 | Map block data for intro
-   MT02 |   479780 |    13944 |  NoCrunch | Map tile data  level1
-   MD02 |   493724 |    25792 |  NoCrunch | Tile data for map level1 (mem restrictions:None)
-   PP02 |   519516 |     3418 |  NoCrunch | Pattern data for level1
-   ME02 |   141142 |       76 |  NoCrunch | Map event data for level1
-   MY02 |   522934 |      112 |  NoCrunch | Get Y lookup table level1
-   MN02 |   141218 |       20 |  NoCrunch | Map path node data for level1
-   MA02 |   523046 |      196 |       ZX0 | Map actor data for level1
-   MH02 |   523242 |      848 |  NoCrunch | Header data for map level1
-   ML02 |   524090 |    13944 |  NoCrunch | Map block data for level1
-   NT00 |   538034 |     3688 |  NoCrunch | Project name table
-   PP-1 |   541722 |   332096 |  NoCrunch | Streamed project patterns
-   PN00 |   873818 |     1904 |  NoCrunch | Animations
-   PF00 |   875722 |     4928 |  NoCrunch | Animation Frames
-   DB00 |   129018 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |   880650 |    11482 |  NoCrunch | Project Header
-   PD01 |   129516 |        8 |  NoCrunch | Project Custom Collisions
-   PV00 |   892132 |      506 |  NoCrunch | Var Data
-   AT00 |   892638 |      792 |  NoCrunch | Attack Data
-   PE00 |   129524 |        8 |  NoCrunch | Teleporters
+   MC00 |   138002 |      172 |  NoCrunch | XGM Null song
+   PG-1 |   138240 |     7424 |  NoCrunch | Plugin: XGM Plugin
+   XG01 |   145664 |      256 |  NoCrunch | XGM Null sound
+   XG02 |   145920 |    10752 |  NoCrunch | XGM PCM sound: elitedead
+   XG03 |   156672 |    10752 |  NoCrunch | XGM PCM sound: fragexplosion
+   XG04 |   167424 |     7680 |  NoCrunch | XGM PCM sound: gruntdead
+   XG05 |   175104 |     8448 |  NoCrunch | XGM PCM sound: jackaldead
+   XG06 |   183552 |     7936 |  NoCrunch | XGM PCM sound: masterchiefdead
+   XG07 |   191488 |     4864 |  NoCrunch | XGM PCM sound: needlershot
+   XG08 |   196352 |     7424 |  NoCrunch | XGM PCM sound: pistolshot
+   XG09 |   203776 |    11264 |  NoCrunch | XGM PCM sound: plasma_charge_loop
+   XG10 |   215040 |    11264 |  NoCrunch | XGM PCM sound: plasma_charge_start
+   XG11 |   226304 |     9984 |  NoCrunch | XGM PCM sound: plasmaexplosion
+   XG12 |   236288 |     7168 |  NoCrunch | XGM PCM sound: plasmapistolcharged
+   XG13 |   243456 |     6400 |  NoCrunch | XGM PCM sound: plasmapistolshot
+   XG14 |   249856 |     8448 |  NoCrunch | XGM PCM sound: plasmarifleshot
+   XG15 |   258304 |     7168 |  NoCrunch | XGM PCM sound: reload
+   XG16 |   265472 |     7168 |  NoCrunch | XGM PCM sound: rifleshot
+   XG17 |   272640 |     6144 |  NoCrunch | XGM PCM sound: shieldlow
+   XG18 |   278784 |    20736 |  NoCrunch | XGM PCM sound: shieldrecharge
+   PS00 |   299520 |      504 |  NoCrunch | Project sound
+   FN00 |   300024 |     2048 |  NoCrunch | Default MD font
+   VV00 |   302072 |       78 |       ZX0 | Project Variables
+   VC00 |   302150 |    24346 |  NoCrunch | Project virtual machine (codeblocks)
+   PL01 |   326496 |    10384 |  NoCrunch | Panel 
+   PL02 |   336880 |    38864 |  NoCrunch | Panel credits
+   PL03 |   375744 |    38768 |  NoCrunch | Panel instructions
+   PL04 |   414512 |    36772 |  NoCrunch | Panel title
+   NF05 |   451284 |      320 |  NoCrunch | Number font for panel 5
+   PL05 |   451604 |     2864 |  NoCrunch | Panel top_hud
+   PI00 |   454468 |    17646 |  NoCrunch | Images
+   PB00 |   472114 |     1224 |  NoCrunch | Project blocks
+   PA00 |   473338 |     5760 |  NoCrunch | Project actors
+   PP00 |   479098 |      108 |  NoCrunch | Project patterns
+   MT01 |   138174 |       14 |       ZX0 | Map tile data  intro
+   MD01 |   479206 |     5120 |  NoCrunch | Tile data for map intro (mem restrictions:None)
+   PP01 |   484326 |      576 |  NoCrunch | Pattern data for intro
+   ME01 |   138188 |       44 |  NoCrunch | Map event data for intro
+   MY01 |   484902 |      520 |  NoCrunch | Get Y lookup table intro
+   MN01 |   485422 |       20 |  NoCrunch | Map path node data for intro
+   MH01 |   485442 |      848 |  NoCrunch | Header data for map intro
+   ML01 |   486290 |        8 |       ZX0 | Map block data for intro
+   MT02 |   486298 |    13944 |  NoCrunch | Map tile data  level1
+   MD02 |   500242 |    25792 |  NoCrunch | Tile data for map level1 (mem restrictions:None)
+   PP02 |   526034 |     3364 |  NoCrunch | Pattern data for level1
+   ME02 |   529398 |       76 |  NoCrunch | Map event data for level1
+   MY02 |   529474 |      112 |  NoCrunch | Get Y lookup table level1
+   MN02 |   529586 |       20 |  NoCrunch | Map path node data for level1
+   MA02 |   529606 |      196 |       ZX0 | Map actor data for level1
+   MH02 |   529802 |      848 |  NoCrunch | Header data for map level1
+   ML02 |   530650 |    13944 |  NoCrunch | Map block data for level1
+   NT00 |   544594 |     3376 |  NoCrunch | Project name table
+   PP-1 |   547970 |   332096 |  NoCrunch | Streamed project patterns
+   PN00 |   880066 |     1904 |  NoCrunch | Animations
+   PF00 |   881970 |     4928 |  NoCrunch | Animation Frames
+   DB00 |   138232 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   886898 |    11614 |  NoCrunch | Project Header
+   PD01 |   898512 |        8 |  NoCrunch | Project Custom Collisions
+   PV00 |   898520 |      452 |  NoCrunch | Var Data
+   AT00 |   898972 |      528 |  NoCrunch | Attack Data
+   PE00 |   899500 |        8 |  NoCrunch | Teleporters
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
   332096 |   332096 |        | Streamed project patterns
-   38860 |    38860 |        | Panel credits
-   38764 |    38764 |        | Panel instructions
-   36768 |    36768 |        | Panel title
-   26984 |    26984 |        | Project virtual machine (codeblocks)
+   38864 |    38864 |        | Panel credits
+   38768 |    38768 |        | Panel instructions
+   36772 |    36772 |        | Panel title
    25792 |    25792 |        | Tile data for map level1 (mem restrictions:None)
+   24346 |    24346 |        | Project virtual machine (codeblocks)
    20736 |    20736 |        | XGM PCM sound: shieldrecharge
-   18612 |    18612 |        | Images
+   17646 |    17646 |        | Images
    13944 |    13944 |        | Map tile data  level1
    13944 |    13944 |        | Map block data for level1
-   11482 |    11482 |        | Project Header
+   11614 |    11614 |        | Project Header
    11264 |    11264 |        | XGM PCM sound: plasma_charge_loop
    11264 |    11264 |        | XGM PCM sound: plasma_charge_start
    10752 |    10752 |        | XGM PCM sound: elitedead
    10752 |    10752 |        | XGM PCM sound: fragexplosion
-   10380 |    10380 |        | Panel 
+   10384 |    10384 |        | Panel 
     9984 |     9984 |        | XGM PCM sound: plasmaexplosion
     8448 |     8448 |        | XGM PCM sound: jackaldead
     8448 |     8448 |        | XGM PCM sound: plasmarifleshot
     7936 |     7936 |        | XGM PCM sound: masterchiefdead
     7680 |     7680 |        | XGM PCM sound: gruntdead
+    7424 |     7424 |        | Plugin: XGM Plugin
     7424 |     7424 |        | XGM PCM sound: pistolshot
     7168 |     7168 |        | XGM PCM sound: plasmapistolcharged
     7168 |     7168 |        | XGM PCM sound: reload
     7168 |     7168 |        | XGM PCM sound: rifleshot
     6400 |     6400 |        | XGM PCM sound: plasmapistolshot
     6144 |     6144 |        | XGM PCM sound: shieldlow
-    5888 |     5888 |        | XGM Core Driver
     5760 |     5760 |        | Project actors
     5120 |     5120 |        | Tile data for map intro (mem restrictions:None)
     4928 |     4928 |        | Animation Frames
     4864 |     4864 |        | XGM PCM sound: needlershot
-    3688 |     3688 |        | Project name table
-    3418 |     3418 |        | Pattern data for level1
-    2444 |     2444 |        | Panel top_hud
+    3376 |     3376 |        | Project name table
+    3364 |     3364 |        | Pattern data for level1
+    2864 |     2864 |        | Panel top_hud
     2048 |     2048 |        | Default MD font
     1904 |     1904 |        | Animations
     1224 |     1224 |        | Project blocks
-     854 |      854 |        | XGM 68K Plugin Driver
      848 |      848 |        | Header data for map intro
      848 |      848 |        | Header data for map level1
-     792 |      792 |        | Attack Data
      576 |      576 |        | Pattern data for intro
+     528 |      528 |        | Attack Data
      520 |      520 |        | Get Y lookup table intro
-     506 |      506 |        | Var Data
      504 |      504 |        | Project sound
+     452 |      452 |        | Var Data
      320 |      320 |        | Number font for panel 5
      256 |      256 |        | XGM Null sound
      196 |     1064 |  (82%) | Map actor data for level1
      172 |      172 |        | XGM Null song
-     138 |      138 |        | Project patterns
      112 |      112 |        | Get Y lookup table level1
+     108 |      108 |        | Project patterns
+      78 |     2854 |  (98%) | Project Variables
       76 |       76 |        | Map event data for level1
       44 |       44 |        | Map event data for intro
       20 |       20 |        | Map path node data for intro
@@ -140,10 +140,11 @@ AnimationFrame Data Size: 4928
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 RAM reserved for level tiles: (largest level: intro): 5720
+memory reserved for codeblocks variables: 2854
 memory reserved for active actors on screen (48): 7592
 memory reserved for dormant actors in map (128): 4608
 
-Total: 17920 bytes
+Total: 20774 bytes
 
 === Possibly unused animations ===
 elite_rifle_grenade_r
@@ -177,23 +178,22 @@ masterchief_top_plasmarifle_idle_l
 item_medkit
 
 === Codeblocks by compiled size ===
-handler_top: 1012
+handler_top: 976
 refresh_ui: 842
-pickup_weapon: 730
-ai_enemy: 672
-load_level: 594
-spawn_projectile: 540
+pickup_weapon: 768
+ai_enemy: 678
+load_level: 604
+spawn_projectile: 564
 startup: 492
-handler_standing: 422
+handler_standing: 432
+hitscan_loop: 416
+handler_ducking: 396
 set_yresolution: 390 (Unused?)
-handler_ducking: 386
-hitscan_loop: 374
 hit_projectile: 368
 charge_plasmapistol: 364
 ai_marine: 358
-pre_startup: 344
+pre_startup: 332
 freemem: 316
-play_level: 312
 flipscreen_smooth: 310 (Unused?)
 autogen_masterchief_top_grenade_l_1: 310
 autogen_masterchief_top_grenade_r_1: 310
@@ -202,6 +202,7 @@ do_teleport: 300
 hit_projectile_mc: 292
 reload_finish: 292
 flipxymove: 278 (Unused?)
+play_level: 272
 load_next_level: 268 (Unused?)
 hurt_mc: 248
 hit_melee_marine: 232
@@ -227,6 +228,7 @@ autogen_elite_rifle_grenade_l_1: 156
 autogen_elite_rifle_grenade_r_1: 156
 autogen_grunt_red_grenade_l_1: 156
 autogen_grunt_red_grenade_r_1: 156
+spawn_mc: 148
 flipxmove: 142 (Unused?)
 pause: 138 (Unused?)
 kill_new: 138
@@ -236,11 +238,11 @@ drop_plasmapistol: 136
 drop_plasmarifle: 136
 drop_rifle: 136
 load_panel: 134
+unload_level: 132
 stop_sfx: 130
 destroy_all_blocks: 128 (Unused?)
-spawn_mc: 128
+mc_fix_offset: 124
 collect_grenade: 122
-unload_level: 118
 randomize_offset: 118
 autogen_a_enemy_grenade_explosion_1: 116
 autogen_a_marine_grenade_explosion_1: 116
@@ -282,13 +284,11 @@ collect_health: 82
 reload_start: 78
 reset_mc_animation: 78
 fadeout: 76
-load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
-flipscreen: 72 (Unused?)
+flipscreen: 72
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
-load_music: 70
 autogen_masterchief_top_attack_plasmapistol_l_2: 70
 autogen_masterchief_top_attack_plasmapistol_r_2: 70
 jump_actor: 66 (Unused?)
@@ -297,6 +297,7 @@ waitforfiredown: 64
 waitforfireup: 62
 destroy_all_actors: 60 (Unused?)
 destroy_actor: 58
+load_music: 56
 freemem_hard: 54 (Unused?)
 destroy_block: 52 (Unused?)
 return: 52 (Unused?)

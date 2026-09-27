@@ -298,6 +298,5 @@
   "MDSoundDriver": "XGM",
   "SplashScreenFrames": 50,
   "TestLevel": "none",
-  "SafetyRails": true,
   "VDPColor": false
 }

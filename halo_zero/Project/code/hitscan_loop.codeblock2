@@ -26,6 +26,6 @@ Absolute DeltaX=Actor_X - HS_XOrigin
 If DeltaX < HS_BestDistance
     Set HS_BestDistance=DeltaX
     Set HS_Success=True
-    Set hs_yhit=-heights[actor_type] >> 1 + actor_y
+    Set hs_yhit=-actors_height[actor_type] >> 1 + actor_y
     ActorAsNew self
 End

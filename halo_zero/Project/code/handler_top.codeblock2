@@ -56,7 +56,7 @@ ElseIf Control1Fire
         
         If Weapon1Clip > 0
             Set PlasmaCharge=0
-            ActorAnimation mc_top_shoots[Weapon1] Frame=0 AutoFlip
+            ActorAnimation mc_top_shoot[Weapon1] Frame=0 AutoFlip
             Set Weapon1Clip=Weapon1Clip - 1
             If Weapon1 == Weapon_Rifle
                 GoSub fire_rifle

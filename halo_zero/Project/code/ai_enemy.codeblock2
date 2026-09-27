@@ -1,5 +1,4 @@
 Roll 16 MinSide=0
-Goto flipscreen
 If dice == 0
     //Charge
     If actor_isonplatform
@@ -24,17 +23,17 @@ Else
         Else
             ActorDirection look_right
         End
-        If hs_bestdistance < 64 and melee_anims[actor_type]
-            ActorAnimation melee_anims[actor_type] Frame=0 AutoFlip
+        If hs_bestdistance < 64 and actors_melee_anim[actor_type]
+            ActorAnimation actors_melee_anim[actor_type] Frame=0 AutoFlip
             Return
         End
-        If hs_bestdistance > 64 and grenade_anims[actor_type]
+        If hs_bestdistance > 64 and actors_grenade_anim[actor_type]
             Roll 16 MinSide=0
             If dice == 0 //Rarely throw grenade instead of shoot
-                ActorAnimation grenade_anims[actor_type] Frame=0 AutoFlip
+                ActorAnimation actors_grenade_anim[actor_type] Frame=0 AutoFlip
                 Return
             End
         End
-        ActorAnimation shoot_anims[actor_type] Frame=0 AutoFlip
+        ActorAnimation actors_shoot_anim[actor_type] Frame=0 AutoFlip
     End
 End
