@@ -1,0 +1,11 @@
+Key,height.w,shoot_anim.w,dead_anim.w,melee_anim.w,grenade_anim.w,melee_damage.w
+elite_rifle,75,elite_rifle_shoot_l,elite_rifle_die,elite_rifle_melee_l,elite_rifle_grenade_l,20
+grunt_yellow,44,grunt_yellow_shoot_l,grunt_yellow_die,false,grunt_yellow_grenade_l,false
+grunt_red,44,grunt_red_shoot_l,grunt_red_die,false,grunt_red_grenade_l,false
+jackal,50,jackal_shoot_l,jackal_die,false,false,false
+hunter,90,hunter_shoot_l,hunter_die,false,false,false
+marine_actor,63,,marine_die,,,
+masterchief_legs_duck,44,,,,,
+masterchief_legs_stand,88,,,,,
+masterchief_top,,,,,,40
+grenade_explosion,,,,,,80
